@@ -199,7 +199,7 @@ older build of the app.
 
 ## Consuming it
 
-The app maps `CatalogEntry` to `CleanTarget`, applying the app-side safety table
+The app maps `EasySweepCatalog.Entry` to `CleanTarget`, applying the app-side safety table
 by `id`. The catalog is a Swift package so others can `import` it, but this app
 pins an exact tag — the pin is the review gate, and bumping it is a deliberate
 act, not a resolution side effect.

@@ -4,18 +4,18 @@ import Foundation
 ///
 /// Data only. What may be deleted without asking, and what needs a tool rather
 /// than the filesystem, are decisions for the app consuming this — see
-/// `CatalogEntry`.
+/// `Entry`.
 public enum EasySweepCatalog {
 
     /// Every entry, in category order.
-    public static let all: [CatalogEntry] = CatalogCategory.allCases.flatMap(entries(in:))
+    public static let all: [Entry] = Category.allCases.flatMap(entries(in:))
 
     /// The entries for one section.
     ///
     /// Decoded **per entry**, skipping any that fail. One malformed record in a
     /// newer catalog must not blank an entire section in an older build; a
     /// missing row is a bug, an empty section looks like "nothing to clean".
-    public static func entries(in category: CatalogCategory) -> [CatalogEntry] {
+    public static func entries(in category: Category) -> [Entry] {
         guard let url = resourceBundle.url(
             forResource: category.rawValue,
             withExtension: "json",
@@ -51,10 +51,10 @@ public enum EasySweepCatalog {
 
     /// A decoded entry, or nothing if that one record was unreadable.
     private struct SkippingFailures: Decodable {
-        let entry: CatalogEntry?
+        let entry: Entry?
 
         init(from decoder: any Decoder) throws {
-            entry = try? CatalogEntry(from: decoder)
+            entry = try? Entry(from: decoder)
         }
     }
 }

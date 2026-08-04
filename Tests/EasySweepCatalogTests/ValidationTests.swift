@@ -20,7 +20,8 @@ struct CatalogValidationTests {
     let entries = EasySweepCatalog.all
 
     @Test func everyCategoryLoads() {
-        for category in CatalogCategory.allCases {
+        // Qualified: bare `Category` resolves to Darwin's own C typealias.
+        for category in EasySweepCatalog.Category.allCases {
             #expect(!EasySweepCatalog.entries(in: category).isEmpty, "\(category.rawValue) is empty")
         }
         #expect(entries.count >= 40)
