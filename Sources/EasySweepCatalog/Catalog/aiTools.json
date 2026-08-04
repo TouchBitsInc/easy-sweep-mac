@@ -1,0 +1,99 @@
+[
+  {
+    "id": "npm-cache",
+    "name": "npm & npx Cache",
+    "detail": "Package tarballs and one-off npx installs. npm re-downloads as needed.",
+    "paths": [
+      "~/.npm/_cacache",
+      "~/.npm/_npx"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#CB3837"
+  },
+  {
+    "id": "xdg-cache",
+    "name": "Shared Tool Cache",
+    "detail": "~/.cache, shared by many CLI tools. Regenerable, but cleaning it can  interrupt a CLI session that is running right now.",
+    "paths": [
+      "~/.cache"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "tray.full.fill"
+  },
+  {
+    "id": "claude-caches",
+    "name": "Claude Code Caches",
+    "detail": "Caches, debug logs, shell snapshots and downloads. Settings and memory are  left untouched.",
+    "paths": [
+      "~/.claude/cache",
+      "~/.claude/debug",
+      "~/.claude/paste-cache",
+      "~/.claude/shell-snapshots",
+      "~/.claude/downloads"
+    ],
+    "risk": "safe",
+    "symbol": "sparkle",
+    "brandColor": "#D97757"
+  },
+  {
+    "id": "claude-cli-cache",
+    "name": "Claude Code npm Cache",
+    "detail": "The CLI's Node package cache. Refetched when the CLI next updates.",
+    "paths": [
+      "~/Library/Caches/claude-cli-nodejs"
+    ],
+    "risk": "safe",
+    "symbol": "sparkle",
+    "brandColor": "#D97757"
+  },
+  {
+    "id": "gemini-tmp",
+    "name": "Gemini CLI Temp",
+    "detail": "Scratch files written by the Gemini CLI.",
+    "paths": [
+      "~/.gemini/tmp"
+    ],
+    "risk": "safe",
+    "symbol": "sparkles",
+    "brandColor": "#8E75B2"
+  },
+  {
+    "id": "cursor-cache",
+    "name": "Cursor Cache",
+    "detail": "Cached extension and index data for the Cursor editor.",
+    "paths": [
+      "~/.cursor/extensions/.cache"
+    ],
+    "risk": "safe",
+    "symbol": "cursorarrow"
+  },
+  {
+    "id": "codex-sessions",
+    "name": "Codex Session History",
+    "detail": "Recorded Codex sessions and logs. Deleting these loses your past transcripts.",
+    "paths": [
+      "~/.codex/sessions",
+      "~/.codex/archived_sessions",
+      "~/.codex/log"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "text.book.closed.fill"
+  },
+  {
+    "id": "claude-projects",
+    "name": "Claude Code Session History",
+    "detail": "Per-project transcripts, backups, and the file history that powers  rewinding edits. Deleting these loses resume, search, and undo.",
+    "paths": [
+      "~/.claude/projects",
+      "~/.claude/backups",
+      "~/.claude/file-history"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "sparkle",
+    "brandColor": "#D97757"
+  }
+]

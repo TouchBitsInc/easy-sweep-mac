@@ -1,0 +1,158 @@
+[
+  {
+    "id": "derived-data",
+    "name": "Derived Data",
+    "detail": "Build intermediates, indexes and logs. Xcode rebuilds these on the next build.",
+    "paths": [
+      "~/Library/Developer/Xcode/DerivedData"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "hammer.fill"
+  },
+  {
+    "id": "ios-device-support",
+    "name": "iOS Device Support",
+    "detail": "Debug symbols copied from connected iPhones and iPads, one folder per OS build.",
+    "paths": [
+      "~/Library/Developer/Xcode/iOS DeviceSupport"
+    ],
+    "risk": "safe",
+    "granular": true
+  },
+  {
+    "id": "tvos-device-support",
+    "name": "tvOS Device Support",
+    "detail": "Debug symbols copied from connected Apple TVs, one folder per OS build.",
+    "paths": [
+      "~/Library/Developer/Xcode/tvOS DeviceSupport"
+    ],
+    "risk": "safe",
+    "granular": true
+  },
+  {
+    "id": "watchos-device-support",
+    "name": "watchOS Device Support",
+    "detail": "Debug symbols copied from paired Apple Watches, one folder per OS build.",
+    "paths": [
+      "~/Library/Developer/Xcode/watchOS DeviceSupport"
+    ],
+    "risk": "safe",
+    "granular": true
+  },
+  {
+    "id": "documentation",
+    "name": "Documentation Cache",
+    "detail": "Downloaded and indexed developer documentation. Re-fetched on demand.",
+    "paths": [
+      "~/Library/Developer/Xcode/DocumentationCache",
+      "~/Library/Developer/Xcode/DocumentationIndex"
+    ],
+    "risk": "safe",
+    "symbol": "book.closed.fill"
+  },
+  {
+    "id": "xcode-products-logs",
+    "name": "Products & Device Logs",
+    "detail": "Exported build products and crash logs pulled from devices.",
+    "paths": [
+      "~/Library/Developer/Xcode/Products",
+      "~/Library/Developer/Xcode/DeviceLogs"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "dvt-downloads",
+    "name": "Xcode Downloads",
+    "detail": "Leftover installers and components downloaded by older Xcode versions.",
+    "paths": [
+      "~/Library/Developer/DVTDownloads"
+    ],
+    "risk": "safe",
+    "symbol": "arrow.down.circle.fill"
+  },
+  {
+    "id": "xcodebuildmcp",
+    "name": "XcodeBuildMCP Data",
+    "detail": "Build artifacts and logs from the XcodeBuildMCP tooling.",
+    "paths": [
+      "~/Library/Developer/XcodeBuildMCP"
+    ],
+    "risk": "safe",
+    "symbol": "terminal.fill"
+  },
+  {
+    "id": "xcode-app-cache",
+    "name": "Xcode Application Cache",
+    "detail": "Xcode's own scratch cache, separate from Derived Data.",
+    "paths": [
+      "~/Library/Caches/com.apple.dt.Xcode"
+    ],
+    "risk": "safe",
+    "symbol": "externaldrive.fill"
+  },
+  {
+    "id": "coredevice-cache",
+    "name": "Device Connection Cache",
+    "detail": "Staged app bundles and symbols CoreDevice keeps when running on real  devices. Rebuilt on the next run.",
+    "paths": [
+      "~/Library/Containers/com.apple.CoreDevice.CoreDeviceService/Data/Library/Caches"
+    ],
+    "risk": "safe",
+    "symbol": "externaldrive.fill"
+  },
+  {
+    "id": "archives",
+    "name": "Archives",
+    "detail": "Distribution builds and their dSYMs. Without these you cannot symbolicate  crash reports from versions you already shipped.",
+    "paths": [
+      "~/Library/Developer/Xcode/Archives"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "archivebox.fill"
+  },
+  {
+    "id": "simulator-caches",
+    "name": "Simulator Caches",
+    "detail": "Shared CoreSimulator caches, including dyld and image caches. No devices are  removed.",
+    "paths": [
+      "~/Library/Developer/CoreSimulator/Caches"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "xctest-devices",
+    "name": "Test Simulator Clones",
+    "detail": "Simulator clones created by parallel testing. Usually stale, and often the  single largest item on this machine.",
+    "paths": [
+      "~/Library/Developer/XCTestDevices"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "square.on.square"
+  },
+  {
+    "id": "simulator-devices",
+    "name": "Simulator Devices",
+    "detail": "Your installed simulators, including any apps and data inside them.",
+    "paths": [
+      "~/Library/Developer/CoreSimulator/Devices"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "iphone"
+  },
+  {
+    "id": "playground-devices",
+    "name": "Playground Devices",
+    "detail": "Simulator instances backing Swift Playgrounds previews.",
+    "paths": [
+      "~/Library/Developer/XCPGDevices"
+    ],
+    "risk": "risky",
+    "symbol": "swift"
+  }
+]

@@ -1,0 +1,37 @@
+name: Validate catalog
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# The symbol check needs a real macOS to ask whether an SF Symbol exists, so
+# this cannot run on ubuntu — an unknown symbol renders as nothing at all in the
+# consuming app, with no placeholder to notice.
+jobs:
+  validate:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build
+        run: swift build
+
+      - name: Validate
+        run: swift test
+
+      - name: Check JSON formatting
+        # Contributors edit these by hand; keeping them canonically formatted
+        # means a diff shows the entry that changed rather than a reflow.
+        run: |
+          for file in Sources/EasySweepCatalog/Catalog/*.json; do
+            python3 -c "
+          import json, sys
+          path = sys.argv[1]
+          original = open(path).read()
+          formatted = json.dumps(json.load(open(path)), indent=2, ensure_ascii=False) + '\n'
+          if original != formatted:
+              print(f'::error file={path}::not canonically formatted — run: python3 -c \"import json;p=\'{path}\';d=json.load(open(p));open(p,\'w\').write(json.dumps(d,indent=2,ensure_ascii=False)+chr(10))\"')
+              sys.exit(1)
+          " "$file"
+          done

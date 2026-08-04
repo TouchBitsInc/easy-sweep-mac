@@ -1,0 +1,286 @@
+[
+  {
+    "id": "swiftpm-cache",
+    "name": "Swift Package Manager",
+    "detail": "Cloned package repositories and resolved artifacts. Re-fetched on the next  resolve.",
+    "paths": [
+      "~/Library/Caches/org.swift.swiftpm"
+    ],
+    "risk": "safe",
+    "symbol": "cube.box.fill",
+    "brandColor": "#F05138"
+  },
+  {
+    "id": "cocoapods",
+    "name": "CocoaPods Cache",
+    "detail": "Downloaded pod sources. Restored by the next `pod install`.",
+    "paths": [
+      "~/Library/Caches/CocoaPods"
+    ],
+    "risk": "safe",
+    "symbol": "cube.box.fill",
+    "brandColor": "#EE3322"
+  },
+  {
+    "id": "cocoapods-repos",
+    "name": "CocoaPods Spec Repos",
+    "detail": "Podspec repositories, including any private ones — those must be added  again by hand with `pod repo add`.",
+    "paths": [
+      "~/.cocoapods/repos"
+    ],
+    "risk": "risky",
+    "symbol": "cube.box.fill",
+    "brandColor": "#EE3322"
+  },
+  {
+    "id": "carthage",
+    "name": "Carthage",
+    "detail": "Cloned dependencies and prebuilt frameworks.",
+    "paths": [
+      "~/Library/Caches/org.carthage.CarthageKit"
+    ],
+    "risk": "safe",
+    "symbol": "cube.box.fill"
+  },
+  {
+    "id": "homebrew",
+    "name": "Homebrew",
+    "detail": "Downloaded bottles and casks. Homebrew refetches whatever it needs.",
+    "paths": [
+      "~/Library/Caches/Homebrew"
+    ],
+    "risk": "safe",
+    "symbol": "mug.fill",
+    "brandColor": "#FBB040"
+  },
+  {
+    "id": "gradle",
+    "name": "Gradle",
+    "detail": "Dependency cache, daemon logs and downloaded Gradle distributions.",
+    "paths": [
+      "~/.gradle/caches",
+      "~/.gradle/daemon",
+      "~/.gradle/wrapper"
+    ],
+    "risk": "safe",
+    "symbol": "cube.fill",
+    "brandColor": "#02303A"
+  },
+  {
+    "id": "android",
+    "name": "Android SDK",
+    "detail": "Build and IDE caches. Emulator images in ~/.android/avd are left alone.",
+    "paths": [
+      "~/.android/cache",
+      "~/.android/build-cache"
+    ],
+    "risk": "safe",
+    "symbol": "cube.fill",
+    "brandColor": "#3DDC84"
+  },
+  {
+    "id": "android-studio-cache",
+    "name": "Android Studio",
+    "detail": "Android Studio's caches and indexes. Rebuilt when the IDE next opens a project.",
+    "paths": [
+      "~/Library/Caches/Google/AndroidStudio*"
+    ],
+    "risk": "safe",
+    "symbol": "cube.fill",
+    "brandColor": "#3DDC84"
+  },
+  {
+    "id": "jetbrains",
+    "name": "JetBrains IDEs",
+    "detail": "Indexes and caches for IntelliJ, WebStorm, PyCharm and the rest. Settings  live elsewhere and are untouched.",
+    "paths": [
+      "~/Library/Caches/JetBrains"
+    ],
+    "risk": "safe",
+    "symbol": "chevron.left.forwardslash.chevron.right"
+  },
+  {
+    "id": "vscode",
+    "name": "VS Code",
+    "detail": "Cached data and downloaded extension installers. Workspace state and  settings are untouched.",
+    "paths": [
+      "~/Library/Application Support/Code/Cache",
+      "~/Library/Application Support/Code/CachedData",
+      "~/Library/Application Support/Code/CachedExtensionVSIXs"
+    ],
+    "risk": "safe",
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "brandColor": "#007ACC"
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn",
+    "detail": "Package cache. Yarn re-downloads whatever a project needs.",
+    "paths": [
+      "~/Library/Caches/Yarn"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#2C8EBB"
+  },
+  {
+    "id": "pnpm",
+    "name": "pnpm",
+    "detail": "Content-addressable package store. Restored by pnpm install.",
+    "paths": [
+      "~/Library/pnpm/store"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#F69220"
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "detail": "Prebuilt Electron binaries downloaded by app builds.",
+    "paths": [
+      "~/Library/Caches/electron"
+    ],
+    "risk": "safe",
+    "symbol": "atom",
+    "brandColor": "#47848F"
+  },
+  {
+    "id": "pip",
+    "name": "Python pip",
+    "detail": "Downloaded wheels and source archives.",
+    "paths": [
+      "~/Library/Caches/pip"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#3776AB"
+  },
+  {
+    "id": "cargo",
+    "name": "Rust Cargo",
+    "detail": "Crate registry cache and sources. Installed binaries in ~/.cargo/bin are  left alone.",
+    "paths": [
+      "~/.cargo/registry"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "go-build",
+    "name": "Go Build Cache",
+    "detail": "Compiled package objects. Rebuilt on the next build.",
+    "paths": [
+      "~/Library/Caches/go-build"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#00ADD8"
+  },
+  {
+    "id": "maven",
+    "name": "Maven",
+    "detail": "The local artifact repository, re-downloaded on the next build.",
+    "paths": [
+      "~/.m2/repository"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#C71A36"
+  },
+  {
+    "id": "nuget",
+    "name": "NuGet",
+    "detail": "Global package cache for .NET projects.",
+    "paths": [
+      "~/.nuget/packages"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#004880"
+  },
+  {
+    "id": "pub-cache",
+    "name": "Dart & Flutter Packages",
+    "detail": "The pub package cache, restored by `flutter pub get`.",
+    "paths": [
+      "~/.pub-cache"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill",
+    "brandColor": "#0175C2"
+  },
+  {
+    "id": "bun",
+    "name": "Bun",
+    "detail": "Downloaded packages for bun install. Refetched on the next install.",
+    "paths": [
+      "~/.bun/install/cache"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "deno",
+    "name": "Deno",
+    "detail": "Fetched remote modules and the compiled-module cache. Deno re-downloads  them when a script next runs.",
+    "paths": [
+      "~/Library/Caches/deno"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright Browsers",
+    "detail": "Downloaded Chromium, Firefox and WebKit builds. Large, and refetched by  playwright install.",
+    "paths": [
+      "~/Library/Caches/ms-playwright"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "composer",
+    "name": "Composer",
+    "detail": "PHP package and repository cache.",
+    "paths": [
+      "~/.composer/cache"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "composer-library",
+    "name": "Composer (Library)",
+    "detail": "Composer's cache in its newer location. Same contents, refetched on install.",
+    "paths": [
+      "~/Library/Caches/composer"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "nvm",
+    "name": "nvm Downloads",
+    "detail": "Node tarballs kept after install. The installed versions themselves are  left alone.",
+    "paths": [
+      "~/.nvm/.cache"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "sdkman",
+    "name": "SDKMAN Archives",
+    "detail": "Downloaded JDK and tool archives. The unpacked versions are left alone.",
+    "paths": [
+      "~/.sdkman/archives",
+      "~/.sdkman/tmp"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "detail": "Auto-installed type definitions for editors.",
+    "paths": [
+      "~/Library/Caches/typescript"
+    ],
+    "risk": "safe"
+  }
+]
