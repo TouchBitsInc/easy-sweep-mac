@@ -16,13 +16,10 @@ public enum EasySweepCatalog {
     /// newer catalog must not blank an entire section in an older build; a
     /// missing row is a bug, an empty section looks like "nothing to clean".
     public static func entries(in category: Category) -> [Entry] {
-        guard let url = resourceBundle.url(
+        guard let url = Bundle.module.url(
             forResource: category.rawValue,
             withExtension: "json",
             subdirectory: "Catalog"
-        ) ?? resourceBundle.url(
-            forResource: category.rawValue,
-            withExtension: "json"
         ), let data = try? Data(contentsOf: url) else {
             return []
         }
@@ -32,21 +29,6 @@ public enum EasySweepCatalog {
             return []
         }
         return raw.compactMap(\.entry)
-    }
-
-    /// Where the JSON lives.
-    ///
-    /// These sources are built two ways. Built by SwiftPM they are a package
-    /// and the JSON is a bundled resource. Vendored into an app — copied in
-    /// wholesale, so the app takes a reviewed snapshot rather than resolving a
-    /// dependency at build time — there is no module bundle and the files sit
-    /// in the app's own. `SWIFT_PACKAGE` is defined only in the first case.
-    static var resourceBundle: Bundle {
-        #if SWIFT_PACKAGE
-        return .module
-        #else
-        return .main
-        #endif
     }
 
     /// A decoded entry, or nothing if that one record was unreadable.

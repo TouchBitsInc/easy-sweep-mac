@@ -20,8 +20,8 @@ EasySweepCatalog.entries(in: .devTools)
 
 The catalog is public because this is the part worth contributing to. Cache
 locations are long-tail knowledge — someone running Nix or Unity knows their
-paths better than we do. The app vendors a reviewed snapshot of whatever is
-merged here.
+paths better than we do. The app resolves this package at an exact version,
+so whatever is merged here reaches it when someone bumps that version.
 
 ## Adding a tool
 

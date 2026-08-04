@@ -30,10 +30,10 @@ Two consequences:
 
 - Pull requests require a link to upstream documentation showing the path is a
   cache and how it regenerates. A path with no citation is not mergeable.
-- The app ships a **reviewed snapshot**, pinned by tag. It must never fetch the
-  catalog at runtime. A remote file naming deletion paths is a supply-chain
-  target, and `PathGuard` would be the only thing left between a merged typo and
-  someone's home directory.
+- The app depends on this package **pinned to an exact version**, and must never
+  fetch the catalog at runtime. A remote file naming deletion paths is a
+  supply-chain target, and `PathGuard` would be the only thing left between a
+  merged typo and someone's home directory.
 
 ## Schema
 
