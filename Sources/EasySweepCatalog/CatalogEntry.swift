@@ -105,7 +105,14 @@ extension CatalogEntry {
         Set(paths.compactMap(Self.grantRoot(of:)))
     }
 
-    static func grantRoot(of path: String) -> String? {
+    /// The one folder a sandboxed app would have to be granted to reach `path`.
+    ///
+    /// Public because a consumer needs it for paths that aren't in the catalog
+    /// — ones the user picked, or ones a test builds by hand — and answering it
+    /// the same way as the catalog does is the whole point. It reads the
+    /// pattern only, never the disk, which is why a wildcard may not appear in
+    /// the first two segments.
+    public static func grantRoot(of path: String) -> String? {
         let parts = path.hasPrefix("~/")
             ? path.dropFirst(2).split(separator: "/").map(String.init)
             : []
