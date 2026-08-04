@@ -1,28 +1,5 @@
 [
   {
-    "id": "npm-cache",
-    "name": "npm & npx Cache",
-    "detail": "Package tarballs and one-off npx installs. npm re-downloads as needed.",
-    "paths": [
-      "~/.npm/_cacache",
-      "~/.npm/_npx"
-    ],
-    "risk": "safe",
-    "symbol": "shippingbox.fill",
-    "brandColor": "#CB3837"
-  },
-  {
-    "id": "xdg-cache",
-    "name": "Shared Tool Cache",
-    "detail": "~/.cache, shared by many CLI tools. Regenerable, but cleaning it can  interrupt a CLI session that is running right now.",
-    "paths": [
-      "~/.cache"
-    ],
-    "risk": "safe",
-    "granular": true,
-    "symbol": "tray.full.fill"
-  },
-  {
     "id": "claude-caches",
     "name": "Claude Code Caches",
     "detail": "Caches, debug logs, shell snapshots and downloads. Settings and memory are  left untouched.",
