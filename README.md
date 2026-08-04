@@ -1,6 +1,8 @@
-# EasySweepCatalog
+# Easy Sweep
 
-A curated list of the caches that developer tools leave on macOS — where they
+The public home of [Easy Sweep](https://easysweep.app), a macOS disk cleaner.
+The app itself is closed source. What lives here is `EasySweepCatalog`: a
+curated list of the caches that developer tools leave on macOS — where they
 are, what they hold, and whether losing them costs anything.
 
 Data, not a cleaner. This package tells you *where* things are; it deletes
@@ -16,10 +18,10 @@ for entry in EasySweepCatalog.all {
 EasySweepCatalog.entries(in: .devTools)
 ```
 
-It backs [Easy Sweep](https://easysweep.app), a macOS disk cleaner, and is
-published separately because this is the part worth contributing to.
-Cache locations are long-tail knowledge — someone running Nix or Unity knows
-their paths better than we do.
+The catalog is public because this is the part worth contributing to. Cache
+locations are long-tail knowledge — someone running Nix or Unity knows their
+paths better than we do. The app vendors a reviewed snapshot of whatever is
+merged here.
 
 ## Adding a tool
 
