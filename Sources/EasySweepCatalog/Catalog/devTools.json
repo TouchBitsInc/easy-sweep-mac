@@ -305,5 +305,26 @@
     "risk": "safe",
     "granular": true,
     "symbol": "tray.full.fill"
+  },
+  {
+    "id": "node-gyp",
+    "name": "node-gyp Headers",
+    "detail": "Node headers and libraries kept per version for building native modules. Redownloaded on the next native build.",
+    "paths": [
+      "~/Library/Caches/node-gyp"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "hammer.fill",
+    "brandColor": "#539E43"
+  },
+  {
+    "id": "playwright-go",
+    "name": "Playwright Browsers (Go)",
+    "detail": "Browser builds downloaded by the Go port of Playwright, kept separately from the Node one. Refetched on the next install.",
+    "paths": [
+      "~/Library/Caches/ms-playwright-go"
+    ],
+    "risk": "safe"
   }
 ]

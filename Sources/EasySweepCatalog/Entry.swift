@@ -13,6 +13,7 @@ extension EasySweepCatalog {
         case developer
         case devTools
         case aiTools
+        case browsers
     }
 
     /// How much a user stands to lose by cleaning an entry.

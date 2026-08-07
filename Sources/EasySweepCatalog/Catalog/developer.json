@@ -154,5 +154,15 @@
     ],
     "risk": "risky",
     "symbol": "swift"
+  },
+  {
+    "id": "xcode-system-resources",
+    "name": "Xcode System Resources",
+    "detail": "Installer packages Xcode downloads per OS build. One folder per build, so old ones pile up after every update; Xcode refetches what it needs.",
+    "paths": [
+      "~/Library/Developer/Packages"
+    ],
+    "risk": "safe",
+    "granular": true
   }
 ]

@@ -72,5 +72,44 @@
     "granular": true,
     "symbol": "sparkle",
     "brandColor": "#D97757"
+  },
+  {
+    "id": "codeium-browser",
+    "name": "Windsurf Browser Downloads",
+    "detail": "Chromium builds the Codeium and Windsurf tooling downloads for its browser features. Refetched when next needed.",
+    "paths": [
+      "~/.codeium/ws-browser"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "codex-app-cache",
+    "name": "Codex App Cache",
+    "detail": "Rendering and network cache for the Codex desktop app. Rebuilt as you use it; your sessions live elsewhere and are untouched.",
+    "paths": [
+      "~/Library/Caches/Codex"
+    ],
+    "risk": "safe"
+  },
+  {
+    "id": "ollama-models",
+    "name": "Ollama Models",
+    "detail": "Language models you pulled with Ollama. Removing them frees the most space of anything here, and each one has to be downloaded again with ollama pull — often several gigabytes apiece, so only clear models you've finished with.",
+    "paths": [
+      "~/.ollama/models"
+    ],
+    "risk": "risky",
+    "granular": false,
+    "symbol": "brain"
+  },
+  {
+    "id": "lmstudio-backends",
+    "name": "LM Studio Runtimes",
+    "detail": "Inference engines LM Studio downloads to run models — llama.cpp, MLX and similar. Refetched automatically the next time a model needs one, but that is a multi-gigabyte download.",
+    "paths": [
+      "~/.lmstudio/extensions/backends"
+    ],
+    "risk": "risky",
+    "symbol": "shippingbox.fill"
   }
 ]

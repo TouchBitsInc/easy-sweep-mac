@@ -1,0 +1,67 @@
+[
+  {
+    "id": "chrome-cache",
+    "name": "Google Chrome",
+    "detail": "Pages, images and scripts Chrome keeps to load sites faster. Rebuilt as you browse; your history, passwords and open tabs are somewhere else and are untouched.",
+    "paths": [
+      "~/Library/Caches/Google/Chrome"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#4285F4"
+  },
+  {
+    "id": "safari-cache",
+    "name": "Safari",
+    "detail": "Safari's page cache. Rebuilt as you browse, and separate from your history and saved passwords.",
+    "paths": [
+      "~/Library/Caches/com.apple.Safari"
+    ],
+    "risk": "safe",
+    "symbol": "safari",
+    "brandColor": "#0FB5EE"
+  },
+  {
+    "id": "firefox-cache",
+    "name": "Firefox",
+    "detail": "Firefox's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "paths": [
+      "~/Library/Caches/Firefox"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#FF7139"
+  },
+  {
+    "id": "edge-cache",
+    "name": "Microsoft Edge",
+    "detail": "Edge's page cache. Rebuilt as you browse, and separate from your profile data.",
+    "paths": [
+      "~/Library/Caches/Microsoft Edge"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#0078D7"
+  },
+  {
+    "id": "brave-cache",
+    "name": "Brave",
+    "detail": "Brave's page cache. Rebuilt as you browse, and separate from your profile data.",
+    "paths": [
+      "~/Library/Caches/BraveSoftware"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#FB542B"
+  },
+  {
+    "id": "arc-cache",
+    "name": "Arc",
+    "detail": "Arc's page cache. Rebuilt as you browse, and separate from your spaces and tabs.",
+    "paths": [
+      "~/Library/Caches/company.thebrowser.Browser"
+    ],
+    "risk": "safe",
+    "symbol": "globe"
+  }
+]
