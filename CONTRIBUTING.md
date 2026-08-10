@@ -37,7 +37,7 @@ Two consequences:
 
 ## Schema
 
-One file per category — `developer.json`, `devtools.json`, `aitools.json`.
+One file per category — `developer.json`, `aiTools.json`, `browsers.json`.
 
 ```json
 {
@@ -147,11 +147,11 @@ across the current catalog:
 
 | Category | Distinct roots |
 |---|---|
-| `developer` | 2 |
-| `devTools` | 14 |
-| `aiTools` | 7 |
+| `developer` | 18 |
+| `aiTools` | 8 |
+| `browsers` | 1 |
 
-Twenty-three in total. Making each section one folder would mean twenty-three
+Twenty-five in total. Making each section one folder would mean twenty-five
 sections, most of them holding a single row, so the sections stay as they are and
 the **sandboxed build ships a subset instead**:
 

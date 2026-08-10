@@ -15,7 +15,7 @@ for entry in EasySweepCatalog.all {
     print(entry.name, entry.paths)   // "Homebrew" ["~/Library/Caches/Homebrew"]
 }
 
-EasySweepCatalog.entries(in: .devTools)
+EasySweepCatalog.entries(in: .developer)
 ```
 
 The catalog is public because this is the part worth contributing to. Cache

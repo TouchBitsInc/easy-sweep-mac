@@ -7,11 +7,10 @@ extension EasySweepCatalog {
 
     /// Which section an entry appears under.
     ///
-    /// A reading order, not a permission boundary — the three sections span 23
+    /// A reading order, not a permission boundary — the three sections span 25
     /// grant roots between them. See `Entry.grantRoots`.
     public enum Category: String, Codable, CaseIterable, Sendable {
         case developer
-        case devTools
         case aiTools
         case browsers
     }
