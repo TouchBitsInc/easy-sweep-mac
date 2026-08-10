@@ -2,8 +2,9 @@
 
 The public home of [Easy Sweep](https://easysweep.app), a macOS disk cleaner.
 The app itself is closed source. What lives here is `EasySweepCatalog`: a
-curated list of the caches that developer tools leave on macOS — where they
-are, what they hold, and whether losing them costs anything.
+curated list of the caches that developer tools, AI CLIs and creative apps
+leave on macOS — where they are, what they hold, and whether losing them costs
+anything.
 
 Data, not a cleaner. This package tells you *where* things are; it deletes
 nothing and asks for no permissions.

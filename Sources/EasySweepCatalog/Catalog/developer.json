@@ -492,5 +492,85 @@
       "~/Library/Caches/ms-playwright-go"
     ],
     "risk": "safe"
+  },
+  {
+    "id": "rustup-toolchains",
+    "name": "Rust Toolchains (rustup)",
+    "detail": "Full compiler and standard library copies for each Rust toolchain rustup installed. Reinstalled with rustup toolchain install, though the download isn't instant.",
+    "paths": [
+      "~/.rustup/toolchains"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "ccache",
+    "name": "ccache",
+    "detail": "Cached compiler object files, keyed by source and flags. Rebuilt automatically on the next cache miss.",
+    "paths": [
+      "~/Library/Caches/ccache"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "sccache",
+    "name": "sccache",
+    "detail": "Mozilla's shared compiler cache for Rust and C/C++ builds. Rebuilt automatically as you compile.",
+    "paths": [
+      "~/Library/Caches/Mozilla.sccache"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "poetry-cache",
+    "name": "Poetry Cache",
+    "detail": "Downloaded package artifacts and virtual environments Poetry keeps between installs. Refetched and rebuilt on the next poetry install.",
+    "paths": [
+      "~/Library/Caches/pypoetry"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "uv-cache",
+    "name": "uv Cache",
+    "detail": "Downloaded wheels and sources the uv package manager keeps for reuse across projects. Refetched on the next install.",
+    "paths": [
+      "~/Library/Caches/uv"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "vagrant-boxes",
+    "name": "Vagrant Boxes",
+    "detail": "Downloaded base VM images added with vagrant box add. Re-downloaded the next time a Vagrantfile needs one.",
+    "paths": [
+      "~/.vagrant.d/boxes"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "sbt-ivy-cache",
+    "name": "Ivy Cache (sbt/Scala)",
+    "detail": "Downloaded JARs and dependencies sbt resolves through Ivy. Refetched on the next build.",
+    "paths": [
+      "~/.ivy2/cache"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "expo-cache",
+    "name": "Expo CLI Cache",
+    "detail": "Cached simulator builds, native module downloads and templates the Expo CLI keeps between runs. Refetched as needed.",
+    "paths": [
+      "~/.expo"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
   }
 ]
