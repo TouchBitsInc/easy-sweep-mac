@@ -654,6 +654,24 @@ table.cmp col.c-free { background: rgba(32,136,247,.045); }
 }
 .callout strong { color: var(--text); }
 
+/* The global reset strips link colour and underline, which is right for nav and
+   cards but leaves a link in body copy indistinguishable from the text. */
+.callout a, .guard p a, .card p a, .ticks a, details.q .a a {
+  color: var(--blue-lit);
+  text-decoration: underline;
+  text-decoration-color: rgba(80,168,255,.4);
+  text-underline-offset: 2px;
+  transition: text-decoration-color .16s ease;
+}
+.callout a:hover, .guard p a:hover, .card p a:hover,
+.ticks a:hover, details.q .a a:hover { text-decoration-color: var(--blue-lit); }
+
+/* An invitation, not a warning — the default callout is amber for caution. */
+.callout--invite {
+  border-color: rgba(80,168,255,.28);
+  background: rgba(32,136,247,.06);
+}
+
 /* ---------- Pricing ---------- */
 
 .prices {
