@@ -31,8 +31,15 @@ cd web && python3 -m http.server 8080
 ## Deployment
 
 Cloudflare Pages builds from this repo with **no build command** and the build
-output directory set to `web`. Build watch paths are `web/*`, so commits to the
-catalogue do not trigger a redeploy.
+output directory set to `web`.
+
+**Leave build watch paths unset.** There is no build step, so a deploy costs
+seconds and skipping one saves nothing worth having. A watch path is an
+optimisation that fails silently in the worst possible way: commits land, nothing
+redeploys, and the live site quietly serves an old build with no error anywhere.
+That has already happened here once — the site served the first commit for six
+merges. If you do set one, note that a single `*` does not cross `/` in a glob,
+so `web/*` misses `web/css/styles.css`; use `web/**`.
 
 `_headers` and `_redirects` are read from the build output directory, which is
 why they live at the top of `web/`. They have no effect when previewing locally.
