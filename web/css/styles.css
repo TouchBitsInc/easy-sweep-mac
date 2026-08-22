@@ -334,13 +334,15 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 /* ---------- macOS window frame ---------- */
 
 .window {
-  border: 1px solid var(--border-lit);
+  border: 1px solid rgba(255,255,255,.10);
   border-radius: var(--r-lg);
   overflow: hidden;
   background: var(--surface);
   box-shadow: var(--shadow-lg);
 }
 
+/* Kept for any future image that has no chrome of its own. The app
+   screenshots include real traffic lights, so they use `.window` alone. */
 .window__bar {
   display: flex;
   align-items: center;
@@ -528,6 +530,29 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   transform: rotate(-45deg);
 }
 .ticks li strong { color: var(--text); font-weight: 600; }
+
+/* Used where the list stands alone rather than beside a screenshot. */
+.ticks--cols { grid-template-columns: 1fr 1fr; gap: 16px 44px; }
+
+/* Community: three routes in, side by side. */
+.routes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.route {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  background: linear-gradient(180deg, var(--surface), var(--bg-2));
+  transition: transform .22s ease, border-color .22s ease;
+}
+.route:hover { transform: translateY(-4px); border-color: var(--border-lit); }
+.route h3 { margin-bottom: 10px; }
+.route p { color: var(--text-dim); font-size: .96rem; flex: 1; }
+.route .btn { margin-top: 22px; }
 
 /* ---------- Editions comparison ---------- */
 
