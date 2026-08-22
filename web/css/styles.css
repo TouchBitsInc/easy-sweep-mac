@@ -765,7 +765,11 @@ details.q .a p + p { margin-top: 12px; }
   pointer-events: none;
 }
 .close-cta__in { position: relative; }
+.close-cta .lede { margin-top: 20px; }
 .close-cta .cta-row { justify-content: center; margin-top: 34px; }
+
+/* The 404 page leads with this section, so it needs no rule above it. */
+.close-cta--bare { border-top: 0; }
 
 /* ---------- Footer ---------- */
 
