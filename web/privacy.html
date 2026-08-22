@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Easy Sweep</title>
+<meta name="description" content="Easy Sweep collects no analytics and has no account. What it sends, when, and why — in plain language.">
+<link rel="canonical" href="https://easysweep.app/privacy.html">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="stylesheet" href="/css/styles.css">
+<meta name="theme-color" content="#07080b">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/">
+      <img src="/assets/icon-256.png" alt="" width="30" height="30">
+      <span>Easy Sweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="/#download">Download</a>
+  </div>
+</nav>
+
+<main class="doc">
+  <div class="wrap narrow">
+    <h1>Privacy Policy</h1>
+    <p class="doc__meta">Last updated 22 August 2026 · Applies to Easy Sweep for macOS, both editions</p>
+
+    <p><strong>Easy Sweep has no account, no analytics and no telemetry.</strong> It does
+    not track you, does not profile you, and does not report what it found on your
+    disk to anyone — including us. This page exists to say precisely what it
+    <em>does</em> do, because an app that deletes files should be specific about
+    this rather than reassuring.</p>
+
+    <h2>What stays on your Mac</h2>
+
+    <p>Everything Easy Sweep learns about your disk stays on your disk. Specifically:</p>
+
+    <ul>
+      <li><strong>Scan results.</strong> The folders found, their sizes and their contents are computed on your Mac, held in memory while the app runs, and never transmitted.</li>
+      <li><strong>What you cleaned.</strong> The statistics screen is built from a local record of your own cleans. It is not uploaded.</li>
+      <li><strong>Diagnostic logs.</strong> The app logs through the system logger (<code>os.Logger</code>), which writes to the standard macOS log on your Mac. Nothing is collected from it. No crash reporter or logging service is bundled.</li>
+      <li><strong>Your settings.</strong> Thresholds, sidebar arrangement and preferences live in local preferences.</li>
+    </ul>
+
+    <h2>What leaves your Mac, and when</h2>
+
+    <p>Easy Sweep makes network requests in exactly three situations, none of which
+    happen unless you choose the feature involved.</p>
+
+    <h3>1. Licence activation and validation — direct download only</h3>
+
+    <p>If you buy Easy Sweep Pro directly and enter a licence key, the app contacts
+    <a href="https://www.lemonsqueezy.com/privacy" rel="noopener">Lemon Squeezy</a>,
+    our payment and licensing provider, to activate and later revalidate that key.
+    Each request contains:</p>
+
+    <ul>
+      <li>the licence key you entered;</li>
+      <li>a machine identifier derived from your Mac&rsquo;s hardware UUID, so the licence can count how many Macs it is used on.</li>
+    </ul>
+
+    <p>That is all. No file paths, no scan results, no personal information the app
+    does not have. The machine identifier is not linked to any advertising or
+    tracking system; its only purpose is enforcing the three-Mac limit, which is
+    enforced by Lemon Squeezy&rsquo;s server, not by the app.</p>
+
+    <p>Your licence key is stored in the macOS Keychain, explicitly marked
+    <strong>not</strong> to sync to iCloud. A key that synced would silently activate
+    every Mac it reached, spending seats you did not choose to spend.</p>
+
+    <h3>2. In-app purchase — Mac App Store edition only</h3>
+
+    <p>The App Store edition sells Pro through Apple&rsquo;s StoreKit. The purchase and its
+    receipt are handled entirely by Apple; we never see your payment details, and
+    the app never contacts a server of ours about it. Apple&rsquo;s handling of that
+    transaction is governed by the
+    <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a>.</p>
+
+    <h3>3. iCloud sync of your Pro configuration</h3>
+
+    <p>If you use Custom Categories or Automation, the <em>definitions</em> you
+    create — a category&rsquo;s name, icon, colour and the folder paths you chose, and
+    your automation rules — are synced through Apple&rsquo;s iCloud key-value store so
+    they follow you between your own Macs. This travels between your devices and
+    Apple&rsquo;s servers under your own Apple Account. We have no access to it and no
+    server involved.</p>
+
+    <p>Folder <em>contents</em> are never synced — only the paths you named and the
+    rules you wrote. If you would rather nothing sync at all, sign out of iCloud
+    Drive for the app, or simply don&rsquo;t use those features; the free app makes no
+    network requests whatsoever.</p>
+
+    <h2>The free app makes no network requests at all</h2>
+
+    <p>Worth stating plainly: if you download Easy Sweep and never buy Pro, the app
+    does not contact the internet. There is no update ping, no licence check, no
+    analytics beacon and no first-run call home.</p>
+
+    <h2>What we never collect</h2>
+
+    <ul>
+      <li>Names, email addresses or identities — the app has no sign-up.</li>
+      <li>File names, folder paths or directory listings from your disk.</li>
+      <li>Which apps you have installed, or which ones you uninstalled.</li>
+      <li>IP-based location, device fingerprints or advertising identifiers.</li>
+      <li>Usage analytics of any kind — screens opened, buttons pressed, features used.</li>
+    </ul>
+
+    <p>There are no third-party SDKs for analytics, advertising, attribution or
+    crash reporting in either edition.</p>
+
+    <h2>Permissions the app asks for</h2>
+
+    <p>Easy Sweep asks for access to folders so it can measure and clean them. It
+    asks for nothing else — no contacts, calendar, camera, microphone, location or
+    network permissions beyond the requests described above.</p>
+
+    <ul>
+      <li><strong>Direct download.</strong> Not sandboxed. Some locations under <code>/Library</code> may require Full Disk Access, which macOS grants in System Settings and which you can revoke there at any time.</li>
+      <li><strong>Mac App Store edition.</strong> Sandboxed. It asks you to grant access to your home folder, once per section, through the standard macOS panel. The grant is stored as a security-scoped bookmark on your Mac and is used only for scanning and cleaning.</li>
+    </ul>
+
+    <p>A folder the app cannot read is always reported to you as a failure. It is
+    never silently shown as empty.</p>
+
+    <h2>Payments</h2>
+
+    <p>We never see or store your payment details. Direct purchases are processed by
+    Lemon Squeezy, which acts as merchant of record and holds whatever billing
+    information you give it under
+    <a href="https://www.lemonsqueezy.com/privacy" rel="noopener">its own privacy policy</a>.
+    App Store purchases are processed by Apple under Apple&rsquo;s.</p>
+
+    <h2>Children</h2>
+
+    <p>Easy Sweep is a developer utility and is not directed at children. It
+    collects no personal information from anyone, of any age.</p>
+
+    <h2>Your rights</h2>
+
+    <p>Because we hold no personal data about you, there is nothing for us to
+    export, correct or delete. If you want a direct purchase record erased, that
+    request goes to Lemon Squeezy, who holds it; we will help you reach them. To
+    remove everything the app keeps locally, delete the app and its data — Settings
+    includes a control that discards all stored categories, rules and preferences.</p>
+
+    <h2>Changes to this policy</h2>
+
+    <p>If this policy changes in a way that affects what the app sends, the change
+    will be described here with a new date, and the previous behaviour will not be
+    altered retroactively in a version you already have installed.</p>
+
+    <h2>Contact</h2>
+
+    <p>Questions about privacy, or anything else:
+    <a href="mailto:support@easysweep.app">support@easysweep.app</a>.</p>
+
+    <hr>
+
+    <p class="faint">Easy Sweep is published by TouchBits Inc. It is not affiliated
+    with Apple Inc. Xcode, Mac and the Mac App Store are trademarks of Apple Inc.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__base">
+      <span>&copy; 2026 TouchBits Inc. All rights reserved.</span>
+      <span>
+        <a href="/">Home</a> &nbsp;·&nbsp;
+        <a href="/support.html">Support</a> &nbsp;·&nbsp;
+        <a href="/terms.html">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>
