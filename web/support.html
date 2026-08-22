@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Easy Sweep</title>
+<meta name="description" content="Help with permissions, licences, simulators and the two editions of Easy Sweep for macOS.">
+<link rel="canonical" href="https://easysweep.app/support.html">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="stylesheet" href="/css/styles.css">
+<meta name="theme-color" content="#07080b">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/">
+      <img src="/assets/icon-256.png" alt="" width="30" height="30">
+      <span>Easy Sweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="/support.html">Support</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="/#download">Download</a>
+  </div>
+</nav>
+
+<main class="doc">
+  <div class="wrap narrow">
+    <h1>Support</h1>
+    <p class="doc__meta">
+      Email <a href="mailto:support@easysweep.app">support@easysweep.app</a> —
+      include your macOS version, which edition you have, and what the app said.
+    </p>
+
+    <h2 id="start">Getting started</h2>
+
+    <p>Open Easy Sweep and it begins measuring. On a machine with a lot of build
+    output the first scan can take a few minutes — walking a hundred gigabytes of
+    small files is genuinely slow, and every size shown is measured rather than
+    estimated. Each section has its own rescan button, so you never have to re-walk
+    everything to refresh one part.</p>
+
+    <p><strong>Nothing is selected when a scan finishes.</strong> Look first. Tick
+    what you want gone, and use that section&rsquo;s Clean button — each section cleans
+    only its own selection.</p>
+
+    <h2 id="permissions">Permissions</h2>
+
+    <h3>Direct download (the DMG)</h3>
+
+    <p>This edition is not sandboxed and reaches everything in your home folder
+    without asking. A few catalogued locations sit under <code>/Library</code>, which
+    macOS protects; if one of those is refused, the app tells you so and points you
+    at Full Disk Access.</p>
+
+    <p>To grant it: <strong>System Settings → Privacy &amp; Security → Full Disk
+    Access</strong>, then switch on Easy Sweep and relaunch the app. This is optional —
+    everything under your home folder works without it.</p>
+
+    <h3>Mac App Store edition</h3>
+
+    <p>This edition is sandboxed, which is Apple&rsquo;s requirement rather than a choice.
+    A sandboxed app cannot read <code>~/Library/Developer</code> or <code>~/.npm</code>
+    unless you hand it access, so each section asks once for your home folder
+    through the standard macOS panel.</p>
+
+    <p>Two things to know about that panel:</p>
+
+    <ul>
+      <li><strong>It only accepts the folder it asked for.</strong> Everything else is greyed out. This is deliberate — the sandbox grants whatever you pick, not what was requested, so a panel that accepted the wrong folder would leave a section still asking for permission with no explanation.</li>
+      <li><strong>Hidden files are shown.</strong> <code>~/Library</code> and every dot-folder are hidden by default in macOS, and those are exactly what is being asked for.</li>
+    </ul>
+
+    <p>Once granted, the app re-measures everything the grant reaches.</p>
+
+    <h2 id="issues">Common problems</h2>
+
+    <h3>A section says there&rsquo;s nothing to clean, but I know there is</h3>
+
+    <p>Almost always a permission issue. On the App Store edition, check the section
+    hasn&rsquo;t got an outstanding folder request. On the direct download, try Full Disk
+    Access as above. An unreadable folder is reported as a failure rather than as an
+    empty one, so look for a failure message — if you see one, that&rsquo;s the cause.</p>
+
+    <h3>It couldn&rsquo;t remove the app itself when uninstalling</h3>
+
+    <p>Expected on the Mac App Store edition. A sandboxed app is not permitted to
+    delete another application&rsquo;s bundle. Easy Sweep removes everything that app left
+    behind and tells you the bundle is yours to drag to the Trash. The direct
+    download does not have this restriction.</p>
+
+    <h3>Where did my uninstalled files go?</h3>
+
+    <p>The Trash. Uninstalls always move rather than delete, because matching an
+    app&rsquo;s leftover files is partly guesswork and a guess has to be reversible. That
+    is why the app reports &ldquo;moved <em>n</em> items to the Trash&rdquo; and never counts
+    them as space freed — the bytes come back when you empty it.</p>
+
+    <h3>A simulator I wanted is gone</h3>
+
+    <p>Simulators are only ever deleted if you tick them yourself. They appear in the
+    Developer section because they live inside Xcode&rsquo;s folder, but the menu bar
+    button, the low-space notification and every automation rule are structurally
+    unable to reach them. If you deleted them deliberately, Xcode can recreate
+    devices from <strong>Window → Devices and Simulators</strong>; installed apps and
+    their data are not recoverable.</p>
+
+    <h3>Cleaning is stuck on one item</h3>
+
+    <p>Large simulator device sets take a while, since they are deleted through
+    Apple&rsquo;s <code>simctl</code> rather than by removing folders. The progress bar names
+    the item currently going. Every child process the app starts is bounded by a
+    timeout, so a genuinely hung tool becomes a readable failure rather than an
+    endless spinner. Pressing <strong>Stop</strong> ends the clean between items — never
+    inside one — so nothing is left half-deleted.</p>
+
+    <h3>My sidebar is missing a section</h3>
+
+    <p>Sections can be hidden by right-clicking them, which hides the row and keeps
+    all of its data. Settings holds the full list with checkboxes, plus
+    <strong>Restore Default Arrangement</strong>. The sidebar arrangement is per-Mac and
+    is not synced.</p>
+
+    <h2 id="licence">Licences and purchases</h2>
+
+    <h3>Direct purchase</h3>
+
+    <p>A direct licence covers <strong>3 Macs</strong>. Enter your key in
+    <strong>Settings → Licence</strong>. To move it to a different Mac, deactivate it on
+    the old one from the same screen, which frees the seat.</p>
+
+    <p>If a licence check fails — you&rsquo;re offline, the server is slow, anything of
+    that sort — nothing happens to your entitlement. It is only ever revoked on an
+    explicit answer that the licence has been disabled, expired, or is not
+    recognised. Being on a plane will not lock you out of a feature you paid for.</p>
+
+    <h3>App Store purchase</h3>
+
+    <p>Tied to your Apple Account with no device limit. If Pro doesn&rsquo;t appear on a
+    new Mac, use <strong>Restore Purchases</strong> in Settings.</p>
+
+    <h3>Lost your key?</h3>
+
+    <p>Email <a href="mailto:support@easysweep.app">support@easysweep.app</a> from the
+    address you bought with and we&rsquo;ll resend it.</p>
+
+    <h3 id="refunds">Refunds</h3>
+
+    <p><strong>Direct purchases:</strong> a full refund within 30 days, no reason
+    required — email us. Refunds are issued by Lemon Squeezy, our merchant of
+    record, and the licence is deactivated when one is processed.</p>
+
+    <p><strong>App Store purchases:</strong> refunds are handled by Apple, not by us.
+    Request one at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.
+    We have no ability to issue or refuse an App Store refund.</p>
+
+    <h3>If Pro lapses</h3>
+
+    <p>Nothing is deleted. Your custom categories and automation rules stay stored and
+    stay visible — they simply can&rsquo;t be added to, cleaned or run until the
+    entitlement is restored.</p>
+
+    <h2 id="safety">Before you clean something irreversible</h2>
+
+    <p>Most of what Easy Sweep finds regenerates itself; the only cost of deleting it
+    is the time to rebuild or re-download. Three things do not, and are marked in the
+    app:</p>
+
+    <ul>
+      <li><strong>Archives</strong> hold the dSYMs you need to read crash reports from versions you already shipped. Without them those crashes stay unreadable forever.</li>
+      <li><strong>Simulator devices</strong> take their installed apps and all of their data.</li>
+      <li><strong>AI session history</strong> (Claude Code, Codex) can no longer be resumed or searched.</li>
+    </ul>
+
+    <p>Like every tool of this kind, Easy Sweep depends on Xcode&rsquo;s undocumented
+    folder layout, which Apple can change at any time. Keep a backup.</p>
+
+    <h2 id="requirements">Requirements</h2>
+
+    <table>
+      <tr><th>macOS</th><td>14 Sonoma or later</td></tr>
+      <tr><th>Architecture</th><td>Apple silicon and Intel (universal)</td></tr>
+      <tr><th>Signing</th><td>Signed and notarized by Apple</td></tr>
+    </table>
+
+    <h2 id="contact">Contact</h2>
+
+    <p>Bug reports, feature requests, catalogue suggestions or anything else:
+    <a href="mailto:support@easysweep.app">support@easysweep.app</a>.</p>
+
+    <p>The catalogue of cleanable locations is
+    <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">published
+    publicly</a>, so you can read every path the app targets. If Easy Sweep is
+    missing a tool you use, that is the place to propose it — or just email us and
+    we&rsquo;ll add it.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__base">
+      <span>&copy; 2026 TouchBits Inc. All rights reserved.</span>
+      <span>
+        <a href="/">Home</a> &nbsp;·&nbsp;
+        <a href="/privacy.html">Privacy</a> &nbsp;·&nbsp;
+        <a href="/terms.html">Terms</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

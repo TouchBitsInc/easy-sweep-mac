@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://easysweep.app/sitemap.xml

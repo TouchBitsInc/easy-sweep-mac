@@ -1,0 +1,54 @@
+# Easy Sweep
+
+> A macOS menu bar app that reclaims disk space from Xcode, simulators, dev
+> toolchains and AI CLI caches, and uninstalls applications along with the files
+> they leave behind. macOS 14+. Free, with a one-time $9.99 Pro upgrade.
+
+Easy Sweep finds the disk space development tools quietly consume in folders
+Finder never shows — `~/Library/Developer`, package manager caches, AI CLI
+caches — and lets the user delete it selectively. Nothing is ever pre-selected.
+
+## Editions
+
+- **Direct download** (recommended): unsandboxed, notarized DMG. Reaches every
+  catalogued location without asking. Can remove an application bundle outright.
+  Pro sold as a licence key covering 3 Macs.
+- **Mac App Store**: the same app, sandboxed as Apple requires. Asks for home
+  folder access once per section, and usually cannot delete another app's
+  bundle — the user drags that to the Trash. Pro sold as an in-app purchase
+  tied to the Apple Account, with no device limit.
+
+## What it cleans
+
+Four sections: Developer (Xcode caches, Derived Data, Device Support, simulators,
+and 40+ package manager and toolchain caches), AI Tools (Claude Code, Codex,
+Cursor, Windsurf, Ollama models, LM Studio runtimes), Browsers (page and script
+caches only), and Creative (Adobe and Ableton working caches).
+
+Excluded on purpose: lockfiles, SDK installs, emulator images, editor workspace
+state, credentials, browser history and passwords. Those are not caches.
+
+## Safety properties
+
+- Nothing is pre-selected on any section.
+- Refuses to delete any folder containing its own bundle; symlinks are skipped.
+- Unreadable folders are reported as failures, never shown as empty.
+- Simulators are deleted through Apple's `simctl`, never by removing folders.
+- Sizes are allocated blocks, matching `du` — the space actually reclaimed.
+- Uninstalls move to the Trash, so a name match is always reversible.
+- The one-click clean can never reach simulators, archives or AI session history.
+
+## Privacy
+
+No analytics, no telemetry, no account. The free app makes no network requests
+at all. Pro optionally syncs category and rule definitions through iCloud, and a
+direct licence is validated against Lemon Squeezy. Scan results never leave the
+Mac.
+
+## Links
+
+- Home: https://easysweep.app/
+- Support: https://easysweep.app/support.html
+- Privacy: https://easysweep.app/privacy.html
+- Terms: https://easysweep.app/terms.html
+- Public catalogue of cleanable locations (MIT): https://github.com/TouchBitsInc/easy-sweep-mac
