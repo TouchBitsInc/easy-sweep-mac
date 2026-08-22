@@ -52,3 +52,4 @@ Mac.
 - Privacy: https://easysweep.app/privacy.html
 - Terms: https://easysweep.app/terms.html
 - Public catalogue of cleanable locations (MIT): https://github.com/TouchBitsInc/easy-sweep-mac
+- Report a bug or request a tool: https://github.com/TouchBitsInc/easy-sweep-mac/issues

@@ -34,6 +34,7 @@
       <a href="#uninstall">Uninstall</a>
       <a href="#editions">Editions</a>
       <a href="#safety">Safety</a>
+      <a href="#privacy">Privacy</a>
       <a href="#pricing">Pricing</a>
     </div>
     <a class="btn btn--primary btn--sm" href="#download">Download</a>
@@ -67,7 +68,7 @@
         Compare editions
       </a>
     </div>
-    <p class="hero__meta">Free to find and clean everything catalogued. Universal binary, notarized by Apple.</p>
+    <p class="hero__meta">Free · No account · Works entirely offline · Notarized by Apple</p>
   </div>
 
   <div class="wrap hero__shot reveal">
@@ -176,6 +177,16 @@
           disk figure in the sidebar — which is the question it answers.
         </p>
       </article>
+    </div>
+
+    <div class="callout callout--invite reveal">
+      <strong>Missing a tool you use?</strong> Every location Easy Sweep scans —
+      all four categories, every path — is defined in a public file you can read
+      before you install anything. Nothing it touches is hidden, and if something
+      you rely on isn&rsquo;t there yet,
+      <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">open a pull request</a> or
+      <a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">file an issue</a>. Contributions are welcome, and
+      adding a tool is one entry in one file.
     </div>
   </div>
 </section>
@@ -436,8 +447,57 @@
   </div>
 </section>
 
+<!-- ============ PRIVACY ============ -->
+<section class="band band--sunken" id="privacy">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Privacy</span>
+      <h2>No account, no tracking, nothing to send.</h2>
+      <p class="lede">
+        Most apps that clean your Mac want you to sign in first. Easy Sweep has no
+        sign-up, no analytics and nothing to opt out of &mdash; and the free app never
+        opens a network connection at all.
+      </p>
+    </div>
+
+    <div class="safety">
+      <div class="guard reveal">
+        <h3>No analytics, ever</h3>
+        <p>No telemetry, no usage reporting, no crash reporter, no advertising or attribution SDKs &mdash; none of it, in either edition. There is no account to create, so there is nothing to log in to and nothing to delete.</p>
+      </div>
+      <div class="guard reveal">
+        <h3>The free app works entirely offline</h3>
+        <p>Not an update ping, not a first-run call home, not a licence check. If you never buy Pro, Easy Sweep has no reason to open a connection &mdash; so it doesn&rsquo;t. Run it on a Mac that has never seen a network and nothing changes.</p>
+      </div>
+      <div class="guard reveal">
+        <h3>Nothing about your disk leaves it</h3>
+        <p>Which folders you have, what they contain, how big they are, which apps you installed or removed &mdash; all of it is worked out on your Mac and none of it is transmitted. Diagnostics go to the standard macOS log, on your Mac, where you can read them.</p>
+      </div>
+      <div class="guard reveal">
+        <h3>You can audit what it targets</h3>
+        <p>Every category it scans is <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">defined in public</a>, under the MIT licence. Each path is written down where you can read it before installing anything, and contributions are welcome &mdash; so the list is checkable rather than merely promised.</p>
+      </div>
+      <div class="guard reveal">
+        <h3>Your licence never syncs</h3>
+        <p>A direct licence key lives in the macOS Keychain, explicitly marked not to sync. A key that travelled through iCloud would quietly activate every Mac it reached, spending seats you never chose to spend.</p>
+      </div>
+      <div class="guard guard--warn reveal">
+        <h3>Pro&rsquo;s two connections, named</h3>
+        <p>Buying Pro directly adds a licence check, which sends the key and a machine identifier and nothing else. Using Custom Categories or Automation syncs those <em>definitions</em> &mdash; names, icons, the folder paths you chose &mdash; through your own iCloud account, never their contents. That is the complete list.</p>
+      </div>
+    </div>
+
+    <div class="callout reveal">
+      <strong>Said plainly:</strong> we have no server, no database and no record of
+      you. There is no privacy setting to find because there is nothing collected to
+      turn off. The <a href="/privacy.html">privacy policy</a> spells out every
+      request the app can make, and it is a short page.
+    </div>
+  </div>
+</section>
+
 <!-- ============ PRICING ============ -->
-<section class="band band--sunken" id="pricing">
+<section class="band" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Pricing</span>
@@ -484,7 +544,7 @@
 </section>
 
 <!-- ============ FAQ ============ -->
-<section class="band">
+<section class="band band--sunken">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Questions</span>
@@ -554,7 +614,12 @@
       <details class="q">
         <summary>Can I see exactly which folders it targets?</summary>
         <div class="a">
-          <p>Yes. The catalogue of cleanable locations is published publicly under the MIT licence, so you can read every path the app knows about before you install it, and propose additions. Nothing about which folders it targets is hidden.</p>
+          <p>Yes &mdash; all of them. Every category Easy Sweep scans is defined in a
+          <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">public repository</a> under the MIT licence, so you
+          can read every path it targets before you install it. Nothing is hidden.</p>
+          <p>It also means you can extend it: adding support for a tool is a single entry
+          in a single file, and contributions are welcome. If something you use is
+          missing, open a pull request &mdash; or just email us and we&rsquo;ll add it.</p>
         </div>
       </details>
 
@@ -608,6 +673,7 @@
         <h4>Support</h4>
         <ul>
           <li><a href="/support.html">Help &amp; contact</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Report an issue</a></li>
           <li><a href="/support.html#permissions">Permissions</a></li>
           <li><a href="/support.html#refunds">Refunds</a></li>
         </ul>
