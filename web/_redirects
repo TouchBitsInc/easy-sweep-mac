@@ -1,9 +1,6 @@
-# The download button's canonical path. Points at GitHub Releases so the .dmg
-# never lives in this repo — Cloudflare Pages caps single files at 25 MiB, and a
-# committed binary stays in git history forever.
-#
-# TODO(website): confirm the release host. See README.md — publishing app
-# releases on the Swift package repo adds tags to the namespace SPM resolves.
+# The download button's canonical path. Points at GitHub Releases rather than a
+# file in this repo: Pages caps single files at 25 MiB, and a committed binary
+# would stay in git history permanently.
 /download   https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg   302
 /dmg        https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg   302
 
