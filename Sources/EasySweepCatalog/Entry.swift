@@ -9,17 +9,51 @@ extension EasySweepCatalog {
     ///
     /// A reading order, not a permission boundary — the six sections span 30
     /// grant roots between them. See `Entry.grantRoots`.
+    ///
+    /// **The case order is the display order.** `allCases` is the sequence a
+    /// consumer shows its sections in, and this enum is the only place it is
+    /// published, so moving a case here moves the section.
     public enum Category: String, Codable, CaseIterable, Sendable {
+        /// macOS's own regenerable data, and the caches of apps that fit none of
+        /// the tool sections below. Deliberately one section rather than two: an
+        /// app's cache and the system's are the same kind of thing to a user
+        /// clearing space, and `risk` is what separates a wallpaper that
+        /// re-downloads from a chat cache holding received media.
+        ///
+        /// First, because it is the one section on every Mac. The rest describe
+        /// an installed toolchain.
+        case system
         case developer
         case aiTools
         case browsers
         case multimedia
-        /// macOS's own regenerable data, and the caches of apps that fit none of
-        /// the tool sections above. Deliberately one section rather than two: an
-        /// app's cache and the system's are the same kind of thing to a user
-        /// clearing space, and `risk` is what separates a wallpaper that
-        /// re-downloads from a chat cache holding received media.
-        case system
+
+        /// Whether the section leads the list and stays there.
+        ///
+        /// Pinned means every Mac has it, whatever is installed — so it is not a
+        /// section anyone opts out of, and a consumer should not offer to put it
+        /// away. Everything else describes installed tooling, which a given Mac
+        /// may have no use for.
+        ///
+        /// Published beside the order, and for the same reason: where a section
+        /// sits is a property of what the section *is*. It says nothing about
+        /// what may be deleted.
+        ///
+        /// Exhaustive on purpose. A section added later has to decide.
+        public var isPinned: Bool {
+            switch self {
+            case .system: true
+            case .developer, .aiTools, .browsers, .multimedia: false
+            }
+        }
+
+        /// The pinned sections, in order, and everything else in order.
+        ///
+        /// Two lists because the kinds are not interchangeable, and a consumer
+        /// laying out a sidebar needs them apart rather than filtered at each
+        /// use site.
+        public static let pinned: [Category] = allCases.filter(\.isPinned)
+        public static let unpinned: [Category] = allCases.filter { !$0.isPinned }
     }
 
     /// How much a user stands to lose by cleaning an entry.
