@@ -6,14 +6,20 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; form-action 'none'; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests
 
+# A year and `immutable` is only safe for content-hashed filenames. These names
+# are stable, so replacing a screenshot or the stylesheet could never reach anyone
+# who had already loaded the old one — the site served placeholder screenshots and
+# last week's CSS from cache while the origin had the real thing. There is no build
+# step here to hash names with, so the cache has to revalidate instead: an ETag
+# makes that a 304 in the common case, which costs almost nothing.
 /assets/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /css/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /js/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=3600, must-revalidate
 
 /*.html
   Cache-Control: public, max-age=0, must-revalidate

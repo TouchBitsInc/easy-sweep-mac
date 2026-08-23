@@ -44,6 +44,10 @@ so `web/*` misses `web/css/styles.css`; use `web/**`.
 `_headers` and `_redirects` are read from the build output directory, which is
 why they live at the top of `web/`. They have no effect when previewing locally.
 
+Asset filenames are **not** content-hashed, so `_headers` must never set
+`immutable` or a long `max-age` on them — a replaced screenshot would never reach
+anyone holding the old one. Caches revalidate against the ETag instead.
+
 Pages serves HTML **extensionless** and permanently redirects `/foo.html` to
 `/foo`. Link to `/support`, not `/support.html`, and never add a redirect pointing
 the other way — `/support -> /support.html` loops against that canonicalisation
