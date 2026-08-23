@@ -21,7 +21,7 @@
 <!-- The hero screenshot is this page's largest contentful paint; without a
      preload the browser only discovers it after the stylesheet resolves. -->
 <link rel="preload" as="image" href="/assets/shots/applications.jpg" fetchpriority="high">
-<meta name="theme-color" content="#07080b">
+<meta name="theme-color" content="#05070c">
 </head>
 <body>
 
@@ -46,17 +46,41 @@
 </nav>
 
 <!-- ============ HERO ============ -->
-<header class="hero hero--shot-first">
+<header class="hero">
   <div class="hero__glow"></div>
-  <div class="hero__grid"></div>
 
-  <div class="wrap hero__shot">
-    <div class="window">
-      <img src="/assets/shots/applications.jpg" alt="Easy Sweep's Applications section: 34.18 GB across 61 applications, with a capacity bar and a table of every installed app sorted by size." width="2820" height="1546">
-    </div>
-  </div>
+  <!-- The icon's wave, run across the page behind the screenshot. Decorative,
+       so it is hidden from assistive technology. -->
+  <svg class="hero__wave" viewBox="0 0 1440 620" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="w-blue" x1="0" y1="0" x2="1" y2=".3">
+        <stop offset="0" stop-color="#35dcf4" stop-opacity=".42"/>
+        <stop offset=".5" stop-color="#1f86f7" stop-opacity=".58"/>
+        <stop offset="1" stop-color="#0a3ce8" stop-opacity=".30"/>
+      </linearGradient>
+      <linearGradient id="w-deep" x1="0" y1="0" x2="1" y2=".3">
+        <stop offset="0" stop-color="#0a3ce8" stop-opacity=".46"/>
+        <stop offset=".6" stop-color="#1f86f7" stop-opacity=".38"/>
+        <stop offset="1" stop-color="#0a3ce8" stop-opacity=".22"/>
+      </linearGradient>
+      <linearGradient id="w-crest" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#7fe9ff" stop-opacity="0"/>
+        <stop offset=".42" stop-color="#9df0ff" stop-opacity=".7"/>
+        <stop offset="1" stop-color="#35dcf4" stop-opacity="0"/>
+      </linearGradient>
+      <!-- One curve, reused by both waves and by the closing section, so the
+           shape stays identical everywhere it appears. -->
+      <path id="w-band" d="M0 210C260 120 460 300 740 220 1010 143 1210 296 1440 200V272C1210 368 1010 215 740 292 460 372 260 192 0 282Z"/>
+      <path id="w-crest-line" d="M0 148C240 66 450 244 730 162 1000 83 1215 238 1440 146"/>
+    </defs>
+    <use href="#w-band" fill="url(#w-deep)" transform="translate(0 148)"/>
+    <use href="#w-band" fill="url(#w-blue)"/>
+    <use href="#w-crest-line" fill="none" stroke="url(#w-crest)" stroke-width="2.5"/>
+  </svg>
 
   <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/icon-256.png" alt="" width="88" height="88">
+
     <h1>Your Mac has more free space than it&nbsp;admits.</h1>
 
     <p class="lede">
@@ -76,6 +100,12 @@
       </a>
     </div>
     <p class="hero__meta">Free · No account · Works entirely offline · Notarized by Apple</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/applications.jpg" alt="Easy Sweep's Applications section: 34.18 GB across 61 applications, with a capacity bar and a table of every installed app sorted by size." width="2820" height="1546">
+    </div>
   </div>
 </header>
 
@@ -520,6 +550,10 @@
 
 <!-- ============ CLOSING CTA ============ -->
 <section class="close-cta">
+  <svg class="close-cta__wave" viewBox="0 0 1440 620" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <use href="#w-band" fill="url(#w-deep)" transform="translate(0 148)"/>
+    <use href="#w-band" fill="url(#w-blue)"/>
+  </svg>
   <div class="wrap close-cta__in">
     <h2>Find out what&rsquo;s actually on your disk.</h2>
     <p class="lede narrow">
