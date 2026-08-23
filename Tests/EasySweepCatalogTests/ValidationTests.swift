@@ -129,6 +129,15 @@ struct CatalogValidationTests {
             "Library/iTunes",
             // What apps reopen with; a folder of its own, not a cache.
             "Library/Saved Application State",
+            // Go's module cache, at the root of GOPATH.
+            "go",
+            // conda distributions keep their package cache inside the install.
+            "miniconda3",
+            "anaconda3",
+            "miniforge3",
+            "mambaforge",
+            // CapCut caches renders under the user's Movies folder.
+            "Movies",
         ]
         for entry in entries {
             for root in entry.grantRoots {

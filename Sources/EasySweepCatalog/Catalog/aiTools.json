@@ -111,5 +111,25 @@
     ],
     "risk": "risky",
     "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "codex-app-updates",
+    "name": "Codex Updater",
+    "detail": "Update packages the Codex app downloaded and has already installed. Fetched again only when the next update arrives.",
+    "paths": [
+      "~/Library/Caches/com.openai.codex"
+    ],
+    "risk": "safe",
+    "symbol": "arrow.down.circle"
+  },
+  {
+    "id": "lmstudio-models",
+    "name": "LM Studio Models",
+    "detail": "Model weights downloaded through LM Studio. Removing one frees gigabytes and means downloading it again before it can be run.",
+    "paths": [
+      "~/.lmstudio/models"
+    ],
+    "risk": "risky",
+    "symbol": "brain"
   }
 ]

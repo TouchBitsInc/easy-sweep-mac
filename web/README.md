@@ -1,6 +1,6 @@
 # easysweep.app
 
-The Easy Sweep website. Plain HTML and CSS — no build step, no dependencies,
+The EasySweep website. Plain HTML and CSS — no build step, no dependencies,
 nothing to install.
 
 ```
@@ -10,15 +10,15 @@ web/
   support.html                  help and contact
   404.html                      served on a miss
   css/styles.css                the whole design system, one file
-  js/main.js                    nav border, scroll reveal, FAQ behaviour
-  assets/                       icon, social card, screenshots
+  js/main.js                    nav border, scroll reveal
+  assets/                       icon, bird mark, social card, screenshots
   _headers _redirects           Cloudflare Pages configuration
   robots.txt sitemap.xml llms.txt
 ```
 
 Dark-only by design, so there is no second palette to keep in sync. Every colour
-is a token at the top of `styles.css`, lifted from the app icon — a glass wave
-running cyan through blue into a deep indigo. Accents carry an `-rgb` channel
+is a token at the top of `styles.css`, lifted from the app icon — a folded
+paper bird running teal through cyan and blue into a deep indigo. Accents carry an `-rgb` channel
 token beside the hex (`--blue` / `--blue-rgb`) so an `rgba()` never restates the
 colour; retuning the palette is one edit at the top of the file, not thirty
 scattered through it.
@@ -61,7 +61,15 @@ The `Content-Security-Policy` in `_headers` allows no inline styles or scripts.
 Keep CSS in `styles.css` and JavaScript in `main.js` — an inline `style`
 attribute is silently dropped in production while looking fine locally.
 
-## Two rules for this repo
+## Three rules for this repo
+
+**Raster only — no vector masters.** The bird is drawn as an SVG, but that
+source never enters this repo: an SVG is lossless and infinitely scalable, so
+committing it publishes the artwork itself rather than a rendering of it. Keep
+the master outside the repo and ship a raster of it — `assets/bird-384.png` is
+the bird alone on transparency, cropped to its bounding box, quantised, and
+sized for the 128px hero mark at 3x. Re-render it from the master when the mark
+changes; never add the `.svg` back to `web/assets`.
 
 **Keep images small, and prefer JPEG.** This repo is also a Swift package, and
 SwiftPM clones it in full — every ref, all history — to resolve a dependency. So
@@ -82,5 +90,5 @@ tag is ignored, which keeps the two sets of tags independent.
 ## Licence
 
 The MIT licence in this repository covers the catalogue sources. It does not
-extend to the Easy Sweep application, which is distributed under its own terms —
+extend to the EasySweep application, which is distributed under its own terms —
 see [terms](https://easysweep.app/terms).

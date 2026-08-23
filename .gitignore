@@ -2,3 +2,6 @@
 .swiftpm/
 .DS_Store
 Package.resolved
+
+# The bird's SVG master lives outside this repo — ship a raster, never the vector.
+web/assets/*.svg
