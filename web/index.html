@@ -518,67 +518,6 @@
   </div>
 </section>
 
-<!-- ============ FAQ ============ -->
-<section class="band band--sunken">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Questions</span>
-      <h2>Reasonable things to ask before you let something delete files.</h2>
-    </div>
-
-    <div class="faq">
-
-      <details class="q">
-        <summary>Is it safe to clean everything it shows me?</summary>
-        <div class="a">
-          <p>Almost. Anything marked with a warning cannot be recovered: archives take the dSYMs you need to read crash reports from versions you already shipped, simulator devices take their installed apps and data, and AI session history can no longer be resumed or searched.</p>
-          <p>Everything else regenerates itself. The only cost is the time to rebuild or re-download it.</p>
-        </div>
-      </details>
-
-      <details class="q">
-        <summary>Why does it want access to my home folder?</summary>
-        <div class="a">
-          <p>Only the App Store edition asks. Dot-directory caches — <code>~/.npm</code>, <code>~/.cargo</code>, <code>~/.gradle</code> — are direct children of your home folder, so nothing narrower covers them. The panel is held to exactly the folder being asked for, so you cannot accidentally grant the wrong one and end up with a section that looks broken.</p>
-          <p>The direct download is not sandboxed and never asks. Some locations under <code>/Library</code> may need Full Disk Access, which macOS asks for in System Settings.</p>
-        </div>
-      </details>
-
-      <details class="q">
-        <summary>Will it delete my simulators?</summary>
-        <div class="a">
-          <p>Only if you tick them yourself. Simulators appear under Developer because they live inside Xcode&rsquo;s folder, but eligibility for any automatic clean is a per-item flag rather than something inferred from the section — so the menu bar button, the low-space notification and every automation rule are all structurally unable to reach them.</p>
-        </div>
-      </details>
-
-      <details class="q">
-        <summary>Do the numbers match what I actually get back?</summary>
-        <div class="a">
-          <p>Yes. Sizes are allocated blocks, the same measure <code>du</code> uses, which is the space the filesystem actually returns. There is a test that compares the app&rsquo;s figures against <code>du</code> output directly.</p>
-          <p>The one exception is app uninstalls, which move files to the Trash rather than deleting them. Those are reported as &ldquo;moved to the Trash&rdquo; and never counted as freed space, because the bytes don&rsquo;t come back until you empty it.</p>
-        </div>
-      </details>
-
-
-      <details class="q">
-        <summary>What happens if my licence check fails?</summary>
-        <div class="a">
-          <p>Nothing. Offline, a timeout, a server error — none of them touch your entitlement. It is revoked only on an explicit answer that the licence has been disabled, expired or is not recognised. It&rsquo;s a one-time purchase, so revalidation can only ever discover a refund, and that is a far cheaper failure than locking someone out of a paid feature on a plane.</p>
-        </div>
-      </details>
-
-      <details class="q">
-        <summary>If I stop paying, do I lose my folders and rules?</summary>
-        <div class="a">
-          <p>You can&rsquo;t stop paying — it&rsquo;s one payment. But if an entitlement ever does lapse, nothing is deleted. Your categories and rules stay stored and stay visible; they just can&rsquo;t be added to, cleaned or run until it&rsquo;s restored.</p>
-        </div>
-      </details>
-
-
-    </div>
-  </div>
-</section>
-
 <!-- ============ CLOSING CTA ============ -->
 <section class="close-cta">
   <div class="wrap close-cta__in">
@@ -592,6 +531,8 @@
       <a class="btn btn--ghost" href="#editions">Compare editions</a>
     </div>
     <p class="hero__meta">Free · macOS 14+ · No account required</p>
+    <p class="hero__meta">Questions about permissions, licences or what is safe to
+      remove? <a href="/support.html">The support page answers them</a>.</p>
   </div>
 </section>
 
