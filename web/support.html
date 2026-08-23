@@ -164,6 +164,12 @@
     stay visible — they simply can&rsquo;t be added to, cleaned or run until the
     entitlement is restored.</p>
 
+    <h2 id="sizes">Sizes, and what you actually get back</h2>
+
+    <p>Yes. Sizes are allocated blocks, the same measure <code>du</code> uses, which is the space the filesystem actually returns. There is a test that compares the app&rsquo;s figures against <code>du</code> output directly.</p>
+
+    <p>The one exception is app uninstalls, which move files to the Trash rather than deleting them. Those are reported as &ldquo;moved to the Trash&rdquo; and never counted as freed space, because the bytes don&rsquo;t come back until you empty it.</p>
+
     <h2 id="safety">Before you clean something irreversible</h2>
 
     <p>Most of what Easy Sweep finds regenerates itself; the only cost of deleting it
