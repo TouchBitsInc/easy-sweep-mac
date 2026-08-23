@@ -17,7 +17,11 @@ web/
 ```
 
 Dark-only by design, so there is no second palette to keep in sync. Every colour
-is a token at the top of `styles.css`.
+is a token at the top of `styles.css`, lifted from the app icon — a glass wave
+running cyan through blue into a deep indigo. Accents carry an `-rgb` channel
+token beside the hex (`--blue` / `--blue-rgb`) so an `rgba()` never restates the
+colour; retuning the palette is one edit at the top of the file, not thirty
+scattered through it.
 
 ## Local preview
 
