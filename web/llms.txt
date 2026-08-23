@@ -20,10 +20,12 @@ caches — and lets the user delete it selectively. Nothing is ever pre-selected
 
 ## What it cleans
 
-Four sections: Developer (Xcode caches, Derived Data, Device Support, simulators,
+Five sections: Developer (Xcode caches, Derived Data, Device Support, simulators,
 and 40+ package manager and toolchain caches), AI Tools (Claude Code, Codex,
 Cursor, Windsurf, Ollama models, LM Studio runtimes), Browsers (page and script
-caches only), and Creative (Adobe and Ableton working caches).
+caches only), Creative (Adobe and Ableton working caches), and System (macOS's
+own regenerable data — aerial wallpapers, Music artwork, user logs — plus the web
+and code caches Electron apps keep beside their data).
 
 Excluded on purpose: lockfiles, SDK installs, emulator images, editor workspace
 state, credentials, browser history and passwords. Those are not caches.

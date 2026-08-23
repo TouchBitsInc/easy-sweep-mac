@@ -1,6 +1,6 @@
 import Foundation
 
-/// The published list of cleanable developer locations.
+/// The published list of cleanable macOS locations.
 ///
 /// Data only. What may be deleted without asking, and what needs a tool rather
 /// than the filesystem, are decisions for the app consuming this — see

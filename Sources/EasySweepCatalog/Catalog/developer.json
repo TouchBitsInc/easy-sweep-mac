@@ -103,6 +103,16 @@
     "symbol": "externaldrive.fill"
   },
   {
+    "id": "configurator-temp",
+    "name": "Apple Configurator Downloads",
+    "detail": "Device firmware and staging files Apple Configurator left in its temporary folder. Downloaded again the next time a device is restored or updated.",
+    "paths": [
+      "~/Library/Containers/com.apple.configurator.xpc.DeviceService/Data/tmp"
+    ],
+    "risk": "safe",
+    "symbol": "cable.connector"
+  },
+  {
     "id": "archives",
     "name": "Archives",
     "detail": "Distribution builds and their dSYMs. Without these you cannot symbolicate  crash reports from versions you already shipped.",
@@ -268,9 +278,8 @@
   {
     "id": "vscode",
     "name": "VS Code",
-    "detail": "Cached data and downloaded extension installers. Workspace state and  settings are untouched.",
+    "detail": "VS Code's cached extension downloads and compiled data. Rebuilt as you open projects and install extensions; the web cache beside it is covered by Desktop App Web Caches.",
     "paths": [
-      "~/Library/Application Support/Code/Cache",
       "~/Library/Application Support/Code/CachedData",
       "~/Library/Application Support/Code/CachedExtensionVSIXs"
     ],

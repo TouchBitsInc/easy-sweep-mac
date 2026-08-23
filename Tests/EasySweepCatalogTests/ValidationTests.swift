@@ -98,6 +98,7 @@ struct CatalogValidationTests {
             "Library/Caches",
             "Library/Developer",
             "Library/Application Support",
+            "Library/Logs",
             // CoreDevice keeps staged bundles under its own container.
             "Library/Containers",
             // pnpm puts its content-addressable store outside Caches.

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "user-logs",
+    "name": "User Logs",
+    "detail": "Application and diagnostic logs stored by macOS. New logs are written as apps run; deleting these removes existing troubleshooting history.",
+    "paths": [
+      "~/Library/Logs"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "doc.text.magnifyingglass"
+  },
+  {
+    "id": "wallpaper-aerials",
+    "name": "Aerial Wallpapers",
+    "detail": "The video wallpapers and screen savers macOS downloads on demand. Each one is fetched again the next time it is chosen, so this reclaims space rather than removing a choice.",
+    "paths": [
+      "~/Library/Application Support/com.apple.wallpaper/aerials"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "photo.on.rectangle.angled"
+  },
+  {
+    "id": "music-artwork-cache",
+    "name": "Music Artwork",
+    "detail": "Album and video artwork the Music and TV apps have downloaded. Refetched as you browse your library; nothing you own is stored here.",
+    "paths": [
+      "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork"
+    ],
+    "risk": "safe",
+    "symbol": "music.note"
+  },
+  {
+    "id": "electron-http-caches",
+    "name": "Desktop App Web Caches",
+    "detail": "The web cache each Electron app keeps beside its data — Discord, Slack and the rest are browsers underneath. Refilled as the app is used, and separate from the accounts and messages it stores.",
+    "paths": [
+      "~/Library/Application Support/*/Cache"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "square.stack.3d.up"
+  },
+  {
+    "id": "electron-code-caches",
+    "name": "Desktop App Code Caches",
+    "detail": "Compiled JavaScript and shader caches Chromium writes for Electron apps. Regenerated on the next launch, at the cost of one slower start.",
+    "paths": [
+      "~/Library/Application Support/*/Code Cache",
+      "~/Library/Application Support/*/GPUCache",
+      "~/Library/Application Support/*/GrShaderCache",
+      "~/Library/Application Support/*/component_crx_cache"
+    ],
+    "risk": "safe",
+    "symbol": "chevron.left.forwardslash.chevron.right"
+  },
+  {
+    "id": "squirrel-updater-staging",
+    "name": "App Update Downloads",
+    "detail": "Installers that self-updating apps have already applied and left behind. Downloaded again only when the next update arrives.",
+    "paths": [
+      "~/Library/Caches/*ShipIt"
+    ],
+    "risk": "safe",
+    "symbol": "arrow.down.circle"
+  }
+]
