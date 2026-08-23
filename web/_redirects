@@ -4,8 +4,7 @@
 /download   https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg   302
 /dmg        https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg   302
 
-# Convenience aliases.
-/privacy    /privacy.html   301
-/terms      /terms.html     301
-/support    /support.html   301
-/help       /support.html   301
+# Pages serves HTML extensionless and 308s /foo.html -> /foo. So an alias must
+# point AT the extensionless URL; pointing /support -> /support.html builds an
+# infinite loop with that canonicalisation and takes the page off the internet.
+/help       /support        301

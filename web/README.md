@@ -44,6 +44,11 @@ so `web/*` misses `web/css/styles.css`; use `web/**`.
 `_headers` and `_redirects` are read from the build output directory, which is
 why they live at the top of `web/`. They have no effect when previewing locally.
 
+Pages serves HTML **extensionless** and permanently redirects `/foo.html` to
+`/foo`. Link to `/support`, not `/support.html`, and never add a redirect pointing
+the other way — `/support -> /support.html` loops against that canonicalisation
+forever and silently removes the page from the internet.
+
 The `Content-Security-Policy` in `_headers` allows no inline styles or scripts.
 Keep CSS in `styles.css` and JavaScript in `main.js` — an inline `style`
 attribute is silently dropped in production while looking fine locally.
@@ -70,4 +75,4 @@ tag is ignored, which keeps the two sets of tags independent.
 
 The MIT licence in this repository covers the catalogue sources. It does not
 extend to the Easy Sweep application, which is distributed under its own terms —
-see [terms](https://easysweep.app/terms.html).
+see [terms](https://easysweep.app/terms).
