@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EasySweep — Mac cleanup without the guesswork</title>
-<meta name="description" content="EasySweep reveals exactly what is using space, explains every item, and gives you precise control over what leaves your Mac. No tracking, no guesswork, and no surprise deletions.">
+<title>EasySweep — Reclaim space and keep it under control</title>
+<meta name="description" content="EasySweep reveals where your Mac's space went, reclaims only what you approve, and prevents clutter from building up again with risk-aware automation. No tracking and no surprise deletions.">
 <link rel="canonical" href="https://easysweep.app/">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="EasySweep">
 <meta property="og:url" content="https://easysweep.app/">
-<meta property="og:title" content="EasySweep — Mac cleanup without the guesswork">
-<meta property="og:description" content="See exactly what is using space, understand every item, and decide what leaves. Precise cleanup without the guesswork.">
+<meta property="og:title" content="EasySweep — Reclaim space and keep it under control">
+<meta property="og:description" content="Understand what is using space, reclaim only what you approve, and keep clutter from building up again. Private, precise Mac cleanup.">
 <meta property="og:image" content="https://easysweep.app/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -34,8 +34,9 @@
       <span>EasySweep</span>
     </a>
     <div class="nav__links">
-      <a href="#finds">What it cleans</a>
-      <a href="#safety">Safety &amp; privacy</a>
+      <a href="#finds">Features</a>
+      <a href="#automation">Automation</a>
+      <a href="#safety">Safety</a>
       <a href="#pricing">Pricing</a>
     </div>
     <a class="btn btn--primary btn--sm" href="#download">Download</a>
@@ -49,12 +50,12 @@
   <div class="wrap hero__inner">
     <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
 
-    <h1>Clean your Mac.<br>Keep the final say.</h1>
+    <h1>Clean your Mac.<br>Keep it that way.</h1>
 
     <p class="lede">
-      EasySweep reveals exactly what is using space, explains why it is there, and
-      removes only what you approve. Set your conditions once, and EasySweep can handle
-      routine cleanup automatically while keeping sensitive items out of automated runs.
+      EasySweep shows where your space went and removes only what you approve. Set
+      precise rules once, and it keeps routine clutter under control. Higher-risk items
+      remain outside unattended cleanup.
     </p>
 
     <div class="cta-row">
@@ -73,7 +74,20 @@
         </span>
       </a>
     </div>
-    <p class="hero__meta">No tracking · Risk-aware automation · Open-source scan database</p>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="System requirements">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 or later
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple silicon and Intel
+      </li>
+    </ul>
+    <p class="hero__meta">No tracking · Safeguarded automation · Open-source scan database</p>
   </div>
 
   <div class="wrap hero__shot">
@@ -87,12 +101,12 @@
 <section class="band band--sunken" id="finds">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Clarity, built in</span>
-      <h2>See exactly where your space went.</h2>
+      <span class="eyebrow">Clarity before cleanup</span>
+      <h2>Find the space your Mac leaves unexplained.</h2>
       <p class="lede">
-        Every item is organized by app and purpose, measured precisely, and described
-        in context. The largest files appear first — no vague health scores and no
-        catch-all recommendations.
+        EasySweep brings scattered caches, downloads, old installers, and app leftovers
+        into one clear view. Every item is measured and explained before you act — no
+        vague health scores or catch-all recommendations.
       </p>
     </div>
 
@@ -100,7 +114,19 @@
       <article class="tile">
         <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
         <h3>Applications</h3>
-        <p>See an app and its related files together. Leftovers go to the Trash, keeping every removal reversible.</p>
+        <p>Remove an app and review the files it left behind. Certain, likely, and possible matches stay separate, so a guess never looks like a fact.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Developer tools</h3>
+        <p>Find old simulators, build files, device support, and package caches. Every item is listed separately, so you can keep the versions you still need.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>AI tools</h3>
+        <p>Review caches and downloaded models from popular AI apps. Credentials are never listed, and sensitive session history is clearly flagged.</p>
       </article>
 
       <article class="tile">
@@ -120,67 +146,90 @@
         <h3>System</h3>
         <p>Review temporary macOS data, downloaded wallpapers, artwork caches, and logs that can quietly accumulate over time.</p>
       </article>
-
-      <article class="tile">
-        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
-        <h3>Developer tools</h3>
-        <p>Find old simulators, build files, device support, and package caches. Every item is listed separately, so you can keep the versions you still need.</p>
-      </article>
-
-      <article class="tile">
-        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
-        <h3>AI tools</h3>
-        <p>Review caches and downloaded models from popular AI apps. Credentials are never listed, and sensitive session history is clearly flagged.</p>
-      </article>
     </div>
 
-    <div class="shots reveal">
-      <figure>
-        <div class="window window--flat">
-          <img src="/assets/shots/custom.jpg" alt="The Custom Category editor: fields for a name, an SF Symbol icon, a main folder to watch, and the list of folders inside it to track." width="2820" height="1546" loading="lazy">
-        </div>
-        <figcaption>Keep an eye on the folders that matter to you.</figcaption>
-      </figure>
-      <figure>
-        <div class="window window--flat">
-          <img src="/assets/shots/developer.jpg" alt="The Developer section showing 96.25 GB, with Simulator Devices at 60.88 GB flagged in red, then iOS Device Support, Derived Data and package manager caches." width="2820" height="1546" loading="lazy">
-        </div>
-        <figcaption>Large files shown individually, never hidden behind a score.</figcaption>
-      </figure>
-      <figure>
-        <div class="window window--flat">
-          <img src="/assets/shots/ai-tools.jpg" alt="The AI Tools section: Windsurf browser downloads, Codex Session History and Claude Code Session History both flagged in red, plus Gemini CLI and Claude Code caches." width="2820" height="1546" loading="lazy">
-        </div>
-        <figcaption>Sensitive history is clearly flagged, never quietly cleaned.</figcaption>
-      </figure>
-    </div>
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/developer.jpg" alt="The Developer section showing 96.25 GB, with Simulator Devices at 60.88 GB flagged in red, then iOS Device Support, Derived Data and package manager caches." width="2820" height="1546" loading="lazy">
+      </div>
+      <figcaption>Every large item shown individually, with its own size — never hidden behind a single score.</figcaption>
+    </figure>
   </div>
 </section>
 
-<!-- ============ SAFETY & PRIVACY ============ -->
-<section class="band" id="safety">
+<!-- ============ AUTOMATION & MONITORING ============ -->
+<section class="band" id="automation">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Control by design</span>
-      <h2>Nothing leaves without your approval.</h2>
+      <span class="eyebrow">Automatic, on your terms</span>
+      <h2>Set the rules once. EasySweep watches the rest.</h2>
       <p class="lede">
-        EasySweep makes every action explicit. Files that deserve extra care are clearly
-        distinguished and excluded from automated cleanup.
+        Decide what to watch, when cleanup should run, and how much to keep. EasySweep
+        acts only when your conditions are met and records exactly what changed.
       </p>
     </div>
 
     <div class="guards reveal">
       <div class="guard">
-        <h3>Your approval comes first</h3>
-        <p>Review the results, choose what you no longer need, and leave everything else exactly where it is.</p>
+        <h3>Act before space runs out</h3>
+        <p>Choose your minimum free-space level. EasySweep monitors it from the menu bar and alerts you before a full disk interrupts your day.</p>
       </div>
       <div class="guard">
-        <h3>Risk is visible</h3>
-        <p>Archives, simulator devices, and session history are clearly flagged and excluded from automatic cleaning.</p>
+        <h3>A threshold for every item</h3>
+        <p>Clean a cache when it grows past the limit that makes sense for it — not one blunt rule for your entire Mac.</p>
       </div>
       <div class="guard">
-        <h3>Matches are not certainties</h3>
-        <p>Possible app leftovers are treated as matches, not facts. They move to the Trash so you can restore them if needed.</p>
+        <h3>Keep what is still current</h3>
+        <p>Remove everything or only files older than a day, week, or month. Recent work can stay exactly where it is.</p>
+      </div>
+      <div class="guard">
+        <h3>Waits for active apps</h3>
+        <p>If a related app is running, unattended cleanup waits instead of removing files from underneath it.</p>
+      </div>
+      <div class="guard">
+        <h3>Risk always stays manual</h3>
+        <p>Archives, session history, and simulator devices are excluded from automation, regardless of the rule.</p>
+      </div>
+      <div class="guard">
+        <h3>See the value over time</h3>
+        <p>Track space reclaimed by date, item, and cleanup type, with a history of manual and automatic runs.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/custom.jpg" alt="The Custom Category editor: fields for a name, an SF Symbol icon, a main folder to watch, and the list of folders inside it to track." width="2820" height="1546" loading="lazy">
+      </div>
+      <figcaption>Point EasySweep at the folders that matter to you, and it watches them like any built-in category.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Safety you can verify</span>
+      <h2>Careful by design, not by promise.</h2>
+      <p class="lede">
+        EasySweep checks again at the moment of deletion, separates certainty from
+        guesswork, and reports what it cannot access. These safeguards live inside the
+        cleaning engine, so a button or automation rule cannot quietly bypass them.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Rechecked before deletion</h3>
+        <p>Every location is verified again when cleanup begins. If a path has changed or points somewhere unexpected, EasySweep refuses it.</p>
+      </div>
+      <div class="guard">
+        <h3>Uninstalls show their evidence</h3>
+        <p>Related files are grouped by match confidence. Uncertain matches remain visibly separate and never become automatic choices.</p>
+      </div>
+      <div class="guard">
+        <h3>Reversible where it matters</h3>
+        <p>Apps, discovered installers, and possible leftovers move to the Trash, so you have a way back if a match was not what you expected.</p>
       </div>
       <div class="guard">
         <h3>Honest about access</h3>
@@ -191,33 +240,40 @@
         <p>No telemetry, crash reporting, or background data collection. EasySweep does not collect or send information about you or your Mac.</p>
       </div>
       <div class="guard">
-        <h3>Open to inspection</h3>
-        <p>Every catalogued location is <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">published on GitHub under MIT</a>. Check what EasySweep knows, or add what it missed.</p>
+        <h3>Open-source scanning knowledge</h3>
+        <p><a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">Anyone can inspect where EasySweep looks</a>. Catalogue updates are reviewed and pinned to a specific version before they reach the app.</p>
       </div>
     </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/ai-tools.jpg" alt="The AI Tools section: Windsurf browser downloads, Codex Session History and Claude Code Session History both flagged in red, plus Gemini CLI and Claude Code caches." width="2820" height="1546" loading="lazy">
+      </div>
+      <figcaption>Sensitive data like session history is flagged in red and left for you to decide — automation never touches it.</figcaption>
+    </figure>
   </div>
 </section>
 
 <!-- ============ PRICING ============ -->
-<section class="band band--sunken" id="pricing">
+<section class="band" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Pricing</span>
-      <h2>Start with everything you need. Upgrade once.</h2>
+      <h2>Core cleanup is free. Pro is a one-time upgrade.</h2>
     </div>
 
     <div class="prices reveal">
       <div class="price">
         <h3>EasySweep</h3>
         <div class="price__amt">Free</div>
-        <p class="price__per">No account, trial, or nag screen</p>
+        <p class="price__per">No account, no trial, no nag screens</p>
         <ul>
           <li>All built-in categories, covering 80+ locations</li>
-          <li>Precise control down to individual files and versions</li>
-          <li>App uninstall with leftover detection</li>
-          <li>Menu bar access, cleanup history, and statistics</li>
+          <li>Discover old installers and forgotten build output</li>
+          <li>App uninstall with confidence-ranked leftover detection</li>
+          <li>Low-space alerts, cleanup history, and statistics</li>
         </ul>
-        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download the DMG</a>
+        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download EasySweep</a>
       </div>
 
       <div class="price price--pro">
@@ -227,7 +283,8 @@
         <ul>
           <li>Everything in the free app</li>
           <li><strong>Custom Categories</strong> — monitor the folders you choose</li>
-          <li><strong>Automation</strong> — create cleanup rules that run on schedule</li>
+          <li><strong>Conditional automation</strong> — run at a size or free-space threshold</li>
+          <li><strong>Age-based cleanup</strong> — keep newer files while removing old ones</li>
           <li>iCloud sync, 3 Macs direct or unlimited on the App Store</li>
         </ul>
         <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Get the app, then upgrade</a>
@@ -235,9 +292,10 @@
     </div>
 
     <p class="note reveal">
-      The direct download reaches every catalogued location without asking. A Mac App
-      Store edition is in review — sandboxed, so it asks for your home folder once and
-      often cannot remove an app bundle itself. <a href="/support#permissions">Both are explained on the support page</a>.
+      The direct download can scan most locations immediately; macOS may still require
+      Full Disk Access for protected folders. The Mac App Store edition is in review —
+      sandboxed, so it asks for your home folder once and may not be able to remove an app
+      bundle itself. <a href="/support#permissions">Compare permissions on the support page</a>.
     </p>
   </div>
 </section>
@@ -246,7 +304,7 @@
 <section class="close-cta">
   <div class="wrap close-cta__in">
     <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
-    <h2>Cleanup without second-guessing.</h2>
+    <h2>Reclaim the space. Keep the control.</h2>
     <p class="lede narrow">
       Scanning changes nothing. See what is using your space, understand why it is
       there, and remove only what you approve.
@@ -272,8 +330,9 @@
       <div>
         <h4>Product</h4>
         <ul>
-          <li><a href="#finds">What it cleans</a></li>
-          <li><a href="#safety">Safety &amp; privacy</a></li>
+          <li><a href="#finds">Features</a></li>
+          <li><a href="#automation">Automation</a></li>
+          <li><a href="#safety">Safety</a></li>
           <li><a href="#pricing">Pricing</a></li>
         </ul>
       </div>
