@@ -253,11 +253,18 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 
 /* Screenshot-led hero: the image is the first thing on the page, so it needs
    only breathing room under the nav, and the copy sits beneath it. */
-.hero--shot-first { padding-top: 44px; }
+.hero--shot-first { padding-top: 26px; }
 .hero--shot-first .hero__shot { margin-top: 0; }
 .hero--shot-first .hero__shot::after { content: none; }
-.hero--shot-first .hero__inner { margin-top: 64px; padding-bottom: 8px; }
-.hero--shot-first h1 { max-width: 22ch; }
+.hero--shot-first .hero__inner { margin-top: 34px; padding-bottom: 4px; }
+
+/* The screenshot is deliberately held well under the content width. At full
+   width it is 640px tall and pushes the download button off the first screen,
+   which is the one thing the hero exists to put in front of people. */
+.hero--shot-first .hero__shot .window { max-width: 700px; margin-inline: auto; }
+.hero.hero--shot-first h1 { max-width: 30ch; font-size: clamp(2.1rem, 4vw, 3.05rem); }
+.hero.hero--shot-first .lede { font-size: 1.08rem; max-width: 62ch; margin-top: 16px; }
+.hero--shot-first .cta-row { margin-top: 26px; }
 
 .hero__glow {
   position: absolute;
