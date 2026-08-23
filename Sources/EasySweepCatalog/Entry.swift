@@ -7,13 +7,19 @@ extension EasySweepCatalog {
 
     /// Which section an entry appears under.
     ///
-    /// A reading order, not a permission boundary — the four sections span 29
+    /// A reading order, not a permission boundary — the six sections span 30
     /// grant roots between them. See `Entry.grantRoots`.
     public enum Category: String, Codable, CaseIterable, Sendable {
         case developer
         case aiTools
         case browsers
         case multimedia
+        /// macOS's own regenerable data, and the caches of apps that fit none of
+        /// the tool sections above. Deliberately one section rather than two: an
+        /// app's cache and the system's are the same kind of thing to a user
+        /// clearing space, and `risk` is what separates a wallpaper that
+        /// re-downloads from a chat cache holding received media.
+        case system
     }
 
     /// How much a user stands to lose by cleaning an entry.

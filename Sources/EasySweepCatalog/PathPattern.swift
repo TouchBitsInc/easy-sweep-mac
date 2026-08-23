@@ -20,7 +20,8 @@ import Foundation
 ///   anchor, `~/*` is refused, and `grantRoots` stays computable without
 ///   touching the disk.
 /// - Matches are capped. A pattern resolving to hundreds of directories is a
-///   bug or an attack, not a cache.
+///   bug or an attack, not a cache. The cap counts the locations a pattern
+///   actually *resolves to*, and is applied last — see `resolve`.
 public enum PathPattern {
     /// How many matches one pattern may produce before it is treated as wrong.
     public static let matchLimit = 32
@@ -69,8 +70,15 @@ public enum PathPattern {
     /// present is a separate question, asked separately.
     ///
     /// A pattern is resolved by listing its literal parent and matching the one
-    /// wildcard segment, so nothing is ever globbed across a separator. Those
-    /// results necessarily exist, because they came from a directory listing.
+    /// wildcard segment, so nothing is ever globbed across a separator.
+    ///
+    /// The cap is applied **last**, after the remainder is appended and missing
+    /// locations are dropped. Applying it earlier silently broke every pattern
+    /// whose wildcard segment is a bare `*`: every sibling matches, so the cap
+    /// kept the alphabetically-first 32 and only those were tested for the
+    /// remainder. `~/Library/Application Support/*/Cache` found nothing at all
+    /// on a Mac where the matching app sorted past position 32 — and that
+    /// folder holds well over a hundred entries on an ordinary one.
     public static func resolve(_ path: String, home: URL) -> [URL] {
         let fileManager = FileManager.default
         guard rejectionReason(for: path) == nil else { return [] }
@@ -92,13 +100,20 @@ public enum PathPattern {
         var resolved = names
             .filter { matches(name: $0, pattern: pattern) }
             .sorted()
-            .prefix(matchLimit)
             .map { parent.appending(path: $0) }
 
         if !remainder.isEmpty {
             resolved = resolved.map { $0.appending(path: remainder) }
         }
-        return resolved.filter { fileManager.fileExists(atPath: $0.path) }
+        // Existence first, cap second. With no remainder every match exists
+        // already — it came from a listing — so the order is immaterial there.
+        // With one, capping first discards real locations in favour of siblings
+        // that turn out not to hold the folder at all.
+        return Array(
+            resolved
+                .filter { fileManager.fileExists(atPath: $0.path) }
+                .prefix(matchLimit)
+        )
     }
 
     /// One `*` within a single segment, so this is a prefix and suffix test

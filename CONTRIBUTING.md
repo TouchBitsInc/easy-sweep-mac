@@ -38,7 +38,7 @@ Two consequences:
 ## Schema
 
 One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
-`multimedia.json`.
+`multimedia.json`, `system.json`.
 
 ```json
 {
@@ -137,13 +137,13 @@ each splits in two:
 | `claude-caches` | `.claude`, `Library/Caches` |
 
 Allowed roots: `Library/Caches`, `Library/Developer`,
-`Library/Application Support`, and dot-directories directly under `~`. Anything
-else fails CI. This is also why a wildcard may not appear in the first two
+`Library/Application Support`, `Library/Logs`, `Library/Containers`,
+`Library/pnpm`, and dot-directories directly under `~`. Anything else fails CI. This is also why a wildcard may not appear in the first two
 segments — the root has to be computable without touching the disk.
 
 ### Categories are not grant roots
 
-The four sections are a reading order, not a permission boundary. Measured
+The five sections are a reading order, not a permission boundary. Measured
 across the current catalog:
 
 | Category | Distinct roots |
@@ -152,12 +152,13 @@ across the current catalog:
 | `aiTools` | 8 |
 | `browsers` | 1 |
 | `multimedia` | 2 |
+| `system` | 4 |
 
-Twenty-nine in total. Making each section one folder would mean twenty-nine
+Thirty in total. Making each section one folder would mean thirty
 sections, most of them holding a single row, so the sections stay as they are and
 the **sandboxed build ships a subset instead**:
 
-- **Free build** — unsandboxed, all four sections, every root.
+- **Free build** — unsandboxed, all five sections, every root.
 - **Mac App Store build** — only roots obtainable with one grant each:
   `Library/Developer`, `Library/Caches`, `~/.cache`. Entries under dot-directory
   roots are not offered at all.
@@ -205,3 +206,27 @@ The app maps `EasySweepCatalog.Entry` to `CleanTarget`, applying the app-side sa
 by `id`. The catalog is a Swift package so others can `import` it, but this app
 pins an exact tag — the pin is the review gate, and bumping it is a deliberate
 act, not a resolution side effect.
+
+## Releasing
+
+**Every change to the catalog gets a tag, and the version goes up by 0.0.1.**
+`1.2.0` → `1.2.1` → `1.2.2`, whether the change is one entry or twenty.
+
+Two reasons it works this way. Consumers pin an **exact** version, so a merged
+pull request reaches nobody until a tag exists — an untagged change is not
+released, it is just committed. And a uniform patch step removes the only
+question a contributor would otherwise have to answer: whether adding a location
+is a patch or a minor. It never matters here, because the pin is exact and every
+consumer moves deliberately either way.
+
+Reserve a minor bump (`1.2.x` → `1.3.0`) for a change to the **schema or the
+Swift API** — a new `Entry` field, a new `Category` case, a change to how paths
+resolve. Those are the changes that can fail to compile in a consumer, and the
+version should say so before anyone bumps a pin.
+
+**Tags for the app's own downloads are prefixed `app-v`** and are not catalog
+versions. This repository serves the website and the notarized `.dmg` as well as
+the package, and SwiftPM reads any tag parsing as semver with an optional leading
+`v` as a package version — so a release tagged `1.0.0` would appear to every
+consumer as a catalog version that isn't one. The prefix keeps the two sets of
+tags independent.
