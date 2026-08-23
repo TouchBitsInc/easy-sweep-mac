@@ -64,5 +64,83 @@
     ],
     "risk": "safe",
     "symbol": "arrow.down.circle"
+  },
+  {
+    "id": "device-software-updates",
+    "name": "Device Software Updates",
+    "detail": "iPhone, iPad and iPod update images downloaded when you update or restore a device from this Mac. Each is several gigabytes and is fetched again if it is needed.",
+    "paths": [
+      "~/Library/iTunes/iPhone Software Updates",
+      "~/Library/iTunes/iPad Software Updates",
+      "~/Library/iTunes/iPod Software Updates"
+    ],
+    "risk": "safe",
+    "granular": true,
+    "symbol": "iphone.gen3"
+  },
+  {
+    "id": "dropbox-cache",
+    "name": "Dropbox Cache",
+    "detail": "Copies Dropbox keeps of files it has recently synced. Rebuilt as syncing continues, and separate from the files in your Dropbox folder.",
+    "paths": [
+      "~/Library/Caches/com.getdropbox.dropbox"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox",
+    "brandColor": "#0061FF"
+  },
+  {
+    "id": "google-drive-cache",
+    "name": "Google Drive Cache",
+    "detail": "Content Google Drive has streamed or synced and kept locally. Re-downloaded on demand; files marked available offline are stored elsewhere.",
+    "paths": [
+      "~/Library/Caches/com.google.GoogleDrive"
+    ],
+    "risk": "safe",
+    "symbol": "externaldrive.badge.icloud",
+    "brandColor": "#1A73E8"
+  },
+  {
+    "id": "onedrive-cache",
+    "name": "OneDrive Cache",
+    "detail": "Thumbnails and synced content OneDrive keeps locally. Rebuilt as syncing continues.",
+    "paths": [
+      "~/Library/Caches/com.microsoft.OneDrive"
+    ],
+    "risk": "safe",
+    "symbol": "cloud",
+    "brandColor": "#0078D4"
+  },
+  {
+    "id": "spotify-cache",
+    "name": "Spotify Cache",
+    "detail": "Audio Spotify has buffered, including tracks downloaded for offline listening. Streams again over the network, so offline playlists have to re-download before they work away from a connection.",
+    "paths": [
+      "~/Library/Caches/com.spotify.client"
+    ],
+    "risk": "safe",
+    "symbol": "waveform",
+    "brandColor": "#1DB954"
+  },
+  {
+    "id": "crash-reports",
+    "name": "Crash Reports",
+    "detail": "Diagnostic reports macOS wrote when an app quit unexpectedly. New ones are written as crashes happen; deleting these removes the history a developer would ask you for.",
+    "paths": [
+      "~/Library/Application Support/CrashReporter"
+    ],
+    "risk": "risky",
+    "symbol": "exclamationmark.triangle"
+  },
+  {
+    "id": "saved-app-state",
+    "name": "Saved Application State",
+    "detail": "The windows and documents apps reopen with after a relaunch. Written again as you quit apps; clearing it means the next launch starts empty rather than where you left off.",
+    "paths": [
+      "~/Library/Saved Application State"
+    ],
+    "risk": "risky",
+    "granular": true,
+    "symbol": "macwindow.on.rectangle"
   }
 ]
