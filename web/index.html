@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Easy Sweep — Reclaim the disk space your Mac never shows you</title>
-<meta name="description" content="Easy Sweep finds the gigabytes of caches, leftovers and forgotten downloads hiding on your Mac, shows you exactly what each one is, and lets you decide what goes. It also uninstalls apps completely, including the files they leave behind.">
+<title>EasySweep — Reclaim the disk space your Mac never shows you</title>
+<meta name="description" content="EasySweep finds the gigabytes of caches, leftovers and forgotten downloads hiding on your Mac, shows you exactly what each one is, and lets you decide what goes. It also uninstalls apps completely, including the files they leave behind.">
 <link rel="canonical" href="https://easysweep.app/">
 
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Easy Sweep">
+<meta property="og:site_name" content="EasySweep">
 <meta property="og:url" content="https://easysweep.app/">
-<meta property="og:title" content="Easy Sweep — Reclaim the disk space your Mac never shows you">
-<meta property="og:description" content="Caches, leftovers and forgotten downloads quietly fill your disk in folders Finder never shows you. Easy Sweep finds all of it — and lets you decide what goes.">
+<meta property="og:title" content="EasySweep — Reclaim the disk space your Mac never shows you">
+<meta property="og:description" content="Caches, leftovers and forgotten downloads quietly fill your disk in folders Finder never shows you. EasySweep finds all of it — and lets you decide what goes.">
 <meta property="og:image" content="https://easysweep.app/assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -29,16 +29,12 @@
 <nav class="nav" id="nav">
   <div class="nav__inner">
     <a class="brand" href="/">
-      <img src="/assets/icon-256.png" alt="" width="30" height="30">
-      <span>Easy Sweep</span>
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
     </a>
     <div class="nav__links">
-      <a href="#what">What it finds</a>
-      <a href="#ai">AI Tools</a>
-      <a href="#editions">Editions</a>
+      <a href="#finds">What it finds</a>
       <a href="#safety">Safety</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#community">Community</a>
       <a href="#pricing">Pricing</a>
     </div>
     <a class="btn btn--primary btn--sm" href="#download">Download</a>
@@ -49,42 +45,13 @@
 <header class="hero">
   <div class="hero__glow"></div>
 
-  <!-- The icon's wave, run across the page behind the screenshot. Decorative,
-       so it is hidden from assistive technology. -->
-  <svg class="hero__wave" viewBox="0 0 1440 620" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-    <defs>
-      <linearGradient id="w-blue" x1="0" y1="0" x2="1" y2=".3">
-        <stop offset="0" stop-color="#35dcf4" stop-opacity=".42"/>
-        <stop offset=".5" stop-color="#1f86f7" stop-opacity=".58"/>
-        <stop offset="1" stop-color="#0a3ce8" stop-opacity=".30"/>
-      </linearGradient>
-      <linearGradient id="w-deep" x1="0" y1="0" x2="1" y2=".3">
-        <stop offset="0" stop-color="#0a3ce8" stop-opacity=".46"/>
-        <stop offset=".6" stop-color="#1f86f7" stop-opacity=".38"/>
-        <stop offset="1" stop-color="#0a3ce8" stop-opacity=".22"/>
-      </linearGradient>
-      <linearGradient id="w-crest" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#7fe9ff" stop-opacity="0"/>
-        <stop offset=".42" stop-color="#9df0ff" stop-opacity=".7"/>
-        <stop offset="1" stop-color="#35dcf4" stop-opacity="0"/>
-      </linearGradient>
-      <!-- One curve, reused by both waves and by the closing section, so the
-           shape stays identical everywhere it appears. -->
-      <path id="w-band" d="M0 210C260 120 460 300 740 220 1010 143 1210 296 1440 200V272C1210 368 1010 215 740 292 460 372 260 192 0 282Z"/>
-      <path id="w-crest-line" d="M0 148C240 66 450 244 730 162 1000 83 1215 238 1440 146"/>
-    </defs>
-    <use href="#w-band" fill="url(#w-deep)" transform="translate(0 148)"/>
-    <use href="#w-band" fill="url(#w-blue)"/>
-    <use href="#w-crest-line" fill="none" stroke="url(#w-crest)" stroke-width="2.5"/>
-  </svg>
-
   <div class="wrap hero__inner">
-    <img class="hero__icon" src="/assets/icon-256.png" alt="" width="88" height="88">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
 
     <h1>Your Mac has more free space than it&nbsp;admits.</h1>
 
     <p class="lede">
-      Caches, leftovers, and the files apps abandon when you delete them. Easy Sweep
+      Caches, leftovers, and the files apps abandon when you delete them. EasySweep
       finds all of it in folders Finder never shows you — and leaves every decision
       to you.
     </p>
@@ -94,467 +61,189 @@
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
         Download for Mac
       </a>
-      <a class="btn btn--ghost" href="#editions">
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
-        Compare editions
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Coming soon to the</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
       </a>
     </div>
-    <p class="hero__meta">Free · No account · Works entirely offline · Notarized by Apple</p>
+    <p class="hero__meta">Free · macOS 14+ · No account · Works offline</p>
   </div>
 
   <div class="wrap hero__shot">
     <div class="window">
-      <img src="/assets/shots/applications.jpg" alt="Easy Sweep's Applications section: 34.18 GB across 61 applications, with a capacity bar and a table of every installed app sorted by size." width="2820" height="1546">
+      <img src="/assets/shots/applications.jpg" alt="EasySweep's Applications section: 34.18 GB across 61 applications, with a capacity bar and a table of every installed app sorted by size." width="2820" height="1546">
     </div>
   </div>
 </header>
 
 <!-- ============ WHAT IT FINDS ============ -->
-<section class="band band--sunken" id="what">
+<section class="band band--sunken" id="finds">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Also included</span>
-      <h2>Two more sections, and the parts you&rsquo;ll use daily.</h2>
+      <span class="eyebrow">What it finds</span>
+      <h2>Where the space actually went.</h2>
       <p class="lede">
-        Every section leads with a bar splitting your disk by what is actually there,
-        largest first, so a glance tells you whether it is worth opening.
+        Each section opens with a bar splitting your disk by what is really there,
+        largest first — so a glance tells you whether it is worth opening.
       </p>
     </div>
 
-    <div class="cards">
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><path d="M14 17.5h7M17.5 14v7"/></svg></div>
+        <h3>Applications</h3>
+        <p>Uninstall an app and the caches, containers, preferences and launch agents it leaves behind. All of it goes to the Trash, so a guess is reversible.</p>
+      </article>
 
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4M16 8l4 4-4 4"/></svg></div>
+        <h3>Developer</h3>
+        <p>Derived Data, device support, simulator devices and package caches for every toolchain you ever installed. Simulators are usually the biggest thing you own.</p>
+      </article>
 
-      <article class="card reveal">
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.3 9h17.4M3.3 15h17.4M12 3a15 15 0 0 0 0 18 15 15 0 0 0 0-18Z"/></svg></div>
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 13.7 8l4.5 1.7-4.5 1.7L12 16l-1.7-4.6L5.8 9.7 10.3 8 12 3.5Z"/><path d="M18 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8.8-2Z"/></svg></div>
+        <h3>AI Tools</h3>
+        <p>Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Ollama, LM Studio. Caches and model weights other cleaners have never heard of. Credentials are never listed.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3.3 9h17.4M3.3 15h17.4M12 3a15 15 0 0 0 0 18 15 15 0 0 0 0-18Z"/></svg></div>
         <h3>Browsers</h3>
-        <p>
-          Page and script caches for Chrome, Safari, Firefox, Edge, Brave and Arc —
-          rebuilt as you browse. History, passwords, bookmarks, profiles and open
-          tabs live elsewhere and are never touched.
-        </p>
+        <p>Page and script caches for Chrome, Safari, Firefox, Edge, Brave and Arc. History, passwords, bookmarks and open tabs live elsewhere and are never touched.</p>
       </article>
 
-      <article class="card reveal">
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17V7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="m9 13 2.2 2.2L15 11"/></svg></div>
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17V7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="m9 13 2.2 2.2L15 11"/></svg></div>
         <h3>Creative</h3>
-        <p>
-          Premiere Pro and Media Encoder media caches, After Effects disk cache,
-          Photoshop scratch, Camera Raw previews, Lightroom video cache and Ableton&rsquo;s
-          decoding cache. Working caches only — never project files or exports.
-        </p>
-      </article>
-      <article class="card reveal">
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="12" rx="2"/><path d="M8 20h8M12 16.5V20"/><path d="M6 10.5h4M14 10.5h4"/></svg></div>
-        <h3>Menu bar, at a glance <span class="tag tag--free">Free</span></h3>
-        <p>
-          Free space in your menu bar and one button that clears the regenerable
-          Xcode caches. It cannot touch simulators, archives or AI session history —
-          ever. A notification fires when free space drops below a threshold you set.
-        </p>
-      </article>
-      <article class="card reveal">
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9m5 10V5m5 14v-7m5 7V8"/></svg></div>
-        <h3>Statistics <span class="tag tag--free">Free</span></h3>
-        <p>
-          What cleaning has actually reclaimed, over time. Reached by clicking the
-          disk figure in the sidebar — which is the question it answers.
-        </p>
+        <p>Premiere and Media Encoder media caches, After Effects disk cache, Photoshop scratch, Camera Raw previews, Ableton decoding. Working caches only — never exports.</p>
       </article>
 
-
+      <article class="tile">
+        <div class="tile__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="11" rx="2"/><path d="M7 20h10M12 16v4"/><path d="M6.5 9.5h5"/></svg></div>
+        <h3>System</h3>
+        <p>macOS&rsquo;s own regenerable data — aerial wallpapers, Music artwork, user logs — plus the web and code caches every Electron app keeps beside its data.</p>
+      </article>
     </div>
 
+    <div class="shots reveal">
+      <figure>
+        <div class="window window--flat">
+          <img src="/assets/shots/developer.jpg" alt="The Developer section showing 96.25 GB, with Simulator Devices at 60.88 GB flagged in red, then iOS Device Support, Derived Data and package manager caches." width="2820" height="1546" loading="lazy">
+        </div>
+        <figcaption>96 GB of Xcode that nothing ever clears.</figcaption>
+      </figure>
+      <figure>
+        <div class="window window--flat">
+          <img src="/assets/shots/ai-tools.jpg" alt="The AI Tools section: Windsurf browser downloads, Codex Session History and Claude Code Session History both flagged in red, plus Gemini CLI and Claude Code caches." width="2820" height="1546" loading="lazy">
+        </div>
+        <figcaption>Session history found, measured, and flagged in red.</figcaption>
+      </figure>
+      <figure>
+        <div class="window window--flat">
+          <img src="/assets/shots/custom.jpg" alt="The Custom Category editor: fields for a name, an SF Symbol icon, a main folder to watch, and the list of folders inside it to track." width="2820" height="1546" loading="lazy">
+        </div>
+        <figcaption>Custom Categories: your folders, your schedule.</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 
-<!-- ============ UNINSTALL (explains the hero shot above) ============ -->
-<section class="band" id="uninstall">
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band" id="safety">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Applications</span>
-      <h2>Uninstall an app, and the mess it leaves behind.</h2>
-      <p class="lede">
-        Every app above is one click from gone — along with its caches, containers,
-        preferences, saved state and launch agents. All of it goes to the Trash, so a
-        guess is always reversible.
-      </p>
-    </div>
-    <ul class="ticks ticks--cols reveal">
-      <li><strong>Three levels of confidence.</strong> A bundle identifier is certain. An exact filename is likely. A whole-word name match is only possible &mdash; and labelled as such.</li>
-      <li><strong>It won&rsquo;t take a neighbour&rsquo;s data.</strong> Word boundaries so &ldquo;Steam&rdquo; never claims SteamVR, a four-character minimum, and shared vendor folders are off limits.</li>
-      <li><strong>Inside <code>Containers</code>, only a bundle id counts.</strong> Matching an app&rsquo;s name against a reverse-DNS string is a coincidence, not evidence.</li>
-      <li><strong>System apps are refused outright.</strong> They can&rsquo;t be uninstalled, so listing your Mail data would be pointless and alarming.</li>
-    </ul>
-  </div>
-</section>
-
-<!-- ============ SHOWCASE ============ -->
-<section class="band band--sunken">
-  <div class="wrap showcase">
-
-    <div class="show reveal" id="developer">
-      <div class="show__copy">
-        <span class="eyebrow">Developer</span>
-        <h2>Xcode never tells you it kept all this.</h2>
-        <p class="lede">
-          Derived Data, device symbols, simulator devices, package caches for every
-          toolchain you have ever installed. It accumulates in folders Finder does not
-          show, and nothing ever clears it.
-        </p>
-        <ul class="ticks">
-          <li><strong>Simulators are usually the biggest thing you own.</strong> Whole device sets, with their installed apps and data, measured exactly.</li>
-          <li><strong>Deleted through <code>simctl</code>, never by removing folders</strong>, so CoreSimulator&rsquo;s registry stays consistent instead of pointing at devices that no longer exist.</li>
-          <li><strong>Irreversible items are flagged in red.</strong> Archives take the dSYMs you need to read crash reports from versions you already shipped.</li>
-        </ul>
-      </div>
-      <div class="show__shot">
-        <div class="window window--flat">
-          <img src="/assets/shots/developer.jpg" alt="The Developer section showing 96.25 GB, with Simulator Devices at 60.88 GB flagged in red, then iOS Device Support, Derived Data and package manager caches." width="2820" height="1546">
-        </div>
-      </div>
-    </div>
-
-    <div class="show show--flip reveal" id="ai">
-      <div class="show__copy">
-        <span class="eyebrow">AI Tools</span>
-        <h2>The caches no other cleaner knows exist.</h2>
-        <p class="lede">
-          Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Ollama, LM Studio. These
-          tools arrived faster than the cleaners did, and they are quietly some of the
-          largest things on a developer&rsquo;s Mac.
-        </p>
-        <ul class="ticks">
-          <li><strong>Session history is found, measured and flagged</strong> &mdash; per-project transcripts, backups, and the file history that powers rewinding an edit. Deleting it loses resume, search and undo, so it is marked and never touched automatically.</li>
-          <li><strong>Model weights you chose to download.</strong> Ollama pulls and LM Studio runtimes, usually gigabytes, listed by name.</li>
-          <li><strong>Credentials and memory files are never listed.</strong> Only caches, logs, scratch data and models.</li>
-        </ul>
-      </div>
-      <div class="show__shot">
-        <div class="window window--flat">
-          <img src="/assets/shots/ai-tools.jpg" alt="The AI Tools section: Windsurf browser downloads, Codex Session History and Claude Code Session History both flagged in red, plus Gemini CLI and Claude Code caches." width="2820" height="1546">
-        </div>
-      </div>
-    </div>
-
-    <div class="show reveal" id="custom">
-      <div class="show__copy">
-        <span class="eyebrow">Pro</span>
-        <h2>Your own folders. Your own schedule.</h2>
-        <p class="lede">
-          Every developer has a folder the catalogue will never know about &mdash; a render
-          output, a scratch directory, a build server&rsquo;s dumping ground. Custom
-          Categories give it a section in the sidebar; Automation keeps it clear
-          without you looking.
-        </p>
-        <ul class="ticks">
-          <li><strong>A section that&rsquo;s yours.</strong> Name it, pick an SF Symbol and a colour, point it at a root folder and tick the folders inside it to track.</li>
-          <li><strong>Rules are fenced to safe targets only.</strong> Archives, session history and simulator devices can never be reached by a rule, re-checked every time one runs.</li>
-          <li><strong>Configure before you pay.</strong> The editor and the rules table open and work for everyone. Only pressing Save is gated.</li>
-        </ul>
-      </div>
-      <div class="show__shot">
-        <div class="window window--flat">
-          <img src="/assets/shots/custom.jpg" alt="The Custom Category editor: fields for a name, an SF Symbol icon, a main folder to watch, and the list of folders inside it to track." width="2820" height="1546">
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============ EDITIONS ============ -->
-<section class="band" id="editions">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Two editions</span>
-      <h2>One is unrestricted. One is sandboxed.</h2>
-      <p class="lede">
-        Easy Sweep needs to read folders no sandboxed app is allowed to reach on its
-        own. The direct download simply reaches them. The Mac App Store edition is
-        sandboxed by Apple&rsquo;s rules, and asks your permission first. Everything else
-        about the two is identical.
-      </p>
-    </div>
-
-    <div class="editions reveal">
-      <div class="edition edition--featured">
-        <div class="edition__top">
-          <h3>Direct download</h3>
-          <span class="edition__badge">Recommended</span>
-        </div>
-        <p>
-          The full app, notarized by Apple and distributed as a disk image. It reaches
-          every catalogued location without asking, and can remove an app bundle
-          outright.
-        </p>
-        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download the DMG</a>
-        <p class="edition__foot">Free · macOS 14+ · Apple silicon &amp; Intel</p>
-      </div>
-
-      <div class="edition">
-        <div class="edition__top">
-          <h3>Mac App Store</h3>
-        </div>
-        <p>
-          The same app, sandboxed. Automatic updates, Apple&rsquo;s payment handling, and
-          your purchase tied to your Apple Account with no device limit — at the cost
-          of granting folder access once, and one thing it genuinely cannot do.
-        </p>
-        <a class="btn btn--ghost btn--wide" href="#appstore-note" aria-describedby="appstore-note">Coming soon to the App Store</a>
-        <p class="edition__foot" id="appstore-note">Currently in TestFlight review</p>
-      </div>
-    </div>
-
-    <div class="table-scroll reveal">
-      <table class="cmp">
-        <colgroup><col><col class="c-free"><col></colgroup>
-        <thead>
-          <tr>
-            <th scope="col">&nbsp;</th>
-            <th scope="col">Direct download</th>
-            <th scope="col">Mac App Store</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Reaching your caches</th>
-            <td><span class="yes">Immediately</span></td>
-            <td><span class="part">Grant home folder access once per section</span></td>
-          </tr>
-          <tr>
-            <th scope="row">Remove the <code>.app</code> bundle itself</th>
-            <td><span class="yes">Yes</span></td>
-            <td><span class="no">Often not — you drag it to the Trash</span></td>
-          </tr>
-          <tr>
-            <th scope="row">Items under <code>/Library</code></th>
-            <td><span class="part">Reported when permission is refused</span></td>
-            <td><span class="no">Out of reach</span></td>
-          </tr>
-          <tr>
-            <th scope="row">Custom Categories &amp; Automation</th>
-            <td>One-time purchase, licence key</td>
-            <td>One-time in-app purchase</td>
-          </tr>
-          <tr>
-            <th scope="row">Macs per purchase</th>
-            <td>3</td>
-            <td><span class="yes">No limit — your Apple Account</span></td>
-          </tr>
-          <tr>
-            <th scope="row">Updates</th>
-            <td>In-app notice, download the new DMG</td>
-            <td><span class="yes">Automatic</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="callout reveal">
-      <strong>Why the sandbox costs something.</strong> A sandboxed app cannot read
-      <code>~/Library/Developer</code> or <code>~/.npm</code> unless you hand it access
-      yourself, and it cannot delete another app&rsquo;s bundle at all. Easy Sweep asks for
-      your home folder once and tells you plainly when macOS refuses it something —
-      an unreadable folder is always reported as a failure, never quietly shown as
-      empty. If you want the version that never has to ask, take the DMG.
-    </div>
-  </div>
-</section>
-
-<!-- ============ SAFETY ============ -->
-<section class="band band--sunken" id="safety">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Safety</span>
-      <h2>A disk cleaner earns trust by what it refuses to do.</h2>
+      <span class="eyebrow">Safety &amp; privacy</span>
+      <h2>A cleaner earns trust by what it refuses to do.</h2>
       <p class="lede">
         These aren&rsquo;t settings. They&rsquo;re enforced in the app&rsquo;s own model and pinned by
-        its test suite, so reorganising the interface cannot widen what a button can
-        reach.
+        its test suite, so rearranging the interface cannot widen what a button reaches.
       </p>
     </div>
 
-    <div class="safety">
-      <div class="guard reveal">
+    <div class="guards reveal">
+      <div class="guard">
         <h3>Nothing is pre-selected</h3>
-        <p>Every checkbox on every section starts empty. Each section&rsquo;s button cleans only that section — ticking something under AI Tools can never be swept up by cleaning Developer.</p>
+        <p>Every checkbox starts empty, and each section&rsquo;s button cleans only that section.</p>
       </div>
-      <div class="guard reveal">
-        <h3>It will not delete itself</h3>
-        <p>The app refuses any folder containing its own bundle. A debug build lives inside Derived Data — exactly the sort of folder it cleans.</p>
-      </div>
-      <div class="guard reveal">
-        <h3>Permission errors are reported</h3>
-        <p>A folder the app cannot read shows up as a failure with a pointer to Full Disk Access — never as an empty folder with nothing to clean.</p>
-      </div>
-      <div class="guard reveal">
-        <h3>Simulators go through <code>simctl</code></h3>
-        <p>Devices are shut down and deleted by UDID using Apple&rsquo;s own tool, never by removing folders, so CoreSimulator&rsquo;s registry stays consistent.</p>
-      </div>
-      <div class="guard reveal">
-        <h3>The one-click clean is fenced</h3>
-        <p>Eligibility is an explicit per-item flag, never inferred from which section something sits on. Simulators, archives and session history are unreachable without a deliberate tick.</p>
-      </div>
-      <div class="guard reveal">
-        <h3>Sizes are the space you get back</h3>
-        <p>Measured as allocated blocks, the way <code>du</code> counts. There is a test that checks the app&rsquo;s numbers against <code>du</code> directly.</p>
-      </div>
-      <div class="guard guard--warn reveal">
-        <h3>Uninstalls go to the Trash</h3>
-        <p>A name match is a guess, and a guess must be reversible. So the app reports &ldquo;moved to the Trash&rdquo;, never &ldquo;freed&rdquo; — the space returns when you empty it.</p>
-      </div>
-      <div class="guard guard--warn reveal">
+      <div class="guard">
         <h3>Irreversible items are marked</h3>
-        <p>Archives take their dSYMs, so old crash reports stay unreadable. Simulators take their apps and data. Session history can&rsquo;t be resumed. All three are flagged and excluded from every automatic path.</p>
+        <p>Archives, simulator devices and session history are flagged and excluded from every automatic path.</p>
       </div>
-    </div>
-
-    <div class="callout reveal">
-      <strong>One honest caveat.</strong> Like every tool of this kind, Easy Sweep
-      relies on Xcode&rsquo;s undocumented folder layout, which Apple can change at any
-      time. Have a backup. Lockfiles, SDK installs, emulator images and editor
-      workspace state are deliberately absent from the catalogue — those are not
-      caches, and losing them costs you real work.
-    </div>
-  </div>
-</section>
-
-<!-- ============ PRIVACY ============ -->
-<section class="band" id="privacy">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Privacy</span>
-      <h2>No account, no tracking, nothing to send.</h2>
-      <p class="lede">
-        Most apps that clean your Mac want you to sign in first. Easy Sweep has no
-        sign-up, no analytics and nothing to opt out of &mdash; and the free app never
-        opens a network connection at all.
-      </p>
-    </div>
-
-    <div class="safety">
-      <div class="guard reveal">
-        <h3>No analytics, ever</h3>
-        <p>No telemetry, no usage reporting, no crash reporter, no advertising or attribution SDKs &mdash; none of it, in either edition. There is no account to create, so there is nothing to log in to and nothing to delete.</p>
+      <div class="guard">
+        <h3>Uninstalls go to the Trash</h3>
+        <p>A name match is a guess, and a guess must be reversible — so it reports &ldquo;moved to the Trash&rdquo;, never &ldquo;freed&rdquo;.</p>
       </div>
-      <div class="guard reveal">
-        <h3>The free app works entirely offline</h3>
-        <p>Not an update ping, not a first-run call home, not a licence check. If you never buy Pro, Easy Sweep has no reason to open a connection &mdash; so it doesn&rsquo;t. Run it on a Mac that has never seen a network and nothing changes.</p>
+      <div class="guard">
+        <h3>Failures are reported</h3>
+        <p>A folder it cannot read is a failure with a pointer to Full Disk Access, never an empty folder with nothing to clean.</p>
       </div>
-      <div class="guard reveal">
-        <h3>Nothing about your disk leaves it</h3>
-        <p>Which folders you have, what they contain, how big they are, which apps you installed or removed &mdash; all of it is worked out on your Mac and none of it is transmitted. Diagnostics go to the standard macOS log, on your Mac, where you can read them.</p>
+      <div class="guard">
+        <h3>No account, no tracking</h3>
+        <p>No telemetry, no crash reporter, nothing to opt out of. The free app never opens a network connection at all.</p>
       </div>
-      <div class="guard reveal">
-        <h3>You can audit what it targets</h3>
-        <p>Every category it scans is <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">defined in public</a>, under the MIT licence. Each path is written down where you can read it before installing anything, and contributions are welcome &mdash; so the list is checkable rather than merely promised.</p>
+      <div class="guard">
+        <h3>The catalogue is public</h3>
+        <p>Every path it touches is <a href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">on GitHub under MIT</a> — checkable rather than promised, and open to additions.</p>
       </div>
-      <div class="guard guard--warn reveal">
-        <h3>Pro&rsquo;s two connections, named</h3>
-        <p>Buying Pro directly adds a licence check, which sends the key and a machine identifier and nothing else. Using Custom Categories or Automation syncs those <em>definitions</em> &mdash; names, icons, the folder paths you chose &mdash; through your own iCloud account, never their contents. That is the complete list.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============ COMMUNITY ============ -->
-<section class="band band--sunken" id="community">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Community</span>
-      <h2>The list of what it cleans is public. Add to it.</h2>
-      <p class="lede">
-        Every path Easy Sweep touches lives in one repository on GitHub, under the MIT
-        licence &mdash; all five categories, every location, nothing hidden. You can read it
-        before you install anything, and you can extend it. New tools appear faster
-        than any single developer can catalogue them, which is exactly why the list
-        isn&rsquo;t locked inside the app.
-      </p>
-    </div>
-
-    <div class="routes reveal">
-      <div class="route">
-        <h3>Read the catalogue</h3>
-        <p>Five JSON files naming every folder the app scans, with the reason each one is safe or risky to clear. This is the honest answer to &ldquo;what will it delete?&rdquo; &mdash; not a promise, a file you can check.</p>
-        <a class="btn btn--ghost" href="https://github.com/TouchBitsInc/easy-sweep-mac" rel="noopener">Browse on GitHub</a>
-      </div>
-      <div class="route">
-        <h3>Add a tool it&rsquo;s missing</h3>
-        <p>Adding support for a tool is one entry in one file &mdash; a path, a name, a short description. No app code to touch and no build to run. Pull requests are welcome, and the tests will tell you if an entry is malformed.</p>
-        <a class="btn btn--ghost" href="https://github.com/TouchBitsInc/easy-sweep-mac/blob/main/CONTRIBUTING.md" rel="noopener">How to contribute</a>
-      </div>
-      <div class="route">
-        <h3>Report a bug</h3>
-        <p>Issues are public, so someone else hitting the same thing can say so, and you can see what has already been fixed before writing anything. Licence problems are better by email.</p>
-        <a class="btn btn--ghost" href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Open an issue</a>
-      </div>
-    </div>
-
-    <div class="callout callout--invite reveal">
-      <strong>Why the list is public.</strong> A cleaner is only as
-      trustworthy as its list of what to delete, and a list you cannot read is one you
-      have to take on faith. Publishing it means the riskiest part of Easy Sweep is
-      also the part anyone can audit &mdash; and the part that gets better the more people
-      use it.
     </div>
   </div>
 </section>
 
 <!-- ============ PRICING ============ -->
-<section class="band" id="pricing">
+<section class="band band--sunken" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Pricing</span>
       <h2>The thing it was built to do is free.</h2>
-      <p class="lede">
-        Finding and clearing catalogued caches costs nothing, forever. Pro adds your
-        own folders and rules that run without you.
-      </p>
     </div>
 
     <div class="prices reveal">
       <div class="price">
-        <h3>Easy Sweep</h3>
+        <h3>EasySweep</h3>
         <div class="price__amt">Free</div>
         <p class="price__per">No account, no trial, no nag screen</p>
         <ul>
-          <li>All five catalogue sections</li>
-          <li>Over 80 catalogued locations</li>
+          <li>All five catalogue sections, 80+ locations</li>
           <li>Per-item control, down to one SDK version</li>
-          <li>Application uninstall with leftover detection</li>
-          <li>Menu bar item and one-click safe clean</li>
-          <li>Low disk space notifications</li>
-          <li>Statistics for what you&rsquo;ve reclaimed</li>
+          <li>App uninstall with leftover detection</li>
+          <li>Menu bar item, safe one-click clean, statistics</li>
         </ul>
-        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download</a>
+        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download the DMG</a>
       </div>
 
       <div class="price price--pro">
-        <h3>Easy Sweep Pro</h3>
+        <h3>EasySweep Pro</h3>
         <div class="price__amt">$9.99</div>
         <p class="price__per">One-time purchase. Not a subscription.</p>
         <ul>
           <li>Everything in the free app</li>
           <li><strong>Custom Categories</strong> — your own sidebar sections</li>
           <li><strong>Automation</strong> — standing rules that run themselves</li>
-          <li>iCloud sync of categories and rules</li>
-          <li>3 Macs with a direct licence, unlimited on the App Store</li>
-          <li>A lapse never deletes anything you made</li>
+          <li>iCloud sync, 3 Macs direct or unlimited on the App Store</li>
         </ul>
-        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Get Easy Sweep, then upgrade</a>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Get the app, then upgrade</a>
       </div>
     </div>
+
+    <p class="note reveal">
+      The direct download reaches every catalogued location without asking. A Mac App
+      Store edition is in review — sandboxed, so it asks for your home folder once and
+      often cannot remove an app bundle itself. <a href="/support#permissions">Both are explained on the support page</a>.
+    </p>
   </div>
 </section>
 
 <!-- ============ CLOSING CTA ============ -->
 <section class="close-cta">
-  <svg class="close-cta__wave" viewBox="0 0 1440 620" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-    <use href="#w-band" fill="url(#w-deep)" transform="translate(0 148)"/>
-    <use href="#w-band" fill="url(#w-blue)"/>
-  </svg>
   <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
     <h2>Find out what&rsquo;s actually on your disk.</h2>
     <p class="lede narrow">
       Scanning changes nothing and deletes nothing. Every checkbox starts empty —
@@ -562,11 +251,9 @@
     </p>
     <div class="cta-row">
       <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download for Mac</a>
-      <a class="btn btn--ghost" href="#editions">Compare editions</a>
+      <a class="btn btn--ghost" href="/support">Read the support page</a>
     </div>
-    <p class="hero__meta">Free · macOS 14+ · No account required</p>
-    <p class="hero__meta">Questions about permissions, licences or what is safe to
-      remove? <a href="/support">The support page answers them</a>.</p>
+    <p class="hero__meta">Free · macOS 14+ · Apple silicon &amp; Intel</p>
   </div>
 </section>
 
@@ -576,27 +263,25 @@
     <div class="footer__cols">
       <div class="footer__brand">
         <a class="brand" href="/">
-          <img src="/assets/icon-256.png" alt="" width="30" height="30">
-          <span>Easy Sweep</span>
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
         </a>
         <p>Reclaim the disk space your development tools quietly consume.</p>
       </div>
       <div>
         <h4>Product</h4>
         <ul>
-          <li><a href="#what">What it finds</a></li>
-          <li><a href="#editions">Editions</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#finds">What it finds</a></li>
           <li><a href="#safety">Safety</a></li>
+          <li><a href="#pricing">Pricing</a></li>
         </ul>
       </div>
       <div>
         <h4>Support</h4>
         <ul>
           <li><a href="/support">Help &amp; contact</a></li>
-          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Report an issue</a></li>
           <li><a href="/support#permissions">Permissions</a></li>
-          <li><a href="/support#refunds">Refunds</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Report an issue</a></li>
         </ul>
       </div>
       <div>

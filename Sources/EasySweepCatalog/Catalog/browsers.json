@@ -63,5 +63,57 @@
     ],
     "risk": "safe",
     "symbol": "globe"
+  },
+  {
+    "id": "chrome-site-cache",
+    "name": "Google Chrome Site Data",
+    "detail": "Offline site data and shader caches Google Chrome keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "paths": [
+      "~/Library/Application Support/Google/Chrome/*/Service Worker/CacheStorage",
+      "~/Library/Application Support/Google/Chrome/*/Service Worker/ScriptCache",
+      "~/Library/Application Support/Google/Chrome/*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#4285F4"
+  },
+  {
+    "id": "edge-site-cache",
+    "name": "Microsoft Edge Site Data",
+    "detail": "Offline site data and shader caches Microsoft Edge keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "paths": [
+      "~/Library/Application Support/Microsoft Edge/*/Service Worker/CacheStorage",
+      "~/Library/Application Support/Microsoft Edge/*/Service Worker/ScriptCache",
+      "~/Library/Application Support/Microsoft Edge/*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#0078D7"
+  },
+  {
+    "id": "brave-site-cache",
+    "name": "Brave Site Data",
+    "detail": "Offline site data and shader caches Brave keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "paths": [
+      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/Service Worker/CacheStorage",
+      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/Service Worker/ScriptCache",
+      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#FB542B"
+  },
+  {
+    "id": "arc-site-cache",
+    "name": "Arc Site Data",
+    "detail": "Offline site data and shader caches Arc keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "paths": [
+      "~/Library/Application Support/Arc/User Data/*/Service Worker/CacheStorage",
+      "~/Library/Application Support/Arc/User Data/*/Service Worker/ScriptCache",
+      "~/Library/Application Support/Arc/User Data/*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "brandColor": "#FCBFCB"
   }
 ]

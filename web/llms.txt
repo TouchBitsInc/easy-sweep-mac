@@ -1,10 +1,10 @@
-# Easy Sweep
+# EasySweep
 
 > A macOS menu bar app that reclaims disk space from Xcode, simulators, dev
 > toolchains and AI CLI caches, and uninstalls applications along with the files
 > they leave behind. macOS 14+. Free, with a one-time $9.99 Pro upgrade.
 
-Easy Sweep finds the disk space development tools quietly consume in folders
+EasySweep finds the disk space development tools quietly consume in folders
 Finder never shows — `~/Library/Developer`, package manager caches, AI CLI
 caches — and lets the user delete it selectively. Nothing is ever pre-selected.
 

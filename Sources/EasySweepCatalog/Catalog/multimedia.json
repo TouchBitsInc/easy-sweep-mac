@@ -63,5 +63,15 @@
       "~/Library/Caches/Ableton/Cache/Decoding"
     ],
     "risk": "safe"
+  },
+  {
+    "id": "capcut-cache",
+    "name": "CapCut Cache",
+    "detail": "Rendered previews and imported media CapCut caches while editing. Rebuilt as you work on a project; your projects and source footage are elsewhere.",
+    "paths": [
+      "~/Movies/JianyingPro/User Data/Cache"
+    ],
+    "risk": "safe",
+    "symbol": "film"
   }
 ]

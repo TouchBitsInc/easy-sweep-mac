@@ -32,14 +32,3 @@
 
   targets.forEach(function (el) { io.observe(el); });
 })();
-
-// Only one FAQ answer open at a time — a long open list buries the questions.
-(function () {
-  var all = Array.prototype.slice.call(document.querySelectorAll('details.q'));
-  all.forEach(function (d) {
-    d.addEventListener('toggle', function () {
-      if (!d.open) return;
-      all.forEach(function (other) { if (other !== d) other.open = false; });
-    });
-  });
-})();
