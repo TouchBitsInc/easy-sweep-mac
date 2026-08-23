@@ -404,6 +404,40 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   color: var(--text-faint);
 }
 
+/* System requirements. Deliberately not chips: a rounded outlined pill sat a
+   few pixels under two rounded pill buttons and read as a third and fourth
+   button. Borderless, so the glyph carries the fact and nothing invites a
+   click. */
+.specs {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 26px;
+}
+.spec {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--text-faint);
+  font-size: .88rem;
+  white-space: nowrap;
+}
+/* Sized against the label's x-height, not its line box: any larger and the
+   glyph read as an icon with a caption rather than a mark beside a word. The
+   colour is inherited — everything below the buttons is one tone, so the specs
+   and the trust line under them read as a single block of small print. */
+.spec svg {
+  width: 13px;
+  height: 13px;
+  flex: none;
+}
+
+/* The trust line stays plain text below — its three claims are prose, not specs. */
+.specs + .hero__meta { margin-top: 16px; }
+
 /* Held well under the content width: at full width the shot is 640px tall and
    pushes everything above it off the first screen. */
 .hero__shot {
@@ -430,8 +464,6 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   box-shadow: var(--shadow-lg);
 }
 .window img { width: 100%; height: auto; display: block; }
-
-.window--flat { border-radius: var(--r); box-shadow: var(--shadow); }
 
 /* ---------- Section tiles ---------- */
 
@@ -467,21 +499,22 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 .tile h3 { margin-bottom: 9px; }
 .tile p { color: var(--text-dim); font-size: .95rem; }
 
-/* ---------- Screenshot strip ---------- */
+/* ---------- Section screenshot ---------- */
 
-/* Three shots side by side instead of three full alternating sections — the
-   captions carry what the prose used to, at a tenth of the scroll. */
-.shots {
-  margin-top: 44px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+/* One shot per section, at the width of the copy above it. Three side by side
+   scaled a 2820px-wide window down to a third of the column, which left the
+   table rows — the whole point of the picture — as unreadable grey stripes. */
+.shot {
+  margin: 52px auto 0;
+  max-width: 900px;
 }
-.shots figure { margin: 0; }
-.shots figcaption {
-  margin-top: 14px;
-  font-size: .92rem;
+.shot figcaption {
+  margin-top: 16px;
+  text-align: center;
+  font-size: .95rem;
   color: var(--text-faint);
+  max-width: 62ch;
+  margin-inline: auto;
 }
 
 /* ---------- Safety ---------- */
@@ -687,10 +720,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 940px) {
-  .shots { grid-template-columns: 1fr 1fr; }
-  /* An odd third shot stretched across a two-column row dwarfs the other two,
-     so the last one keeps a single column's width and sits at the start. */
-  .shots figure:last-child { grid-column: 1 / -1; max-width: calc(50% - 10px); }
+  .shot { margin-top: 44px; }
   .footer__cols { grid-template-columns: 1fr 1fr; gap: 34px; }
   .band { padding: 64px 0; }
 }
@@ -703,8 +733,8 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   .hero__shot { margin-top: 38px; }
   .hero .cta-row { flex-direction: column; }
   .hero .cta-row .btn { width: 100%; }
-  .shots { grid-template-columns: 1fr; }
-  .shots figure:last-child { max-width: none; }
+  .shot { margin-top: 36px; }
+  .shot .window { border-radius: var(--r); }
   .band { padding: 56px 0; }
   .close-cta { padding: 72px 0; }
   .close-cta .cta-row { flex-direction: column; }
