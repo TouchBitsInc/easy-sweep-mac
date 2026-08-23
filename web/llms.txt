@@ -48,8 +48,8 @@ Mac.
 ## Links
 
 - Home: https://easysweep.app/
-- Support: https://easysweep.app/support.html
-- Privacy: https://easysweep.app/privacy.html
-- Terms: https://easysweep.app/terms.html
+- Support: https://easysweep.app/support
+- Privacy: https://easysweep.app/privacy
+- Terms: https://easysweep.app/terms
 - Public catalogue of cleanable locations (MIT): https://github.com/TouchBitsInc/easy-sweep-mac
 - Report a bug or request a tool: https://github.com/TouchBitsInc/easy-sweep-mac/issues
