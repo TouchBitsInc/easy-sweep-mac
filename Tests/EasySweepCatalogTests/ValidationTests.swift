@@ -125,6 +125,10 @@ struct CatalogValidationTests {
             "Library/Containers",
             // pnpm puts its content-addressable store outside Caches.
             "Library/pnpm",
+            // Device update images, still under the old iTunes folder.
+            "Library/iTunes",
+            // What apps reopen with; a folder of its own, not a cache.
+            "Library/Saved Application State",
         ]
         for entry in entries {
             for root in entry.grantRoots {
