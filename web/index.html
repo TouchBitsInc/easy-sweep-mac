@@ -18,6 +18,9 @@
 <link rel="icon" href="/assets/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/icon-256.png">
 <link rel="stylesheet" href="/css/styles.css">
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/applications.jpg" fetchpriority="high">
 <meta name="theme-color" content="#07080b">
 </head>
 <body>
