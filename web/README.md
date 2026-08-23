@@ -16,7 +16,12 @@ web/
   robots.txt sitemap.xml llms.txt
 ```
 
-Dark-only by design, so there is no second palette to keep in sync. Every colour
+Light and dark, following the reader's `prefers-color-scheme`; there is no
+toggle. Dark is the base look and the one the design was drawn for, and light is
+a **token-only** override in one block near the top of `styles.css` — if a light
+fix seems to need a component rule, that component is reaching past a token, and
+the token is what to fix. A literal `rgba(255,255,255,…)` outside the token
+block is a bug that shows up in exactly one theme. Every colour
 is a token at the top of `styles.css`, lifted from the app icon — a folded
 paper bird running teal through cyan and blue into a deep indigo. Accents carry an `-rgb` channel
 token beside the hex (`--blue` / `--blue-rgb`) so an `rgba()` never restates the

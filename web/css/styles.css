@@ -35,11 +35,11 @@
   --lit-rgb:     115, 169, 242;
   --deep-rgb:    8, 63, 195;
 
-  /* Decorative sweep — the icon's own run of colour, beak to tail. */
-  --grad: linear-gradient(118deg, var(--teal), var(--cyan) 26%, var(--blue) 62%, var(--blue-deep));
-  /* Anything carrying white text uses the blue half only. The teal and cyan
-     end is far too light to hold 1rem type, however well it reads as a wash. */
-  --grad-ink: linear-gradient(118deg, #2b78e8, #0b3fbe);
+  /* The call-to-action blue, sampled between the tail facet's own two stops
+     (#286BEA and #083FC3). Flat, not a gradient — and dark enough to hold white
+     type at 6:1, which the lit wing and the beak are nowhere near. */
+  --cta:    #1855d6;
+  --cta-hv: #1e63ea;
 
   --amber:       #f5a623;
   --red:         #ff453a;
@@ -56,12 +56,81 @@
   --shadow:    0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35);
   --shadow-lg: 0 2px 6px rgba(0,0,0,.5), 0 30px 70px -20px rgba(0,0,0,.8);
 
+  /* Theme-dependent surfaces. `--link` and `--eyebrow` exist because the raw
+     accents are tuned for a dark ground: --blue-lit is 2.3:1 on white and
+     --teal barely 1.9:1, so light needs darker inks for the same roles while
+     the decorative gradient keeps the original hues. */
+  --link:        var(--blue-lit);
+  --eyebrow:     var(--teal);
+  --nav-bg:      rgba(5,7,12,.72);
+  --nav-bg-lit:  rgba(5,7,12,.88);
+  --ghost-bg:    rgba(var(--blue-rgb), .14);
+  --ghost-bg-hv: rgba(var(--blue-rgb), .22);
+  --ghost-bd:    rgba(var(--lit-rgb), .32);
+  --ghost-bd-hv: rgba(var(--lit-rgb), .55);
+  --window-bd:   rgba(255,255,255,.10);
+  --glow-blue:   rgba(var(--blue-rgb), .30);
+  --glow-teal:   rgba(var(--teal-rgb), .16);
+  --glow-deep:   rgba(var(--deep-rgb), .26);
+  --glow-cta:    rgba(var(--blue-rgb), .24);
+
   --page:  1160px;
   --gutter: 24px;
+
+  color-scheme: dark;
 
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
           "Helvetica Neue", Inter, system-ui, sans-serif;
   --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+}
+
+/* ---------- Light theme ----------
+
+   Follows the system setting; there is no toggle. Only tokens are redefined —
+   if a light fix needs a component rule, the component is reaching past a token
+   and that is what should be fixed instead.
+
+   The accents are NOT re-hued: the bird's blue and teal stay exactly as they
+   are in the gradient and the icon. What changes is the ink used where an
+   accent has to carry text, and how hard the decorative glows are pushed —
+   on white they read at roughly half strength before they turn milky. */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+
+    --bg:          #ffffff;
+    --bg-2:        #f5f7fb;
+    --surface:     #ffffff;
+    --surface-2:   #eef1f7;
+    --border:      #e3e7ef;
+    --border-lit:  #ccd3e0;
+
+    --text:        #0b1120;
+    --text-dim:    #4b5565;
+    --text-faint:  #6d7684;
+
+    /* Accent inks, darkened for type on white. */
+    --link:        #1558c4;
+    --eyebrow:     #07786a;
+
+    /* Neutral-cool rather than pure black, so a card edge does not look bruised. */
+    --shadow:    0 1px 2px rgba(16,24,40,.06), 0 8px 24px rgba(16,24,40,.08);
+    --shadow-lg: 0 2px 6px rgba(16,24,40,.08), 0 30px 60px -25px rgba(16,24,40,.28);
+
+    --nav-bg:      rgba(255,255,255,.72);
+    --nav-bg-lit:  rgba(255,255,255,.90);
+    --ghost-bg:    rgba(var(--blue-rgb), .09);
+    --ghost-bg-hv: rgba(var(--blue-rgb), .15);
+    --ghost-bd:    rgba(var(--blue-rgb), .30);
+    --ghost-bd-hv: rgba(var(--blue-rgb), .48);
+    --window-bd:   rgba(11,17,32,.12);
+
+    --glow-blue:   rgba(var(--blue-rgb), .16);
+    --glow-teal:   rgba(var(--teal-rgb), .15);
+    --glow-deep:   rgba(var(--deep-rgb), .10);
+    --glow-cta:    rgba(var(--blue-rgb), .12);
+  }
 }
 
 * { box-sizing: border-box; }
@@ -136,7 +205,7 @@ p { margin: 0; }
   text-transform: uppercase;
   /* Teal, not blue: it is the one note in the icon that nothing else on the
      page uses, so it marks a section start without competing with the CTA. */
-  color: var(--teal);
+  color: var(--eyebrow);
   margin-bottom: 18px;
 }
 
@@ -172,26 +241,22 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 .btn svg { flex: none; }
 
 .btn--primary {
-  background: var(--grad-ink);
+  background: var(--cta);
   color: #fff;
-  box-shadow: 0 1px 1px rgba(var(--cyan-rgb), .35) inset,
-              0 10px 30px -8px rgba(var(--blue-rgb), .65);
 }
 .btn--primary:hover {
-  box-shadow: 0 1px 1px rgba(var(--cyan-rgb), .45) inset,
-              0 16px 40px -8px rgba(var(--blue-rgb), .8);
+  background: var(--cta-hv);
   transform: translateY(-2px);
 }
 
 .btn--ghost {
-  background: rgba(255,255,255,.055);
-  border-color: var(--border-lit);
-  color: var(--text);
-  backdrop-filter: blur(12px);
+  background: var(--ghost-bg);
+  border-color: var(--ghost-bd);
+  color: var(--link);
 }
 .btn--ghost:hover {
-  background: rgba(255,255,255,.1);
-  border-color: #3d4553;
+  background: var(--ghost-bg-hv);
+  border-color: var(--ghost-bd-hv);
   transform: translateY(-2px);
 }
 
@@ -205,12 +270,10 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   gap: 11px;
   padding: 9px 24px 9px 20px;
   background: #000;
-  border-color: #39414f;
   color: #fff;
 }
 .btn--appstore:hover {
-  background: #0b0e14;
-  border-color: #4b5464;
+  background: #1a1a1a;
   transform: translateY(-2px);
 }
 .btn__stack {
@@ -225,7 +288,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   font-weight: 520;
   letter-spacing: .04em;
   text-transform: uppercase;
-  color: #b9c0cc;
+  color: rgba(255,255,255,.72);
 }
 .btn__main {
   font-size: 1.06rem;
@@ -246,7 +309,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(5,7,12,.72);
+  background: var(--nav-bg);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid transparent;
@@ -254,7 +317,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 }
 .nav.is-stuck {
   border-bottom-color: var(--border);
-  background: rgba(5,7,12,.88);
+  background: var(--nav-bg-lit);
 }
 
 .nav__inner {
@@ -310,9 +373,9 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   height: 1000px;
   pointer-events: none;
   background:
-    radial-gradient(44% 40% at 50% 40%, rgba(var(--blue-rgb), .30), transparent 68%),
-    radial-gradient(28% 30% at 74% 26%, rgba(var(--teal-rgb), .16), transparent 70%),
-    radial-gradient(30% 32% at 22% 32%, rgba(var(--deep-rgb), .26), transparent 72%);
+    radial-gradient(44% 40% at 50% 40%, var(--glow-blue), transparent 68%),
+    radial-gradient(28% 30% at 74% 26%, var(--glow-teal), transparent 70%),
+    radial-gradient(30% 32% at 22% 32%, var(--glow-deep), transparent 72%);
   filter: blur(6px);
 }
 
@@ -360,7 +423,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 /* ---------- macOS window frame ---------- */
 
 .window {
-  border: 1px solid rgba(255,255,255,.10);
+  border: 1px solid var(--window-bd);
   border-radius: var(--r-lg);
   overflow: hidden;
   background: var(--surface);
@@ -388,36 +451,21 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 }
 .tile:hover { transform: translateY(-3px); border-color: var(--border-lit); }
 
-.tile__icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 16px;
-  display: grid;
-  place-content: center;
-  border-radius: 11px;
-  background: rgba(var(--blue-rgb), .13);
-  color: var(--blue-lit);
-}
-.tile__icon svg { width: 21px; height: 21px; }
+/* Folded planes, not pictograms: each mark is two facets of the same sheet, so
+   the set reads as cut from the logo rather than picked from an icon library.
+   The tiles step through the bird's own run of colour, beak to tail. */
+.tile__mark { margin-bottom: 15px; color: var(--mark, var(--blue)); }
+.tile__mark svg { width: 36px; height: 36px; }
+
+.tiles .tile:nth-child(1) { --mark: var(--teal); }
+.tiles .tile:nth-child(2) { --mark: var(--cyan); }
+.tiles .tile:nth-child(3) { --mark: var(--blue-lit); }
+.tiles .tile:nth-child(4) { --mark: var(--blue); }
+.tiles .tile:nth-child(5) { --mark: #2b6fe0; }
+.tiles .tile:nth-child(6) { --mark: var(--blue-deep); }
 
 .tile h3 { margin-bottom: 9px; }
 .tile p { color: var(--text-dim); font-size: .95rem; }
-
-.tile--pro .tile__icon { background: rgba(var(--amber-rgb), .14); color: var(--amber); }
-
-.tag {
-  display: inline-block;
-  vertical-align: 2px;
-  margin-left: 7px;
-  padding: 2px 8px;
-  border-radius: 980px;
-  font-size: .68rem;
-  font-weight: 660;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-}
-.tag--pro { background: rgba(var(--amber-rgb), .16); color: var(--amber); }
-.tag--free { background: rgba(var(--green-rgb), .14); color: var(--green); }
 
 /* ---------- Screenshot strip ---------- */
 
@@ -464,14 +512,14 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 /* The global reset strips link colour and underline, which is right for nav and
    cards but leaves a link in body copy indistinguishable from the text. */
 .guard p a, .tile p a, .note a, .hero__meta a {
-  color: var(--blue-lit);
+  color: var(--link);
   text-decoration: underline;
   text-decoration-color: rgba(var(--lit-rgb), .4);
   text-underline-offset: 2px;
   transition: text-decoration-color .16s ease;
 }
 .guard p a:hover, .tile p a:hover, .note a:hover,
-.hero__meta a:hover { text-decoration-color: var(--blue-lit); }
+.hero__meta a:hover { text-decoration-color: var(--link); }
 
 /* ---------- Pricing ---------- */
 
@@ -491,8 +539,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   background: linear-gradient(180deg, var(--surface), var(--bg-2));
 }
 .price--pro {
-  border-color: rgba(var(--lit-rgb), .4);
-  box-shadow: 0 0 0 1px rgba(var(--lit-rgb), .1), 0 40px 80px -50px rgba(var(--blue-rgb), .55);
+  border-color: rgba(var(--lit-rgb), .45);
 }
 .price h3 { font-size: 1.25rem; }
 .price__amt {
@@ -521,7 +568,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   content: "✓";
   position: absolute;
   left: 0;
-  color: var(--blue-lit);
+  color: var(--link);
   font-family: var(--mono);
 }
 .price ul li strong { color: var(--text); font-weight: 600; }
@@ -540,7 +587,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   position: absolute;
   inset: -60% -10% auto -10%;
   height: 700px;
-  background: radial-gradient(46% 46% at 50% 50%, rgba(var(--blue-rgb), .24), transparent 70%);
+  background: radial-gradient(46% 46% at 50% 50%, var(--glow-cta), transparent 70%);
   pointer-events: none;
 }
 .close-cta__in { position: relative; }
@@ -604,7 +651,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 .doc p, .doc li { color: var(--text-dim); }
 .doc p { margin-top: 16px; }
 .doc ul, .doc ol { margin-top: 16px; padding-left: 24px; display: grid; gap: 10px; }
-.doc a { color: var(--blue-lit); }
+.doc a { color: var(--link); }
 .doc a:hover { text-decoration: underline; }
 .doc strong { color: var(--text); font-weight: 600; }
 .doc hr { margin: 52px 0; border: 0; border-top: 1px solid var(--border); }
@@ -668,7 +715,7 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 ::selection { background: rgba(var(--blue-rgb), .34); }
 
 :focus-visible {
-  outline: 2px solid var(--blue-lit);
+  outline: 2px solid var(--link);
   outline-offset: 3px;
   border-radius: 4px;
 }
