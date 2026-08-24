@@ -42,10 +42,32 @@ struct MigrationTests {
         "xdg-cache", "yarn",
     ]
 
+    /// Entries taken out on purpose, and why. An id may leave the catalogue —
+    /// but only as a decision somebody wrote down, never as a side effect of an
+    /// edit.
+    static let withdrawn: [String: String] = [
+        // Named the installed toolchains rather than rustup's download cache,
+        // and called them safe. Cleaning it took every Rust compiler on the
+        // machine, the one in use included. Replaced by `rustup-downloads`,
+        // which is what the nvm and sdkman entries beside it already do.
+        "rustup-toolchains": "replaced by rustup-downloads"
+    ]
+
     @Test func nothingPublishedWasRenamedOrDropped() {
         let current = Set(EasySweepCatalog.all.map(\.id))
-        let missing = Self.published.subtracting(current).sorted()
+        let missing = Self.published
+            .subtracting(current)
+            .subtracting(Self.withdrawn.keys)
+            .sorted()
         #expect(missing.isEmpty, "renamed or dropped since 1.3.2: \(missing)")
+    }
+
+    /// A withdrawal that has quietly come back should stop being listed as one.
+    @Test func withdrawalsAreStillWithdrawn() {
+        let current = Set(EasySweepCatalog.all.map(\.id))
+        for id in Self.withdrawn.keys {
+            #expect(!current.contains(id), "\(id) is listed as withdrawn but is in the catalogue")
+        }
     }
 
     /// Adding is fine — this only pins that the reshape was a reshape.
