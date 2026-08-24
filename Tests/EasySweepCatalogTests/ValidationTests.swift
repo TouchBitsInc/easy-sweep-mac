@@ -147,6 +147,8 @@ struct CatalogValidationTests {
             "mambaforge",
             // CapCut caches renders under the user's Movies folder.
             "Movies",
+            // Installers and part-downloads collect where the browser puts them.
+            "Downloads",
         ]
         for entry in entries {
             guard let root = entry.grantRoot else { continue }
