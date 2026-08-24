@@ -61,12 +61,18 @@ The short version:
   name the parent and give it `"subfolders": ["*"]` instead — the app shows a
   size per version.
 
-## Section icons
+## Section presentation
 
-`Catalog/categories.json` names the SF Symbol for each section, and
-`Category.symbol` returns it — falling back to a compiled-in name if the symbol
-doesn't exist on the running macOS. Section *titles* stay in the consuming app,
-which localizes them.
+`Catalog/categories.json` names the SF Symbol and localized title for each
+section. `Category.symbol` returns the configured symbol, falling back to a
+compiled-in name if it doesn't exist on the running macOS. `Category.localizedName(for:)`
+resolves a BCP-47 locale through an exact regional/script match, its language,
+and then English.
+
+Each section's `localizations` is a map of locale identifiers to objects rather
+than a fixed set of language fields. That keeps adding a supported language
+data-only, and leaves room for more localized presentation fields later without
+changing the top-level category shape.
 
 ## What isn't here, deliberately
 

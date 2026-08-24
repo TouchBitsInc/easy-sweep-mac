@@ -2,6 +2,14 @@ import AppKit
 
 extension EasySweepCatalog.Category {
 
+    /// The section title for a locale, falling back through a regional/script
+    /// match, the language, and finally English. The config uses BCP-47 keys,
+    /// so adding another locale is data-only.
+    public func localizedName(for locale: Locale = .current) -> String {
+        EasySweepCatalog.categoryPresentations[rawValue]?.name(for: locale)
+            ?? rawValue
+    }
+
     /// The SF Symbol a consumer draws for the section, from `categories.json`.
     ///
     /// Contributable for the same reason `Entry.symbol` is: which glyph reads as
@@ -44,8 +52,8 @@ extension EasySweepCatalog.Category {
 extension EasySweepCatalog {
 
     /// `categories.json`, decoded once. Empty if the file is missing or
-    /// unreadable, which leaves every section on its built-in glyph.
-    static let categorySymbols: [String: String] = {
+    /// unreadable, which leaves every section on its built-in glyph and raw id.
+    private static let categoryPresentations: [String: Presentation] = {
         guard let url = Bundle.module.url(
             forResource: "categories",
             withExtension: "json",
@@ -53,12 +61,48 @@ extension EasySweepCatalog {
         ), let data = try? Data(contentsOf: url),
         let raw = try? JSONDecoder().decode([String: Presentation].self, from: data)
         else { return [:] }
-        return raw.compactMapValues(\.symbol)
+        return raw
     }()
 
-    /// How a section is drawn. One field today; a struct so adding another —
-    /// a tint, say — doesn't change the file's shape.
+    static let categorySymbols: [String: String] =
+        categoryPresentations.compactMapValues(\.symbol)
+
+    /// The data-driven presentation for a section. A struct keeps symbols and
+    /// locale-keyed copy extensible without changing the category map's shape.
     private struct Presentation: Decodable {
         let symbol: String?
+        let localizations: [String: Localization]?
+
+        func name(for locale: Locale) -> String? {
+            guard let localizations else { return nil }
+
+            let normalized = locale.identifier.replacingOccurrences(of: "_", with: "-")
+            let components = normalized.split(separator: "-").map(String.init)
+            var candidates = [normalized]
+
+            if let language = components.first {
+                if let script = components.first(where: { $0.count == 4 }) {
+                    candidates.append("\(language)-\(script)")
+                }
+                if let region = components.dropFirst().first(where: { $0.count == 2 || $0.count == 3 }) {
+                    candidates.append("\(language)-\(region)")
+                }
+                candidates.append(language)
+            }
+            candidates.append("en")
+
+            for candidate in candidates {
+                if let match = localizations.first(where: {
+                    $0.key.compare(candidate, options: .caseInsensitive) == .orderedSame
+                }), let name = match.value.name, !name.isEmpty {
+                    return name
+                }
+            }
+            return nil
+        }
+
+        struct Localization: Decodable {
+            let name: String?
+        }
     }
 }
