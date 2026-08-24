@@ -149,6 +149,8 @@ struct CatalogValidationTests {
             "Movies",
             // Installers and part-downloads collect where the browser puts them.
             "Downloads",
+            // The Android SDK manager installs NDKs outside Application Support.
+            "Library/Android",
         ]
         for entry in entries {
             guard let root = entry.grantRoot else { continue }

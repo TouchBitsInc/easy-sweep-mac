@@ -113,5 +113,50 @@
     "path": "~/.lmstudio/models",
     "risk": "risky",
     "symbol": "brain"
+  },
+  {
+    "id": "codex-temp",
+    "name": "Codex Working Files",
+    "detail": "Cached repository clones and staging folders Codex writes while it works. Fetched again the next time they are needed; each row is one folder, and anything named as a backup is worth reading before it goes.",
+    "path": "~/.codex/.tmp",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "clock.arrow.circlepath"
+  },
+  {
+    "id": "claude-versions",
+    "name": "Claude Code Versions",
+    "detail": "Copies of the CLI kept after it updated itself, one folder per version. Removing the version in use means downloading it again on the next launch, so the newest is the one to leave.",
+    "path": "~/.local/share/claude/versions",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "shippingbox",
+    "brandColor": "#D97757"
+  },
+  {
+    "id": "cursor-agent-versions",
+    "name": "Cursor Agent Versions",
+    "detail": "Copies of the Cursor agent CLI kept after it updated itself, one folder per version. The newest is the one in use; older ones are re-downloadable.",
+    "path": "~/.local/share/cursor-agent/versions",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "shippingbox"
+  },
+  {
+    "id": "copilot-cli-versions",
+    "name": "Copilot CLI Versions",
+    "detail": "Copies of the GitHub Copilot CLI kept after it updated itself. The newest is the one in use; older ones are downloaded again if ever needed.",
+    "path": "~/.copilot/pkg/universal",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "shippingbox"
   }
 ]
