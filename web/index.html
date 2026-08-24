@@ -273,21 +273,38 @@
           <li>App uninstall with confidence-ranked leftover detection</li>
           <li>Low-space alerts, cleanup history, and statistics</li>
         </ul>
-        <a class="btn btn--primary btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download EasySweep</a>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download EasySweep</a>
       </div>
 
       <div class="price price--pro">
         <h3>EasySweep Pro</h3>
-        <div class="price__amt">$9.99</div>
+        <div class="price__amt"><span class="price__from">from</span> $9.99</div>
         <p class="price__per">One-time purchase. Not a subscription.</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 Macs</span><span class="seats__p">$14.99</span><span class="seats__save">save 25%</span></li>
+          <li><span class="seats__n">3 Macs</span><span class="seats__p">$19.99</span><span class="seats__save">save 33%</span></li>
+        </ul>
         <ul>
           <li>Everything in the free app</li>
           <li><strong>Custom Categories</strong> — monitor the folders you choose</li>
           <li><strong>Conditional automation</strong> — run at a size or free-space threshold</li>
           <li><strong>Age-based cleanup</strong> — keep newer files while removing old ones</li>
-          <li>iCloud sync, 3 Macs direct or unlimited on the App Store</li>
+          <li>iCloud sync across every Mac on your licence</li>
         </ul>
-        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Get the app, then upgrade</a>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">Buy a licence</a>
+        <p class="price__after">
+          Works with the free app. Install it, then paste your key into
+          <strong>Settings → Licence</strong>.
+        </p>
       </div>
     </div>
 
@@ -295,7 +312,9 @@
       The direct download can scan most locations immediately; macOS may still require
       Full Disk Access for protected folders. The Mac App Store edition is in review —
       sandboxed, so it asks for your home folder once and may not be able to remove an app
-      bundle itself. <a href="/support#permissions">Compare permissions on the support page</a>.
+      bundle itself — and its Pro upgrade is an in-app purchase tied to your Apple
+      Account, with no device limit.
+      <a href="/support#permissions">Compare permissions on the support page</a>.
     </p>
   </div>
 </section>

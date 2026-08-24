@@ -583,12 +583,80 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   line-height: 1;
 }
 .price__per { font-size: .92rem; color: var(--text-faint); }
+
+/* "from" rides the headline number rather than sitting on its own line: at 3rem
+   the price is the loudest thing in the card, and a qualifier under it reads as
+   a second fact instead of a modifier on the first. */
+.price__from {
+  font-size: .95rem;
+  font-weight: 520;
+  letter-spacing: -0.01em;
+  color: var(--text-faint);
+  margin-right: 8px;
+  vertical-align: 0.9rem;
+}
+
+/* The seat ladder. Ruled rows rather than a bordered table — the card already
+   has an edge, and a second one inside it boxes the price in.
+   Every selector here is scoped with `.price` to outrank the `.price ul` feature
+   list below, which would otherwise win on specificity and impose its 11px gap,
+   its 26px indent, and — visibly — its ✓ bullet on each row. */
+.price .seats {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  /* `flex: none` because `.price ul` below sets `flex: 1` so the feature list
+     eats the card's leftover height and pins the button to the foot — and this
+     is also a `ul` inside `.price`, so without this it shares that stretch. The
+     rows don't stretch with it (`align-content` stays `start`), so the extra
+     height would show as a slab of the `--border` ground below the last row
+     the moment the free card became the taller of the pair. */
+  flex: none;
+  gap: 1px;
+  background: var(--border);
+  border-radius: var(--r-sm);
+  overflow: hidden;
+}
+/* A grid rather than a flex row: only two of the three rows carry a saving, and
+   under flex the single-Mac price would sit hard against the edge while the other
+   two stopped short of it.
+
+   The third column is a fixed width, not `minmax`, and that is the point. Each
+   row is its own grid — CSS grid columns are not shared between siblings — so a
+   saving label wider than its column would widen that row's third track and push
+   its price left of the other two. Fixed plus `nowrap` means a label that
+   outgrows the space overflows into the row's padding instead, which keeps the
+   prices on one vertical line. Sized with headroom over "save 33%" so that only
+   happens at a font size far above any default. */
+.price .seats li {
+  display: grid;
+  grid-template-columns: 1fr auto 66px;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 13px;
+  background: var(--surface);
+  font-size: .94rem;
+  color: var(--text-dim);
+}
+.price .seats li::before { content: none; }
+.seats__p { color: var(--text); font-weight: 620; }
+/* The saving explains the price rather than competing with it: small, accent
+   ink, right-aligned under itself. */
+.seats__save {
+  text-align: right;
+  font-size: .8rem;
+  color: var(--eyebrow);
+  white-space: nowrap;
+}
+
 .price ul {
   list-style: none;
   margin: 24px 0 28px;
   padding: 0;
   display: grid;
   gap: 11px;
+  align-content: start;
   flex: 1;
 }
 .price ul li {
@@ -605,6 +673,18 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   font-family: var(--mono);
 }
 .price ul li strong { color: var(--text); font-weight: 600; }
+
+/* The line under the buy button. Its job is to answer "so do I download it or
+   buy it?" at the moment the question occurs, which is with the button under the
+   cursor — not in a note at the foot of the section. */
+.price__after {
+  margin-top: 13px;
+  font-size: .86rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--text-faint);
+}
+.price__after strong { color: var(--text-dim); font-weight: 600; }
 
 /* ---------- Closing CTA ---------- */
 
