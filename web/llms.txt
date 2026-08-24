@@ -2,7 +2,7 @@
 
 > A macOS menu bar app that reclaims disk space from Xcode, simulators, dev
 > toolchains and AI CLI caches, and uninstalls applications along with the files
-> they leave behind. macOS 14+. Free, with a one-time $9.99 Pro upgrade.
+> they leave behind. macOS 14+. Free, with a one-time Pro upgrade from $9.99.
 
 EasySweep finds the disk space development tools quietly consume in folders
 Finder never shows — `~/Library/Developer`, package manager caches, AI CLI
@@ -12,7 +12,8 @@ caches — and lets the user delete it selectively. Nothing is ever pre-selected
 
 - **Direct download** (recommended): unsandboxed, notarized DMG. Reaches every
   catalogued location without asking. Can remove an application bundle outright.
-  Pro sold as a licence key covering 3 Macs.
+  Pro sold as a licence key, in tiers covering 1, 2, or 3 Macs
+  ($9.99 / $14.99 / $19.99); a seat is freed by deactivating a Mac.
 - **Mac App Store**: the same app, sandboxed as Apple requires. Asks for home
   folder access once per section, and usually cannot delete another app's
   bundle — the user drags that to the Trash. Pro sold as an in-app purchase
@@ -44,7 +45,7 @@ state, credentials, browser history and passwords. Those are not caches.
 
 No analytics, no telemetry, no account. The free app makes no network requests
 at all. Pro optionally syncs category and rule definitions through iCloud, and a
-direct licence is validated against Lemon Squeezy. Scan results never leave the
+direct licence is validated against Polar. Scan results never leave the
 Mac.
 
 ## Links
