@@ -66,6 +66,13 @@ extension EasySweepCatalog {
 
     /// One cleanable location, as published in the catalog.
     ///
+    /// **One path, and either the folder itself or what to take inside it.** A
+    /// multi-path entry used to be possible, which meant an entry could span two
+    /// folders a sandboxed consumer has to be granted separately — half-usable,
+    /// with no honest way to show that on one row. Now the shape says it: one
+    /// literal `path`, so the grant root is the path, and `subfolders` for
+    /// anything narrower.
+    ///
     /// Deliberately *not* the whole of what the app knows about a target. Two
     /// fields are absent because a contributed file must not be able to set
     /// them:
@@ -87,15 +94,22 @@ extension EasySweepCatalog {
         /// regenerates the files and how — never "safe to delete", which `risk`
         /// already carries.
         public let detail: String
-        /// Tilde-relative, e.g. `~/Library/Caches/Homebrew`. May contain a
-        /// single `*` within one path segment; see `PathPattern`.
-        public let paths: [String]
+        /// Tilde-relative and **literal** — no wildcard, so the folder a
+        /// sandboxed consumer must be granted can be read straight off it.
+        public let path: String
+        /// What to take inside `path`, as patterns relative to it.
+        ///
+        /// - **Empty** means the folder itself is the target, one row.
+        /// - **`["*"]`** means every child, a row each — what `granular` meant.
+        /// - **A list** names children, a row each. A single `*` may appear in
+        ///   any segment (`*/Code Cache`), because `path` already supplies the
+        ///   literal anchor.
+        ///
+        /// Subfolders are *rows*: whatever is listed here is what the user ticks.
+        public let subfolders: [String]
         /// Absent means `risky`. Silence is conservative: an entry nobody has
         /// classified should read as the more cautious of the two.
         public let risk: Risk
-        /// Whether to enumerate one level of children so the user can pick
-        /// individual versions, projects or devices.
-        public let granular: Bool
         /// An SF Symbol name. Absent falls back to the category's own symbol —
         /// which is safer than a wrong name, because an unknown symbol renders
         /// as nothing at all rather than a placeholder.
@@ -110,18 +124,18 @@ extension EasySweepCatalog {
             id: String,
             name: String,
             detail: String,
-            paths: [String],
+            path: String,
+            subfolders: [String] = [],
             risk: Risk = .risky,
-            granular: Bool = false,
             symbol: String? = nil,
             brandColor: String? = nil
         ) {
             self.id = id
             self.name = name
             self.detail = detail
-            self.paths = paths
+            self.path = path
+            self.subfolders = subfolders
             self.risk = risk
-            self.granular = granular
             self.symbol = symbol
             self.brandColor = brandColor
         }
@@ -131,14 +145,18 @@ extension EasySweepCatalog {
             id = try container.decode(String.self, forKey: .id)
             name = try container.decode(String.self, forKey: .name)
             detail = try container.decode(String.self, forKey: .detail)
-            paths = try container.decode([String].self, forKey: .paths)
-            // Both default rather than being required, so an older build
-            // reading a newer catalog degrades instead of failing.
+            path = try container.decode(String.self, forKey: .path)
+            // Everything below defaults, so an older build reading a newer
+            // catalog degrades instead of failing.
+            subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
             risk = try container.decodeIfPresent(Risk.self, forKey: .risk) ?? .risky
-            granular = try container.decodeIfPresent(Bool.self, forKey: .granular) ?? false
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             brandColor = try container.decodeIfPresent(String.self, forKey: .brandColor)
         }
+
+        /// Whether the user picks among children rather than taking the whole
+        /// folder. What `granular` used to say, now derived from the shape.
+        public var isGranular: Bool { !subfolders.isEmpty }
     }
 }
 
@@ -146,23 +164,21 @@ extension EasySweepCatalog.Entry {
     /// The folder a sandboxed app must be granted to reach this entry, relative
     /// to the home directory — `Library/Caches`, `.npm`, `Library/Developer`.
     ///
-    /// Derived rather than declared, so it cannot disagree with `paths`.
+    /// Derived from `path`, which is literal, so it never touches the disk.
     /// `Library` alone is far too broad to ask for, so paths under it descend
     /// one level; a bare dot-directory in `~` is already narrow enough.
     ///
-    /// Every entry resolves to exactly one. An entry spanning two would be half
-    /// usable under the sandbox, with no honest way to show that on one row.
-    public var grantRoots: Set<String> {
-        Set(paths.compactMap(Self.grantRoot(of:)))
+    /// One per entry, by construction now rather than by a test — that is what
+    /// the single `path` bought.
+    public var grantRoot: String? {
+        Self.grantRoot(of: path)
     }
 
     /// The one folder a sandboxed app would have to be granted to reach `path`.
     ///
     /// Public because a consumer needs it for paths that aren't in the catalog
     /// — ones the user picked, or ones a test builds by hand — and answering it
-    /// the same way as the catalog does is the whole point. It reads the
-    /// pattern only, never the disk, which is why a wildcard may not appear in
-    /// the first two segments.
+    /// the same way as the catalog does is the whole point.
     public static func grantRoot(of path: String) -> String? {
         let parts = path.hasPrefix("~/")
             ? path.dropFirst(2).split(separator: "/").map(String.init)

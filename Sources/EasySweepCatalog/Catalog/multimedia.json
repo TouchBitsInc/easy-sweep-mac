@@ -3,9 +3,10 @@
     "id": "premiere-media-cache",
     "name": "Premiere Pro Media Cache",
     "detail": "Peak and waveform files Premiere Pro, After Effects and Media Encoder share for every clip you've opened in any of them. Rebuilt the next time each clip is played or rendered.",
-    "paths": [
-      "~/Library/Application Support/Adobe/Common/Media Cache Files",
-      "~/Library/Application Support/Adobe/Common/Media Cache"
+    "path": "~/Library/Application Support/Adobe/Common",
+    "subfolders": [
+      "Media Cache Files",
+      "Media Cache"
     ],
     "risk": "safe"
   },
@@ -13,36 +14,33 @@
     "id": "media-encoder-cache",
     "name": "Media Encoder Cache",
     "detail": "Media Encoder's own transcode cache. Rebuilt as queued jobs run again.",
-    "paths": [
-      "~/Library/Application Support/Adobe/Common/Media Encoder/Cache"
-    ],
+    "path": "~/Library/Application Support/Adobe/Common/Media Encoder/Cache",
     "risk": "safe"
   },
   {
     "id": "after-effects-disk-cache",
     "name": "After Effects Disk Cache",
     "detail": "Per-frame render cache, kept in one folder per installed version. Rebuilt as you scrub or preview; comps and project files are untouched.",
-    "paths": [
-      "~/Library/Caches/Adobe/After Effects"
+    "path": "~/Library/Caches/Adobe/After Effects",
+    "subfolders": [
+      "*"
     ],
-    "risk": "safe",
-    "granular": true
+    "risk": "safe"
   },
   {
     "id": "photoshop-cache",
     "name": "Photoshop Cache",
     "detail": "Photoshop's own scratch and preview cache, the same one Edit > Purge > All clears. Rebuilt from whatever documents are open.",
-    "paths": [
-      "~/Library/Caches/Adobe/Photoshop"
-    ],
+    "path": "~/Library/Caches/Adobe/Photoshop",
     "risk": "safe"
   },
   {
     "id": "camera-raw-cache",
     "name": "Camera Raw Cache",
     "detail": "Decoded previews Photoshop and Lightroom Classic keep for raw files, rebuilt as you browse. Your edits live in the catalog or sidecar files, not here.",
-    "paths": [
-      "~/Library/Caches/Adobe Camera Raw*"
+    "path": "~/Library/Caches",
+    "subfolders": [
+      "Adobe Camera Raw*"
     ],
     "risk": "safe"
   },
@@ -50,27 +48,21 @@
     "id": "lightroom-video-cache",
     "name": "Lightroom Video Cache",
     "detail": "Cached video previews Lightroom Classic keeps for fast scrubbing. Rebuilt as you browse; the originals are untouched.",
-    "paths": [
-      "~/Library/Caches/Adobe/Lightroom/Video"
-    ],
+    "path": "~/Library/Caches/Adobe/Lightroom/Video",
     "risk": "safe"
   },
   {
     "id": "ableton-decoding-cache",
     "name": "Ableton Live Decoding Cache",
     "detail": "Decoded copies of compressed samples (mp3, mov and similar) that Live keeps for playback. Live re-decodes and repopulates this automatically.",
-    "paths": [
-      "~/Library/Caches/Ableton/Cache/Decoding"
-    ],
+    "path": "~/Library/Caches/Ableton/Cache/Decoding",
     "risk": "safe"
   },
   {
     "id": "capcut-cache",
     "name": "CapCut Cache",
     "detail": "Rendered previews and imported media CapCut caches while editing. Rebuilt as you work on a project; your projects and source footage are elsewhere.",
-    "paths": [
-      "~/Movies/JianyingPro/User Data/Cache"
-    ],
+    "path": "~/Movies/JianyingPro/User Data/Cache",
     "risk": "safe",
     "symbol": "film"
   }

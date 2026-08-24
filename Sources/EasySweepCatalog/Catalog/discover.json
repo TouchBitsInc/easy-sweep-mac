@@ -1,0 +1,101 @@
+[
+  {
+    "id": "build-output",
+    "name": "Build Output",
+    "detail": "Dependencies and build products sitting beside a project's own manifest. Rebuilt by the project's own tooling, at the cost of a fetch and a full build.",
+    "engine": "tree",
+    "depth": 5,
+    "names": [
+      "node_modules",
+      ".build",
+      "target",
+      "Pods",
+      ".gradle",
+      ".next",
+      ".nuxt",
+      ".turbo",
+      ".parcel-cache",
+      "__pycache__",
+      ".pytest_cache",
+      "_build",
+      "deps"
+    ],
+    "besideAnyOf": [
+      "package.json",
+      "Package.swift",
+      "Cargo.toml",
+      "Podfile",
+      "build.gradle",
+      "build.gradle.kts",
+      "settings.gradle",
+      "pyproject.toml",
+      "mix.exs"
+    ],
+    "risk": "safe",
+    "symbol": "hammer"
+  },
+  {
+    "id": "installers-downloads",
+    "name": "Installers",
+    "detail": "Disk images and packages left behind after being installed. Downloadable again from wherever they came from.",
+    "path": "~/Downloads",
+    "engine": "flat",
+    "extensions": [
+      "dmg",
+      "pkg",
+      "mpkg",
+      "iso",
+      "xip"
+    ],
+    "minimumAgeDays": 14,
+    "risk": "safe",
+    "symbol": "shippingbox"
+  },
+  {
+    "id": "installers-desktop",
+    "name": "Installers",
+    "detail": "Disk images and packages left behind after being installed. Downloadable again from wherever they came from.",
+    "path": "~/Desktop",
+    "engine": "flat",
+    "extensions": [
+      "dmg",
+      "pkg",
+      "mpkg",
+      "iso",
+      "xip"
+    ],
+    "minimumAgeDays": 14,
+    "risk": "safe",
+    "symbol": "shippingbox"
+  },
+  {
+    "id": "partial-downloads-downloads",
+    "name": "Unfinished Downloads",
+    "detail": "Downloads that were interrupted. Nothing can open them; a browser starts again from the beginning.",
+    "path": "~/Downloads",
+    "engine": "flat",
+    "extensions": [
+      "crdownload",
+      "download",
+      "part",
+      "partial"
+    ],
+    "risk": "safe",
+    "symbol": "arrow.down.circle.dotted"
+  },
+  {
+    "id": "partial-downloads-desktop",
+    "name": "Unfinished Downloads",
+    "detail": "Downloads that were interrupted. Nothing can open them; a browser starts again from the beginning.",
+    "path": "~/Desktop",
+    "engine": "flat",
+    "extensions": [
+      "crdownload",
+      "download",
+      "part",
+      "partial"
+    ],
+    "risk": "safe",
+    "symbol": "arrow.down.circle.dotted"
+  }
+]

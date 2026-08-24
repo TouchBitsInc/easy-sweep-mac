@@ -3,50 +3,51 @@
     "id": "derived-data",
     "name": "Derived Data",
     "detail": "Build intermediates, indexes and logs. Xcode rebuilds these on the next build.",
-    "paths": [
-      "~/Library/Developer/Xcode/DerivedData"
+    "path": "~/Library/Developer/Xcode/DerivedData",
+    "subfolders": [
+      "*"
     ],
     "risk": "safe",
-    "granular": true,
     "symbol": "hammer.fill"
   },
   {
     "id": "ios-device-support",
     "name": "iOS Device Support",
     "detail": "Debug symbols copied from connected iPhones and iPads, one folder per OS build.",
-    "paths": [
-      "~/Library/Developer/Xcode/iOS DeviceSupport"
+    "path": "~/Library/Developer/Xcode/iOS DeviceSupport",
+    "subfolders": [
+      "*"
     ],
-    "risk": "safe",
-    "granular": true
+    "risk": "safe"
   },
   {
     "id": "tvos-device-support",
     "name": "tvOS Device Support",
     "detail": "Debug symbols copied from connected Apple TVs, one folder per OS build.",
-    "paths": [
-      "~/Library/Developer/Xcode/tvOS DeviceSupport"
+    "path": "~/Library/Developer/Xcode/tvOS DeviceSupport",
+    "subfolders": [
+      "*"
     ],
-    "risk": "safe",
-    "granular": true
+    "risk": "safe"
   },
   {
     "id": "watchos-device-support",
     "name": "watchOS Device Support",
     "detail": "Debug symbols copied from paired Apple Watches, one folder per OS build.",
-    "paths": [
-      "~/Library/Developer/Xcode/watchOS DeviceSupport"
+    "path": "~/Library/Developer/Xcode/watchOS DeviceSupport",
+    "subfolders": [
+      "*"
     ],
-    "risk": "safe",
-    "granular": true
+    "risk": "safe"
   },
   {
     "id": "documentation",
     "name": "Documentation Cache",
     "detail": "Downloaded and indexed developer documentation. Re-fetched on demand.",
-    "paths": [
-      "~/Library/Developer/Xcode/DocumentationCache",
-      "~/Library/Developer/Xcode/DocumentationIndex"
+    "path": "~/Library/Developer/Xcode",
+    "subfolders": [
+      "DocumentationCache",
+      "DocumentationIndex"
     ],
     "risk": "safe",
     "symbol": "book.closed.fill"
@@ -55,9 +56,10 @@
     "id": "xcode-products-logs",
     "name": "Products & Device Logs",
     "detail": "Exported build products and crash logs pulled from devices.",
-    "paths": [
-      "~/Library/Developer/Xcode/Products",
-      "~/Library/Developer/Xcode/DeviceLogs"
+    "path": "~/Library/Developer/Xcode",
+    "subfolders": [
+      "Products",
+      "DeviceLogs"
     ],
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -66,9 +68,7 @@
     "id": "dvt-downloads",
     "name": "Xcode Downloads",
     "detail": "Leftover installers and components downloaded by older Xcode versions.",
-    "paths": [
-      "~/Library/Developer/DVTDownloads"
-    ],
+    "path": "~/Library/Developer/DVTDownloads",
     "risk": "safe",
     "symbol": "arrow.down.circle.fill"
   },
@@ -76,9 +76,7 @@
     "id": "xcodebuildmcp",
     "name": "XcodeBuildMCP Data",
     "detail": "Build artifacts and logs from the XcodeBuildMCP tooling.",
-    "paths": [
-      "~/Library/Developer/XcodeBuildMCP"
-    ],
+    "path": "~/Library/Developer/XcodeBuildMCP",
     "risk": "safe",
     "symbol": "terminal.fill"
   },
@@ -86,9 +84,7 @@
     "id": "xcode-app-cache",
     "name": "Xcode Application Cache",
     "detail": "Xcode's own scratch cache, separate from Derived Data.",
-    "paths": [
-      "~/Library/Caches/com.apple.dt.Xcode"
-    ],
+    "path": "~/Library/Caches/com.apple.dt.Xcode",
     "risk": "safe",
     "symbol": "externaldrive.fill"
   },
@@ -96,9 +92,7 @@
     "id": "coredevice-cache",
     "name": "Device Connection Cache",
     "detail": "Staged app bundles and symbols CoreDevice keeps when running on real  devices. Rebuilt on the next run.",
-    "paths": [
-      "~/Library/Containers/com.apple.CoreDevice.CoreDeviceService/Data/Library/Caches"
-    ],
+    "path": "~/Library/Containers/com.apple.CoreDevice.CoreDeviceService/Data/Library/Caches",
     "risk": "safe",
     "symbol": "externaldrive.fill"
   },
@@ -106,9 +100,7 @@
     "id": "configurator-temp",
     "name": "Apple Configurator Downloads",
     "detail": "Device firmware and staging files Apple Configurator left in its temporary folder. Downloaded again the next time a device is restored or updated.",
-    "paths": [
-      "~/Library/Containers/com.apple.configurator.xpc.DeviceService/Data/tmp"
-    ],
+    "path": "~/Library/Containers/com.apple.configurator.xpc.DeviceService/Data/tmp",
     "risk": "safe",
     "symbol": "cable.connector"
   },
@@ -116,20 +108,18 @@
     "id": "archives",
     "name": "Archives",
     "detail": "Distribution builds and their dSYMs. Without these you cannot symbolicate  crash reports from versions you already shipped.",
-    "paths": [
-      "~/Library/Developer/Xcode/Archives"
+    "path": "~/Library/Developer/Xcode/Archives",
+    "subfolders": [
+      "*"
     ],
     "risk": "risky",
-    "granular": true,
     "symbol": "archivebox.fill"
   },
   {
     "id": "simulator-caches",
     "name": "Simulator Caches",
     "detail": "Shared CoreSimulator caches, including dyld and image caches. No devices are  removed.",
-    "paths": [
-      "~/Library/Developer/CoreSimulator/Caches"
-    ],
+    "path": "~/Library/Developer/CoreSimulator/Caches",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -137,31 +127,29 @@
     "id": "xctest-devices",
     "name": "Test Simulator Clones",
     "detail": "Simulator clones created by parallel testing. Usually stale, and often the  single largest item on this machine.",
-    "paths": [
-      "~/Library/Developer/XCTestDevices"
+    "path": "~/Library/Developer/XCTestDevices",
+    "subfolders": [
+      "*"
     ],
     "risk": "risky",
-    "granular": true,
     "symbol": "square.on.square"
   },
   {
     "id": "simulator-devices",
     "name": "Simulator Devices",
     "detail": "Your installed simulators, including any apps and data inside them.",
-    "paths": [
-      "~/Library/Developer/CoreSimulator/Devices"
+    "path": "~/Library/Developer/CoreSimulator/Devices",
+    "subfolders": [
+      "*"
     ],
     "risk": "risky",
-    "granular": true,
     "symbol": "iphone"
   },
   {
     "id": "playground-devices",
     "name": "Playground Devices",
     "detail": "Simulator instances backing Swift Playgrounds previews.",
-    "paths": [
-      "~/Library/Developer/XCPGDevices"
-    ],
+    "path": "~/Library/Developer/XCPGDevices",
     "risk": "risky",
     "symbol": "swift"
   },
@@ -169,19 +157,17 @@
     "id": "xcode-system-resources",
     "name": "Xcode System Resources",
     "detail": "Installer packages Xcode downloads per OS build. One folder per build, so old ones pile up after every update; Xcode refetches what it needs.",
-    "paths": [
-      "~/Library/Developer/Packages"
+    "path": "~/Library/Developer/Packages",
+    "subfolders": [
+      "*"
     ],
-    "risk": "safe",
-    "granular": true
+    "risk": "safe"
   },
   {
     "id": "swiftpm-cache",
     "name": "Swift Package Manager",
     "detail": "Cloned package repositories and resolved artifacts. Re-fetched on the next  resolve.",
-    "paths": [
-      "~/Library/Caches/org.swift.swiftpm"
-    ],
+    "path": "~/Library/Caches/org.swift.swiftpm",
     "risk": "safe",
     "symbol": "cube.box.fill",
     "brandColor": "#F05138"
@@ -190,9 +176,7 @@
     "id": "cocoapods",
     "name": "CocoaPods Cache",
     "detail": "Downloaded pod sources. Restored by the next `pod install`.",
-    "paths": [
-      "~/Library/Caches/CocoaPods"
-    ],
+    "path": "~/Library/Caches/CocoaPods",
     "risk": "safe",
     "symbol": "cube.box.fill",
     "brandColor": "#EE3322"
@@ -201,9 +185,7 @@
     "id": "cocoapods-repos",
     "name": "CocoaPods Spec Repos",
     "detail": "Podspec repositories, including any private ones — those must be added  again by hand with `pod repo add`.",
-    "paths": [
-      "~/.cocoapods/repos"
-    ],
+    "path": "~/.cocoapods/repos",
     "risk": "risky",
     "symbol": "cube.box.fill",
     "brandColor": "#EE3322"
@@ -212,9 +194,7 @@
     "id": "carthage",
     "name": "Carthage",
     "detail": "Cloned dependencies and prebuilt frameworks.",
-    "paths": [
-      "~/Library/Caches/org.carthage.CarthageKit"
-    ],
+    "path": "~/Library/Caches/org.carthage.CarthageKit",
     "risk": "safe",
     "symbol": "cube.box.fill"
   },
@@ -222,9 +202,7 @@
     "id": "homebrew",
     "name": "Homebrew",
     "detail": "Downloaded bottles and casks. Homebrew refetches whatever it needs.",
-    "paths": [
-      "~/Library/Caches/Homebrew"
-    ],
+    "path": "~/Library/Caches/Homebrew",
     "risk": "safe",
     "symbol": "mug.fill",
     "brandColor": "#FBB040"
@@ -233,12 +211,13 @@
     "id": "gradle",
     "name": "Gradle",
     "detail": "Dependency cache, daemon logs and downloaded Gradle distributions.",
-    "paths": [
-      "~/.gradle/caches",
-      "~/.gradle/daemon",
-      "~/.gradle/wrapper",
-      "~/.gradle/notifications",
-      "~/.gradle/workers"
+    "path": "~/.gradle",
+    "subfolders": [
+      "caches",
+      "daemon",
+      "wrapper",
+      "notifications",
+      "workers"
     ],
     "risk": "safe",
     "symbol": "cube.fill",
@@ -248,9 +227,10 @@
     "id": "android",
     "name": "Android SDK",
     "detail": "Build and IDE caches. Emulator images in ~/.android/avd are left alone.",
-    "paths": [
-      "~/.android/cache",
-      "~/.android/build-cache"
+    "path": "~/.android",
+    "subfolders": [
+      "cache",
+      "build-cache"
     ],
     "risk": "safe",
     "symbol": "cube.fill",
@@ -260,8 +240,9 @@
     "id": "android-studio-cache",
     "name": "Android Studio",
     "detail": "Android Studio's caches and indexes. Rebuilt when the IDE next opens a project.",
-    "paths": [
-      "~/Library/Caches/Google/AndroidStudio*"
+    "path": "~/Library/Caches/Google",
+    "subfolders": [
+      "AndroidStudio*"
     ],
     "risk": "safe",
     "symbol": "cube.fill",
@@ -271,9 +252,7 @@
     "id": "jetbrains",
     "name": "JetBrains IDEs",
     "detail": "Indexes and caches for IntelliJ, WebStorm, PyCharm and the rest. Settings  live elsewhere and are untouched.",
-    "paths": [
-      "~/Library/Caches/JetBrains"
-    ],
+    "path": "~/Library/Caches/JetBrains",
     "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right"
   },
@@ -281,9 +260,10 @@
     "id": "vscode",
     "name": "VS Code",
     "detail": "VS Code's cached extension downloads and compiled data. Rebuilt as you open projects and install extensions; the web cache beside it is covered by Desktop App Web Caches.",
-    "paths": [
-      "~/Library/Application Support/Code/CachedData",
-      "~/Library/Application Support/Code/CachedExtensionVSIXs"
+    "path": "~/Library/Application Support/Code",
+    "subfolders": [
+      "CachedData",
+      "CachedExtensionVSIXs"
     ],
     "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right",
@@ -293,9 +273,10 @@
     "id": "npm-cache",
     "name": "npm & npx Cache",
     "detail": "Package tarballs and one-off npx installs. npm re-downloads as needed.",
-    "paths": [
-      "~/.npm/_cacache",
-      "~/.npm/_npx"
+    "path": "~/.npm",
+    "subfolders": [
+      "_cacache",
+      "_npx"
     ],
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -305,9 +286,7 @@
     "id": "yarn",
     "name": "Yarn",
     "detail": "Package cache. Yarn re-downloads whatever a project needs.",
-    "paths": [
-      "~/Library/Caches/Yarn"
-    ],
+    "path": "~/Library/Caches/Yarn",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#2C8EBB"
@@ -316,9 +295,7 @@
     "id": "pnpm",
     "name": "pnpm",
     "detail": "Content-addressable package store. Restored by pnpm install.",
-    "paths": [
-      "~/Library/pnpm/store"
-    ],
+    "path": "~/Library/pnpm/store",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#F69220"
@@ -327,9 +304,7 @@
     "id": "electron",
     "name": "Electron",
     "detail": "Prebuilt Electron binaries downloaded by app builds.",
-    "paths": [
-      "~/Library/Caches/electron"
-    ],
+    "path": "~/Library/Caches/electron",
     "risk": "safe",
     "symbol": "atom",
     "brandColor": "#47848F"
@@ -338,9 +313,7 @@
     "id": "pip",
     "name": "Python pip",
     "detail": "Downloaded wheels and source archives.",
-    "paths": [
-      "~/Library/Caches/pip"
-    ],
+    "path": "~/Library/Caches/pip",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#3776AB"
@@ -349,9 +322,7 @@
     "id": "cargo",
     "name": "Rust Cargo",
     "detail": "Crate registry cache and sources. Installed binaries in ~/.cargo/bin are  left alone.",
-    "paths": [
-      "~/.cargo/registry"
-    ],
+    "path": "~/.cargo/registry",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -359,9 +330,7 @@
     "id": "go-build",
     "name": "Go Build Cache",
     "detail": "Compiled package objects. Rebuilt on the next build.",
-    "paths": [
-      "~/Library/Caches/go-build"
-    ],
+    "path": "~/Library/Caches/go-build",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#00ADD8"
@@ -370,9 +339,7 @@
     "id": "maven",
     "name": "Maven",
     "detail": "The local artifact repository, re-downloaded on the next build.",
-    "paths": [
-      "~/.m2/repository"
-    ],
+    "path": "~/.m2/repository",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#C71A36"
@@ -381,9 +348,7 @@
     "id": "nuget",
     "name": "NuGet",
     "detail": "Global package cache for .NET projects.",
-    "paths": [
-      "~/.nuget/packages"
-    ],
+    "path": "~/.nuget/packages",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#004880"
@@ -392,9 +357,7 @@
     "id": "pub-cache",
     "name": "Dart & Flutter Packages",
     "detail": "The pub package cache, restored by `flutter pub get`.",
-    "paths": [
-      "~/.pub-cache"
-    ],
+    "path": "~/.pub-cache",
     "risk": "safe",
     "symbol": "shippingbox.fill",
     "brandColor": "#0175C2"
@@ -403,63 +366,52 @@
     "id": "bun",
     "name": "Bun",
     "detail": "Downloaded packages for bun install. Refetched on the next install.",
-    "paths": [
-      "~/.bun/install/cache"
-    ],
+    "path": "~/.bun/install/cache",
     "risk": "safe"
   },
   {
     "id": "deno",
     "name": "Deno",
     "detail": "Fetched remote modules and the compiled-module cache. Deno re-downloads  them when a script next runs.",
-    "paths": [
-      "~/Library/Caches/deno"
-    ],
+    "path": "~/Library/Caches/deno",
     "risk": "safe"
   },
   {
     "id": "playwright",
     "name": "Playwright Browsers",
     "detail": "Downloaded Chromium, Firefox and WebKit builds. Large, and refetched by  playwright install.",
-    "paths": [
-      "~/Library/Caches/ms-playwright"
-    ],
+    "path": "~/Library/Caches/ms-playwright",
     "risk": "safe"
   },
   {
     "id": "composer",
     "name": "Composer",
     "detail": "PHP package and repository cache.",
-    "paths": [
-      "~/.composer/cache"
-    ],
+    "path": "~/.composer/cache",
     "risk": "safe"
   },
   {
     "id": "composer-library",
     "name": "Composer (Library)",
     "detail": "Composer's cache in its newer location. Same contents, refetched on install.",
-    "paths": [
-      "~/Library/Caches/composer"
-    ],
+    "path": "~/Library/Caches/composer",
     "risk": "safe"
   },
   {
     "id": "nvm",
     "name": "nvm Downloads",
     "detail": "Node tarballs kept after install. The installed versions themselves are  left alone.",
-    "paths": [
-      "~/.nvm/.cache"
-    ],
+    "path": "~/.nvm/.cache",
     "risk": "safe"
   },
   {
     "id": "sdkman",
     "name": "SDKMAN Archives",
     "detail": "Downloaded JDK and tool archives. The unpacked versions are left alone.",
-    "paths": [
-      "~/.sdkman/archives",
-      "~/.sdkman/tmp"
+    "path": "~/.sdkman",
+    "subfolders": [
+      "archives",
+      "tmp"
     ],
     "risk": "safe"
   },
@@ -467,31 +419,29 @@
     "id": "typescript",
     "name": "TypeScript",
     "detail": "Auto-installed type definitions for editors.",
-    "paths": [
-      "~/Library/Caches/typescript"
-    ],
+    "path": "~/Library/Caches/typescript",
     "risk": "safe"
   },
   {
     "id": "xdg-cache",
     "name": "Shared Tool Cache",
     "detail": "~/.cache, shared by many CLI tools. Regenerable, but cleaning it can interrupt a CLI session that is running right now.",
-    "paths": [
-      "~/.cache"
+    "path": "~/.cache",
+    "subfolders": [
+      "*"
     ],
     "risk": "safe",
-    "granular": true,
     "symbol": "tray.full.fill"
   },
   {
     "id": "node-gyp",
     "name": "node-gyp Headers",
     "detail": "Node headers and libraries kept per version for building native modules. Redownloaded on the next native build.",
-    "paths": [
-      "~/Library/Caches/node-gyp"
+    "path": "~/Library/Caches/node-gyp",
+    "subfolders": [
+      "*"
     ],
     "risk": "safe",
-    "granular": true,
     "symbol": "hammer.fill",
     "brandColor": "#539E43"
   },
@@ -499,18 +449,14 @@
     "id": "playwright-go",
     "name": "Playwright Browsers (Go)",
     "detail": "Browser builds downloaded by the Go port of Playwright, kept separately from the Node one. Refetched on the next install.",
-    "paths": [
-      "~/Library/Caches/ms-playwright-go"
-    ],
+    "path": "~/Library/Caches/ms-playwright-go",
     "risk": "safe"
   },
   {
     "id": "rustup-toolchains",
     "name": "Rust Toolchains (rustup)",
     "detail": "Full compiler and standard library copies for each Rust toolchain rustup installed. Reinstalled with rustup toolchain install, though the download isn't instant.",
-    "paths": [
-      "~/.rustup/toolchains"
-    ],
+    "path": "~/.rustup/toolchains",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -518,9 +464,7 @@
     "id": "ccache",
     "name": "ccache",
     "detail": "Cached compiler object files, keyed by source and flags. Rebuilt automatically on the next cache miss.",
-    "paths": [
-      "~/Library/Caches/ccache"
-    ],
+    "path": "~/Library/Caches/ccache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -528,9 +472,7 @@
     "id": "sccache",
     "name": "sccache",
     "detail": "Mozilla's shared compiler cache for Rust and C/C++ builds. Rebuilt automatically as you compile.",
-    "paths": [
-      "~/Library/Caches/Mozilla.sccache"
-    ],
+    "path": "~/Library/Caches/Mozilla.sccache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -538,9 +480,7 @@
     "id": "poetry-cache",
     "name": "Poetry Cache",
     "detail": "Downloaded package artifacts and virtual environments Poetry keeps between installs. Refetched and rebuilt on the next poetry install.",
-    "paths": [
-      "~/Library/Caches/pypoetry"
-    ],
+    "path": "~/Library/Caches/pypoetry",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -548,9 +488,7 @@
     "id": "uv-cache",
     "name": "uv Cache",
     "detail": "Downloaded wheels and sources the uv package manager keeps for reuse across projects. Refetched on the next install.",
-    "paths": [
-      "~/Library/Caches/uv"
-    ],
+    "path": "~/Library/Caches/uv",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -558,9 +496,7 @@
     "id": "vagrant-boxes",
     "name": "Vagrant Boxes",
     "detail": "Downloaded base VM images added with vagrant box add. Re-downloaded the next time a Vagrantfile needs one.",
-    "paths": [
-      "~/.vagrant.d/boxes"
-    ],
+    "path": "~/.vagrant.d/boxes",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -568,9 +504,7 @@
     "id": "sbt-ivy-cache",
     "name": "Ivy Cache (sbt/Scala)",
     "detail": "Downloaded JARs and dependencies sbt resolves through Ivy. Refetched on the next build.",
-    "paths": [
-      "~/.ivy2/cache"
-    ],
+    "path": "~/.ivy2/cache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -578,9 +512,7 @@
     "id": "expo-cache",
     "name": "Expo CLI Cache",
     "detail": "Cached simulator builds, native module downloads and templates the Expo CLI keeps between runs. Refetched as needed.",
-    "paths": [
-      "~/.expo"
-    ],
+    "path": "~/.expo",
     "risk": "safe",
     "symbol": "shippingbox.fill"
   },
@@ -588,9 +520,7 @@
     "id": "go-modules",
     "name": "Go Modules",
     "detail": "Source of every module version your Go builds have downloaded. Re-fetched from the network on the next build that needs one, which is what `go clean -modcache` leaves behind.",
-    "paths": [
-      "~/go/pkg/mod"
-    ],
+    "path": "~/go/pkg/mod",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#00ADD8"
@@ -599,9 +529,7 @@
     "id": "conda-packages",
     "name": "conda Packages",
     "detail": "Package archives conda keeps after installing them into environments. Downloaded again when an environment next needs them; the environments themselves are elsewhere.",
-    "paths": [
-      "~/.conda/pkgs"
-    ],
+    "path": "~/.conda/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#43B02A"
@@ -610,9 +538,7 @@
     "id": "miniconda-packages",
     "name": "Miniconda Packages",
     "detail": "The package archive cache inside a Miniconda install. Re-downloaded when an environment needs them again.",
-    "paths": [
-      "~/miniconda3/pkgs"
-    ],
+    "path": "~/miniconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#43B02A"
@@ -621,9 +547,7 @@
     "id": "anaconda-packages",
     "name": "Anaconda Packages",
     "detail": "The package archive cache inside an Anaconda install. Re-downloaded when an environment needs them again.",
-    "paths": [
-      "~/anaconda3/pkgs"
-    ],
+    "path": "~/anaconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#43B02A"
@@ -632,9 +556,7 @@
     "id": "miniforge-packages",
     "name": "Miniforge Packages",
     "detail": "The package archive cache inside a Miniforge install. Re-downloaded when an environment needs them again.",
-    "paths": [
-      "~/miniforge3/pkgs"
-    ],
+    "path": "~/miniforge3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#43B02A"
@@ -643,9 +565,7 @@
     "id": "mise-cache",
     "name": "mise",
     "detail": "Tool archives and metadata mise downloads while installing runtimes. Fetched again the next time a version is installed.",
-    "paths": [
-      "~/Library/Caches/mise"
-    ],
+    "path": "~/Library/Caches/mise",
     "risk": "safe",
     "symbol": "arrow.triangle.branch"
   },
@@ -653,9 +573,7 @@
     "id": "tart-images",
     "name": "Tart VM Images",
     "detail": "Virtual machine images Tart has pulled from a registry. Pulled again on demand; VMs you created yourself are stored separately.",
-    "paths": [
-      "~/.tart/cache"
-    ],
+    "path": "~/.tart/cache",
     "risk": "safe",
     "symbol": "shippingbox"
   },
@@ -663,9 +581,7 @@
     "id": "mambaforge-packages",
     "name": "Mambaforge Packages",
     "detail": "The package archive cache inside a Mambaforge install. Re-downloaded when an environment needs them again.",
-    "paths": [
-      "~/mambaforge/pkgs"
-    ],
+    "path": "~/mambaforge/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#43B02A"
@@ -674,9 +590,7 @@
     "id": "lima-images",
     "name": "Lima VM Images",
     "detail": "Guest images Lima downloaded to create its virtual machines, kept by URL hash. Fetched again the next time a machine is created; the machines themselves live in ~/.lima and are untouched.",
-    "paths": [
-      "~/Library/Caches/lima"
-    ],
+    "path": "~/Library/Caches/lima",
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#5C6BC0"

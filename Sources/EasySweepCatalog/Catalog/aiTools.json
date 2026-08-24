@@ -3,12 +3,13 @@
     "id": "claude-caches",
     "name": "Claude Code Caches",
     "detail": "Caches, debug logs, shell snapshots and downloads. Settings and memory are  left untouched.",
-    "paths": [
-      "~/.claude/cache",
-      "~/.claude/debug",
-      "~/.claude/paste-cache",
-      "~/.claude/shell-snapshots",
-      "~/.claude/downloads"
+    "path": "~/.claude",
+    "subfolders": [
+      "cache",
+      "debug",
+      "paste-cache",
+      "shell-snapshots",
+      "downloads"
     ],
     "risk": "safe",
     "symbol": "sparkle",
@@ -18,9 +19,7 @@
     "id": "claude-cli-cache",
     "name": "Claude Code npm Cache",
     "detail": "The CLI's Node package cache. Refetched when the CLI next updates.",
-    "paths": [
-      "~/Library/Caches/claude-cli-nodejs"
-    ],
+    "path": "~/Library/Caches/claude-cli-nodejs",
     "risk": "safe",
     "symbol": "sparkle",
     "brandColor": "#D97757"
@@ -29,9 +28,7 @@
     "id": "gemini-tmp",
     "name": "Gemini CLI Temp",
     "detail": "Scratch files written by the Gemini CLI.",
-    "paths": [
-      "~/.gemini/tmp"
-    ],
+    "path": "~/.gemini/tmp",
     "risk": "safe",
     "symbol": "sparkles",
     "brandColor": "#8E75B2"
@@ -40,9 +37,7 @@
     "id": "cursor-cache",
     "name": "Cursor Cache",
     "detail": "Cached extension and index data for the Cursor editor.",
-    "paths": [
-      "~/.cursor/extensions/.cache"
-    ],
+    "path": "~/.cursor/extensions/.cache",
     "risk": "safe",
     "symbol": "cursorarrow"
   },
@@ -50,26 +45,26 @@
     "id": "codex-sessions",
     "name": "Codex Session History",
     "detail": "Recorded Codex sessions and logs. Deleting these loses your past transcripts.",
-    "paths": [
-      "~/.codex/sessions",
-      "~/.codex/archived_sessions",
-      "~/.codex/log"
+    "path": "~/.codex",
+    "subfolders": [
+      "sessions",
+      "archived_sessions",
+      "log"
     ],
     "risk": "risky",
-    "granular": true,
     "symbol": "text.book.closed.fill"
   },
   {
     "id": "claude-projects",
     "name": "Claude Code Session History",
     "detail": "Per-project transcripts, backups, and the file history that powers  rewinding edits. Deleting these loses resume, search, and undo.",
-    "paths": [
-      "~/.claude/projects",
-      "~/.claude/backups",
-      "~/.claude/file-history"
+    "path": "~/.claude",
+    "subfolders": [
+      "projects",
+      "backups",
+      "file-history"
     ],
     "risk": "risky",
-    "granular": true,
     "symbol": "sparkle",
     "brandColor": "#D97757"
   },
@@ -77,38 +72,29 @@
     "id": "codeium-browser",
     "name": "Windsurf Browser Downloads",
     "detail": "Chromium builds the Codeium and Windsurf tooling downloads for its browser features. Refetched when next needed.",
-    "paths": [
-      "~/.codeium/ws-browser"
-    ],
+    "path": "~/.codeium/ws-browser",
     "risk": "safe"
   },
   {
     "id": "codex-app-cache",
     "name": "Codex App Cache",
     "detail": "Rendering and network cache for the Codex desktop app. Rebuilt as you use it; your sessions live elsewhere and are untouched.",
-    "paths": [
-      "~/Library/Caches/Codex"
-    ],
+    "path": "~/Library/Caches/Codex",
     "risk": "safe"
   },
   {
     "id": "ollama-models",
     "name": "Ollama Models",
     "detail": "Language models you pulled with Ollama. Removing them frees the most space of anything here, and each one has to be downloaded again with ollama pull — often several gigabytes apiece, so only clear models you've finished with.",
-    "paths": [
-      "~/.ollama/models"
-    ],
+    "path": "~/.ollama/models",
     "risk": "risky",
-    "granular": false,
     "symbol": "brain"
   },
   {
     "id": "lmstudio-backends",
     "name": "LM Studio Runtimes",
     "detail": "Inference engines LM Studio downloads to run models — llama.cpp, MLX and similar. Refetched automatically the next time a model needs one, but that is a multi-gigabyte download.",
-    "paths": [
-      "~/.lmstudio/extensions/backends"
-    ],
+    "path": "~/.lmstudio/extensions/backends",
     "risk": "risky",
     "symbol": "shippingbox.fill"
   },
@@ -116,9 +102,7 @@
     "id": "codex-app-updates",
     "name": "Codex Updater",
     "detail": "Update packages the Codex app downloaded and has already installed. Fetched again only when the next update arrives.",
-    "paths": [
-      "~/Library/Caches/com.openai.codex"
-    ],
+    "path": "~/Library/Caches/com.openai.codex",
     "risk": "safe",
     "symbol": "arrow.down.circle"
   },
@@ -126,9 +110,7 @@
     "id": "lmstudio-models",
     "name": "LM Studio Models",
     "detail": "Model weights downloaded through LM Studio. Removing one frees gigabytes and means downloading it again before it can be run.",
-    "paths": [
-      "~/.lmstudio/models"
-    ],
+    "path": "~/.lmstudio/models",
     "risk": "risky",
     "symbol": "brain"
   }
