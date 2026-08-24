@@ -65,5 +65,22 @@
     "path": "~/Movies/JianyingPro/User Data/Cache",
     "risk": "safe",
     "symbol": "film"
+  },
+  {
+    "id": "music-artwork-cache",
+    "name": "Music Artwork",
+    "detail": "Album and video artwork the Music and TV apps have downloaded. Refetched as you browse your library; nothing you own is stored here.",
+    "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
+    "risk": "safe",
+    "symbol": "music.note"
+  },
+  {
+    "id": "spotify-cache",
+    "name": "Spotify Cache",
+    "detail": "Audio Spotify has buffered, including tracks downloaded for offline listening. Streams again over the network, so offline playlists have to re-download before they work away from a connection.",
+    "path": "~/Library/Caches/com.spotify.client",
+    "risk": "safe",
+    "symbol": "waveform",
+    "brandColor": "#1DB954"
   }
 ]
