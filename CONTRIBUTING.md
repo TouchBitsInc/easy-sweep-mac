@@ -48,9 +48,22 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "path": "~/.bun/install/cache",
   "risk": "safe",
   "symbol": "shippingbox.fill",
-  "brandColor": "#000000"
+  "brandColor": "#000000",
+  "localizations": {
+    "fr": {
+      "name": "Bun",
+      "detail": "Paquets téléchargés pour bun install. Retéléchargés lors de la prochaine installation."
+    }
+  }
 }
 ```
+
+`name` and `detail` are the English fallback. `localizations` is an expandable
+map keyed by BCP-47 locale identifiers; every supported locale should have both
+fields, while English may rely on the top-level fields. Keep paths, commands,
+product names and quoted identifiers unchanged inside a translation. Consumers
+use `Entry.localizedName(for:)` and `Entry.localizedDetail(for:)`, which fall
+back from a regional or script locale to its language and then to English.
 
 **One `path` per entry, and it is literal.** That single path is the folder a
 sandboxed app has to be granted, so it must be readable without listing the
@@ -116,8 +129,10 @@ have. That second case is not something CI here can catch — the runner's OS is
 not the user's — which is why the fallback exists rather than a validation rule
 alone.
 
-What a section is *called* is not here. Titles are localized by the consuming
-app, and a string in this file could only ever be English.
+The section title is in this file too: `categories.json` uses the same
+locale-keyed shape as entries. Add a new locale there when adding one to the
+app; `Category.localizedName(for:)` applies the same regional, script and
+English fallback order.
 
 ## What contributors cannot set
 

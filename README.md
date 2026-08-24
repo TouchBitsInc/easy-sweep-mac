@@ -74,6 +74,11 @@ than a fixed set of language fields. That keeps adding a supported language
 data-only, and leaves room for more localized presentation fields later without
 changing the top-level category shape.
 
+Each catalog entry keeps English in `name` and `detail` for compatibility and
+stores translated copy in its own `localizations` map. Use
+`Entry.localizedName(for:)` and `Entry.localizedDetail(for:)`; locale matching
+accepts regional and script variants before falling back to English.
+
 ## What isn't here, deliberately
 
 Whether something may be deleted *without asking*, and whether removal needs a
