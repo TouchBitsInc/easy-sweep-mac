@@ -606,5 +606,83 @@
     "risk": "risky",
     "symbol": "cpu",
     "brandColor": "#3DDC84"
+  },
+  {
+    "id": "terraform-plugins",
+    "name": "Terraform Providers",
+    "detail": "Provider plugins Terraform downloads and shares between working directories. Fetched again on the next terraform init that needs one.",
+    "path": "~/.terraform.d/plugin-cache",
+    "risk": "safe",
+    "symbol": "cube.transparent",
+    "brandColor": "#7B42BC"
+  },
+  {
+    "id": "pnpm-store-home",
+    "name": "pnpm Store (home)",
+    "detail": "The content-addressable package store pnpm uses when it is not configured to sit under Library. Refetched on the next install; run pnpm store prune first if you want only the unreferenced part.",
+    "path": "~/.pnpm-store",
+    "risk": "safe",
+    "symbol": "shippingbox",
+    "brandColor": "#F69220"
+  },
+  {
+    "id": "cabal-packages",
+    "name": "Cabal Packages",
+    "detail": "Source archives Cabal downloaded from Hackage, one folder per repository. Downloaded again on the next build that needs them.",
+    "path": "~/.cabal/packages",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "safe",
+    "symbol": "shippingbox",
+    "brandColor": "#5E5086"
+  },
+  {
+    "id": "stack-snapshots",
+    "name": "Stack Snapshots",
+    "detail": "Compiled package snapshots Stack builds per resolver, one folder each and several gigabytes between them. Rebuilt on the next build — which for Haskell is a long one.",
+    "path": "~/.stack/snapshots",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "safe",
+    "symbol": "cube",
+    "brandColor": "#5E5086"
+  },
+  {
+    "id": "pyenv-versions",
+    "name": "pyenv Pythons",
+    "detail": "Python versions pyenv has built or installed, one folder each. Removing the version a project pins means installing it again before that project runs.",
+    "path": "~/.pyenv/versions",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "brandColor": "#3776AB"
+  },
+  {
+    "id": "rbenv-versions",
+    "name": "rbenv Rubies",
+    "detail": "Ruby versions rbenv has installed, one folder each, with their gems inside. Removing the version in use means installing it and its gems again.",
+    "path": "~/.rbenv/versions",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "diamond",
+    "brandColor": "#CC342D"
+  },
+  {
+    "id": "nvm-node-versions",
+    "name": "nvm Node Versions",
+    "detail": "Node versions nvm has installed, one folder each, with their global packages inside. The version your shell defaults to is in here too.",
+    "path": "~/.nvm/versions/node",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "hexagon",
+    "brandColor": "#5FA04E"
   }
 ]
