@@ -17,11 +17,14 @@ import Foundation
 public enum PathPattern {
     /// How many folders one entry may resolve to.
     ///
-    /// Generous rather than tight: `~/Library/Application Support/*/Code Cache`
-    /// is bounded by how many apps are installed, which is legitimately in the
-    /// hundreds, and a cap that truncated it would report a partial measurement
-    /// as a complete one.
-    public static let resolutionLimit = 512
+    /// Deliberately far beyond anything real. `~/Library/Logs/*` and
+    /// `~/Library/Saved Application State/*` run to hundreds on an ordinary Mac,
+    /// and `~/Library/Application Support/*/Cache` is bounded only by how many
+    /// apps are installed. A cap those could reach would truncate silently, and
+    /// a partial measurement presented as a complete one is worse than no cap:
+    /// the header total under-reports and a clean takes only the first N.
+    /// This exists to stop unbounded work, nothing else.
+    public static let resolutionLimit = 8192
 
     /// Whether a catalog path contains the wildcard.
     public static func isPattern(_ path: String) -> Bool {
@@ -131,7 +134,13 @@ public enum PathPattern {
 
     /// One `*` within a single segment, so this is a prefix and suffix test
     /// rather than a glob engine.
+    ///
+    /// A wildcard does not match a hidden name unless the pattern asks for one,
+    /// the same rule a shell glob follows. `~/.cache/*` means the caches inside,
+    /// not the `.DS_Store` and lock files beside them — and enumerating those as
+    /// tickable rows is a different offer than the entry intended to make.
     static func matches(name: String, pattern: String) -> Bool {
+        if name.hasPrefix("."), !pattern.hasPrefix(".") { return false }
         guard let star = pattern.firstIndex(of: "*") else { return name == pattern }
         let prefix = String(pattern[pattern.startIndex..<star])
         let suffix = String(pattern[pattern.index(after: star)...])

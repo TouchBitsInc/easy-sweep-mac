@@ -321,16 +321,34 @@ struct PathPatternTests {
         #expect(hits.allSatisfy { $0.lastPathComponent == "CacheStorage" })
     }
 
-    /// The cap is there to stop unbounded work, not to trim a plausible entry:
-    /// one per installed app is legitimately in the hundreds.
-    @Test func resolutionIsCapped() throws {
-        #expect(PathPattern.resolutionLimit >= 256)
-        let names = (0..<(PathPattern.resolutionLimit + 20)).map { "Support/app\($0)/Cache/x" }
+    /// The cap must sit far beyond anything real. `~/Library/Logs/*` and
+    /// `Application Support/*/Cache` run to hundreds on an ordinary Mac, and a
+    /// truncated expansion is a partial measurement presented as a complete one.
+    @Test func aRealisticExpansionIsNotTruncated() throws {
+        #expect(PathPattern.resolutionLimit >= 4096)
+        let names = (0..<900).map { "Support/app\($0)/Cache/x" }
         let root = try tree(names)
         defer { try? FileManager.default.removeItem(at: root) }
 
         let hits = PathPattern.resolve(path: "~/Support", subfolders: ["*/Cache"], home: root)
-        #expect(hits.count == PathPattern.resolutionLimit)
+        #expect(hits.count == 900)
+    }
+
+    /// A wildcard skips hidden names, as a shell glob does. Enumerating
+    /// `.DS_Store` and lock files as tickable rows offers something the entry
+    /// did not mean to offer.
+    @Test func aWildcardDoesNotMatchHiddenNames() throws {
+        let root = try tree([
+            "cache/real/x", "cache/.DS_Store", "cache/.lock/y", "cache/.pytest_cache/z",
+        ])
+        defer { try? FileManager.default.removeItem(at: root) }
+
+        let all = PathPattern.resolve(path: "~/cache", subfolders: ["*"], home: root)
+        #expect(all.map(\.lastPathComponent) == ["real"])
+
+        // Unless the pattern asks for one by name.
+        let hidden = PathPattern.resolve(path: "~/cache", subfolders: [".pytest*"], home: root)
+        #expect(hidden.map(\.lastPathComponent) == [".pytest_cache"])
     }
 
     private func tree(_ files: [String]) throws -> URL {
