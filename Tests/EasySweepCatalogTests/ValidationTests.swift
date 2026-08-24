@@ -177,6 +177,37 @@ struct CatalogValidationTests {
         #endif
     }
 
+    /// Same rule for the sections' own glyphs, plus the one CI can check that a
+    /// contributor cannot: that every section is named in the file at all.
+    @Test func categorySymbolsResolve() throws {
+        #if canImport(AppKit)
+        for category in EasySweepCatalog.Category.allCases {
+            let named = try #require(
+                EasySweepCatalog.categorySymbols[category.rawValue],
+                "\(category.rawValue): categories.json names no symbol"
+            )
+            #expect(
+                NSImage(systemSymbolName: named, accessibilityDescription: nil) != nil,
+                "\(category.rawValue): \(named) is not an SF Symbol on this OS"
+            )
+            #expect(category.symbol == named)
+        }
+        #endif
+    }
+
+    /// The built-in names are the fallback for a missing or unreadable file, so
+    /// they have to be real too — nothing validates them at runtime.
+    @Test func builtInCategorySymbolsResolve() {
+        #if canImport(AppKit)
+        for category in EasySweepCatalog.Category.allCases {
+            #expect(
+                NSImage(systemSymbolName: category.builtInSymbol, accessibilityDescription: nil) != nil,
+                "\(category.rawValue): \(category.builtInSymbol) is not an SF Symbol on this OS"
+            )
+        }
+        #endif
+    }
+
     @Test func brandColoursParse() {
         for entry in entries {
             guard let hex = entry.brandColor else { continue }
