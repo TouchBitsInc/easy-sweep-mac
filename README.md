@@ -61,6 +61,13 @@ The short version:
   name the parent and give it `"subfolders": ["*"]` instead — the app shows a
   size per version.
 
+## Section icons
+
+`Catalog/categories.json` names the SF Symbol for each section, and
+`Category.symbol` returns it — falling back to a compiled-in name if the symbol
+doesn't exist on the running macOS. Section *titles* stay in the consuming app,
+which localizes them.
+
 ## What isn't here, deliberately
 
 Whether something may be deleted *without asking*, and whether removal needs a

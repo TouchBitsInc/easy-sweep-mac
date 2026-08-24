@@ -95,6 +95,30 @@ for an app to let someone put away. Adding a section means a case, a
 `<rawValue>.json` beside the others, and deciding `isPinned` — the switch is
 exhaustive so it cannot be skipped.
 
+### A section's icon
+
+`categories.json` names the SF Symbol each section is drawn with, keyed by the
+same id as its entry file:
+
+```json
+{
+  "multimedia": { "symbol": "movieclapper" }
+}
+```
+
+It is contributable for the reason `Entry.symbol` is — which glyph reads as
+"media" is a judgement, and this is where judgements about the catalog are
+collected. Two guards sit under it, because an unknown SF Symbol name renders as
+*nothing at all* rather than a placeholder: `builtInSymbol` in
+`CategoryPresentation.swift` is a compiled-in name per section, and `symbol`
+returns it whenever the file names none or names one the running macOS does not
+have. That second case is not something CI here can catch — the runner's OS is
+not the user's — which is why the fallback exists rather than a validation rule
+alone.
+
+What a section is *called* is not here. Titles are localized by the consuming
+app, and a string in this file could only ever be English.
+
 ## What contributors cannot set
 
 These live in the app, keyed by `id`, and are deliberately absent from the
