@@ -22,14 +22,6 @@
     "symbol": "photo.on.rectangle.angled"
   },
   {
-    "id": "music-artwork-cache",
-    "name": "Music Artwork",
-    "detail": "Album and video artwork the Music and TV apps have downloaded. Refetched as you browse your library; nothing you own is stored here.",
-    "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
-    "risk": "safe",
-    "symbol": "music.note"
-  },
-  {
     "id": "electron-http-caches",
     "name": "Desktop App Web Caches",
     "detail": "The web cache each Electron app keeps beside its data — Discord, Slack and the rest are browsers underneath. Refilled as the app is used, and separate from the accounts and messages it stores.",
@@ -104,15 +96,6 @@
     "risk": "safe",
     "symbol": "cloud",
     "brandColor": "#0078D4"
-  },
-  {
-    "id": "spotify-cache",
-    "name": "Spotify Cache",
-    "detail": "Audio Spotify has buffered, including tracks downloaded for offline listening. Streams again over the network, so offline playlists have to re-download before they work away from a connection.",
-    "path": "~/Library/Caches/com.spotify.client",
-    "risk": "safe",
-    "symbol": "waveform",
-    "brandColor": "#1DB954"
   },
   {
     "id": "crash-reports",
