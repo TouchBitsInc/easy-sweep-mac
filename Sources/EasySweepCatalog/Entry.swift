@@ -64,6 +64,18 @@ extension EasySweepCatalog {
         case risky
     }
 
+    /// User-facing entry copy keyed by a BCP-47 locale identifier. Optional
+    /// fields keep the shape extensible when another localized field is added.
+    public struct LocalizedContent: Codable, Hashable, Sendable {
+        public let name: String?
+        public let detail: String?
+
+        public init(name: String? = nil, detail: String? = nil) {
+            self.name = name
+            self.detail = detail
+        }
+    }
+
     /// One cleanable location, as published in the catalog.
     ///
     /// **One path, and either the folder itself or what to take inside it.** A
@@ -119,6 +131,9 @@ extension EasySweepCatalog {
         /// consuming app's business, and doing it here would misreport the
         /// brand.
         public let brandColor: String?
+        /// Localized name and explanation. English remains in `name` and
+        /// `detail` so older consumers can read newer catalog files.
+        public let localizations: [String: LocalizedContent]
 
         public init(
             id: String,
@@ -128,7 +143,8 @@ extension EasySweepCatalog {
             subfolders: [String] = [],
             risk: Risk = .risky,
             symbol: String? = nil,
-            brandColor: String? = nil
+            brandColor: String? = nil,
+            localizations: [String: LocalizedContent] = [:]
         ) {
             self.id = id
             self.name = name
@@ -138,6 +154,7 @@ extension EasySweepCatalog {
             self.risk = risk
             self.symbol = symbol
             self.brandColor = brandColor
+            self.localizations = localizations
         }
 
         public init(from decoder: any Decoder) throws {
@@ -152,6 +169,20 @@ extension EasySweepCatalog {
             risk = try container.decodeIfPresent(Risk.self, forKey: .risk) ?? .risky
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             brandColor = try container.decodeIfPresent(String.self, forKey: .brandColor)
+            localizations = try container.decodeIfPresent(
+                [String: LocalizedContent].self,
+                forKey: .localizations
+            ) ?? [:]
+        }
+
+        /// The entry name for a locale, falling back to the English field.
+        public func localizedName(for locale: Locale = .current) -> String {
+            CatalogLocalization.resolve(localizations, locale: locale) { $0.name } ?? name
+        }
+
+        /// The entry explanation for a locale, falling back to the English field.
+        public func localizedDetail(for locale: Locale = .current) -> String {
+            CatalogLocalization.resolve(localizations, locale: locale) { $0.detail } ?? detail
         }
 
         /// Whether the user picks among children rather than taking the whole

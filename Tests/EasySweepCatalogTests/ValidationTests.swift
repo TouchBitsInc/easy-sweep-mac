@@ -18,6 +18,10 @@ import AppKit
 struct CatalogValidationTests {
 
     let entries = EasySweepCatalog.all
+    let supportedLocales = [
+        "en", "de", "es", "fr", "it", "ja", "ko", "nl", "pl",
+        "pt-BR", "ru", "tr", "uk", "zh-Hans", "zh-Hant", "zh-HK"
+    ]
 
     @Test func everyCategoryLoads() {
         // Qualified: bare `Category` resolves to Darwin's own C typealias.
@@ -196,13 +200,8 @@ struct CatalogValidationTests {
     }
 
     @Test func categoryNamesCoverSupportedLocales() {
-        let locales = [
-            "en", "de", "es", "fr", "it", "ja", "ko", "nl", "pl",
-            "pt-BR", "ru", "tr", "uk", "zh-Hans", "zh-Hant", "zh-HK"
-        ]
-
         for category in EasySweepCatalog.Category.allCases {
-            for identifier in locales {
+            for identifier in supportedLocales {
                 let name = category.localizedName(for: Locale(identifier: identifier))
                 #expect(!name.isEmpty, "\(category.rawValue) has no name for \(identifier)")
                 #expect(name != category.rawValue, "\(category.rawValue) fell back to its id for \(identifier)")
@@ -227,6 +226,38 @@ struct CatalogValidationTests {
             EasySweepCatalog.Category.developer.localizedName(for: Locale(identifier: "xx"))
                 == "Developer"
         )
+    }
+
+    @Test func entryCopyCoversSupportedLocales() {
+        for entry in entries {
+            for identifier in supportedLocales {
+                let locale = Locale(identifier: identifier)
+                let copy = entry.localizations[identifier]
+                #expect(copy?.name?.isEmpty == false, "\(entry.id) has no name for \(identifier)")
+                if identifier == "en" {
+                    #expect(copy?.detail == nil || copy?.detail?.isEmpty == false)
+                    #expect(entry.localizedDetail(for: locale) == entry.detail)
+                } else {
+                    #expect(copy?.detail?.isEmpty == false, "\(entry.id) has no detail for \(identifier)")
+                    #expect(entry.localizedDetail(for: locale) == copy?.detail)
+                }
+                #expect(entry.localizedName(for: locale) == copy?.name)
+            }
+        }
+    }
+
+    @Test func entryCopyFallsBackByLocaleParent() throws {
+        let entry = try #require(entries.first(where: { $0.id == "chrome-cache" }))
+        #expect(
+            entry.localizedName(for: Locale(identifier: "fr-CA"))
+                == entry.localizations["fr"]?.name
+        )
+        #expect(
+            entry.localizedDetail(for: Locale(identifier: "fr-CA"))
+                == entry.localizations["fr"]?.detail
+        )
+        #expect(entry.localizedName(for: Locale(identifier: "xx")) == entry.name)
+        #expect(entry.localizedDetail(for: Locale(identifier: "xx")) == entry.detail)
     }
 
     /// The built-in names are the fallback for a missing or unreadable file, so

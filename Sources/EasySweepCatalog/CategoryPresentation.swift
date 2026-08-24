@@ -6,8 +6,11 @@ extension EasySweepCatalog.Category {
     /// match, the language, and finally English. The config uses BCP-47 keys,
     /// so adding another locale is data-only.
     public func localizedName(for locale: Locale = .current) -> String {
-        EasySweepCatalog.categoryPresentations[rawValue]?.name(for: locale)
-            ?? rawValue
+        guard let presentation = EasySweepCatalog.categoryPresentations[rawValue],
+              let localizations = presentation.localizations,
+              let name = CatalogLocalization.resolve(localizations, locale: locale, value: \.name)
+        else { return rawValue }
+        return name
     }
 
     /// The SF Symbol a consumer draws for the section, from `categories.json`.
@@ -71,38 +74,6 @@ extension EasySweepCatalog {
     /// locale-keyed copy extensible without changing the category map's shape.
     private struct Presentation: Decodable {
         let symbol: String?
-        let localizations: [String: Localization]?
-
-        func name(for locale: Locale) -> String? {
-            guard let localizations else { return nil }
-
-            let normalized = locale.identifier.replacingOccurrences(of: "_", with: "-")
-            let components = normalized.split(separator: "-").map(String.init)
-            var candidates = [normalized]
-
-            if let language = components.first {
-                if let script = components.first(where: { $0.count == 4 }) {
-                    candidates.append("\(language)-\(script)")
-                }
-                if let region = components.dropFirst().first(where: { $0.count == 2 || $0.count == 3 }) {
-                    candidates.append("\(language)-\(region)")
-                }
-                candidates.append(language)
-            }
-            candidates.append("en")
-
-            for candidate in candidates {
-                if let match = localizations.first(where: {
-                    $0.key.compare(candidate, options: .caseInsensitive) == .orderedSame
-                }), let name = match.value.name, !name.isEmpty {
-                    return name
-                }
-            }
-            return nil
-        }
-
-        struct Localization: Decodable {
-            let name: String?
-        }
+        let localizations: [String: EasySweepCatalog.LocalizedContent]?
     }
 }
