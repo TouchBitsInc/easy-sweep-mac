@@ -1,7 +1,267 @@
 {
-  "system": { "symbol": "laptopcomputer" },
-  "developer": { "symbol": "hammer" },
-  "aiTools": { "symbol": "sparkles" },
-  "browsers": { "symbol": "globe" },
-  "multimedia": { "symbol": "movieclapper" }
+  "system": {
+    "symbol": "laptopcomputer",
+    "localizations": {
+      "en": {
+        "name": "System"
+      },
+      "de": {
+        "name": "System"
+      },
+      "es": {
+        "name": "Sistema"
+      },
+      "fr": {
+        "name": "Système"
+      },
+      "it": {
+        "name": "Sistema"
+      },
+      "ja": {
+        "name": "システム"
+      },
+      "ko": {
+        "name": "시스템"
+      },
+      "nl": {
+        "name": "Systeem"
+      },
+      "pl": {
+        "name": "System"
+      },
+      "pt-BR": {
+        "name": "Sistema"
+      },
+      "ru": {
+        "name": "Система"
+      },
+      "tr": {
+        "name": "Sistem"
+      },
+      "uk": {
+        "name": "Система"
+      },
+      "zh-Hans": {
+        "name": "系统"
+      },
+      "zh-Hant": {
+        "name": "系統"
+      },
+      "zh-HK": {
+        "name": "系統"
+      }
+    }
+  },
+  "developer": {
+    "symbol": "hammer",
+    "localizations": {
+      "en": {
+        "name": "Developer"
+      },
+      "de": {
+        "name": "Entwickler"
+      },
+      "es": {
+        "name": "Desarrollo"
+      },
+      "fr": {
+        "name": "Développement"
+      },
+      "it": {
+        "name": "Sviluppo"
+      },
+      "ja": {
+        "name": "開発"
+      },
+      "ko": {
+        "name": "개발"
+      },
+      "nl": {
+        "name": "Ontwikkeling"
+      },
+      "pl": {
+        "name": "Deweloper"
+      },
+      "pt-BR": {
+        "name": "Desenvolvimento"
+      },
+      "ru": {
+        "name": "Разработка"
+      },
+      "tr": {
+        "name": "Geliştirici"
+      },
+      "uk": {
+        "name": "Розробка"
+      },
+      "zh-Hans": {
+        "name": "开发"
+      },
+      "zh-Hant": {
+        "name": "開發"
+      },
+      "zh-HK": {
+        "name": "開發"
+      }
+    }
+  },
+  "aiTools": {
+    "symbol": "sparkles",
+    "localizations": {
+      "en": {
+        "name": "AI Tools"
+      },
+      "de": {
+        "name": "KI-Tools"
+      },
+      "es": {
+        "name": "Herramientas de IA"
+      },
+      "fr": {
+        "name": "Outils d’IA"
+      },
+      "it": {
+        "name": "Strumenti IA"
+      },
+      "ja": {
+        "name": "AIツール"
+      },
+      "ko": {
+        "name": "AI 도구"
+      },
+      "nl": {
+        "name": "AI-tools"
+      },
+      "pl": {
+        "name": "Narzędzia AI"
+      },
+      "pt-BR": {
+        "name": "Ferramentas de IA"
+      },
+      "ru": {
+        "name": "AI-инструменты"
+      },
+      "tr": {
+        "name": "AI Araçları"
+      },
+      "uk": {
+        "name": "AI-інструменти"
+      },
+      "zh-Hans": {
+        "name": "AI 工具"
+      },
+      "zh-Hant": {
+        "name": "AI 工具"
+      },
+      "zh-HK": {
+        "name": "AI 工具"
+      }
+    }
+  },
+  "browsers": {
+    "symbol": "globe",
+    "localizations": {
+      "en": {
+        "name": "Browsers"
+      },
+      "de": {
+        "name": "Browser"
+      },
+      "es": {
+        "name": "Navegadores"
+      },
+      "fr": {
+        "name": "Navigateurs"
+      },
+      "it": {
+        "name": "Browser"
+      },
+      "ja": {
+        "name": "ブラウザ"
+      },
+      "ko": {
+        "name": "브라우저"
+      },
+      "nl": {
+        "name": "Browsers"
+      },
+      "pl": {
+        "name": "Przeglądarki"
+      },
+      "pt-BR": {
+        "name": "Navegadores"
+      },
+      "ru": {
+        "name": "Браузеры"
+      },
+      "tr": {
+        "name": "Tarayıcılar"
+      },
+      "uk": {
+        "name": "Браузери"
+      },
+      "zh-Hans": {
+        "name": "浏览器"
+      },
+      "zh-Hant": {
+        "name": "瀏覽器"
+      },
+      "zh-HK": {
+        "name": "瀏覽器"
+      }
+    }
+  },
+  "multimedia": {
+    "symbol": "movieclapper",
+    "localizations": {
+      "en": {
+        "name": "Media"
+      },
+      "de": {
+        "name": "Medien"
+      },
+      "es": {
+        "name": "Multimedia"
+      },
+      "fr": {
+        "name": "Médias"
+      },
+      "it": {
+        "name": "Multimedia"
+      },
+      "ja": {
+        "name": "メディア"
+      },
+      "ko": {
+        "name": "미디어"
+      },
+      "nl": {
+        "name": "Media"
+      },
+      "pl": {
+        "name": "Multimedia"
+      },
+      "pt-BR": {
+        "name": "Mídia"
+      },
+      "ru": {
+        "name": "Мультимедиа"
+      },
+      "tr": {
+        "name": "Medya"
+      },
+      "uk": {
+        "name": "Мультимедіа"
+      },
+      "zh-Hans": {
+        "name": "媒体"
+      },
+      "zh-Hant": {
+        "name": "媒體"
+      },
+      "zh-HK": {
+        "name": "媒體"
+      }
+    }
+  }
 }

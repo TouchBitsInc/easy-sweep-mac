@@ -195,6 +195,40 @@ struct CatalogValidationTests {
         #endif
     }
 
+    @Test func categoryNamesCoverSupportedLocales() {
+        let locales = [
+            "en", "de", "es", "fr", "it", "ja", "ko", "nl", "pl",
+            "pt-BR", "ru", "tr", "uk", "zh-Hans", "zh-Hant", "zh-HK"
+        ]
+
+        for category in EasySweepCatalog.Category.allCases {
+            for identifier in locales {
+                let name = category.localizedName(for: Locale(identifier: identifier))
+                #expect(!name.isEmpty, "\(category.rawValue) has no name for \(identifier)")
+                #expect(name != category.rawValue, "\(category.rawValue) fell back to its id for \(identifier)")
+            }
+        }
+    }
+
+    @Test func categoryNamesFallBackByLocaleParent() {
+        #expect(
+            EasySweepCatalog.Category.developer.localizedName(for: Locale(identifier: "fr-CA"))
+                == "Développement"
+        )
+        #expect(
+            EasySweepCatalog.Category.developer.localizedName(for: Locale(identifier: "zh-Hant-TW"))
+                == "開發"
+        )
+        #expect(
+            EasySweepCatalog.Category.developer.localizedName(for: Locale(identifier: "en-CA"))
+                == "Developer"
+        )
+        #expect(
+            EasySweepCatalog.Category.developer.localizedName(for: Locale(identifier: "xx"))
+                == "Developer"
+        )
+    }
+
     /// The built-in names are the fallback for a missing or unreadable file, so
     /// they have to be real too — nothing validates them at runtime.
     @Test func builtInCategorySymbolsResolve() {
@@ -395,4 +429,3 @@ struct PathPatternTests {
         return root
     }
 }
-
