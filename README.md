@@ -33,7 +33,7 @@ Open a pull request against the JSON file for the section it belongs in:
   "id": "bun",
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
-  "paths": ["~/.bun/install/cache"],
+  "path": "~/.bun/install/cache",
   "risk": "safe",
   "symbol": "shippingbox.fill",
   "brandColor": "#000000"
@@ -58,7 +58,7 @@ The short version:
 - **Say what regenerates it.** `detail` is what someone reads immediately before
   deleting. "Refetched on the next install", never "safe to delete".
 - **Wildcards are a last resort.** Where a version is the whole folder name,
-  name the parent and set `granular` instead — the consuming app then shows a
+  name the parent and give it `"subfolders": ["*"]` instead — the app shows a
   size per version.
 
 ## What isn't here, deliberately

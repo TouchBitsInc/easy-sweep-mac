@@ -3,9 +3,7 @@
     "id": "chrome-cache",
     "name": "Google Chrome",
     "detail": "Pages, images and scripts Chrome keeps to load sites faster. Rebuilt as you browse; your history, passwords and open tabs are somewhere else and are untouched.",
-    "paths": [
-      "~/Library/Caches/Google/Chrome"
-    ],
+    "path": "~/Library/Caches/Google/Chrome",
     "risk": "safe",
     "symbol": "globe",
     "brandColor": "#4285F4"
@@ -14,9 +12,7 @@
     "id": "safari-cache",
     "name": "Safari",
     "detail": "Safari's page cache. Rebuilt as you browse, and separate from your history and saved passwords.",
-    "paths": [
-      "~/Library/Caches/com.apple.Safari"
-    ],
+    "path": "~/Library/Caches/com.apple.Safari",
     "risk": "safe",
     "symbol": "safari",
     "brandColor": "#0FB5EE"
@@ -25,9 +21,7 @@
     "id": "firefox-cache",
     "name": "Firefox",
     "detail": "Firefox's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
-    "paths": [
-      "~/Library/Caches/Firefox"
-    ],
+    "path": "~/Library/Caches/Firefox",
     "risk": "safe",
     "symbol": "globe",
     "brandColor": "#FF7139"
@@ -36,9 +30,7 @@
     "id": "edge-cache",
     "name": "Microsoft Edge",
     "detail": "Edge's page cache. Rebuilt as you browse, and separate from your profile data.",
-    "paths": [
-      "~/Library/Caches/Microsoft Edge"
-    ],
+    "path": "~/Library/Caches/Microsoft Edge",
     "risk": "safe",
     "symbol": "globe",
     "brandColor": "#0078D7"
@@ -47,9 +39,7 @@
     "id": "brave-cache",
     "name": "Brave",
     "detail": "Brave's page cache. Rebuilt as you browse, and separate from your profile data.",
-    "paths": [
-      "~/Library/Caches/BraveSoftware"
-    ],
+    "path": "~/Library/Caches/BraveSoftware",
     "risk": "safe",
     "symbol": "globe",
     "brandColor": "#FB542B"
@@ -58,9 +48,7 @@
     "id": "arc-cache",
     "name": "Arc",
     "detail": "Arc's page cache. Rebuilt as you browse, and separate from your spaces and tabs.",
-    "paths": [
-      "~/Library/Caches/company.thebrowser.Browser"
-    ],
+    "path": "~/Library/Caches/company.thebrowser.Browser",
     "risk": "safe",
     "symbol": "globe"
   },
@@ -68,10 +56,11 @@
     "id": "chrome-site-cache",
     "name": "Google Chrome Site Data",
     "detail": "Offline site data and shader caches Google Chrome keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
-    "paths": [
-      "~/Library/Application Support/Google/Chrome/*/Service Worker/CacheStorage",
-      "~/Library/Application Support/Google/Chrome/*/Service Worker/ScriptCache",
-      "~/Library/Application Support/Google/Chrome/*/GPUCache"
+    "path": "~/Library/Application Support/Google/Chrome",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
     ],
     "risk": "safe",
     "symbol": "globe",
@@ -81,10 +70,11 @@
     "id": "edge-site-cache",
     "name": "Microsoft Edge Site Data",
     "detail": "Offline site data and shader caches Microsoft Edge keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
-    "paths": [
-      "~/Library/Application Support/Microsoft Edge/*/Service Worker/CacheStorage",
-      "~/Library/Application Support/Microsoft Edge/*/Service Worker/ScriptCache",
-      "~/Library/Application Support/Microsoft Edge/*/GPUCache"
+    "path": "~/Library/Application Support/Microsoft Edge",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
     ],
     "risk": "safe",
     "symbol": "globe",
@@ -94,10 +84,11 @@
     "id": "brave-site-cache",
     "name": "Brave Site Data",
     "detail": "Offline site data and shader caches Brave keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
-    "paths": [
-      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/Service Worker/CacheStorage",
-      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/Service Worker/ScriptCache",
-      "~/Library/Application Support/BraveSoftware/Brave-Browser/*/GPUCache"
+    "path": "~/Library/Application Support/BraveSoftware/Brave-Browser",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
     ],
     "risk": "safe",
     "symbol": "globe",
@@ -107,10 +98,11 @@
     "id": "arc-site-cache",
     "name": "Arc Site Data",
     "detail": "Offline site data and shader caches Arc keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
-    "paths": [
-      "~/Library/Application Support/Arc/User Data/*/Service Worker/CacheStorage",
-      "~/Library/Application Support/Arc/User Data/*/Service Worker/ScriptCache",
-      "~/Library/Application Support/Arc/User Data/*/GPUCache"
+    "path": "~/Library/Application Support/Arc/User Data",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
     ],
     "risk": "safe",
     "symbol": "globe",

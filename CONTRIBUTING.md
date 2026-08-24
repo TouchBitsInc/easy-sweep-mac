@@ -45,13 +45,35 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "id": "bun",
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
-  "paths": ["~/.bun/install/cache"],
+  "path": "~/.bun/install/cache",
   "risk": "safe",
   "symbol": "shippingbox.fill",
-  "brandColor": "#000000",
-  "granular": false
+  "brandColor": "#000000"
 }
 ```
+
+**One `path` per entry, and it is literal.** That single path is the folder a
+sandboxed app has to be granted, so it must be readable without listing the
+disk — which is why a wildcard may never appear in it. An entry whose locations
+live under two different parents is two entries; `composer` and
+`composer-library` are the standing example.
+
+**`subfolders` is what to take inside that path, and each one is a row the user
+ticks.**
+
+```json
+{ "path": "~/.gradle", "subfolders": ["caches", "daemon", "wrapper"] }
+{ "path": "~/Library/Developer/Xcode/DerivedData", "subfolders": ["*"] }
+{ "path": "~/Library/Application Support", "subfolders": ["*/Code Cache"] }
+```
+
+- Absent means the folder itself, one row.
+- `["*"]` means every child, a row each.
+- A named list gives a row per name, and any segment may carry a single `*`,
+  because `path` already supplies the literal anchor.
+
+There is no `granular` flag and no `paths` array; both were folded into this in
+2.0.0.
 
 `id` is permanent and must be unique across every file. It keys the app-side
 safety table below, so renaming one silently drops that entry's local settings.
@@ -98,7 +120,7 @@ still misleads someone at the moment they confirm a deletion.
 `yarn-pnpm` and `composer` each name two. Targets whose paths don't exist are
 hidden automatically, so listing a path that only some setups have is free.
 
-**Versioned directories: name the parent, set `granular`.** Where the version is
+**Versioned directories: name the parent, and give it `["*"]`.** Where the version is
 the whole leaf — `iOS DeviceSupport/iPhone17,4 26.5.2 (23F84)`,
 `Caches/JetBrains/<product><version>` — point at the parent and let the scanner
 enumerate. The user gets a per-version size and a tickable row for each, which a
@@ -117,24 +139,24 @@ every upgrade. So `~/Library/Caches/Google/AndroidStudio*` — with these limits
 
 - `*` matches **within one path segment**. `**` is not representable, so a
   pattern cannot descend arbitrarily.
-- **No wildcard in the first two segments.** Every pattern needs a literal
-  anchor, `~/*` is rejected outright, and `grantRoots` stays computable without
-  touching the disk.
-- Matches are capped. A pattern resolving to hundreds of directories is a bug or
-  an attack, not a cache.
+- **No wildcard in `path`, ever.** The entry's own path is the literal anchor,
+  so `grantRoot` stays computable without touching the disk. Wildcards live in
+  `subfolders`, which are already inside a folder the entry named in full.
+- Expansion is capped at 512 folders — enough that one row per installed app is
+  never truncated, low enough that nothing runs away.
 - Expansions pass through `PathGuard` and the existence filter exactly as
   literal paths do.
 
-CI rejects a wildcard where parent-plus-`granular` would have worked. Left
-unchecked, contributors reach for `*` by habit and the per-version selection that
-makes the Developer section useful quietly disappears.
+Prefer a named subfolder to a wildcard where the name is stable: `["caches",
+"daemon"]` says what will go, where `["*"]` says "whatever is in there".
 
 ## Grant roots — one entry, one folder
 
 A *grant root* is the folder the sandboxed Mac App Store build must ask the user
-for: `Library/Developer`, `Library/Caches`, `.npm`. `CleanTarget.grantRoots`
-derives them from `paths` rather than taking a declaration, so **adding a path
-silently adds a permission the store build will demand**.
+for: `Library/Developer`, `Library/Caches`, `.npm`. It is derived from the
+entry's single `path` rather than declared, so **adding an entry silently adds a
+permission the store build will demand** — which is why one entry has exactly
+one root, now by the shape of the schema rather than by a test.
 
 **Every entry must sit under exactly one root.** An entry spanning two is half
 usable under the sandbox — one folder granted, the other not — and there is no

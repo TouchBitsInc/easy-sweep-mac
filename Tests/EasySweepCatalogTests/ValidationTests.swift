@@ -72,8 +72,15 @@ struct CatalogValidationTests {
     /// The rule that would have caught adding `~/.cache/uv` while `xdg-cache`
     /// already sweeps `~/.cache`: the bytes are then counted twice, once in the
     /// section total and again in the bar.
+    ///
+    /// Compared on **declared** paths — the root joined to each subfolder — not
+    /// on roots. Two entries may now legitimately share a root
+    /// (`~/Library/Application Support` holds several), and comparing roots
+    /// would both fail those and miss two subfolder patterns that collide.
+    /// Declared rather than resolved, so the answer doesn't depend on what
+    /// happens to be installed on the machine running the test.
     @Test func noPathContainsAnother() {
-        let all = entries.flatMap { entry in entry.paths.map { (entry.id, $0) } }
+        let all = entries.flatMap { entry in entry.declaredPaths.map { (entry.id, $0) } }
         for (idA, pathA) in all {
             for (idB, pathB) in all where idA != idB {
                 #expect(
@@ -84,27 +91,29 @@ struct CatalogValidationTests {
         }
     }
 
-    @Test func pathsAreTildeRelativeAndWellFormed() {
+    /// A wildcard in `path` would make the grant root unreadable without
+    /// touching the disk, which is the whole reason the two fields are separate.
+    @Test func pathsAreLiteralAndTildeRelative() {
         for entry in entries {
-            #expect(!entry.paths.isEmpty, "\(entry.id) names no path")
-            for path in entry.paths {
-                #expect(
-                    PathPattern.rejectionReason(for: path) == nil,
-                    "\(entry.id): \(path) — \(PathPattern.rejectionReason(for: path) ?? "")"
-                )
+            let reason = PathPattern.rejectionReason(forPath: entry.path)
+            #expect(reason == nil, "\(entry.id): \(entry.path) — \(reason ?? "")")
+        }
+    }
+
+    @Test func subfoldersAreRelativeAndWellFormed() {
+        for entry in entries {
+            for subfolder in entry.subfolders {
+                let reason = PathPattern.rejectionReason(forSubfolder: subfolder)
+                #expect(reason == nil, "\(entry.id): \(subfolder) — \(reason ?? "")")
             }
         }
     }
 
-    /// An entry spanning two roots is half usable under the sandbox — one
-    /// folder granted, the other not — with no honest way to show that on a
-    /// single row.
-    @Test func eachEntryHasExactlyOneGrantRoot() {
+    /// One path per entry means one grant root by construction. This checks the
+    /// derivation still answers, rather than that the shape allows it.
+    @Test func everyEntryDerivesAGrantRoot() {
         for entry in entries {
-            #expect(
-                entry.grantRoots.count == 1,
-                "\(entry.id) spans \(entry.grantRoots.sorted()) — split it"
-            )
+            #expect(entry.grantRoot != nil, "\(entry.id) has no grant root")
         }
     }
 
@@ -140,12 +149,11 @@ struct CatalogValidationTests {
             "Movies",
         ]
         for entry in entries {
-            for root in entry.grantRoots {
-                #expect(
-                    allowed.contains(root) || root.hasPrefix("."),
-                    "\(entry.id) needs \(root), which is neither an allowed Library folder nor a dot-directory"
-                )
-            }
+            guard let root = entry.grantRoot else { continue }
+            #expect(
+                allowed.contains(root) || root.hasPrefix("."),
+                "\(entry.id) needs \(root): not an allowed Library folder or dot-directory"
+            )
         }
     }
 
@@ -190,35 +198,52 @@ struct CatalogValidationTests {
 @Suite("Path patterns")
 struct PathPatternTests {
 
+    // MARK: - The entry's path
+
     @Test func literalPathsAreAccepted() {
-        #expect(PathPattern.rejectionReason(for: "~/Library/Caches/Homebrew") == nil)
-        #expect(PathPattern.rejectionReason(for: "~/.npm/_cacache") == nil)
+        #expect(PathPattern.rejectionReason(forPath: "~/Library/Caches/Homebrew") == nil)
+        #expect(PathPattern.rejectionReason(forPath: "~/.npm/_cacache") == nil)
     }
 
     @Test func absolutePathsAreRefused() {
-        #expect(PathPattern.rejectionReason(for: "/Library/Caches") != nil)
-        #expect(PathPattern.rejectionReason(for: "/etc/passwd") != nil)
+        #expect(PathPattern.rejectionReason(forPath: "/Library/Caches") != nil)
+        #expect(PathPattern.rejectionReason(forPath: "/etc/passwd") != nil)
     }
 
-    /// The whole point of the anchor rule: a pattern must never be able to name
-    /// the home directory's own contents.
-    @Test func wildcardsNeedTwoLiteralSegments() {
-        #expect(PathPattern.rejectionReason(for: "~/*") != nil)
-        #expect(PathPattern.rejectionReason(for: "~/Library/*") != nil)
-        #expect(PathPattern.rejectionReason(for: "~/Library/Caches/Google/AndroidStudio*") == nil)
+    /// A wildcard in the path would make the grant root unknowable without
+    /// listing the disk, which is what splitting path from subfolders bought.
+    @Test func aWildcardInThePathIsRefused() {
+        #expect(PathPattern.rejectionReason(forPath: "~/Library/Caches/Google/Android*") != nil)
+        #expect(PathPattern.rejectionReason(forPath: "~/*") != nil)
+    }
+
+    @Test func traversalIsRefusedInThePath() {
+        #expect(PathPattern.rejectionReason(forPath: "~/Library/Caches/../../../etc") != nil)
+    }
+
+    // MARK: - Subfolders
+
+    @Test func subfoldersMayCarryOneWildcardPerSegment() {
+        #expect(PathPattern.rejectionReason(forSubfolder: "*") == nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "*/Code Cache") == nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "AndroidStudio*") == nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "a*b*c") != nil)
     }
 
     @Test func recursiveGlobsAreNotRepresentable() {
-        #expect(PathPattern.rejectionReason(for: "~/Library/Caches/**/tmp") != nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "**/tmp") != nil)
     }
 
-    @Test func traversalIsRefused() {
-        #expect(PathPattern.rejectionReason(for: "~/Library/Caches/../../../etc") != nil)
+    /// A subfolder that escapes its entry's path would put the grant root and
+    /// the deletion target in different folders.
+    @Test func subfoldersCannotEscapeTheirPath() {
+        #expect(PathPattern.rejectionReason(forSubfolder: "../elsewhere") != nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "/Library") != nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "~/Library") != nil)
+        #expect(PathPattern.rejectionReason(forSubfolder: "") != nil)
     }
 
-    @Test func oneStarPerSegment() {
-        #expect(PathPattern.rejectionReason(for: "~/Library/Caches/a*b*c") != nil)
-    }
+    // MARK: - Matching
 
     @Test func matchingIsPrefixAndSuffix() {
         #expect(PathPattern.matches(name: "AndroidStudio2024.1", pattern: "AndroidStudio*"))
@@ -227,34 +252,94 @@ struct PathPatternTests {
         #expect(!PathPattern.matches(name: "gradle-8.5-all", pattern: "gradle-*-bin"))
     }
 
+    // MARK: - Resolution
+
+    /// No subfolders means the folder itself, and it resolves whether or not it
+    /// exists — a caller needs the declared set to work out what to ask
+    /// permission for.
+    @Test func aBarePathResolvesToItself() {
+        let home = URL(fileURLWithPath: "/nowhere-\(UUID().uuidString)")
+        let resolved = PathPattern.resolve(path: "~/Library/Caches/Nothing", home: home)
+        #expect(resolved.map(\.lastPathComponent) == ["Nothing"])
+    }
+
+    /// Named subfolders resolve in the order the entry lists them, and one that
+    /// isn't there is simply absent — a tool installed differently should show
+    /// fewer rows, not a broken entry.
+    @Test func namedSubfoldersResolveInTheOrderGiven() throws {
+        let root = try tree([".gradle/caches/x", ".gradle/wrapper/z"])
+        defer { try? FileManager.default.removeItem(at: root) }
+
+        let resolved = PathPattern.resolve(
+            path: "~/.gradle", subfolders: ["caches", "daemon", "wrapper"], home: root
+        )
+        #expect(resolved.map(\.lastPathComponent) == ["caches", "wrapper"])
+    }
+
     /// A wildcard segment must not match across a separator, or it would be a
     /// recursive glob wearing a different spelling.
     @Test func matchingDoesNotCrossSeparators() throws {
-        let root = FileManager.default.temporaryDirectory
-            .appending(path: "PatternTests-\(UUID().uuidString)")
+        let root = try tree([
+            "Caches/Vendor/ToolA/nested/deep", "Caches/Vendor/Other/thing",
+        ])
         defer { try? FileManager.default.removeItem(at: root) }
-        let deep = root.appending(path: "Caches/Vendor/ToolA/nested")
-        try FileManager.default.createDirectory(at: deep, withIntermediateDirectories: true)
-        try FileManager.default.createDirectory(
-            at: root.appending(path: "Caches/Vendor/Other"), withIntermediateDirectories: true
-        )
 
-        let hits = PathPattern.resolve("~/Caches/Vendor/Tool*", home: root)
+        let hits = PathPattern.resolve(
+            path: "~/Caches/Vendor", subfolders: ["Tool*"], home: root
+        )
         #expect(hits.count == 1)
         #expect(hits.first?.lastPathComponent == "ToolA")
     }
 
-    @Test func resolutionIsCapped() throws {
-        let root = FileManager.default.temporaryDirectory
-            .appending(path: "PatternTests-\(UUID().uuidString)")
+    /// Every child, one entry each — what `granular` used to mean.
+    @Test func starResolvesToEveryChild() throws {
+        let root = try tree(["DerivedData/App-abc/x", "DerivedData/Other-def/y"])
         defer { try? FileManager.default.removeItem(at: root) }
-        let parent = root.appending(path: "Caches/Vendor")
-        for index in 0..<(PathPattern.matchLimit + 20) {
-            try FileManager.default.createDirectory(
-                at: parent.appending(path: "Tool\(index)"), withIntermediateDirectories: true
-            )
-        }
 
-        #expect(PathPattern.resolve("~/Caches/Vendor/Tool*", home: root).count == PathPattern.matchLimit)
+        let hits = PathPattern.resolve(path: "~/DerivedData", subfolders: ["*"], home: root)
+        #expect(hits.map(\.lastPathComponent) == ["App-abc", "Other-def"])
+    }
+
+    /// A pattern one level down, expanded per match — the shape the Chromium
+    /// browsers' per-profile caches need.
+    @Test func aPatternResolvesPastACrowdedParent() throws {
+        let root = try tree([
+            "Chrome/Default/Service Worker/CacheStorage/a",
+            "Chrome/Profile 1/Service Worker/CacheStorage/b",
+            "Chrome/Local State",
+        ])
+        defer { try? FileManager.default.removeItem(at: root) }
+
+        let hits = PathPattern.resolve(
+            path: "~/Chrome", subfolders: ["*/Service Worker/CacheStorage"], home: root
+        )
+        #expect(hits.count == 2)
+        #expect(hits.allSatisfy { $0.lastPathComponent == "CacheStorage" })
+    }
+
+    /// The cap is there to stop unbounded work, not to trim a plausible entry:
+    /// one per installed app is legitimately in the hundreds.
+    @Test func resolutionIsCapped() throws {
+        #expect(PathPattern.resolutionLimit >= 256)
+        let names = (0..<(PathPattern.resolutionLimit + 20)).map { "Support/app\($0)/Cache/x" }
+        let root = try tree(names)
+        defer { try? FileManager.default.removeItem(at: root) }
+
+        let hits = PathPattern.resolve(path: "~/Support", subfolders: ["*/Cache"], home: root)
+        #expect(hits.count == PathPattern.resolutionLimit)
+    }
+
+    private func tree(_ files: [String]) throws -> URL {
+        let fm = FileManager.default
+        let root = fm.temporaryDirectory.appending(path: "PatternTests-\(UUID().uuidString)")
+        for file in files {
+            let url = root.appending(path: file)
+            try fm.createDirectory(
+                at: url.deletingLastPathComponent(), withIntermediateDirectories: true
+            )
+            try Data().write(to: url)
+        }
+        return root
     }
 }
+
