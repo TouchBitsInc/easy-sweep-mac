@@ -594,5 +594,17 @@
     "risk": "safe",
     "symbol": "shippingbox",
     "brandColor": "#5C6BC0"
+  },
+  {
+    "id": "android-ndk",
+    "name": "Android NDK",
+    "detail": "Native development kits the Android SDK manager has installed, one folder per version and several gigabytes each. Re-downloaded through the SDK manager; a project pinned to a version needs that version back before it builds.",
+    "path": "~/Library/Android/sdk/ndk",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "risky",
+    "symbol": "cpu",
+    "brandColor": "#3DDC84"
   }
 ]
