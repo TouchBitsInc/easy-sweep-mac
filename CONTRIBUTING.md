@@ -38,7 +38,7 @@ Two consequences:
 ## Schema
 
 One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
-`multimedia.json`, `system.json`.
+`messaging.json`, `multimedia.json`, `system.json`.
 
 ```json
 {
@@ -48,7 +48,7 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "path": "~/.bun/install/cache",
   "risk": "safe",
   "symbol": "shippingbox.fill",
-  "brandColor": "#000000",
+  "color": "#000000",
   "localizations": {
     "fr": {
       "name": "Bun",
@@ -91,7 +91,7 @@ There is no `granular` flag and no `paths` array; both were folded into this in
 `id` is permanent and must be unique across every file. It keys the app-side
 safety table below, so renaming one silently drops that entry's local settings.
 
-`brandColor` is the **published brand hex, unmodified**. Do not adjust it for
+`color` is the **published brand hex, unmodified**. Do not adjust it for
 legibility — `Theme.brand(_:)` lifts near-black values app-side so the hue is
 preserved rather than substituted. Omit it if the project brands itself black;
 five tools sharing one lifted grey says less than the size-rank palette.
@@ -216,22 +216,24 @@ segments — the root has to be computable without touching the disk.
 
 ### Categories are not grant roots
 
-The five sections are a reading order, not a permission boundary. Measured
+The six sections are a reading order, not a permission boundary. Measured
 across the current catalog:
 
 | Category | Distinct roots |
 |---|---|
-| `developer` | 22 |
-| `aiTools` | 8 |
-| `browsers` | 1 |
-| `multimedia` | 2 |
-| `system` | 4 |
+| `developer` | 33 |
+| `aiTools` | 10 |
+| `browsers` | 2 |
+| `messaging` | 4 |
+| `multimedia` | 4 |
+| `system` | 6 |
 
-Thirty in total. Making each section one folder would mean thirty
-sections, most of them holding a single row, so the sections stay as they are and
-the **sandboxed build ships a subset instead**:
+Forty-eight distinct roots in total, with the `Library` ones shared between
+sections. Making each section one folder would mean dozens of sections, most of
+them holding a single row, so the sections stay as they are and the **sandboxed
+build ships a subset instead**:
 
-- **Free build** — unsandboxed, all five sections, every root.
+- **Free build** — unsandboxed, all six sections, every root.
 - **Mac App Store build** — only roots obtainable with one grant each:
   `Library/Developer`, `Library/Caches`, `~/.cache`. Entries under dot-directory
   roots are not offered at all.
@@ -266,7 +268,7 @@ CI enforces, and each rule maps to a way this has already gone wrong or could:
 | Grant root in the allowlist | An unexpected root changes what the sandboxed build must ask for |
 | Wildcard limits above | Keeps patterns anchored and grant roots static |
 | `symbol` resolves via `NSImage(systemSymbolName:)` | An unknown SF Symbol renders as **nothing**, silently — no placeholder |
-| `brandColor` parses as 6-digit hex | Malformed colour otherwise falls back invisibly |
+| `color` parses as 6-digit hex | Malformed colour otherwise falls back invisibly |
 | `category` is known | Unknown categories are skipped at decode; CI catches them earlier |
 
 Decoding is **per entry, skipping failures** rather than whole-file. One

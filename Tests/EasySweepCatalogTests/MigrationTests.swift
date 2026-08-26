@@ -70,6 +70,22 @@ struct MigrationTests {
         }
     }
 
+    /// `brandColor` became `color` in 2.4.0. The old spelling is not read: a
+    /// catalog file still carrying it decodes with no colour rather than
+    /// failing, which is what `color` being optional already buys.
+    @Test func colourIsWrittenUnderItsCurrentName() throws {
+        let entry = EasySweepCatalog.Entry(
+            id: "example", name: "Example", detail: "Refetched on next build.",
+            path: "~/Library/Caches/example", color: "#CB3837"
+        )
+        let written = String(decoding: try JSONEncoder().encode(entry), as: UTF8.self)
+        #expect(written.contains("\"color\""))
+
+        let decoded = try JSONDecoder().decode(
+            EasySweepCatalog.Entry.self, from: Data(written.utf8))
+        #expect(decoded.color == "#CB3837")
+    }
+
     /// Adding is fine — this only pins that the reshape was a reshape.
     @Test func theCatalogueOnlyGrew() {
         #expect(EasySweepCatalog.all.count >= Self.published.count)

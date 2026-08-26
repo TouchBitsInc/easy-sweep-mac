@@ -36,7 +36,7 @@ Open a pull request against the JSON file for the section it belongs in:
   "path": "~/.bun/install/cache",
   "risk": "safe",
   "symbol": "shippingbox.fill",
-  "brandColor": "#000000"
+  "color": "#000000"
 }
 ```
 

@@ -78,7 +78,7 @@
     ],
     "risk": "safe",
     "symbol": "sparkle",
-    "brandColor": "#D97757"
+    "color": "#D97757"
   },
   {
     "id": "claude-cli-cache",
@@ -152,7 +152,7 @@
     "path": "~/Library/Caches/claude-cli-nodejs",
     "risk": "safe",
     "symbol": "sparkle",
-    "brandColor": "#D97757"
+    "color": "#D97757"
   },
   {
     "id": "gemini-tmp",
@@ -226,7 +226,7 @@
     "path": "~/.gemini/tmp",
     "risk": "safe",
     "symbol": "sparkles",
-    "brandColor": "#8E75B2"
+    "color": "#8E75B2"
   },
   {
     "id": "cursor-cache",
@@ -456,7 +456,7 @@
     ],
     "risk": "risky",
     "symbol": "sparkle",
-    "brandColor": "#D97757"
+    "color": "#D97757"
   },
   {
     "id": "codeium-browser",
@@ -1045,7 +1045,7 @@
     ],
     "risk": "risky",
     "symbol": "shippingbox",
-    "brandColor": "#D97757"
+    "color": "#D97757"
   },
   {
     "id": "cursor-agent-versions",

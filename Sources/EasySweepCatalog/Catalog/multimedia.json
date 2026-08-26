@@ -57,11 +57,11 @@
         "name": "Premiere Pro 媒体缓存",
         "detail": "Premiere Pro 媒体缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Premiere Pro 媒體快取",
-       "detail": "Premiere Pro 媒體快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Premiere Pro 媒體快取",
+        "detail": "Premiere Pro 媒體快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Premiere Pro 媒體快取",
         "detail": "Premiere Pro 媒體快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -73,7 +73,8 @@
       "Media Cache Files",
       "Media Cache"
     ],
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#9999FF"
   },
   {
     "id": "media-encoder-cache",
@@ -133,11 +134,11 @@
         "name": "Media Encoder 缓存",
         "detail": "Media Encoder 缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Media Encoder 快取",
-       "detail": "Media Encoder 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Media Encoder 快取",
+        "detail": "Media Encoder 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Media Encoder 快取",
         "detail": "Media Encoder 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -145,7 +146,8 @@
     "name": "Media Encoder Cache",
     "detail": "Media Encoder's own transcode cache. Rebuilt as queued jobs run again.",
     "path": "~/Library/Application Support/Adobe/Common/Media Encoder/Cache",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#9999FF"
   },
   {
     "id": "after-effects-disk-cache",
@@ -205,11 +207,11 @@
         "name": "After Effects 磁盘缓存",
         "detail": "After Effects 磁盘缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "After Effects 磁碟快取",
-       "detail": "After Effects 磁碟快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "After Effects 磁碟快取",
+        "detail": "After Effects 磁碟快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "After Effects 磁碟快取",
         "detail": "After Effects 磁碟快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -220,7 +222,8 @@
     "subfolders": [
       "*"
     ],
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#9999FF"
   },
   {
     "id": "photoshop-cache",
@@ -280,11 +283,11 @@
         "name": "Photoshop 缓存",
         "detail": "Photoshop 缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Photoshop 快取",
-       "detail": "Photoshop 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Photoshop 快取",
+        "detail": "Photoshop 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Photoshop 快取",
         "detail": "Photoshop 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -292,7 +295,8 @@
     "name": "Photoshop Cache",
     "detail": "Photoshop's own scratch and preview cache, the same one Edit > Purge > All clears. Rebuilt from whatever documents are open.",
     "path": "~/Library/Caches/Adobe/Photoshop",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#31A8FF"
   },
   {
     "id": "camera-raw-cache",
@@ -352,11 +356,11 @@
         "name": "Camera Raw 缓存",
         "detail": "Camera Raw 缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Camera Raw 快取",
-       "detail": "Camera Raw 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Camera Raw 快取",
+        "detail": "Camera Raw 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Camera Raw 快取",
         "detail": "Camera Raw 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -367,7 +371,8 @@
     "subfolders": [
       "Adobe Camera Raw*"
     ],
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#31A8FF"
   },
   {
     "id": "lightroom-video-cache",
@@ -427,11 +432,11 @@
         "name": "Lightroom 视频缓存",
         "detail": "Lightroom 视频缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Lightroom 影片快取",
-       "detail": "Lightroom 影片快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Lightroom 影片快取",
+        "detail": "Lightroom 影片快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Lightroom 影片快取",
         "detail": "Lightroom 影片快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -439,7 +444,8 @@
     "name": "Lightroom Video Cache",
     "detail": "Cached video previews Lightroom Classic keeps for fast scrubbing. Rebuilt as you browse; the originals are untouched.",
     "path": "~/Library/Caches/Adobe/Lightroom/Video",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#31A8FF"
   },
   {
     "id": "ableton-decoding-cache",
@@ -499,11 +505,11 @@
         "name": "Ableton Live 解码缓存",
         "detail": "Ableton Live 解码缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Ableton Live 解碼快取",
-       "detail": "Ableton Live 解碼快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Ableton Live 解碼快取",
+        "detail": "Ableton Live 解碼快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Ableton Live 解碼快取",
         "detail": "Ableton Live 解碼快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -571,11 +577,11 @@
         "name": "CapCut 缓存",
         "detail": "CapCut 缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "CapCut 快取",
-       "detail": "CapCut 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "CapCut 快取",
+        "detail": "CapCut 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "CapCut 快取",
         "detail": "CapCut 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -644,11 +650,11 @@
         "name": "音乐封面",
         "detail": "音乐封面 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "音樂封面",
-       "detail": "音樂封面 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "音樂封面",
+        "detail": "音樂封面 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "音樂封面",
         "detail": "音樂封面 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -657,7 +663,8 @@
     "detail": "Album and video artwork the Music and TV apps have downloaded. Refetched as you browse your library; nothing you own is stored here.",
     "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
     "risk": "safe",
-    "symbol": "music.note"
+    "symbol": "music.note",
+    "color": "#FA243C"
   },
   {
     "id": "spotify-cache",
@@ -717,11 +724,11 @@
         "name": "Spotify 缓存",
         "detail": "Spotify 缓存 的预览、媒体或封面数据。使用应用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Spotify 快取",
-       "detail": "Spotify 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Spotify 快取",
+        "detail": "Spotify 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Spotify 快取",
         "detail": "Spotify 快取 的預覽、媒體或封面資料。使用 App 時會重新產生或下載。"
       }
@@ -731,6 +738,6 @@
     "path": "~/Library/Caches/com.spotify.client",
     "risk": "safe",
     "symbol": "waveform",
-    "brandColor": "#1DB954"
+    "color": "#1ED760"
   }
 ]
