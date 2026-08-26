@@ -71,7 +71,7 @@
     "path": "~/Library/Caches/Google/Chrome",
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#4285F4"
+    "color": "#4285F4"
   },
   {
     "id": "safari-cache",
@@ -145,7 +145,7 @@
     "path": "~/Library/Caches/com.apple.Safari",
     "risk": "safe",
     "symbol": "safari",
-    "brandColor": "#0FB5EE"
+    "color": "#006CFF"
   },
   {
     "id": "firefox-cache",
@@ -219,7 +219,7 @@
     "path": "~/Library/Caches/Firefox",
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#FF7139"
+    "color": "#FF7139"
   },
   {
     "id": "edge-cache",
@@ -293,7 +293,7 @@
     "path": "~/Library/Caches/Microsoft Edge",
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#0078D7"
+    "color": "#0078D7"
   },
   {
     "id": "brave-cache",
@@ -367,7 +367,7 @@
     "path": "~/Library/Caches/BraveSoftware",
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#FB542B"
+    "color": "#FB542B"
   },
   {
     "id": "arc-cache",
@@ -440,7 +440,898 @@
     "detail": "Arc's page cache. Rebuilt as you browse, and separate from your spaces and tabs.",
     "path": "~/Library/Caches/company.thebrowser.Browser",
     "risk": "safe",
+    "symbol": "globe",
+    "color": "#FCBFBD"
+  },
+  {
+    "id": "vivaldi-cache",
+    "localizations": {
+      "en": {
+        "name": "Vivaldi"
+      },
+      "de": {
+        "name": "Vivaldi",
+        "detail": "Zwischengespeicherte Browserdaten von Vivaldi. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Vivaldi",
+        "detail": "Datos en caché de Vivaldi. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Vivaldi",
+        "detail": "Données en cache de Vivaldi. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Vivaldi",
+        "detail": "Dati nella cache di Vivaldi. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Vivaldi",
+        "detail": "Browsercache van Vivaldi. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Vivaldi",
+        "detail": "Dane podręczne przeglądarki Vivaldi. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Vivaldi",
+        "detail": "Dados em cache do Vivaldi. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Vivaldi",
+        "detail": "Кэш браузера Vivaldi. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Vivaldi",
+        "detail": "Кеш браузера Vivaldi. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Vivaldi",
+        "detail": "Vivaldi 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Vivaldi",
+    "detail": "Vivaldi's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Vivaldi",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#EF3939"
+  },
+  {
+    "id": "opera-cache",
+    "localizations": {
+      "en": {
+        "name": "Opera"
+      },
+      "de": {
+        "name": "Opera",
+        "detail": "Zwischengespeicherte Browserdaten von Opera. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Opera",
+        "detail": "Datos en caché de Opera. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Opera",
+        "detail": "Données en cache de Opera. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Opera",
+        "detail": "Dati nella cache di Opera. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Opera",
+        "detail": "Opera のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Opera",
+        "detail": "Opera의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Opera",
+        "detail": "Browsercache van Opera. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Opera",
+        "detail": "Dane podręczne przeglądarki Opera. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Opera",
+        "detail": "Dados em cache do Opera. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Opera",
+        "detail": "Кэш браузера Opera. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Opera",
+        "detail": "Opera tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Opera",
+        "detail": "Кеш браузера Opera. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Opera",
+        "detail": "Opera 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Opera",
+        "detail": "Opera 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Opera",
+        "detail": "Opera 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Opera",
+    "detail": "Opera's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/com.operasoftware.Opera",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#FF1B2D"
+  },
+  {
+    "id": "opera-gx-cache",
+    "localizations": {
+      "en": {
+        "name": "Opera GX"
+      },
+      "de": {
+        "name": "Opera GX",
+        "detail": "Zwischengespeicherte Browserdaten von Opera GX. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Opera GX",
+        "detail": "Datos en caché de Opera GX. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Opera GX",
+        "detail": "Données en cache de Opera GX. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Opera GX",
+        "detail": "Dati nella cache di Opera GX. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Opera GX",
+        "detail": "Opera GX のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Opera GX",
+        "detail": "Opera GX의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Opera GX",
+        "detail": "Browsercache van Opera GX. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Opera GX",
+        "detail": "Dane podręczne przeglądarki Opera GX. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Opera GX",
+        "detail": "Dados em cache do Opera GX. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Opera GX",
+        "detail": "Кэш браузера Opera GX. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Opera GX",
+        "detail": "Opera GX tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Opera GX",
+        "detail": "Кеш браузера Opera GX. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Opera GX",
+        "detail": "Opera GX 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Opera GX",
+        "detail": "Opera GX 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Opera GX",
+        "detail": "Opera GX 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Opera GX",
+    "detail": "Opera GX's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/com.operasoftware.OperaGX",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#EE2950"
+  },
+  {
+    "id": "chromium-cache",
+    "localizations": {
+      "en": {
+        "name": "Chromium"
+      },
+      "de": {
+        "name": "Chromium",
+        "detail": "Zwischengespeicherte Browserdaten von Chromium. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Chromium",
+        "detail": "Datos en caché de Chromium. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Chromium",
+        "detail": "Données en cache de Chromium. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Chromium",
+        "detail": "Dati nella cache di Chromium. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Chromium",
+        "detail": "Chromium のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Chromium",
+        "detail": "Chromium의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Chromium",
+        "detail": "Browsercache van Chromium. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Chromium",
+        "detail": "Dane podręczne przeglądarki Chromium. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Chromium",
+        "detail": "Dados em cache do Chromium. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Chromium",
+        "detail": "Кэш браузера Chromium. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Chromium",
+        "detail": "Chromium tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Chromium",
+        "detail": "Кеш браузера Chromium. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Chromium",
+        "detail": "Chromium 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Chromium",
+        "detail": "Chromium 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Chromium",
+        "detail": "Chromium 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Chromium",
+    "detail": "Chromium's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Chromium",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#4587F3"
+  },
+  {
+    "id": "yandex-cache",
+    "localizations": {
+      "en": {
+        "name": "Yandex Browser"
+      },
+      "de": {
+        "name": "Yandex Browser",
+        "detail": "Zwischengespeicherte Browserdaten von Yandex Browser. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Yandex Browser",
+        "detail": "Datos en caché de Yandex Browser. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Yandex Browser",
+        "detail": "Données en cache de Yandex Browser. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Yandex Browser",
+        "detail": "Dati nella cache di Yandex Browser. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Yandex Browser",
+        "detail": "Browsercache van Yandex Browser. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Yandex Browser",
+        "detail": "Dane podręczne przeglądarki Yandex Browser. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Yandex Browser",
+        "detail": "Dados em cache do Yandex Browser. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Яндекс Браузер",
+        "detail": "Кэш браузера Яндекс Браузер. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Яндекс Браузер",
+        "detail": "Кеш браузера Яндекс Браузер. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Yandex Browser",
+        "detail": "Yandex Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Yandex Browser",
+    "detail": "Yandex Browser's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Yandex/YandexBrowser",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#FC3F1D"
+  },
+  {
+    "id": "chrome-canary-cache",
+    "localizations": {
+      "en": {
+        "name": "Google Chrome Canary"
+      },
+      "de": {
+        "name": "Google Chrome Canary",
+        "detail": "Zwischengespeicherte Browserdaten von Google Chrome Canary. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Google Chrome Canary",
+        "detail": "Datos en caché de Google Chrome Canary. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Google Chrome Canary",
+        "detail": "Données en cache de Google Chrome Canary. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Google Chrome Canary",
+        "detail": "Dati nella cache di Google Chrome Canary. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Google Chrome Canary",
+        "detail": "Browsercache van Google Chrome Canary. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Google Chrome Canary",
+        "detail": "Dane podręczne przeglądarki Google Chrome Canary. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Google Chrome Canary",
+        "detail": "Dados em cache do Google Chrome Canary. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Google Chrome Canary",
+        "detail": "Кэш браузера Google Chrome Canary. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Google Chrome Canary",
+        "detail": "Кеш браузера Google Chrome Canary. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Google Chrome Canary",
+        "detail": "Google Chrome Canary 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Google Chrome Canary",
+    "detail": "Google Chrome Canary's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Google/Chrome Canary",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#F4B400"
+  },
+  {
+    "id": "librewolf-cache",
+    "localizations": {
+      "en": {
+        "name": "LibreWolf"
+      },
+      "de": {
+        "name": "LibreWolf",
+        "detail": "Zwischengespeicherte Browserdaten von LibreWolf. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "LibreWolf",
+        "detail": "Datos en caché de LibreWolf. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "LibreWolf",
+        "detail": "Données en cache de LibreWolf. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "LibreWolf",
+        "detail": "Dati nella cache di LibreWolf. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "LibreWolf",
+        "detail": "Browsercache van LibreWolf. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "LibreWolf",
+        "detail": "Dane podręczne przeglądarki LibreWolf. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "LibreWolf",
+        "detail": "Dados em cache do LibreWolf. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "LibreWolf",
+        "detail": "Кэш браузера LibreWolf. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "LibreWolf",
+        "detail": "Кеш браузера LibreWolf. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "LibreWolf",
+        "detail": "LibreWolf 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "LibreWolf",
+    "detail": "LibreWolf's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/LibreWolf",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#00ACFF"
+  },
+  {
+    "id": "waterfox-cache",
+    "localizations": {
+      "en": {
+        "name": "Waterfox"
+      },
+      "de": {
+        "name": "Waterfox",
+        "detail": "Zwischengespeicherte Browserdaten von Waterfox. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Waterfox",
+        "detail": "Datos en caché de Waterfox. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Waterfox",
+        "detail": "Données en cache de Waterfox. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Waterfox",
+        "detail": "Dati nella cache di Waterfox. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Waterfox",
+        "detail": "Waterfox のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Waterfox",
+        "detail": "Waterfox의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Waterfox",
+        "detail": "Browsercache van Waterfox. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Waterfox",
+        "detail": "Dane podręczne przeglądarki Waterfox. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Waterfox",
+        "detail": "Dados em cache do Waterfox. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Waterfox",
+        "detail": "Кэш браузера Waterfox. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Waterfox",
+        "detail": "Waterfox tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Waterfox",
+        "detail": "Кеш браузера Waterfox. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Waterfox",
+        "detail": "Waterfox 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Waterfox",
+        "detail": "Waterfox 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Waterfox",
+        "detail": "Waterfox 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Waterfox",
+    "detail": "Waterfox's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Waterfox",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#00AEEF"
+  },
+  {
+    "id": "zen-cache",
+    "localizations": {
+      "en": {
+        "name": "Zen Browser"
+      },
+      "de": {
+        "name": "Zen Browser",
+        "detail": "Zwischengespeicherte Browserdaten von Zen Browser. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Zen Browser",
+        "detail": "Datos en caché de Zen Browser. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Zen Browser",
+        "detail": "Données en cache de Zen Browser. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Zen Browser",
+        "detail": "Dati nella cache di Zen Browser. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Zen Browser",
+        "detail": "Browsercache van Zen Browser. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Zen Browser",
+        "detail": "Dane podręczne przeglądarki Zen Browser. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Zen Browser",
+        "detail": "Dados em cache do Zen Browser. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Zen Browser",
+        "detail": "Кэш браузера Zen Browser. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Zen Browser",
+        "detail": "Кеш браузера Zen Browser. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Zen Browser",
+        "detail": "Zen Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Zen Browser",
+    "detail": "Zen Browser's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Zen",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#F76F53"
+  },
+  {
+    "id": "orion-cache",
+    "localizations": {
+      "en": {
+        "name": "Orion"
+      },
+      "de": {
+        "name": "Orion",
+        "detail": "Zwischengespeicherte Browserdaten von Orion. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Orion",
+        "detail": "Datos en caché de Orion. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Orion",
+        "detail": "Données en cache de Orion. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Orion",
+        "detail": "Dati nella cache di Orion. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Orion",
+        "detail": "Orion のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Orion",
+        "detail": "Orion의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Orion",
+        "detail": "Browsercache van Orion. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Orion",
+        "detail": "Dane podręczne przeglądarki Orion. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Orion",
+        "detail": "Dados em cache do Orion. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Orion",
+        "detail": "Кэш браузера Orion. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Orion",
+        "detail": "Orion tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Orion",
+        "detail": "Кеш браузера Orion. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Orion",
+        "detail": "Orion 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Orion",
+        "detail": "Orion 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Orion",
+        "detail": "Orion 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Orion",
+    "detail": "Orion's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/com.kagi.kagimacOS",
+    "risk": "safe",
     "symbol": "globe"
+  },
+  {
+    "id": "duckduckgo-cache",
+    "localizations": {
+      "en": {
+        "name": "DuckDuckGo"
+      },
+      "de": {
+        "name": "DuckDuckGo",
+        "detail": "Zwischengespeicherte Browserdaten von DuckDuckGo. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "DuckDuckGo",
+        "detail": "Datos en caché de DuckDuckGo. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "DuckDuckGo",
+        "detail": "Données en cache de DuckDuckGo. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "DuckDuckGo",
+        "detail": "Dati nella cache di DuckDuckGo. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "DuckDuckGo",
+        "detail": "Browsercache van DuckDuckGo. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "DuckDuckGo",
+        "detail": "Dane podręczne przeglądarki DuckDuckGo. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "DuckDuckGo",
+        "detail": "Dados em cache do DuckDuckGo. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "DuckDuckGo",
+        "detail": "Кэш браузера DuckDuckGo. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "DuckDuckGo",
+        "detail": "Кеш браузера DuckDuckGo. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "DuckDuckGo",
+        "detail": "DuckDuckGo 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "DuckDuckGo",
+    "detail": "DuckDuckGo's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Containers/com.duckduckgo.macos.browser/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#DE5833"
+  },
+  {
+    "id": "dia-cache",
+    "localizations": {
+      "en": {
+        "name": "Dia"
+      },
+      "de": {
+        "name": "Dia",
+        "detail": "Zwischengespeicherte Browserdaten von Dia. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Dia",
+        "detail": "Datos en caché de Dia. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Dia",
+        "detail": "Données en cache de Dia. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Dia",
+        "detail": "Dati nella cache di Dia. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Dia",
+        "detail": "Dia のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Dia",
+        "detail": "Dia의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Dia",
+        "detail": "Browsercache van Dia. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Dia",
+        "detail": "Dane podręczne przeglądarki Dia. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Dia",
+        "detail": "Dados em cache do Dia. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Dia",
+        "detail": "Кэш браузера Dia. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Dia",
+        "detail": "Dia tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Dia",
+        "detail": "Кеш браузера Dia. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Dia",
+        "detail": "Dia 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Dia",
+        "detail": "Dia 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Dia",
+        "detail": "Dia 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Dia",
+    "detail": "Dia's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Caches/Dia/User Data",
+    "risk": "safe",
+    "symbol": "globe",
+    "subfolders": [
+      "*/Cache",
+      "*/Code Cache"
+    ]
   },
   {
     "id": "chrome-site-cache",
@@ -500,11 +1391,11 @@
         "name": "Google Chrome 网站数据",
         "detail": "Google Chrome 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
       },
-     "zh-Hant": {
-       "name": "Google Chrome 網站資料",
-       "detail": "Google Chrome 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Google Chrome 網站資料",
+        "detail": "Google Chrome 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
         "name": "Google Chrome 網站資料",
         "detail": "Google Chrome 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
       }
@@ -519,7 +1410,7 @@
     ],
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#4285F4"
+    "color": "#4285F4"
   },
   {
     "id": "edge-site-cache",
@@ -579,11 +1470,11 @@
         "name": "Microsoft Edge 网站数据",
         "detail": "Microsoft Edge 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
       },
-     "zh-Hant": {
-       "name": "Microsoft Edge 網站資料",
-       "detail": "Microsoft Edge 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Microsoft Edge 網站資料",
+        "detail": "Microsoft Edge 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
         "name": "Microsoft Edge 網站資料",
         "detail": "Microsoft Edge 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
       }
@@ -598,7 +1489,7 @@
     ],
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#0078D7"
+    "color": "#0078D7"
   },
   {
     "id": "brave-site-cache",
@@ -658,11 +1549,11 @@
         "name": "Brave 网站数据",
         "detail": "Brave 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
       },
-     "zh-Hant": {
-       "name": "Brave 網站資料",
-       "detail": "Brave 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Brave 網站資料",
+        "detail": "Brave 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
         "name": "Brave 網站資料",
         "detail": "Brave 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
       }
@@ -677,7 +1568,7 @@
     ],
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#FB542B"
+    "color": "#FB542B"
   },
   {
     "id": "arc-site-cache",
@@ -737,11 +1628,11 @@
         "name": "Arc 网站数据",
         "detail": "Arc 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
       },
-     "zh-Hant": {
-       "name": "Arc 網站資料",
-       "detail": "Arc 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Arc 網站資料",
+        "detail": "Arc 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
         "name": "Arc 網站資料",
         "detail": "Arc 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
       }
@@ -756,6 +1647,791 @@
     ],
     "risk": "safe",
     "symbol": "globe",
-    "brandColor": "#FCBFCB"
+    "color": "#FCBFBD"
+  },
+  {
+    "id": "vivaldi-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Vivaldi Site Data"
+      },
+      "de": {
+        "name": "Vivaldi Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Vivaldi Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Vivaldi Datos de sitios",
+        "detail": "Datos en caché de Vivaldi Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Vivaldi Données de site",
+        "detail": "Données en cache de Vivaldi Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Vivaldi Dati dei siti",
+        "detail": "Dati nella cache di Vivaldi Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Vivaldi サイトデータ",
+        "detail": "Vivaldi サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Vivaldi 사이트 데이터",
+        "detail": "Vivaldi 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Vivaldi Sitegegevens",
+        "detail": "Browsercache van Vivaldi Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Vivaldi Dane witryn",
+        "detail": "Dane podręczne przeglądarki Vivaldi Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Vivaldi Dados de sites",
+        "detail": "Dados em cache do Vivaldi Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Vivaldi Данные сайтов",
+        "detail": "Кэш браузера Vivaldi Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Vivaldi Site verileri",
+        "detail": "Vivaldi Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Vivaldi Дані сайтів",
+        "detail": "Кеш браузера Vivaldi Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Vivaldi 网站数据",
+        "detail": "Vivaldi 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Vivaldi 網站資料",
+        "detail": "Vivaldi 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Vivaldi 網站資料",
+        "detail": "Vivaldi 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Vivaldi Site Data",
+    "detail": "Offline site data and shader caches Vivaldi keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Vivaldi",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#EF3939"
+  },
+  {
+    "id": "opera-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Opera Site Data"
+      },
+      "de": {
+        "name": "Opera Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Opera Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Opera Datos de sitios",
+        "detail": "Datos en caché de Opera Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Opera Données de site",
+        "detail": "Données en cache de Opera Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Opera Dati dei siti",
+        "detail": "Dati nella cache di Opera Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Opera サイトデータ",
+        "detail": "Opera サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Opera 사이트 데이터",
+        "detail": "Opera 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Opera Sitegegevens",
+        "detail": "Browsercache van Opera Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Opera Dane witryn",
+        "detail": "Dane podręczne przeglądarki Opera Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Opera Dados de sites",
+        "detail": "Dados em cache do Opera Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Opera Данные сайтов",
+        "detail": "Кэш браузера Opera Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Opera Site verileri",
+        "detail": "Opera Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Opera Дані сайтів",
+        "detail": "Кеш браузера Opera Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Opera 网站数据",
+        "detail": "Opera 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Opera 網站資料",
+        "detail": "Opera 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Opera 網站資料",
+        "detail": "Opera 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Opera Site Data",
+    "detail": "Offline site data and shader caches Opera keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/com.operasoftware.Opera",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache",
+      "GPUCache",
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#FF1B2D"
+  },
+  {
+    "id": "opera-gx-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Opera GX Site Data"
+      },
+      "de": {
+        "name": "Opera GX Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Opera GX Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Opera GX Datos de sitios",
+        "detail": "Datos en caché de Opera GX Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Opera GX Données de site",
+        "detail": "Données en cache de Opera GX Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Opera GX Dati dei siti",
+        "detail": "Dati nella cache di Opera GX Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Opera GX サイトデータ",
+        "detail": "Opera GX サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Opera GX 사이트 데이터",
+        "detail": "Opera GX 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Opera GX Sitegegevens",
+        "detail": "Browsercache van Opera GX Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Opera GX Dane witryn",
+        "detail": "Dane podręczne przeglądarki Opera GX Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Opera GX Dados de sites",
+        "detail": "Dados em cache do Opera GX Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Opera GX Данные сайтов",
+        "detail": "Кэш браузера Opera GX Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Opera GX Site verileri",
+        "detail": "Opera GX Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Opera GX Дані сайтів",
+        "detail": "Кеш браузера Opera GX Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Opera GX 网站数据",
+        "detail": "Opera GX 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Opera GX 網站資料",
+        "detail": "Opera GX 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Opera GX 網站資料",
+        "detail": "Opera GX 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Opera GX Site Data",
+    "detail": "Offline site data and shader caches Opera GX keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/com.operasoftware.OperaGX",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache",
+      "GPUCache",
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#EE2950"
+  },
+  {
+    "id": "chromium-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Chromium Site Data"
+      },
+      "de": {
+        "name": "Chromium Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Chromium Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Chromium Datos de sitios",
+        "detail": "Datos en caché de Chromium Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Chromium Données de site",
+        "detail": "Données en cache de Chromium Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Chromium Dati dei siti",
+        "detail": "Dati nella cache di Chromium Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Chromium サイトデータ",
+        "detail": "Chromium サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Chromium 사이트 데이터",
+        "detail": "Chromium 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Chromium Sitegegevens",
+        "detail": "Browsercache van Chromium Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Chromium Dane witryn",
+        "detail": "Dane podręczne przeglądarki Chromium Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Chromium Dados de sites",
+        "detail": "Dados em cache do Chromium Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Chromium Данные сайтов",
+        "detail": "Кэш браузера Chromium Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Chromium Site verileri",
+        "detail": "Chromium Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Chromium Дані сайтів",
+        "detail": "Кеш браузера Chromium Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Chromium 网站数据",
+        "detail": "Chromium 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Chromium 網站資料",
+        "detail": "Chromium 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Chromium 網站資料",
+        "detail": "Chromium 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Chromium Site Data",
+    "detail": "Offline site data and shader caches Chromium keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Chromium",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#4587F3"
+  },
+  {
+    "id": "yandex-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Yandex Browser Site Data"
+      },
+      "de": {
+        "name": "Yandex Browser Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Yandex Browser Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Yandex Browser Datos de sitios",
+        "detail": "Datos en caché de Yandex Browser Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Yandex Browser Données de site",
+        "detail": "Données en cache de Yandex Browser Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Yandex Browser Dati dei siti",
+        "detail": "Dati nella cache di Yandex Browser Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Yandex Browser サイトデータ",
+        "detail": "Yandex Browser サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Yandex Browser 사이트 데이터",
+        "detail": "Yandex Browser 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Yandex Browser Sitegegevens",
+        "detail": "Browsercache van Yandex Browser Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Yandex Browser Dane witryn",
+        "detail": "Dane podręczne przeglądarki Yandex Browser Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Yandex Browser Dados de sites",
+        "detail": "Dados em cache do Yandex Browser Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Яндекс Браузер Данные сайтов",
+        "detail": "Кэш браузера Яндекс Браузер Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Yandex Browser Site verileri",
+        "detail": "Yandex Browser Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Яндекс Браузер Дані сайтів",
+        "detail": "Кеш браузера Яндекс Браузер Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Yandex Browser 网站数据",
+        "detail": "Yandex Browser 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Yandex Browser 網站資料",
+        "detail": "Yandex Browser 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Yandex Browser 網站資料",
+        "detail": "Yandex Browser 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Yandex Browser Site Data",
+    "detail": "Offline site data and shader caches Yandex Browser keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Yandex/YandexBrowser",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#FC3F1D"
+  },
+  {
+    "id": "chrome-canary-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Google Chrome Canary Site Data"
+      },
+      "de": {
+        "name": "Google Chrome Canary Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Google Chrome Canary Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Google Chrome Canary Datos de sitios",
+        "detail": "Datos en caché de Google Chrome Canary Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Google Chrome Canary Données de site",
+        "detail": "Données en cache de Google Chrome Canary Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Google Chrome Canary Dati dei siti",
+        "detail": "Dati nella cache di Google Chrome Canary Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Google Chrome Canary サイトデータ",
+        "detail": "Google Chrome Canary サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Google Chrome Canary 사이트 데이터",
+        "detail": "Google Chrome Canary 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Google Chrome Canary Sitegegevens",
+        "detail": "Browsercache van Google Chrome Canary Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Google Chrome Canary Dane witryn",
+        "detail": "Dane podręczne przeglądarki Google Chrome Canary Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Google Chrome Canary Dados de sites",
+        "detail": "Dados em cache do Google Chrome Canary Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Google Chrome Canary Данные сайтов",
+        "detail": "Кэш браузера Google Chrome Canary Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Google Chrome Canary Site verileri",
+        "detail": "Google Chrome Canary Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Google Chrome Canary Дані сайтів",
+        "detail": "Кеш браузера Google Chrome Canary Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Google Chrome Canary 网站数据",
+        "detail": "Google Chrome Canary 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Google Chrome Canary 網站資料",
+        "detail": "Google Chrome Canary 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Google Chrome Canary 網站資料",
+        "detail": "Google Chrome Canary 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Google Chrome Canary Site Data",
+    "detail": "Offline site data and shader caches Google Chrome Canary keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Google/Chrome Canary",
+    "subfolders": [
+      "*/Service Worker/CacheStorage",
+      "*/Service Worker/ScriptCache",
+      "*/GPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#F4B400"
+  },
+  {
+    "id": "dia-site-cache",
+    "localizations": {
+      "en": {
+        "name": "Dia Site Data"
+      },
+      "de": {
+        "name": "Dia Website-Daten",
+        "detail": "Zwischengespeicherte Browserdaten von Dia Website-Daten. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Dia Datos de sitios",
+        "detail": "Datos en caché de Dia Datos de sitios. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Dia Données de site",
+        "detail": "Données en cache de Dia Données de site. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Dia Dati dei siti",
+        "detail": "Dati nella cache di Dia Dati dei siti. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Dia サイトデータ",
+        "detail": "Dia サイトデータ のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Dia 사이트 데이터",
+        "detail": "Dia 사이트 데이터의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Dia Sitegegevens",
+        "detail": "Browsercache van Dia Sitegegevens. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Dia Dane witryn",
+        "detail": "Dane podręczne przeglądarki Dia Dane witryn. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Dia Dados de sites",
+        "detail": "Dados em cache do Dia Dados de sites. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Dia Данные сайтов",
+        "detail": "Кэш браузера Dia Данные сайтов. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Dia Site verileri",
+        "detail": "Dia Site verileri tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Dia Дані сайтів",
+        "detail": "Кеш браузера Dia Дані сайтів. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Dia 网站数据",
+        "detail": "Dia 网站数据 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Dia 網站資料",
+        "detail": "Dia 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Dia 網站資料",
+        "detail": "Dia 網站資料 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Dia Site Data",
+    "detail": "Offline site data and shader caches Dia keeps beside each profile — service worker responses, compiled scripts, GPU caches. Refilled as you browse; your history, logins and open tabs are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Dia/User Data",
+    "subfolders": [
+      "component_crx_cache",
+      "GraphiteDawnCache",
+      "*/GPUCache",
+      "*/DawnGraphiteCache",
+      "*/DawnWebGPUCache"
+    ],
+    "risk": "safe",
+    "symbol": "globe"
+  },
+  {
+    "id": "tor-browser-cache",
+    "localizations": {
+      "en": {
+        "name": "Tor Browser"
+      },
+      "de": {
+        "name": "Tor Browser",
+        "detail": "Zwischengespeicherte Browserdaten von Tor Browser. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "Tor Browser",
+        "detail": "Datos en caché de Tor Browser. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "Tor Browser",
+        "detail": "Données en cache de Tor Browser. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "Tor Browser",
+        "detail": "Dati nella cache di Tor Browser. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Tor Browser",
+        "detail": "Browsercache van Tor Browser. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Tor Browser",
+        "detail": "Dane podręczne przeglądarki Tor Browser. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Tor Browser",
+        "detail": "Dados em cache do Tor Browser. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "Tor Browser",
+        "detail": "Кэш браузера Tor Browser. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "Tor Browser",
+        "detail": "Кеш браузера Tor Browser. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "Tor Browser",
+        "detail": "Tor Browser 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "Tor Browser",
+    "detail": "Tor Browser's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Application Support/TorBrowser-Data",
+    "subfolders": [
+      "Browser/*/cache2"
+    ],
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#7D4698"
+  },
+  {
+    "id": "qq-browser-cache",
+    "localizations": {
+      "en": {
+        "name": "QQ Browser"
+      },
+      "de": {
+        "name": "QQ Browser",
+        "detail": "Zwischengespeicherte Browserdaten von QQ Browser. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "QQ Browser",
+        "detail": "Datos en caché de QQ Browser. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "QQ Browser",
+        "detail": "Données en cache de QQ Browser. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "QQ Browser",
+        "detail": "Dati nella cache di QQ Browser. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "QQ Browser",
+        "detail": "QQ Browser のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "QQ Browser",
+        "detail": "QQ Browser의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "QQ Browser",
+        "detail": "Browsercache van QQ Browser. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "QQ Browser",
+        "detail": "Dane podręczne przeglądarki QQ Browser. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "QQ Browser",
+        "detail": "Dados em cache do QQ Browser. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "QQ Browser",
+        "detail": "Кэш браузера QQ Browser. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "QQ Browser",
+        "detail": "QQ Browser tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "QQ Browser",
+        "detail": "Кеш браузера QQ Browser. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "QQ浏览器",
+        "detail": "QQ浏览器 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "QQ瀏覽器",
+        "detail": "QQ瀏覽器 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "QQ瀏覽器",
+        "detail": "QQ瀏覽器 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "QQ Browser",
+    "detail": "QQ Browser's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Containers/com.tencent.QQBrowserLite/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#1479D7"
+  },
+  {
+    "id": "qihoo-browser-cache",
+    "localizations": {
+      "en": {
+        "name": "360 Browser"
+      },
+      "de": {
+        "name": "360 Browser",
+        "detail": "Zwischengespeicherte Browserdaten von 360 Browser. Beim Surfen werden sie neu erstellt; Verlauf und Passwörter bleiben unberührt."
+      },
+      "es": {
+        "name": "360 Browser",
+        "detail": "Datos en caché de 360 Browser. Se reconstruyen al navegar; el historial y las contraseñas no se ven afectados."
+      },
+      "fr": {
+        "name": "360 Browser",
+        "detail": "Données en cache de 360 Browser. Elles sont recréées pendant la navigation; l’historique et les mots de passe ne sont pas concernés."
+      },
+      "it": {
+        "name": "360 Browser",
+        "detail": "Dati nella cache di 360 Browser. Vengono ricreati mentre navighi; cronologia e password non sono coinvolte."
+      },
+      "ja": {
+        "name": "360 Browser",
+        "detail": "360 Browser のブラウザキャッシュです。閲覧中に再生成され、履歴やパスワードは含まれません。"
+      },
+      "ko": {
+        "name": "360 Browser",
+        "detail": "360 Browser의 브라우저 캐시입니다. 탐색 중 다시 생성되며 방문 기록과 암호는 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "360 Browser",
+        "detail": "Browsercache van 360 Browser. Die wordt tijdens het browsen opnieuw gemaakt; geschiedenis en wachtwoorden blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "360 Browser",
+        "detail": "Dane podręczne przeglądarki 360 Browser. Są odtwarzane podczas przeglądania; historia i hasła nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "360 Browser",
+        "detail": "Dados em cache do 360 Browser. Eles são recriados durante a navegação; histórico e senhas não são afetados."
+      },
+      "ru": {
+        "name": "360 Browser",
+        "detail": "Кэш браузера 360 Browser. Он создаётся заново во время просмотра; история и пароли не затрагиваются."
+      },
+      "tr": {
+        "name": "360 Browser",
+        "detail": "360 Browser tarayıcı önbelleği. Gezinirken yeniden oluşturulur; geçmiş ve parolalar etkilenmez."
+      },
+      "uk": {
+        "name": "360 Browser",
+        "detail": "Кеш браузера 360 Browser. Він створюється під час перегляду; історія та паролі не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "360极速浏览器",
+        "detail": "360极速浏览器 的浏览器缓存。浏览网页时会重新生成；不包含历史记录和密码。"
+      },
+      "zh-Hant": {
+        "name": "360極速瀏覽器",
+        "detail": "360極速瀏覽器 的瀏覽器快取。瀏覽網頁時會重新產生；不包含瀏覽記錄和密碼。"
+      },
+      "zh-HK": {
+        "name": "360極速瀏覽器",
+        "detail": "360極速瀏覽器 的瀏覽器快取。瀏覽網頁時會重新產生；不包括瀏覽記錄和密碼。"
+      }
+    },
+    "name": "360 Browser",
+    "detail": "360 Browser's page and script cache. Rebuilt as you browse; profiles, bookmarks and logins live elsewhere.",
+    "path": "~/Library/Containers/com.qihoo.litebrowserx/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "globe",
+    "color": "#19B955"
   }
 ]

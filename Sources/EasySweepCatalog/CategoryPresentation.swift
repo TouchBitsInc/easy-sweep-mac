@@ -45,6 +45,10 @@ extension EasySweepCatalog.Category {
         // naming it after one of them reads as being about that one.
         case .browsers: "globe"
         case .aiTools: "sparkles"
+        // Two bubbles rather than one: the section is about conversations
+        // between people, and a single bubble is already how a notification
+        // or an alert draws itself.
+        case .messaging: "bubble.left.and.bubble.right"
         // A clapperboard rather than a palette: the section's largest items are
         // video editors' caches and renders, where a palette read as drawing.
         case .multimedia: "movieclapper"

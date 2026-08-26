@@ -136,6 +136,11 @@ struct CatalogValidationTests {
             "Library/Logs",
             // CoreDevice keeps staged bundles under its own container.
             "Library/Containers",
+            // Where an app shares data with its own extensions — a share sheet,
+            // a notification service. Telegram and WeChat keep their downloaded
+            // media here rather than in Caches, because the extension has to
+            // read it too.
+            "Library/Group Containers",
             // pnpm puts its content-addressable store outside Caches.
             "Library/pnpm",
             // Device update images, still under the old iTunes folder.
@@ -275,7 +280,7 @@ struct CatalogValidationTests {
 
     @Test func brandColoursParse() {
         for entry in entries {
-            guard let hex = entry.brandColor else { continue }
+            guard let hex = entry.color else { continue }
             #expect(hex.hasPrefix("#") && hex.count == 7, "\(entry.id): \(hex) is not #RRGGBB")
             let isHex = hex.dropFirst().allSatisfy { $0.isHexDigit }
             #expect(isHex, "\(entry.id): \(hex) has non-hex characters")

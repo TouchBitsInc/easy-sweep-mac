@@ -57,11 +57,11 @@
         "name": "派生数据",
         "detail": "派生数据 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "衍生資料",
-       "detail": "衍生資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "衍生資料",
+        "detail": "衍生資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "衍生資料",
         "detail": "衍生資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -133,11 +133,11 @@
         "name": "iOS 设备支持",
         "detail": "iOS 设备支持 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "iOS 裝置支援",
-       "detail": "iOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "iOS 裝置支援",
+        "detail": "iOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "iOS 裝置支援",
         "detail": "iOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -208,11 +208,11 @@
         "name": "tvOS 设备支持",
         "detail": "tvOS 设备支持 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "tvOS 裝置支援",
-       "detail": "tvOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "tvOS 裝置支援",
+        "detail": "tvOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "tvOS 裝置支援",
         "detail": "tvOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -283,11 +283,11 @@
         "name": "watchOS 设备支持",
         "detail": "watchOS 设备支持 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "watchOS 裝置支援",
-       "detail": "watchOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "watchOS 裝置支援",
+        "detail": "watchOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "watchOS 裝置支援",
         "detail": "watchOS 裝置支援 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -358,11 +358,11 @@
         "name": "文档缓存 缓存",
         "detail": "文档缓存 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "文件快取 快取",
-       "detail": "文件快取 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "文件快取 快取",
+        "detail": "文件快取 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "文件快取 快取",
         "detail": "文件快取 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -435,11 +435,11 @@
         "name": "构建产物 & Device 日志",
         "detail": "构建产物 & Device 日志 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "建置產物 & Device 記錄",
-       "detail": "建置產物 & Device 記錄 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "建置產物 & Device 記錄",
+        "detail": "建置產物 & Device 記錄 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "建置產物 & Device 記錄",
         "detail": "建置產物 & Device 記錄 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -512,11 +512,11 @@
         "name": "Xcode 下载",
         "detail": "Xcode 下载 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Xcode 下載項目",
-       "detail": "Xcode 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Xcode 下載項目",
+        "detail": "Xcode 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Xcode 下載項目",
         "detail": "Xcode 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -585,11 +585,11 @@
         "name": "XcodeBuildMCP 数据",
         "detail": "XcodeBuildMCP 数据 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "XcodeBuildMCP 資料",
-       "detail": "XcodeBuildMCP 資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "XcodeBuildMCP 資料",
+        "detail": "XcodeBuildMCP 資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "XcodeBuildMCP 資料",
         "detail": "XcodeBuildMCP 資料 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -658,11 +658,11 @@
         "name": "Xcode Application 缓存",
         "detail": "Xcode Application 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Xcode Application 快取",
-       "detail": "Xcode Application 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Xcode Application 快取",
+        "detail": "Xcode Application 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Xcode Application 快取",
         "detail": "Xcode Application 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -731,11 +731,11 @@
         "name": "Device Connection 缓存",
         "detail": "Device Connection 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Device Connection 快取",
-       "detail": "Device Connection 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Device Connection 快取",
+        "detail": "Device Connection 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Device Connection 快取",
         "detail": "Device Connection 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -804,11 +804,11 @@
         "name": "Apple Configurator 下载",
         "detail": "Apple Configurator 下载 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Apple Configurator 下載項目",
-       "detail": "Apple Configurator 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Apple Configurator 下載項目",
+        "detail": "Apple Configurator 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Apple Configurator 下載項目",
         "detail": "Apple Configurator 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -877,11 +877,11 @@
         "name": "归档",
         "detail": "归档 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "封存檔",
-       "detail": "封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "封存檔",
+        "detail": "封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "封存檔",
         "detail": "封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -953,11 +953,11 @@
         "name": "Simulator 缓存",
         "detail": "Simulator 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Simulator 快取",
-       "detail": "Simulator 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Simulator 快取",
+        "detail": "Simulator 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Simulator 快取",
         "detail": "Simulator 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1026,11 +1026,11 @@
         "name": "Test 模拟器克隆",
         "detail": "Test 模拟器克隆 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Test 模擬器複本",
-       "detail": "Test 模擬器複本 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Test 模擬器複本",
+        "detail": "Test 模擬器複本 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Test 模擬器複本",
         "detail": "Test 模擬器複本 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1102,11 +1102,11 @@
         "name": "模拟器设备",
         "detail": "模拟器设备 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "模擬器裝置",
-       "detail": "模擬器裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "模擬器裝置",
+        "detail": "模擬器裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "模擬器裝置",
         "detail": "模擬器裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1178,11 +1178,11 @@
         "name": "Playground 设备",
         "detail": "Playground 设备 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Playground 裝置",
-       "detail": "Playground 裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Playground 裝置",
+        "detail": "Playground 裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Playground 裝置",
         "detail": "Playground 裝置 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1251,11 +1251,11 @@
         "name": "Xcode 系统资源",
         "detail": "Xcode 系统资源 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Xcode 系統資源",
-       "detail": "Xcode 系統資源 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Xcode 系統資源",
+        "detail": "Xcode 系統資源 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Xcode 系統資源",
         "detail": "Xcode 系統資源 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1326,11 +1326,11 @@
         "name": "Swift 软件包 Manager",
         "detail": "Swift 软件包 Manager 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Swift 套件 Manager",
-       "detail": "Swift 套件 Manager 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Swift 套件 Manager",
+        "detail": "Swift 套件 Manager 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Swift 套件 Manager",
         "detail": "Swift 套件 Manager 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1340,7 +1340,7 @@
     "path": "~/Library/Caches/org.swift.swiftpm",
     "risk": "safe",
     "symbol": "cube.box.fill",
-    "brandColor": "#F05138"
+    "color": "#F05138"
   },
   {
     "id": "cocoapods",
@@ -1400,11 +1400,11 @@
         "name": "CocoaPods 缓存",
         "detail": "CocoaPods 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "CocoaPods 快取",
-       "detail": "CocoaPods 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "CocoaPods 快取",
+        "detail": "CocoaPods 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "CocoaPods 快取",
         "detail": "CocoaPods 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -1414,7 +1414,7 @@
     "path": "~/Library/Caches/CocoaPods",
     "risk": "safe",
     "symbol": "cube.box.fill",
-    "brandColor": "#EE3322"
+    "color": "#EE3322"
   },
   {
     "id": "cocoapods-repos",
@@ -1488,7 +1488,7 @@
     "path": "~/.cocoapods/repos",
     "risk": "risky",
     "symbol": "cube.box.fill",
-    "brandColor": "#EE3322"
+    "color": "#EE3322"
   },
   {
     "id": "carthage",
@@ -1635,7 +1635,7 @@
     "path": "~/Library/Caches/Homebrew",
     "risk": "safe",
     "symbol": "mug.fill",
-    "brandColor": "#FBB040"
+    "color": "#FBB040"
   },
   {
     "id": "gradle",
@@ -1716,7 +1716,7 @@
     ],
     "risk": "safe",
     "symbol": "cube.fill",
-    "brandColor": "#02303A"
+    "color": "#02303A"
   },
   {
     "id": "android",
@@ -1794,7 +1794,7 @@
     ],
     "risk": "safe",
     "symbol": "cube.fill",
-    "brandColor": "#3DDC84"
+    "color": "#3DDC84"
   },
   {
     "id": "android-studio-cache",
@@ -1871,7 +1871,7 @@
     ],
     "risk": "safe",
     "symbol": "cube.fill",
-    "brandColor": "#3DDC84"
+    "color": "#3DDC84"
   },
   {
     "id": "jetbrains",
@@ -2022,7 +2022,7 @@
     ],
     "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right",
-    "brandColor": "#007ACC"
+    "color": "#007ACC"
   },
   {
     "id": "npm-cache",
@@ -2082,11 +2082,11 @@
         "name": "npm & npx 缓存",
         "detail": "npm & npx 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "npm & npx 快取",
-       "detail": "npm & npx 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "npm & npx 快取",
+        "detail": "npm & npx 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "npm & npx 快取",
         "detail": "npm & npx 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -2100,7 +2100,7 @@
     ],
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#CB3837"
+    "color": "#CB3837"
   },
   {
     "id": "yarn",
@@ -2174,7 +2174,7 @@
     "path": "~/Library/Caches/Yarn",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#2C8EBB"
+    "color": "#2C8EBB"
   },
   {
     "id": "pnpm",
@@ -2248,7 +2248,7 @@
     "path": "~/Library/pnpm/store",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#F69220"
+    "color": "#F69220"
   },
   {
     "id": "electron",
@@ -2322,7 +2322,7 @@
     "path": "~/Library/Caches/electron",
     "risk": "safe",
     "symbol": "atom",
-    "brandColor": "#47848F"
+    "color": "#47848F"
   },
   {
     "id": "pip",
@@ -2396,7 +2396,7 @@
     "path": "~/Library/Caches/pip",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#3776AB"
+    "color": "#3776AB"
   },
   {
     "id": "cargo",
@@ -2529,11 +2529,11 @@
         "name": "Go Build 缓存",
         "detail": "Go Build 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Go Build 快取",
-       "detail": "Go Build 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Go Build 快取",
+        "detail": "Go Build 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Go Build 快取",
         "detail": "Go Build 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -2543,7 +2543,7 @@
     "path": "~/Library/Caches/go-build",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#00ADD8"
+    "color": "#00ADD8"
   },
   {
     "id": "maven",
@@ -2617,7 +2617,7 @@
     "path": "~/.m2/repository",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#C71A36"
+    "color": "#C71A36"
   },
   {
     "id": "nuget",
@@ -2691,7 +2691,7 @@
     "path": "~/.nuget/packages",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#004880"
+    "color": "#004880"
   },
   {
     "id": "pub-cache",
@@ -2751,11 +2751,11 @@
         "name": "Dart & Flutter 软件包",
         "detail": "Dart & Flutter 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Dart & Flutter 套件",
-       "detail": "Dart & Flutter 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Dart & Flutter 套件",
+        "detail": "Dart & Flutter 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Dart & Flutter 套件",
         "detail": "Dart & Flutter 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -2765,7 +2765,7 @@
     "path": "~/.pub-cache",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "brandColor": "#0175C2"
+    "color": "#0175C2"
   },
   {
     "id": "bun",
@@ -2969,11 +2969,11 @@
         "name": "Playwright 浏览器",
         "detail": "Playwright 浏览器 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Playwright 瀏覽器",
-       "detail": "Playwright 瀏覽器 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Playwright 瀏覽器",
+        "detail": "Playwright 瀏覽器 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Playwright 瀏覽器",
         "detail": "Playwright 瀏覽器 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -2981,7 +2981,8 @@
     "name": "Playwright Browsers",
     "detail": "Downloaded Chromium, Firefox and WebKit builds. Large, and refetched by  playwright install.",
     "path": "~/Library/Caches/ms-playwright",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#2EAD33"
   },
   {
     "id": "composer",
@@ -3053,7 +3054,8 @@
     "name": "Composer",
     "detail": "PHP package and repository cache.",
     "path": "~/.composer/cache",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#885630"
   },
   {
     "id": "composer-library",
@@ -3125,7 +3127,8 @@
     "name": "Composer (Library)",
     "detail": "Composer's cache in its newer location. Same contents, refetched on install.",
     "path": "~/Library/Caches/composer",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#885630"
   },
   {
     "id": "nvm",
@@ -3185,11 +3188,11 @@
         "name": "nvm 下载",
         "detail": "nvm 下载 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "nvm 下載項目",
-       "detail": "nvm 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "nvm 下載項目",
+        "detail": "nvm 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "nvm 下載項目",
         "detail": "nvm 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3257,11 +3260,11 @@
         "name": "SDKMAN 归档",
         "detail": "SDKMAN 归档 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "SDKMAN 封存檔",
-       "detail": "SDKMAN 封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "SDKMAN 封存檔",
+        "detail": "SDKMAN 封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "SDKMAN 封存檔",
         "detail": "SDKMAN 封存檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3345,7 +3348,8 @@
     "name": "TypeScript",
     "detail": "Auto-installed type definitions for editors.",
     "path": "~/Library/Caches/typescript",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#3178C6"
   },
   {
     "id": "xdg-cache",
@@ -3405,11 +3409,11 @@
         "name": "共享工具缓存",
         "detail": "共享工具缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "共用工具快取",
-       "detail": "共用工具快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "共用工具快取",
+        "detail": "共用工具快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "共用工具快取",
         "detail": "共用工具快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3481,11 +3485,11 @@
         "name": "node-gyp 头文件",
         "detail": "node-gyp 头文件 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "node-gyp 標頭檔",
-       "detail": "node-gyp 標頭檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "node-gyp 標頭檔",
+        "detail": "node-gyp 標頭檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "node-gyp 標頭檔",
         "detail": "node-gyp 標頭檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3498,7 +3502,7 @@
     ],
     "risk": "safe",
     "symbol": "hammer.fill",
-    "brandColor": "#539E43"
+    "color": "#539E43"
   },
   {
     "id": "playwright-go",
@@ -3558,11 +3562,11 @@
         "name": "Playwright 浏览器 (Go)",
         "detail": "Playwright 浏览器 (Go) 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Playwright 瀏覽器 (Go)",
-       "detail": "Playwright 瀏覽器 (Go) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Playwright 瀏覽器 (Go)",
+        "detail": "Playwright 瀏覽器 (Go) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Playwright 瀏覽器 (Go)",
         "detail": "Playwright 瀏覽器 (Go) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3570,7 +3574,8 @@
     "name": "Playwright Browsers (Go)",
     "detail": "Browser builds downloaded by the Go port of Playwright, kept separately from the Node one. Refetched on the next install.",
     "path": "~/Library/Caches/ms-playwright-go",
-    "risk": "safe"
+    "risk": "safe",
+    "color": "#2EAD33"
   },
   {
     "id": "rustup-downloads",
@@ -3630,11 +3635,11 @@
         "name": "rustup 下载",
         "detail": "rustup 下载 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "rustup 下載項目",
-       "detail": "rustup 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "rustup 下載項目",
+        "detail": "rustup 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "rustup 下載項目",
         "detail": "rustup 下載項目 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3853,11 +3858,11 @@
         "name": "Poetry 缓存",
         "detail": "Poetry 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Poetry 快取",
-       "detail": "Poetry 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Poetry 快取",
+        "detail": "Poetry 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Poetry 快取",
         "detail": "Poetry 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3866,7 +3871,8 @@
     "detail": "Downloaded package artifacts and virtual environments Poetry keeps between installs. Refetched and rebuilt on the next poetry install.",
     "path": "~/Library/Caches/pypoetry",
     "risk": "safe",
-    "symbol": "shippingbox.fill"
+    "symbol": "shippingbox.fill",
+    "color": "#60A5FA"
   },
   {
     "id": "uv-cache",
@@ -3926,11 +3932,11 @@
         "name": "uv 缓存",
         "detail": "uv 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "uv 快取",
-       "detail": "uv 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "uv 快取",
+        "detail": "uv 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "uv 快取",
         "detail": "uv 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -3939,7 +3945,8 @@
     "detail": "Downloaded wheels and sources the uv package manager keeps for reuse across projects. Refetched on the next install.",
     "path": "~/Library/Caches/uv",
     "risk": "safe",
-    "symbol": "shippingbox.fill"
+    "symbol": "shippingbox.fill",
+    "color": "#DE5FE9"
   },
   {
     "id": "vagrant-boxes",
@@ -3999,11 +4006,11 @@
         "name": "Vagrant 虚拟机镜像",
         "detail": "Vagrant 虚拟机镜像 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Vagrant 虛擬機器映像檔",
-       "detail": "Vagrant 虛擬機器映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Vagrant 虛擬機器映像檔",
+        "detail": "Vagrant 虛擬機器映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Vagrant 虛擬機器映像檔",
         "detail": "Vagrant 虛擬機器映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4012,7 +4019,8 @@
     "detail": "Downloaded base VM images added with vagrant box add. Re-downloaded the next time a Vagrantfile needs one.",
     "path": "~/.vagrant.d/boxes",
     "risk": "safe",
-    "symbol": "shippingbox.fill"
+    "symbol": "shippingbox.fill",
+    "color": "#1868F2"
   },
   {
     "id": "sbt-ivy-cache",
@@ -4072,11 +4080,11 @@
         "name": "Ivy 缓存 (sbt/Scala)",
         "detail": "Ivy 缓存 (sbt/Scala) 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Ivy 快取 (sbt/Scala)",
-       "detail": "Ivy 快取 (sbt/Scala) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Ivy 快取 (sbt/Scala)",
+        "detail": "Ivy 快取 (sbt/Scala) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Ivy 快取 (sbt/Scala)",
         "detail": "Ivy 快取 (sbt/Scala) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4145,11 +4153,11 @@
         "name": "Expo CLI 缓存",
         "detail": "Expo CLI 缓存 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Expo CLI 快取",
-       "detail": "Expo CLI 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Expo CLI 快取",
+        "detail": "Expo CLI 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Expo CLI 快取",
         "detail": "Expo CLI 快取 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4232,7 +4240,7 @@
     "path": "~/go/pkg/mod",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#00ADD8"
+    "color": "#00ADD8"
   },
   {
     "id": "conda-packages",
@@ -4292,11 +4300,11 @@
         "name": "conda 软件包",
         "detail": "conda 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "conda 套件",
-       "detail": "conda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "conda 套件",
+        "detail": "conda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "conda 套件",
         "detail": "conda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4306,7 +4314,7 @@
     "path": "~/.conda/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#43B02A"
+    "color": "#44A833"
   },
   {
     "id": "miniconda-packages",
@@ -4366,11 +4374,11 @@
         "name": "Miniconda 软件包",
         "detail": "Miniconda 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Miniconda 套件",
-       "detail": "Miniconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Miniconda 套件",
+        "detail": "Miniconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Miniconda 套件",
         "detail": "Miniconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4380,7 +4388,7 @@
     "path": "~/miniconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#43B02A"
+    "color": "#44A833"
   },
   {
     "id": "anaconda-packages",
@@ -4440,11 +4448,11 @@
         "name": "Anaconda 软件包",
         "detail": "Anaconda 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Anaconda 套件",
-       "detail": "Anaconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Anaconda 套件",
+        "detail": "Anaconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Anaconda 套件",
         "detail": "Anaconda 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4454,7 +4462,7 @@
     "path": "~/anaconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#43B02A"
+    "color": "#44A833"
   },
   {
     "id": "miniforge-packages",
@@ -4514,11 +4522,11 @@
         "name": "Miniforge 软件包",
         "detail": "Miniforge 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Miniforge 套件",
-       "detail": "Miniforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Miniforge 套件",
+        "detail": "Miniforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Miniforge 套件",
         "detail": "Miniforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4527,8 +4535,7 @@
     "detail": "The package archive cache inside a Miniforge install. Re-downloaded when an environment needs them again.",
     "path": "~/miniforge3/pkgs",
     "risk": "safe",
-    "symbol": "shippingbox",
-    "brandColor": "#43B02A"
+    "symbol": "shippingbox"
   },
   {
     "id": "mise-cache",
@@ -4661,11 +4668,11 @@
         "name": "Tart VM 镜像",
         "detail": "Tart VM 镜像 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Tart VM 映像檔",
-       "detail": "Tart VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Tart VM 映像檔",
+        "detail": "Tart VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Tart VM 映像檔",
         "detail": "Tart VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4734,11 +4741,11 @@
         "name": "Mambaforge 软件包",
         "detail": "Mambaforge 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Mambaforge 套件",
-       "detail": "Mambaforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Mambaforge 套件",
+        "detail": "Mambaforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Mambaforge 套件",
         "detail": "Mambaforge 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4747,8 +4754,7 @@
     "detail": "The package archive cache inside a Mambaforge install. Re-downloaded when an environment needs them again.",
     "path": "~/mambaforge/pkgs",
     "risk": "safe",
-    "symbol": "shippingbox",
-    "brandColor": "#43B02A"
+    "symbol": "shippingbox"
   },
   {
     "id": "lima-images",
@@ -4808,11 +4814,11 @@
         "name": "Lima VM 镜像",
         "detail": "Lima VM 镜像 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Lima VM 映像檔",
-       "detail": "Lima VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Lima VM 映像檔",
+        "detail": "Lima VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Lima VM 映像檔",
         "detail": "Lima VM 映像檔 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4822,7 +4828,7 @@
     "path": "~/Library/Caches/lima",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#5C6BC0"
+    "color": "#5C6BC0"
   },
   {
     "id": "terraform-plugins",
@@ -4882,11 +4888,11 @@
         "name": "Terraform 提供程序",
         "detail": "Terraform 提供程序 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Terraform 提供者",
-       "detail": "Terraform 提供者 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Terraform 提供者",
+        "detail": "Terraform 提供者 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Terraform 提供者",
         "detail": "Terraform 提供者 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4896,7 +4902,7 @@
     "path": "~/.terraform.d/plugin-cache",
     "risk": "safe",
     "symbol": "cube.transparent",
-    "brandColor": "#7B42BC"
+    "color": "#844FBA"
   },
   {
     "id": "pnpm-store-home",
@@ -4956,11 +4962,11 @@
         "name": "pnpm 存储 (home)",
         "detail": "pnpm 存储 (home) 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "pnpm 儲存區 (home)",
-       "detail": "pnpm 儲存區 (home) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "pnpm 儲存區 (home)",
+        "detail": "pnpm 儲存區 (home) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "pnpm 儲存區 (home)",
         "detail": "pnpm 儲存區 (home) 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -4970,7 +4976,7 @@
     "path": "~/.pnpm-store",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#F69220"
+    "color": "#F69220"
   },
   {
     "id": "cabal-packages",
@@ -5030,11 +5036,11 @@
         "name": "Cabal 软件包",
         "detail": "Cabal 软件包 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Cabal 套件",
-       "detail": "Cabal 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Cabal 套件",
+        "detail": "Cabal 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Cabal 套件",
         "detail": "Cabal 套件 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -5047,7 +5053,7 @@
     ],
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#5E5086"
+    "color": "#5E5086"
   },
   {
     "id": "stack-snapshots",
@@ -5107,11 +5113,11 @@
         "name": "Stack 快照",
         "detail": "Stack 快照 的缓存、软件包或构建数据。下次使用时会重新生成或下载。"
       },
-     "zh-Hant": {
-       "name": "Stack 快照",
-       "detail": "Stack 快照 的快取、套件或建置資料。下次使用時會重新產生或下載。"
-     },
-     "zh-HK": {
+      "zh-Hant": {
+        "name": "Stack 快照",
+        "detail": "Stack 快照 的快取、套件或建置資料。下次使用時會重新產生或下載。"
+      },
+      "zh-HK": {
         "name": "Stack 快照",
         "detail": "Stack 快照 的快取、套件或建置資料。下次使用時會重新產生或下載。"
       }
@@ -5124,6 +5130,6 @@
     ],
     "risk": "safe",
     "symbol": "cube",
-    "brandColor": "#5E5086"
+    "color": "#5E5086"
   }
 ]

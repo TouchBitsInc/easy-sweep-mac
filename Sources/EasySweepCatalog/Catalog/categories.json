@@ -211,6 +211,59 @@
       }
     }
   },
+  "messaging": {
+    "symbol": "bubble.left.and.bubble.right",
+    "localizations": {
+      "en": {
+        "name": "Messaging"
+      },
+      "de": {
+        "name": "Nachrichten"
+      },
+      "es": {
+        "name": "Mensajería"
+      },
+      "fr": {
+        "name": "Messagerie"
+      },
+      "it": {
+        "name": "Messaggi"
+      },
+      "ja": {
+        "name": "メッセージ"
+      },
+      "ko": {
+        "name": "메시지"
+      },
+      "nl": {
+        "name": "Berichten"
+      },
+      "pl": {
+        "name": "Komunikatory"
+      },
+      "pt-BR": {
+        "name": "Mensagens"
+      },
+      "ru": {
+        "name": "Мессенджеры"
+      },
+      "tr": {
+        "name": "Mesajlaşma"
+      },
+      "uk": {
+        "name": "Месенджери"
+      },
+      "zh-Hans": {
+        "name": "聊天"
+      },
+      "zh-Hant": {
+        "name": "聊天"
+      },
+      "zh-HK": {
+        "name": "聊天"
+      }
+    }
+  },
   "multimedia": {
     "symbol": "movieclapper",
     "localizations": {

@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "telegram-cache",
+    "localizations": {
+      "en": {
+        "name": "Telegram"
+      },
+      "de": {
+        "name": "Telegram",
+        "detail": "Fotos, Videos und Dateien, die Telegram heruntergeladen hat und für schnelles Öffnen behält. Sie werden beim nächsten Öffnen erneut von den Servern geladen; die Nachrichten selbst liegen auf dem Server und bleiben unberührt."
+      },
+      "es": {
+        "name": "Telegram",
+        "detail": "Fotos, vídeos y archivos que Telegram ha descargado y conserva para abrirlos al instante. Se vuelven a descargar de los servidores de Telegram la próxima vez que los abras; los mensajes están en el servidor y no se ven afectados."
+      },
+      "fr": {
+        "name": "Telegram",
+        "detail": "Photos, vidéos et fichiers que Telegram a téléchargés et conserve pour les rouvrir instantanément. Ils sont retéléchargés depuis les serveurs de Telegram à la prochaine ouverture; les messages eux-mêmes restent sur le serveur."
+      },
+      "it": {
+        "name": "Telegram",
+        "detail": "Foto, video e file che Telegram ha scaricato e conserva per riaprirli subito. Vengono riscaricati dai server di Telegram la volta successiva che li apri; i messaggi restano sul server."
+      },
+      "ja": {
+        "name": "Telegram",
+        "detail": "Telegram がダウンロードして再表示用に保持している写真・動画・ファイルです。次に開いたときに Telegram のサーバーから取得し直され、メッセージ自体はサーバー上に残ります。"
+      },
+      "ko": {
+        "name": "Telegram",
+        "detail": "Telegram이 내려받아 빠르게 다시 열기 위해 보관하는 사진, 동영상, 파일입니다. 다음에 열 때 Telegram 서버에서 다시 받아오며 메시지 자체는 서버에 남아 있습니다."
+      },
+      "nl": {
+        "name": "Telegram",
+        "detail": "Foto's, video's en bestanden die Telegram heeft gedownload en bewaart om ze direct te openen. Ze worden bij het volgende openen opnieuw van de servers van Telegram gehaald; de berichten zelf staan op de server."
+      },
+      "pl": {
+        "name": "Telegram",
+        "detail": "Zdjęcia, filmy i pliki, które Telegram pobrał i przechowuje do szybkiego otwierania. Zostaną pobrane ponownie z serwerów Telegram przy następnym otwarciu; same wiadomości pozostają na serwerze."
+      },
+      "pt-BR": {
+        "name": "Telegram",
+        "detail": "Fotos, vídeos e arquivos que o Telegram baixou e mantém para abrir na hora. São baixados de novo dos servidores do Telegram quando você os abrir; as mensagens ficam no servidor e não são afetadas."
+      },
+      "ru": {
+        "name": "Telegram",
+        "detail": "Фотографии, видео и файлы, которые Telegram загрузил и хранит для быстрого открытия. При следующем открытии они снова скачиваются с серверов Telegram; сами сообщения остаются на сервере."
+      },
+      "tr": {
+        "name": "Telegram",
+        "detail": "Telegram uygulamasının indirip hızlı açmak için sakladığı fotoğraflar, videolar ve dosyalar. Bir sonraki açışınızda Telegram sunucularından yeniden indirilir; mesajların kendisi sunucuda kalır."
+      },
+      "uk": {
+        "name": "Telegram",
+        "detail": "Фотографії, відео та файли, які Telegram завантажив і зберігає для швидкого відкриття. Наступного разу вони знову завантажаться із серверів Telegram; самі повідомлення залишаються на сервері."
+      },
+      "zh-Hans": {
+        "name": "Telegram",
+        "detail": "Telegram 已下载并保留下来以便快速打开的图片、视频和文件。下次打开时会重新从 Telegram 服务器获取；消息本身保存在服务器上，不受影响。"
+      },
+      "zh-Hant": {
+        "name": "Telegram",
+        "detail": "Telegram 已下載並保留下來以便快速開啟的圖片、影片和檔案。下次開啟時會重新從 Telegram 伺服器取得；訊息本身保存在伺服器上，不受影響。"
+      },
+      "zh-HK": {
+        "name": "Telegram",
+        "detail": "Telegram 已下載並保留下來以便快速開啟的圖片、影片和檔案。下次開啟時會重新從 Telegram 伺服器取得；訊息本身保存喺伺服器上，不受影響。"
+      }
+    },
+    "name": "Telegram",
+    "detail": "Photos, videos and files Telegram has downloaded and keeps so they reopen instantly. Fetched from Telegram's servers again the next time you open them; the messages themselves live on the server and are untouched.",
+    "path": "~/Library/Group Containers/6N38VWS5BX.ru.keepcoder.Telegram",
+    "subfolders": [
+      "*/account-*/postbox/media/cache",
+      "*/account-*/postbox/media/cache-storage",
+      "*/account-*/postbox/media/short-cache"
+    ],
+    "risk": "safe",
+    "symbol": "paperplane",
+    "color": "#26A5E4"
+  },
+  {
+    "id": "telegram-desktop-cache",
+    "localizations": {
+      "en": {
+        "name": "Telegram Desktop"
+      },
+      "de": {
+        "name": "Telegram Desktop",
+        "detail": "Fotos, Videos und Dateien, die Telegram Desktop heruntergeladen hat und für schnelles Öffnen behält. Sie werden beim nächsten Öffnen erneut von den Servern geladen; die Nachrichten selbst liegen auf dem Server und bleiben unberührt."
+      },
+      "es": {
+        "name": "Telegram Desktop",
+        "detail": "Fotos, vídeos y archivos que Telegram Desktop ha descargado y conserva para abrirlos al instante. Se vuelven a descargar de los servidores de Telegram Desktop la próxima vez que los abras; los mensajes están en el servidor y no se ven afectados."
+      },
+      "fr": {
+        "name": "Telegram Desktop",
+        "detail": "Photos, vidéos et fichiers que Telegram Desktop a téléchargés et conserve pour les rouvrir instantanément. Ils sont retéléchargés depuis les serveurs de Telegram Desktop à la prochaine ouverture; les messages eux-mêmes restent sur le serveur."
+      },
+      "it": {
+        "name": "Telegram Desktop",
+        "detail": "Foto, video e file che Telegram Desktop ha scaricato e conserva per riaprirli subito. Vengono riscaricati dai server di Telegram Desktop la volta successiva che li apri; i messaggi restano sul server."
+      },
+      "ja": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop がダウンロードして再表示用に保持している写真・動画・ファイルです。次に開いたときに Telegram Desktop のサーバーから取得し直され、メッセージ自体はサーバー上に残ります。"
+      },
+      "ko": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop이 내려받아 빠르게 다시 열기 위해 보관하는 사진, 동영상, 파일입니다. 다음에 열 때 Telegram Desktop 서버에서 다시 받아오며 메시지 자체는 서버에 남아 있습니다."
+      },
+      "nl": {
+        "name": "Telegram Desktop",
+        "detail": "Foto's, video's en bestanden die Telegram Desktop heeft gedownload en bewaart om ze direct te openen. Ze worden bij het volgende openen opnieuw van de servers van Telegram Desktop gehaald; de berichten zelf staan op de server."
+      },
+      "pl": {
+        "name": "Telegram Desktop",
+        "detail": "Zdjęcia, filmy i pliki, które Telegram Desktop pobrał i przechowuje do szybkiego otwierania. Zostaną pobrane ponownie z serwerów Telegram Desktop przy następnym otwarciu; same wiadomości pozostają na serwerze."
+      },
+      "pt-BR": {
+        "name": "Telegram Desktop",
+        "detail": "Fotos, vídeos e arquivos que o Telegram Desktop baixou e mantém para abrir na hora. São baixados de novo dos servidores do Telegram Desktop quando você os abrir; as mensagens ficam no servidor e não são afetadas."
+      },
+      "ru": {
+        "name": "Telegram Desktop",
+        "detail": "Фотографии, видео и файлы, которые Telegram Desktop загрузил и хранит для быстрого открытия. При следующем открытии они снова скачиваются с серверов Telegram Desktop; сами сообщения остаются на сервере."
+      },
+      "tr": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop uygulamasının indirip hızlı açmak için sakladığı fotoğraflar, videolar ve dosyalar. Bir sonraki açışınızda Telegram Desktop sunucularından yeniden indirilir; mesajların kendisi sunucuda kalır."
+      },
+      "uk": {
+        "name": "Telegram Desktop",
+        "detail": "Фотографії, відео та файли, які Telegram Desktop завантажив і зберігає для швидкого відкриття. Наступного разу вони знову завантажаться із серверів Telegram Desktop; самі повідомлення залишаються на сервері."
+      },
+      "zh-Hans": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop 已下载并保留下来以便快速打开的图片、视频和文件。下次打开时会重新从 Telegram Desktop 服务器获取；消息本身保存在服务器上，不受影响。"
+      },
+      "zh-Hant": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop 已下載並保留下來以便快速開啟的圖片、影片和檔案。下次開啟時會重新從 Telegram Desktop 伺服器取得；訊息本身保存在伺服器上，不受影響。"
+      },
+      "zh-HK": {
+        "name": "Telegram Desktop",
+        "detail": "Telegram Desktop 已下載並保留下來以便快速開啟的圖片、影片和檔案。下次開啟時會重新從 Telegram Desktop 伺服器取得；訊息本身保存喺伺服器上，不受影響。"
+      }
+    },
+    "name": "Telegram Desktop",
+    "detail": "Photos, videos and files Telegram Desktop has downloaded and keeps so they reopen instantly. Fetched from Telegram Desktop's servers again the next time you open them; the messages themselves live on the server and are untouched.",
+    "path": "~/Library/Application Support/Telegram Desktop",
+    "subfolders": [
+      "tdata/user_data*/cache",
+      "tdata/user_data*/media_cache"
+    ],
+    "risk": "safe",
+    "symbol": "paperplane",
+    "color": "#26A5E4"
+  },
+  {
+    "id": "wechat-cache",
+    "localizations": {
+      "en": {
+        "name": "WeChat"
+      },
+      "de": {
+        "name": "WeChat",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die WeChat auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "WeChat",
+        "detail": "Imágenes, miniaturas y recursos descargados que WeChat guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "WeChat",
+        "detail": "Images, miniatures et ressources téléchargées que WeChat conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "WeChat",
+        "detail": "Immagini, miniature e risorse scaricate che WeChat tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "WeChat",
+        "detail": "WeChat がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "WeChat",
+        "detail": "WeChat이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "WeChat",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die WeChat op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "WeChat",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które WeChat trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "WeChat",
+        "detail": "Imagens, miniaturas e recursos baixados que o WeChat mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "WeChat",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые WeChat хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "WeChat",
+        "detail": "WeChat uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "WeChat",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які WeChat тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "微信",
+        "detail": "微信保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "微信",
+        "detail": "微信保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "微信",
+        "detail": "微信保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "WeChat",
+    "detail": "Images, thumbnails and downloaded assets WeChat keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#07C160"
+  },
+  {
+    "id": "wechat-miniprograms",
+    "localizations": {
+      "en": {
+        "name": "WeChat Mini Programs"
+      },
+      "de": {
+        "name": "WeChat Mini-Programme",
+        "detail": "Die Mini-Programm-Laufzeit und die von WeChat heruntergeladenen Mini-Programme. Sie werden beim nächsten Öffnen erneut geladen."
+      },
+      "es": {
+        "name": "WeChat Miniprogramas",
+        "detail": "El entorno de ejecución de Miniprogramas y los que WeChat ha descargado. Se vuelven a descargar la próxima vez que abras uno."
+      },
+      "fr": {
+        "name": "WeChat Mini-programmes",
+        "detail": "L’environnement d’exécution des mini-programmes et ceux que WeChat a téléchargés. Ils sont retéléchargés à la prochaine ouverture."
+      },
+      "it": {
+        "name": "WeChat Mini-programmi",
+        "detail": "L’ambiente di esecuzione dei mini-programmi e quelli che WeChat ha scaricato. Vengono riscaricati alla prossima apertura."
+      },
+      "ja": {
+        "name": "WeChat ミニプログラム",
+        "detail": "ミニプログラムの実行環境と、WeChat がダウンロード済みのミニプログラムです。次に開いたときに再取得されます。"
+      },
+      "ko": {
+        "name": "WeChat 미니 프로그램",
+        "detail": "미니 프로그램 런타임과 WeChat이 내려받은 미니 프로그램입니다. 다음에 하나를 열 때 다시 받아옵니다."
+      },
+      "nl": {
+        "name": "WeChat Miniprogramma's",
+        "detail": "De runtime voor miniprogramma's en de miniprogramma's die WeChat heeft gedownload. Ze worden opnieuw opgehaald als je er een opent."
+      },
+      "pl": {
+        "name": "WeChat Miniprogramy",
+        "detail": "Środowisko uruchomieniowe miniprogramów i miniprogramy pobrane przez WeChat. Zostaną pobrane ponownie przy następnym otwarciu."
+      },
+      "pt-BR": {
+        "name": "WeChat Miniprogramas",
+        "detail": "O runtime dos miniprogramas e os que o WeChat baixou. São baixados de novo na próxima vez que você abrir um."
+      },
+      "ru": {
+        "name": "WeChat Мини-программы",
+        "detail": "Среда выполнения мини-программ и мини-программы, загруженные WeChat. Они скачиваются заново при следующем открытии."
+      },
+      "tr": {
+        "name": "WeChat Mini programlar",
+        "detail": "Mini program çalışma ortamı ve WeChat uygulamasının indirdiği mini programlar. Birini bir dahaki açışınızda yeniden indirilir."
+      },
+      "uk": {
+        "name": "WeChat Міні-програми",
+        "detail": "Середовище виконання міні-програм і міні-програми, завантажені WeChat. Вони завантажаться знову, коли ви відкриєте одну з них."
+      },
+      "zh-Hans": {
+        "name": "微信小程序",
+        "detail": "小程序运行环境，以及微信已下载的小程序。下次打开时会重新获取。"
+      },
+      "zh-Hant": {
+        "name": "微信小程式",
+        "detail": "小程式執行環境，以及微信已下載的小程式。下次開啟時會重新取得。"
+      },
+      "zh-HK": {
+        "name": "微信小程式",
+        "detail": "小程式執行環境，以及微信已下載嘅小程式。下次開啟時會重新取得。"
+      }
+    },
+    "name": "WeChat Mini Programs",
+    "detail": "The Mini Program runtime and the Mini Programs WeChat has downloaded. Fetched again the next time you open one.",
+    "path": "~/Library/Containers/com.tencent.xinWeChat/Data/.wxapplet",
+    "subfolders": [
+      "WMPF",
+      "cache",
+      "web"
+    ],
+    "risk": "safe",
+    "symbol": "square.grid.2x2",
+    "color": "#07C160"
+  },
+  {
+    "id": "wechat-message-files",
+    "localizations": {
+      "en": {
+        "name": "WeChat Message Files"
+      },
+      "de": {
+        "name": "WeChat Nachrichtendateien",
+        "detail": "Fotos, Videos und Dateien, die du in WeChat erhalten hast und auf diesem Mac gespeichert sind. WeChat lädt nur neuere Elemente erneut von den Servern — Älteres ist nach dem Entfernen weg."
+      },
+      "es": {
+        "name": "WeChat Archivos de mensajes",
+        "detail": "Fotos, vídeos y archivos que has recibido en WeChat, guardados en este Mac. WeChat solo vuelve a descargar los elementos recientes desde sus servidores; lo más antiguo se pierde al eliminarlo."
+      },
+      "fr": {
+        "name": "WeChat Fichiers de messages",
+        "detail": "Photos, vidéos et fichiers reçus dans WeChat, enregistrés sur ce Mac. WeChat ne retélécharge que les éléments récents depuis ses serveurs — le reste disparaît une fois supprimé."
+      },
+      "it": {
+        "name": "WeChat File dei messaggi",
+        "detail": "Foto, video e file ricevuti in WeChat, salvati su questo Mac. WeChat riscarica dai server solo gli elementi recenti: quelli più vecchi spariscono una volta rimossi."
+      },
+      "ja": {
+        "name": "WeChat メッセージのファイル",
+        "detail": "このMacに保存されている、WeChat で受信した写真・動画・ファイルです。WeChat がサーバーから取得し直せるのは新しいものだけで、古いものは削除すると戻りません。"
+      },
+      "ko": {
+        "name": "WeChat 메시지 파일",
+        "detail": "이 Mac에 저장된, WeChat에서 받은 사진, 동영상, 파일입니다. WeChat은 최근 항목만 서버에서 다시 내려받으므로 오래된 것은 지우면 되돌릴 수 없습니다."
+      },
+      "nl": {
+        "name": "WeChat Berichtbestanden",
+        "detail": "Foto's, video's en bestanden die je in WeChat hebt ontvangen, bewaard op deze Mac. WeChat haalt alleen recente items opnieuw van de servers — oudere zijn na verwijdering weg."
+      },
+      "pl": {
+        "name": "WeChat Pliki wiadomości",
+        "detail": "Zdjęcia, filmy i pliki otrzymane w WeChat, zapisane na tym Macu. WeChat pobiera ponownie z serwerów tylko nowsze elementy — starsze przepadają po usunięciu."
+      },
+      "pt-BR": {
+        "name": "WeChat Arquivos de mensagens",
+        "detail": "Fotos, vídeos e arquivos que você recebeu no WeChat, salvos neste Mac. O WeChat baixa de novo apenas os itens recentes de seus servidores — o que for mais antigo se perde ao remover."
+      },
+      "ru": {
+        "name": "WeChat Файлы сообщений",
+        "detail": "Фотографии, видео и файлы, полученные в WeChat и сохранённые на этом Mac. WeChat заново скачивает с серверов только недавние — всё, что старше, после удаления пропадёт."
+      },
+      "tr": {
+        "name": "WeChat Mesaj dosyaları",
+        "detail": "WeChat üzerinden aldığınız ve bu Mac'te saklanan fotoğraflar, videolar ve dosyalar. WeChat sunucularından yalnızca yeni öğeleri yeniden indirir — daha eskiler silindikten sonra geri gelmez."
+      },
+      "uk": {
+        "name": "WeChat Файли повідомлень",
+        "detail": "Фотографії, відео та файли, отримані в WeChat і збережені на цьому Mac. WeChat завантажує із серверів лише нещодавні — усе старіше після видалення зникне."
+      },
+      "zh-Hans": {
+        "name": "微信聊天文件",
+        "detail": "你在微信里收到并保存在这台 Mac 上的图片、视频和文件。微信只能从服务器重新下载较近期的内容，更早的删除后就没有了。"
+      },
+      "zh-Hant": {
+        "name": "微信聊天檔案",
+        "detail": "你在微信裡收到並保存在這台 Mac 上的圖片、影片和檔案。微信只能從伺服器重新下載較近期的內容，更早的刪除後就沒有了。"
+      },
+      "zh-HK": {
+        "name": "微信聊天檔案",
+        "detail": "你喺微信裡面收到並保存喺呢部 Mac 上嘅圖片、影片同檔案。微信只可以由伺服器重新下載較近期嘅內容，更早嘅刪咗就冇咗。"
+      }
+    },
+    "name": "WeChat Message Files",
+    "detail": "Photos, videos and files you have received in WeChat, saved on this Mac. WeChat re-downloads only recent items from its servers — anything older is gone once this is removed.",
+    "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files",
+    "subfolders": [
+      "*/msg/attach",
+      "*/msg/video",
+      "*/msg/file"
+    ],
+    "risk": "risky",
+    "symbol": "paperclip",
+    "color": "#07C160"
+  },
+  {
+    "id": "slack-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Slack Web Data"
+      },
+      "de": {
+        "name": "Slack Webdaten",
+        "detail": "Offline-Webdaten, die Slack neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Slack Datos web",
+        "detail": "Datos web sin conexión que Slack guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Slack Données web",
+        "detail": "Données web hors ligne que Slack conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Slack Dati web",
+        "detail": "Dati web offline che Slack tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Slack ウェブデータ",
+        "detail": "Slack がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Slack 웹 데이터",
+        "detail": "Slack이 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Slack Webgegevens",
+        "detail": "Offline webgegevens die Slack naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Slack Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Slack trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Slack Dados da web",
+        "detail": "Dados web offline que o Slack mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Slack Веб-данные",
+        "detail": "Офлайн-данные веба, которые Slack держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Slack Web verileri",
+        "detail": "Slack uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Slack Веб-дані",
+        "detail": "Офлайнові веб-дані, які Slack тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Slack 网页数据",
+        "detail": "Slack 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Slack 網頁資料",
+        "detail": "Slack 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Slack 網頁資料",
+        "detail": "Slack 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Slack Web Data",
+    "detail": "Offline web data Slack keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Slack",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "number",
+    "color": "#4A154B"
+  },
+  {
+    "id": "discord-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Discord Web Data"
+      },
+      "de": {
+        "name": "Discord Webdaten",
+        "detail": "Offline-Webdaten, die Discord neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Discord Datos web",
+        "detail": "Datos web sin conexión que Discord guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Discord Données web",
+        "detail": "Données web hors ligne que Discord conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Discord Dati web",
+        "detail": "Dati web offline che Discord tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Discord ウェブデータ",
+        "detail": "Discord がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Discord 웹 데이터",
+        "detail": "Discord가 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Discord Webgegevens",
+        "detail": "Offline webgegevens die Discord naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Discord Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Discord trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Discord Dados da web",
+        "detail": "Dados web offline que o Discord mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Discord Веб-данные",
+        "detail": "Офлайн-данные веба, которые Discord держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Discord Web verileri",
+        "detail": "Discord uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Discord Веб-дані",
+        "detail": "Офлайнові веб-дані, які Discord тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Discord 网页数据",
+        "detail": "Discord 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Discord 網頁資料",
+        "detail": "Discord 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Discord 網頁資料",
+        "detail": "Discord 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Discord Web Data",
+    "detail": "Offline web data Discord keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/discord",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#5865F2"
+  },
+  {
+    "id": "signal-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Signal Web Data"
+      },
+      "de": {
+        "name": "Signal Webdaten",
+        "detail": "Offline-Webdaten, die Signal neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Signal Datos web",
+        "detail": "Datos web sin conexión que Signal guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Signal Données web",
+        "detail": "Données web hors ligne que Signal conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Signal Dati web",
+        "detail": "Dati web offline che Signal tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Signal ウェブデータ",
+        "detail": "Signal がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Signal 웹 데이터",
+        "detail": "Signal이 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Signal Webgegevens",
+        "detail": "Offline webgegevens die Signal naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Signal Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Signal trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Signal Dados da web",
+        "detail": "Dados web offline que o Signal mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Signal Веб-данные",
+        "detail": "Офлайн-данные веба, которые Signal держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Signal Web verileri",
+        "detail": "Signal uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Signal Веб-дані",
+        "detail": "Офлайнові веб-дані, які Signal тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Signal 网页数据",
+        "detail": "Signal 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Signal 網頁資料",
+        "detail": "Signal 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Signal 網頁資料",
+        "detail": "Signal 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Signal Web Data",
+    "detail": "Offline web data Signal keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Signal",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#3B45FD"
+  },
+  {
+    "id": "teams-cache",
+    "localizations": {
+      "en": {
+        "name": "Microsoft Teams"
+      },
+      "de": {
+        "name": "Microsoft Teams",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Microsoft Teams auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Microsoft Teams",
+        "detail": "Imágenes, miniaturas y recursos descargados que Microsoft Teams guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Microsoft Teams",
+        "detail": "Images, miniatures et ressources téléchargées que Microsoft Teams conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Microsoft Teams",
+        "detail": "Immagini, miniature e risorse scaricate che Microsoft Teams tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams가 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Microsoft Teams",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Microsoft Teams op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Microsoft Teams",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Microsoft Teams trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Microsoft Teams",
+        "detail": "Imagens, miniaturas e recursos baixados que o Microsoft Teams mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Microsoft Teams",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Microsoft Teams хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Microsoft Teams",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Microsoft Teams тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "Microsoft Teams",
+        "detail": "Microsoft Teams 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Microsoft Teams",
+    "detail": "Images, thumbnails and downloaded assets Microsoft Teams keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/com.microsoft.teams2/Data/Library/Application Support/Microsoft/MSTeams",
+    "risk": "safe",
+    "symbol": "video",
+    "color": "#6264A7",
+    "subfolders": [
+      "Cache",
+      "Code Cache",
+      "GPUCache"
+    ]
+  },
+  {
+    "id": "zoom-cache",
+    "localizations": {
+      "en": {
+        "name": "Zoom"
+      },
+      "de": {
+        "name": "Zoom",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Zoom auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Zoom",
+        "detail": "Imágenes, miniaturas y recursos descargados que Zoom guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Zoom",
+        "detail": "Images, miniatures et ressources téléchargées que Zoom conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Zoom",
+        "detail": "Immagini, miniature e risorse scaricate che Zoom tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Zoom",
+        "detail": "Zoom がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Zoom",
+        "detail": "Zoom이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Zoom",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Zoom op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Zoom",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Zoom trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Zoom",
+        "detail": "Imagens, miniaturas e recursos baixados que o Zoom mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Zoom",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Zoom хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Zoom",
+        "detail": "Zoom uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Zoom",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Zoom тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Zoom",
+        "detail": "Zoom 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "Zoom",
+        "detail": "Zoom 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "Zoom",
+        "detail": "Zoom 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Zoom",
+    "detail": "Images, thumbnails and downloaded assets Zoom keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/us.zoom.xos",
+    "risk": "safe",
+    "symbol": "video",
+    "color": "#0B5CFF"
+  },
+  {
+    "id": "lark-cache",
+    "localizations": {
+      "en": {
+        "name": "Lark"
+      },
+      "de": {
+        "name": "Lark",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Lark auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Lark",
+        "detail": "Imágenes, miniaturas y recursos descargados que Lark guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Lark",
+        "detail": "Images, miniatures et ressources téléchargées que Lark conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Lark",
+        "detail": "Immagini, miniature e risorse scaricate che Lark tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Lark",
+        "detail": "Lark がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Lark",
+        "detail": "Lark이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Lark",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Lark op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Lark",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Lark trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Lark",
+        "detail": "Imagens, miniaturas e recursos baixados que o Lark mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Lark",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Lark хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Lark",
+        "detail": "Lark uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Lark",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Lark тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "飞书",
+        "detail": "飞书保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "飛書",
+        "detail": "飛書保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "飛書",
+        "detail": "飛書保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Lark",
+    "detail": "Images, thumbnails and downloaded assets Lark keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/LarkShell",
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#00D6B9"
+  },
+  {
+    "id": "whatsapp-cache",
+    "localizations": {
+      "en": {
+        "name": "WhatsApp"
+      },
+      "de": {
+        "name": "WhatsApp",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die WhatsApp auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "WhatsApp",
+        "detail": "Imágenes, miniaturas y recursos descargados que WhatsApp guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "WhatsApp",
+        "detail": "Images, miniatures et ressources téléchargées que WhatsApp conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "WhatsApp",
+        "detail": "Immagini, miniature e risorse scaricate che WhatsApp tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "WhatsApp",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die WhatsApp op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "WhatsApp",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które WhatsApp trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "WhatsApp",
+        "detail": "Imagens, miniaturas e recursos baixados que o WhatsApp mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "WhatsApp",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые WhatsApp хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "WhatsApp",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які WhatsApp тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "WhatsApp",
+        "detail": "WhatsApp 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "WhatsApp",
+    "detail": "Images, thumbnails and downloaded assets WhatsApp keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/net.whatsapp.WhatsApp/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#25D366"
+  },
+  {
+    "id": "qq-cache",
+    "localizations": {
+      "en": {
+        "name": "QQ"
+      },
+      "de": {
+        "name": "QQ",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die QQ auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "QQ",
+        "detail": "Imágenes, miniaturas y recursos descargados que QQ guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "QQ",
+        "detail": "Images, miniatures et ressources téléchargées que QQ conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "QQ",
+        "detail": "Immagini, miniature e risorse scaricate che QQ tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "QQ",
+        "detail": "QQ がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "QQ",
+        "detail": "QQ가 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "QQ",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die QQ op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "QQ",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które QQ trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "QQ",
+        "detail": "Imagens, miniaturas e recursos baixados que o QQ mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "QQ",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые QQ хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "QQ",
+        "detail": "QQ uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "QQ",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які QQ тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "QQ",
+        "detail": "QQ 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "QQ",
+        "detail": "QQ 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "QQ",
+        "detail": "QQ 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "QQ",
+    "detail": "Images, thumbnails and downloaded assets QQ keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/com.tencent.qq/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#12B7F5"
+  },
+  {
+    "id": "line-cache",
+    "localizations": {
+      "en": {
+        "name": "LINE"
+      },
+      "de": {
+        "name": "LINE",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die LINE auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "LINE",
+        "detail": "Imágenes, miniaturas y recursos descargados que LINE guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "LINE",
+        "detail": "Images, miniatures et ressources téléchargées que LINE conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "LINE",
+        "detail": "Immagini, miniature e risorse scaricate che LINE tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "LINE",
+        "detail": "LINE がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "LINE",
+        "detail": "LINE이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "LINE",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die LINE op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "LINE",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które LINE trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "LINE",
+        "detail": "Imagens, miniaturas e recursos baixados que o LINE mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "LINE",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые LINE хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "LINE",
+        "detail": "LINE uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "LINE",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які LINE тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "LINE",
+        "detail": "LINE 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "LINE",
+        "detail": "LINE 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "LINE",
+        "detail": "LINE 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "LINE",
+    "detail": "Images, thumbnails and downloaded assets LINE keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/jp.naver.line.mac/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#00C300"
+  },
+  {
+    "id": "kakaotalk-cache",
+    "localizations": {
+      "en": {
+        "name": "KakaoTalk"
+      },
+      "de": {
+        "name": "KakaoTalk",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die KakaoTalk auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "KakaoTalk",
+        "detail": "Imágenes, miniaturas y recursos descargados que KakaoTalk guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "KakaoTalk",
+        "detail": "Images, miniatures et ressources téléchargées que KakaoTalk conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "KakaoTalk",
+        "detail": "Immagini, miniature e risorse scaricate che KakaoTalk tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "KakaoTalk",
+        "detail": "KakaoTalk がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "카카오톡",
+        "detail": "카카오톡이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "KakaoTalk",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die KakaoTalk op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "KakaoTalk",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które KakaoTalk trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "KakaoTalk",
+        "detail": "Imagens, miniaturas e recursos baixados que o KakaoTalk mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "KakaoTalk",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые KakaoTalk хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "KakaoTalk",
+        "detail": "KakaoTalk uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "KakaoTalk",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які KakaoTalk тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "KakaoTalk",
+        "detail": "KakaoTalk 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "KakaoTalk",
+        "detail": "KakaoTalk 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "KakaoTalk",
+        "detail": "KakaoTalk 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "KakaoTalk",
+    "detail": "Images, thumbnails and downloaded assets KakaoTalk keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/com.kakao.KakaoTalkMac/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#FEE500"
+  },
+  {
+    "id": "dingtalk-cache",
+    "localizations": {
+      "en": {
+        "name": "DingTalk"
+      },
+      "de": {
+        "name": "DingTalk",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die DingTalk auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "DingTalk",
+        "detail": "Imágenes, miniaturas y recursos descargados que DingTalk guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "DingTalk",
+        "detail": "Images, miniatures et ressources téléchargées que DingTalk conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "DingTalk",
+        "detail": "Immagini, miniature e risorse scaricate che DingTalk tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "DingTalk",
+        "detail": "DingTalk がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "DingTalk",
+        "detail": "DingTalk이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "DingTalk",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die DingTalk op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "DingTalk",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które DingTalk trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "DingTalk",
+        "detail": "Imagens, miniaturas e recursos baixados que o DingTalk mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "DingTalk",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые DingTalk хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "DingTalk",
+        "detail": "DingTalk uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "DingTalk",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які DingTalk тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "钉钉",
+        "detail": "钉钉 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "釘釘",
+        "detail": "釘釘 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "釘釘",
+        "detail": "釘釘 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "DingTalk",
+    "detail": "Images, thumbnails and downloaded assets DingTalk keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/com.alibaba.DingTalkMac",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#1E6FFF"
+  },
+  {
+    "id": "wecom-cache",
+    "localizations": {
+      "en": {
+        "name": "WeCom"
+      },
+      "de": {
+        "name": "WeCom",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die WeCom auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "WeCom",
+        "detail": "Imágenes, miniaturas y recursos descargados que WeCom guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "WeCom",
+        "detail": "Images, miniatures et ressources téléchargées que WeCom conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "WeCom",
+        "detail": "Immagini, miniature e risorse scaricate che WeCom tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "WeCom",
+        "detail": "WeCom がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "WeCom",
+        "detail": "WeCom이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "WeCom",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die WeCom op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "WeCom",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które WeCom trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "WeCom",
+        "detail": "Imagens, miniaturas e recursos baixados que o WeCom mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "WeCom",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые WeCom хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "WeCom",
+        "detail": "WeCom uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "WeCom",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які WeCom тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "企业微信",
+        "detail": "企业微信保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "企業微信",
+        "detail": "企業微信保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "企業微信",
+        "detail": "企業微信保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "WeCom",
+    "detail": "Images, thumbnails and downloaded assets WeCom keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Containers/com.tencent.WeWorkMac/Data/Library/Caches",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#07C160"
+  },
+  {
+    "id": "tencent-meeting-cache",
+    "localizations": {
+      "en": {
+        "name": "Tencent Meeting"
+      },
+      "de": {
+        "name": "Tencent Meeting",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Tencent Meeting auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Tencent Meeting",
+        "detail": "Imágenes, miniaturas y recursos descargados que Tencent Meeting guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Tencent Meeting",
+        "detail": "Images, miniatures et ressources téléchargées que Tencent Meeting conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Tencent Meeting",
+        "detail": "Immagini, miniature e risorse scaricate che Tencent Meeting tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Tencent Meeting",
+        "detail": "Tencent Meeting がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Tencent Meeting",
+        "detail": "Tencent Meeting이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Tencent Meeting",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Tencent Meeting op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Tencent Meeting",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Tencent Meeting trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Tencent Meeting",
+        "detail": "Imagens, miniaturas e recursos baixados que o Tencent Meeting mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Tencent Meeting",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Tencent Meeting хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Tencent Meeting",
+        "detail": "Tencent Meeting uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Tencent Meeting",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Tencent Meeting тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "腾讯会议",
+        "detail": "腾讯会议 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "騰訊會議",
+        "detail": "騰訊會議 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "騰訊會議",
+        "detail": "騰訊會議 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Tencent Meeting",
+    "detail": "Images, thumbnails and downloaded assets Tencent Meeting keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/com.tencent.meeting",
+    "risk": "safe",
+    "symbol": "video",
+    "color": "#0055FF"
+  },
+  {
+    "id": "viber-cache",
+    "localizations": {
+      "en": {
+        "name": "Viber"
+      },
+      "de": {
+        "name": "Viber",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Viber auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Viber",
+        "detail": "Imágenes, miniaturas y recursos descargados que Viber guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Viber",
+        "detail": "Images, miniatures et ressources téléchargées que Viber conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Viber",
+        "detail": "Immagini, miniature e risorse scaricate che Viber tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Viber",
+        "detail": "Viber がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Viber",
+        "detail": "Viber가 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Viber",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Viber op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Viber",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Viber trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Viber",
+        "detail": "Imagens, miniaturas e recursos baixados que o Viber mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Viber",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Viber хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Viber",
+        "detail": "Viber uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Viber",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Viber тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Viber",
+        "detail": "Viber 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "Viber",
+        "detail": "Viber 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "Viber",
+        "detail": "Viber 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Viber",
+    "detail": "Images, thumbnails and downloaded assets Viber keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/com.viber.osx",
+    "risk": "safe",
+    "symbol": "message",
+    "color": "#7360F2"
+  },
+  {
+    "id": "webex-cache",
+    "localizations": {
+      "en": {
+        "name": "Webex"
+      },
+      "de": {
+        "name": "Webex",
+        "detail": "Bilder, Miniaturen und heruntergeladene Inhalte, die Webex auf der Festplatte behält. Sie werden bei der Nutzung neu erstellt; Nachrichtenverlauf und angemeldete Konten bleiben unberührt."
+      },
+      "es": {
+        "name": "Webex",
+        "detail": "Imágenes, miniaturas y recursos descargados que Webex guarda en el disco. Se reconstruyen al usar la app; el historial de mensajes y las cuentas no se ven afectados."
+      },
+      "fr": {
+        "name": "Webex",
+        "detail": "Images, miniatures et ressources téléchargées que Webex conserve sur le disque. Elles sont recréées à l’usage; l’historique des messages et les comptes connectés ne sont pas concernés."
+      },
+      "it": {
+        "name": "Webex",
+        "detail": "Immagini, miniature e risorse scaricate che Webex tiene sul disco. Vengono ricreate durante l’uso; cronologia dei messaggi e account collegati non sono coinvolti."
+      },
+      "ja": {
+        "name": "Webex",
+        "detail": "Webex がディスクに保持している画像・サムネイル・ダウンロード済みデータです。アプリの利用中に再生成され、メッセージ履歴やログイン中のアカウントは含まれません。"
+      },
+      "ko": {
+        "name": "Webex",
+        "detail": "Webex이 디스크에 보관하는 이미지, 축소판, 내려받은 리소스입니다. 앱을 사용하는 동안 다시 만들어지며 메시지 기록과 로그인 계정은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Webex",
+        "detail": "Afbeeldingen, miniaturen en gedownloade bronnen die Webex op schijf bewaart. Ze worden tijdens het gebruik opnieuw gemaakt; berichtgeschiedenis en accounts blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Webex",
+        "detail": "Obrazy, miniatury i pobrane zasoby, które Webex trzyma na dysku. Są odtwarzane podczas korzystania z aplikacji; historia wiadomości i zalogowane konta nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Webex",
+        "detail": "Imagens, miniaturas e recursos baixados que o Webex mantém em disco. São recriados conforme você usa o app; o histórico de mensagens e as contas não são afetados."
+      },
+      "ru": {
+        "name": "Webex",
+        "detail": "Изображения, миниатюры и загруженные ресурсы, которые Webex хранит на диске. Они создаются заново во время работы; история сообщений и аккаунты, в которых выполнен вход, не затрагиваются."
+      },
+      "tr": {
+        "name": "Webex",
+        "detail": "Webex uygulamasının diskte tuttuğu görseller, küçük resimler ve indirilmiş içerikler. Uygulamayı kullandıkça yeniden oluşturulur; mesaj geçmişi ve oturum açılmış hesaplar etkilenmez."
+      },
+      "uk": {
+        "name": "Webex",
+        "detail": "Зображення, мініатюри та завантажені ресурси, які Webex тримає на диску. Вони створюються заново під час користування; історія повідомлень та облікові записи не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Webex",
+        "detail": "Webex 保存在磁盘上的图片、缩略图和已下载资源。使用过程中会重新生成；不包含聊天记录和已登录账号。"
+      },
+      "zh-Hant": {
+        "name": "Webex",
+        "detail": "Webex 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包含聊天記錄和已登入帳號。"
+      },
+      "zh-HK": {
+        "name": "Webex",
+        "detail": "Webex 保存在磁碟上的圖片、縮圖和已下載資源。使用過程中會重新產生；不包括聊天記錄和已登入帳號。"
+      }
+    },
+    "name": "Webex",
+    "detail": "Images, thumbnails and downloaded assets Webex keeps on disk to open conversations faster. Rebuilt as you use the app; your message history and signed-in accounts are stored separately and are untouched.",
+    "path": "~/Library/Caches/Cisco-Systems.Spark",
+    "risk": "safe",
+    "symbol": "video",
+    "color": "#00BCEB"
+  },
+  {
+    "id": "element-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Element Web Data"
+      },
+      "de": {
+        "name": "Element Webdaten",
+        "detail": "Offline-Webdaten, die Element neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Element Datos web",
+        "detail": "Datos web sin conexión que Element guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Element Données web",
+        "detail": "Données web hors ligne que Element conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Element Dati web",
+        "detail": "Dati web offline che Element tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Element ウェブデータ",
+        "detail": "Element がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Element 웹 데이터",
+        "detail": "Element이 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Element Webgegevens",
+        "detail": "Offline webgegevens die Element naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Element Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Element trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Element Dados da web",
+        "detail": "Dados web offline que o Element mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Element Веб-данные",
+        "detail": "Офлайн-данные веба, которые Element держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Element Web verileri",
+        "detail": "Element uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Element Веб-дані",
+        "detail": "Офлайнові веб-дані, які Element тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Element 网页数据",
+        "detail": "Element 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Element 網頁資料",
+        "detail": "Element 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Element 網頁資料",
+        "detail": "Element 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Element Web Data",
+    "detail": "Offline web data Element keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Element",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#0DBD8B"
+  },
+  {
+    "id": "beeper-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Beeper Web Data"
+      },
+      "de": {
+        "name": "Beeper Webdaten",
+        "detail": "Offline-Webdaten, die Beeper neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Beeper Datos web",
+        "detail": "Datos web sin conexión que Beeper guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Beeper Données web",
+        "detail": "Données web hors ligne que Beeper conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Beeper Dati web",
+        "detail": "Dati web offline che Beeper tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Beeper ウェブデータ",
+        "detail": "Beeper がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Beeper 웹 데이터",
+        "detail": "Beeper가 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Beeper Webgegevens",
+        "detail": "Offline webgegevens die Beeper naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Beeper Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Beeper trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Beeper Dados da web",
+        "detail": "Dados web offline que o Beeper mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Beeper Веб-данные",
+        "detail": "Офлайн-данные веба, которые Beeper держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Beeper Web verileri",
+        "detail": "Beeper uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Beeper Веб-дані",
+        "detail": "Офлайнові веб-дані, які Beeper тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Beeper 网页数据",
+        "detail": "Beeper 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Beeper 網頁資料",
+        "detail": "Beeper 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Beeper 網頁資料",
+        "detail": "Beeper 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Beeper Web Data",
+    "detail": "Offline web data Beeper keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/BeeperTexts",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#2E7CF6"
+  },
+  {
+    "id": "mattermost-web-cache",
+    "localizations": {
+      "en": {
+        "name": "Mattermost Web Data"
+      },
+      "de": {
+        "name": "Mattermost Webdaten",
+        "detail": "Offline-Webdaten, die Mattermost neben seinen App-Daten ablegt — Service-Worker-Antworten und kompilierte Skripte. Sie werden beim nächsten Start neu gefüllt; Nachrichten und angemeldete Sitzung bleiben unberührt."
+      },
+      "es": {
+        "name": "Mattermost Datos web",
+        "detail": "Datos web sin conexión que Mattermost guarda junto a sus datos de app: respuestas de service worker y scripts compilados. Se rellenan la próxima vez que la abras; tus mensajes y tu sesión no se ven afectados."
+      },
+      "fr": {
+        "name": "Mattermost Données web",
+        "detail": "Données web hors ligne que Mattermost conserve à côté de ses données d’application — réponses de service worker et scripts compilés. Elles sont régénérées au prochain lancement; vos messages et votre session ne sont pas concernés."
+      },
+      "it": {
+        "name": "Mattermost Dati web",
+        "detail": "Dati web offline che Mattermost tiene accanto ai propri dati — risposte dei service worker e script compilati. Vengono ricreati al prossimo avvio; messaggi e sessione non sono coinvolti."
+      },
+      "ja": {
+        "name": "Mattermost ウェブデータ",
+        "detail": "Mattermost がアプリデータの隣に保持しているオフライン用のウェブデータ（Service Worker の応答やコンパイル済みスクリプト）です。次回起動時に埋め直され、メッセージやログイン状態は含まれません。"
+      },
+      "ko": {
+        "name": "Mattermost 웹 데이터",
+        "detail": "Mattermost이 앱 데이터 옆에 보관하는 오프라인 웹 데이터입니다 — 서비스 워커 응답과 컴파일된 스크립트. 다음에 열 때 다시 채워지며 메시지와 로그인 세션은 포함되지 않습니다."
+      },
+      "nl": {
+        "name": "Mattermost Webgegevens",
+        "detail": "Offline webgegevens die Mattermost naast zijn app-gegevens bewaart — service worker-reacties en gecompileerde scripts. Ze worden bij de volgende start opnieuw gevuld; berichten en sessie blijven buiten beschouwing."
+      },
+      "pl": {
+        "name": "Mattermost Dane sieciowe",
+        "detail": "Dane sieciowe offline, które Mattermost trzyma obok danych aplikacji — odpowiedzi service workera i skompilowane skrypty. Są uzupełniane przy następnym uruchomieniu; wiadomości i zalogowana sesja nie są uwzględniane."
+      },
+      "pt-BR": {
+        "name": "Mattermost Dados da web",
+        "detail": "Dados web offline que o Mattermost mantém junto aos dados do app — respostas de service worker e scripts compilados. São repostos na próxima vez que você abrir; suas mensagens e sua sessão não são afetadas."
+      },
+      "ru": {
+        "name": "Mattermost Веб-данные",
+        "detail": "Офлайн-данные веба, которые Mattermost держит рядом со своими данными, — ответы service worker и скомпилированные скрипты. Они наполняются заново при следующем запуске; сообщения и вход в аккаунт не затрагиваются."
+      },
+      "tr": {
+        "name": "Mattermost Web verileri",
+        "detail": "Mattermost uygulamasının kendi verilerinin yanında tuttuğu çevrimdışı web verileri — service worker yanıtları ve derlenmiş betikler. Bir sonraki açılışta yeniden dolar; mesajlarınız ve oturumunuz etkilenmez."
+      },
+      "uk": {
+        "name": "Mattermost Веб-дані",
+        "detail": "Офлайнові веб-дані, які Mattermost тримає поряд зі своїми даними, — відповіді service worker і скомпільовані скрипти. Вони наповнюються знову під час наступного запуску; повідомлення та сеанс входу не зачіпаються."
+      },
+      "zh-Hans": {
+        "name": "Mattermost 网页数据",
+        "detail": "Mattermost 放在应用数据旁边的离线网页数据 —— Service Worker 响应和已编译脚本。下次打开时会重新填充；不包含聊天消息和登录状态。"
+      },
+      "zh-Hant": {
+        "name": "Mattermost 網頁資料",
+        "detail": "Mattermost 放在應用程式資料旁邊的離線網頁資料 —— Service Worker 回應和已編譯指令碼。下次開啟時會重新填入；不包含聊天訊息和登入狀態。"
+      },
+      "zh-HK": {
+        "name": "Mattermost 網頁資料",
+        "detail": "Mattermost 放喺應用程式資料旁邊嘅離線網頁資料 —— Service Worker 回應同已編譯指令碼。下次開啟時會重新填入；不包括聊天訊息同登入狀態。"
+      }
+    },
+    "name": "Mattermost Web Data",
+    "detail": "Offline web data Mattermost keeps beside its app data — service worker responses and compiled scripts. Refilled the next time you open it; your messages and signed-in session are stored separately and are untouched.",
+    "path": "~/Library/Application Support/Mattermost",
+    "subfolders": [
+      "Service Worker/CacheStorage",
+      "Service Worker/ScriptCache"
+    ],
+    "risk": "safe",
+    "symbol": "bubble.left.and.bubble.right",
+    "color": "#1E325C"
+  }
+]

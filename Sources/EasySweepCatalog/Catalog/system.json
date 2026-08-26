@@ -532,7 +532,7 @@
     "path": "~/Library/Caches/com.getdropbox.dropbox",
     "risk": "safe",
     "symbol": "shippingbox",
-    "brandColor": "#0061FF"
+    "color": "#0061FF"
   },
   {
     "id": "google-drive-cache",
@@ -606,7 +606,7 @@
     "path": "~/Library/Caches/com.google.GoogleDrive",
     "risk": "safe",
     "symbol": "externaldrive.badge.icloud",
-    "brandColor": "#1A73E8"
+    "color": "#1A73E8"
   },
   {
     "id": "onedrive-cache",
@@ -680,7 +680,7 @@
     "path": "~/Library/Caches/com.microsoft.OneDrive",
     "risk": "safe",
     "symbol": "cloud",
-    "brandColor": "#0078D4"
+    "color": "#0078D4"
   },
   {
     "id": "crash-reports",

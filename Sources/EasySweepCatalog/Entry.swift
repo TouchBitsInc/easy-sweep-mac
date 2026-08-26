@@ -7,8 +7,8 @@ extension EasySweepCatalog {
 
     /// Which section an entry appears under.
     ///
-    /// A reading order, not a permission boundary — the six sections span 30
-    /// grant roots between them. See `Entry.grantRoots`.
+    /// A reading order, not a permission boundary — the sections span dozens of
+    /// grant roots between them. See `Entry.grantRoot`.
     ///
     /// **The case order is the display order.** `allCases` is the sequence a
     /// consumer shows its sections in, and this enum is the only place it is
@@ -26,6 +26,7 @@ extension EasySweepCatalog {
         case developer
         case aiTools
         case browsers
+        case messaging
         case multimedia
 
         /// Whether the section leads the list and stays there.
@@ -43,7 +44,7 @@ extension EasySweepCatalog {
         public var isPinned: Bool {
             switch self {
             case .system: true
-            case .developer, .aiTools, .browsers, .multimedia: false
+            case .developer, .aiTools, .browsers, .messaging, .multimedia: false
             }
         }
 
@@ -130,7 +131,7 @@ extension EasySweepCatalog {
         /// Unadjusted — lifting a near-black value for legibility is the
         /// consuming app's business, and doing it here would misreport the
         /// brand.
-        public let brandColor: String?
+        public let color: String?
         /// Localized name and explanation. English remains in `name` and
         /// `detail` so older consumers can read newer catalog files.
         public let localizations: [String: LocalizedContent]
@@ -143,7 +144,7 @@ extension EasySweepCatalog {
             subfolders: [String] = [],
             risk: Risk = .risky,
             symbol: String? = nil,
-            brandColor: String? = nil,
+            color: String? = nil,
             localizations: [String: LocalizedContent] = [:]
         ) {
             self.id = id
@@ -153,7 +154,7 @@ extension EasySweepCatalog {
             self.subfolders = subfolders
             self.risk = risk
             self.symbol = symbol
-            self.brandColor = brandColor
+            self.color = color
             self.localizations = localizations
         }
 
@@ -168,7 +169,7 @@ extension EasySweepCatalog {
             subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
             risk = try container.decodeIfPresent(Risk.self, forKey: .risk) ?? .risky
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
-            brandColor = try container.decodeIfPresent(String.self, forKey: .brandColor)
+            color = try container.decodeIfPresent(String.self, forKey: .color)
             localizations = try container.decodeIfPresent(
                 [String: LocalizedContent].self,
                 forKey: .localizations
