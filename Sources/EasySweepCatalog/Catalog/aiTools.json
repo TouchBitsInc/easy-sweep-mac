@@ -7,67 +7,67 @@
       },
       "de": {
         "name": "Claude Code Caches",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Claude Code Caches. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Claude Code Cachés",
-        "detail": "Cachés, sesiones o modelos locales de Claude Code Cachés. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Claude Code Caches",
-        "detail": "Caches, sessions ou modèles locaux de Claude Code Caches. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Claude Code Cache",
-        "detail": "Cache, sessioni o modelli locali di Claude Code Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Claude Code キャッシュ",
-        "detail": "Claude Code キャッシュ のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Claude Code 캐시",
-        "detail": "Claude Code 캐시의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Claude Code Caches",
-        "detail": "Lokale caches, sessies of modellen van Claude Code Caches. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Claude Code Pamięci podręczne",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Claude Code Pamięci podręczne. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code Caches",
-        "detail": "Caches, sessões ou modelos locais do Claude Code Caches. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Claude Code Кэши",
-        "detail": "Локальные кэши, сеансы или модели Claude Code Кэши. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Claude Code Önbellekler",
-        "detail": "Claude Code Önbellekler için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Claude Code Кеші",
-        "detail": "Локальні кеші, сеанси або моделі Claude Code Кеші. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Claude Code 缓存",
-        "detail": "Claude Code 缓存 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Claude Code 快取",
-        "detail": "Claude Code 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Claude Code 快取",
-        "detail": "Claude Code 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Claude Code Caches",
-    "detail": "Caches, debug logs, shell snapshots and downloads. Settings and memory are  left untouched.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.claude",
     "subfolders": [
       "cache",
@@ -88,67 +88,67 @@
       },
       "de": {
         "name": "Claude Code npm Cache",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Claude Code npm Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Claude Code npm Caché",
-        "detail": "Cachés, sesiones o modelos locales de Claude Code npm Caché. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Claude Code npm Cache",
-        "detail": "Caches, sessions ou modèles locaux de Claude Code npm Cache. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Claude Code npm Cache",
-        "detail": "Cache, sessioni o modelli locali di Claude Code npm Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Claude Code npm キャッシュ",
-        "detail": "Claude Code npm キャッシュ のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Claude Code npm 캐시",
-        "detail": "Claude Code npm 캐시의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Claude Code npm Cache",
-        "detail": "Lokale caches, sessies of modellen van Claude Code npm Cache. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Claude Code npm Pamięć podręczna",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Claude Code npm Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code npm Cache",
-        "detail": "Caches, sessões ou modelos locais do Claude Code npm Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Claude Code npm Кэш",
-        "detail": "Локальные кэши, сеансы или модели Claude Code npm Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Claude Code npm Önbellek",
-        "detail": "Claude Code npm Önbellek için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Claude Code npm Кеш",
-        "detail": "Локальні кеші, сеанси або моделі Claude Code npm Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Claude Code npm 缓存",
-        "detail": "Claude Code npm 缓存 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Claude Code npm 快取",
-        "detail": "Claude Code npm 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Claude Code npm 快取",
-        "detail": "Claude Code npm 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Claude Code npm Cache",
-    "detail": "The CLI's Node package cache. Refetched when the CLI next updates.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/claude-cli-nodejs",
     "risk": "safe",
     "symbol": "sparkle",
@@ -162,67 +162,67 @@
       },
       "de": {
         "name": "Gemini CLI Temp",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Gemini CLI Temp. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Temporäre Dateien; bei normaler Nutzung neu erstellt."
       },
       "es": {
         "name": "Gemini CLI Temporales",
-        "detail": "Cachés, sesiones o modelos locales de Gemini CLI Temporales. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos temporales; se recrean durante el uso normal."
       },
       "fr": {
         "name": "Gemini CLI Fichiers temporaires",
-        "detail": "Caches, sessions ou modèles locaux de Gemini CLI Fichiers temporaires. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers temporaires; recréés pendant l’utilisation normale."
       },
       "it": {
         "name": "Gemini CLI File temporanei",
-        "detail": "Cache, sessioni o modelli locali di Gemini CLI File temporanei. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File temporanei; ricreati durante l’uso normale."
       },
       "ja": {
         "name": "Gemini CLI 一時ファイル",
-        "detail": "Gemini CLI 一時ファイル のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "一時ファイル。通常の使用中に再作成されます。"
       },
       "ko": {
         "name": "Gemini CLI 임시 파일",
-        "detail": "Gemini CLI 임시 파일의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "임시 파일입니다. 정상 사용 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Gemini CLI Tijdelijke bestanden",
-        "detail": "Lokale caches, sessies of modellen van Gemini CLI Tijdelijke bestanden. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Tijdelijke bestanden; opnieuw gemaakt tijdens normaal gebruik."
       },
       "pl": {
         "name": "Gemini CLI Pliki tymczasowe",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Gemini CLI Pliki tymczasowe. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pliki tymczasowe; odtwarzane podczas normalnego użytkowania."
       },
       "pt-BR": {
         "name": "Gemini CLI Arquivos temporários",
-        "detail": "Caches, sessões ou modelos locais do Gemini CLI Arquivos temporários. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos temporários; recriados durante o uso normal."
       },
       "ru": {
         "name": "Gemini CLI Временные файлы",
-        "detail": "Локальные кэши, сеансы или модели Gemini CLI Временные файлы. При необходимости они создаются или загружаются заново."
+        "detail": "Временные файлы; создаются заново при обычном использовании."
       },
       "tr": {
         "name": "Gemini CLI Geçici dosyalar",
-        "detail": "Gemini CLI Geçici dosyalar için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Geçici dosyalar; normal kullanımda yeniden oluşturulur."
       },
       "uk": {
         "name": "Gemini CLI Тимчасові файли",
-        "detail": "Локальні кеші, сеанси або моделі Gemini CLI Тимчасові файли. За потреби їх буде створено або завантажено повторно."
+        "detail": "Тимчасові файли; створюються під час звичайного використання."
       },
       "zh-Hans": {
         "name": "Gemini CLI 临时文件",
-        "detail": "Gemini CLI 临时文件 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "临时文件；正常使用时会重新生成。"
       },
       "zh-Hant": {
         "name": "Gemini CLI 暫存檔案",
-        "detail": "Gemini CLI 暫存檔案 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       },
       "zh-HK": {
         "name": "Gemini CLI 暫存檔案",
-        "detail": "Gemini CLI 暫存檔案 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       }
     },
     "name": "Gemini CLI Temp",
-    "detail": "Scratch files written by the Gemini CLI.",
+    "detail": "Temporary files; recreated during normal use.",
     "path": "~/.gemini/tmp",
     "risk": "safe",
     "symbol": "sparkles",
@@ -236,67 +236,67 @@
       },
       "de": {
         "name": "Cursor Cache",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Cursor Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cursor Caché",
-        "detail": "Cachés, sesiones o modelos locales de Cursor Caché. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Cursor Cache",
-        "detail": "Caches, sessions ou modèles locaux de Cursor Cache. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cursor Cache",
-        "detail": "Cache, sessioni o modelli locali di Cursor Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Cursor キャッシュ",
-        "detail": "Cursor キャッシュ のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Cursor 캐시",
-        "detail": "Cursor 캐시의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Cursor Cache",
-        "detail": "Lokale caches, sessies of modellen van Cursor Cache. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Cursor Pamięć podręczna",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Cursor Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Cursor Cache",
-        "detail": "Caches, sessões ou modelos locais do Cursor Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Cursor Кэш",
-        "detail": "Локальные кэши, сеансы или модели Cursor Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Cursor Önbellek",
-        "detail": "Cursor Önbellek için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Cursor Кеш",
-        "detail": "Локальні кеші, сеанси або моделі Cursor Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Cursor 缓存",
-        "detail": "Cursor 缓存 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Cursor 快取",
-        "detail": "Cursor 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Cursor 快取",
-        "detail": "Cursor 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Cursor Cache",
-    "detail": "Cached extension and index data for the Cursor editor.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.cursor/extensions/.cache",
     "risk": "safe",
     "symbol": "cursorarrow"
@@ -309,67 +309,67 @@
       },
       "de": {
         "name": "Codex Sitzungsverlauf",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Codex Sitzungsverlauf. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Sitzungsverlauf; neue Daten entstehen beim Arbeiten."
       },
       "es": {
         "name": "Codex Historial de sesiones",
-        "detail": "Cachés, sesiones o modelos locales de Codex Historial de sesiones. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Historial de sesiones; aparecen datos nuevos al trabajar."
       },
       "fr": {
         "name": "Codex Historique des sessions",
-        "detail": "Caches, sessions ou modèles locaux de Codex Historique des sessions. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Historique des sessions; de nouvelles données apparaissent au travail."
       },
       "it": {
         "name": "Codex Cronologia delle sessioni",
-        "detail": "Cache, sessioni o modelli locali di Codex Cronologia delle sessioni. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cronologia sessioni; nuovi dati compaiono lavorando."
       },
       "ja": {
         "name": "Codex セッション履歴",
-        "detail": "Codex セッション履歴 のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "セッション履歴とログ。作業中に新しいデータが増えます。"
       },
       "ko": {
         "name": "Codex 세션 기록",
-        "detail": "Codex 세션 기록의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "세션 기록과 로그입니다. 작업 중 새 데이터가 추가됩니다."
       },
       "nl": {
         "name": "Codex Sessiegeschiedenis",
-        "detail": "Lokale caches, sessies of modellen van Codex Sessiegeschiedenis. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Sessiegeschiedenis; nieuwe gegevens ontstaan tijdens het werken."
       },
       "pl": {
         "name": "Codex Historia sesji",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Codex Historia sesji. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Historia sesji; nowe dane powstają podczas pracy."
       },
       "pt-BR": {
         "name": "Codex Histórico de sessões",
-        "detail": "Caches, sessões ou modelos locais do Codex Histórico de sessões. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Histórico de sessões; novos dados surgem durante o trabalho."
       },
       "ru": {
         "name": "Codex История сеансов",
-        "detail": "Локальные кэши, сеансы или модели Codex История сеансов. При необходимости они создаются или загружаются заново."
+        "detail": "История сеансов; новые данные появляются во время работы."
       },
       "tr": {
         "name": "Codex Oturum geçmişi",
-        "detail": "Codex Oturum geçmişi için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Oturum geçmişi; çalışırken yeni veriler oluşur."
       },
       "uk": {
         "name": "Codex Історія сеансів",
-        "detail": "Локальні кеші, сеанси або моделі Codex Історія сеансів. За потреби їх буде створено або завантажено повторно."
+        "detail": "Історія сеансів; під час роботи з’являються нові дані."
       },
       "zh-Hans": {
         "name": "Codex 会话历史记录",
-        "detail": "Codex 会话历史记录 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "会话历史和日志；工作时会产生新数据。"
       },
       "zh-Hant": {
         "name": "Codex 工作階段記錄",
-        "detail": "Codex 工作階段記錄 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       },
       "zh-HK": {
         "name": "Codex 工作階段記錄",
-        "detail": "Codex 工作階段記錄 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       }
     },
     "name": "Codex Session History",
-    "detail": "Recorded Codex sessions and logs. Deleting these loses your past transcripts.",
+    "detail": "Session history and logs; new data appears while working.",
     "path": "~/.codex",
     "subfolders": [
       "sessions",
@@ -387,67 +387,67 @@
       },
       "de": {
         "name": "Claude Code Sitzungsverlauf",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Claude Code Sitzungsverlauf. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Sitzungsverlauf; neue Daten entstehen beim Arbeiten."
       },
       "es": {
         "name": "Claude Code Historial de sesiones",
-        "detail": "Cachés, sesiones o modelos locales de Claude Code Historial de sesiones. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Historial de sesiones; aparecen datos nuevos al trabajar."
       },
       "fr": {
         "name": "Claude Code Historique des sessions",
-        "detail": "Caches, sessions ou modèles locaux de Claude Code Historique des sessions. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Historique des sessions; de nouvelles données apparaissent au travail."
       },
       "it": {
         "name": "Claude Code Cronologia delle sessioni",
-        "detail": "Cache, sessioni o modelli locali di Claude Code Cronologia delle sessioni. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cronologia sessioni; nuovi dati compaiono lavorando."
       },
       "ja": {
         "name": "Claude Code セッション履歴",
-        "detail": "Claude Code セッション履歴 のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "セッション履歴とログ。作業中に新しいデータが増えます。"
       },
       "ko": {
         "name": "Claude Code 세션 기록",
-        "detail": "Claude Code 세션 기록의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "세션 기록과 로그입니다. 작업 중 새 데이터가 추가됩니다."
       },
       "nl": {
         "name": "Claude Code Sessiegeschiedenis",
-        "detail": "Lokale caches, sessies of modellen van Claude Code Sessiegeschiedenis. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Sessiegeschiedenis; nieuwe gegevens ontstaan tijdens het werken."
       },
       "pl": {
         "name": "Claude Code Historia sesji",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Claude Code Historia sesji. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Historia sesji; nowe dane powstają podczas pracy."
       },
       "pt-BR": {
         "name": "Claude Code Histórico de sessões",
-        "detail": "Caches, sessões ou modelos locais do Claude Code Histórico de sessões. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Histórico de sessões; novos dados surgem durante o trabalho."
       },
       "ru": {
         "name": "Claude Code История сеансов",
-        "detail": "Локальные кэши, сеансы или модели Claude Code История сеансов. При необходимости они создаются или загружаются заново."
+        "detail": "История сеансов; новые данные появляются во время работы."
       },
       "tr": {
         "name": "Claude Code Oturum geçmişi",
-        "detail": "Claude Code Oturum geçmişi için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Oturum geçmişi; çalışırken yeni veriler oluşur."
       },
       "uk": {
         "name": "Claude Code Історія сеансів",
-        "detail": "Локальні кеші, сеанси або моделі Claude Code Історія сеансів. За потреби їх буде створено або завантажено повторно."
+        "detail": "Історія сеансів; під час роботи з’являються нові дані."
       },
       "zh-Hans": {
         "name": "Claude Code 会话历史记录",
-        "detail": "Claude Code 会话历史记录 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "会话历史和日志；工作时会产生新数据。"
       },
       "zh-Hant": {
         "name": "Claude Code 工作階段記錄",
-        "detail": "Claude Code 工作階段記錄 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       },
       "zh-HK": {
         "name": "Claude Code 工作階段記錄",
-        "detail": "Claude Code 工作階段記錄 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       }
     },
     "name": "Claude Code Session History",
-    "detail": "Per-project transcripts, backups, and the file history that powers  rewinding edits. Deleting these loses resume, search, and undo.",
+    "detail": "Session history and logs; new data appears while working.",
     "path": "~/.claude",
     "subfolders": [
       "projects",
@@ -466,67 +466,67 @@
       },
       "de": {
         "name": "Windsurf-Browser-Downloads",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Windsurf-Browser-Downloads. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas del navegador de Windsurf",
-        "detail": "Cachés, sesiones o modelos locales de Descargas del navegador de Windsurf. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements du navigateur Windsurf",
-        "detail": "Caches, sessions ou modèles locaux de Téléchargements du navigateur Windsurf. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download del browser Windsurf",
-        "detail": "Cache, sessioni o modelli locali di Download del browser Windsurf. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Windsurfブラウザのダウンロード",
-        "detail": "Windsurfブラウザのダウンロード のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Windsurf 브라우저 다운로드",
-        "detail": "Windsurf 브라우저 다운로드의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Browserdownloads van Windsurf",
-        "detail": "Lokale caches, sessies of modellen van Browserdownloads van Windsurf. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Pobrane dane przeglądarki Windsurf",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Pobrane dane przeglądarki Windsurf. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads do navegador Windsurf",
-        "detail": "Caches, sessões ou modelos locais do Downloads do navegador Windsurf. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Загрузки браузера Windsurf",
-        "detail": "Локальные кэши, сеансы или модели Загрузки браузера Windsurf. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Windsurf tarayıcı indirmeleri",
-        "detail": "Windsurf tarayıcı indirmeleri için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Завантаження браузера Windsurf",
-        "detail": "Локальні кеші, сеанси або моделі Завантаження браузера Windsurf. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Windsurf 浏览器下载",
-        "detail": "Windsurf 浏览器下载 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Windsurf 瀏覽器下載項目",
-        "detail": "Windsurf 瀏覽器下載項目 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Windsurf 瀏覽器下載項目",
-        "detail": "Windsurf 瀏覽器下載項目 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Windsurf Browser Downloads",
-    "detail": "Chromium builds the Codeium and Windsurf tooling downloads for its browser features. Refetched when next needed.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/.codeium/ws-browser",
     "risk": "safe"
   },
@@ -538,67 +538,67 @@
       },
       "de": {
         "name": "Codex App Cache",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Codex App Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Codex App Caché",
-        "detail": "Cachés, sesiones o modelos locales de Codex App Caché. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Codex App Cache",
-        "detail": "Caches, sessions ou modèles locaux de Codex App Cache. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Codex App Cache",
-        "detail": "Cache, sessioni o modelli locali di Codex App Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Codex App キャッシュ",
-        "detail": "Codex App キャッシュ のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Codex App 캐시",
-        "detail": "Codex App 캐시의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Codex App Cache",
-        "detail": "Lokale caches, sessies of modellen van Codex App Cache. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Codex App Pamięć podręczna",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Codex App Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Codex App Cache",
-        "detail": "Caches, sessões ou modelos locais do Codex App Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Codex App Кэш",
-        "detail": "Локальные кэши, сеансы или модели Codex App Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Codex App Önbellek",
-        "detail": "Codex App Önbellek için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Codex App Кеш",
-        "detail": "Локальні кеші, сеанси або моделі Codex App Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Codex App 缓存",
-        "detail": "Codex App 缓存 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Codex App 快取",
-        "detail": "Codex App 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Codex App 快取",
-        "detail": "Codex App 快取 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Codex App Cache",
-    "detail": "Rendering and network cache for the Codex desktop app. Rebuilt as you use it; your sessions live elsewhere and are untouched.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/Codex",
     "risk": "safe"
   },
@@ -610,67 +610,67 @@
       },
       "de": {
         "name": "Ollama Modelle",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Ollama Modelle. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Modelle; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Ollama Modelos",
-        "detail": "Cachés, sesiones o modelos locales de Ollama Modelos. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Modelos descargados; se descargan de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Ollama Modèles",
-        "detail": "Caches, sessions ou modèles locaux de Ollama Modèles. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Modèles téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Ollama Modelli",
-        "detail": "Cache, sessioni o modelli locali di Ollama Modelli. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Modelli scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Ollama モデル",
-        "detail": "Ollama モデル のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたモデル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Ollama 모델",
-        "detail": "Ollama 모델의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 모델입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Ollama Modellen",
-        "detail": "Lokale caches, sessies of modellen van Ollama Modellen. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade modellen; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Ollama Modele",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Ollama Modele. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane modele; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Ollama Modelos",
-        "detail": "Caches, sessões ou modelos locais do Ollama Modelos. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Modelos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Ollama Модели",
-        "detail": "Локальные кэши, сеансы или модели Ollama Модели. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные модели; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Ollama Modeller",
-        "detail": "Ollama Modeller için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen modeller; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Ollama Моделі",
-        "detail": "Локальні кеші, сеанси або моделі Ollama Моделі. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені моделі; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Ollama 模型",
-        "detail": "Ollama 模型 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的模型；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Ollama 模型",
-        "detail": "Ollama 模型 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的模型；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Ollama 模型",
-        "detail": "Ollama 模型 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的模型；需要時會重新下載。"
       }
     },
     "name": "Ollama Models",
-    "detail": "Language models you pulled with Ollama. Removing them frees the most space of anything here, and each one has to be downloaded again with ollama pull — often several gigabytes apiece, so only clear models you've finished with.",
+    "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.ollama/models",
     "risk": "risky",
     "symbol": "brain"
@@ -683,67 +683,67 @@
       },
       "de": {
         "name": "LM Studio Laufzeitumgebungen",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für LM Studio Laufzeitumgebungen. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "LM Studio Entornos de ejecución",
-        "detail": "Cachés, sesiones o modelos locales de LM Studio Entornos de ejecución. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "LM Studio Environnements d’exécution",
-        "detail": "Caches, sessions ou modèles locaux de LM Studio Environnements d’exécution. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "LM Studio Runtime",
-        "detail": "Cache, sessioni o modelli locali di LM Studio Runtime. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "LM Studio ランタイム",
-        "detail": "LM Studio ランタイム のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "LM Studio 런타임",
-        "detail": "LM Studio 런타임의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "LM Studio Runtime-omgevingen",
-        "detail": "Lokale caches, sessies of modellen van LM Studio Runtime-omgevingen. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "LM Studio Środowiska uruchomieniowe",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele LM Studio Środowiska uruchomieniowe. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "LM Studio Ambientes de execução",
-        "detail": "Caches, sessões ou modelos locais do LM Studio Ambientes de execução. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "LM Studio Среды выполнения",
-        "detail": "Локальные кэши, сеансы или модели LM Studio Среды выполнения. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "LM Studio Çalışma ortamları",
-        "detail": "LM Studio Çalışma ortamları için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "LM Studio Середовища виконання",
-        "detail": "Локальні кеші, сеанси або моделі LM Studio Середовища виконання. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "LM Studio 运行时",
-        "detail": "LM Studio 运行时 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "LM Studio 執行環境",
-        "detail": "LM Studio 執行環境 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "LM Studio 執行環境",
-        "detail": "LM Studio 執行環境 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "LM Studio Runtimes",
-    "detail": "Inference engines LM Studio downloads to run models — llama.cpp, MLX and similar. Refetched automatically the next time a model needs one, but that is a multi-gigabyte download.",
+    "detail": "Downloaded runtimes; redownloaded when needed.",
     "path": "~/.lmstudio/extensions/backends",
     "risk": "risky",
     "symbol": "shippingbox.fill"
@@ -756,67 +756,67 @@
       },
       "de": {
         "name": "Codex Updater",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Codex Updater. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Codex Updater",
-        "detail": "Cachés, sesiones o modelos locales de Codex Updater. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Codex Updater",
-        "detail": "Caches, sessions ou modèles locaux de Codex Updater. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Codex Updater",
-        "detail": "Cache, sessioni o modelli locali di Codex Updater. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Codex Updater",
-        "detail": "Codex Updater のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Codex Updater",
-        "detail": "Codex Updater의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Codex Updater",
-        "detail": "Lokale caches, sessies of modellen van Codex Updater. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Codex Updater",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Codex Updater. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Codex Updater",
-        "detail": "Caches, sessões ou modelos locais do Codex Updater. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Codex Updater",
-        "detail": "Локальные кэши, сеансы или модели Codex Updater. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Codex Updater",
-        "detail": "Codex Updater için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Codex Updater",
-        "detail": "Локальні кеші, сеанси або моделі Codex Updater. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Codex Updater",
-        "detail": "Codex Updater 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Codex Updater",
-        "detail": "Codex Updater 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Codex Updater",
-        "detail": "Codex Updater 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Codex Updater",
-    "detail": "Update packages the Codex app downloaded and has already installed. Fetched again only when the next update arrives.",
+    "detail": "Installed update files; downloaded with future updates.",
     "path": "~/Library/Caches/com.openai.codex",
     "risk": "safe",
     "symbol": "arrow.down.circle"
@@ -829,67 +829,67 @@
       },
       "de": {
         "name": "LM Studio Modelle",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für LM Studio Modelle. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Modelle; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "LM Studio Modelos",
-        "detail": "Cachés, sesiones o modelos locales de LM Studio Modelos. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Modelos descargados; se descargan de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "LM Studio Modèles",
-        "detail": "Caches, sessions ou modèles locaux de LM Studio Modèles. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Modèles téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "LM Studio Modelli",
-        "detail": "Cache, sessioni o modelli locali di LM Studio Modelli. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Modelli scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "LM Studio モデル",
-        "detail": "LM Studio モデル のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたモデル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "LM Studio 모델",
-        "detail": "LM Studio 모델의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 모델입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "LM Studio Modellen",
-        "detail": "Lokale caches, sessies of modellen van LM Studio Modellen. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade modellen; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "LM Studio Modele",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele LM Studio Modele. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane modele; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "LM Studio Modelos",
-        "detail": "Caches, sessões ou modelos locais do LM Studio Modelos. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Modelos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "LM Studio Модели",
-        "detail": "Локальные кэши, сеансы или модели LM Studio Модели. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные модели; при необходимости загружаются снова."
       },
       "tr": {
         "name": "LM Studio Modeller",
-        "detail": "LM Studio Modeller için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen modeller; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "LM Studio Моделі",
-        "detail": "Локальні кеші, сеанси або моделі LM Studio Моделі. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені моделі; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "LM Studio 模型",
-        "detail": "LM Studio 模型 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的模型；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "LM Studio 模型",
-        "detail": "LM Studio 模型 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的模型；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "LM Studio 模型",
-        "detail": "LM Studio 模型 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的模型；需要時會重新下載。"
       }
     },
     "name": "LM Studio Models",
-    "detail": "Model weights downloaded through LM Studio. Removing one frees gigabytes and means downloading it again before it can be run.",
+    "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.lmstudio/models",
     "risk": "risky",
     "symbol": "brain"
@@ -902,67 +902,67 @@
       },
       "de": {
         "name": "Codex-Arbeitsdateien",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Codex-Arbeitsdateien. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Temporäre Dateien; bei normaler Nutzung neu erstellt."
       },
       "es": {
         "name": "Archivos de trabajo de Codex",
-        "detail": "Cachés, sesiones o modelos locales de Archivos de trabajo de Codex. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos temporales; se recrean durante el uso normal."
       },
       "fr": {
         "name": "Fichiers de travail de Codex",
-        "detail": "Caches, sessions ou modèles locaux de Fichiers de travail de Codex. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers temporaires; recréés pendant l’utilisation normale."
       },
       "it": {
         "name": "File di lavoro di Codex",
-        "detail": "Cache, sessioni o modelli locali di File di lavoro di Codex. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File temporanei; ricreati durante l’uso normale."
       },
       "ja": {
         "name": "Codexの作業ファイル",
-        "detail": "Codexの作業ファイル のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "一時ファイル。通常の使用中に再作成されます。"
       },
       "ko": {
         "name": "Codex 작업 파일",
-        "detail": "Codex 작업 파일의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "임시 파일입니다. 정상 사용 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Werkbestanden van Codex",
-        "detail": "Lokale caches, sessies of modellen van Werkbestanden van Codex. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Tijdelijke bestanden; opnieuw gemaakt tijdens normaal gebruik."
       },
       "pl": {
         "name": "Pliki robocze Codex",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Pliki robocze Codex. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pliki tymczasowe; odtwarzane podczas normalnego użytkowania."
       },
       "pt-BR": {
         "name": "Arquivos de trabalho do Codex",
-        "detail": "Caches, sessões ou modelos locais do Arquivos de trabalho do Codex. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos temporários; recriados durante o uso normal."
       },
       "ru": {
         "name": "Рабочие файлы Codex",
-        "detail": "Локальные кэши, сеансы или модели Рабочие файлы Codex. При необходимости они создаются или загружаются заново."
+        "detail": "Временные файлы; создаются заново при обычном использовании."
       },
       "tr": {
         "name": "Codex çalışma dosyaları",
-        "detail": "Codex çalışma dosyaları için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Geçici dosyalar; normal kullanımda yeniden oluşturulur."
       },
       "uk": {
         "name": "Робочі файли Codex",
-        "detail": "Локальні кеші, сеанси або моделі Робочі файли Codex. За потреби їх буде створено або завантажено повторно."
+        "detail": "Тимчасові файли; створюються під час звичайного використання."
       },
       "zh-Hans": {
         "name": "Codex 工作文件",
-        "detail": "Codex 工作文件 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "临时文件；正常使用时会重新生成。"
       },
       "zh-Hant": {
         "name": "Codex 工作檔案",
-        "detail": "Codex 工作檔案 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       },
       "zh-HK": {
         "name": "Codex 工作檔案",
-        "detail": "Codex 工作檔案 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       }
     },
     "name": "Codex Working Files",
-    "detail": "Cached repository clones and staging folders Codex writes while it works. Fetched again the next time they are needed; each row is one folder, and anything named as a backup is worth reading before it goes.",
+    "detail": "Temporary files; recreated during normal use.",
     "path": "~/.codex/.tmp",
     "subfolders": [
       "*"
@@ -978,67 +978,67 @@
       },
       "de": {
         "name": "Claude Code Versionen",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Claude Code Versionen. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Claude Code Versiones",
-        "detail": "Cachés, sesiones o modelos locales de Claude Code Versiones. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Claude Code Versions",
-        "detail": "Caches, sessions ou modèles locaux de Claude Code Versions. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Claude Code Versioni",
-        "detail": "Cache, sessioni o modelli locali di Claude Code Versioni. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Claude Code バージョン",
-        "detail": "Claude Code バージョン のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Claude Code 버전",
-        "detail": "Claude Code 버전의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Claude Code Versies",
-        "detail": "Lokale caches, sessies of modellen van Claude Code Versies. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Claude Code Wersje",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Claude Code Wersje. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code Versões",
-        "detail": "Caches, sessões ou modelos locais do Claude Code Versões. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Claude Code Версии",
-        "detail": "Локальные кэши, сеансы или модели Claude Code Версии. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Claude Code Sürümler",
-        "detail": "Claude Code Sürümler için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Claude Code Версії",
-        "detail": "Локальні кеші, сеанси або моделі Claude Code Версії. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Claude Code 版本",
-        "detail": "Claude Code 版本 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Claude Code 版本",
-        "detail": "Claude Code 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Claude Code 版本",
-        "detail": "Claude Code 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Claude Code Versions",
-    "detail": "Copies of the CLI kept after it updated itself, one folder per version. Removing the version in use means downloading it again on the next launch, so the newest is the one to leave.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.local/share/claude/versions",
     "subfolders": [
       "*"
@@ -1055,67 +1055,67 @@
       },
       "de": {
         "name": "Cursor Agent Versionen",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Cursor Agent Versionen. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Cursor Agent Versiones",
-        "detail": "Cachés, sesiones o modelos locales de Cursor Agent Versiones. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Cursor Agent Versions",
-        "detail": "Caches, sessions ou modèles locaux de Cursor Agent Versions. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Cursor Agent Versioni",
-        "detail": "Cache, sessioni o modelli locali di Cursor Agent Versioni. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Cursor Agent バージョン",
-        "detail": "Cursor Agent バージョン のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Cursor Agent 버전",
-        "detail": "Cursor Agent 버전의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Cursor Agent Versies",
-        "detail": "Lokale caches, sessies of modellen van Cursor Agent Versies. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Cursor Agent Wersje",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Cursor Agent Wersje. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Cursor Agent Versões",
-        "detail": "Caches, sessões ou modelos locais do Cursor Agent Versões. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Cursor Agent Версии",
-        "detail": "Локальные кэши, сеансы или модели Cursor Agent Версии. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Cursor Agent Sürümler",
-        "detail": "Cursor Agent Sürümler için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Cursor Agent Версії",
-        "detail": "Локальні кеші, сеанси або моделі Cursor Agent Версії. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Cursor Agent 版本",
-        "detail": "Cursor Agent 版本 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Cursor Agent 版本",
-        "detail": "Cursor Agent 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Cursor Agent 版本",
-        "detail": "Cursor Agent 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Cursor Agent Versions",
-    "detail": "Copies of the Cursor agent CLI kept after it updated itself, one folder per version. The newest is the one in use; older ones are re-downloadable.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.local/share/cursor-agent/versions",
     "subfolders": [
       "*"
@@ -1131,67 +1131,67 @@
       },
       "de": {
         "name": "Copilot CLI Versionen",
-        "detail": "Lokale Cache-, Sitzungs- oder Modelldaten für Copilot CLI Versionen. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Copilot CLI Versiones",
-        "detail": "Cachés, sesiones o modelos locales de Copilot CLI Versiones. Se recrean o se descargan de nuevo cuando hacen falta."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Copilot CLI Versions",
-        "detail": "Caches, sessions ou modèles locaux de Copilot CLI Versions. Ils sont recréés ou retéléchargés lorsque l’outil en a besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Copilot CLI Versioni",
-        "detail": "Cache, sessioni o modelli locali di Copilot CLI Versioni. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Copilot CLI バージョン",
-        "detail": "Copilot CLI バージョン のキャッシュ、セッション、モデルデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Copilot CLI 버전",
-        "detail": "Copilot CLI 버전의 캐시, 세션 또는 모델 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Copilot CLI Versies",
-        "detail": "Lokale caches, sessies of modellen van Copilot CLI Versies. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Copilot CLI Wersje",
-        "detail": "Lokalne pamięci podręczne, sesje lub modele Copilot CLI Wersje. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Copilot CLI Versões",
-        "detail": "Caches, sessões ou modelos locais do Copilot CLI Versões. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Copilot CLI Версии",
-        "detail": "Локальные кэши, сеансы или модели Copilot CLI Версии. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Copilot CLI Sürümler",
-        "detail": "Copilot CLI Sürümler için yerel önbellek, oturum veya model verileri. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Copilot CLI Версії",
-        "detail": "Локальні кеші, сеанси або моделі Copilot CLI Версії. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Copilot CLI 版本",
-        "detail": "Copilot CLI 版本 的本地缓存、会话或模型数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Copilot CLI 版本",
-        "detail": "Copilot CLI 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Copilot CLI 版本",
-        "detail": "Copilot CLI 版本 的本機快取、工作階段或模型資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Copilot CLI Versions",
-    "detail": "Copies of the GitHub Copilot CLI kept after it updated itself. The newest is the one in use; older ones are downloaded again if ever needed.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.copilot/pkg/universal",
     "subfolders": [
       "*"
