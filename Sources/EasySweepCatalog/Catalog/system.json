@@ -7,67 +7,67 @@
       },
       "de": {
         "name": "Benutzerprotokolle",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Benutzerprotokolle. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
       },
       "es": {
         "name": "Registros de usuario",
-        "detail": "Datos guardados por macOS o las apps para Registros de usuario. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
       },
       "fr": {
         "name": "Journaux utilisateur",
-        "detail": "Données enregistrées par macOS ou les apps pour Journaux utilisateur. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
       },
       "it": {
         "name": "Log utente",
-        "detail": "Dati salvati da macOS o dalle app per Log utente. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
       },
       "ja": {
         "name": "ユーザーログ",
-        "detail": "macOS またはアプリが ユーザーログ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
       },
       "ko": {
         "name": "사용자 로그",
-        "detail": "macOS 또는 앱이 사용자 로그을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
       },
       "nl": {
         "name": "Gebruikerslogboeken",
-        "detail": "Gegevens die macOS of apps voor Gebruikerslogboeken bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
       },
       "pl": {
         "name": "Dzienniki użytkownika",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Dzienniki użytkownika. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
       },
       "pt-BR": {
         "name": "Registros do usuário",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Registros do usuário. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
       },
       "ru": {
         "name": "Пользовательские журналы",
-        "detail": "Данные, сохранённые macOS или приложениями для Пользовательские журналы. При необходимости они создаются или загружаются заново."
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
       },
       "tr": {
         "name": "Kullanıcı günlükleri",
-        "detail": "macOS veya uygulamaların Kullanıcı günlükleri için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
       },
       "uk": {
         "name": "Журнали користувача",
-        "detail": "Дані, збережені macOS або програмами для Журнали користувача. За потреби їх буде створено або завантажено повторно."
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
       },
       "zh-Hans": {
         "name": "用户日志",
-        "detail": "macOS 或应用为 用户日志 保存的数据。需要时会重新生成或下载。"
+        "detail": "诊断日志；应用运行时会生成新的日志。"
       },
       "zh-Hant": {
         "name": "使用者記錄",
-        "detail": "macOS 或 App 為 使用者記錄 儲存的資料。需要時會重新產生或下載。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       },
       "zh-HK": {
         "name": "使用者記錄",
-        "detail": "macOS 或 App 為 使用者記錄 儲存的資料。需要時會重新產生或下載。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       }
     },
     "name": "User Logs",
-    "detail": "Application and diagnostic logs stored by macOS. New logs are written as apps run; deleting these removes existing troubleshooting history.",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
     "path": "~/Library/Logs",
     "subfolders": [
       "*"
@@ -83,67 +83,67 @@
       },
       "de": {
         "name": "Aerial-Hintergrundbilder",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Aerial-Hintergrundbilder. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Fondos de pantalla de Aerial",
-        "detail": "Datos guardados por macOS o las apps para Fondos de pantalla de Aerial. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Fonds d’écran Aerial",
-        "detail": "Données enregistrées par macOS ou les apps pour Fonds d’écran Aerial. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Sfondi Aerial",
-        "detail": "Dati salvati da macOS o dalle app per Sfondi Aerial. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Aerial壁紙",
-        "detail": "macOS またはアプリが Aerial壁紙 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Aerial 배경화면",
-        "detail": "macOS 또는 앱이 Aerial 배경화면을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Aerial-achtergronden",
-        "detail": "Gegevens die macOS of apps voor Aerial-achtergronden bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Tapety Aerial",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Tapety Aerial. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Papéis de parede do Aerial",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Papéis de parede do Aerial. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Обои Aerial",
-        "detail": "Данные, сохранённые macOS или приложениями для Обои Aerial. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Aerial duvar kâğıtları",
-        "detail": "macOS veya uygulamaların Aerial duvar kâğıtları için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Шпалери Aerial",
-        "detail": "Дані, збережені macOS або програмами для Шпалери Aerial. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Aerial 壁纸",
-        "detail": "macOS 或应用为 Aerial 壁纸 保存的数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Aerial 桌布",
-        "detail": "macOS 或 App 為 Aerial 桌布 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Aerial 桌布",
-        "detail": "macOS 或 App 為 Aerial 桌布 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Aerial Wallpapers",
-    "detail": "The video wallpapers and screen savers macOS downloads on demand. Each one is fetched again the next time it is chosen, so this reclaims space rather than removing a choice.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Application Support/com.apple.wallpaper/aerials",
     "subfolders": [
       "*"
@@ -159,67 +159,67 @@
       },
       "de": {
         "name": "Web-Caches von Desktop-Apps",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Web-Caches von Desktop-Apps. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cachés web de apps de escritorio",
-        "detail": "Datos guardados por macOS o las apps para Cachés web de apps de escritorio. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Caches web des apps de bureau",
-        "detail": "Données enregistrées par macOS ou les apps pour Caches web des apps de bureau. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cache web delle app desktop",
-        "detail": "Dati salvati da macOS o dalle app per Cache web delle app desktop. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "デスクトップアプリのWebキャッシュ",
-        "detail": "macOS またはアプリが デスクトップアプリのWebキャッシュ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "데스크톱 앱 웹 캐시",
-        "detail": "macOS 또는 앱이 데스크톱 앱 웹 캐시을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Webcaches van desktopapps",
-        "detail": "Gegevens die macOS of apps voor Webcaches van desktopapps bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Pamięci podręczne WWW aplikacji desktopowych",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Pamięci podręczne WWW aplikacji desktopowych. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Caches web de apps de desktop",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Caches web de apps de desktop. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Веб-кэши настольных приложений",
-        "detail": "Данные, сохранённые macOS или приложениями для Веб-кэши настольных приложений. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Masaüstü uygulaması web önbellekleri",
-        "detail": "macOS veya uygulamaların Masaüstü uygulaması web önbellekleri için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Вебкеші настільних програм",
-        "detail": "Дані, збережені macOS або програмами для Вебкеші настільних програм. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "桌面应用 Web 缓存",
-        "detail": "macOS 或应用为 桌面应用 Web 缓存 保存的数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "桌面應用程式 Web 快取",
-        "detail": "macOS 或 App 為 桌面應用程式 Web 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "桌面應用程式 Web 快取",
-        "detail": "macOS 或 App 為 桌面應用程式 Web 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Desktop App Web Caches",
-    "detail": "The web cache each Electron app keeps beside its data — Discord, Slack and the rest are browsers underneath. Refilled as the app is used, and separate from the accounts and messages it stores.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Application Support",
     "subfolders": [
       "*/Cache"
@@ -235,67 +235,67 @@
       },
       "de": {
         "name": "Code-Caches von Desktop-Apps",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Code-Caches von Desktop-Apps. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cachés de código de apps de escritorio",
-        "detail": "Datos guardados por macOS o las apps para Cachés de código de apps de escritorio. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Caches de code des apps de bureau",
-        "detail": "Données enregistrées par macOS ou les apps pour Caches de code des apps de bureau. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cache del codice delle app desktop",
-        "detail": "Dati salvati da macOS o dalle app per Cache del codice delle app desktop. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "デスクトップアプリのコードキャッシュ",
-        "detail": "macOS またはアプリが デスクトップアプリのコードキャッシュ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "데스크톱 앱 코드 캐시",
-        "detail": "macOS 또는 앱이 데스크톱 앱 코드 캐시을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Codecaches van desktopapps",
-        "detail": "Gegevens die macOS of apps voor Codecaches van desktopapps bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Pamięci podręczne kodu aplikacji desktopowych",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Pamięci podręczne kodu aplikacji desktopowych. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Caches de código de apps de desktop",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Caches de código de apps de desktop. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Кэши кода настольных приложений",
-        "detail": "Данные, сохранённые macOS или приложениями для Кэши кода настольных приложений. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Masaüstü uygulaması kod önbellekleri",
-        "detail": "macOS veya uygulamaların Masaüstü uygulaması kod önbellekleri için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Кеші коду настільних програм",
-        "detail": "Дані, збережені macOS або програмами для Кеші коду настільних програм. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "桌面应用代码缓存",
-        "detail": "macOS 或应用为 桌面应用代码缓存 保存的数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "桌面應用程式程式碼快取",
-        "detail": "macOS 或 App 為 桌面應用程式程式碼快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "桌面應用程式程式碼快取",
-        "detail": "macOS 或 App 為 桌面應用程式程式碼快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Desktop App Code Caches",
-    "detail": "Compiled JavaScript and shader caches Chromium writes for Electron apps. Regenerated on the next launch, at the cost of one slower start.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Application Support",
     "subfolders": [
       "*/Code Cache",
@@ -314,67 +314,67 @@
       },
       "de": {
         "name": "App-Update-Downloads",
-        "detail": "Von macOS oder Apps gespeicherte Daten für App-Update-Downloads. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas de actualizaciones de apps",
-        "detail": "Datos guardados por macOS o las apps para Descargas de actualizaciones de apps. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements de mises à jour d’apps",
-        "detail": "Données enregistrées par macOS ou les apps pour Téléchargements de mises à jour d’apps. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download degli aggiornamenti delle app",
-        "detail": "Dati salvati da macOS o dalle app per Download degli aggiornamenti delle app. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "アプリのアップデートダウンロード",
-        "detail": "macOS またはアプリが アプリのアップデートダウンロード 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "앱 업데이트 다운로드",
-        "detail": "macOS 또는 앱이 앱 업데이트 다운로드을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Downloads van app-updates",
-        "detail": "Gegevens die macOS of apps voor Downloads van app-updates bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Pobrane aktualizacje aplikacji",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Pobrane aktualizacje aplikacji. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads de atualizações de apps",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Downloads de atualizações de apps. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Загрузки обновлений приложений",
-        "detail": "Данные, сохранённые macOS или приложениями для Загрузки обновлений приложений. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Uygulama güncelleme indirmeleri",
-        "detail": "macOS veya uygulamaların Uygulama güncelleme indirmeleri için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Завантаження оновлень програм",
-        "detail": "Дані, збережені macOS або програмами для Завантаження оновлень програм. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "应用更新下载",
-        "detail": "macOS 或应用为 应用更新下载 保存的数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "App 更新下載項目",
-        "detail": "macOS 或 App 為 App 更新下載項目 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "App 更新下載項目",
-        "detail": "macOS 或 App 為 App 更新下載項目 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "App Update Downloads",
-    "detail": "Installers that self-updating apps have already applied and left behind. Downloaded again only when the next update arrives.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Caches",
     "subfolders": [
       "*ShipIt"
@@ -390,67 +390,67 @@
       },
       "de": {
         "name": "Geräte-Softwareupdates",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Geräte-Softwareupdates. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Actualizaciones de software de dispositivos",
-        "detail": "Datos guardados por macOS o las apps para Actualizaciones de software de dispositivos. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Mises à jour logicielles des appareils",
-        "detail": "Données enregistrées par macOS ou les apps pour Mises à jour logicielles des appareils. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Aggiornamenti software dei dispositivi",
-        "detail": "Dati salvati da macOS o dalle app per Aggiornamenti software dei dispositivi. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "デバイスソフトウェアアップデート",
-        "detail": "macOS またはアプリが デバイスソフトウェアアップデート 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "기기 소프트웨어 업데이트",
-        "detail": "macOS 또는 앱이 기기 소프트웨어 업데이트을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Software-updates voor apparaten",
-        "detail": "Gegevens die macOS of apps voor Software-updates voor apparaten bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Aktualizacje oprogramowania urządzeń",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Aktualizacje oprogramowania urządzeń. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Atualizações de software dos dispositivos",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Atualizações de software dos dispositivos. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Обновления ПО устройств",
-        "detail": "Данные, сохранённые macOS или приложениями для Обновления ПО устройств. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Aygıt yazılımı güncellemeleri",
-        "detail": "macOS veya uygulamaların Aygıt yazılımı güncellemeleri için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Оновлення програмного забезпечення пристроїв",
-        "detail": "Дані, збережені macOS або програмами для Оновлення програмного забезпечення пристроїв. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "设备软件更新",
-        "detail": "macOS 或应用为 设备软件更新 保存的数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "裝置軟體更新",
-        "detail": "macOS 或 App 為 裝置軟體更新 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "裝置軟體更新",
-        "detail": "macOS 或 App 為 裝置軟體更新 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Device Software Updates",
-    "detail": "iPhone, iPad and iPod update images downloaded when you update or restore a device from this Mac. Each is several gigabytes and is fetched again if it is needed.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/iTunes",
     "subfolders": [
       "iPhone Software Updates",
@@ -468,67 +468,67 @@
       },
       "de": {
         "name": "Dropbox Cache",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Dropbox Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Dropbox Caché",
-        "detail": "Datos guardados por macOS o las apps para Dropbox Caché. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Dropbox Cache",
-        "detail": "Données enregistrées par macOS ou les apps pour Dropbox Cache. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Dropbox Cache",
-        "detail": "Dati salvati da macOS o dalle app per Dropbox Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Dropbox キャッシュ",
-        "detail": "macOS またはアプリが Dropbox キャッシュ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Dropbox 캐시",
-        "detail": "macOS 또는 앱이 Dropbox 캐시을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Dropbox Cache",
-        "detail": "Gegevens die macOS of apps voor Dropbox Cache bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Dropbox Pamięć podręczna",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Dropbox Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Dropbox Cache",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Dropbox Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Dropbox Кэш",
-        "detail": "Данные, сохранённые macOS или приложениями для Dropbox Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Dropbox Önbellek",
-        "detail": "macOS veya uygulamaların Dropbox Önbellek için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Dropbox Кеш",
-        "detail": "Дані, збережені macOS або програмами для Dropbox Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Dropbox 缓存",
-        "detail": "macOS 或应用为 Dropbox 缓存 保存的数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Dropbox 快取",
-        "detail": "macOS 或 App 為 Dropbox 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Dropbox 快取",
-        "detail": "macOS 或 App 為 Dropbox 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Dropbox Cache",
-    "detail": "Copies Dropbox keeps of files it has recently synced. Rebuilt as syncing continues, and separate from the files in your Dropbox folder.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.getdropbox.dropbox",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -542,67 +542,67 @@
       },
       "de": {
         "name": "Google Drive Cache",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Google Drive Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Google Drive Caché",
-        "detail": "Datos guardados por macOS o las apps para Google Drive Caché. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Google Drive Cache",
-        "detail": "Données enregistrées par macOS ou les apps pour Google Drive Cache. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Google Drive Cache",
-        "detail": "Dati salvati da macOS o dalle app per Google Drive Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Google Drive キャッシュ",
-        "detail": "macOS またはアプリが Google Drive キャッシュ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Google Drive 캐시",
-        "detail": "macOS 또는 앱이 Google Drive 캐시을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Drive Cache",
-        "detail": "Gegevens die macOS of apps voor Google Drive Cache bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Google Drive Pamięć podręczna",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Google Drive Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Google Drive Cache",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Google Drive Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Google Drive Кэш",
-        "detail": "Данные, сохранённые macOS или приложениями для Google Drive Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Google Drive Önbellek",
-        "detail": "macOS veya uygulamaların Google Drive Önbellek için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Drive Кеш",
-        "detail": "Дані, збережені macOS або програмами для Google Drive Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Google Drive 缓存",
-        "detail": "macOS 或应用为 Google Drive 缓存 保存的数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Drive 快取",
-        "detail": "macOS 或 App 為 Google Drive 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Drive 快取",
-        "detail": "macOS 或 App 為 Google Drive 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Google Drive Cache",
-    "detail": "Content Google Drive has streamed or synced and kept locally. Re-downloaded on demand; files marked available offline are stored elsewhere.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.google.GoogleDrive",
     "risk": "safe",
     "symbol": "externaldrive.badge.icloud",
@@ -616,67 +616,67 @@
       },
       "de": {
         "name": "OneDrive Cache",
-        "detail": "Von macOS oder Apps gespeicherte Daten für OneDrive Cache. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "OneDrive Caché",
-        "detail": "Datos guardados por macOS o las apps para OneDrive Caché. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "OneDrive Cache",
-        "detail": "Données enregistrées par macOS ou les apps pour OneDrive Cache. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "OneDrive Cache",
-        "detail": "Dati salvati da macOS o dalle app per OneDrive Cache. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "OneDrive キャッシュ",
-        "detail": "macOS またはアプリが OneDrive キャッシュ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "OneDrive 캐시",
-        "detail": "macOS 또는 앱이 OneDrive 캐시을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "OneDrive Cache",
-        "detail": "Gegevens die macOS of apps voor OneDrive Cache bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "OneDrive Pamięć podręczna",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla OneDrive Pamięć podręczna. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "OneDrive Cache",
-        "detail": "Dados salvos pelo macOS ou pelos apps para OneDrive Cache. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "OneDrive Кэш",
-        "detail": "Данные, сохранённые macOS или приложениями для OneDrive Кэш. При необходимости они создаются или загружаются заново."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "OneDrive Önbellek",
-        "detail": "macOS veya uygulamaların OneDrive Önbellek için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "OneDrive Кеш",
-        "detail": "Дані, збережені macOS або програмами для OneDrive Кеш. За потреби їх буде створено або завантажено повторно."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "OneDrive 缓存",
-        "detail": "macOS 或应用为 OneDrive 缓存 保存的数据。需要时会重新生成或下载。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "OneDrive 快取",
-        "detail": "macOS 或 App 為 OneDrive 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "OneDrive 快取",
-        "detail": "macOS 或 App 為 OneDrive 快取 儲存的資料。需要時會重新產生或下載。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "OneDrive Cache",
-    "detail": "Thumbnails and synced content OneDrive keeps locally. Rebuilt as syncing continues.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.microsoft.OneDrive",
     "risk": "safe",
     "symbol": "cloud",
@@ -690,67 +690,67 @@
       },
       "de": {
         "name": "Absturzberichte",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Absturzberichte. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
       },
       "es": {
         "name": "Informes de fallos",
-        "detail": "Datos guardados por macOS o las apps para Informes de fallos. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
       },
       "fr": {
         "name": "Rapports de plantage",
-        "detail": "Données enregistrées par macOS ou les apps pour Rapports de plantage. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
       },
       "it": {
         "name": "Report degli arresti anomali",
-        "detail": "Dati salvati da macOS o dalle app per Report degli arresti anomali. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
       },
       "ja": {
         "name": "クラッシュレポート",
-        "detail": "macOS またはアプリが クラッシュレポート 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
       },
       "ko": {
         "name": "충돌 보고서",
-        "detail": "macOS 또는 앱이 충돌 보고서을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
       },
       "nl": {
         "name": "Crashrapporten",
-        "detail": "Gegevens die macOS of apps voor Crashrapporten bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
       },
       "pl": {
         "name": "Raporty awarii",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Raporty awarii. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
       },
       "pt-BR": {
         "name": "Relatórios de falhas",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Relatórios de falhas. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
       },
       "ru": {
         "name": "Отчёты о сбоях",
-        "detail": "Данные, сохранённые macOS или приложениями для Отчёты о сбоях. При необходимости они создаются или загружаются заново."
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
       },
       "tr": {
         "name": "Çökme raporları",
-        "detail": "macOS veya uygulamaların Çökme raporları için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
       },
       "uk": {
         "name": "Звіти про збої",
-        "detail": "Дані, збережені macOS або програмами для Звіти про збої. За потреби їх буде створено або завантажено повторно."
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
       },
       "zh-Hans": {
         "name": "崩溃报告",
-        "detail": "macOS 或应用为 崩溃报告 保存的数据。需要时会重新生成或下载。"
+        "detail": "诊断日志；应用运行时会生成新的日志。"
       },
       "zh-Hant": {
         "name": "當機報告",
-        "detail": "macOS 或 App 為 當機報告 儲存的資料。需要時會重新產生或下載。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       },
       "zh-HK": {
         "name": "當機報告",
-        "detail": "macOS 或 App 為 當機報告 儲存的資料。需要時會重新產生或下載。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       }
     },
     "name": "Crash Reports",
-    "detail": "Diagnostic reports macOS wrote when an app quit unexpectedly. New ones are written as crashes happen; deleting these removes the history a developer would ask you for.",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
     "path": "~/Library/Application Support/CrashReporter",
     "risk": "risky",
     "symbol": "exclamationmark.triangle"
@@ -763,67 +763,67 @@
       },
       "de": {
         "name": "Gesicherter Anwendungsstatus",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Gesicherter Anwendungsstatus. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Gespeicherter App-Zustand; beim Neustart neu erstellt."
       },
       "es": {
         "name": "Estado guardado de las aplicaciones",
-        "detail": "Datos guardados por macOS o las apps para Estado guardado de las aplicaciones. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Estado guardado de la app; se recrea al reiniciarla."
       },
       "fr": {
         "name": "État enregistré des apps",
-        "detail": "Données enregistrées par macOS ou les apps pour État enregistré des apps. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "État enregistré de l’app; recréé au redémarrage."
       },
       "it": {
         "name": "Stato salvato delle app",
-        "detail": "Dati salvati da macOS o dalle app per Stato salvato delle app. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "Stato salvato dell’app; ricreato al riavvio."
       },
       "ja": {
         "name": "保存されたアプリの状態",
-        "detail": "macOS またはアプリが 保存されたアプリの状態 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "保存済みのアプリ状態。再起動時に再作成されます。"
       },
       "ko": {
         "name": "저장된 앱 상태",
-        "detail": "macOS 또는 앱이 저장된 앱 상태을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "저장된 앱 상태입니다. 앱을 다시 시작하면 생성됩니다."
       },
       "nl": {
         "name": "Opgeslagen app-status",
-        "detail": "Gegevens die macOS of apps voor Opgeslagen app-status bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Opgeslagen appstatus; opnieuw gemaakt na herstart."
       },
       "pl": {
         "name": "Zapisany stan aplikacji",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Zapisany stan aplikacji. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Zapisany stan aplikacji; odtwarzany po ponownym uruchomieniu."
       },
       "pt-BR": {
         "name": "Estado salvo dos apps",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Estado salvo dos apps. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Estado salvo do app; recriado ao reiniciá-lo."
       },
       "ru": {
         "name": "Сохранённое состояние приложений",
-        "detail": "Данные, сохранённые macOS или приложениями для Сохранённое состояние приложений. При необходимости они создаются или загружаются заново."
+        "detail": "Сохранённое состояние приложения; создаётся заново после перезапуска."
       },
       "tr": {
         "name": "Kayıtlı uygulama durumu",
-        "detail": "macOS veya uygulamaların Kayıtlı uygulama durumu için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "Kaydedilen uygulama durumu; yeniden başlatılınca oluşturulur."
       },
       "uk": {
         "name": "Збережений стан програм",
-        "detail": "Дані, збережені macOS або програмами для Збережений стан програм. За потреби їх буде створено або завантажено повторно."
+        "detail": "Збережений стан програми; створюється після перезапуску."
       },
       "zh-Hans": {
         "name": "已保存的应用状态",
-        "detail": "macOS 或应用为 已保存的应用状态 保存的数据。需要时会重新生成或下载。"
+        "detail": "已保存的应用状态；重新启动应用时会生成。"
       },
       "zh-Hant": {
         "name": "已儲存的 App 狀態",
-        "detail": "macOS 或 App 為 已儲存的 App 狀態 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已儲存的 App 狀態；重新啟動時會產生。"
       },
       "zh-HK": {
         "name": "已儲存的 App 狀態",
-        "detail": "macOS 或 App 為 已儲存的 App 狀態 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已儲存的 App 狀態；重新啟動時會產生。"
       }
     },
     "name": "Saved Application State",
-    "detail": "The windows and documents apps reopen with after a relaunch. Written again as you quit apps; clearing it means the next launch starts empty rather than where you left off.",
+    "detail": "Saved app state; recreated when apps relaunch.",
     "path": "~/Library/Saved Application State",
     "subfolders": [
       "*"
@@ -839,67 +839,67 @@
       },
       "de": {
         "name": "Installationsprogramme",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Installationsprogramme. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Instaladores",
-        "detail": "Datos guardados por macOS o las apps para Instaladores. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Installateurs",
-        "detail": "Données enregistrées par macOS ou les apps pour Installateurs. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Installatori",
-        "detail": "Dati salvati da macOS o dalle app per Installatori. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "インストーラ",
-        "detail": "macOS またはアプリが インストーラ 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "설치 프로그램",
-        "detail": "macOS 또는 앱이 설치 프로그램을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Installatieprogramma’s",
-        "detail": "Gegevens die macOS of apps voor Installatieprogramma’s bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Instalatory",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Instalatory. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Instaladores",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Instaladores. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Установщики",
-        "detail": "Данные, сохранённые macOS или приложениями для Установщики. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Yükleyiciler",
-        "detail": "macOS veya uygulamaların Yükleyiciler için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Інсталятори",
-        "detail": "Дані, збережені macOS або програмами для Інсталятори. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "安装程序",
-        "detail": "macOS 或应用为 安装程序 保存的数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "安裝程式",
-        "detail": "macOS 或 App 為 安裝程式 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "安裝程式",
-        "detail": "macOS 或 App 為 安裝程式 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Installers",
-    "detail": "Disk images and packages sitting in Downloads. Each row shows when it arrived, so an installer you have already run is the one dated months ago; anything still wanted is downloaded again from where it came from.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Downloads",
     "subfolders": [
       "*.dmg",
@@ -919,67 +919,67 @@
       },
       "de": {
         "name": "Unvollständige Downloads",
-        "detail": "Von macOS oder Apps gespeicherte Daten für Unvollständige Downloads. Sie werden bei Bedarf neu erstellt oder erneut geladen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas incompletas",
-        "detail": "Datos guardados por macOS o las apps para Descargas incompletas. Se vuelven a crear o descargar cuando se necesitan."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements incomplets",
-        "detail": "Données enregistrées par macOS ou les apps pour Téléchargements incomplets. Elles sont recréées ou retéléchargées au besoin."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download incompleti",
-        "detail": "Dati salvati da macOS o dalle app per Download incompleti. Vengono ricreati o scaricati di nuovo quando servono."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "未完了のダウンロード",
-        "detail": "macOS またはアプリが 未完了のダウンロード 用に保存したデータです。必要に応じて再生成または再ダウンロードされます。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "완료되지 않은 다운로드",
-        "detail": "macOS 또는 앱이 완료되지 않은 다운로드을(를) 위해 저장한 데이터입니다. 필요할 때 다시 생성되거나 다운로드됩니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Onvoltooide downloads",
-        "detail": "Gegevens die macOS of apps voor Onvoltooide downloads bewaren. Ze worden opnieuw gemaakt of gedownload wanneer dat nodig is."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Nieukończone pobieranie",
-        "detail": "Dane zapisane przez macOS lub aplikacje dla Nieukończone pobieranie. W razie potrzeby zostaną odtworzone lub pobrane ponownie."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads incompletos",
-        "detail": "Dados salvos pelo macOS ou pelos apps para Downloads incompletos. Eles são recriados ou baixados novamente quando necessário."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Незавершённые загрузки",
-        "detail": "Данные, сохранённые macOS или приложениями для Незавершённые загрузки. При необходимости они создаются или загружаются заново."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Tamamlanmamış indirmeler",
-        "detail": "macOS veya uygulamaların Tamamlanmamış indirmeler için kaydettiği veriler. Gerektiğinde yeniden oluşturulur veya indirilir."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Незавершені завантаження",
-        "detail": "Дані, збережені macOS або програмами для Незавершені завантаження. За потреби їх буде створено або завантажено повторно."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "未完成的下载",
-        "detail": "macOS 或应用为 未完成的下载 保存的数据。需要时会重新生成或下载。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "未完成的下載項目",
-        "detail": "macOS 或 App 為 未完成的下載項目 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "未完成的下載項目",
-        "detail": "macOS 或 App 為 未完成的下載項目 儲存的資料。需要時會重新產生或下載。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Unfinished Downloads",
-    "detail": "Downloads that were interrupted. Nothing can open a partial file; a browser starts again from the beginning rather than resuming these.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Downloads",
     "subfolders": [
       "*.crdownload",
