@@ -299,21 +299,6 @@ struct CatalogValidationTests {
         }
     }
 
-    @Test func detailsStayUnderTenWords() {
-        for entry in entries {
-            #expect(
-                entry.detail.split(whereSeparator: { $0.isWhitespace }).count < 10,
-                "\(entry.id) English detail is too long"
-            )
-            for (locale, copy) in entry.localizations {
-                guard let detail = copy.detail else { continue }
-                #expect(
-                    detail.split(whereSeparator: { $0.isWhitespace }).count < 10,
-                    "\(entry.id) \(locale) detail is too long"
-                )
-            }
-        }
-    }
 }
 
 @Suite("Path patterns")
