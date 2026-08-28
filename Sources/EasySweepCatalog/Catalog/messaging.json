@@ -7,67 +7,67 @@
       },
       "de": {
         "name": "Telegram",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Telegram",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Telegram",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Telegram",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Telegram",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Telegram",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Telegram",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Telegram",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Telegram",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Telegram",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Telegram",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Telegram",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Telegram",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Telegram",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Telegram",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Telegram",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Photos, videos, and files stored locally.",
     "path": "~/Library/Group Containers/6N38VWS5BX.ru.keepcoder.Telegram",
     "subfolders": [
       "*/account-*/postbox/media/cache",
@@ -86,67 +86,67 @@
       },
       "de": {
         "name": "Telegram Desktop",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Telegram Desktop",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Telegram Desktop",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Telegram Desktop",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Telegram Desktop",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Telegram Desktop",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Telegram Desktop",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Telegram Desktop",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Telegram Desktop",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Telegram Desktop",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Telegram Desktop",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Telegram Desktop",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Telegram Desktop",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Telegram Desktop",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Telegram Desktop",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Telegram Desktop",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Photos, videos, and files stored locally.",
     "path": "~/Library/Application Support/Telegram Desktop",
     "subfolders": [
       "tdata/user_data*/cache",
@@ -164,67 +164,67 @@
       },
       "de": {
         "name": "WeChat",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "WeChat",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "WeChat",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "WeChat",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "WeChat",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "WeChat",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "WeChat",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "WeChat",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "WeChat",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "WeChat",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "WeChat",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "WeChat",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "微信",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "微信",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "微信",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "WeChat",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -238,67 +238,67 @@
       },
       "de": {
         "name": "WeChat Mini-Programme",
-        "detail": "Mini-Programme; beim Öffnen erneut geladen."
+        "detail": "Mini-Programmdaten."
       },
       "es": {
         "name": "WeChat Miniprogramas",
-        "detail": "Mini programas; se descargan de nuevo al abrirlos."
+        "detail": "Datos de miniprogramas."
       },
       "fr": {
         "name": "WeChat Mini-programmes",
-        "detail": "Mini-programmes; retéléchargés à leur ouverture."
+        "detail": "Données des mini-programmes."
       },
       "it": {
         "name": "WeChat Mini-programmi",
-        "detail": "Mini Program; scaricati di nuovo all’apertura."
+        "detail": "Dati dei mini-programmi."
       },
       "ja": {
         "name": "WeChat ミニプログラム",
-        "detail": "ミニプログラム。開くと再ダウンロードされます。"
+        "detail": "ミニプログラムデータ。"
       },
       "ko": {
         "name": "WeChat 미니 프로그램",
-        "detail": "미니 프로그램입니다. 열 때 다시 다운로드됩니다."
+        "detail": "미니 프로그램 데이터입니다."
       },
       "nl": {
         "name": "WeChat Miniprogramma's",
-        "detail": "Mini-programma’s; opnieuw opgehaald bij openen."
+        "detail": "Mini-programmagegevens."
       },
       "pl": {
         "name": "WeChat Miniprogramy",
-        "detail": "Miniprogramy; pobierane ponownie przy otwarciu."
+        "detail": "Dane miniprogramów."
       },
       "pt-BR": {
         "name": "WeChat Miniprogramas",
-        "detail": "Mini programas; baixados novamente ao abrir."
+        "detail": "Dados de miniprogramas."
       },
       "ru": {
         "name": "WeChat Мини-программы",
-        "detail": "Мини-программы; загружаются снова при открытии."
+        "detail": "Данные мини-программ."
       },
       "tr": {
         "name": "WeChat Mini programlar",
-        "detail": "Mini Programlar; açıldığında yeniden indirilir."
+        "detail": "Mini Program verileri."
       },
       "uk": {
         "name": "WeChat Міні-програми",
-        "detail": "Мініпрограми; завантажуються знову під час відкриття."
+        "detail": "Дані мініпрограм."
       },
       "zh-Hans": {
         "name": "微信小程序",
-        "detail": "小程序；打开时会重新下载。"
+        "detail": "小程序数据。"
       },
       "zh-Hant": {
         "name": "微信小程式",
-        "detail": "迷你程式；開啟時會重新下載。"
+        "detail": "小程式資料。"
       },
       "zh-HK": {
         "name": "微信小程式",
-        "detail": "迷你程式；開啟時會重新下載。"
+        "detail": "小程式資料。"
       }
     },
     "name": "WeChat Mini Programs",
-    "detail": "Mini Programs; downloaded again when opened.",
+    "detail": "Mini Program runtime and program data for WeChat.",
     "path": "~/Library/Containers/com.tencent.xinWeChat/Data/.wxapplet",
     "subfolders": [
       "WMPF",
@@ -317,67 +317,67 @@
       },
       "de": {
         "name": "WeChat Nachrichtendateien",
-        "detail": "Empfangene Nachrichten-Dateien; ältere lassen sich nicht wiederherstellen."
+        "detail": "Empfangene Nachrichtendateien."
       },
       "es": {
         "name": "WeChat Archivos de mensajes",
-        "detail": "Archivos recibidos; los antiguos no se pueden recuperar."
+        "detail": "Archivos de mensajes recibidos."
       },
       "fr": {
         "name": "WeChat Fichiers de messages",
-        "detail": "Fichiers reçus; les anciens sont irrécupérables."
+        "detail": "Fichiers de messages reçus."
       },
       "it": {
         "name": "WeChat File dei messaggi",
-        "detail": "File ricevuti; quelli vecchi non possono tornare."
+        "detail": "File dei messaggi ricevuti."
       },
       "ja": {
         "name": "WeChat メッセージのファイル",
-        "detail": "受信したメッセージファイル。古い項目は復元できません。"
+        "detail": "受信したメッセージファイル。"
       },
       "ko": {
         "name": "WeChat 메시지 파일",
-        "detail": "받은 메시지 파일입니다. 오래된 항목은 복구할 수 없습니다."
+        "detail": "받은 메시지 파일입니다."
       },
       "nl": {
         "name": "WeChat Berichtbestanden",
-        "detail": "Ontvangen berichtbestanden; oudere kunnen niet terugkomen."
+        "detail": "Ontvangen berichtbestanden."
       },
       "pl": {
         "name": "WeChat Pliki wiadomości",
-        "detail": "Odebrane pliki wiadomości; starszych nie można odzyskać."
+        "detail": "Odebrane pliki wiadomości."
       },
       "pt-BR": {
         "name": "WeChat Arquivos de mensagens",
-        "detail": "Arquivos recebidos; os antigos não podem ser recuperados."
+        "detail": "Arquivos de mensagens recebidos."
       },
       "ru": {
         "name": "WeChat Файлы сообщений",
-        "detail": "Полученные файлы сообщений; старые нельзя восстановить."
+        "detail": "Полученные файлы сообщений."
       },
       "tr": {
         "name": "WeChat Mesaj dosyaları",
-        "detail": "Alınan mesaj dosyaları; eskileri geri getirilemez."
+        "detail": "Alınan mesaj dosyaları."
       },
       "uk": {
         "name": "WeChat Файли повідомлень",
-        "detail": "Отримані файли повідомлень; старі неможливо відновити."
+        "detail": "Отримані файли повідомлень."
       },
       "zh-Hans": {
         "name": "微信聊天文件",
-        "detail": "收到的消息文件；旧文件无法恢复。"
+        "detail": "收到的消息文件。"
       },
       "zh-Hant": {
         "name": "微信聊天檔案",
-        "detail": "收到的訊息檔案；舊檔案無法復原。"
+        "detail": "收到的訊息檔案。"
       },
       "zh-HK": {
         "name": "微信聊天檔案",
-        "detail": "收到的訊息檔案；舊檔案無法復原。"
+        "detail": "收到的訊息檔案。"
       }
     },
     "name": "WeChat Message Files",
-    "detail": "Received message files; older items cannot return.",
+    "detail": "Received message files stored locally by WeChat.",
     "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files",
     "subfolders": [
       "*/msg/attach",
@@ -396,67 +396,67 @@
       },
       "de": {
         "name": "Slack Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Slack Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Slack Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Slack Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Slack ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Slack 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Slack Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Slack Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Slack Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Slack Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Slack Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Slack Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Slack 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Slack 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Slack 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Slack Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/Slack",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -474,67 +474,67 @@
       },
       "de": {
         "name": "Discord Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Discord Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Discord Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Discord Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Discord ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Discord 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Discord Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Discord Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Discord Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Discord Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Discord Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Discord Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Discord 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Discord 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Discord 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Discord Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/discord",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -552,67 +552,67 @@
       },
       "de": {
         "name": "Signal Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Signal Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Signal Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Signal Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Signal ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Signal 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Signal Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Signal Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Signal Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Signal Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Signal Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Signal Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Signal 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Signal 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Signal 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Signal Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/Signal",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -630,67 +630,67 @@
       },
       "de": {
         "name": "Microsoft Teams",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Microsoft Teams",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Microsoft Teams",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Microsoft Teams",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Microsoft Teams",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Microsoft Teams",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Microsoft Teams",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Microsoft Teams",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Microsoft Teams",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Microsoft Teams",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Microsoft Teams",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Microsoft Teams",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Microsoft Teams",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Microsoft Teams",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Microsoft Teams",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Microsoft Teams",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/com.microsoft.teams2/Data/Library/Application Support/Microsoft/MSTeams",
     "risk": "safe",
     "symbol": "video",
@@ -709,67 +709,67 @@
       },
       "de": {
         "name": "Zoom",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Zoom",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Zoom",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Zoom",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Zoom",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Zoom",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Zoom",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Zoom",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Zoom",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Zoom",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Zoom",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Zoom",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Zoom",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Zoom",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Zoom",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Zoom",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/us.zoom.xos",
     "risk": "safe",
     "symbol": "video",
@@ -783,67 +783,67 @@
       },
       "de": {
         "name": "Lark",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Lark",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Lark",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Lark",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Lark",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Lark",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Lark",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Lark",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Lark",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Lark",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Lark",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Lark",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "飞书",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "飛書",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "飛書",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Lark",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/LarkShell",
     "risk": "safe",
     "symbol": "bubble.left.and.bubble.right",
@@ -857,67 +857,67 @@
       },
       "de": {
         "name": "WhatsApp",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "WhatsApp",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "WhatsApp",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "WhatsApp",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "WhatsApp",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "WhatsApp",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "WhatsApp",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "WhatsApp",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "WhatsApp",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "WhatsApp",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "WhatsApp",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "WhatsApp",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "WhatsApp",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "WhatsApp",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "WhatsApp",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "WhatsApp",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/net.whatsapp.WhatsApp/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -931,67 +931,67 @@
       },
       "de": {
         "name": "QQ",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "QQ",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "QQ",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "QQ",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "QQ",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "QQ",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "QQ",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "QQ",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "QQ",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "QQ",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "QQ",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "QQ",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "QQ",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "QQ",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "QQ",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "QQ",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/com.tencent.qq/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -1005,67 +1005,67 @@
       },
       "de": {
         "name": "LINE",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "LINE",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "LINE",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "LINE",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "LINE",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "LINE",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "LINE",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "LINE",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "LINE",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "LINE",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "LINE",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "LINE",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "LINE",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "LINE",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "LINE",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "LINE",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/jp.naver.line.mac/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -1079,67 +1079,67 @@
       },
       "de": {
         "name": "KakaoTalk",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "KakaoTalk",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "KakaoTalk",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "KakaoTalk",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "KakaoTalk",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "카카오톡",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "KakaoTalk",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "KakaoTalk",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "KakaoTalk",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "KakaoTalk",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "KakaoTalk",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "KakaoTalk",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "KakaoTalk",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "KakaoTalk",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "KakaoTalk",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "KakaoTalk",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/com.kakao.KakaoTalkMac/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -1153,67 +1153,67 @@
       },
       "de": {
         "name": "DingTalk",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "DingTalk",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "DingTalk",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "DingTalk",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "DingTalk",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "DingTalk",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "DingTalk",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "DingTalk",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "DingTalk",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "DingTalk",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "DingTalk",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "DingTalk",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "钉钉",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "釘釘",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "釘釘",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "DingTalk",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/com.alibaba.DingTalkMac",
     "risk": "safe",
     "symbol": "message",
@@ -1227,67 +1227,67 @@
       },
       "de": {
         "name": "WeCom",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "WeCom",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "WeCom",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "WeCom",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "WeCom",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "WeCom",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "WeCom",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "WeCom",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "WeCom",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "WeCom",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "WeCom",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "WeCom",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "企业微信",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "企業微信",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "企業微信",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "WeCom",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Containers/com.tencent.WeWorkMac/Data/Library/Caches",
     "risk": "safe",
     "symbol": "message",
@@ -1301,67 +1301,67 @@
       },
       "de": {
         "name": "Tencent Meeting",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Tencent Meeting",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Tencent Meeting",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Tencent Meeting",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Tencent Meeting",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Tencent Meeting",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Tencent Meeting",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Tencent Meeting",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Tencent Meeting",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Tencent Meeting",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Tencent Meeting",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Tencent Meeting",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "腾讯会议",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "騰訊會議",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "騰訊會議",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Tencent Meeting",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/com.tencent.meeting",
     "risk": "safe",
     "symbol": "video",
@@ -1375,67 +1375,67 @@
       },
       "de": {
         "name": "Viber",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Viber",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Viber",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Viber",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Viber",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Viber",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Viber",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Viber",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Viber",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Viber",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Viber",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Viber",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Viber",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Viber",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Viber",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Viber",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/com.viber.osx",
     "risk": "safe",
     "symbol": "message",
@@ -1449,67 +1449,67 @@
       },
       "de": {
         "name": "Webex",
-        "detail": "Heruntergeladene Medien; beim Öffnen erneut geladen."
+        "detail": "Bilder, Miniaturansichten und Medien."
       },
       "es": {
         "name": "Webex",
-        "detail": "Medios descargados; se obtienen de nuevo al abrirlos."
+        "detail": "Imágenes, miniaturas y medios."
       },
       "fr": {
         "name": "Webex",
-        "detail": "Médias téléchargés; retéléchargés à leur ouverture."
+        "detail": "Images, vignettes et médias."
       },
       "it": {
         "name": "Webex",
-        "detail": "Media scaricati; riscaricati quando vengono aperti."
+        "detail": "Immagini, miniature e media."
       },
       "ja": {
         "name": "Webex",
-        "detail": "ダウンロード済みメディア。開くと再取得されます。"
+        "detail": "画像、サムネイル、メディア。"
       },
       "ko": {
         "name": "Webex",
-        "detail": "다운로드한 미디어입니다. 열 때 다시 다운로드됩니다."
+        "detail": "이미지, 썸네일 및 미디어입니다."
       },
       "nl": {
         "name": "Webex",
-        "detail": "Gedownloade media; opnieuw opgehaald bij openen."
+        "detail": "Afbeeldingen, miniaturen en media."
       },
       "pl": {
         "name": "Webex",
-        "detail": "Pobrane multimedia; pobierane ponownie przy otwarciu."
+        "detail": "Obrazy, miniatury i multimedia."
       },
       "pt-BR": {
         "name": "Webex",
-        "detail": "Mídia baixada; baixada novamente ao abrir."
+        "detail": "Imagens, miniaturas e mídia."
       },
       "ru": {
         "name": "Webex",
-        "detail": "Загруженные медиафайлы; повторно загружаются при открытии."
+        "detail": "Изображения, миниатюры и медиафайлы."
       },
       "tr": {
         "name": "Webex",
-        "detail": "İndirilen medya; açıldığında yeniden indirilir."
+        "detail": "Görseller, küçük resimler ve medya."
       },
       "uk": {
         "name": "Webex",
-        "detail": "Завантажені медіафайли; повторно завантажуються під час відкриття."
+        "detail": "Зображення, мініатюри та медіафайли."
       },
       "zh-Hans": {
         "name": "Webex",
-        "detail": "已下载的媒体；打开时会重新下载。"
+        "detail": "图像、缩略图和媒体。"
       },
       "zh-Hant": {
         "name": "Webex",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       },
       "zh-HK": {
         "name": "Webex",
-        "detail": "已下載的媒體；開啟時會重新下載。"
+        "detail": "影像、縮圖和媒體。"
       }
     },
     "name": "Webex",
-    "detail": "Downloaded media; fetched again when opened.",
+    "detail": "Cached images, thumbnails, and media.",
     "path": "~/Library/Caches/Cisco-Systems.Spark",
     "risk": "safe",
     "symbol": "video",
@@ -1523,67 +1523,67 @@
       },
       "de": {
         "name": "Element Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Element Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Element Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Element Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Element ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Element 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Element Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Element Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Element Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Element Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Element Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Element Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Element 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Element 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Element 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Element Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/Element",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -1601,67 +1601,67 @@
       },
       "de": {
         "name": "Beeper Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Beeper Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Beeper Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Beeper Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Beeper ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Beeper 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Beeper Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Beeper Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Beeper Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Beeper Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Beeper Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Beeper Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Beeper 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Beeper 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Beeper 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Beeper Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/BeeperTexts",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -1679,67 +1679,67 @@
       },
       "de": {
         "name": "Mattermost Webdaten",
-        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+        "detail": "Offline-Webdaten und kompilierte Skripte."
       },
       "es": {
         "name": "Mattermost Datos web",
-        "detail": "Datos web offline; se actualizan al abrir la app."
+        "detail": "Datos web sin conexión y scripts compilados."
       },
       "fr": {
         "name": "Mattermost Données web",
-        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+        "detail": "Données web hors ligne et scripts compilés."
       },
       "it": {
         "name": "Mattermost Dati web",
-        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+        "detail": "Dati web offline e script compilati."
       },
       "ja": {
         "name": "Mattermost ウェブデータ",
-        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+        "detail": "オフラインのウェブデータとコンパイル済みスクリプト。"
       },
       "ko": {
         "name": "Mattermost 웹 데이터",
-        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+        "detail": "오프라인 웹 데이터 및 컴파일된 스크립트입니다."
       },
       "nl": {
         "name": "Mattermost Webgegevens",
-        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+        "detail": "Offline-webgegevens en gecompileerde scripts."
       },
       "pl": {
         "name": "Mattermost Dane sieciowe",
-        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+        "detail": "Dane internetowe offline i skompilowane skrypty."
       },
       "pt-BR": {
         "name": "Mattermost Dados da web",
-        "detail": "Dados web offline; atualizados ao abrir o app."
+        "detail": "Dados web offline e scripts compilados."
       },
       "ru": {
         "name": "Mattermost Веб-данные",
-        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+        "detail": "Офлайн-веб-данные и скомпилированные скрипты."
       },
       "tr": {
         "name": "Mattermost Web verileri",
-        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+        "detail": "Çevrimdışı web verileri ve derlenmiş betikler."
       },
       "uk": {
         "name": "Mattermost Веб-дані",
-        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+        "detail": "Офлайн-вебдані та скомпільовані скрипти."
       },
       "zh-Hans": {
         "name": "Mattermost 网页数据",
-        "detail": "离线网页数据；打开应用时会更新。"
+        "detail": "离线网页数据和编译脚本。"
       },
       "zh-Hant": {
         "name": "Mattermost 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       },
       "zh-HK": {
         "name": "Mattermost 網頁資料",
-        "detail": "離線網頁資料；開啟 App 時會更新。"
+        "detail": "離線網頁資料和編譯指令碼。"
       }
     },
     "name": "Mattermost Web Data",
-    "detail": "Offline web data; refreshed when the app opens.",
+    "detail": "Offline web data and compiled scripts.",
     "path": "~/Library/Application Support/Mattermost",
     "subfolders": [
       "Service Worker/CacheStorage",

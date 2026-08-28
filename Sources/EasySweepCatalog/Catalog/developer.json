@@ -7,67 +7,67 @@
       },
       "de": {
         "name": "Abgeleitete Daten",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Datos derivados",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Données dérivées",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Dati derivati",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Derived データ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "파생 데이터",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Afgeleide gegevens",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Dane pochodne",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Dados derivados",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Производные данные",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Türetilmiş veriler",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Похідні дані",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "派生数据",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "衍生資料",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "衍生資料",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Derived Data",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Build intermediates, indexes, and logs from Xcode.",
     "path": "~/Library/Developer/Xcode/DerivedData",
     "subfolders": [
       "*"
@@ -83,67 +83,67 @@
       },
       "de": {
         "name": "iOS Geräteunterstützung",
-        "detail": "Gerätesymbole; für unterstützte OS-Versionen erneut kopiert."
+        "detail": "Geräte-Debugsymbole."
       },
       "es": {
         "name": "iOS Compatibilidad de dispositivos",
-        "detail": "Símbolos del dispositivo; se copian para nuevas versiones compatibles."
+        "detail": "Símbolos de depuración de dispositivos."
       },
       "fr": {
         "name": "iOS Prise en charge des appareils",
-        "detail": "Symboles de l’appareil; recopiés pour les versions compatibles."
+        "detail": "Symboles de débogage des appareils."
       },
       "it": {
         "name": "iOS Supporto dispositivi",
-        "detail": "Simboli del dispositivo; ricopiati per le versioni supportate."
+        "detail": "Simboli di debug dei dispositivi."
       },
       "ja": {
         "name": "iOS デバイスサポート",
-        "detail": "デバイスシンボル。対応OS用に再コピーされます。"
+        "detail": "デバイスのデバッグシンボル。"
       },
       "ko": {
         "name": "iOS 기기 지원",
-        "detail": "기기 기호입니다. 지원되는 OS 버전에 다시 복사됩니다."
+        "detail": "기기 디버깅 기호입니다."
       },
       "nl": {
         "name": "iOS Apparaatondersteuning",
-        "detail": "Apparaatsymbolen; opnieuw gekopieerd voor ondersteunde OS-versies."
+        "detail": "Apparaat-debugsymbolen."
       },
       "pl": {
         "name": "iOS Obsługa urządzeń",
-        "detail": "Symbole urządzeń; kopiowane ponownie dla obsługiwanych wersji systemu."
+        "detail": "Symbole debugowania urządzeń."
       },
       "pt-BR": {
         "name": "iOS Suporte a dispositivos",
-        "detail": "Símbolos do dispositivo; copiados para versões compatíveis."
+        "detail": "Símbolos de depuração de dispositivos."
       },
       "ru": {
         "name": "iOS Поддержка устройств",
-        "detail": "Символы устройств; копируются снова для поддерживаемых версий ОС."
+        "detail": "Отладочные символы устройств."
       },
       "tr": {
         "name": "iOS Aygıt desteği",
-        "detail": "Aygıt sembolleri; desteklenen OS sürümleri için yeniden kopyalanır."
+        "detail": "Aygıt hata ayıklama sembolleri."
       },
       "uk": {
         "name": "iOS Підтримка пристроїв",
-        "detail": "Символи пристроїв; копіюються для підтримуваних версій ОС."
+        "detail": "Символи налагодження пристроїв."
       },
       "zh-Hans": {
         "name": "iOS 设备支持",
-        "detail": "设备符号；会为支持的系统版本重新复制。"
+        "detail": "设备调试符号。"
       },
       "zh-Hant": {
         "name": "iOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       },
       "zh-HK": {
         "name": "iOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       }
     },
     "name": "iOS Device Support",
-    "detail": "Device symbols; copied again for supported OS versions.",
+    "detail": "Debug symbols copied from connected iPhones and iPads.",
     "path": "~/Library/Developer/Xcode/iOS DeviceSupport",
     "subfolders": [
       "*"
@@ -158,67 +158,67 @@
       },
       "de": {
         "name": "tvOS Geräteunterstützung",
-        "detail": "Gerätesymbole; für unterstützte OS-Versionen erneut kopiert."
+        "detail": "Geräte-Debugsymbole."
       },
       "es": {
         "name": "tvOS Compatibilidad de dispositivos",
-        "detail": "Símbolos del dispositivo; se copian para nuevas versiones compatibles."
+        "detail": "Símbolos de depuración de dispositivos."
       },
       "fr": {
         "name": "tvOS Prise en charge des appareils",
-        "detail": "Symboles de l’appareil; recopiés pour les versions compatibles."
+        "detail": "Symboles de débogage des appareils."
       },
       "it": {
         "name": "tvOS Supporto dispositivi",
-        "detail": "Simboli del dispositivo; ricopiati per le versioni supportate."
+        "detail": "Simboli di debug dei dispositivi."
       },
       "ja": {
         "name": "tvOS デバイスサポート",
-        "detail": "デバイスシンボル。対応OS用に再コピーされます。"
+        "detail": "デバイスのデバッグシンボル。"
       },
       "ko": {
         "name": "tvOS 기기 지원",
-        "detail": "기기 기호입니다. 지원되는 OS 버전에 다시 복사됩니다."
+        "detail": "기기 디버깅 기호입니다."
       },
       "nl": {
         "name": "tvOS Apparaatondersteuning",
-        "detail": "Apparaatsymbolen; opnieuw gekopieerd voor ondersteunde OS-versies."
+        "detail": "Apparaat-debugsymbolen."
       },
       "pl": {
         "name": "tvOS Obsługa urządzeń",
-        "detail": "Symbole urządzeń; kopiowane ponownie dla obsługiwanych wersji systemu."
+        "detail": "Symbole debugowania urządzeń."
       },
       "pt-BR": {
         "name": "tvOS Suporte a dispositivos",
-        "detail": "Símbolos do dispositivo; copiados para versões compatíveis."
+        "detail": "Símbolos de depuração de dispositivos."
       },
       "ru": {
         "name": "tvOS Поддержка устройств",
-        "detail": "Символы устройств; копируются снова для поддерживаемых версий ОС."
+        "detail": "Отладочные символы устройств."
       },
       "tr": {
         "name": "tvOS Aygıt desteği",
-        "detail": "Aygıt sembolleri; desteklenen OS sürümleri için yeniden kopyalanır."
+        "detail": "Aygıt hata ayıklama sembolleri."
       },
       "uk": {
         "name": "tvOS Підтримка пристроїв",
-        "detail": "Символи пристроїв; копіюються для підтримуваних версій ОС."
+        "detail": "Символи налагодження пристроїв."
       },
       "zh-Hans": {
         "name": "tvOS 设备支持",
-        "detail": "设备符号；会为支持的系统版本重新复制。"
+        "detail": "设备调试符号。"
       },
       "zh-Hant": {
         "name": "tvOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       },
       "zh-HK": {
         "name": "tvOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       }
     },
     "name": "tvOS Device Support",
-    "detail": "Device symbols; copied again for supported OS versions.",
+    "detail": "Debug symbols copied from connected Apple TVs.",
     "path": "~/Library/Developer/Xcode/tvOS DeviceSupport",
     "subfolders": [
       "*"
@@ -233,67 +233,67 @@
       },
       "de": {
         "name": "watchOS Geräteunterstützung",
-        "detail": "Gerätesymbole; für unterstützte OS-Versionen erneut kopiert."
+        "detail": "Geräte-Debugsymbole."
       },
       "es": {
         "name": "watchOS Compatibilidad de dispositivos",
-        "detail": "Símbolos del dispositivo; se copian para nuevas versiones compatibles."
+        "detail": "Símbolos de depuración de dispositivos."
       },
       "fr": {
         "name": "watchOS Prise en charge des appareils",
-        "detail": "Symboles de l’appareil; recopiés pour les versions compatibles."
+        "detail": "Symboles de débogage des appareils."
       },
       "it": {
         "name": "watchOS Supporto dispositivi",
-        "detail": "Simboli del dispositivo; ricopiati per le versioni supportate."
+        "detail": "Simboli di debug dei dispositivi."
       },
       "ja": {
         "name": "watchOS デバイスサポート",
-        "detail": "デバイスシンボル。対応OS用に再コピーされます。"
+        "detail": "デバイスのデバッグシンボル。"
       },
       "ko": {
         "name": "watchOS 기기 지원",
-        "detail": "기기 기호입니다. 지원되는 OS 버전에 다시 복사됩니다."
+        "detail": "기기 디버깅 기호입니다."
       },
       "nl": {
         "name": "watchOS Apparaatondersteuning",
-        "detail": "Apparaatsymbolen; opnieuw gekopieerd voor ondersteunde OS-versies."
+        "detail": "Apparaat-debugsymbolen."
       },
       "pl": {
         "name": "watchOS Obsługa urządzeń",
-        "detail": "Symbole urządzeń; kopiowane ponownie dla obsługiwanych wersji systemu."
+        "detail": "Symbole debugowania urządzeń."
       },
       "pt-BR": {
         "name": "watchOS Suporte a dispositivos",
-        "detail": "Símbolos do dispositivo; copiados para versões compatíveis."
+        "detail": "Símbolos de depuração de dispositivos."
       },
       "ru": {
         "name": "watchOS Поддержка устройств",
-        "detail": "Символы устройств; копируются снова для поддерживаемых версий ОС."
+        "detail": "Отладочные символы устройств."
       },
       "tr": {
         "name": "watchOS Aygıt desteği",
-        "detail": "Aygıt sembolleri; desteklenen OS sürümleri için yeniden kopyalanır."
+        "detail": "Aygıt hata ayıklama sembolleri."
       },
       "uk": {
         "name": "watchOS Підтримка пристроїв",
-        "detail": "Символи пристроїв; копіюються для підтримуваних версій ОС."
+        "detail": "Символи налагодження пристроїв."
       },
       "zh-Hans": {
         "name": "watchOS 设备支持",
-        "detail": "设备符号；会为支持的系统版本重新复制。"
+        "detail": "设备调试符号。"
       },
       "zh-Hant": {
         "name": "watchOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       },
       "zh-HK": {
         "name": "watchOS 裝置支援",
-        "detail": "裝置符號；會為支援的系統版本重新複製。"
+        "detail": "裝置偵錯符號。"
       }
     },
     "name": "watchOS Device Support",
-    "detail": "Device symbols; copied again for supported OS versions.",
+    "detail": "Debug symbols copied from paired Apple Watches.",
     "path": "~/Library/Developer/Xcode/watchOS DeviceSupport",
     "subfolders": [
       "*"
@@ -308,67 +308,67 @@
       },
       "de": {
         "name": "Dokumentations-Cache Cache",
-        "detail": "Entwicklerdokumentation; bei Bedarf erneut geladen."
+        "detail": "Entwicklerdokumentation."
       },
       "es": {
         "name": "Caché de documentación Caché",
-        "detail": "Documentación de desarrolladores; se descarga cuando hace falta."
+        "detail": "Documentación para desarrolladores."
       },
       "fr": {
         "name": "Cache de documentation Cache",
-        "detail": "Documentation développeur; retéléchargée à la demande."
+        "detail": "Documentation développeur."
       },
       "it": {
         "name": "Cache della documentazione Cache",
-        "detail": "Documentazione per sviluppatori; scaricata di nuovo quando richiesta."
+        "detail": "Documentazione per sviluppatori."
       },
       "ja": {
         "name": "ドキュメントキャッシュ キャッシュ",
-        "detail": "開発者向けドキュメント。必要に応じて再ダウンロードされます。"
+        "detail": "開発者向けドキュメント。"
       },
       "ko": {
         "name": "문서 캐시 캐시",
-        "detail": "개발자 문서입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "개발자 문서입니다."
       },
       "nl": {
         "name": "Documentatiecache Cache",
-        "detail": "Ontwikkelaarsdocumentatie; opnieuw opgehaald wanneer nodig."
+        "detail": "Ontwikkelaarsdocumentatie."
       },
       "pl": {
         "name": "Pamięć podręczna dokumentacji Pamięć podręczna",
-        "detail": "Dokumentacja deweloperska; pobierana ponownie na żądanie."
+        "detail": "Dokumentacja deweloperska."
       },
       "pt-BR": {
         "name": "Cache de documentação Cache",
-        "detail": "Documentação de desenvolvedor; baixada novamente quando solicitada."
+        "detail": "Documentação de desenvolvedor."
       },
       "ru": {
         "name": "Кэш документации Кэш",
-        "detail": "Документация разработчика; загружается снова по запросу."
+        "detail": "Документация разработчика."
       },
       "tr": {
         "name": "Belge önbelleği Önbellek",
-        "detail": "Geliştirici belgeleri; istendiğinde yeniden indirilir."
+        "detail": "Geliştirici belgeleri."
       },
       "uk": {
         "name": "Кеш документації Кеш",
-        "detail": "Документація розробника; завантажується знову на запит."
+        "detail": "Документація розробника."
       },
       "zh-Hans": {
         "name": "文档缓存 缓存",
-        "detail": "开发者文档；需要时会重新下载。"
+        "detail": "开发者文档。"
       },
       "zh-Hant": {
         "name": "文件快取 快取",
-        "detail": "開發者文件；需要時會重新下載。"
+        "detail": "開發者文件。"
       },
       "zh-HK": {
         "name": "文件快取 快取",
-        "detail": "開發者文件；需要時會重新下載。"
+        "detail": "開發者文件。"
       }
     },
     "name": "Documentation Cache",
-    "detail": "Developer documentation; downloaded again when requested.",
+    "detail": "Developer documentation cache.",
     "path": "~/Library/Developer/Xcode",
     "subfolders": [
       "DocumentationCache",
@@ -385,67 +385,67 @@
       },
       "de": {
         "name": "Produkte & Device Protokolle",
-        "detail": "Build-Produkte und Geräteprotokolle; bei Bedarf erneut exportiert."
+        "detail": "Exportierte Build-Produkte und Geräteprotokolle."
       },
       "es": {
         "name": "Productos & Device Registros",
-        "detail": "Productos y logs; se exportan si hace falta."
+        "detail": "Productos compilados y registros de dispositivos."
       },
       "fr": {
         "name": "Produits & Device Journaux",
-        "detail": "Produits et journaux de compilation; réexportés si nécessaire."
+        "detail": "Produits compilés et journaux des appareils."
       },
       "it": {
         "name": "Prodotti & Device Log",
-        "detail": "Prodotti e log; esportati quando servono."
+        "detail": "Prodotti di build e log dei dispositivi."
       },
       "ja": {
         "name": "生成物 & Device ログ",
-        "detail": "ビルド成果物とデバイスログ。必要に応じて再書き出しされます。"
+        "detail": "書き出したビルド成果物とデバイスログ。"
       },
       "ko": {
         "name": "생성물 & Device 로그",
-        "detail": "빌드 산출물과 기기 로그입니다. 필요할 때 다시 내보냅니다."
+        "detail": "내보낸 빌드 산출물과 기기 로그입니다."
       },
       "nl": {
         "name": "Producten & Device Logboeken",
-        "detail": "Buildproducten en apparaatlogboeken; opnieuw geëxporteerd wanneer nodig."
+        "detail": "Geëxporteerde buildproducten en apparaatlogboeken."
       },
       "pl": {
         "name": "Produkty & Device Dzienniki",
-        "detail": "Produkty i dzienniki urządzeń; eksportowane w razie potrzeby."
+        "detail": "Wyeksportowane produkty kompilacji i dzienniki urządzeń."
       },
       "pt-BR": {
         "name": "Produtos & Device Registros",
-        "detail": "Produtos e logs de compilação; exportados novamente quando necessário."
+        "detail": "Produtos de compilação e logs de dispositivos."
       },
       "ru": {
         "name": "Продукты & Device Журналы",
-        "detail": "Результаты сборки и журналы устройств; экспортируются снова при необходимости."
+        "detail": "Экспортированные сборки и журналы устройств."
       },
       "tr": {
         "name": "Ürünler & Device Günlükler",
-        "detail": "Derleme ürünleri ve aygıt günlükleri; gerektiğinde yeniden dışa aktarılır."
+        "detail": "Dışa aktarılan derleme ürünleri ve aygıt günlükleri."
       },
       "uk": {
         "name": "Продукти & Device Журнали",
-        "detail": "Результати збирання та журнали пристроїв; експортуються за потреби."
+        "detail": "Експортовані результати збирання та журнали пристроїв."
       },
       "zh-Hans": {
         "name": "构建产物 & Device 日志",
-        "detail": "构建产物和设备日志；需要时会重新导出。"
+        "detail": "导出的构建产物和设备日志。"
       },
       "zh-Hant": {
         "name": "建置產物 & Device 記錄",
-        "detail": "建置產物和裝置記錄；需要時會重新匯出。"
+        "detail": "匯出的建置產物和裝置記錄。"
       },
       "zh-HK": {
         "name": "建置產物 & Device 記錄",
-        "detail": "建置產物和裝置記錄；需要時會重新匯出。"
+        "detail": "匯出的建置產物和裝置記錄。"
       }
     },
     "name": "Products & Device Logs",
-    "detail": "Build products and device logs; exported again when needed.",
+    "detail": "Exported build products and crash logs from devices.",
     "path": "~/Library/Developer/Xcode",
     "subfolders": [
       "Products",
@@ -462,67 +462,67 @@
       },
       "de": {
         "name": "Xcode Downloads",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "Xcode Descargas",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "Xcode Téléchargements",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "Xcode Download",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "Xcode ダウンロード",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "Xcode 다운로드",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "Xcode Downloads",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "Xcode Pobrane pliki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "Xcode Downloads",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "Xcode Загрузки",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "Xcode İndirmeler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "Xcode Завантаження",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "Xcode 下载",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "Xcode 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "Xcode 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "Xcode Downloads",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "Installers and components left by older Xcode versions.",
     "path": "~/Library/Developer/DVTDownloads",
     "risk": "safe",
     "symbol": "arrow.down.circle.fill"
@@ -535,67 +535,67 @@
       },
       "de": {
         "name": "XcodeBuildMCP Daten",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "XcodeBuildMCP Datos",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "XcodeBuildMCP Données",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "XcodeBuildMCP Dati",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "XcodeBuildMCP データ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "XcodeBuildMCP 데이터",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "XcodeBuildMCP Gegevens",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "XcodeBuildMCP Dane",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "XcodeBuildMCP Dados",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "XcodeBuildMCP Данные",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "XcodeBuildMCP Veriler",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "XcodeBuildMCP Дані",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "XcodeBuildMCP 数据",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "XcodeBuildMCP 資料",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "XcodeBuildMCP 資料",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "XcodeBuildMCP Data",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Build artifacts and logs from XcodeBuildMCP.",
     "path": "~/Library/Developer/XcodeBuildMCP",
     "risk": "safe",
     "symbol": "terminal.fill"
@@ -608,67 +608,67 @@
       },
       "de": {
         "name": "Xcode Application Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Xcode Application Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Xcode Application Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Xcode Application Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Xcode Application キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Xcode Application 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Xcode Application Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Xcode Application Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Xcode Application Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Xcode Application Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Xcode Application Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Xcode Application Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Xcode Application 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Xcode Application 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Xcode Application 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Xcode Application Cache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Xcode scratch cache separate from Derived Data.",
     "path": "~/Library/Caches/com.apple.dt.Xcode",
     "risk": "safe",
     "symbol": "externaldrive.fill"
@@ -681,67 +681,67 @@
       },
       "de": {
         "name": "Device Connection Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Device Connection Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Device Connection Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Device Connection Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Device Connection キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Device Connection 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Device Connection Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Device Connection Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Device Connection Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Device Connection Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Device Connection Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Device Connection Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Device Connection 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Device Connection 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Device Connection 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Device Connection Cache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Staged app bundles and symbols for real devices.",
     "path": "~/Library/Containers/com.apple.CoreDevice.CoreDeviceService/Data/Library/Caches",
     "risk": "safe",
     "symbol": "externaldrive.fill"
@@ -754,67 +754,67 @@
       },
       "de": {
         "name": "Apple Configurator Downloads",
-        "detail": "Gerätefirmware; bei künftigen Wiederherstellungen erneut geladen."
+        "detail": "Gerätefirmware und Wiederherstellungsdateien."
       },
       "es": {
         "name": "Apple Configurator Descargas",
-        "detail": "Firmware del dispositivo; se descarga de nuevo al restaurarlo."
+        "detail": "Firmware y archivos de restauración."
       },
       "fr": {
         "name": "Apple Configurator Téléchargements",
-        "detail": "Firmware de l’appareil; retéléchargé lors des restaurations."
+        "detail": "Firmware et fichiers de restauration."
       },
       "it": {
         "name": "Apple Configurator Download",
-        "detail": "Firmware del dispositivo; scaricato di nuovo durante i ripristini."
+        "detail": "Firmware e file di ripristino."
       },
       "ja": {
         "name": "Apple Configurator ダウンロード",
-        "detail": "デバイスファームウェア。復元時に再ダウンロードされます。"
+        "detail": "デバイスのファームウェアと復元ファイル。"
       },
       "ko": {
         "name": "Apple Configurator 다운로드",
-        "detail": "기기 펌웨어입니다. 복원할 때 다시 다운로드됩니다."
+        "detail": "기기 펌웨어 및 복원 파일입니다."
       },
       "nl": {
         "name": "Apple Configurator Downloads",
-        "detail": "Apparaatfirmware; opnieuw opgehaald bij toekomstige herstellingen."
+        "detail": "Apparaatfirmware en herstelbestanden."
       },
       "pl": {
         "name": "Apple Configurator Pobrane pliki",
-        "detail": "Oprogramowanie sprzętowe; pobierane ponownie podczas przywracania."
+        "detail": "Oprogramowanie sprzętowe i pliki odtwarzania."
       },
       "pt-BR": {
         "name": "Apple Configurator Downloads",
-        "detail": "Firmware do dispositivo; baixado novamente durante restaurações."
+        "detail": "Firmware e arquivos de restauração."
       },
       "ru": {
         "name": "Apple Configurator Загрузки",
-        "detail": "Прошивка устройства; загружается снова при восстановлении."
+        "detail": "Прошивка устройств и файлы восстановления."
       },
       "tr": {
         "name": "Apple Configurator İndirmeler",
-        "detail": "Aygıt ürün yazılımı; geri yüklemelerde yeniden indirilir."
+        "detail": "Aygıt ürün yazılımı ve geri yükleme dosyaları."
       },
       "uk": {
         "name": "Apple Configurator Завантаження",
-        "detail": "Прошивка пристрою; завантажується під час майбутнього відновлення."
+        "detail": "Прошивка пристроїв і файли відновлення."
       },
       "zh-Hans": {
         "name": "Apple Configurator 下载",
-        "detail": "设备固件；恢复设备时会重新下载。"
+        "detail": "设备固件和恢复文件。"
       },
       "zh-Hant": {
         "name": "Apple Configurator 下載項目",
-        "detail": "裝置韌體；回復裝置時會重新下載。"
+        "detail": "裝置韌體和回復檔案。"
       },
       "zh-HK": {
         "name": "Apple Configurator 下載項目",
-        "detail": "裝置韌體；回復裝置時會重新下載。"
+        "detail": "裝置韌體和回復檔案。"
       }
     },
     "name": "Apple Configurator Downloads",
-    "detail": "Device firmware; downloaded again during future restores.",
+    "detail": "Device firmware and staging files for Apple Configurator.",
     "path": "~/Library/Containers/com.apple.configurator.xpc.DeviceService/Data/tmp",
     "risk": "safe",
     "symbol": "cable.connector"
@@ -827,67 +827,67 @@
       },
       "de": {
         "name": "Archive",
-        "detail": "Ausgelieferte Build-Archive und Symbole; gelöschte Dateien sind unwiederbringlich."
+        "detail": "Ausgelieferte Build-Archive und Debug-Symbole."
       },
       "es": {
         "name": "Archivos",
-        "detail": "Archivos y símbolos publicados; los eliminados son irrecuperables."
+        "detail": "Archivos de compilación y símbolos publicados."
       },
       "fr": {
         "name": "Archives",
-        "detail": "Archives et symboles livrés; les fichiers supprimés sont irrécupérables."
+        "detail": "Archives de compilation et symboles livrés."
       },
       "it": {
         "name": "Archivi",
-        "detail": "Archivi e simboli distribuiti; i file eliminati non tornano."
+        "detail": "Archivi di build e simboli distribuiti."
       },
       "ja": {
         "name": "アーカイブ",
-        "detail": "配布済みビルドアーカイブとシンボル。削除すると復元できません。"
+        "detail": "配布済みビルドアーカイブとデバッグシンボル。"
       },
       "ko": {
         "name": "아카이브",
-        "detail": "배포된 빌드 아카이브와 기호입니다. 삭제하면 복구할 수 없습니다."
+        "detail": "배포된 빌드 아카이브와 디버깅 기호입니다."
       },
       "nl": {
         "name": "Archieven",
-        "detail": "Geleverde buildarchieven en symbolen; verwijderde bestanden zijn onherstelbaar."
+        "detail": "Geleverde buildarchieven en debugsymbolen."
       },
       "pl": {
         "name": "Archiwa",
-        "detail": "Archiwa i symbole wydanych kompilacji; usuniętych plików nie odzyskasz."
+        "detail": "Wydane archiwa kompilacji i symbole debugowania."
       },
       "pt-BR": {
         "name": "Arquivos",
-        "detail": "Arquivos e símbolos publicados; arquivos excluídos não podem retornar."
+        "detail": "Arquivos de compilação e símbolos publicados."
       },
       "ru": {
         "name": "Архивы",
-        "detail": "Архивы сборок и символы; удалённые файлы невозможно восстановить."
+        "detail": "Архивы выпущенных сборок и отладочные символы."
       },
       "tr": {
         "name": "Arşivler",
-        "detail": "Yayınlanan derleme arşivleri ve semboller; silinenler kurtarılamaz."
+        "detail": "Yayınlanan derleme arşivleri ve hata ayıklama sembolleri."
       },
       "uk": {
         "name": "Архіви",
-        "detail": "Випущені архіви збирань і символи; видалені файли не відновити."
+        "detail": "Архіви випущених збирань і символи налагодження."
       },
       "zh-Hans": {
         "name": "归档",
-        "detail": "已发布的构建存档和符号；删除后无法恢复。"
+        "detail": "已发布的构建存档和调试符号。"
       },
       "zh-Hant": {
         "name": "封存檔",
-        "detail": "已發佈的建置封存和符號；刪除後無法復原。"
+        "detail": "已發佈的建置封存和偵錯符號。"
       },
       "zh-HK": {
         "name": "封存檔",
-        "detail": "已發佈的建置封存和符號；刪除後無法復原。"
+        "detail": "已發佈的建置封存和偵錯符號。"
       }
     },
     "name": "Archives",
-    "detail": "Shipped build archives and symbols; removed files cannot return.",
+    "detail": "Distribution builds and dSYMs for shipped versions.",
     "path": "~/Library/Developer/Xcode/Archives",
     "subfolders": [
       "*"
@@ -903,67 +903,67 @@
       },
       "de": {
         "name": "Simulator Caches",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Simulator Cachés",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Simulator Caches",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Simulator Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Simulator キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Simulator 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Simulator Caches",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Simulator Pamięci podręczne",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Simulator Caches",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Simulator Кэши",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Simulator Önbellekler",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Simulator Кеші",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Simulator 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Simulator 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Simulator 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Simulator Caches",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Shared CoreSimulator dyld and image caches.",
     "path": "~/Library/Developer/CoreSimulator/Caches",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -976,67 +976,67 @@
       },
       "de": {
         "name": "Test Simulator-Klone",
-        "detail": "Simulatordaten; bei entfernten Simulatoren neu erstellt."
+        "detail": "Simulatoren mit Apps und Daten."
       },
       "es": {
         "name": "Test Clones de simulador",
-        "detail": "Datos del simulador; se recrean al eliminar dispositivos."
+        "detail": "Simuladores con sus apps y datos."
       },
       "fr": {
         "name": "Test Clones de simulateur",
-        "detail": "Données du simulateur; recréées après suppression des appareils."
+        "detail": "Simulateurs avec leurs apps et données."
       },
       "it": {
         "name": "Test Cloni del simulatore",
-        "detail": "Dati del simulatore; ricreati rimuovendo i dispositivi."
+        "detail": "Simulatori con app e dati."
       },
       "ja": {
         "name": "Test シミュレータのクローン",
-        "detail": "シミュレーターデータ。デバイス削除時に再作成されます。"
+        "detail": "アプリとデータを含むシミュレーター。"
       },
       "ko": {
         "name": "Test 시뮬레이터 복제본",
-        "detail": "시뮬레이터 데이터입니다. 기기를 제거하면 다시 생성됩니다."
+        "detail": "앱과 데이터가 포함된 시뮬레이터입니다."
       },
       "nl": {
         "name": "Test Simulator-klonen",
-        "detail": "Simulatordata; opnieuw gemaakt na verwijderen van simulatoren."
+        "detail": "Simulatoren met apps en gegevens."
       },
       "pl": {
         "name": "Test Klonowane symulatory",
-        "detail": "Dane symulatora; odtwarzane po usunięciu urządzeń."
+        "detail": "Symulatory z aplikacjami i danymi."
       },
       "pt-BR": {
         "name": "Test Clones do simulador",
-        "detail": "Dados do simulador; recriados ao remover dispositivos."
+        "detail": "Simuladores com apps e dados."
       },
       "ru": {
         "name": "Test Клоны симулятора",
-        "detail": "Данные симулятора; создаются заново после удаления устройств."
+        "detail": "Симуляторы с приложениями и данными."
       },
       "tr": {
         "name": "Test Simülatör klonları",
-        "detail": "Simülatör verileri; aygıtlar kaldırılınca yeniden oluşturulur."
+        "detail": "Uygulama ve verileri olan simülatörler."
       },
       "uk": {
         "name": "Test Клони симулятора",
-        "detail": "Дані симулятора; створюються після видалення пристроїв."
+        "detail": "Симулятори з програмами та даними."
       },
       "zh-Hans": {
         "name": "Test 模拟器克隆",
-        "detail": "模拟器数据；移除设备后会重新生成。"
+        "detail": "包含应用和数据的模拟器。"
       },
       "zh-Hant": {
         "name": "Test 模擬器複本",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       },
       "zh-HK": {
         "name": "Test 模擬器複本",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       }
     },
     "name": "Test Simulator Clones",
-    "detail": "Simulator data; recreated when simulator devices are removed.",
+    "detail": "Simulator clones created for parallel testing.",
     "path": "~/Library/Developer/XCTestDevices",
     "subfolders": [
       "*"
@@ -1052,67 +1052,67 @@
       },
       "de": {
         "name": "Simulatorgeräte",
-        "detail": "Simulatordaten; bei entfernten Simulatoren neu erstellt."
+        "detail": "Simulatoren mit Apps und Daten."
       },
       "es": {
         "name": "Dispositivos del simulador",
-        "detail": "Datos del simulador; se recrean al eliminar dispositivos."
+        "detail": "Simuladores con sus apps y datos."
       },
       "fr": {
         "name": "Appareils de simulateur",
-        "detail": "Données du simulateur; recréées après suppression des appareils."
+        "detail": "Simulateurs avec leurs apps et données."
       },
       "it": {
         "name": "Dispositivi del simulatore",
-        "detail": "Dati del simulatore; ricreati rimuovendo i dispositivi."
+        "detail": "Simulatori con app e dati."
       },
       "ja": {
         "name": "シミュレータデバイス",
-        "detail": "シミュレーターデータ。デバイス削除時に再作成されます。"
+        "detail": "アプリとデータを含むシミュレーター。"
       },
       "ko": {
         "name": "시뮬레이터 기기",
-        "detail": "시뮬레이터 데이터입니다. 기기를 제거하면 다시 생성됩니다."
+        "detail": "앱과 데이터가 포함된 시뮬레이터입니다."
       },
       "nl": {
         "name": "Simulatorapparaten",
-        "detail": "Simulatordata; opnieuw gemaakt na verwijderen van simulatoren."
+        "detail": "Simulatoren met apps en gegevens."
       },
       "pl": {
         "name": "Urządzenia symulatora",
-        "detail": "Dane symulatora; odtwarzane po usunięciu urządzeń."
+        "detail": "Symulatory z aplikacjami i danymi."
       },
       "pt-BR": {
         "name": "Dispositivos do simulador",
-        "detail": "Dados do simulador; recriados ao remover dispositivos."
+        "detail": "Simuladores com apps e dados."
       },
       "ru": {
         "name": "Устройства симулятора",
-        "detail": "Данные симулятора; создаются заново после удаления устройств."
+        "detail": "Симуляторы с приложениями и данными."
       },
       "tr": {
         "name": "Simülatör aygıtları",
-        "detail": "Simülatör verileri; aygıtlar kaldırılınca yeniden oluşturulur."
+        "detail": "Uygulama ve verileri olan simülatörler."
       },
       "uk": {
         "name": "Пристрої симулятора",
-        "detail": "Дані симулятора; створюються після видалення пристроїв."
+        "detail": "Симулятори з програмами та даними."
       },
       "zh-Hans": {
         "name": "模拟器设备",
-        "detail": "模拟器数据；移除设备后会重新生成。"
+        "detail": "包含应用和数据的模拟器。"
       },
       "zh-Hant": {
         "name": "模擬器裝置",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       },
       "zh-HK": {
         "name": "模擬器裝置",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       }
     },
     "name": "Simulator Devices",
-    "detail": "Simulator data; recreated when simulator devices are removed.",
+    "detail": "Installed simulators, including their apps and data.",
     "path": "~/Library/Developer/CoreSimulator/Devices",
     "subfolders": [
       "*"
@@ -1128,67 +1128,67 @@
       },
       "de": {
         "name": "Playground-Geräte",
-        "detail": "Simulatordaten; bei entfernten Simulatoren neu erstellt."
+        "detail": "Simulatoren mit Apps und Daten."
       },
       "es": {
         "name": "Dispositivos de Playground",
-        "detail": "Datos del simulador; se recrean al eliminar dispositivos."
+        "detail": "Simuladores con sus apps y datos."
       },
       "fr": {
         "name": "Appareils Playground",
-        "detail": "Données du simulateur; recréées après suppression des appareils."
+        "detail": "Simulateurs avec leurs apps et données."
       },
       "it": {
         "name": "Dispositivi Playground",
-        "detail": "Dati del simulatore; ricreati rimuovendo i dispositivi."
+        "detail": "Simulatori con app e dati."
       },
       "ja": {
         "name": "Playgroundデバイス",
-        "detail": "シミュレーターデータ。デバイス削除時に再作成されます。"
+        "detail": "アプリとデータを含むシミュレーター。"
       },
       "ko": {
         "name": "Playground 기기",
-        "detail": "시뮬레이터 데이터입니다. 기기를 제거하면 다시 생성됩니다."
+        "detail": "앱과 데이터가 포함된 시뮬레이터입니다."
       },
       "nl": {
         "name": "Playground-apparaten",
-        "detail": "Simulatordata; opnieuw gemaakt na verwijderen van simulatoren."
+        "detail": "Simulatoren met apps en gegevens."
       },
       "pl": {
         "name": "Urządzenia Playground",
-        "detail": "Dane symulatora; odtwarzane po usunięciu urządzeń."
+        "detail": "Symulatory z aplikacjami i danymi."
       },
       "pt-BR": {
         "name": "Dispositivos do Playground",
-        "detail": "Dados do simulador; recriados ao remover dispositivos."
+        "detail": "Simuladores com apps e dados."
       },
       "ru": {
         "name": "Устройства Playground",
-        "detail": "Данные симулятора; создаются заново после удаления устройств."
+        "detail": "Симуляторы с приложениями и данными."
       },
       "tr": {
         "name": "Playground aygıtları",
-        "detail": "Simülatör verileri; aygıtlar kaldırılınca yeniden oluşturulur."
+        "detail": "Uygulama ve verileri olan simülatörler."
       },
       "uk": {
         "name": "Пристрої Playground",
-        "detail": "Дані симулятора; створюються після видалення пристроїв."
+        "detail": "Симулятори з програмами та даними."
       },
       "zh-Hans": {
         "name": "Playground 设备",
-        "detail": "模拟器数据；移除设备后会重新生成。"
+        "detail": "包含应用和数据的模拟器。"
       },
       "zh-Hant": {
         "name": "Playground 裝置",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       },
       "zh-HK": {
         "name": "Playground 裝置",
-        "detail": "模擬器資料；移除裝置後會重新產生。"
+        "detail": "包含 App 和資料的模擬器。"
       }
     },
     "name": "Playground Devices",
-    "detail": "Simulator data; recreated when simulator devices are removed.",
+    "detail": "Simulator instances used by Swift Playgrounds previews.",
     "path": "~/Library/Developer/XCPGDevices",
     "risk": "risky",
     "symbol": "swift"
@@ -1201,67 +1201,67 @@
       },
       "de": {
         "name": "Xcode Systemressourcen",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "Xcode Recursos del sistema",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "Xcode Ressources système",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "Xcode Risorse di sistema",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "Xcode システムリソース",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "Xcode 시스템 리소스",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "Xcode Systeembronnen",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "Xcode Zasoby systemowe",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "Xcode Recursos do sistema",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "Xcode Системные ресурсы",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "Xcode Sistem kaynakları",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "Xcode Системні ресурси",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "Xcode 系统资源",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "Xcode 系統資源",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "Xcode 系統資源",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "Xcode System Resources",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "Xcode installer packages for each OS build.",
     "path": "~/Library/Developer/Packages",
     "subfolders": [
       "*"
@@ -1276,67 +1276,67 @@
       },
       "de": {
         "name": "Swift Paket Manager",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Swift Paquete Manager",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Swift Paquet Manager",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Swift Pacchetto Manager",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Swift パッケージ Manager",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Swift 패키지 Manager",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Swift Pakket Manager",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Swift Pakiet Manager",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Swift Pacote Manager",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Swift Пакет Manager",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Swift Paket Manager",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Swift Пакет Manager",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Swift 软件包 Manager",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Swift 套件 Manager",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Swift 套件 Manager",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Swift Package Manager",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Cloned package repositories and resolved artifacts.",
     "path": "~/Library/Caches/org.swift.swiftpm",
     "risk": "safe",
     "symbol": "cube.box.fill",
@@ -1350,67 +1350,67 @@
       },
       "de": {
         "name": "CocoaPods Cache",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "CocoaPods Caché",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "CocoaPods Cache",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "CocoaPods Cache",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "CocoaPods キャッシュ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "CocoaPods 캐시",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "CocoaPods Cache",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "CocoaPods Pamięć podręczna",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "CocoaPods Cache",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "CocoaPods Кэш",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "CocoaPods Önbellek",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "CocoaPods Кеш",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "CocoaPods 缓存",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "CocoaPods 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "CocoaPods 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "CocoaPods Cache",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "CocoaPods source archives.",
     "path": "~/Library/Caches/CocoaPods",
     "risk": "safe",
     "symbol": "cube.box.fill",
@@ -1424,67 +1424,67 @@
       },
       "de": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket-Spezifikationsrepositorys."
       },
       "es": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Repositorios de especificaciones de paquetes."
       },
       "fr": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Dépôts de spécifications de paquets."
       },
       "it": {
         "name": "CocoaPods Spec Repos",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Repository delle specifiche dei pacchetti."
       },
       "ja": {
         "name": "CocoaPods Spec Repos",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージ仕様リポジトリ。"
       },
       "ko": {
         "name": "CocoaPods Spec Repos",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 사양 저장소입니다."
       },
       "nl": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket-specificatierepository’s."
       },
       "pl": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Repozytoria specyfikacji pakietów."
       },
       "pt-BR": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Repositórios de especificações de pacotes."
       },
       "ru": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Репозитории спецификаций пакетов."
       },
       "tr": {
         "name": "CocoaPods Spec Repos",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket belirtimi depoları."
       },
       "uk": {
         "name": "CocoaPods Spec Repos",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Репозиторії специфікацій пакетів."
       },
       "zh-Hans": {
         "name": "CocoaPods Spec Repos",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包规范仓库。"
       },
       "zh-Hant": {
         "name": "CocoaPods Spec Repos",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件規格存放庫。"
       },
       "zh-HK": {
         "name": "CocoaPods Spec Repos",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件規格存放庫。"
       }
     },
     "name": "CocoaPods Spec Repos",
-    "detail": "Package repository; cloned again when dependencies resolve.",
+    "detail": "CocoaPods podspec repositories, including private repos.",
     "path": "~/.cocoapods/repos",
     "risk": "risky",
     "symbol": "cube.box.fill",
@@ -1498,67 +1498,67 @@
       },
       "de": {
         "name": "Carthage",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Carthage",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Carthage",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Carthage",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Carthage",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Carthage",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Carthage",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Carthage",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Carthage",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Carthage",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Carthage",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Carthage",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Carthage",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Carthage",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Carthage",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Carthage",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Cloned dependencies and prebuilt Carthage frameworks.",
     "path": "~/Library/Caches/org.carthage.CarthageKit",
     "risk": "safe",
     "symbol": "cube.box.fill"
@@ -1571,67 +1571,67 @@
       },
       "de": {
         "name": "Homebrew",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Homebrew",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Homebrew",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Homebrew",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Homebrew",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Homebrew",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Homebrew",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Homebrew",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Homebrew",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Homebrew",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Homebrew",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Homebrew",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Homebrew",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Homebrew",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Homebrew",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Homebrew",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Homebrew bottles and casks.",
     "path": "~/Library/Caches/Homebrew",
     "risk": "safe",
     "symbol": "mug.fill",
@@ -1645,67 +1645,67 @@
       },
       "de": {
         "name": "Gradle",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Gradle",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Gradle",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Gradle",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Gradle",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Gradle",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Gradle",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Gradle",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Gradle",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Gradle",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Gradle",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Gradle",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Gradle",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Gradle",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Gradle",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Gradle",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Gradle dependencies, daemon logs, and distributions.",
     "path": "~/.gradle",
     "subfolders": [
       "caches",
@@ -1726,67 +1726,67 @@
       },
       "de": {
         "name": "Android SDK",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Android SDK",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Android SDK",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Android SDK",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Android SDK",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Android SDK",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Android SDK",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Android SDK",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Android SDK",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Android SDK",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Android SDK",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Android SDK",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Android SDK",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Android SDK",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Android SDK",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Android SDK",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Android SDK build and IDE caches.",
     "path": "~/.android",
     "subfolders": [
       "cache",
@@ -1804,67 +1804,67 @@
       },
       "de": {
         "name": "Android Studio",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Android Studio",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Android Studio",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Android Studio",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Android Studio",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Android Studio",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Android Studio",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Android Studio",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Android Studio",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Android Studio",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Android Studio",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Android Studio",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Android Studio",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Android Studio",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Android Studio",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Android Studio",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Android Studio caches and indexes.",
     "path": "~/Library/Caches/Google",
     "subfolders": [
       "AndroidStudio*"
@@ -1881,67 +1881,67 @@
       },
       "de": {
         "name": "JetBrains IDEs",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "JetBrains IDEs",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "JetBrains IDEs",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "JetBrains IDEs",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "JetBrains IDEs",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "JetBrains IDEs",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "JetBrains IDEs",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "JetBrains IDEs",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "JetBrains IDEs",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "JetBrains IDEs",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "JetBrains IDEs",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "JetBrains IDEs",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "JetBrains IDEs",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "JetBrains IDEs",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "JetBrains IDEs",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "JetBrains IDEs",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Indexes and caches for JetBrains IDEs.",
     "path": "~/Library/Caches/JetBrains",
     "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right"
@@ -1954,67 +1954,67 @@
       },
       "de": {
         "name": "VS Code",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "VS Code",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "VS Code",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "VS Code",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "VS Code",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "VS Code",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "VS Code",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "VS Code",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "VS Code",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "VS Code",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "VS Code",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "VS Code",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "VS Code",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "VS Code",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "VS Code",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "VS Code",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "VS Code extension cache and compiled data.",
     "path": "~/Library/Application Support/Code",
     "subfolders": [
       "CachedData",
@@ -2032,67 +2032,67 @@
       },
       "de": {
         "name": "npm & npx Cache",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "npm & npx Caché",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "npm & npx Cache",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "npm & npx Cache",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "npm & npx キャッシュ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "npm & npx 캐시",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "npm & npx Cache",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "npm & npx Pamięć podręczna",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "npm & npx Cache",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "npm & npx Кэш",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "npm & npx Önbellek",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "npm & npx Кеш",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "npm & npx 缓存",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "npm & npx 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "npm & npx 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "npm & npx Cache",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "npm package tarballs and one-off npx installs.",
     "path": "~/.npm",
     "subfolders": [
       "_cacache",
@@ -2110,67 +2110,67 @@
       },
       "de": {
         "name": "Yarn",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Yarn",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Yarn",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Yarn",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Yarn",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Yarn",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Yarn",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Yarn",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Yarn",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Yarn",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Yarn",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Yarn",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Yarn",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Yarn",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Yarn",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Yarn",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Yarn package cache.",
     "path": "~/Library/Caches/Yarn",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2184,67 +2184,67 @@
       },
       "de": {
         "name": "pnpm",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "pnpm",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "pnpm",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "pnpm",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "pnpm",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "pnpm",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "pnpm",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "pnpm",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "pnpm",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "pnpm",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "pnpm",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "pnpm",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "pnpm",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "pnpm",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "pnpm",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "pnpm",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "pnpm content-addressable package store.",
     "path": "~/Library/pnpm/store",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2258,67 +2258,67 @@
       },
       "de": {
         "name": "Electron",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Vorgefertigte Electron-Binärdateien."
       },
       "es": {
         "name": "Electron",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Binarios de Electron precompilados."
       },
       "fr": {
         "name": "Electron",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Binaires Electron précompilés."
       },
       "it": {
         "name": "Electron",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Binari Electron precompilati."
       },
       "ja": {
         "name": "Electron",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "Electronの事前構築バイナリ。"
       },
       "ko": {
         "name": "Electron",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "미리 빌드된 Electron 바이너리입니다."
       },
       "nl": {
         "name": "Electron",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Voorgebouwde Electron-binaries."
       },
       "pl": {
         "name": "Electron",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Wstępnie skompilowane pliki binarne Electron."
       },
       "pt-BR": {
         "name": "Electron",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Binários Electron pré-compilados."
       },
       "ru": {
         "name": "Electron",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Предсобранные бинарные файлы Electron."
       },
       "tr": {
         "name": "Electron",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Önceden oluşturulmuş Electron ikili dosyaları."
       },
       "uk": {
         "name": "Electron",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Попередньо зібрані бінарні файли Electron."
       },
       "zh-Hans": {
         "name": "Electron",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "预构建的 Electron 二进制文件。"
       },
       "zh-Hant": {
         "name": "Electron",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "預先建置的 Electron 二進位檔。"
       },
       "zh-HK": {
         "name": "Electron",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "預先建置的 Electron 二進位檔。"
       }
     },
     "name": "Electron",
-    "detail": "Downloaded binaries; fetched again during future builds.",
+    "detail": "Prebuilt Electron binaries for app builds.",
     "path": "~/Library/Caches/electron",
     "risk": "safe",
     "symbol": "atom",
@@ -2332,67 +2332,67 @@
       },
       "de": {
         "name": "Python pip",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Python pip",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Python pip",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Python pip",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Python pip",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Python pip",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Python pip",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Python pip",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Python pip",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Python pip",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Python pip",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Python pip",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Python pip",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Python pip",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Python pip",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Python pip",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Python package and source archives.",
     "path": "~/Library/Caches/pip",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2406,67 +2406,67 @@
       },
       "de": {
         "name": "Rust Cargo",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Rust Cargo",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Rust Cargo",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Rust Cargo",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Rust Cargo",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Rust Cargo",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Rust Cargo",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Rust Cargo",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Rust Cargo",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Rust Cargo",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Rust Cargo",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Rust Cargo",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Rust Cargo",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Rust Cargo",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Rust Cargo",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Rust Cargo",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Rust crate registry cache and sources.",
     "path": "~/.cargo/registry",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -2479,67 +2479,67 @@
       },
       "de": {
         "name": "Go Build Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Go Build Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Go Build Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Go Build Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Go Build キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Go Build 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Go Build Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Go Build Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Go Build Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Go Build Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Go Build Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Go Build Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Go Build 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Go Build 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Go Build 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Go Build Cache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Compiled Go package objects.",
     "path": "~/Library/Caches/go-build",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2553,67 +2553,67 @@
       },
       "de": {
         "name": "Maven",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Maven",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Maven",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Maven",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Maven",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Maven",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Maven",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Maven",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Maven",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Maven",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Maven",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Maven",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Maven",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Maven",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Maven",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Maven",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Maven local artifact repository.",
     "path": "~/.m2/repository",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2627,67 +2627,67 @@
       },
       "de": {
         "name": "NuGet",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "NuGet",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "NuGet",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "NuGet",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "NuGet",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "NuGet",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "NuGet",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "NuGet",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "NuGet",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "NuGet",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "NuGet",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "NuGet",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "NuGet",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "NuGet",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "NuGet",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "NuGet",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": ".NET package cache.",
     "path": "~/.nuget/packages",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2701,67 +2701,67 @@
       },
       "de": {
         "name": "Dart & Flutter Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Dart & Flutter Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Dart & Flutter Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Dart & Flutter Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Dart & Flutter パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Dart & Flutter 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Dart & Flutter Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Dart & Flutter Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Dart & Flutter Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Dart & Flutter Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Dart & Flutter Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Dart & Flutter Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Dart & Flutter 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Dart & Flutter 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Dart & Flutter 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Dart & Flutter Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Dart and Flutter package cache.",
     "path": "~/.pub-cache",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -2775,67 +2775,67 @@
       },
       "de": {
         "name": "Bun",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Bun",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Bun",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Bun",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Bun",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Bun",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Bun",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Bun",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Bun",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Bun",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Bun",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Bun",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Bun",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Bun",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Bun",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Bun",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Bun package files.",
     "path": "~/.bun/install/cache",
     "risk": "safe"
   },
@@ -2847,67 +2847,67 @@
       },
       "de": {
         "name": "Deno",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Deno",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Deno",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Deno",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Deno",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Deno",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Deno",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Deno",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Deno",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Deno",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Deno",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Deno",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Deno",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Deno",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Deno",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Deno",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Deno remote modules and compiled-module cache.",
     "path": "~/Library/Caches/deno",
     "risk": "safe"
   },
@@ -2919,67 +2919,67 @@
       },
       "de": {
         "name": "Playwright Browser",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Playwright-Browser."
       },
       "es": {
         "name": "Playwright Navegadores",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Navegadores de Playwright."
       },
       "fr": {
         "name": "Playwright Navigateurs",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Navigateurs Playwright."
       },
       "it": {
         "name": "Playwright Browser",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Browser di Playwright."
       },
       "ja": {
         "name": "Playwright ブラウザ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "Playwrightブラウザー。"
       },
       "ko": {
         "name": "Playwright 브라우저",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "Playwright 브라우저입니다."
       },
       "nl": {
         "name": "Playwright Browsers",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Playwright-browsers."
       },
       "pl": {
         "name": "Playwright Przeglądarki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Przeglądarki Playwright."
       },
       "pt-BR": {
         "name": "Playwright Navegadores",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Navegadores do Playwright."
       },
       "ru": {
         "name": "Playwright Браузеры",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Браузеры Playwright."
       },
       "tr": {
         "name": "Playwright Tarayıcılar",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Playwright tarayıcıları."
       },
       "uk": {
         "name": "Playwright Браузери",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Браузери Playwright."
       },
       "zh-Hans": {
         "name": "Playwright 浏览器",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "Playwright 浏览器。"
       },
       "zh-Hant": {
         "name": "Playwright 瀏覽器",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Playwright 瀏覽器。"
       },
       "zh-HK": {
         "name": "Playwright 瀏覽器",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Playwright 瀏覽器。"
       }
     },
     "name": "Playwright Browsers",
-    "detail": "Browser builds; downloaded again during future installs.",
+    "detail": "Playwright Chromium, Firefox, and WebKit builds.",
     "path": "~/Library/Caches/ms-playwright",
     "risk": "safe",
     "color": "#2EAD33"
@@ -2992,67 +2992,67 @@
       },
       "de": {
         "name": "Composer",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Composer",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Composer",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Composer",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Composer",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Composer",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Composer",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Composer",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Composer",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Composer",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Composer",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Composer",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Composer",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Composer",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Composer",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Composer",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Composer PHP package and repository cache.",
     "path": "~/.composer/cache",
     "risk": "safe",
     "color": "#885630"
@@ -3065,67 +3065,67 @@
       },
       "de": {
         "name": "Composer (Library)",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Composer (Library)",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Composer (Library)",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Composer (Library)",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Composer (Library)",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Composer (Library)",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Composer (Library)",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Composer (Library)",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Composer (Library)",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Composer (Library)",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Composer (Library)",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Composer (Library)",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Composer (Library)",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Composer (Library)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Composer (Library)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Composer (Library)",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Composer package cache in its newer location.",
     "path": "~/Library/Caches/composer",
     "risk": "safe",
     "color": "#885630"
@@ -3138,67 +3138,67 @@
       },
       "de": {
         "name": "nvm Downloads",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "nvm Descargas",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "nvm Téléchargements",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "nvm Download",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "nvm ダウンロード",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "nvm 다운로드",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "nvm Downloads",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "nvm Pobrane pliki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "nvm Downloads",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "nvm Загрузки",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "nvm İndirmeler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "nvm Завантаження",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "nvm 下载",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "nvm 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "nvm 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "nvm Downloads",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "Node version archives kept after installation.",
     "path": "~/.nvm/.cache",
     "risk": "safe"
   },
@@ -3210,67 +3210,67 @@
       },
       "de": {
         "name": "SDKMAN Archive",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "SDKMAN Archivos",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "SDKMAN Archives",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "SDKMAN Archivi",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "SDKMAN アーカイブ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "SDKMAN 아카이브",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "SDKMAN Archieven",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "SDKMAN Archiwa",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "SDKMAN Arquivos",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "SDKMAN Архивы",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "SDKMAN Arşivler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "SDKMAN Архіви",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "SDKMAN 归档",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "SDKMAN 封存檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "SDKMAN 封存檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "SDKMAN Archives",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "JDK and tool archives.",
     "path": "~/.sdkman",
     "subfolders": [
       "archives",
@@ -3286,67 +3286,67 @@
       },
       "de": {
         "name": "TypeScript",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Editor-Typdefinitionen."
       },
       "es": {
         "name": "TypeScript",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Definiciones de tipos del editor."
       },
       "fr": {
         "name": "TypeScript",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Définitions de types de l’éditeur."
       },
       "it": {
         "name": "TypeScript",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Definizioni di tipo dell’editor."
       },
       "ja": {
         "name": "TypeScript",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "エディターの型定義。"
       },
       "ko": {
         "name": "TypeScript",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "편집기 형식 정의입니다."
       },
       "nl": {
         "name": "TypeScript",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Type-definities voor de editor."
       },
       "pl": {
         "name": "TypeScript",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Definicje typów edytora."
       },
       "pt-BR": {
         "name": "TypeScript",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Definições de tipos do editor."
       },
       "ru": {
         "name": "TypeScript",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Определения типов редактора."
       },
       "tr": {
         "name": "TypeScript",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Düzenleyici tür tanımları."
       },
       "uk": {
         "name": "TypeScript",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Визначення типів редактора."
       },
       "zh-Hans": {
         "name": "TypeScript",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "编辑器类型定义。"
       },
       "zh-Hant": {
         "name": "TypeScript",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "編輯器類型定義。"
       },
       "zh-HK": {
         "name": "TypeScript",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "編輯器類型定義。"
       }
     },
     "name": "TypeScript",
-    "detail": "Editor type definitions; downloaded again when requested.",
+    "detail": "Editor type definitions installed by TypeScript.",
     "path": "~/Library/Caches/typescript",
     "risk": "safe",
     "color": "#3178C6"
@@ -3359,67 +3359,67 @@
       },
       "de": {
         "name": "Gemeinsamer Tool-Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Gemeinsamer Tool-Cache."
       },
       "es": {
         "name": "Caché compartida de herramientas",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Caché compartida de herramientas."
       },
       "fr": {
         "name": "Cache partagé des outils",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Cache partagé des outils."
       },
       "it": {
         "name": "Cache condivisa degli strumenti",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "Cache condivisa degli strumenti."
       },
       "ja": {
         "name": "共有ツールキャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "共有ツールキャッシュ。"
       },
       "ko": {
         "name": "공유 도구 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "공유 도구 캐시입니다."
       },
       "nl": {
         "name": "Gedeelde toolcache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Gedeelde toolcache."
       },
       "pl": {
         "name": "Wspólna pamięć narzędzi",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Wspólna pamięć podręczna narzędzi."
       },
       "pt-BR": {
         "name": "Cache compartilhado de ferramentas",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Cache compartilhado de ferramentas."
       },
       "ru": {
         "name": "Общий кэш инструментов",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Общий кэш инструментов."
       },
       "tr": {
         "name": "Paylaşılan araç önbelleği",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Paylaşılan araç önbelleği."
       },
       "uk": {
         "name": "Спільний кеш інструментів",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Спільний кеш інструментів."
       },
       "zh-Hans": {
         "name": "共享工具缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "共享工具缓存。"
       },
       "zh-Hant": {
         "name": "共用工具快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "共用工具快取。"
       },
       "zh-HK": {
         "name": "共用工具快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "共用工具快取。"
       }
     },
     "name": "Shared Tool Cache",
-    "detail": "Shared tool cache; rebuilt as commands run.",
+    "detail": "Shared cache used by command-line tools.",
     "path": "~/.cache",
     "subfolders": [
       "*"
@@ -3435,67 +3435,67 @@
       },
       "de": {
         "name": "node-gyp Header",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Native Build-Header."
       },
       "es": {
         "name": "node-gyp Cabeceras",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Cabeceras para compilaciones nativas."
       },
       "fr": {
         "name": "node-gyp En-têtes",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "En-têtes de compilation native."
       },
       "it": {
         "name": "node-gyp Header",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Header per build native."
       },
       "ja": {
         "name": "node-gyp ヘッダー",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "ネイティブビルドヘッダー。"
       },
       "ko": {
         "name": "node-gyp 헤더",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "네이티브 빌드 헤더입니다."
       },
       "nl": {
         "name": "node-gyp Headers",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Headers voor native builds."
       },
       "pl": {
         "name": "node-gyp Nagłówki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Nagłówki kompilacji natywnej."
       },
       "pt-BR": {
         "name": "node-gyp Cabeçalhos",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cabeçalhos de compilação nativa."
       },
       "ru": {
         "name": "node-gyp Заголовки",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Заголовки нативной сборки."
       },
       "tr": {
         "name": "node-gyp Başlıklar",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yerel derleme başlıkları."
       },
       "uk": {
         "name": "node-gyp Заголовки",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Заголовки нативного збирання."
       },
       "zh-Hans": {
         "name": "node-gyp 头文件",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "本机构建头文件。"
       },
       "zh-Hant": {
         "name": "node-gyp 標頭檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "原生建置標頭檔。"
       },
       "zh-HK": {
         "name": "node-gyp 標頭檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "原生建置標頭檔。"
       }
     },
     "name": "node-gyp Headers",
-    "detail": "Native build headers; downloaded again for future builds.",
+    "detail": "Node headers and libraries for native builds.",
     "path": "~/Library/Caches/node-gyp",
     "subfolders": [
       "*"
@@ -3512,67 +3512,67 @@
       },
       "de": {
         "name": "Playwright Browser (Go)",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Playwright-Browser."
       },
       "es": {
         "name": "Playwright Navegadores (Go)",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Navegadores de Playwright."
       },
       "fr": {
         "name": "Playwright Navigateurs (Go)",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Navigateurs Playwright."
       },
       "it": {
         "name": "Playwright Browser (Go)",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Browser di Playwright."
       },
       "ja": {
         "name": "Playwright ブラウザ (Go)",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "Playwrightブラウザー。"
       },
       "ko": {
         "name": "Playwright 브라우저 (Go)",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "Playwright 브라우저입니다."
       },
       "nl": {
         "name": "Playwright Browsers (Go)",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Playwright-browsers."
       },
       "pl": {
         "name": "Playwright Przeglądarki (Go)",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Przeglądarki Playwright."
       },
       "pt-BR": {
         "name": "Playwright Navegadores (Go)",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Navegadores do Playwright."
       },
       "ru": {
         "name": "Playwright Браузеры (Go)",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Браузеры Playwright."
       },
       "tr": {
         "name": "Playwright Tarayıcılar (Go)",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Playwright tarayıcıları."
       },
       "uk": {
         "name": "Playwright Браузери (Go)",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Браузери Playwright."
       },
       "zh-Hans": {
         "name": "Playwright 浏览器 (Go)",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "Playwright 浏览器。"
       },
       "zh-Hant": {
         "name": "Playwright 瀏覽器 (Go)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Playwright 瀏覽器。"
       },
       "zh-HK": {
         "name": "Playwright 瀏覽器 (Go)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Playwright 瀏覽器。"
       }
     },
     "name": "Playwright Browsers (Go)",
-    "detail": "Browser builds; downloaded again during future installs.",
+    "detail": "Playwright browser builds for Go.",
     "path": "~/Library/Caches/ms-playwright-go",
     "risk": "safe",
     "color": "#2EAD33"
@@ -3585,67 +3585,67 @@
       },
       "de": {
         "name": "rustup Downloads",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "rustup Descargas",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "rustup Téléchargements",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "rustup Download",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "rustup ダウンロード",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "rustup 다운로드",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "rustup Downloads",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "rustup Pobrane pliki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "rustup Downloads",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "rustup Загрузки",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "rustup İndirmeler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "rustup Завантаження",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "rustup 下载",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "rustup 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "rustup 下載項目",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "rustup Downloads",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "rustup toolchain archives and temporary files.",
     "path": "~/.rustup",
     "subfolders": [
       "downloads",
@@ -3662,67 +3662,67 @@
       },
       "de": {
         "name": "ccache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "ccache",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "ccache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "ccache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "ccache",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "ccache",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "ccache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "ccache",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "ccache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "ccache",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "ccache",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "ccache",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "ccache",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "ccache",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "ccache",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "ccache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Compiler object files cached by source and flags.",
     "path": "~/Library/Caches/ccache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -3735,67 +3735,67 @@
       },
       "de": {
         "name": "sccache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "sccache",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "sccache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "sccache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "sccache",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "sccache",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "sccache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "sccache",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "sccache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "sccache",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "sccache",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "sccache",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "sccache",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "sccache",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "sccache",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "sccache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Shared compiler cache for Rust and C/C++.",
     "path": "~/Library/Caches/Mozilla.sccache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -3808,67 +3808,67 @@
       },
       "de": {
         "name": "Poetry Cache",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Poetry Caché",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Poetry Cache",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Poetry Cache",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Poetry キャッシュ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Poetry 캐시",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Poetry Cache",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Poetry Pamięć podręczna",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Poetry Cache",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Poetry Кэш",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Poetry Önbellek",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Poetry Кеш",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Poetry 缓存",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Poetry 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Poetry 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Poetry Cache",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Poetry package artifacts and virtual environments.",
     "path": "~/Library/Caches/pypoetry",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -3882,67 +3882,67 @@
       },
       "de": {
         "name": "uv Cache",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "uv Caché",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "uv Cache",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "uv Cache",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "uv キャッシュ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "uv 캐시",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "uv Cache",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "uv Pamięć podręczna",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "uv Cache",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "uv Кэш",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "uv Önbellek",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "uv Кеш",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "uv 缓存",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "uv 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "uv 快取",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "uv Cache",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "uv package-manager wheels and source archives.",
     "path": "~/Library/Caches/uv",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -3956,67 +3956,67 @@
       },
       "de": {
         "name": "Vagrant Boxen",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Images virtueller Maschinen."
       },
       "es": {
         "name": "Vagrant Imágenes de máquinas virtuales",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Imágenes de máquinas virtuales."
       },
       "fr": {
         "name": "Vagrant Images de machines virtuelles",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Images de machines virtuelles."
       },
       "it": {
         "name": "Vagrant Immagini di macchine virtuali",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Immagini di macchine virtuali."
       },
       "ja": {
         "name": "Vagrant 仮想マシンイメージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "仮想マシンイメージ。"
       },
       "ko": {
         "name": "Vagrant 가상 머신 이미지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "가상 머신 이미지입니다."
       },
       "nl": {
         "name": "Vagrant Virtuele machine-images",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Virtuele machine-images."
       },
       "pl": {
         "name": "Vagrant Obrazy maszyn wirtualnych",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Obrazy maszyn wirtualnych."
       },
       "pt-BR": {
         "name": "Vagrant Imagens de máquinas virtuais",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Imagens de máquinas virtuais."
       },
       "ru": {
         "name": "Vagrant Образы виртуальных машин",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Образы виртуальных машин."
       },
       "tr": {
         "name": "Vagrant Sanal makine görüntüleri",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Sanal makine görüntüleri."
       },
       "uk": {
         "name": "Vagrant Образи віртуальних машин",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Образи віртуальних машин."
       },
       "zh-Hans": {
         "name": "Vagrant 虚拟机镜像",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "虚拟机映像。"
       },
       "zh-Hant": {
         "name": "Vagrant 虛擬機器映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       },
       "zh-HK": {
         "name": "Vagrant 虛擬機器映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       }
     },
     "name": "Vagrant Boxes",
-    "detail": "Virtual machine images; downloaded again when needed.",
+    "detail": "Vagrant base VM images.",
     "path": "~/.vagrant.d/boxes",
     "risk": "safe",
     "symbol": "shippingbox.fill",
@@ -4030,67 +4030,67 @@
       },
       "de": {
         "name": "Ivy Cache (sbt/Scala)",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Ivy Caché (sbt/Scala)",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Ivy Cache (sbt/Scala)",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Ivy Cache (sbt/Scala)",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Ivy キャッシュ (sbt/Scala)",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Ivy 캐시 (sbt/Scala)",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Ivy Cache (sbt/Scala)",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Ivy Pamięć podręczna (sbt/Scala)",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Ivy Cache (sbt/Scala)",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Ivy Кэш (sbt/Scala)",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Ivy Önbellek (sbt/Scala)",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Ivy Кеш (sbt/Scala)",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Ivy 缓存 (sbt/Scala)",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Ivy 快取 (sbt/Scala)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Ivy 快取 (sbt/Scala)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Ivy Cache (sbt/Scala)",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "sbt/Scala dependencies resolved through Ivy.",
     "path": "~/.ivy2/cache",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -4103,67 +4103,67 @@
       },
       "de": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Build-Zwischendateien, Indizes und Protokolle."
       },
       "es": {
         "name": "Expo CLI Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos intermedios, índices y registros de compilación."
       },
       "fr": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers intermédiaires, index et journaux de compilation."
       },
       "it": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File intermedi, indici e log di build."
       },
       "ja": {
         "name": "Expo CLI キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ビルド中間ファイル、インデックス、ログ。"
       },
       "ko": {
         "name": "Expo CLI 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "빌드 중간 파일, 색인 및 로그입니다."
       },
       "nl": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Buildtussenbestanden, indexen en logboeken."
       },
       "pl": {
         "name": "Expo CLI Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki pośrednie kompilacji, indeksy i dzienniki."
       },
       "pt-BR": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos intermediários, índices e logs de compilação."
       },
       "ru": {
         "name": "Expo CLI Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Промежуточные файлы сборки, индексы и журналы."
       },
       "tr": {
         "name": "Expo CLI Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Derleme ara dosyaları, dizinler ve günlükler."
       },
       "uk": {
         "name": "Expo CLI Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Проміжні файли збирання, індекси та журнали."
       },
       "zh-Hans": {
         "name": "Expo CLI 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "构建中间文件、索引和日志。"
       },
       "zh-Hant": {
         "name": "Expo CLI 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       },
       "zh-HK": {
         "name": "Expo CLI 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "建置中間檔案、索引和記錄。"
       }
     },
     "name": "Expo CLI Cache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Expo CLI simulator builds, modules, and templates.",
     "path": "~/.expo",
     "risk": "safe",
     "symbol": "shippingbox.fill"
@@ -4176,67 +4176,67 @@
       },
       "de": {
         "name": "Go Modules",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Go Modules",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Go Modules",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Go Modules",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Go Modules",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Go Modules",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Go Modules",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Go Modules",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Go Modules",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Go Modules",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Go Modules",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Go Modules",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Go Modules",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Go Modules",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Go Modules",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Go Modules",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Go module source archives.",
     "path": "~/go/pkg/mod",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4250,67 +4250,67 @@
       },
       "de": {
         "name": "conda Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "conda Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "conda Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "conda Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "conda パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "conda 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "conda Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "conda Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "conda Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "conda Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "conda Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "conda Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "conda 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "conda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "conda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "conda Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "conda package archives.",
     "path": "~/.conda/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4324,67 +4324,67 @@
       },
       "de": {
         "name": "Miniconda Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Miniconda Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Miniconda Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Miniconda Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Miniconda パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Miniconda 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Miniconda Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Miniconda Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Miniconda Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Miniconda Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Miniconda Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Miniconda Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Miniconda 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Miniconda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Miniconda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Miniconda Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Miniconda package archive cache.",
     "path": "~/miniconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4398,67 +4398,67 @@
       },
       "de": {
         "name": "Anaconda Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Anaconda Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Anaconda Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Anaconda Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Anaconda パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Anaconda 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Anaconda Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Anaconda Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Anaconda Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Anaconda Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Anaconda Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Anaconda Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Anaconda 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Anaconda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Anaconda 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Anaconda Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Anaconda package archive cache.",
     "path": "~/anaconda3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4472,67 +4472,67 @@
       },
       "de": {
         "name": "Miniforge Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Miniforge Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Miniforge Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Miniforge Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Miniforge パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Miniforge 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Miniforge Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Miniforge Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Miniforge Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Miniforge Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Miniforge Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Miniforge Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Miniforge 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Miniforge 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Miniforge 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Miniforge Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Miniforge package archive cache.",
     "path": "~/miniforge3/pkgs",
     "risk": "safe",
     "symbol": "shippingbox"
@@ -4545,67 +4545,67 @@
       },
       "de": {
         "name": "mise",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Installer und Paketdateien."
       },
       "es": {
         "name": "mise",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Instaladores y archivos de paquetes."
       },
       "fr": {
         "name": "mise",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Installateurs et fichiers de paquets."
       },
       "it": {
         "name": "mise",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Installer e file di pacchetti."
       },
       "ja": {
         "name": "mise",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "インストーラーとパッケージファイル。"
       },
       "ko": {
         "name": "mise",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "설치 프로그램과 패키지 파일입니다."
       },
       "nl": {
         "name": "mise",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Installatieprogramma’s en pakketbestanden."
       },
       "pl": {
         "name": "mise",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Instalatory i pliki pakietów."
       },
       "pt-BR": {
         "name": "mise",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Instaladores e arquivos de pacotes."
       },
       "ru": {
         "name": "mise",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Установщики и файлы пакетов."
       },
       "tr": {
         "name": "mise",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Yükleyiciler ve paket dosyaları."
       },
       "uk": {
         "name": "mise",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Інсталятори та файли пакетів."
       },
       "zh-Hans": {
         "name": "mise",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "安装程序和软件包文件。"
       },
       "zh-Hant": {
         "name": "mise",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       },
       "zh-HK": {
         "name": "mise",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "安裝程式和套件檔案。"
       }
     },
     "name": "mise",
-    "detail": "Downloaded files; fetched again when needed.",
+    "detail": "mise tool archives and metadata.",
     "path": "~/Library/Caches/mise",
     "risk": "safe",
     "symbol": "arrow.triangle.branch"
@@ -4618,67 +4618,67 @@
       },
       "de": {
         "name": "Tart VM Images",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Images virtueller Maschinen."
       },
       "es": {
         "name": "Tart VM Imágenes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Imágenes de máquinas virtuales."
       },
       "fr": {
         "name": "Tart VM Images",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Images de machines virtuelles."
       },
       "it": {
         "name": "Tart VM Immagini",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Immagini di macchine virtuali."
       },
       "ja": {
         "name": "Tart VM イメージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "仮想マシンイメージ。"
       },
       "ko": {
         "name": "Tart VM 이미지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "가상 머신 이미지입니다."
       },
       "nl": {
         "name": "Tart VM Images",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Virtuele machine-images."
       },
       "pl": {
         "name": "Tart VM Obrazy",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Obrazy maszyn wirtualnych."
       },
       "pt-BR": {
         "name": "Tart VM Imagens",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Imagens de máquinas virtuais."
       },
       "ru": {
         "name": "Tart VM Образы",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Образы виртуальных машин."
       },
       "tr": {
         "name": "Tart VM Görüntüler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Sanal makine görüntüleri."
       },
       "uk": {
         "name": "Tart VM Образи",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Образи віртуальних машин."
       },
       "zh-Hans": {
         "name": "Tart VM 镜像",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "虚拟机映像。"
       },
       "zh-Hant": {
         "name": "Tart VM 映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       },
       "zh-HK": {
         "name": "Tart VM 映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       }
     },
     "name": "Tart VM Images",
-    "detail": "Virtual machine images; downloaded again when needed.",
+    "detail": "Tart virtual machine images.",
     "path": "~/.tart/cache",
     "risk": "safe",
     "symbol": "shippingbox"
@@ -4691,67 +4691,67 @@
       },
       "de": {
         "name": "Mambaforge Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Mambaforge Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Mambaforge Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Mambaforge Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Mambaforge パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Mambaforge 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Mambaforge Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Mambaforge Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Mambaforge Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Mambaforge Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Mambaforge Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Mambaforge Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Mambaforge 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Mambaforge 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Mambaforge 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Mambaforge Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Mambaforge package archive cache.",
     "path": "~/mambaforge/pkgs",
     "risk": "safe",
     "symbol": "shippingbox"
@@ -4764,67 +4764,67 @@
       },
       "de": {
         "name": "Lima VM Images",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Images virtueller Maschinen."
       },
       "es": {
         "name": "Lima VM Imágenes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Imágenes de máquinas virtuales."
       },
       "fr": {
         "name": "Lima VM Images",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Images de machines virtuelles."
       },
       "it": {
         "name": "Lima VM Immagini",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Immagini di macchine virtuali."
       },
       "ja": {
         "name": "Lima VM イメージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "仮想マシンイメージ。"
       },
       "ko": {
         "name": "Lima VM 이미지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "가상 머신 이미지입니다."
       },
       "nl": {
         "name": "Lima VM Images",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Virtuele machine-images."
       },
       "pl": {
         "name": "Lima VM Obrazy",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Obrazy maszyn wirtualnych."
       },
       "pt-BR": {
         "name": "Lima VM Imagens",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Imagens de máquinas virtuais."
       },
       "ru": {
         "name": "Lima VM Образы",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Образы виртуальных машин."
       },
       "tr": {
         "name": "Lima VM Görüntüler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Sanal makine görüntüleri."
       },
       "uk": {
         "name": "Lima VM Образи",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Образи віртуальних машин."
       },
       "zh-Hans": {
         "name": "Lima VM 镜像",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "虚拟机映像。"
       },
       "zh-Hant": {
         "name": "Lima VM 映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       },
       "zh-HK": {
         "name": "Lima VM 映像檔",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "虛擬機器映像檔。"
       }
     },
     "name": "Lima VM Images",
-    "detail": "Virtual machine images; downloaded again when needed.",
+    "detail": "Lima virtual machine images.",
     "path": "~/Library/Caches/lima",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4838,67 +4838,67 @@
       },
       "de": {
         "name": "Terraform Provider",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Terraform-Provider-Plugins."
       },
       "es": {
         "name": "Terraform Proveedores",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Plugins de proveedores de Terraform."
       },
       "fr": {
         "name": "Terraform Fournisseurs",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Plugins de fournisseurs Terraform."
       },
       "it": {
         "name": "Terraform Provider",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Plugin provider di Terraform."
       },
       "ja": {
         "name": "Terraform プロバイダ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "Terraformプロバイダープラグイン。"
       },
       "ko": {
         "name": "Terraform 프로바이더",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "Terraform 프로바이더 플러그인입니다."
       },
       "nl": {
         "name": "Terraform Providers",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Terraform-providerplug-ins."
       },
       "pl": {
         "name": "Terraform Dostawcy",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Wtyczki dostawców Terraform."
       },
       "pt-BR": {
         "name": "Terraform Provedores",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Plugins de provedores do Terraform."
       },
       "ru": {
         "name": "Terraform Провайдеры",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Плагины провайдеров Terraform."
       },
       "tr": {
         "name": "Terraform Sağlayıcılar",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Terraform sağlayıcı eklentileri."
       },
       "uk": {
         "name": "Terraform Провайдери",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Плагіни провайдерів Terraform."
       },
       "zh-Hans": {
         "name": "Terraform 提供程序",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "Terraform 提供程序插件。"
       },
       "zh-Hant": {
         "name": "Terraform 提供者",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Terraform 提供者外掛程式。"
       },
       "zh-HK": {
         "name": "Terraform 提供者",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "Terraform 提供者外掛程式。"
       }
     },
     "name": "Terraform Providers",
-    "detail": "Provider plugins; downloaded again during initialization.",
+    "detail": "Terraform provider plugins.",
     "path": "~/.terraform.d/plugin-cache",
     "risk": "safe",
     "symbol": "cube.transparent",
@@ -4912,67 +4912,67 @@
       },
       "de": {
         "name": "pnpm Store (home)",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "pnpm Almacén (home)",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "pnpm Magasin (home)",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "pnpm Archivio (home)",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "pnpm ストア (home)",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "pnpm 저장소 (home)",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "pnpm Opslag (home)",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "pnpm Magazyn (home)",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "pnpm Armazenamento (home)",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "pnpm Хранилище (home)",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "pnpm Depo (home)",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "pnpm Сховище (home)",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "pnpm 存储 (home)",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "pnpm 儲存區 (home)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "pnpm 儲存區 (home)",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "pnpm Store (home)",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "pnpm package store outside the Library folder.",
     "path": "~/.pnpm-store",
     "risk": "safe",
     "symbol": "shippingbox",
@@ -4986,67 +4986,67 @@
       },
       "de": {
         "name": "Cabal Pakete",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Cabal Paquetes",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Cabal Paquets",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Cabal Pacchetti",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Cabal パッケージ",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Cabal 패키지",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Cabal Pakketten",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Cabal Pakiety",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Cabal Pacotes",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Cabal Пакеты",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Cabal Paketler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Cabal Пакети",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Cabal 软件包",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Cabal 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Cabal 套件",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Cabal Packages",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Cabal source archives from Hackage.",
     "path": "~/.cabal/packages",
     "subfolders": [
       "*"
@@ -5063,67 +5063,67 @@
       },
       "de": {
         "name": "Stack Snapshots",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Paket- und Abhängigkeitscache."
       },
       "es": {
         "name": "Stack Instantáneas",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Caché de paquetes y dependencias."
       },
       "fr": {
         "name": "Stack Instantanés",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Cache des paquets et dépendances."
       },
       "it": {
         "name": "Stack Snapshot",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Cache di pacchetti e dipendenze."
       },
       "ja": {
         "name": "Stack スナップショット",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "パッケージと依存関係のキャッシュ。"
       },
       "ko": {
         "name": "Stack 스냅샷",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "패키지 및 종속성 캐시입니다."
       },
       "nl": {
         "name": "Stack Momentopnamen",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Pakket- en afhankelijkheidscache."
       },
       "pl": {
         "name": "Stack Migawki",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pamięć pakietów i zależności."
       },
       "pt-BR": {
         "name": "Stack Instantâneos",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Cache de pacotes e dependências."
       },
       "ru": {
         "name": "Stack Снимки",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Кэш пакетов и зависимостей."
       },
       "tr": {
         "name": "Stack Anlık görüntüler",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Paket ve bağımlılık önbelleği."
       },
       "uk": {
         "name": "Stack Знімки",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Кеш пакетів і залежностей."
       },
       "zh-Hans": {
         "name": "Stack 快照",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "软件包和依赖项缓存。"
       },
       "zh-Hant": {
         "name": "Stack 快照",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       },
       "zh-HK": {
         "name": "Stack 快照",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "套件和相依項目快取。"
       }
     },
     "name": "Stack Snapshots",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Compiled package snapshots organized by Stack resolver.",
     "path": "~/.stack/snapshots",
     "subfolders": [
       "*"
