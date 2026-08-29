@@ -34,8 +34,7 @@ Open a pull request against the JSON file for the section it belongs in:
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
-  "risk": "safe",
-  "autoClean": true,
+  "risk": false,
   "symbol": "shippingbox.fill",
   "color": "#000000"
 }
@@ -82,27 +81,16 @@ accepts regional and script variants before falling back to English.
 
 ## Cleaning safety
 
-`risk` describes the consequence of removal. `autoClean` is the separate,
-explicit permission for unattended removal and defaults to `false` when absent.
-Regenerability is necessary but not sufficient for `"autoClean": true`.
+`risk` is one conservative Boolean decision. `false` means the reviewed target
+may be cleaned automatically; `true` means it requires manual confirmation.
+Every entry must declare the field; a missing value fails decoding.
 Broad wildcard targets, app-wide state folders, offline or synced content,
-active staging areas, and caches that can contain locally produced artifacts
-remain manual even when their ordinary contents are replaceable. The decoder
-also forces automatic cleaning off whenever `risk` is not `safe` or the entry ID
-is absent from the compiled reviewed allowlist. JSON alone therefore cannot
-widen unattended deletion.
+active staging areas, and stores that can contain locally produced artifacts
+all use `true`.
 
-Every entry outside automatic cleaning carries a concrete `warning` explaining
-what can be lost or disrupted. Consumers can use `localizedWarning(for:)`; it
-falls back to the English warning until a translated warning is supplied. A
-missing warning also decodes to a conservative generic warning rather than
-leaving a confirmation screen blank.
-
-Use `Entry.cleaningWarning` when presenting a manual target. It returns one
-payload containing `reason` (why confirmation is required) and `locations`
-(the exact `path`/`subfolders` patterns that will be affected). The locations
-are derived from the deletion declaration, so warning UI cannot accidentally
-name a different folder from the cleaner.
+Consumers derive automatic cleaning directly as `!risk`. Risky entries require
+manual confirmation; the catalog does not publish a second warning or safety
+field that could disagree with the Boolean decision.
 
 How removal is performed still belongs to the consuming app. For example,
 simulator device sets must go through `simctl`, not raw filesystem deletion.

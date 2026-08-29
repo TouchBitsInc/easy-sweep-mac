@@ -72,9 +72,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning removes diagnostic history that may be needed to investigate past problems.",
+    "risk": true,
     "symbol": "doc.text.magnifyingglass"
   },
   {
@@ -150,8 +148,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "photo.on.rectangle.angled"
   },
   {
@@ -227,10 +224,8 @@
     "subfolders": [
       "*/Cache"
     ],
-    "risk": "safe",
-    "autoClean": false,
-    "symbol": "square.stack.3d.up",
-    "warning": "This wildcard spans every app in Application Support; review every matched app folder before cleaning."
+    "risk": true,
+    "symbol": "square.stack.3d.up"
   },
   {
     "id": "electron-code-caches",
@@ -308,10 +303,8 @@
       "*/GrShaderCache",
       "*/component_crx_cache"
     ],
-    "risk": "safe",
-    "autoClean": false,
-    "symbol": "chevron.left.forwardslash.chevron.right",
-    "warning": "This wildcard spans every app in Application Support; review every matched app folder before cleaning."
+    "risk": true,
+    "symbol": "chevron.left.forwardslash.chevron.right"
   },
   {
     "id": "squirrel-updater-staging",
@@ -386,8 +379,7 @@
     "subfolders": [
       "*ShipIt"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "arrow.down.circle"
   },
   {
@@ -465,10 +457,8 @@
       "iPad Software Updates",
       "iPod Software Updates"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "symbol": "iphone.gen3",
-    "warning": "Firmware packages can become unavailable after Apple stops distributing a version; keep any copy you may need."
+    "risk": true,
+    "symbol": "iphone.gen3"
   },
   {
     "id": "dropbox-cache",
@@ -540,11 +530,9 @@
     "name": "Dropbox Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.getdropbox.dropbox",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "shippingbox",
-    "color": "#0061FF",
-    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
+    "color": "#0061FF"
   },
   {
     "id": "google-drive-cache",
@@ -616,11 +604,9 @@
     "name": "Google Drive Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.google.GoogleDrive",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "externaldrive.badge.icloud",
-    "color": "#1A73E8",
-    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
+    "color": "#1A73E8"
   },
   {
     "id": "onedrive-cache",
@@ -692,11 +678,9 @@
     "name": "OneDrive Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.microsoft.OneDrive",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "cloud",
-    "color": "#0078D4",
-    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
+    "color": "#0078D4"
   },
   {
     "id": "crash-reports",
@@ -768,9 +752,7 @@
     "name": "Crash Reports",
     "detail": "Diagnostic logs; new ones appear as apps run.",
     "path": "~/Library/Application Support/CrashReporter",
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning removes crash evidence that may be needed to diagnose past failures.",
+    "risk": true,
     "symbol": "exclamationmark.triangle"
   },
   {
@@ -846,9 +828,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Apps may no longer restore their previous windows and document state.",
+    "risk": true,
     "symbol": "macwindow.on.rectangle"
   },
   {
@@ -928,9 +908,7 @@
       "*.iso",
       "*.xip"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "These are files in Downloads; cleaning removes your only local copy.",
+    "risk": true,
     "symbol": "shippingbox"
   },
   {
@@ -1009,9 +987,7 @@
       "*.part",
       "*.partial"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "symbol": "arrow.down.circle.dotted",
-    "warning": "Cleaning discards partial progress and can interrupt downloads that are still running."
+    "risk": true,
+    "symbol": "arrow.down.circle.dotted"
   }
 ]

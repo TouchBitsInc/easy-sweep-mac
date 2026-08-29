@@ -166,18 +166,4 @@ extension EasySweepCatalog.Entry {
         return subfolders.map { "\(path)/\($0)" }
     }
 
-    /// The reason and declared locations to show before manual cleaning.
-    /// Automatic entries return `nil` by construction.
-    public var cleaningWarning: EasySweepCatalog.CleaningWarning? {
-        guard !autoClean, let warning else { return nil }
-        return .init(reason: warning, locations: declaredPaths)
-    }
-
-    /// The localized reason paired with the same canonical declared locations.
-    public func localizedCleaningWarning(
-        for locale: Locale = .current
-    ) -> EasySweepCatalog.CleaningWarning? {
-        guard !autoClean, let reason = localizedWarning(for: locale) else { return nil }
-        return .init(reason: reason, locations: declaredPaths)
-    }
 }

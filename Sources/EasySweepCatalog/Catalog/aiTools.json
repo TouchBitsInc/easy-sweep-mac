@@ -76,11 +76,9 @@
       "shell-snapshots",
       "downloads"
     ],
-    "risk": "risky",
-    "autoClean": false,
+    "risk": true,
     "symbol": "sparkle",
-    "color": "#D97757",
-    "warning": "This target mixes paste data, downloads, debug logs, and shell snapshots; some may support saved sessions."
+    "color": "#D97757"
   },
   {
     "id": "claude-cli-cache",
@@ -152,8 +150,7 @@
     "name": "Claude Code npm Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/claude-cli-nodejs",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -227,8 +224,7 @@
     "name": "Gemini CLI Temp",
     "detail": "Temporary files; recreated during normal use.",
     "path": "~/.gemini/tmp",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "sparkles",
     "color": "#8E75B2"
   },
@@ -302,8 +298,7 @@
     "name": "Cursor Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.cursor/extensions/.cache",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "cursorarrow"
   },
   {
@@ -381,9 +376,7 @@
       "archived_sessions",
       "log"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning permanently deletes saved conversations and session history.",
+    "risk": true,
     "symbol": "text.book.closed.fill"
   },
   {
@@ -461,9 +454,7 @@
       "backups",
       "file-history"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning permanently deletes transcripts, backups, and file-history snapshots.",
+    "risk": true,
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -537,8 +528,7 @@
     "name": "Windsurf Browser Downloads",
     "detail": "Downloaded files; fetched again when needed.",
     "path": "~/.codeium/ws-browser",
-    "risk": "safe",
-    "autoClean": true
+    "risk": false
   },
   {
     "id": "codex-app-cache",
@@ -610,8 +600,7 @@
     "name": "Codex App Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/Codex",
-    "risk": "safe",
-    "autoClean": true
+    "risk": false
   },
   {
     "id": "ollama-models",
@@ -683,9 +672,7 @@
     "name": "Ollama Models",
     "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.ollama/models",
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Removed models must be downloaded again before they can be used.",
+    "risk": true,
     "symbol": "brain"
   },
   {
@@ -758,9 +745,7 @@
     "name": "LM Studio Runtimes",
     "detail": "Downloaded runtimes; redownloaded when needed.",
     "path": "~/.lmstudio/extensions/backends",
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Removed inference engines must be downloaded again before models can run.",
+    "risk": true,
     "symbol": "shippingbox.fill"
   },
   {
@@ -833,8 +818,7 @@
     "name": "Codex Updater",
     "detail": "Installed update files; downloaded with future updates.",
     "path": "~/Library/Caches/com.openai.codex",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "arrow.down.circle"
   },
   {
@@ -907,9 +891,7 @@
     "name": "LM Studio Models",
     "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.lmstudio/models",
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Removed models must be downloaded again before they can be used.",
+    "risk": true,
     "symbol": "brain"
   },
   {
@@ -985,9 +967,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Temporary repository clones can contain uncommitted work; inspect each item before removal.",
+    "risk": true,
     "symbol": "clock.arrow.circlepath"
   },
   {
@@ -1063,9 +1043,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
+    "risk": true,
     "symbol": "shippingbox",
     "color": "#D97757"
   },
@@ -1142,9 +1120,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
+    "risk": true,
     "symbol": "shippingbox"
   },
   {
@@ -1220,9 +1196,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
+    "risk": true,
     "symbol": "shippingbox"
   }
 ]
