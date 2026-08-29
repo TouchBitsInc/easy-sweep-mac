@@ -69,8 +69,7 @@
     "name": "Google Chrome",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#4285F4"
   },
@@ -144,8 +143,7 @@
     "name": "Safari",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.apple.Safari",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "safari",
     "color": "#006CFF"
   },
@@ -219,8 +217,7 @@
     "name": "Firefox",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Firefox",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#FF7139"
   },
@@ -294,8 +291,7 @@
     "name": "Microsoft Edge",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Microsoft Edge",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#0078D7"
   },
@@ -369,8 +365,7 @@
     "name": "Brave",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/BraveSoftware",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#FB542B"
   },
@@ -444,8 +439,7 @@
     "name": "Arc",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/company.thebrowser.Browser",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#FCBFBD"
   },
@@ -519,8 +513,7 @@
     "name": "Vivaldi",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Vivaldi",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#EF3939"
   },
@@ -594,8 +587,7 @@
     "name": "Opera",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.Opera",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#FF1B2D"
   },
@@ -669,8 +661,7 @@
     "name": "Opera GX",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.OperaGX",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#EE2950"
   },
@@ -744,8 +735,7 @@
     "name": "Chromium",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Chromium",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#4587F3"
   },
@@ -819,8 +809,7 @@
     "name": "Yandex Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Yandex/YandexBrowser",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#FC3F1D"
   },
@@ -894,8 +883,7 @@
     "name": "Google Chrome Canary",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome Canary",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#F4B400"
   },
@@ -969,8 +957,7 @@
     "name": "LibreWolf",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/LibreWolf",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#00ACFF"
   },
@@ -1044,8 +1031,7 @@
     "name": "Waterfox",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Waterfox",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#00AEEF"
   },
@@ -1119,8 +1105,7 @@
     "name": "Zen Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Zen",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#F76F53"
   },
@@ -1194,8 +1179,7 @@
     "name": "Orion",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.kagi.kagimacOS",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe"
   },
   {
@@ -1268,8 +1252,7 @@
     "name": "DuckDuckGo",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.duckduckgo.macos.browser/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#DE5833"
   },
@@ -1343,8 +1326,7 @@
     "name": "Dia",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Dia/User Data",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "subfolders": [
       "*/Cache",
@@ -1426,11 +1408,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#4285F4",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#4285F4"
   },
   {
     "id": "edge-site-cache",
@@ -1507,11 +1487,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#0078D7",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#0078D7"
   },
   {
     "id": "brave-site-cache",
@@ -1588,11 +1566,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#FB542B",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#FB542B"
   },
   {
     "id": "arc-site-cache",
@@ -1669,11 +1645,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#FCBFBD",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#FCBFBD"
   },
   {
     "id": "vivaldi-site-cache",
@@ -1750,11 +1724,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#EF3939",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#EF3939"
   },
   {
     "id": "opera-site-cache",
@@ -1834,11 +1806,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#FF1B2D",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#FF1B2D"
   },
   {
     "id": "opera-gx-site-cache",
@@ -1918,11 +1888,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#EE2950",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#EE2950"
   },
   {
     "id": "chromium-site-cache",
@@ -1999,11 +1967,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#4587F3",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#4587F3"
   },
   {
     "id": "yandex-site-cache",
@@ -2080,11 +2046,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#FC3F1D",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#FC3F1D"
   },
   {
     "id": "chrome-canary-site-cache",
@@ -2161,11 +2125,9 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "globe",
-    "color": "#F4B400",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "color": "#F4B400"
   },
   {
     "id": "dia-site-cache",
@@ -2244,10 +2206,8 @@
       "*/DawnGraphiteCache",
       "*/DawnWebGPUCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
-    "symbol": "globe",
-    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
+    "risk": true,
+    "symbol": "globe"
   },
   {
     "id": "tor-browser-cache",
@@ -2322,8 +2282,7 @@
     "subfolders": [
       "Browser/*/cache2"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#7D4698"
   },
@@ -2397,8 +2356,7 @@
     "name": "QQ Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.tencent.QQBrowserLite/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#1479D7"
   },
@@ -2472,8 +2430,7 @@
     "name": "360 Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.qihoo.litebrowserx/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "globe",
     "color": "#19B955"
   }

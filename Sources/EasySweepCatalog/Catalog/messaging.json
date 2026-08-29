@@ -74,11 +74,9 @@
       "*/account-*/postbox/media/cache-storage",
       "*/account-*/postbox/media/short-cache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "paperplane",
-    "color": "#26A5E4",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#26A5E4"
   },
   {
     "id": "telegram-desktop-cache",
@@ -154,11 +152,9 @@
       "tdata/user_data*/cache",
       "tdata/user_data*/media_cache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "paperplane",
-    "color": "#26A5E4",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#26A5E4"
   },
   {
     "id": "wechat-cache",
@@ -230,11 +226,9 @@
     "name": "WeChat",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#07C160",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#07C160"
   },
   {
     "id": "wechat-miniprograms",
@@ -311,11 +305,9 @@
       "cache",
       "web"
     ],
-    "risk": "risky",
-    "autoClean": false,
+    "risk": true,
     "symbol": "square.grid.2x2",
-    "color": "#07C160",
-    "warning": "This folder mixes Mini Program runtimes, web content, and local state; its contents are not proven disposable."
+    "color": "#07C160"
   },
   {
     "id": "wechat-message-files",
@@ -392,9 +384,7 @@
       "*/msg/video",
       "*/msg/file"
     ],
-    "risk": "risky",
-    "autoClean": false,
-    "warning": "Older attachments and videos may no longer be available from WeChat after removal.",
+    "risk": true,
     "symbol": "paperclip",
     "color": "#07C160"
   },
@@ -472,11 +462,9 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "number",
-    "color": "#4A154B",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#4A154B"
   },
   {
     "id": "discord-web-cache",
@@ -552,11 +540,9 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#5865F2",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#5865F2"
   },
   {
     "id": "signal-web-cache",
@@ -632,11 +618,9 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#3B45FD",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#3B45FD"
   },
   {
     "id": "teams-cache",
@@ -708,8 +692,7 @@
     "name": "Microsoft Teams",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.microsoft.teams2/Data/Library/Application Support/Microsoft/MSTeams",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "symbol": "video",
     "color": "#6264A7",
     "subfolders": [
@@ -788,11 +771,9 @@
     "name": "Zoom",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/us.zoom.xos",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "video",
-    "color": "#0B5CFF",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#0B5CFF"
   },
   {
     "id": "lark-cache",
@@ -864,11 +845,9 @@
     "name": "Lark",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/LarkShell",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#00D6B9",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#00D6B9"
   },
   {
     "id": "whatsapp-cache",
@@ -940,11 +919,9 @@
     "name": "WhatsApp",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/net.whatsapp.WhatsApp/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#25D366",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#25D366"
   },
   {
     "id": "qq-cache",
@@ -1016,11 +993,9 @@
     "name": "QQ",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.qq/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#12B7F5",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#12B7F5"
   },
   {
     "id": "line-cache",
@@ -1092,11 +1067,9 @@
     "name": "LINE",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/jp.naver.line.mac/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#00C300",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#00C300"
   },
   {
     "id": "kakaotalk-cache",
@@ -1168,11 +1141,9 @@
     "name": "KakaoTalk",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.kakao.KakaoTalkMac/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#FEE500",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#FEE500"
   },
   {
     "id": "dingtalk-cache",
@@ -1244,11 +1215,9 @@
     "name": "DingTalk",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.alibaba.DingTalkMac",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#1E6FFF",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#1E6FFF"
   },
   {
     "id": "wecom-cache",
@@ -1320,11 +1289,9 @@
     "name": "WeCom",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.WeWorkMac/Data/Library/Caches",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#07C160",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#07C160"
   },
   {
     "id": "tencent-meeting-cache",
@@ -1396,11 +1363,9 @@
     "name": "Tencent Meeting",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.tencent.meeting",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "video",
-    "color": "#0055FF",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#0055FF"
   },
   {
     "id": "viber-cache",
@@ -1472,11 +1437,9 @@
     "name": "Viber",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.viber.osx",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "message",
-    "color": "#7360F2",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#7360F2"
   },
   {
     "id": "webex-cache",
@@ -1548,11 +1511,9 @@
     "name": "Webex",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/Cisco-Systems.Spark",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "video",
-    "color": "#00BCEB",
-    "warning": "Cached message media may be the only accessible local copy of older or expired attachments."
+    "color": "#00BCEB"
   },
   {
     "id": "element-web-cache",
@@ -1628,11 +1589,9 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#0DBD8B",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#0DBD8B"
   },
   {
     "id": "beeper-web-cache",
@@ -1708,11 +1667,9 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#2E7CF6",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#2E7CF6"
   },
   {
     "id": "mattermost-web-cache",
@@ -1788,10 +1745,8 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "bubble.left.and.bubble.right",
-    "color": "#1E325C",
-    "warning": "Cleaning removes offline web content and service-worker data; quit the app and review first."
+    "color": "#1E325C"
   }
 ]

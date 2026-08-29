@@ -73,8 +73,7 @@
       "Media Cache Files",
       "Media Cache"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#9999FF"
   },
   {
@@ -147,8 +146,7 @@
     "name": "Media Encoder Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Application Support/Adobe/Common/Media Encoder/Cache",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#9999FF"
   },
   {
@@ -224,8 +222,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#9999FF"
   },
   {
@@ -298,8 +295,7 @@
     "name": "Photoshop Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Photoshop",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#31A8FF"
   },
   {
@@ -375,8 +371,7 @@
     "subfolders": [
       "Adobe Camera Raw*"
     ],
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#31A8FF"
   },
   {
@@ -449,8 +444,7 @@
     "name": "Lightroom Video Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Lightroom/Video",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": false,
     "color": "#31A8FF"
   },
   {
@@ -523,8 +517,7 @@
     "name": "Ableton Live Decoding Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Ableton/Cache/Decoding",
-    "risk": "safe",
-    "autoClean": true
+    "risk": false
   },
   {
     "id": "capcut-cache",
@@ -534,70 +527,69 @@
       },
       "de": {
         "name": "CapCut Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "CapCut-Mediendateien im Ordner „Filme“."
       },
       "es": {
         "name": "CapCut Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Archivos multimedia de CapCut guardados en Películas."
       },
       "fr": {
         "name": "CapCut Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Fichiers multimédias CapCut stockés dans Films."
       },
       "it": {
         "name": "CapCut Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "File multimediali CapCut archiviati in Filmati."
       },
       "ja": {
         "name": "CapCut キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "「ムービー」に保存された CapCut メディアファイル。"
       },
       "ko": {
         "name": "CapCut 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "동영상 폴더에 저장된 CapCut 미디어 파일입니다."
       },
       "nl": {
         "name": "CapCut Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "CapCut-mediabestanden in de map Films."
       },
       "pl": {
         "name": "CapCut Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pliki multimedialne CapCut zapisane w Filmach."
       },
       "pt-BR": {
         "name": "CapCut Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Arquivos de mídia do CapCut armazenados em Filmes."
       },
       "ru": {
         "name": "CapCut Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Медиафайлы CapCut в папке «Фильмы»."
       },
       "tr": {
         "name": "CapCut Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "Filmler klasöründe saklanan CapCut medya dosyaları."
       },
       "uk": {
         "name": "CapCut Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Медіафайли CapCut у папці «Фільми»."
       },
       "zh-Hans": {
         "name": "CapCut 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "存储在“影片”文件夹中的 CapCut 媒体文件。"
       },
       "zh-Hant": {
         "name": "CapCut 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "儲存在「影片」檔案夾中的 CapCut 媒體檔案。"
       },
       "zh-HK": {
         "name": "CapCut 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "儲存在「影片」資料夾中的 CapCut 媒體檔案。"
       }
     },
     "name": "CapCut Cache",
-    "detail": "Media cache; rebuilt during normal app use.",
+    "detail": "CapCut media files stored under Movies.",
     "path": "~/Movies/JianyingPro/User Data/Cache",
-    "risk": "safe",
-    "autoClean": true,
+    "risk": true,
     "symbol": "film"
   },
   {
@@ -670,11 +662,9 @@
     "name": "Music Artwork",
     "detail": "Album artwork; downloaded again while browsing.",
     "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": true,
     "symbol": "music.note",
-    "color": "#FA243C",
-    "warning": "Cleaning removes locally stored artwork and may discard artwork that cannot be downloaded again."
+    "color": "#FA243C"
   },
   {
     "id": "spotify-cache",
@@ -746,10 +736,8 @@
     "name": "Spotify Cache",
     "detail": "Buffered audio; downloaded again for offline listening.",
     "path": "~/Library/Caches/com.spotify.client",
-    "risk": "safe",
-    "autoClean": false,
+    "risk": false,
     "symbol": "waveform",
-    "color": "#1ED760",
-    "warning": "Cleaning removes buffered or offline audio and requires it to be downloaded again."
+    "color": "#1ED760"
   }
 ]

@@ -46,8 +46,7 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
-  "risk": "safe",
-  "autoClean": true,
+  "risk": false,
   "symbol": "shippingbox.fill",
   "color": "#000000",
   "localizations": {
@@ -135,35 +134,22 @@ locale-keyed shape as entries. Add a new locale there when adding one to the
 app; `Category.localizedName(for:)` applies the same regional, script and
 English fallback order.
 
-## Automatic cleaning and warnings
+## Automatic cleaning
 
-`risk` describes what removal costs. Absent means `risky`, not `safe`.
-`autoClean` separately grants unattended removal; absent means `false`, and the
-decoder forces it to `false` unless `risk == "safe"` even if a file says
-otherwise. Every bundled entry must declare it explicitly so reviewers see the
-decision in the same record as the path.
+`risk` is the single cleaning decision. `false` means the reviewed target may be
+cleaned automatically; `true` means it requires manual confirmation. Absent
+is invalid; every bundled entry declares the Boolean explicitly so the decision
+is visible beside the path. There is no migration or fallback safety schema.
 
-`risk: safe` is necessary but not sufficient for `"autoClean": true`. Every
-selected path must contain regenerable data, deletion cannot remove a user's
-sole copy, and the target must be narrow enough to audit without inspecting the
-machine. Broad app-wide wildcards, synced or offline content, active staging
-areas, and stores that can contain locally produced artifacts stay manual.
+Use `false` only when every selected path contains regenerable data, deletion
+cannot remove a user's sole copy, and the target is narrow enough to audit
+without inspecting the machine. Broad app-wide wildcards, synced or offline
+content, active staging areas, and stores that can contain locally produced
+artifacts use `true`.
 
-The JSON declaration is only one key. `AutomaticCleaningAllowlist.swift` is the
-second, compiled approval, and decoding requires both. A catalog-only pull
-request cannot widen unattended deletion; adding an automatic target requires a
-deliberate code review of that allowlist too.
-
-Every entry with `"autoClean": false` includes a specific English `warning`,
-whether its risk is `safe` or `risky`: say what can be lost, disrupted, or must
-be downloaded or rebuilt, rather than displaying a generic “be careful.”
-Localized warnings can be added through each locale's optional `warning` field;
-consumers fall back to English.
-
-Consumers present `Entry.cleaningWarning`, which pairs that reason with the
-entry's derived `declaredPaths`. Do not repeat a path inside warning prose: the
-structured locations come from the same `path` and `subfolders` that drive the
-cleaner and therefore cannot drift from the actual target.
+Do not add a parallel warning, safe, or allowlist field. Consumers derive
+automatic cleaning as `!risk`; `true` is the complete signal to require manual
+confirmation.
 
 **`specialCleaner` remains app-side.** It routes simulator device sets through
 `simctl` instead of file removal; getting that wrong can corrupt
@@ -271,7 +257,7 @@ safety work.
 - Never write "safe to delete". `risk` carries that, and the reader deserves the
   mechanism rather than a reassurance.
 - One or two sentences. It renders in two lines under the name.
-- English is the source text; it is not currently localized.
+- English is the source text; every supported locale supplies its own copy.
 
 ## Validation
 
@@ -281,8 +267,7 @@ CI enforces, and each rule maps to a way this has already gone wrong or could:
 |---|---|
 | No path contains another entry's path | `~/.cache/uv` under `xdg-cache`'s `~/.cache` double-counts bytes in the section total and the bar |
 | `id` unique across all files | Ids key persisted rules and cleaning history |
-| `autoClean` only with `risk: safe` | Contradictory catalog data fails closed |
-| Warning on every manual/risky entry | The user sees the concrete consequence before removal |
+| `risk` is an explicit Boolean | Missing or ambiguous safety decisions fail decoding |
 | Grant root in the allowlist | An unexpected root changes what the sandboxed build must ask for |
 | Wildcard limits above | Keeps patterns anchored and grant roots static |
 | `symbol` resolves via `NSImage(systemSymbolName:)` | An unknown SF Symbol renders as **nothing**, silently — no placeholder |
@@ -295,8 +280,8 @@ older build of the app.
 
 ## Consuming it
 
-The app maps `EasySweepCatalog.Entry` to `CleanTarget`, retaining the catalog's
-automatic-clean permission and warning. The catalog is a Swift package so
+The app maps `EasySweepCatalog.Entry` to `CleanTarget`; `autoClean` is derived as
+`!risk`. The catalog is a Swift package so
 others can `import` it, but this app pins an exact tag — the pin is the review
 gate, and bumping it is a deliberate act, not a resolution side effect.
 

@@ -57,38 +57,14 @@ extension EasySweepCatalog {
         public static let unpinned: [Category] = allCases.filter { !$0.isPinned }
     }
 
-    /// How much a user stands to lose by cleaning an entry.
-    public enum Risk: String, Codable, Sendable {
-        /// Regenerated automatically; deleting costs only rebuild or re-download time.
-        case safe
-        /// Contains something that cannot be recreated, or whose loss is disruptive.
-        case risky
-    }
-
-    /// User-facing entry copy keyed by a BCP-47 locale identifier. Optional
-    /// fields keep the shape extensible when another localized field is added.
+    /// User-facing entry copy keyed by a BCP-47 locale identifier.
     public struct LocalizedContent: Codable, Hashable, Sendable {
         public let name: String?
         public let detail: String?
-        public let warning: String?
 
-        public init(name: String? = nil, detail: String? = nil, warning: String? = nil) {
+        public init(name: String? = nil, detail: String? = nil) {
             self.name = name
             self.detail = detail
-            self.warning = warning
-        }
-    }
-
-    /// The complete confirmation payload for a manual cleaning target.
-    /// `reason` explains why review is required; `locations` are the exact
-    /// literal paths or subfolder patterns the entry declares.
-    public struct CleaningWarning: Hashable, Sendable {
-        public let reason: String
-        public let locations: [String]
-
-        public init(reason: String, locations: [String]) {
-            self.reason = reason
-            self.locations = locations
         }
     }
 
@@ -101,14 +77,9 @@ extension EasySweepCatalog {
     /// literal `path`, so the grant root is the path, and `subfolders` for
     /// anything narrower.
     ///
-    /// `autoClean` is deliberately separate from `risk`: risk describes the
-    /// data, while auto-clean is an explicit permission for unattended removal.
-    /// Both default conservatively when an older or malformed catalog omits
-    /// them. A risky entry must never be auto-cleanable.
+    /// `risk` is the single cleaning decision. `true` requires confirmation;
+    /// `false` permits automatic cleaning. Every entry must declare it.
     public struct Entry: Codable, Identifiable, Hashable, Sendable {
-        private static let fallbackWarning =
-            "Review this location before cleaning; its contents may not be recoverable."
-
         /// Stable and permanent. Keys the consuming app's own table of settings,
         /// so renaming one silently drops whatever that app had recorded
         /// against it.
@@ -131,16 +102,10 @@ extension EasySweepCatalog {
         ///
         /// Subfolders are *rows*: whatever is listed here is what the user ticks.
         public let subfolders: [String]
-        /// Absent means `risky`. Silence is conservative: an entry nobody has
-        /// classified should read as the more cautious of the two.
-        public let risk: Risk
-        /// Whether a consumer may remove this entry without an individual
-        /// confirmation. Absent means `false`; only reviewed, regenerable data
-        /// receives this permission.
-        public let autoClean: Bool
-        /// Why manual review is required. Pair it with `declaredPaths`, or use
-        /// `cleaningWarning`, to show the affected locations alongside it.
-        public let warning: String?
+        /// Whether cleaning requires manual confirmation.
+        public let risk: Bool
+        /// No risk means automatic cleaning; risky entries always require review.
+        public var autoClean: Bool { !risk }
         /// An SF Symbol name. Absent falls back to the category's own symbol —
         /// which is safer than a wrong name, because an unknown symbol renders
         /// as nothing at all rather than a placeholder.
@@ -160,9 +125,7 @@ extension EasySweepCatalog {
             detail: String,
             path: String,
             subfolders: [String] = [],
-            risk: Risk = .risky,
-            autoClean: Bool = false,
-            warning: String? = nil,
+            risk: Bool,
             symbol: String? = nil,
             color: String? = nil,
             localizations: [String: LocalizedContent] = [:]
@@ -173,9 +136,6 @@ extension EasySweepCatalog {
             self.path = path
             self.subfolders = subfolders
             self.risk = risk
-            let allowedAutoClean = autoClean && risk == .safe
-            self.autoClean = allowedAutoClean
-            self.warning = allowedAutoClean ? nil : (warning ?? Self.fallbackWarning)
             self.symbol = symbol
             self.color = color
             self.localizations = localizations
@@ -187,16 +147,8 @@ extension EasySweepCatalog {
             name = try container.decode(String.self, forKey: .name)
             detail = try container.decode(String.self, forKey: .detail)
             path = try container.decode(String.self, forKey: .path)
-            // Everything below defaults, so an older build reading a newer
-            // catalog degrades instead of failing.
             subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
-            risk = try container.decodeIfPresent(Risk.self, forKey: .risk) ?? .risky
-            let requestedAutoClean = try container.decodeIfPresent(Bool.self, forKey: .autoClean) ?? false
-            autoClean = requestedAutoClean
-                && risk == .safe
-                && EasySweepCatalog.reviewedAutomaticCleaningIDs.contains(id)
-            let decodedWarning = try container.decodeIfPresent(String.self, forKey: .warning)
-            warning = autoClean ? nil : (decodedWarning ?? Self.fallbackWarning)
+            risk = try container.decode(Bool.self, forKey: .risk)
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             color = try container.decodeIfPresent(String.self, forKey: .color)
             localizations = try container.decodeIfPresent(
@@ -213,11 +165,6 @@ extension EasySweepCatalog {
         /// The entry explanation for a locale, falling back to the English field.
         public func localizedDetail(for locale: Locale = .current) -> String {
             CatalogLocalization.resolve(localizations, locale: locale) { $0.detail } ?? detail
-        }
-
-        /// The cleaning warning for a locale, falling back to the English field.
-        public func localizedWarning(for locale: Locale = .current) -> String? {
-            CatalogLocalization.resolve(localizations, locale: locale) { $0.warning } ?? warning
         }
 
         /// Whether the user picks among children rather than taking the whole
