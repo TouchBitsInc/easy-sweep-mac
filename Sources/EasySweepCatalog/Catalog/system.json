@@ -7,72 +7,74 @@
       },
       "de": {
         "name": "Benutzerprotokolle",
-        "detail": "Anwendungs- und Diagnoseprotokolle von macOS."
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
       },
       "es": {
         "name": "Registros de usuario",
-        "detail": "Registros de aplicaciones y diagnóstico de macOS."
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
       },
       "fr": {
         "name": "Journaux utilisateur",
-        "detail": "Journaux d’application et de diagnostic de macOS."
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
       },
       "it": {
         "name": "Log utente",
-        "detail": "Log applicativi e diagnostici di macOS."
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
       },
       "ja": {
         "name": "ユーザーログ",
-        "detail": "macOSのアプリケーション・診断ログ。"
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
       },
       "ko": {
         "name": "사용자 로그",
-        "detail": "macOS 앱 및 진단 로그입니다."
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
       },
       "nl": {
         "name": "Gebruikerslogboeken",
-        "detail": "Applicatie- en diagnostische logboeken van macOS."
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
       },
       "pl": {
         "name": "Dzienniki użytkownika",
-        "detail": "Dzienniki aplikacji i diagnostyki macOS."
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
       },
       "pt-BR": {
         "name": "Registros do usuário",
-        "detail": "Logs de aplicativos e diagnóstico do macOS."
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
       },
       "ru": {
         "name": "Пользовательские журналы",
-        "detail": "Журналы приложений и диагностики macOS."
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
       },
       "tr": {
         "name": "Kullanıcı günlükleri",
-        "detail": "macOS uygulama ve tanılama günlükleri."
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
       },
       "uk": {
         "name": "Журнали користувача",
-        "detail": "Журнали програм і діагностики macOS."
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
       },
       "zh-Hans": {
         "name": "用户日志",
-        "detail": "macOS 应用和诊断日志。"
+        "detail": "诊断日志；应用运行时会生成新的日志。"
       },
       "zh-Hant": {
         "name": "使用者記錄",
-        "detail": "macOS App 和診斷記錄。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       },
       "zh-HK": {
         "name": "使用者記錄",
-        "detail": "macOS App 和診斷記錄。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       }
     },
     "name": "User Logs",
-    "detail": "Application and diagnostic logs stored by macOS.",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
     "path": "~/Library/Logs",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning removes diagnostic history that may be needed to investigate past problems.",
     "symbol": "doc.text.magnifyingglass"
   },
   {
@@ -83,72 +85,73 @@
       },
       "de": {
         "name": "Aerial-Hintergrundbilder",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Fondos de pantalla de Aerial",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Fonds d’écran Aerial",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Sfondi Aerial",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Aerial壁紙",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Aerial 배경화면",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Aerial-achtergronden",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Tapety Aerial",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Papéis de parede do Aerial",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Обои Aerial",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Aerial duvar kâğıtları",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Шпалери Aerial",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Aerial 壁纸",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Aerial 桌布",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Aerial 桌布",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Aerial Wallpapers",
-    "detail": "Video wallpapers and screen savers stored by macOS.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Application Support/com.apple.wallpaper/aerials",
     "subfolders": [
       "*"
     ],
     "risk": "safe",
+    "autoClean": true,
     "symbol": "photo.on.rectangle.angled"
   },
   {
@@ -159,73 +162,75 @@
       },
       "de": {
         "name": "Web-Caches von Desktop-Apps",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cachés web de apps de escritorio",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Caches web des apps de bureau",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cache web delle app desktop",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "デスクトップアプリのWebキャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "데스크톱 앱 웹 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Webcaches van desktopapps",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Pamięci podręczne WWW aplikacji desktopowych",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Caches web de apps de desktop",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Веб-кэши настольных приложений",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Masaüstü uygulaması web önbellekleri",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Вебкеші настільних програм",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "桌面应用 Web 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "桌面應用程式 Web 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "桌面應用程式 Web 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Desktop App Web Caches",
-    "detail": "Web cache used by Electron desktop apps.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Application Support",
     "subfolders": [
       "*/Cache"
     ],
     "risk": "safe",
-    "symbol": "square.stack.3d.up"
+    "autoClean": false,
+    "symbol": "square.stack.3d.up",
+    "warning": "This wildcard spans every app in Application Support; review every matched app folder before cleaning."
   },
   {
     "id": "electron-code-caches",
@@ -235,67 +240,67 @@
       },
       "de": {
         "name": "Code-Caches von Desktop-Apps",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cachés de código de apps de escritorio",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Caches de code des apps de bureau",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cache del codice delle app desktop",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "デスクトップアプリのコードキャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "데스크톱 앱 코드 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Codecaches van desktopapps",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Pamięci podręczne kodu aplikacji desktopowych",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Caches de código de apps de desktop",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Кэши кода настольных приложений",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Masaüstü uygulaması kod önbellekleri",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Кеші коду настільних програм",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "桌面应用代码缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "桌面應用程式程式碼快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "桌面應用程式程式碼快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Desktop App Code Caches",
-    "detail": "Compiled JavaScript and shader caches for Electron apps.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Application Support",
     "subfolders": [
       "*/Code Cache",
@@ -304,7 +309,9 @@
       "*/component_crx_cache"
     ],
     "risk": "safe",
-    "symbol": "chevron.left.forwardslash.chevron.right"
+    "autoClean": false,
+    "symbol": "chevron.left.forwardslash.chevron.right",
+    "warning": "This wildcard spans every app in Application Support; review every matched app folder before cleaning."
   },
   {
     "id": "squirrel-updater-staging",
@@ -314,72 +321,73 @@
       },
       "de": {
         "name": "App-Update-Downloads",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas de actualizaciones de apps",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements de mises à jour d’apps",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download degli aggiornamenti delle app",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "アプリのアップデートダウンロード",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "앱 업데이트 다운로드",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Downloads van app-updates",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Pobrane aktualizacje aplikacji",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads de atualizações de apps",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Загрузки обновлений приложений",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Uygulama güncelleme indirmeleri",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Завантаження оновлень програм",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "应用更新下载",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "App 更新下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "App 更新下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "App Update Downloads",
-    "detail": "Installers left behind by self-updating apps.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Caches",
     "subfolders": [
       "*ShipIt"
     ],
     "risk": "safe",
+    "autoClean": true,
     "symbol": "arrow.down.circle"
   },
   {
@@ -390,75 +398,77 @@
       },
       "de": {
         "name": "Geräte-Softwareupdates",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Actualizaciones de software de dispositivos",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Mises à jour logicielles des appareils",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Aggiornamenti software dei dispositivi",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "デバイスソフトウェアアップデート",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "기기 소프트웨어 업데이트",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Software-updates voor apparaten",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Aktualizacje oprogramowania urządzeń",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Atualizações de software dos dispositivos",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Обновления ПО устройств",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Aygıt yazılımı güncellemeleri",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Оновлення програмного забезпечення пристроїв",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "设备软件更新",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "裝置軟體更新",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "裝置軟體更新",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Device Software Updates",
-    "detail": "iPhone, iPad, and iPod update images.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/iTunes",
     "subfolders": [
       "iPhone Software Updates",
       "iPad Software Updates",
       "iPod Software Updates"
     ],
-    "risk": "safe",
-    "symbol": "iphone.gen3"
+    "risk": "risky",
+    "autoClean": false,
+    "symbol": "iphone.gen3",
+    "warning": "Firmware packages can become unavailable after Apple stops distributing a version; keep any copy you may need."
   },
   {
     "id": "dropbox-cache",
@@ -468,71 +478,73 @@
       },
       "de": {
         "name": "Dropbox Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Dropbox Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Dropbox Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Dropbox Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Dropbox キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Dropbox 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Dropbox Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Dropbox Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Dropbox Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Dropbox Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Dropbox Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Dropbox Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Dropbox 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Dropbox 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Dropbox 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Dropbox Cache",
-    "detail": "Local copies of recently synced Dropbox files.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.getdropbox.dropbox",
     "risk": "safe",
+    "autoClean": false,
     "symbol": "shippingbox",
-    "color": "#0061FF"
+    "color": "#0061FF",
+    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
   },
   {
     "id": "google-drive-cache",
@@ -542,71 +554,73 @@
       },
       "de": {
         "name": "Google Drive Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Google Drive Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Google Drive Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Google Drive Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Google Drive キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Google Drive 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Drive Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Google Drive Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Google Drive Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Google Drive Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Google Drive Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Drive Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Google Drive 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Drive 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Drive 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Google Drive Cache",
-    "detail": "Locally streamed and synced Google Drive content.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.google.GoogleDrive",
     "risk": "safe",
+    "autoClean": false,
     "symbol": "externaldrive.badge.icloud",
-    "color": "#1A73E8"
+    "color": "#1A73E8",
+    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
   },
   {
     "id": "onedrive-cache",
@@ -616,71 +630,73 @@
       },
       "de": {
         "name": "OneDrive Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "OneDrive Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "OneDrive Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "OneDrive Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "OneDrive キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "OneDrive 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "OneDrive Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "OneDrive Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "OneDrive Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "OneDrive Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "OneDrive Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "OneDrive Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "OneDrive 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "OneDrive 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "OneDrive 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "OneDrive Cache",
-    "detail": "OneDrive thumbnails and synced local content.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/com.microsoft.OneDrive",
     "risk": "safe",
+    "autoClean": false,
     "symbol": "cloud",
-    "color": "#0078D4"
+    "color": "#0078D4",
+    "warning": "Confirm syncing is complete; cleaning evicts locally cached cloud files and removes offline access."
   },
   {
     "id": "crash-reports",
@@ -690,69 +706,71 @@
       },
       "de": {
         "name": "Absturzberichte",
-        "detail": "Anwendungs- und Diagnoseprotokolle von macOS."
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
       },
       "es": {
         "name": "Informes de fallos",
-        "detail": "Registros de aplicaciones y diagnóstico de macOS."
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
       },
       "fr": {
         "name": "Rapports de plantage",
-        "detail": "Journaux d’application et de diagnostic de macOS."
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
       },
       "it": {
         "name": "Report degli arresti anomali",
-        "detail": "Log applicativi e diagnostici di macOS."
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
       },
       "ja": {
         "name": "クラッシュレポート",
-        "detail": "macOSのアプリケーション・診断ログ。"
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
       },
       "ko": {
         "name": "충돌 보고서",
-        "detail": "macOS 앱 및 진단 로그입니다."
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
       },
       "nl": {
         "name": "Crashrapporten",
-        "detail": "Applicatie- en diagnostische logboeken van macOS."
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
       },
       "pl": {
         "name": "Raporty awarii",
-        "detail": "Dzienniki aplikacji i diagnostyki macOS."
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
       },
       "pt-BR": {
         "name": "Relatórios de falhas",
-        "detail": "Logs de aplicativos e diagnóstico do macOS."
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
       },
       "ru": {
         "name": "Отчёты о сбоях",
-        "detail": "Журналы приложений и диагностики macOS."
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
       },
       "tr": {
         "name": "Çökme raporları",
-        "detail": "macOS uygulama ve tanılama günlükleri."
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
       },
       "uk": {
         "name": "Звіти про збої",
-        "detail": "Журнали програм і діагностики macOS."
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
       },
       "zh-Hans": {
         "name": "崩溃报告",
-        "detail": "macOS 应用和诊断日志。"
+        "detail": "诊断日志；应用运行时会生成新的日志。"
       },
       "zh-Hant": {
         "name": "當機報告",
-        "detail": "macOS App 和診斷記錄。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       },
       "zh-HK": {
         "name": "當機報告",
-        "detail": "macOS App 和診斷記錄。"
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
       }
     },
     "name": "Crash Reports",
-    "detail": "Diagnostic reports from unexpected application crashes.",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
     "path": "~/Library/Application Support/CrashReporter",
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning removes crash evidence that may be needed to diagnose past failures.",
     "symbol": "exclamationmark.triangle"
   },
   {
@@ -763,72 +781,74 @@
       },
       "de": {
         "name": "Gesicherter Anwendungsstatus",
-        "detail": "Gespeicherter Fenster- und Dokumentstatus."
+        "detail": "Gespeicherter App-Zustand; beim Neustart neu erstellt."
       },
       "es": {
         "name": "Estado guardado de las aplicaciones",
-        "detail": "Estado guardado de ventanas y documentos."
+        "detail": "Estado guardado de la app; se recrea al reiniciarla."
       },
       "fr": {
         "name": "État enregistré des apps",
-        "detail": "État enregistré des fenêtres et documents."
+        "detail": "État enregistré de l’app; recréé au redémarrage."
       },
       "it": {
         "name": "Stato salvato delle app",
-        "detail": "Stato salvato di finestre e documenti."
+        "detail": "Stato salvato dell’app; ricreato al riavvio."
       },
       "ja": {
         "name": "保存されたアプリの状態",
-        "detail": "保存されたウィンドウと書類の状態。"
+        "detail": "保存済みのアプリ状態。再起動時に再作成されます。"
       },
       "ko": {
         "name": "저장된 앱 상태",
-        "detail": "저장된 창 및 문서 상태입니다."
+        "detail": "저장된 앱 상태입니다. 앱을 다시 시작하면 생성됩니다."
       },
       "nl": {
         "name": "Opgeslagen app-status",
-        "detail": "Opgeslagen venster- en documentstatus."
+        "detail": "Opgeslagen appstatus; opnieuw gemaakt na herstart."
       },
       "pl": {
         "name": "Zapisany stan aplikacji",
-        "detail": "Zapisany stan okien i dokumentów."
+        "detail": "Zapisany stan aplikacji; odtwarzany po ponownym uruchomieniu."
       },
       "pt-BR": {
         "name": "Estado salvo dos apps",
-        "detail": "Estado salvo de janelas e documentos."
+        "detail": "Estado salvo do app; recriado ao reiniciá-lo."
       },
       "ru": {
         "name": "Сохранённое состояние приложений",
-        "detail": "Сохранённое состояние окон и документов."
+        "detail": "Сохранённое состояние приложения; создаётся заново после перезапуска."
       },
       "tr": {
         "name": "Kayıtlı uygulama durumu",
-        "detail": "Kayıtlı pencere ve belge durumu."
+        "detail": "Kaydedilen uygulama durumu; yeniden başlatılınca oluşturulur."
       },
       "uk": {
         "name": "Збережений стан програм",
-        "detail": "Збережений стан вікон і документів."
+        "detail": "Збережений стан програми; створюється після перезапуску."
       },
       "zh-Hans": {
         "name": "已保存的应用状态",
-        "detail": "保存的窗口和文档状态。"
+        "detail": "已保存的应用状态；重新启动应用时会生成。"
       },
       "zh-Hant": {
         "name": "已儲存的 App 狀態",
-        "detail": "已儲存的視窗和文件狀態。"
+        "detail": "已儲存的 App 狀態；重新啟動時會產生。"
       },
       "zh-HK": {
         "name": "已儲存的 App 狀態",
-        "detail": "已儲存的視窗和文件狀態。"
+        "detail": "已儲存的 App 狀態；重新啟動時會產生。"
       }
     },
     "name": "Saved Application State",
-    "detail": "Windows and documents saved for app relaunches.",
+    "detail": "Saved app state; recreated when apps relaunch.",
     "path": "~/Library/Saved Application State",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Apps may no longer restore their previous windows and document state.",
     "symbol": "macwindow.on.rectangle"
   },
   {
@@ -839,67 +859,67 @@
       },
       "de": {
         "name": "Installationsprogramme",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Instaladores",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Installateurs",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Installatori",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "インストーラ",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "설치 프로그램",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Installatieprogramma’s",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Instalatory",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Instaladores",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Установщики",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Yükleyiciler",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Інсталятори",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "安装程序",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "安裝程式",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "安裝程式",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Installers",
-    "detail": "Disk images and packages in Downloads.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Downloads",
     "subfolders": [
       "*.dmg",
@@ -909,6 +929,8 @@
       "*.xip"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "These are files in Downloads; cleaning removes your only local copy.",
     "symbol": "shippingbox"
   },
   {
@@ -919,67 +941,67 @@
       },
       "de": {
         "name": "Unvollständige Downloads",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas incompletas",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements incomplets",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download incompleti",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "未完了のダウンロード",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "완료되지 않은 다운로드",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Onvoltooide downloads",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Nieukończone pobieranie",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads incompletos",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Незавершённые загрузки",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Tamamlanmamış indirmeler",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Незавершені завантаження",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "未完成的下载",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "未完成的下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "未完成的下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Unfinished Downloads",
-    "detail": "Partial downloads interrupted before completion.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Downloads",
     "subfolders": [
       "*.crdownload",
@@ -987,7 +1009,9 @@
       "*.part",
       "*.partial"
     ],
-    "risk": "safe",
-    "symbol": "arrow.down.circle.dotted"
+    "risk": "risky",
+    "autoClean": false,
+    "symbol": "arrow.down.circle.dotted",
+    "warning": "Cleaning discards partial progress and can interrupt downloads that are still running."
   }
 ]

@@ -7,73 +7,74 @@
       },
       "de": {
         "name": "Premiere Pro Medien-Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Premiere Pro Caché multimedia",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Premiere Pro Cache multimédia",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Premiere Pro Cache multimediale",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Premiere Pro メディアキャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Premiere Pro 미디어 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Premiere Pro Mediacache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Premiere Pro Pamięć podręczna multimediów",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Premiere Pro Cache de mídia",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Premiere Pro Медиакэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Premiere Pro Medya önbelleği",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Premiere Pro Медіакеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Premiere Pro 媒体缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Premiere Pro 媒體快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Premiere Pro 媒體快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Premiere Pro Media Cache",
-    "detail": "Peak and waveform data for Adobe video clips.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Application Support/Adobe/Common",
     "subfolders": [
       "Media Cache Files",
       "Media Cache"
     ],
     "risk": "safe",
+    "autoClean": true,
     "color": "#9999FF"
   },
   {
@@ -84,69 +85,70 @@
       },
       "de": {
         "name": "Media Encoder Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Media Encoder Caché",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Media Encoder Cache",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Media Encoder Cache",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Media Encoder キャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Media Encoder 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Media Encoder Cache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Media Encoder Pamięć podręczna",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Media Encoder Cache",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Media Encoder Кэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Media Encoder Önbellek",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Media Encoder Кеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Media Encoder 缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Media Encoder 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Media Encoder 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Media Encoder Cache",
-    "detail": "Transcoding cache for Adobe Media Encoder.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Application Support/Adobe/Common/Media Encoder/Cache",
     "risk": "safe",
+    "autoClean": true,
     "color": "#9999FF"
   },
   {
@@ -157,72 +159,73 @@
       },
       "de": {
         "name": "After Effects Festplatten-Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "After Effects Caché de disco",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "After Effects Cache disque",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "After Effects Cache su disco",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "After Effects ディスクキャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "After Effects 디스크 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "After Effects Schijfcache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "After Effects Pamięć podręczna dysku",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "After Effects Cache de disco",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "After Effects Дисковый кэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "After Effects Disk önbelleği",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "After Effects Кеш диска",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "After Effects 磁盘缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "After Effects 磁碟快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "After Effects 磁碟快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "After Effects Disk Cache",
-    "detail": "Per-frame render cache for After Effects.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/After Effects",
     "subfolders": [
       "*"
     ],
     "risk": "safe",
+    "autoClean": true,
     "color": "#9999FF"
   },
   {
@@ -233,69 +236,70 @@
       },
       "de": {
         "name": "Photoshop Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Photoshop Caché",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Photoshop Cache",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Photoshop Cache",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Photoshop キャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Photoshop 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Photoshop Cache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Photoshop Pamięć podręczna",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Photoshop Cache",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Photoshop Кэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Photoshop Önbellek",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Photoshop Кеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Photoshop 缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Photoshop 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Photoshop 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Photoshop Cache",
-    "detail": "Scratch and preview cache for Photoshop.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Photoshop",
     "risk": "safe",
+    "autoClean": true,
     "color": "#31A8FF"
   },
   {
@@ -306,72 +310,73 @@
       },
       "de": {
         "name": "Camera Raw Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Camera Raw Caché",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Camera Raw Cache",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Camera Raw Cache",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Camera Raw キャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Camera Raw 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Camera Raw Cache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Camera Raw Pamięć podręczna",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Camera Raw Cache",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Camera Raw Кэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Camera Raw Önbellek",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Camera Raw Кеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Camera Raw 缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Camera Raw 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Camera Raw 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Camera Raw Cache",
-    "detail": "Decoded RAW-photo previews for Photoshop and Lightroom.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches",
     "subfolders": [
       "Adobe Camera Raw*"
     ],
     "risk": "safe",
+    "autoClean": true,
     "color": "#31A8FF"
   },
   {
@@ -382,69 +387,70 @@
       },
       "de": {
         "name": "Lightroom Video-Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Lightroom Caché de vídeo",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Lightroom Cache vidéo",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Lightroom Cache video",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Lightroom ビデオキャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Lightroom 비디오 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Lightroom Videocache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Lightroom Pamięć podręczna wideo",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Lightroom Cache de vídeo",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Lightroom Видеокэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Lightroom Video önbelleği",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Lightroom Відеокеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Lightroom 视频缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Lightroom 影片快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Lightroom 影片快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Lightroom Video Cache",
-    "detail": "Cached video previews for Lightroom Classic.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Lightroom/Video",
     "risk": "safe",
+    "autoClean": true,
     "color": "#31A8FF"
   },
   {
@@ -455,69 +461,70 @@
       },
       "de": {
         "name": "Ableton Live Decodierungs-Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Ableton Live Caché de decodificación",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Ableton Live Cache de décodage",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Ableton Live Cache di decodifica",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Ableton Live デコードキャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Ableton Live 디코딩 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Ableton Live Decodeercache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Ableton Live Pamięć podręczna dekodowania",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Ableton Live Cache de decodificação",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Ableton Live Кэш декодирования",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Ableton Live Kod çözme önbelleği",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Ableton Live Кеш декодування",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Ableton Live 解码缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Ableton Live 解碼快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Ableton Live 解碼快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Ableton Live Decoding Cache",
-    "detail": "Decoded audio samples for Ableton Live playback.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Ableton/Cache/Decoding",
-    "risk": "safe"
+    "risk": "safe",
+    "autoClean": true
   },
   {
     "id": "capcut-cache",
@@ -527,69 +534,70 @@
       },
       "de": {
         "name": "CapCut Cache",
-        "detail": "Medienvorschauen und Verarbeitungscache."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "CapCut Caché",
-        "detail": "Previsualizaciones y caché de medios."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "CapCut Cache",
-        "detail": "Aperçus multimédias et cache de traitement."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "CapCut Cache",
-        "detail": "Anteprime multimediali e cache di elaborazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "CapCut キャッシュ",
-        "detail": "メディアプレビューと処理キャッシュ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "CapCut 캐시",
-        "detail": "미디어 미리보기 및 처리 캐시입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "CapCut Cache",
-        "detail": "Mediavoorbeelden en verwerkingscache."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "CapCut Pamięć podręczna",
-        "detail": "Podglądy multimediów i pamięć przetwarzania."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "CapCut Cache",
-        "detail": "Pré-visualizações e cache de processamento de mídia."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "CapCut Кэш",
-        "detail": "Предпросмотры медиа и кэш обработки."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "CapCut Önbellek",
-        "detail": "Medya önizlemeleri ve işleme önbelleği."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "CapCut Кеш",
-        "detail": "Попередній перегляд медіа та кеш обробки."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "CapCut 缓存",
-        "detail": "媒体预览和处理缓存。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "CapCut 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "CapCut 快取",
-        "detail": "媒體預覽和處理快取。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "CapCut Cache",
-    "detail": "Rendered previews and imported media for CapCut.",
+    "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Movies/JianyingPro/User Data/Cache",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "film"
   },
   {
@@ -600,71 +608,73 @@
       },
       "de": {
         "name": "Musik-Coverbilder",
-        "detail": "Album- und Videobilder."
+        "detail": "Albumcover; beim Durchsuchen erneut geladen."
       },
       "es": {
         "name": "Carátulas de música",
-        "detail": "Carátulas de álbumes y vídeos."
+        "detail": "Carátulas; se descargan de nuevo al explorar."
       },
       "fr": {
         "name": "Illustrations musicales",
-        "detail": "Pochettes d’albums et vidéos."
+        "detail": "Pochettes d’album; retéléchargées pendant la navigation."
       },
       "it": {
         "name": "Copertine musicali",
-        "detail": "Copertine di album e video."
+        "detail": "Copertine degli album; scaricate di nuovo durante la navigazione."
       },
       "ja": {
         "name": "音楽アートワーク",
-        "detail": "アルバムとビデオのアートワーク。"
+        "detail": "アルバムアートワーク。閲覧中に再ダウンロードされます。"
       },
       "ko": {
         "name": "음악 아트워크",
-        "detail": "앨범 및 동영상 아트워크입니다."
+        "detail": "앨범 아트워크입니다. 탐색 중 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Muziekillustraties",
-        "detail": "Album- en videobeelden."
+        "detail": "Albumhoezen; opnieuw opgehaald tijdens het browsen."
       },
       "pl": {
         "name": "Okładki muzyczne",
-        "detail": "Okładki albumów i filmów."
+        "detail": "Okładki albumów; pobierane ponownie podczas przeglądania."
       },
       "pt-BR": {
         "name": "Capas de músicas",
-        "detail": "Capas de álbuns e vídeos."
+        "detail": "Capas de álbuns; baixadas novamente durante a navegação."
       },
       "ru": {
         "name": "Обложки музыки",
-        "detail": "Обложки альбомов и видео."
+        "detail": "Обложки альбомов; загружаются снова при просмотре."
       },
       "tr": {
         "name": "Müzik kapakları",
-        "detail": "Albüm ve video görselleri."
+        "detail": "Albüm kapakları; gezinirken yeniden indirilir."
       },
       "uk": {
         "name": "Обкладинки музики",
-        "detail": "Обкладинки альбомів і відео."
+        "detail": "Обкладинки альбомів; завантажуються під час перегляду."
       },
       "zh-Hans": {
         "name": "音乐封面",
-        "detail": "专辑和视频封面。"
+        "detail": "专辑封面；浏览时会重新下载。"
       },
       "zh-Hant": {
         "name": "音樂封面",
-        "detail": "專輯和影片封面。"
+        "detail": "專輯封面；瀏覽時會重新下載。"
       },
       "zh-HK": {
         "name": "音樂封面",
-        "detail": "專輯和影片封面。"
+        "detail": "專輯封面；瀏覽時會重新下載。"
       }
     },
     "name": "Music Artwork",
-    "detail": "Album and video artwork for Music and TV.",
+    "detail": "Album artwork; downloaded again while browsing.",
     "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
     "risk": "safe",
+    "autoClean": false,
     "symbol": "music.note",
-    "color": "#FA243C"
+    "color": "#FA243C",
+    "warning": "Cleaning removes locally stored artwork and may discard artwork that cannot be downloaded again."
   },
   {
     "id": "spotify-cache",
@@ -674,70 +684,72 @@
       },
       "de": {
         "name": "Spotify Cache",
-        "detail": "Gepufferte Audiodaten und Offline-Titel."
+        "detail": "Gepufferte Audiodaten; für Offline-Wiedergabe erneut geladen."
       },
       "es": {
         "name": "Spotify Caché",
-        "detail": "Audio almacenado y pistas sin conexión."
+        "detail": "Audio almacenado; se descarga de nuevo para escuchar offline."
       },
       "fr": {
         "name": "Spotify Cache",
-        "detail": "Audio en mémoire tampon et titres hors ligne."
+        "detail": "Audio mis en cache; retéléchargé pour l’écoute hors ligne."
       },
       "it": {
         "name": "Spotify Cache",
-        "detail": "Audio memorizzato e brani offline."
+        "detail": "Audio memorizzato; scaricato di nuovo per l’ascolto offline."
       },
       "ja": {
         "name": "Spotify キャッシュ",
-        "detail": "バッファ済み音声とオフライン曲。"
+        "detail": "バッファ済み音声。オフライン再生時に再ダウンロードされます。"
       },
       "ko": {
         "name": "Spotify 캐시",
-        "detail": "버퍼링된 오디오 및 오프라인 트랙입니다."
+        "detail": "버퍼링된 오디오입니다. 오프라인 재생 시 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Spotify Cache",
-        "detail": "Gebufferde audio en offline nummers."
+        "detail": "Gebufferde audio; opnieuw opgehaald voor offline luisteren."
       },
       "pl": {
         "name": "Spotify Pamięć podręczna",
-        "detail": "Buforowane audio i utwory offline."
+        "detail": "Buforowane audio; pobierane ponownie do słuchania offline."
       },
       "pt-BR": {
         "name": "Spotify Cache",
-        "detail": "Áudio armazenado e faixas offline."
+        "detail": "Áudio armazenado; baixado novamente para ouvir offline."
       },
       "ru": {
         "name": "Spotify Кэш",
-        "detail": "Буферизованное аудио и офлайн-треки."
+        "detail": "Буферизованное аудио; загружается снова для прослушивания офлайн."
       },
       "tr": {
         "name": "Spotify Önbellek",
-        "detail": "Tamponlanmış ses ve çevrimdışı parçalar."
+        "detail": "Arabelleğe alınan ses; çevrimdışı dinleme için yeniden indirilir."
       },
       "uk": {
         "name": "Spotify Кеш",
-        "detail": "Буферизоване аудіо та офлайн-треки."
+        "detail": "Буферизоване аудіо; завантажується для офлайн-прослуховування."
       },
       "zh-Hans": {
         "name": "Spotify 缓存",
-        "detail": "缓冲音频和离线曲目。"
+        "detail": "已缓冲音频；离线收听时会重新下载。"
       },
       "zh-Hant": {
         "name": "Spotify 快取",
-        "detail": "已緩衝音訊和離線曲目。"
+        "detail": "已緩衝音訊；離線收聽時會重新下載。"
       },
       "zh-HK": {
         "name": "Spotify 快取",
-        "detail": "已緩衝音訊和離線曲目。"
+        "detail": "已緩衝音訊；離線收聽時會重新下載。"
       }
     },
     "name": "Spotify Cache",
-    "detail": "Buffered audio and offline tracks for Spotify.",
+    "detail": "Buffered audio; downloaded again for offline listening.",
     "path": "~/Library/Caches/com.spotify.client",
     "risk": "safe",
+    "autoClean": false,
     "symbol": "waveform",
-    "color": "#1ED760"
+    "color": "#1ED760",
+    "warning": "Cleaning removes buffered or offline audio and requires it to be downloaded again."
   }
 ]

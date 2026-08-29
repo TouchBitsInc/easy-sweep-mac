@@ -35,6 +35,7 @@ Open a pull request against the JSON file for the section it belongs in:
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
   "risk": "safe",
+  "autoClean": true,
   "symbol": "shippingbox.fill",
   "color": "#000000"
 }
@@ -79,12 +80,32 @@ stores translated copy in its own `localizations` map. Use
 `Entry.localizedName(for:)` and `Entry.localizedDetail(for:)`; locale matching
 accepts regional and script variants before falling back to English.
 
-## What isn't here, deliberately
+## Cleaning safety
 
-Whether something may be deleted *without asking*, and whether removal needs a
-tool such as `simctl` rather than the filesystem, are not fields in this schema.
-They live in the consuming app, keyed by entry id. A pull request here can add a
-location; it cannot widen what an app deletes automatically.
+`risk` describes the consequence of removal. `autoClean` is the separate,
+explicit permission for unattended removal and defaults to `false` when absent.
+Regenerability is necessary but not sufficient for `"autoClean": true`.
+Broad wildcard targets, app-wide state folders, offline or synced content,
+active staging areas, and caches that can contain locally produced artifacts
+remain manual even when their ordinary contents are replaceable. The decoder
+also forces automatic cleaning off whenever `risk` is not `safe` or the entry ID
+is absent from the compiled reviewed allowlist. JSON alone therefore cannot
+widen unattended deletion.
+
+Every entry outside automatic cleaning carries a concrete `warning` explaining
+what can be lost or disrupted. Consumers can use `localizedWarning(for:)`; it
+falls back to the English warning until a translated warning is supplied. A
+missing warning also decodes to a conservative generic warning rather than
+leaving a confirmation screen blank.
+
+Use `Entry.cleaningWarning` when presenting a manual target. It returns one
+payload containing `reason` (why confirmation is required) and `locations`
+(the exact `path`/`subfolders` patterns that will be affected). The locations
+are derived from the deletion declaration, so warning UI cannot accidentally
+name a different folder from the cleaner.
+
+How removal is performed still belongs to the consuming app. For example,
+simulator device sets must go through `simctl`, not raw filesystem deletion.
 
 ## Licence
 

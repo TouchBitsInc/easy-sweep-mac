@@ -47,6 +47,7 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
   "risk": "safe",
+  "autoClean": true,
   "symbol": "shippingbox.fill",
   "color": "#000000",
   "localizations": {
@@ -88,8 +89,8 @@ ticks.**
 There is no `granular` flag and no `paths` array; both were folded into this in
 2.0.0.
 
-`id` is permanent and must be unique across every file. It keys the app-side
-safety table below, so renaming one silently drops that entry's local settings.
+`id` is permanent and must be unique across every file. Consumers persist rules
+and history against it, so renaming one silently disconnects those records.
 
 `color` is the **published brand hex, unmodified**. Do not adjust it for
 legibility — `Theme.brand(_:)` lifts near-black values app-side so the hue is
@@ -134,24 +135,39 @@ locale-keyed shape as entries. Add a new locale there when adding one to the
 app; `Category.localizedName(for:)` applies the same regional, script and
 English fallback order.
 
-## What contributors cannot set
+## Automatic cleaning and warnings
 
-These live in the app, keyed by `id`, and are deliberately absent from the
-schema:
+`risk` describes what removal costs. Absent means `risky`, not `safe`.
+`autoClean` separately grants unattended removal; absent means `false`, and the
+decoder forces it to `false` unless `risk == "safe"` even if a file says
+otherwise. Every bundled entry must declare it explicitly so reviewers see the
+decision in the same record as the path.
 
-- **`allowsUnattendedClean`** — the flag that lets the menu bar's one-click
-  clean and the low-space notification take a target *without the user ticking
-  anything*. It defaults to `false` and is granted per target. If this were
-  contributable, a merged pull request would widen what gets deleted
-  automatically on every machine running the app.
-- **`specialCleaner`** — routes simulator device sets through `simctl` instead
-  of file removal. Wrong here corrupts CoreSimulator's registry.
+`risk: safe` is necessary but not sufficient for `"autoClean": true`. Every
+selected path must contain regenerable data, deletion cannot remove a user's
+sole copy, and the target must be narrow enough to audit without inspecting the
+machine. Broad app-wide wildcards, synced or offline content, active staging
+areas, and stores that can contain locally produced artifacts stay manual.
 
-`risk` **is** contributable, but absent means `risky`, not `safe`. It feeds the
-unattended guard (`allowsUnattendedClean && risk == .safe`) and the confirmation
-dialog's wording. Since `allowsUnattendedClean` is app-side and defaults false, a
-contributed entry can never reach the automatic path — but a mislabelled `safe`
-still misleads someone at the moment they confirm a deletion.
+The JSON declaration is only one key. `AutomaticCleaningAllowlist.swift` is the
+second, compiled approval, and decoding requires both. A catalog-only pull
+request cannot widen unattended deletion; adding an automatic target requires a
+deliberate code review of that allowlist too.
+
+Every entry with `"autoClean": false` includes a specific English `warning`,
+whether its risk is `safe` or `risky`: say what can be lost, disrupted, or must
+be downloaded or rebuilt, rather than displaying a generic “be careful.”
+Localized warnings can be added through each locale's optional `warning` field;
+consumers fall back to English.
+
+Consumers present `Entry.cleaningWarning`, which pairs that reason with the
+entry's derived `declaredPaths`. Do not repeat a path inside warning prose: the
+structured locations come from the same `path` and `subfolders` that drive the
+cleaner and therefore cannot drift from the actual target.
+
+**`specialCleaner` remains app-side.** It routes simulator device sets through
+`simctl` instead of file removal; getting that wrong can corrupt
+CoreSimulator's registry.
 
 ## Paths
 
@@ -264,7 +280,9 @@ CI enforces, and each rule maps to a way this has already gone wrong or could:
 | Check | Why |
 |---|---|
 | No path contains another entry's path | `~/.cache/uv` under `xdg-cache`'s `~/.cache` double-counts bytes in the section total and the bar |
-| `id` unique across all files | Ids key the app-side safety table |
+| `id` unique across all files | Ids key persisted rules and cleaning history |
+| `autoClean` only with `risk: safe` | Contradictory catalog data fails closed |
+| Warning on every manual/risky entry | The user sees the concrete consequence before removal |
 | Grant root in the allowlist | An unexpected root changes what the sandboxed build must ask for |
 | Wildcard limits above | Keeps patterns anchored and grant roots static |
 | `symbol` resolves via `NSImage(systemSymbolName:)` | An unknown SF Symbol renders as **nothing**, silently — no placeholder |
@@ -277,10 +295,10 @@ older build of the app.
 
 ## Consuming it
 
-The app maps `EasySweepCatalog.Entry` to `CleanTarget`, applying the app-side safety table
-by `id`. The catalog is a Swift package so others can `import` it, but this app
-pins an exact tag — the pin is the review gate, and bumping it is a deliberate
-act, not a resolution side effect.
+The app maps `EasySweepCatalog.Entry` to `CleanTarget`, retaining the catalog's
+automatic-clean permission and warning. The catalog is a Swift package so
+others can `import` it, but this app pins an exact tag — the pin is the review
+gate, and bumping it is a deliberate act, not a resolution side effect.
 
 ## Releasing
 

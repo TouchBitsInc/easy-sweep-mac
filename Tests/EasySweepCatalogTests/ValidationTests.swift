@@ -299,6 +299,113 @@ struct CatalogValidationTests {
         }
     }
 
+    /// Automatic removal is a separate, explicit permission. `safe` is a
+    /// prerequisite, not a grant: broad or operationally sensitive safe targets
+    /// still require review.
+    @Test func automaticCleaningIsExplicitAndSafe() {
+        for entry in entries {
+            if entry.autoClean {
+                #expect(entry.risk == .safe, "\(entry.id): risky data cannot be auto-cleaned")
+                #expect(entry.warning == nil, "\(entry.id): auto-cleanable data has a warning")
+            }
+        }
+    }
+
+    private struct SafetyDeclaration: Decodable {
+        let id: String
+        let risk: EasySweepCatalog.Risk
+        let autoClean: Bool
+        let warning: String?
+    }
+
+    /// `Entry` defaults a missing permission to false for compatibility, but a
+    /// bundled record must show the review decision explicitly in JSON.
+    @Test func everyBundledEntryDeclaresItsSafetyDecision() throws {
+        var declaredAutomaticIDs: Set<String> = []
+        for category in EasySweepCatalog.Category.allCases {
+            let data = try #require(EasySweepCatalog.catalogData(in: category))
+            let declarations = try JSONDecoder().decode([SafetyDeclaration].self, from: data)
+            for declaration in declarations {
+                if declaration.autoClean {
+                    declaredAutomaticIDs.insert(declaration.id)
+                    #expect(declaration.risk == .safe, "\(declaration.id): risky auto-clean")
+                    #expect(declaration.warning == nil, "\(declaration.id): automatic entry has warning")
+                } else {
+                    #expect(
+                        declaration.warning?.isEmpty == false,
+                        "\(declaration.id): manual entry has no warning"
+                    )
+                }
+            }
+        }
+        #expect(declaredAutomaticIDs == EasySweepCatalog.reviewedAutomaticCleaningIDs)
+        #expect(Set(entries.filter(\.autoClean).map(\.id)) == declaredAutomaticIDs)
+    }
+
+    /// Anything excluded from automatic cleaning tells the user the concrete
+    /// consequence instead of relying on a generic danger label.
+    @Test func manuallyCleanedEntriesHaveWarnings() {
+        for entry in entries where !entry.autoClean {
+            #expect(entry.warning?.isEmpty == false, "\(entry.id) has no cleaning warning")
+            #expect(entry.cleaningWarning?.reason == entry.warning)
+            #expect(
+                entry.cleaningWarning?.locations == entry.declaredPaths,
+                "\(entry.id): warning locations differ from deletion targets"
+            )
+            #expect(entry.cleaningWarning?.locations.isEmpty == false)
+        }
+        for entry in entries where entry.autoClean {
+            #expect(entry.warning == nil, "\(entry.id): auto-cleanable data should not carry a warning")
+            #expect(entry.cleaningWarning == nil)
+        }
+    }
+
+    /// Missing or contradictory permissions fail closed for third-party and
+    /// older catalog data, independent of the bundled-catalog validation above.
+    @Test func automaticCleaningFailsClosedWhenDecoded() throws {
+        let base = """
+        {"id":"example","name":"Example","detail":"Rebuilt on use.",
+         "path":"~/Library/Caches/example","risk":"safe"}
+        """
+        let missing = try JSONDecoder().decode(
+            EasySweepCatalog.Entry.self, from: Data(base.utf8)
+        )
+        #expect(!missing.autoClean)
+        #expect(missing.warning?.isEmpty == false)
+
+        let unreviewed = base
+            .replacingOccurrences(of: "\"risk\":\"safe\"", with: "\"risk\":\"safe\",\"autoClean\":true")
+        let unreviewedEntry = try JSONDecoder().decode(
+            EasySweepCatalog.Entry.self, from: Data(unreviewed.utf8)
+        )
+        #expect(!unreviewedEntry.autoClean)
+        #expect(unreviewedEntry.warning?.isEmpty == false)
+
+        let contradictory = base
+            .replacingOccurrences(of: "\"risk\":\"safe\"", with: "\"risk\":\"risky\",\"autoClean\":true")
+        let risky = try JSONDecoder().decode(
+            EasySweepCatalog.Entry.self, from: Data(contradictory.utf8)
+        )
+        #expect(!risky.autoClean)
+        #expect(risky.warning?.isEmpty == false)
+    }
+
+    @Test func detailsStayUnderTenWords() {
+        for entry in entries {
+            #expect(
+                entry.detail.split(whereSeparator: { $0.isWhitespace }).count < 10,
+                "\(entry.id) English detail is too long"
+            )
+            for (locale, copy) in entry.localizations {
+                guard let detail = copy.detail else { continue }
+                #expect(
+                    detail.split(whereSeparator: { $0.isWhitespace }).count < 10,
+                    "\(entry.id) \(locale) detail is too long"
+                )
+            }
+        }
+    }
+
 }
 
 @Suite("Path patterns")

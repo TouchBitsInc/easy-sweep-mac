@@ -7,69 +7,70 @@
       },
       "de": {
         "name": "Google Chrome",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Google Chrome",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Google Chrome",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Google Chrome",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Google Chrome",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Google Chrome",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Chrome",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Google Chrome",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Google Chrome",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Google Chrome",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Google Chrome",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Chrome",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Google Chrome",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Chrome",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Chrome",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Google Chrome",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#4285F4"
   },
@@ -81,69 +82,70 @@
       },
       "de": {
         "name": "Safari",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Safari",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Safari",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Safari",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Safari",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Safari",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Safari",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Safari",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Safari",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Safari",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Safari",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Safari",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Safari",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Safari",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Safari",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Safari",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.apple.Safari",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "safari",
     "color": "#006CFF"
   },
@@ -155,69 +157,70 @@
       },
       "de": {
         "name": "Firefox",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Firefox",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Firefox",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Firefox",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Firefox",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Firefox",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Firefox",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Firefox",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Firefox",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Firefox",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Firefox",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Firefox",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Firefox",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Firefox",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Firefox",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Firefox",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Firefox",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#FF7139"
   },
@@ -229,69 +232,70 @@
       },
       "de": {
         "name": "Microsoft Edge",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Microsoft Edge",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Microsoft Edge",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Microsoft Edge",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Microsoft Edge",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Microsoft Edge",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Microsoft Edge",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Microsoft Edge",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Microsoft Edge",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Microsoft Edge",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Microsoft Edge",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Microsoft Edge",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Microsoft Edge",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Microsoft Edge",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Microsoft Edge",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Microsoft Edge",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Microsoft Edge",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#0078D7"
   },
@@ -303,69 +307,70 @@
       },
       "de": {
         "name": "Brave",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Brave",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Brave",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Brave",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Brave",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Brave",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Brave",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Brave",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Brave",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Brave",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Brave",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Brave",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Brave",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Brave",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Brave",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Brave",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/BraveSoftware",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#FB542B"
   },
@@ -377,69 +382,70 @@
       },
       "de": {
         "name": "Arc",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Arc",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Arc",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Arc",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Arc",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Arc",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Arc",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Arc",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Arc",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Arc",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Arc",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Arc",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Arc",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Arc",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Arc",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Arc",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/company.thebrowser.Browser",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#FCBFBD"
   },
@@ -451,69 +457,70 @@
       },
       "de": {
         "name": "Vivaldi",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Vivaldi",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Vivaldi",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Vivaldi",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Vivaldi",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Vivaldi",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Vivaldi",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Vivaldi",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Vivaldi",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Vivaldi",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Vivaldi",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Vivaldi",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Vivaldi",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Vivaldi",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Vivaldi",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Vivaldi",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Vivaldi",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#EF3939"
   },
@@ -525,69 +532,70 @@
       },
       "de": {
         "name": "Opera",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Opera",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Opera",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Opera",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Opera",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Opera",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Opera",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Opera",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Opera",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Opera",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Opera",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Opera",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Opera",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Opera",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Opera",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Opera",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.Opera",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#FF1B2D"
   },
@@ -599,69 +607,70 @@
       },
       "de": {
         "name": "Opera GX",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Opera GX",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Opera GX",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Opera GX",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Opera GX",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Opera GX",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Opera GX",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Opera GX",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Opera GX",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Opera GX",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Opera GX",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Opera GX",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Opera GX",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Opera GX",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Opera GX",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Opera GX",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.OperaGX",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#EE2950"
   },
@@ -673,69 +682,70 @@
       },
       "de": {
         "name": "Chromium",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Chromium",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Chromium",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Chromium",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Chromium",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Chromium",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Chromium",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Chromium",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Chromium",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Chromium",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Chromium",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Chromium",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Chromium",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Chromium",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Chromium",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Chromium",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Chromium",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#4587F3"
   },
@@ -747,69 +757,70 @@
       },
       "de": {
         "name": "Yandex Browser",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Yandex Browser",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Yandex Browser",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Yandex Browser",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Yandex Browser",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Yandex Browser",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Yandex Browser",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Yandex Browser",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Yandex Browser",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Яндекс Браузер",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Yandex Browser",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Яндекс Браузер",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Yandex Browser",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Yandex Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Yandex Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Yandex Browser",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Yandex/YandexBrowser",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#FC3F1D"
   },
@@ -821,69 +832,70 @@
       },
       "de": {
         "name": "Google Chrome Canary",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Google Chrome Canary",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Google Chrome Canary",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Google Chrome Canary",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Google Chrome Canary",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Google Chrome Canary",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Chrome Canary",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Google Chrome Canary",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Google Chrome Canary",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Google Chrome Canary",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Google Chrome Canary",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Chrome Canary",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Google Chrome Canary",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Chrome Canary",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Chrome Canary",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Google Chrome Canary",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome Canary",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#F4B400"
   },
@@ -895,69 +907,70 @@
       },
       "de": {
         "name": "LibreWolf",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "LibreWolf",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "LibreWolf",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "LibreWolf",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "LibreWolf",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "LibreWolf",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "LibreWolf",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "LibreWolf",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "LibreWolf",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "LibreWolf",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "LibreWolf",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "LibreWolf",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "LibreWolf",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "LibreWolf",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "LibreWolf",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "LibreWolf",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/LibreWolf",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#00ACFF"
   },
@@ -969,69 +982,70 @@
       },
       "de": {
         "name": "Waterfox",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Waterfox",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Waterfox",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Waterfox",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Waterfox",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Waterfox",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Waterfox",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Waterfox",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Waterfox",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Waterfox",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Waterfox",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Waterfox",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Waterfox",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Waterfox",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Waterfox",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Waterfox",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Waterfox",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#00AEEF"
   },
@@ -1043,69 +1057,70 @@
       },
       "de": {
         "name": "Zen Browser",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Zen Browser",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Zen Browser",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Zen Browser",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Zen Browser",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Zen Browser",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Zen Browser",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Zen Browser",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Zen Browser",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Zen Browser",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Zen Browser",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Zen Browser",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Zen Browser",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Zen Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Zen Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Zen Browser",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Zen",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#F76F53"
   },
@@ -1117,69 +1132,70 @@
       },
       "de": {
         "name": "Orion",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Orion",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Orion",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Orion",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Orion",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Orion",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Orion",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Orion",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Orion",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Orion",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Orion",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Orion",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Orion",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Orion",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Orion",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Orion",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.kagi.kagimacOS",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe"
   },
   {
@@ -1190,69 +1206,70 @@
       },
       "de": {
         "name": "DuckDuckGo",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "DuckDuckGo",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "DuckDuckGo",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "DuckDuckGo",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "DuckDuckGo",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "DuckDuckGo",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "DuckDuckGo",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "DuckDuckGo",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "DuckDuckGo",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "DuckDuckGo",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "DuckDuckGo",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "DuckDuckGo",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "DuckDuckGo",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "DuckDuckGo",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "DuckDuckGo",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "DuckDuckGo",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.duckduckgo.macos.browser/Data/Library/Caches",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#DE5833"
   },
@@ -1264,69 +1281,70 @@
       },
       "de": {
         "name": "Dia",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Dia",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Dia",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Dia",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Dia",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Dia",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Dia",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Dia",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Dia",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Dia",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Dia",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Dia",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Dia",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Dia",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Dia",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Dia",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Dia/User Data",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "subfolders": [
       "*/Cache",
@@ -1341,67 +1359,67 @@
       },
       "de": {
         "name": "Google Chrome Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Google Chrome Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Google Chrome Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Google Chrome Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Google Chrome サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Google Chrome 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Chrome Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Google Chrome Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Google Chrome Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Google Chrome Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Google Chrome Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Chrome Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Google Chrome 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Chrome 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Chrome 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Google Chrome Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Google/Chrome",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1409,8 +1427,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#4285F4"
+    "color": "#4285F4",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "edge-site-cache",
@@ -1420,67 +1440,67 @@
       },
       "de": {
         "name": "Microsoft Edge Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Microsoft Edge Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Microsoft Edge Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Microsoft Edge Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Microsoft Edge サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Microsoft Edge 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Microsoft Edge Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Microsoft Edge Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Microsoft Edge Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Microsoft Edge Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Microsoft Edge Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Microsoft Edge Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Microsoft Edge 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Microsoft Edge 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Microsoft Edge 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Microsoft Edge Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Microsoft Edge",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1488,8 +1508,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#0078D7"
+    "color": "#0078D7",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "brave-site-cache",
@@ -1499,67 +1521,67 @@
       },
       "de": {
         "name": "Brave Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Brave Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Brave Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Brave Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Brave サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Brave 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Brave Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Brave Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Brave Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Brave Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Brave Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Brave Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Brave 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Brave 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Brave 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Brave Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/BraveSoftware/Brave-Browser",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1567,8 +1589,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#FB542B"
+    "color": "#FB542B",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "arc-site-cache",
@@ -1578,67 +1602,67 @@
       },
       "de": {
         "name": "Arc Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Arc Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Arc Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Arc Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Arc サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Arc 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Arc Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Arc Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Arc Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Arc Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Arc Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Arc Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Arc 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Arc 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Arc 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Arc Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Arc/User Data",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1646,8 +1670,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#FCBFBD"
+    "color": "#FCBFBD",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "vivaldi-site-cache",
@@ -1657,67 +1683,67 @@
       },
       "de": {
         "name": "Vivaldi Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Vivaldi Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Vivaldi Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Vivaldi Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Vivaldi サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Vivaldi 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Vivaldi Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Vivaldi Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Vivaldi Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Vivaldi Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Vivaldi Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Vivaldi Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Vivaldi 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Vivaldi 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Vivaldi 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Vivaldi Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Vivaldi",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1725,8 +1751,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#EF3939"
+    "color": "#EF3939",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "opera-site-cache",
@@ -1736,67 +1764,67 @@
       },
       "de": {
         "name": "Opera Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Opera Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Opera Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Opera Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Opera サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Opera 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Opera Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Opera Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Opera Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Opera Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Opera Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Opera Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Opera 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Opera 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Opera 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Opera Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/com.operasoftware.Opera",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -1807,8 +1835,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#FF1B2D"
+    "color": "#FF1B2D",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "opera-gx-site-cache",
@@ -1818,67 +1848,67 @@
       },
       "de": {
         "name": "Opera GX Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Opera GX Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Opera GX Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Opera GX Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Opera GX サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Opera GX 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Opera GX Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Opera GX Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Opera GX Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Opera GX Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Opera GX Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Opera GX Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Opera GX 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Opera GX 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Opera GX 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Opera GX Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/com.operasoftware.OperaGX",
     "subfolders": [
       "Service Worker/CacheStorage",
@@ -1889,8 +1919,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#EE2950"
+    "color": "#EE2950",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "chromium-site-cache",
@@ -1900,67 +1932,67 @@
       },
       "de": {
         "name": "Chromium Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Chromium Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Chromium Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Chromium Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Chromium サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Chromium 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Chromium Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Chromium Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Chromium Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Chromium Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Chromium Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Chromium Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Chromium 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Chromium 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Chromium 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Chromium Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Chromium",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -1968,8 +2000,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#4587F3"
+    "color": "#4587F3",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "yandex-site-cache",
@@ -1979,67 +2013,67 @@
       },
       "de": {
         "name": "Yandex Browser Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Yandex Browser Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Yandex Browser Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Yandex Browser Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Yandex Browser サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Yandex Browser 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Yandex Browser Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Yandex Browser Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Yandex Browser Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Яндекс Браузер Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Yandex Browser Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Яндекс Браузер Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Yandex Browser 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Yandex Browser 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Yandex Browser 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Yandex Browser Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Yandex/YandexBrowser",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -2047,8 +2081,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#FC3F1D"
+    "color": "#FC3F1D",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "chrome-canary-site-cache",
@@ -2058,67 +2094,67 @@
       },
       "de": {
         "name": "Google Chrome Canary Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Google Chrome Canary Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Google Chrome Canary Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Google Chrome Canary Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Google Chrome Canary サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Google Chrome Canary 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Google Chrome Canary Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Google Chrome Canary Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Google Chrome Canary Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Google Chrome Canary Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Google Chrome Canary Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Google Chrome Canary Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Google Chrome Canary 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Google Chrome Canary 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Google Chrome Canary 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Google Chrome Canary Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Google/Chrome Canary",
     "subfolders": [
       "*/Service Worker/CacheStorage",
@@ -2126,8 +2162,10 @@
       "*/GPUCache"
     ],
     "risk": "safe",
+    "autoClean": false,
     "symbol": "globe",
-    "color": "#F4B400"
+    "color": "#F4B400",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "dia-site-cache",
@@ -2137,67 +2175,67 @@
       },
       "de": {
         "name": "Dia Website-Daten",
-        "detail": "Offline-Websitedaten und Shader-Cache."
+        "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Dia Datos de sitios",
-        "detail": "Datos de sitios sin conexión y caché de shaders."
+        "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
       },
       "fr": {
         "name": "Dia Données de site",
-        "detail": "Données de sites hors ligne et cache des shaders."
+        "detail": "Données hors ligne; recréées pendant la navigation."
       },
       "it": {
         "name": "Dia Dati dei siti",
-        "detail": "Dati dei siti offline e cache degli shader."
+        "detail": "Dati offline dei siti; ricreati durante la navigazione."
       },
       "ja": {
         "name": "Dia サイトデータ",
-        "detail": "オフラインのサイトデータとシェーダーキャッシュ。"
+        "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Dia 사이트 데이터",
-        "detail": "오프라인 사이트 데이터 및 셰이더 캐시입니다."
+        "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Dia Sitegegevens",
-        "detail": "Offline-sitegegevens en shadercache."
+        "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Dia Dane witryn",
-        "detail": "Dane witryn offline i pamięć shaderów."
+        "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
       },
       "pt-BR": {
         "name": "Dia Dados de sites",
-        "detail": "Dados de sites offline e cache de shaders."
+        "detail": "Dados de sites offline; recriados durante a navegação."
       },
       "ru": {
         "name": "Dia Данные сайтов",
-        "detail": "Офлайн-данные сайтов и кэш шейдеров."
+        "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
       },
       "tr": {
         "name": "Dia Site verileri",
-        "detail": "Çevrimdışı site verileri ve gölgelendirici önbelleği."
+        "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Dia Дані сайтів",
-        "detail": "Офлайн-дані сайтів і кеш шейдерів."
+        "detail": "Офлайн-дані сайтів; створюються під час перегляду."
       },
       "zh-Hans": {
         "name": "Dia 网站数据",
-        "detail": "离线网站数据和着色器缓存。"
+        "detail": "离线网站数据；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Dia 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Dia 網站資料",
-        "detail": "離線網站資料和著色器快取。"
+        "detail": "離線網站資料；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Dia Site Data",
-    "detail": "Offline site data and shader caches.",
+    "detail": "Offline site data; rebuilt as you browse.",
     "path": "~/Library/Application Support/Dia/User Data",
     "subfolders": [
       "component_crx_cache",
@@ -2207,7 +2245,9 @@
       "*/DawnWebGPUCache"
     ],
     "risk": "safe",
-    "symbol": "globe"
+    "autoClean": false,
+    "symbol": "globe",
+    "warning": "Cleaning removes offline site content stored by service workers; review every browser profile first."
   },
   {
     "id": "tor-browser-cache",
@@ -2217,72 +2257,73 @@
       },
       "de": {
         "name": "Tor Browser",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "Tor Browser",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "Tor Browser",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "Tor Browser",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "Tor Browser",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "Tor Browser",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Tor Browser",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "Tor Browser",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "Tor Browser",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "Tor Browser",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "Tor Browser",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "Tor Browser",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "Tor Browser",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "Tor Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "Tor Browser",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "Tor Browser",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Application Support/TorBrowser-Data",
     "subfolders": [
       "Browser/*/cache2"
     ],
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#7D4698"
   },
@@ -2294,69 +2335,70 @@
       },
       "de": {
         "name": "QQ Browser",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "QQ Browser",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "QQ Browser",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "QQ Browser",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "QQ Browser",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "QQ Browser",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "QQ Browser",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "QQ Browser",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "QQ Browser",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "QQ Browser",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "QQ Browser",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "QQ Browser",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "QQ浏览器",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "QQ瀏覽器",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "QQ瀏覽器",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "QQ Browser",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.tencent.QQBrowserLite/Data/Library/Caches",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#1479D7"
   },
@@ -2368,69 +2410,70 @@
       },
       "de": {
         "name": "360 Browser",
-        "detail": "Browserseiten- und Skriptcache."
+        "detail": "Browser-Cache; beim Surfen neu erstellt."
       },
       "es": {
         "name": "360 Browser",
-        "detail": "Caché de páginas y scripts del navegador."
+        "detail": "Caché del navegador; se reconstruye al navegar."
       },
       "fr": {
         "name": "360 Browser",
-        "detail": "Cache des pages et scripts du navigateur."
+        "detail": "Cache du navigateur; recréé pendant la navigation."
       },
       "it": {
         "name": "360 Browser",
-        "detail": "Cache di pagine e script del browser."
+        "detail": "Cache del browser; ricreata durante la navigazione."
       },
       "ja": {
         "name": "360 Browser",
-        "detail": "ブラウザーのページとスクリプトのキャッシュ。"
+        "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
       },
       "ko": {
         "name": "360 Browser",
-        "detail": "브라우저 페이지 및 스크립트 캐시입니다."
+        "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
       },
       "nl": {
         "name": "360 Browser",
-        "detail": "Cache voor browserpagina’s en scripts."
+        "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
       },
       "pl": {
         "name": "360 Browser",
-        "detail": "Pamięć podręczna stron i skryptów przeglądarki."
+        "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
       },
       "pt-BR": {
         "name": "360 Browser",
-        "detail": "Cache de páginas e scripts do navegador."
+        "detail": "Cache do navegador; recriado durante a navegação."
       },
       "ru": {
         "name": "360 Browser",
-        "detail": "Кэш страниц и скриптов браузера."
+        "detail": "Кэш браузера; создаётся заново во время просмотра."
       },
       "tr": {
         "name": "360 Browser",
-        "detail": "Tarayıcı sayfa ve betik önbelleği."
+        "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
       },
       "uk": {
         "name": "360 Browser",
-        "detail": "Кеш сторінок і скриптів браузера."
+        "detail": "Кеш браузера; створюється під час перегляду."
       },
       "zh-Hans": {
         "name": "360极速浏览器",
-        "detail": "浏览器页面和脚本缓存。"
+        "detail": "浏览器缓存；浏览网页时会重新生成。"
       },
       "zh-Hant": {
         "name": "360極速瀏覽器",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       },
       "zh-HK": {
         "name": "360極速瀏覽器",
-        "detail": "瀏覽器頁面和指令碼快取。"
+        "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
       }
     },
     "name": "360 Browser",
-    "detail": "Cached pages and scripts.",
+    "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.qihoo.litebrowserx/Data/Library/Caches",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "globe",
     "color": "#19B955"
   }
