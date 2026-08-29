@@ -7,67 +7,67 @@
       },
       "de": {
         "name": "Claude Code Caches",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Claude Code Cachés",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Claude Code Caches",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Claude Code Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Claude Code キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Claude Code 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Claude Code Caches",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Claude Code Pamięci podręczne",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code Caches",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Claude Code Кэши",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Claude Code Önbellekler",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Claude Code Кеші",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Claude Code 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Claude Code 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Claude Code 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Claude Code Caches",
-    "detail": "Claude Code caches, debug logs, and shell snapshots.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.claude",
     "subfolders": [
       "cache",
@@ -76,9 +76,11 @@
       "shell-snapshots",
       "downloads"
     ],
-    "risk": "safe",
+    "risk": "risky",
+    "autoClean": false,
     "symbol": "sparkle",
-    "color": "#D97757"
+    "color": "#D97757",
+    "warning": "This target mixes paste data, downloads, debug logs, and shell snapshots; some may support saved sessions."
   },
   {
     "id": "claude-cli-cache",
@@ -88,69 +90,70 @@
       },
       "de": {
         "name": "Claude Code npm Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Claude Code npm Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Claude Code npm Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Claude Code npm Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Claude Code npm キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Claude Code npm 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Claude Code npm Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Claude Code npm Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code npm Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Claude Code npm Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Claude Code npm Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Claude Code npm Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Claude Code npm 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Claude Code npm 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Claude Code npm 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Claude Code npm Cache",
-    "detail": "Node package cache used by the Claude Code CLI.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/claude-cli-nodejs",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -162,69 +165,70 @@
       },
       "de": {
         "name": "Gemini CLI Temp",
-        "detail": "Temporäre Arbeitsdateien."
+        "detail": "Temporäre Dateien; bei normaler Nutzung neu erstellt."
       },
       "es": {
         "name": "Gemini CLI Temporales",
-        "detail": "Archivos temporales de trabajo."
+        "detail": "Archivos temporales; se recrean durante el uso normal."
       },
       "fr": {
         "name": "Gemini CLI Fichiers temporaires",
-        "detail": "Fichiers de travail temporaires."
+        "detail": "Fichiers temporaires; recréés pendant l’utilisation normale."
       },
       "it": {
         "name": "Gemini CLI File temporanei",
-        "detail": "File temporanei di lavoro."
+        "detail": "File temporanei; ricreati durante l’uso normale."
       },
       "ja": {
         "name": "Gemini CLI 一時ファイル",
-        "detail": "一時作業ファイル。"
+        "detail": "一時ファイル。通常の使用中に再作成されます。"
       },
       "ko": {
         "name": "Gemini CLI 임시 파일",
-        "detail": "임시 작업 파일입니다."
+        "detail": "임시 파일입니다. 정상 사용 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Gemini CLI Tijdelijke bestanden",
-        "detail": "Tijdelijke werkbestanden."
+        "detail": "Tijdelijke bestanden; opnieuw gemaakt tijdens normaal gebruik."
       },
       "pl": {
         "name": "Gemini CLI Pliki tymczasowe",
-        "detail": "Tymczasowe pliki robocze."
+        "detail": "Pliki tymczasowe; odtwarzane podczas normalnego użytkowania."
       },
       "pt-BR": {
         "name": "Gemini CLI Arquivos temporários",
-        "detail": "Arquivos temporários de trabalho."
+        "detail": "Arquivos temporários; recriados durante o uso normal."
       },
       "ru": {
         "name": "Gemini CLI Временные файлы",
-        "detail": "Временные рабочие файлы."
+        "detail": "Временные файлы; создаются заново при обычном использовании."
       },
       "tr": {
         "name": "Gemini CLI Geçici dosyalar",
-        "detail": "Geçici çalışma dosyaları."
+        "detail": "Geçici dosyalar; normal kullanımda yeniden oluşturulur."
       },
       "uk": {
         "name": "Gemini CLI Тимчасові файли",
-        "detail": "Тимчасові робочі файли."
+        "detail": "Тимчасові файли; створюються під час звичайного використання."
       },
       "zh-Hans": {
         "name": "Gemini CLI 临时文件",
-        "detail": "临时工作文件。"
+        "detail": "临时文件；正常使用时会重新生成。"
       },
       "zh-Hant": {
         "name": "Gemini CLI 暫存檔案",
-        "detail": "暫存工作檔案。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       },
       "zh-HK": {
         "name": "Gemini CLI 暫存檔案",
-        "detail": "暫存工作檔案。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       }
     },
     "name": "Gemini CLI Temp",
-    "detail": "Temporary files created by the Gemini CLI.",
+    "detail": "Temporary files; recreated during normal use.",
     "path": "~/.gemini/tmp",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "sparkles",
     "color": "#8E75B2"
   },
@@ -236,69 +240,70 @@
       },
       "de": {
         "name": "Cursor Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Cursor Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Cursor Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Cursor Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Cursor キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Cursor 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Cursor Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Cursor Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Cursor Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Cursor Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Cursor Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Cursor Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Cursor 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Cursor 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Cursor 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Cursor Cache",
-    "detail": "Cursor extension and index cache data.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.cursor/extensions/.cache",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "cursorarrow"
   },
   {
@@ -309,67 +314,67 @@
       },
       "de": {
         "name": "Codex Sitzungsverlauf",
-        "detail": "Gespeicherte Sitzungen, Transkripte und Protokolle."
+        "detail": "Sitzungsverlauf; neue Daten entstehen beim Arbeiten."
       },
       "es": {
         "name": "Codex Historial de sesiones",
-        "detail": "Sesiones guardadas, transcripciones y registros."
+        "detail": "Historial de sesiones; aparecen datos nuevos al trabajar."
       },
       "fr": {
         "name": "Codex Historique des sessions",
-        "detail": "Sessions enregistrées, transcriptions et journaux."
+        "detail": "Historique des sessions; de nouvelles données apparaissent au travail."
       },
       "it": {
         "name": "Codex Cronologia delle sessioni",
-        "detail": "Sessioni salvate, trascrizioni e log."
+        "detail": "Cronologia sessioni; nuovi dati compaiono lavorando."
       },
       "ja": {
         "name": "Codex セッション履歴",
-        "detail": "保存されたセッション、トランスクリプト、ログ。"
+        "detail": "セッション履歴とログ。作業中に新しいデータが増えます。"
       },
       "ko": {
         "name": "Codex 세션 기록",
-        "detail": "저장된 세션, 기록 및 로그입니다."
+        "detail": "세션 기록과 로그입니다. 작업 중 새 데이터가 추가됩니다."
       },
       "nl": {
         "name": "Codex Sessiegeschiedenis",
-        "detail": "Opgeslagen sessies, transcripties en logboeken."
+        "detail": "Sessiegeschiedenis; nieuwe gegevens ontstaan tijdens het werken."
       },
       "pl": {
         "name": "Codex Historia sesji",
-        "detail": "Zapisane sesje, transkrypcje i dzienniki."
+        "detail": "Historia sesji; nowe dane powstają podczas pracy."
       },
       "pt-BR": {
         "name": "Codex Histórico de sessões",
-        "detail": "Sessões salvas, transcrições e logs."
+        "detail": "Histórico de sessões; novos dados surgem durante o trabalho."
       },
       "ru": {
         "name": "Codex История сеансов",
-        "detail": "Сохранённые сеансы, расшифровки и журналы."
+        "detail": "История сеансов; новые данные появляются во время работы."
       },
       "tr": {
         "name": "Codex Oturum geçmişi",
-        "detail": "Kayıtlı oturumlar, dökümler ve günlükler."
+        "detail": "Oturum geçmişi; çalışırken yeni veriler oluşur."
       },
       "uk": {
         "name": "Codex Історія сеансів",
-        "detail": "Збережені сеанси, транскрипції та журнали."
+        "detail": "Історія сеансів; під час роботи з’являються нові дані."
       },
       "zh-Hans": {
         "name": "Codex 会话历史记录",
-        "detail": "保存的会话、转录和日志。"
+        "detail": "会话历史和日志；工作时会产生新数据。"
       },
       "zh-Hant": {
         "name": "Codex 工作階段記錄",
-        "detail": "已儲存的工作階段、轉錄和記錄。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       },
       "zh-HK": {
         "name": "Codex 工作階段記錄",
-        "detail": "已儲存的工作階段、轉錄和記錄。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       }
     },
     "name": "Codex Session History",
-    "detail": "Saved Codex sessions and conversation logs.",
+    "detail": "Session history and logs; new data appears while working.",
     "path": "~/.codex",
     "subfolders": [
       "sessions",
@@ -377,6 +382,8 @@
       "log"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning permanently deletes saved conversations and session history.",
     "symbol": "text.book.closed.fill"
   },
   {
@@ -387,67 +394,67 @@
       },
       "de": {
         "name": "Claude Code Sitzungsverlauf",
-        "detail": "Gespeicherte Sitzungen, Transkripte und Protokolle."
+        "detail": "Sitzungsverlauf; neue Daten entstehen beim Arbeiten."
       },
       "es": {
         "name": "Claude Code Historial de sesiones",
-        "detail": "Sesiones guardadas, transcripciones y registros."
+        "detail": "Historial de sesiones; aparecen datos nuevos al trabajar."
       },
       "fr": {
         "name": "Claude Code Historique des sessions",
-        "detail": "Sessions enregistrées, transcriptions et journaux."
+        "detail": "Historique des sessions; de nouvelles données apparaissent au travail."
       },
       "it": {
         "name": "Claude Code Cronologia delle sessioni",
-        "detail": "Sessioni salvate, trascrizioni e log."
+        "detail": "Cronologia sessioni; nuovi dati compaiono lavorando."
       },
       "ja": {
         "name": "Claude Code セッション履歴",
-        "detail": "保存されたセッション、トランスクリプト、ログ。"
+        "detail": "セッション履歴とログ。作業中に新しいデータが増えます。"
       },
       "ko": {
         "name": "Claude Code 세션 기록",
-        "detail": "저장된 세션, 기록 및 로그입니다."
+        "detail": "세션 기록과 로그입니다. 작업 중 새 데이터가 추가됩니다."
       },
       "nl": {
         "name": "Claude Code Sessiegeschiedenis",
-        "detail": "Opgeslagen sessies, transcripties en logboeken."
+        "detail": "Sessiegeschiedenis; nieuwe gegevens ontstaan tijdens het werken."
       },
       "pl": {
         "name": "Claude Code Historia sesji",
-        "detail": "Zapisane sesje, transkrypcje i dzienniki."
+        "detail": "Historia sesji; nowe dane powstają podczas pracy."
       },
       "pt-BR": {
         "name": "Claude Code Histórico de sessões",
-        "detail": "Sessões salvas, transcrições e logs."
+        "detail": "Histórico de sessões; novos dados surgem durante o trabalho."
       },
       "ru": {
         "name": "Claude Code История сеансов",
-        "detail": "Сохранённые сеансы, расшифровки и журналы."
+        "detail": "История сеансов; новые данные появляются во время работы."
       },
       "tr": {
         "name": "Claude Code Oturum geçmişi",
-        "detail": "Kayıtlı oturumlar, dökümler ve günlükler."
+        "detail": "Oturum geçmişi; çalışırken yeni veriler oluşur."
       },
       "uk": {
         "name": "Claude Code Історія сеансів",
-        "detail": "Збережені сеанси, транскрипції та журнали."
+        "detail": "Історія сеансів; під час роботи з’являються нові дані."
       },
       "zh-Hans": {
         "name": "Claude Code 会话历史记录",
-        "detail": "保存的会话、转录和日志。"
+        "detail": "会话历史和日志；工作时会产生新数据。"
       },
       "zh-Hant": {
         "name": "Claude Code 工作階段記錄",
-        "detail": "已儲存的工作階段、轉錄和記錄。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       },
       "zh-HK": {
         "name": "Claude Code 工作階段記錄",
-        "detail": "已儲存的工作階段、轉錄和記錄。"
+        "detail": "工作階段記錄和記錄檔；工作時會產生新資料。"
       }
     },
     "name": "Claude Code Session History",
-    "detail": "Claude Code project transcripts, backups, and file history.",
+    "detail": "Session history and logs; new data appears while working.",
     "path": "~/.claude",
     "subfolders": [
       "projects",
@@ -455,6 +462,8 @@
       "file-history"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning permanently deletes transcripts, backups, and file-history snapshots.",
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -466,69 +475,70 @@
       },
       "de": {
         "name": "Windsurf-Browser-Downloads",
-        "detail": "Installer und Paketdateien."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Descargas del navegador de Windsurf",
-        "detail": "Instaladores y archivos de paquetes."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Téléchargements du navigateur Windsurf",
-        "detail": "Installateurs et fichiers de paquets."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Download del browser Windsurf",
-        "detail": "Installer e file di pacchetti."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Windsurfブラウザのダウンロード",
-        "detail": "インストーラーとパッケージファイル。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Windsurf 브라우저 다운로드",
-        "detail": "설치 프로그램과 패키지 파일입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Browserdownloads van Windsurf",
-        "detail": "Installatieprogramma’s en pakketbestanden."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Pobrane dane przeglądarki Windsurf",
-        "detail": "Instalatory i pliki pakietów."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Downloads do navegador Windsurf",
-        "detail": "Instaladores e arquivos de pacotes."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Загрузки браузера Windsurf",
-        "detail": "Установщики и файлы пакетов."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Windsurf tarayıcı indirmeleri",
-        "detail": "Yükleyiciler ve paket dosyaları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Завантаження браузера Windsurf",
-        "detail": "Інсталятори та файли пакетів."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Windsurf 浏览器下载",
-        "detail": "安装程序和软件包文件。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Windsurf 瀏覽器下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Windsurf 瀏覽器下載項目",
-        "detail": "安裝程式和套件檔案。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Windsurf Browser Downloads",
-    "detail": "Chromium builds used by Windsurf browser features.",
+    "detail": "Downloaded files; fetched again when needed.",
     "path": "~/.codeium/ws-browser",
-    "risk": "safe"
+    "risk": "safe",
+    "autoClean": true
   },
   {
     "id": "codex-app-cache",
@@ -538,69 +548,70 @@
       },
       "de": {
         "name": "Codex App Cache",
-        "detail": "Anwendungscache und Indexdaten."
+        "detail": "Cache; bei Bedarf neu erstellt."
       },
       "es": {
         "name": "Codex App Caché",
-        "detail": "Caché e índices de la aplicación."
+        "detail": "Caché; se reconstruye cuando hace falta."
       },
       "fr": {
         "name": "Codex App Cache",
-        "detail": "Cache et index de l’application."
+        "detail": "Cache; recréé si nécessaire."
       },
       "it": {
         "name": "Codex App Cache",
-        "detail": "Cache e indici dell’applicazione."
+        "detail": "Cache; ricreata quando serve."
       },
       "ja": {
         "name": "Codex App キャッシュ",
-        "detail": "アプリのキャッシュとインデックスデータ。"
+        "detail": "キャッシュ。必要に応じて再生成されます。"
       },
       "ko": {
         "name": "Codex App 캐시",
-        "detail": "앱 캐시 및 색인 데이터입니다."
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
       },
       "nl": {
         "name": "Codex App Cache",
-        "detail": "Applicatiecache en indexgegevens."
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
       },
       "pl": {
         "name": "Codex App Pamięć podręczna",
-        "detail": "Pamięć podręczna aplikacji i dane indeksu."
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
       },
       "pt-BR": {
         "name": "Codex App Cache",
-        "detail": "Cache e dados de índice do app."
+        "detail": "Cache; recriado quando necessário."
       },
       "ru": {
         "name": "Codex App Кэш",
-        "detail": "Кэш приложения и данные индексов."
+        "detail": "Кэш; создаётся заново при необходимости."
       },
       "tr": {
         "name": "Codex App Önbellek",
-        "detail": "Uygulama önbelleği ve dizin verileri."
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
       },
       "uk": {
         "name": "Codex App Кеш",
-        "detail": "Кеш і дані індексів програми."
+        "detail": "Кеш; за потреби створюється знову."
       },
       "zh-Hans": {
         "name": "Codex App 缓存",
-        "detail": "应用缓存和索引数据。"
+        "detail": "缓存；需要时会重新生成。"
       },
       "zh-Hant": {
         "name": "Codex App 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       },
       "zh-HK": {
         "name": "Codex App 快取",
-        "detail": "App 快取和索引資料。"
+        "detail": "快取；需要時會重新產生。"
       }
     },
     "name": "Codex App Cache",
-    "detail": "Rendering and network cache for the Codex desktop app.",
+    "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/Codex",
-    "risk": "safe"
+    "risk": "safe",
+    "autoClean": true
   },
   {
     "id": "ollama-models",
@@ -610,69 +621,71 @@
       },
       "de": {
         "name": "Ollama Modelle",
-        "detail": "Gespeicherte Sprachmodelle."
+        "detail": "Heruntergeladene Modelle; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Ollama Modelos",
-        "detail": "Modelos de lenguaje guardados."
+        "detail": "Modelos descargados; se descargan de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Ollama Modèles",
-        "detail": "Modèles de langage enregistrés."
+        "detail": "Modèles téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Ollama Modelli",
-        "detail": "Modelli linguistici salvati."
+        "detail": "Modelli scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Ollama モデル",
-        "detail": "保存された言語モデル。"
+        "detail": "ダウンロードしたモデル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Ollama 모델",
-        "detail": "저장된 언어 모델입니다."
+        "detail": "다운로드한 모델입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Ollama Modellen",
-        "detail": "Opgeslagen taalmodellen."
+        "detail": "Gedownloade modellen; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Ollama Modele",
-        "detail": "Zapisane modele językowe."
+        "detail": "Pobrane modele; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Ollama Modelos",
-        "detail": "Modelos de linguagem salvos."
+        "detail": "Modelos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Ollama Модели",
-        "detail": "Сохранённые языковые модели."
+        "detail": "Загруженные модели; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Ollama Modeller",
-        "detail": "Kayıtlı dil modelleri."
+        "detail": "İndirilen modeller; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Ollama Моделі",
-        "detail": "Збережені мовні моделі."
+        "detail": "Завантажені моделі; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Ollama 模型",
-        "detail": "保存的语言模型。"
+        "detail": "已下载的模型；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Ollama 模型",
-        "detail": "已儲存的語言模型。"
+        "detail": "已下載的模型；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Ollama 模型",
-        "detail": "已儲存的語言模型。"
+        "detail": "已下載的模型；需要時會重新下載。"
       }
     },
     "name": "Ollama Models",
-    "detail": "Language models stored for Ollama.",
+    "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.ollama/models",
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Removed models must be downloaded again before they can be used.",
     "symbol": "brain"
   },
   {
@@ -683,69 +696,71 @@
       },
       "de": {
         "name": "LM Studio Laufzeitumgebungen",
-        "detail": "KI-Laufzeitumgebungen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "LM Studio Entornos de ejecución",
-        "detail": "Motores de inferencia de IA."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "LM Studio Environnements d’exécution",
-        "detail": "Moteurs d’inférence IA."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "LM Studio Runtime",
-        "detail": "Motori di inferenza IA."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "LM Studio ランタイム",
-        "detail": "AI推論ランタイム。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "LM Studio 런타임",
-        "detail": "AI 추론 런타임입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "LM Studio Runtime-omgevingen",
-        "detail": "AI-inferentie-engines."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "LM Studio Środowiska uruchomieniowe",
-        "detail": "Silniki wnioskowania AI."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "LM Studio Ambientes de execução",
-        "detail": "Mecanismos de inferência de IA."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "LM Studio Среды выполнения",
-        "detail": "Среды инференса ИИ."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "LM Studio Çalışma ortamları",
-        "detail": "Yapay zekâ çıkarım motorları."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "LM Studio Середовища виконання",
-        "detail": "Середовища інференсу ШІ."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "LM Studio 运行时",
-        "detail": "AI 推理运行时。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "LM Studio 執行環境",
-        "detail": "AI 推論執行階段。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "LM Studio 執行環境",
-        "detail": "AI 推論執行階段。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "LM Studio Runtimes",
-    "detail": "Inference engines used by LM Studio models.",
+    "detail": "Downloaded runtimes; redownloaded when needed.",
     "path": "~/.lmstudio/extensions/backends",
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Removed inference engines must be downloaded again before models can run.",
     "symbol": "shippingbox.fill"
   },
   {
@@ -756,69 +771,70 @@
       },
       "de": {
         "name": "Codex Updater",
-        "detail": "Installierte Update-Pakete."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Codex Updater",
-        "detail": "Paquetes de actualización instalados."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Codex Updater",
-        "detail": "Paquets de mise à jour installés."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Codex Updater",
-        "detail": "Pacchetti di aggiornamento installati."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Codex Updater",
-        "detail": "インストール済みアップデートパッケージ。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Codex Updater",
-        "detail": "설치된 업데이트 패키지입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Codex Updater",
-        "detail": "Geïnstalleerde updatepakketten."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Codex Updater",
-        "detail": "Zainstalowane pakiety aktualizacji."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Codex Updater",
-        "detail": "Pacotes de atualização instalados."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Codex Updater",
-        "detail": "Установленные пакеты обновлений."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Codex Updater",
-        "detail": "Yüklü güncelleme paketleri."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Codex Updater",
-        "detail": "Встановлені пакети оновлень."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Codex Updater",
-        "detail": "已安装的更新软件包。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Codex Updater",
-        "detail": "已安裝的更新套件。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Codex Updater",
-        "detail": "已安裝的更新套件。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Codex Updater",
-    "detail": "Installed update packages for the Codex app.",
+    "detail": "Installed update files; downloaded with future updates.",
     "path": "~/Library/Caches/com.openai.codex",
     "risk": "safe",
+    "autoClean": true,
     "symbol": "arrow.down.circle"
   },
   {
@@ -829,69 +845,71 @@
       },
       "de": {
         "name": "LM Studio Modelle",
-        "detail": "Gespeicherte Sprachmodelle."
+        "detail": "Heruntergeladene Modelle; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "LM Studio Modelos",
-        "detail": "Modelos de lenguaje guardados."
+        "detail": "Modelos descargados; se descargan de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "LM Studio Modèles",
-        "detail": "Modèles de langage enregistrés."
+        "detail": "Modèles téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "LM Studio Modelli",
-        "detail": "Modelli linguistici salvati."
+        "detail": "Modelli scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "LM Studio モデル",
-        "detail": "保存された言語モデル。"
+        "detail": "ダウンロードしたモデル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "LM Studio 모델",
-        "detail": "저장된 언어 모델입니다."
+        "detail": "다운로드한 모델입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "LM Studio Modellen",
-        "detail": "Opgeslagen taalmodellen."
+        "detail": "Gedownloade modellen; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "LM Studio Modele",
-        "detail": "Zapisane modele językowe."
+        "detail": "Pobrane modele; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "LM Studio Modelos",
-        "detail": "Modelos de linguagem salvos."
+        "detail": "Modelos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "LM Studio Модели",
-        "detail": "Сохранённые языковые модели."
+        "detail": "Загруженные модели; при необходимости загружаются снова."
       },
       "tr": {
         "name": "LM Studio Modeller",
-        "detail": "Kayıtlı dil modelleri."
+        "detail": "İndirilen modeller; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "LM Studio Моделі",
-        "detail": "Збережені мовні моделі."
+        "detail": "Завантажені моделі; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "LM Studio 模型",
-        "detail": "保存的语言模型。"
+        "detail": "已下载的模型；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "LM Studio 模型",
-        "detail": "已儲存的語言模型。"
+        "detail": "已下載的模型；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "LM Studio 模型",
-        "detail": "已儲存的語言模型。"
+        "detail": "已下載的模型；需要時會重新下載。"
       }
     },
     "name": "LM Studio Models",
-    "detail": "Model weights stored by LM Studio.",
+    "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.lmstudio/models",
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Removed models must be downloaded again before they can be used.",
     "symbol": "brain"
   },
   {
@@ -902,72 +920,74 @@
       },
       "de": {
         "name": "Codex-Arbeitsdateien",
-        "detail": "Temporäre Arbeitsdateien."
+        "detail": "Temporäre Dateien; bei normaler Nutzung neu erstellt."
       },
       "es": {
         "name": "Archivos de trabajo de Codex",
-        "detail": "Archivos temporales de trabajo."
+        "detail": "Archivos temporales; se recrean durante el uso normal."
       },
       "fr": {
         "name": "Fichiers de travail de Codex",
-        "detail": "Fichiers de travail temporaires."
+        "detail": "Fichiers temporaires; recréés pendant l’utilisation normale."
       },
       "it": {
         "name": "File di lavoro di Codex",
-        "detail": "File temporanei di lavoro."
+        "detail": "File temporanei; ricreati durante l’uso normale."
       },
       "ja": {
         "name": "Codexの作業ファイル",
-        "detail": "一時作業ファイル。"
+        "detail": "一時ファイル。通常の使用中に再作成されます。"
       },
       "ko": {
         "name": "Codex 작업 파일",
-        "detail": "임시 작업 파일입니다."
+        "detail": "임시 파일입니다. 정상 사용 중 다시 생성됩니다."
       },
       "nl": {
         "name": "Werkbestanden van Codex",
-        "detail": "Tijdelijke werkbestanden."
+        "detail": "Tijdelijke bestanden; opnieuw gemaakt tijdens normaal gebruik."
       },
       "pl": {
         "name": "Pliki robocze Codex",
-        "detail": "Tymczasowe pliki robocze."
+        "detail": "Pliki tymczasowe; odtwarzane podczas normalnego użytkowania."
       },
       "pt-BR": {
         "name": "Arquivos de trabalho do Codex",
-        "detail": "Arquivos temporários de trabalho."
+        "detail": "Arquivos temporários; recriados durante o uso normal."
       },
       "ru": {
         "name": "Рабочие файлы Codex",
-        "detail": "Временные рабочие файлы."
+        "detail": "Временные файлы; создаются заново при обычном использовании."
       },
       "tr": {
         "name": "Codex çalışma dosyaları",
-        "detail": "Geçici çalışma dosyaları."
+        "detail": "Geçici dosyalar; normal kullanımda yeniden oluşturulur."
       },
       "uk": {
         "name": "Робочі файли Codex",
-        "detail": "Тимчасові робочі файли."
+        "detail": "Тимчасові файли; створюються під час звичайного використання."
       },
       "zh-Hans": {
         "name": "Codex 工作文件",
-        "detail": "临时工作文件。"
+        "detail": "临时文件；正常使用时会重新生成。"
       },
       "zh-Hant": {
         "name": "Codex 工作檔案",
-        "detail": "暫存工作檔案。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       },
       "zh-HK": {
         "name": "Codex 工作檔案",
-        "detail": "暫存工作檔案。"
+        "detail": "暫存檔案；正常使用時會重新產生。"
       }
     },
     "name": "Codex Working Files",
-    "detail": "Codex repository clones and staging files.",
+    "detail": "Temporary files; recreated during normal use.",
     "path": "~/.codex/.tmp",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Temporary repository clones can contain uncommitted work; inspect each item before removal.",
     "symbol": "clock.arrow.circlepath"
   },
   {
@@ -978,72 +998,74 @@
       },
       "de": {
         "name": "Claude Code Versionen",
-        "detail": "Installierte CLI-Versionen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Claude Code Versiones",
-        "detail": "Versiones de CLI instaladas."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Claude Code Versions",
-        "detail": "Versions CLI installées."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Claude Code Versioni",
-        "detail": "Versioni CLI installate."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Claude Code バージョン",
-        "detail": "インストール済みCLIバージョン。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Claude Code 버전",
-        "detail": "설치된 CLI 버전입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Claude Code Versies",
-        "detail": "Geïnstalleerde CLI-versies."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Claude Code Wersje",
-        "detail": "Zainstalowane wersje CLI."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Claude Code Versões",
-        "detail": "Versões de CLI instaladas."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Claude Code Версии",
-        "detail": "Установленные версии CLI."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Claude Code Sürümler",
-        "detail": "Yüklü CLI sürümleri."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Claude Code Версії",
-        "detail": "Встановлені версії CLI."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Claude Code 版本",
-        "detail": "已安装的 CLI 版本。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Claude Code 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Claude Code 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Claude Code Versions",
-    "detail": "Installed Claude Code CLI versions.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.local/share/claude/versions",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
     "symbol": "shippingbox",
     "color": "#D97757"
   },
@@ -1055,72 +1077,74 @@
       },
       "de": {
         "name": "Cursor Agent Versionen",
-        "detail": "Installierte CLI-Versionen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Cursor Agent Versiones",
-        "detail": "Versiones de CLI instaladas."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Cursor Agent Versions",
-        "detail": "Versions CLI installées."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Cursor Agent Versioni",
-        "detail": "Versioni CLI installate."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Cursor Agent バージョン",
-        "detail": "インストール済みCLIバージョン。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Cursor Agent 버전",
-        "detail": "설치된 CLI 버전입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Cursor Agent Versies",
-        "detail": "Geïnstalleerde CLI-versies."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Cursor Agent Wersje",
-        "detail": "Zainstalowane wersje CLI."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Cursor Agent Versões",
-        "detail": "Versões de CLI instaladas."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Cursor Agent Версии",
-        "detail": "Установленные версии CLI."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Cursor Agent Sürümler",
-        "detail": "Yüklü CLI sürümleri."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Cursor Agent Версії",
-        "detail": "Встановлені версії CLI."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Cursor Agent 版本",
-        "detail": "已安装的 CLI 版本。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Cursor Agent 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Cursor Agent 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Cursor Agent Versions",
-    "detail": "Installed Cursor Agent CLI versions.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.local/share/cursor-agent/versions",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
     "symbol": "shippingbox"
   },
   {
@@ -1131,72 +1155,74 @@
       },
       "de": {
         "name": "Copilot CLI Versionen",
-        "detail": "Installierte CLI-Versionen."
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
       },
       "es": {
         "name": "Copilot CLI Versiones",
-        "detail": "Versiones de CLI instaladas."
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
       },
       "fr": {
         "name": "Copilot CLI Versions",
-        "detail": "Versions CLI installées."
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
       },
       "it": {
         "name": "Copilot CLI Versioni",
-        "detail": "Versioni CLI installate."
+        "detail": "File scaricati; riscaricati quando servono."
       },
       "ja": {
         "name": "Copilot CLI バージョン",
-        "detail": "インストール済みCLIバージョン。"
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
       },
       "ko": {
         "name": "Copilot CLI 버전",
-        "detail": "설치된 CLI 버전입니다."
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
       },
       "nl": {
         "name": "Copilot CLI Versies",
-        "detail": "Geïnstalleerde CLI-versies."
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
       },
       "pl": {
         "name": "Copilot CLI Wersje",
-        "detail": "Zainstalowane wersje CLI."
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Copilot CLI Versões",
-        "detail": "Versões de CLI instaladas."
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
       },
       "ru": {
         "name": "Copilot CLI Версии",
-        "detail": "Установленные версии CLI."
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
       },
       "tr": {
         "name": "Copilot CLI Sürümler",
-        "detail": "Yüklü CLI sürümleri."
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
       },
       "uk": {
         "name": "Copilot CLI Версії",
-        "detail": "Встановлені версії CLI."
+        "detail": "Завантажені файли; за потреби завантажуються знову."
       },
       "zh-Hans": {
         "name": "Copilot CLI 版本",
-        "detail": "已安装的 CLI 版本。"
+        "detail": "已下载的文件；需要时会重新下载。"
       },
       "zh-Hant": {
         "name": "Copilot CLI 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       },
       "zh-HK": {
         "name": "Copilot CLI 版本",
-        "detail": "已安裝的 CLI 版本。"
+        "detail": "已下載的檔案；需要時會重新下載。"
       }
     },
     "name": "Copilot CLI Versions",
-    "detail": "Installed GitHub Copilot CLI versions.",
+    "detail": "Older versions; downloaded again during future updates.",
     "path": "~/.copilot/pkg/universal",
     "subfolders": [
       "*"
     ],
     "risk": "risky",
+    "autoClean": false,
+    "warning": "Cleaning can remove a CLI version that scripts or rollbacks still use.",
     "symbol": "shippingbox"
   }
 ]
