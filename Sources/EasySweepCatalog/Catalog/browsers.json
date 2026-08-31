@@ -69,7 +69,7 @@
     "name": "Google Chrome",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#4285F4"
   },
@@ -143,7 +143,7 @@
     "name": "Safari",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.apple.Safari",
-    "risk": false,
+    "risk": "safe",
     "symbol": "safari",
     "color": "#006CFF"
   },
@@ -217,7 +217,7 @@
     "name": "Firefox",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Firefox",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#FF7139"
   },
@@ -291,7 +291,7 @@
     "name": "Microsoft Edge",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Microsoft Edge",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#0078D7"
   },
@@ -365,7 +365,7 @@
     "name": "Brave",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/BraveSoftware",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#FB542B"
   },
@@ -439,7 +439,7 @@
     "name": "Arc",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/company.thebrowser.Browser",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#FCBFBD"
   },
@@ -513,7 +513,7 @@
     "name": "Vivaldi",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Vivaldi",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#EF3939"
   },
@@ -587,7 +587,7 @@
     "name": "Opera",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.Opera",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#FF1B2D"
   },
@@ -661,7 +661,7 @@
     "name": "Opera GX",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.operasoftware.OperaGX",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#EE2950"
   },
@@ -735,7 +735,7 @@
     "name": "Chromium",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Chromium",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#4587F3"
   },
@@ -809,7 +809,7 @@
     "name": "Yandex Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Yandex/YandexBrowser",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#FC3F1D"
   },
@@ -883,7 +883,7 @@
     "name": "Google Chrome Canary",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Google/Chrome Canary",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#F4B400"
   },
@@ -957,7 +957,7 @@
     "name": "LibreWolf",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/LibreWolf",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#00ACFF"
   },
@@ -1031,7 +1031,7 @@
     "name": "Waterfox",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Waterfox",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#00AEEF"
   },
@@ -1105,7 +1105,7 @@
     "name": "Zen Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Zen",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#F76F53"
   },
@@ -1179,7 +1179,7 @@
     "name": "Orion",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/com.kagi.kagimacOS",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe"
   },
   {
@@ -1252,7 +1252,7 @@
     "name": "DuckDuckGo",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.duckduckgo.macos.browser/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#DE5833"
   },
@@ -1326,7 +1326,7 @@
     "name": "Dia",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Caches/Dia/User Data",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "subfolders": [
       "*/Cache",
@@ -1408,7 +1408,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#4285F4"
   },
@@ -1487,7 +1487,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#0078D7"
   },
@@ -1566,7 +1566,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#FB542B"
   },
@@ -1645,7 +1645,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#FCBFBD"
   },
@@ -1724,7 +1724,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#EF3939"
   },
@@ -1806,7 +1806,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#FF1B2D"
   },
@@ -1888,7 +1888,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#EE2950"
   },
@@ -1967,7 +1967,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#4587F3"
   },
@@ -2046,7 +2046,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#FC3F1D"
   },
@@ -2125,7 +2125,7 @@
       "*/Service Worker/ScriptCache",
       "*/GPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe",
     "color": "#F4B400"
   },
@@ -2206,7 +2206,7 @@
       "*/DawnGraphiteCache",
       "*/DawnWebGPUCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "globe"
   },
   {
@@ -2282,7 +2282,7 @@
     "subfolders": [
       "Browser/*/cache2"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#7D4698"
   },
@@ -2356,7 +2356,7 @@
     "name": "QQ Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.tencent.QQBrowserLite/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#1479D7"
   },
@@ -2430,7 +2430,7 @@
     "name": "360 Browser",
     "detail": "Browser cache; rebuilt as you browse.",
     "path": "~/Library/Containers/com.qihoo.litebrowserx/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "globe",
     "color": "#19B955"
   }

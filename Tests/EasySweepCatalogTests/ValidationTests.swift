@@ -299,17 +299,58 @@ struct CatalogValidationTests {
         }
     }
 
-    /// One Boolean owns the decision: no risk means automatic cleaning, while
-    /// every risky entry requires confirmation.
+    /// One field owns the decision, and only its safest value cleans unasked.
+    ///
+    /// Written against `.safe` rather than against "not destructive", so a value
+    /// added to `Risk` later has to be let in by someone rather than arriving
+    /// already permitted.
     @Test func automaticCleaningIsDerivedFromRisk() {
         for entry in entries {
-            #expect(entry.autoClean == !entry.risk)
+            #expect(entry.autoClean == (entry.risk == .safe))
+        }
+    }
+
+    /// The 2.x Boolean is refused, and says what to write instead.
+    ///
+    /// A hard break: `true` meant both "comes back at a cost" and "does not come
+    /// back", so there is no mapping this package could apply that would not be
+    /// guessing at somebody's data.
+    @Test func theOldBooleanIsRefusedWithAnExplanation() {
+        for legacy in ["true", "false"] {
+            let json = """
+            {"id":"example","name":"Example","detail":"Rebuilt on use.",
+             "path":"~/Library/Caches/example","risk":\(legacy)}
+            """
+            #expect(throws: DecodingError.self) {
+                try JSONDecoder().decode(EasySweepCatalog.Entry.self, from: Data(json.utf8))
+            }
+        }
+    }
+
+    /// An unknown level is refused too, rather than falling back to the safest —
+    /// which would be a newer catalogue quietly cleaning something unasked on an
+    /// older build.
+    @Test func anUnknownLevelIsRefused() {
+        let json = """
+        {"id":"example","name":"Example","detail":"Rebuilt on use.",
+         "path":"~/Library/Caches/example","risk":"probably-fine"}
+        """
+        #expect(throws: DecodingError.self) {
+            try JSONDecoder().decode(EasySweepCatalog.Entry.self, from: Data(json.utf8))
+        }
+    }
+
+    /// Every level is actually used. A value nobody assigns is one the UI offers
+    /// an empty list for.
+    @Test func everyLevelIsPopulated() {
+        for level in EasySweepCatalog.Entry.Risk.allCases {
+            #expect(entries.contains { $0.risk == level }, "no entry is \(level.rawValue)")
         }
     }
 
     private struct SafetyDeclaration: Decodable {
         let id: String
-        let risk: Bool
+        let risk: EasySweepCatalog.Entry.Risk
     }
 
     /// There is no migration layer for the safety schema: every bundled record

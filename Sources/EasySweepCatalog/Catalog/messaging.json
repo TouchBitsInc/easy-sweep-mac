@@ -74,7 +74,7 @@
       "*/account-*/postbox/media/cache-storage",
       "*/account-*/postbox/media/short-cache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "paperplane",
     "color": "#26A5E4"
   },
@@ -152,7 +152,7 @@
       "tdata/user_data*/cache",
       "tdata/user_data*/media_cache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "paperplane",
     "color": "#26A5E4"
   },
@@ -226,7 +226,7 @@
     "name": "WeChat",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.xinWeChat/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#07C160"
   },
@@ -305,7 +305,7 @@
       "cache",
       "web"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "square.grid.2x2",
     "color": "#07C160"
   },
@@ -384,7 +384,7 @@
       "*/msg/video",
       "*/msg/file"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "paperclip",
     "color": "#07C160"
   },
@@ -462,7 +462,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "number",
     "color": "#4A154B"
   },
@@ -540,7 +540,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#5865F2"
   },
@@ -618,7 +618,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#3B45FD"
   },
@@ -692,7 +692,7 @@
     "name": "Microsoft Teams",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.microsoft.teams2/Data/Library/Application Support/Microsoft/MSTeams",
-    "risk": false,
+    "risk": "safe",
     "symbol": "video",
     "color": "#6264A7",
     "subfolders": [
@@ -771,7 +771,7 @@
     "name": "Zoom",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/us.zoom.xos",
-    "risk": false,
+    "risk": "safe",
     "symbol": "video",
     "color": "#0B5CFF"
   },
@@ -845,7 +845,7 @@
     "name": "Lark",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/LarkShell",
-    "risk": false,
+    "risk": "safe",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#00D6B9"
   },
@@ -919,7 +919,7 @@
     "name": "WhatsApp",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/net.whatsapp.WhatsApp/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#25D366"
   },
@@ -993,7 +993,7 @@
     "name": "QQ",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.qq/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#12B7F5"
   },
@@ -1067,7 +1067,7 @@
     "name": "LINE",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/jp.naver.line.mac/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#00C300"
   },
@@ -1141,7 +1141,7 @@
     "name": "KakaoTalk",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.kakao.KakaoTalkMac/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#FEE500"
   },
@@ -1215,7 +1215,7 @@
     "name": "DingTalk",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.alibaba.DingTalkMac",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#1E6FFF"
   },
@@ -1289,7 +1289,7 @@
     "name": "WeCom",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Containers/com.tencent.WeWorkMac/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#07C160"
   },
@@ -1363,7 +1363,7 @@
     "name": "Tencent Meeting",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.tencent.meeting",
-    "risk": false,
+    "risk": "safe",
     "symbol": "video",
     "color": "#0055FF"
   },
@@ -1437,7 +1437,7 @@
     "name": "Viber",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/com.viber.osx",
-    "risk": false,
+    "risk": "safe",
     "symbol": "message",
     "color": "#7360F2"
   },
@@ -1511,7 +1511,7 @@
     "name": "Webex",
     "detail": "Downloaded media; fetched again when opened.",
     "path": "~/Library/Caches/Cisco-Systems.Spark",
-    "risk": false,
+    "risk": "safe",
     "symbol": "video",
     "color": "#00BCEB"
   },
@@ -1589,7 +1589,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#0DBD8B"
   },
@@ -1667,7 +1667,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#2E7CF6"
   },
@@ -1745,7 +1745,7 @@
       "Service Worker/CacheStorage",
       "Service Worker/ScriptCache"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "bubble.left.and.bubble.right",
     "color": "#1E325C"
   }

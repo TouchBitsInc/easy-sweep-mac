@@ -73,7 +73,7 @@
       "Media Cache Files",
       "Media Cache"
     ],
-    "risk": false,
+    "risk": "safe",
     "color": "#9999FF"
   },
   {
@@ -146,7 +146,7 @@
     "name": "Media Encoder Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Application Support/Adobe/Common/Media Encoder/Cache",
-    "risk": false,
+    "risk": "safe",
     "color": "#9999FF"
   },
   {
@@ -222,7 +222,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "color": "#9999FF"
   },
   {
@@ -295,7 +295,7 @@
     "name": "Photoshop Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Photoshop",
-    "risk": false,
+    "risk": "safe",
     "color": "#31A8FF"
   },
   {
@@ -371,7 +371,7 @@
     "subfolders": [
       "Adobe Camera Raw*"
     ],
-    "risk": false,
+    "risk": "safe",
     "color": "#31A8FF"
   },
   {
@@ -444,7 +444,7 @@
     "name": "Lightroom Video Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Adobe/Lightroom/Video",
-    "risk": false,
+    "risk": "safe",
     "color": "#31A8FF"
   },
   {
@@ -517,7 +517,7 @@
     "name": "Ableton Live Decoding Cache",
     "detail": "Media cache; rebuilt during normal app use.",
     "path": "~/Library/Caches/Ableton/Cache/Decoding",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "capcut-cache",
@@ -589,7 +589,7 @@
     "name": "CapCut Cache",
     "detail": "CapCut media files stored under Movies.",
     "path": "~/Movies/JianyingPro/User Data/Cache",
-    "risk": true,
+    "risk": "destructive",
     "symbol": "film"
   },
   {
@@ -662,7 +662,7 @@
     "name": "Music Artwork",
     "detail": "Album artwork; downloaded again while browsing.",
     "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "music.note",
     "color": "#FA243C"
   },
@@ -736,7 +736,7 @@
     "name": "Spotify Cache",
     "detail": "Buffered audio; downloaded again for offline listening.",
     "path": "~/Library/Caches/com.spotify.client",
-    "risk": false,
+    "risk": "safe",
     "symbol": "waveform",
     "color": "#1ED760"
   }

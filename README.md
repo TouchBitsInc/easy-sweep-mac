@@ -34,7 +34,7 @@ Open a pull request against the JSON file for the section it belongs in:
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
-  "risk": false,
+  "risk": "safe",
   "symbol": "shippingbox.fill",
   "color": "#000000"
 }
@@ -81,16 +81,22 @@ accepts regional and script variants before falling back to English.
 
 ## Cleaning safety
 
-`risk` is one conservative Boolean decision. `false` means the reviewed target
-may be cleaned automatically; `true` means it requires manual confirmation.
-Every entry must declare the field; a missing value fails decoding.
-Broad wildcard targets, app-wide state folders, offline or synced content,
-active staging areas, and stores that can contain locally produced artifacts
-all use `true`.
+`risk` is one conservative decision, named by what deleting costs the person who
+owns the machine:
 
-Consumers derive automatic cleaning directly as `!risk`. Risky entries require
-manual confirmation; the catalog does not publish a second warning or safety
-field that could disagree with the Boolean decision.
+- `"safe"` — regenerates on its own, free. Build and package caches.
+- `"cautious"` — comes back, but they pay for it: a re-download, a re-login, a
+  re-index. Language models, package archives, browser site data.
+- `"destructive"` — does not come back. Session transcripts, shipped archives,
+  received files, a simulator and everything installed in it.
+
+Every entry must declare the field; a missing value, an unknown value, and the
+2.x Boolean all fail decoding. Broad wildcard targets, app-wide state folders,
+offline or synced content, active staging areas, and stores that can contain
+locally produced artifacts are never `"safe"`.
+
+Consumers derive automatic cleaning as `risk == "safe"`. The catalog does not
+publish a second warning or safety field that could disagree with it.
 
 How removal is performed still belongs to the consuming app. For example,
 simulator device sets must go through `simctl`, not raw filesystem deletion.

@@ -77,8 +77,8 @@ extension EasySweepCatalog {
     /// literal `path`, so the grant root is the path, and `subfolders` for
     /// anything narrower.
     ///
-    /// `risk` is the single cleaning decision. `true` requires confirmation;
-    /// `false` permits automatic cleaning. Every entry must declare it.
+    /// `risk` is the single cleaning decision, and it has three values — see
+    /// `Entry.Risk`. Every entry must declare it.
     public struct Entry: Codable, Identifiable, Hashable, Sendable {
         /// Stable and permanent. Keys the consuming app's own table of settings,
         /// so renaming one silently drops whatever that app had recorded
@@ -102,10 +102,46 @@ extension EasySweepCatalog {
         ///
         /// Subfolders are *rows*: whatever is listed here is what the user ticks.
         public let subfolders: [String]
-        /// Whether cleaning requires manual confirmation.
-        public let risk: Bool
-        /// No risk means automatic cleaning; risky entries always require review.
-        public var autoClean: Bool { !risk }
+        /// What cleaning this costs the person who owns the machine.
+        ///
+        /// Three values rather than the Boolean this was through 2.x, because
+        /// "needs confirming" was answering two different questions at once. A
+        /// downloaded language model and a folder of session transcripts both
+        /// required confirmation, and only one of them comes back.
+        ///
+        /// The values are about **consequence**, not about how nervous anyone
+        /// feels. Pick by asking what the user has to do to undo the deletion:
+        /// nothing at all, something tedious, or nothing that will work.
+        public enum Risk: String, Codable, Sendable, CaseIterable, Comparable {
+            /// Regenerates on its own, free, with nothing the user would notice.
+            /// Build caches, package caches, thumbnails.
+            case safe
+            /// Comes back, but the user pays for it: a re-download, a re-login, a
+            /// re-index. Language models, package archives, browser site data.
+            case cautious
+            /// Does not come back. Session transcripts, shipped archives, received
+            /// files, a simulator and everything installed in it.
+            case destructive
+
+            /// Ordered by consequence, so a level can be expressed as "up to
+            /// here" rather than as a set somebody has to keep in step.
+            public static func < (lhs: Risk, rhs: Risk) -> Bool {
+                guard let l = allCases.firstIndex(of: lhs),
+                    let r = allCases.firstIndex(of: rhs)
+                else { return false }
+                return l < r
+            }
+        }
+
+        /// What cleaning this entry costs. Every entry declares it; there is no
+        /// default, because a default is a safety decision nobody made.
+        public let risk: Risk
+        /// Only `safe` may be cleaned without being asked.
+        ///
+        /// Deliberately not `risk != .destructive`: written as an allowlist, a
+        /// value added to `Risk` later is excluded until someone decides
+        /// otherwise, where a denylist would admit it silently.
+        public var autoClean: Bool { risk == .safe }
         /// An SF Symbol name. Absent falls back to the category's own symbol —
         /// which is safer than a wrong name, because an unknown symbol renders
         /// as nothing at all rather than a placeholder.
@@ -125,7 +161,7 @@ extension EasySweepCatalog {
             detail: String,
             path: String,
             subfolders: [String] = [],
-            risk: Bool,
+            risk: Risk,
             symbol: String? = nil,
             color: String? = nil,
             localizations: [String: LocalizedContent] = [:]
@@ -148,7 +184,24 @@ extension EasySweepCatalog {
             detail = try container.decode(String.self, forKey: .detail)
             path = try container.decode(String.self, forKey: .path)
             subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
-            risk = try container.decode(Bool.self, forKey: .risk)
+            // 2.5.0 made this a string. A file still carrying the 2.x Boolean is
+            // refused by name rather than by a type mismatch, because "expected
+            // String found Bool" sends a contributor looking at the wrong thing —
+            // and because guessing a level for them is the one thing this must not
+            // do. `true` covered both `cautious` and `destructive`.
+            if let legacy = try? container.decode(Bool.self, forKey: .risk) {
+                throw DecodingError.dataCorruptedError(
+                    forKey: .risk,
+                    in: container,
+                    debugDescription: """
+                        risk is \(legacy), a 2.x boolean. It takes "safe", "cautious" or \
+                        "destructive" from 2.5.0. false was always "safe"; true was either \
+                        "cautious" (comes back at a cost) or "destructive" (does not come \
+                        back), and only a person can say which this entry is.
+                        """
+                )
+            }
+            risk = try container.decode(Risk.self, forKey: .risk)
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             color = try container.decodeIfPresent(String.self, forKey: .color)
             localizations = try container.decodeIfPresent(
