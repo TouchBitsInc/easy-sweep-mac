@@ -662,7 +662,7 @@
     "name": "Music Artwork",
     "detail": "Album artwork; downloaded again while browsing.",
     "path": "~/Library/Containers/com.apple.AMPArtworkAgent/Data/Documents/artwork",
-    "risk": "cautious",
+    "risk": "safe",
     "symbol": "music.note",
     "color": "#FA243C"
   },

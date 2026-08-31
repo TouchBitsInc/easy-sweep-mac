@@ -597,7 +597,7 @@
     "name": "XcodeBuildMCP Data",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Developer/XcodeBuildMCP",
-    "risk": "cautious",
+    "risk": "safe",
     "symbol": "terminal.fill"
   },
   {
@@ -4165,7 +4165,7 @@
     "name": "Expo CLI Cache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/.expo",
-    "risk": "cautious",
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
