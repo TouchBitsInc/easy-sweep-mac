@@ -74,7 +74,7 @@
       "*/account-*/postbox/media/cache-storage",
       "*/account-*/postbox/media/short-cache"
     ],
-    "risk": "cautious",
+    "risk": "safe",
     "symbol": "paperplane",
     "color": "#26A5E4"
   },
