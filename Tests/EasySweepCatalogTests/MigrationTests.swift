@@ -76,7 +76,7 @@ struct MigrationTests {
     @Test func colourIsWrittenUnderItsCurrentName() throws {
         let entry = EasySweepCatalog.Entry(
             id: "example", name: "Example", detail: "Refetched on next build.",
-            path: "~/Library/Caches/example", risk: false, color: "#CB3837"
+            path: "~/Library/Caches/example", risk: .safe, color: "#CB3837"
         )
         let written = String(decoding: try JSONEncoder().encode(entry), as: UTF8.self)
         #expect(written.contains("\"color\""))

@@ -46,7 +46,7 @@ One file per category — `developer.json`, `aiTools.json`, `browsers.json`,
   "name": "Bun",
   "detail": "Downloaded packages for bun install. Refetched on the next install.",
   "path": "~/.bun/install/cache",
-  "risk": false,
+  "risk": "safe",
   "symbol": "shippingbox.fill",
   "color": "#000000",
   "localizations": {
@@ -136,20 +136,36 @@ English fallback order.
 
 ## Automatic cleaning
 
-`risk` is the single cleaning decision. `false` means the reviewed target may be
-cleaned automatically; `true` means it requires manual confirmation. Absent
-is invalid; every bundled entry declares the Boolean explicitly so the decision
-is visible beside the path. There is no migration or fallback safety schema.
+`risk` is the single cleaning decision, and from 2.5.0 it takes one of three
+strings. Absent is invalid, an unknown value is invalid, and the 2.x Boolean is
+refused by name — every bundled entry declares the level explicitly so the
+decision is visible beside the path. There is no migration or fallback safety
+schema.
 
-Use `false` only when every selected path contains regenerable data, deletion
+| Value | What it means | Examples |
+|---|---|---|
+| `"safe"` | Regenerates on its own, free, with nothing the user would notice | build caches, package caches, thumbnails |
+| `"cautious"` | Comes back, but the user pays: a re-download, a re-login, a re-index | language models, package archives, browser site data |
+| `"destructive"` | Does not come back | session transcripts, shipped archives, received files, a simulator and everything installed in it |
+
+**Pick by consequence, not by nerves.** Ask what the person has to do to undo the
+deletion: nothing at all, something tedious, or nothing that will work. "It feels
+risky" is not one of the three.
+
+Use `"safe"` only when every selected path contains regenerable data, deletion
 cannot remove a user's sole copy, and the target is narrow enough to audit
 without inspecting the machine. Broad app-wide wildcards, synced or offline
 content, active staging areas, and stores that can contain locally produced
-artifacts use `true`.
+artifacts are never `"safe"`.
+
+If you are torn between `"cautious"` and `"destructive"`, write
+`"destructive"`. The two differ only in how much a level offers to delete at
+once, and being one level too careful costs a user some disk space they can
+still reclaim by hand — where being one level too eager costs them something
+that is gone.
 
 Do not add a parallel warning, safe, or allowlist field. Consumers derive
-automatic cleaning as `!risk`; `true` is the complete signal to require manual
-confirmation.
+automatic cleaning as `risk == "safe"`, and that is the complete signal.
 
 **`specialCleaner` remains app-side.** It routes simulator device sets through
 `simctl` instead of file removal; getting that wrong can corrupt
@@ -267,7 +283,8 @@ CI enforces, and each rule maps to a way this has already gone wrong or could:
 |---|---|
 | No path contains another entry's path | `~/.cache/uv` under `xdg-cache`'s `~/.cache` double-counts bytes in the section total and the bar |
 | `id` unique across all files | Ids key persisted rules and cleaning history |
-| `risk` is an explicit Boolean | Missing or ambiguous safety decisions fail decoding |
+| `risk` is one of the three strings | Missing, unknown, or 2.x Boolean values fail decoding |
+| Every level is used by some entry | A level nothing declares is one the app offers an empty list for |
 | Grant root in the allowlist | An unexpected root changes what the sandboxed build must ask for |
 | Wildcard limits above | Keeps patterns anchored and grant roots static |
 | `symbol` resolves via `NSImage(systemSymbolName:)` | An unknown SF Symbol renders as **nothing**, silently — no placeholder |
@@ -281,7 +298,8 @@ older build of the app.
 ## Consuming it
 
 The app maps `EasySweepCatalog.Entry` to `CleanTarget`; `autoClean` is derived as
-`!risk`. The catalog is a Swift package so
+`risk == .safe` — an allowlist, so a level added here later is excluded from
+automatic cleaning until a consumer decides otherwise. The catalog is a Swift package so
 others can `import` it, but this app pins an exact tag — the pin is the review
 gate, and bumping it is a deliberate act, not a resolution side effect.
 
@@ -301,6 +319,13 @@ Reserve a minor bump (`1.2.x` → `1.3.0`) for a change to the **schema or the
 Swift API** — a new `Entry` field, a new `Category` case, a change to how paths
 resolve. Those are the changes that can fail to compile in a consumer, and the
 version should say so before anyone bumps a pin.
+
+A schema change stays a **minor** bump even when it breaks an older consumer.
+`2.5.0` changed `risk` from a Boolean to one of three strings and refuses the old
+value outright, and it is still a minor: the pin is exact, so no consumer moves
+onto it by accident, and the version's job here is to say "your code may not
+compile against this" — which minor already says. Nothing resolves a range
+against this package, so a major bump would signal to nobody.
 
 **Tags for the app's own downloads are prefixed `app-v`** and are not catalog
 versions. This repository serves the website and the notarized `.dmg` as well as

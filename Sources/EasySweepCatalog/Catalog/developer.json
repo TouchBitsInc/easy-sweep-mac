@@ -72,7 +72,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "hammer.fill"
   },
   {
@@ -148,7 +148,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true
+    "risk": "cautious"
   },
   {
     "id": "tvos-device-support",
@@ -223,7 +223,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true
+    "risk": "cautious"
   },
   {
     "id": "watchos-device-support",
@@ -298,7 +298,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true
+    "risk": "cautious"
   },
   {
     "id": "documentation",
@@ -374,7 +374,7 @@
       "DocumentationCache",
       "DocumentationIndex"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "book.closed.fill"
   },
   {
@@ -451,7 +451,7 @@
       "Products",
       "DeviceLogs"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "shippingbox.fill"
   },
   {
@@ -524,7 +524,7 @@
     "name": "Xcode Downloads",
     "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Developer/DVTDownloads",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "arrow.down.circle.fill"
   },
   {
@@ -597,7 +597,7 @@
     "name": "XcodeBuildMCP Data",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Developer/XcodeBuildMCP",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "terminal.fill"
   },
   {
@@ -670,7 +670,7 @@
     "name": "Xcode Application Cache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Caches/com.apple.dt.Xcode",
-    "risk": false,
+    "risk": "safe",
     "symbol": "externaldrive.fill"
   },
   {
@@ -743,7 +743,7 @@
     "name": "Device Connection Cache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Containers/com.apple.CoreDevice.CoreDeviceService/Data/Library/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "externaldrive.fill"
   },
   {
@@ -816,7 +816,7 @@
     "name": "Apple Configurator Downloads",
     "detail": "Device firmware; downloaded again during future restores.",
     "path": "~/Library/Containers/com.apple.configurator.xpc.DeviceService/Data/tmp",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "cable.connector"
   },
   {
@@ -892,7 +892,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "archivebox.fill"
   },
   {
@@ -965,7 +965,7 @@
     "name": "Simulator Caches",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Developer/CoreSimulator/Caches",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -1041,7 +1041,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "square.on.square"
   },
   {
@@ -1117,7 +1117,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "iphone"
   },
   {
@@ -1190,7 +1190,7 @@
     "name": "Playground Devices",
     "detail": "Simulator data; recreated when simulator devices are removed.",
     "path": "~/Library/Developer/XCPGDevices",
-    "risk": true,
+    "risk": "destructive",
     "symbol": "swift"
   },
   {
@@ -1266,7 +1266,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true
+    "risk": "cautious"
   },
   {
     "id": "swiftpm-cache",
@@ -1338,7 +1338,7 @@
     "name": "Swift Package Manager",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/org.swift.swiftpm",
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.box.fill",
     "color": "#F05138"
   },
@@ -1412,7 +1412,7 @@
     "name": "CocoaPods Cache",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/CocoaPods",
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.box.fill",
     "color": "#EE3322"
   },
@@ -1486,7 +1486,7 @@
     "name": "CocoaPods Spec Repos",
     "detail": "Package repository; cloned again when dependencies resolve.",
     "path": "~/.cocoapods/repos",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "cube.box.fill",
     "color": "#EE3322"
   },
@@ -1560,7 +1560,7 @@
     "name": "Carthage",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/org.carthage.CarthageKit",
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.box.fill"
   },
   {
@@ -1633,7 +1633,7 @@
     "name": "Homebrew",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/Homebrew",
-    "risk": false,
+    "risk": "safe",
     "symbol": "mug.fill",
     "color": "#FBB040"
   },
@@ -1714,7 +1714,7 @@
       "notifications",
       "workers"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.fill",
     "color": "#02303A"
   },
@@ -1792,7 +1792,7 @@
       "cache",
       "build-cache"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.fill",
     "color": "#3DDC84"
   },
@@ -1869,7 +1869,7 @@
     "subfolders": [
       "AndroidStudio*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.fill",
     "color": "#3DDC84"
   },
@@ -1943,7 +1943,7 @@
     "name": "JetBrains IDEs",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Caches/JetBrains",
-    "risk": false,
+    "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right"
   },
   {
@@ -2020,7 +2020,7 @@
       "CachedData",
       "CachedExtensionVSIXs"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "chevron.left.forwardslash.chevron.right",
     "color": "#007ACC"
   },
@@ -2098,7 +2098,7 @@
       "_cacache",
       "_npx"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#CB3837"
   },
@@ -2172,7 +2172,7 @@
     "name": "Yarn",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/Yarn",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#2C8EBB"
   },
@@ -2246,7 +2246,7 @@
     "name": "pnpm",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/pnpm/store",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#F69220"
   },
@@ -2320,7 +2320,7 @@
     "name": "Electron",
     "detail": "Downloaded binaries; fetched again during future builds.",
     "path": "~/Library/Caches/electron",
-    "risk": false,
+    "risk": "safe",
     "symbol": "atom",
     "color": "#47848F"
   },
@@ -2394,7 +2394,7 @@
     "name": "Python pip",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/pip",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#3776AB"
   },
@@ -2468,7 +2468,7 @@
     "name": "Rust Cargo",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.cargo/registry",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -2541,7 +2541,7 @@
     "name": "Go Build Cache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Caches/go-build",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#00ADD8"
   },
@@ -2615,7 +2615,7 @@
     "name": "Maven",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.m2/repository",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox.fill",
     "color": "#C71A36"
   },
@@ -2689,7 +2689,7 @@
     "name": "NuGet",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.nuget/packages",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#004880"
   },
@@ -2763,7 +2763,7 @@
     "name": "Dart & Flutter Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.pub-cache",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox.fill",
     "color": "#0175C2"
   },
@@ -2837,7 +2837,7 @@
     "name": "Bun",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.bun/install/cache",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "deno",
@@ -2909,7 +2909,7 @@
     "name": "Deno",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/deno",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "playwright",
@@ -2981,7 +2981,7 @@
     "name": "Playwright Browsers",
     "detail": "Browser builds; downloaded again during future installs.",
     "path": "~/Library/Caches/ms-playwright",
-    "risk": false,
+    "risk": "safe",
     "color": "#2EAD33"
   },
   {
@@ -3054,7 +3054,7 @@
     "name": "Composer",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.composer/cache",
-    "risk": false,
+    "risk": "safe",
     "color": "#885630"
   },
   {
@@ -3127,7 +3127,7 @@
     "name": "Composer (Library)",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/composer",
-    "risk": false,
+    "risk": "safe",
     "color": "#885630"
   },
   {
@@ -3200,7 +3200,7 @@
     "name": "nvm Downloads",
     "detail": "Downloaded files; fetched again when needed.",
     "path": "~/.nvm/.cache",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "sdkman",
@@ -3276,7 +3276,7 @@
       "archives",
       "tmp"
     ],
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "typescript",
@@ -3348,7 +3348,7 @@
     "name": "TypeScript",
     "detail": "Editor type definitions; downloaded again when requested.",
     "path": "~/Library/Caches/typescript",
-    "risk": false,
+    "risk": "safe",
     "color": "#3178C6"
   },
   {
@@ -3424,7 +3424,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "tray.full.fill"
   },
   {
@@ -3500,7 +3500,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "hammer.fill",
     "color": "#539E43"
   },
@@ -3574,7 +3574,7 @@
     "name": "Playwright Browsers (Go)",
     "detail": "Browser builds; downloaded again during future installs.",
     "path": "~/Library/Caches/ms-playwright-go",
-    "risk": false,
+    "risk": "safe",
     "color": "#2EAD33"
   },
   {
@@ -3651,7 +3651,7 @@
       "downloads",
       "tmp"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -3724,7 +3724,7 @@
     "name": "ccache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Caches/ccache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -3797,7 +3797,7 @@
     "name": "sccache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/Library/Caches/Mozilla.sccache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -3870,7 +3870,7 @@
     "name": "Poetry Cache",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/pypoetry",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#60A5FA"
   },
@@ -3944,7 +3944,7 @@
     "name": "uv Cache",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/uv",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill",
     "color": "#DE5FE9"
   },
@@ -4018,7 +4018,7 @@
     "name": "Vagrant Boxes",
     "detail": "Virtual machine images; downloaded again when needed.",
     "path": "~/.vagrant.d/boxes",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox.fill",
     "color": "#1868F2"
   },
@@ -4092,7 +4092,7 @@
     "name": "Ivy Cache (sbt/Scala)",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.ivy2/cache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox.fill"
   },
   {
@@ -4165,7 +4165,7 @@
     "name": "Expo CLI Cache",
     "detail": "Build cache; regenerated during future builds.",
     "path": "~/.expo",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox.fill"
   },
   {
@@ -4238,7 +4238,7 @@
     "name": "Go Modules",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/go/pkg/mod",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox",
     "color": "#00ADD8"
   },
@@ -4312,7 +4312,7 @@
     "name": "conda Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.conda/pkgs",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox",
     "color": "#44A833"
   },
@@ -4386,7 +4386,7 @@
     "name": "Miniconda Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/miniconda3/pkgs",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox",
     "color": "#44A833"
   },
@@ -4460,7 +4460,7 @@
     "name": "Anaconda Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/anaconda3/pkgs",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox",
     "color": "#44A833"
   },
@@ -4534,7 +4534,7 @@
     "name": "Miniforge Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/miniforge3/pkgs",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox"
   },
   {
@@ -4607,7 +4607,7 @@
     "name": "mise",
     "detail": "Downloaded files; fetched again when needed.",
     "path": "~/Library/Caches/mise",
-    "risk": false,
+    "risk": "safe",
     "symbol": "arrow.triangle.branch"
   },
   {
@@ -4680,7 +4680,7 @@
     "name": "Tart VM Images",
     "detail": "Virtual machine images; downloaded again when needed.",
     "path": "~/.tart/cache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox"
   },
   {
@@ -4753,7 +4753,7 @@
     "name": "Mambaforge Packages",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/mambaforge/pkgs",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox"
   },
   {
@@ -4826,7 +4826,7 @@
     "name": "Lima VM Images",
     "detail": "Virtual machine images; downloaded again when needed.",
     "path": "~/Library/Caches/lima",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox",
     "color": "#5C6BC0"
   },
@@ -4900,7 +4900,7 @@
     "name": "Terraform Providers",
     "detail": "Provider plugins; downloaded again during initialization.",
     "path": "~/.terraform.d/plugin-cache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube.transparent",
     "color": "#844FBA"
   },
@@ -4974,7 +4974,7 @@
     "name": "pnpm Store (home)",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/.pnpm-store",
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox",
     "color": "#F69220"
   },
@@ -5051,7 +5051,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "shippingbox",
     "color": "#5E5086"
   },
@@ -5128,7 +5128,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": false,
+    "risk": "safe",
     "symbol": "cube",
     "color": "#5E5086"
   }

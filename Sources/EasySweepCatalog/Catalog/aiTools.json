@@ -76,7 +76,7 @@
       "shell-snapshots",
       "downloads"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -150,7 +150,7 @@
     "name": "Claude Code npm Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/claude-cli-nodejs",
-    "risk": false,
+    "risk": "safe",
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -224,7 +224,7 @@
     "name": "Gemini CLI Temp",
     "detail": "Temporary files; recreated during normal use.",
     "path": "~/.gemini/tmp",
-    "risk": false,
+    "risk": "safe",
     "symbol": "sparkles",
     "color": "#8E75B2"
   },
@@ -298,7 +298,7 @@
     "name": "Cursor Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.cursor/extensions/.cache",
-    "risk": false,
+    "risk": "safe",
     "symbol": "cursorarrow"
   },
   {
@@ -376,7 +376,7 @@
       "archived_sessions",
       "log"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "text.book.closed.fill"
   },
   {
@@ -454,7 +454,7 @@
       "backups",
       "file-history"
     ],
-    "risk": true,
+    "risk": "destructive",
     "symbol": "sparkle",
     "color": "#D97757"
   },
@@ -528,7 +528,7 @@
     "name": "Windsurf Browser Downloads",
     "detail": "Downloaded files; fetched again when needed.",
     "path": "~/.codeium/ws-browser",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "codex-app-cache",
@@ -600,7 +600,7 @@
     "name": "Codex App Cache",
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/Library/Caches/Codex",
-    "risk": false
+    "risk": "safe"
   },
   {
     "id": "ollama-models",
@@ -672,7 +672,7 @@
     "name": "Ollama Models",
     "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.ollama/models",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "brain"
   },
   {
@@ -745,7 +745,7 @@
     "name": "LM Studio Runtimes",
     "detail": "Downloaded runtimes; redownloaded when needed.",
     "path": "~/.lmstudio/extensions/backends",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox.fill"
   },
   {
@@ -818,7 +818,7 @@
     "name": "Codex Updater",
     "detail": "Installed update files; downloaded with future updates.",
     "path": "~/Library/Caches/com.openai.codex",
-    "risk": false,
+    "risk": "safe",
     "symbol": "arrow.down.circle"
   },
   {
@@ -891,7 +891,7 @@
     "name": "LM Studio Models",
     "detail": "Downloaded models; redownloaded when needed.",
     "path": "~/.lmstudio/models",
-    "risk": true,
+    "risk": "cautious",
     "symbol": "brain"
   },
   {
@@ -967,7 +967,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "clock.arrow.circlepath"
   },
   {
@@ -1043,7 +1043,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox",
     "color": "#D97757"
   },
@@ -1120,7 +1120,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox"
   },
   {
@@ -1196,7 +1196,7 @@
     "subfolders": [
       "*"
     ],
-    "risk": true,
+    "risk": "cautious",
     "symbol": "shippingbox"
   }
 ]
