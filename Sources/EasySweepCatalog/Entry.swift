@@ -29,32 +29,7 @@ extension EasySweepCatalog {
         case messaging
         case multimedia
 
-        /// Whether the section leads the list and stays there.
-        ///
-        /// Pinned means every Mac has it, whatever is installed — so it is not a
-        /// section anyone opts out of, and a consumer should not offer to put it
-        /// away. Everything else describes installed tooling, which a given Mac
-        /// may have no use for.
-        ///
-        /// Published beside the order, and for the same reason: where a section
-        /// sits is a property of what the section *is*. It says nothing about
-        /// what may be deleted.
-        ///
-        /// Exhaustive on purpose. A section added later has to decide.
-        public var isPinned: Bool {
-            switch self {
-            case .system: true
-            case .developer, .aiTools, .browsers, .messaging, .multimedia: false
-            }
-        }
 
-        /// The pinned sections, in order, and everything else in order.
-        ///
-        /// Two lists because the kinds are not interchangeable, and a consumer
-        /// laying out a sidebar needs them apart rather than filtered at each
-        /// use site.
-        public static let pinned: [Category] = allCases.filter(\.isPinned)
-        public static let unpinned: [Category] = allCases.filter { !$0.isPinned }
     }
 
     /// User-facing entry copy keyed by a BCP-47 locale identifier.

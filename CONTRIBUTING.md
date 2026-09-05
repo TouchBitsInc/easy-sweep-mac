@@ -100,13 +100,9 @@ five tools sharing one lifted grey says less than the size-rank palette.
 
 `Category` in `Entry.swift` is the list of sections, and **the case order is the
 order they are shown in** — there is no rank field anywhere else, so moving a
-case moves the section. One thing travels with it: `isPinned`, which marks a
-section that leads the list and stays there because every Mac has it whatever is
-installed. `pinned` and `unpinned` are those two groups. Only `system` is
-pinned; the rest describe installed tooling, which is what makes them reasonable
-for an app to let someone put away. Adding a section means a case, a
-`<rawValue>.json` beside the others, and deciding `isPinned` — the switch is
-exhaustive so it cannot be skipped.
+case moves the section. Consumers use `Category.allCases` for the complete list
+and decide sidebar grouping and visibility themselves. Adding a section means
+a case and a `<rawValue>.json` beside the others.
 
 ### A section's icon
 

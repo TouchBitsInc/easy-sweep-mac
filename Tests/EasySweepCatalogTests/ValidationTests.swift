@@ -38,21 +38,6 @@ struct CatalogValidationTests {
         #expect(EasySweepCatalog.Category.allCases.first == .system)
     }
 
-    /// One section is on every Mac; the rest describe installed tooling, and a
-    /// Mac without that tooling is entitled to put the row away.
-    @Test func systemIsTheOnlyPinnedSection() {
-        #expect(EasySweepCatalog.Category.pinned == [.system])
-    }
-
-    /// The two lists have to stay complementary, or a section is in both places
-    /// or in neither.
-    @Test func pinnedAndUnpinnedCoverEverythingOnce() {
-        let all = EasySweepCatalog.Category.pinned + EasySweepCatalog.Category.unpinned
-        #expect(Set(all) == Set(EasySweepCatalog.Category.allCases))
-        #expect(all.count == EasySweepCatalog.Category.allCases.count)
-        #expect(EasySweepCatalog.Category.unpinned.allSatisfy { !$0.isPinned })
-    }
-
     // MARK: - Identity
 
     @Test func idsAreUniqueAcrossEveryFile() {
