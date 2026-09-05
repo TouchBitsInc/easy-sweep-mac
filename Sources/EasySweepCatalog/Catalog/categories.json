@@ -106,7 +106,7 @@
     }
   },
   "aiTools": {
-    "symbol": "brain",
+    "symbol": "cpu",
     "localizations": {
       "en": {
         "name": "AI Tools"
