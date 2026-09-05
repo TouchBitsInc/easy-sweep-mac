@@ -106,7 +106,7 @@
     }
   },
   "aiTools": {
-    "symbol": "sparkles",
+    "symbol": "brain",
     "localizations": {
       "en": {
         "name": "AI Tools"

@@ -44,7 +44,7 @@ extension EasySweepCatalog.Category {
         // "globe" rather than "safari": the section covers six browsers, and
         // naming it after one of them reads as being about that one.
         case .browsers: "globe"
-        case .aiTools: "sparkles"
+        case .aiTools: "brain"
         // Two bubbles rather than one: the section is about conversations
         // between people, and a single bubble is already how a notification
         // or an alert draws itself.
