@@ -383,6 +383,82 @@
     "symbol": "arrow.down.circle"
   },
   {
+    "id": "ios-device-backups",
+    "name": "Device Backups",
+    "detail": "iPhone and iPad backups; deletion permanently removes restore points.",
+    "path": "~/Library/Application Support/MobileSync/Backup",
+    "subfolders": [
+      "*"
+    ],
+    "risk": "destructive",
+    "symbol": "iphone.and.arrow.forward",
+    "localizations": {
+      "en": {
+        "name": "Device Backups"
+      },
+      "de": {
+        "name": "Gerätebackups",
+        "detail": "iPhone-/iPad-Backups; gelöschte Wiederherstellungspunkte sind nicht wiederherstellbar."
+      },
+      "es": {
+        "name": "Copias de seguridad de dispositivos",
+        "detail": "Copias de iPhone/iPad; los puntos eliminados no se recuperan."
+      },
+      "fr": {
+        "name": "Sauvegardes des appareils",
+        "detail": "Sauvegardes iPhone/iPad ; les points supprimés sont irrécupérables."
+      },
+      "it": {
+        "name": "Backup dei dispositivi",
+        "detail": "Backup iPhone/iPad; i punti eliminati non sono recuperabili."
+      },
+      "ja": {
+        "name": "デバイスのバックアップ",
+        "detail": "iPhoneとiPadのローカルバックアップ。バックアップを削除すると、その時点の状態に復元できなくなります。"
+      },
+      "ko": {
+        "name": "기기 백업",
+        "detail": "iPhone/iPad 백업입니다. 삭제한 복원 시점은 되돌릴 수 없습니다."
+      },
+      "nl": {
+        "name": "Apparaatback-ups",
+        "detail": "iPhone-/iPad-back-ups; verwijderde herstelpunten gaan definitief verloren."
+      },
+      "pl": {
+        "name": "Kopie zapasowe urządzeń",
+        "detail": "Kopie iPhone’a i iPada; usunięte punkty przywracania przepadają bezpowrotnie."
+      },
+      "pt-BR": {
+        "name": "Backups de dispositivos",
+        "detail": "Backups de iPhone/iPad; pontos excluídos não podem ser recuperados."
+      },
+      "ru": {
+        "name": "Резервные копии устройств",
+        "detail": "Копии iPhone/iPad; удалённые точки восстановления нельзя вернуть."
+      },
+      "tr": {
+        "name": "Aygıt yedekleri",
+        "detail": "iPhone/iPad yedekleri; silinen geri yükleme noktaları kurtarılamaz."
+      },
+      "uk": {
+        "name": "Резервні копії пристроїв",
+        "detail": "Копії iPhone/iPad; видалені точки відновлення неможливо повернути."
+      },
+      "zh-Hans": {
+        "name": "设备备份",
+        "detail": "iPhone 和 iPad 的本地备份。删除备份会永久移除该恢复点。"
+      },
+      "zh-Hant": {
+        "name": "裝置備份",
+        "detail": "iPhone 和 iPad 的本機備份。刪除備份會永久移除該還原點。"
+      },
+      "zh-HK": {
+        "name": "裝置備份",
+        "detail": "iPhone 和 iPad 的本機備份。刪除備份會永久移除該還原點。"
+      }
+    }
+  },
+  {
     "id": "device-software-updates",
     "localizations": {
       "en": {
