@@ -3352,82 +3352,6 @@
     "color": "#3178C6"
   },
   {
-    "id": "xdg-cache",
-    "localizations": {
-      "en": {
-        "name": "Shared Tool Cache"
-      },
-      "de": {
-        "name": "Gemeinsamer Tool-Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
-      },
-      "es": {
-        "name": "Caché compartida de herramientas",
-        "detail": "Caché; se reconstruye cuando hace falta."
-      },
-      "fr": {
-        "name": "Cache partagé des outils",
-        "detail": "Cache; recréé si nécessaire."
-      },
-      "it": {
-        "name": "Cache condivisa degli strumenti",
-        "detail": "Cache; ricreata quando serve."
-      },
-      "ja": {
-        "name": "共有ツールキャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
-      },
-      "ko": {
-        "name": "공유 도구 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
-      },
-      "nl": {
-        "name": "Gedeelde toolcache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
-      },
-      "pl": {
-        "name": "Wspólna pamięć narzędzi",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
-      },
-      "pt-BR": {
-        "name": "Cache compartilhado de ferramentas",
-        "detail": "Cache; recriado quando necessário."
-      },
-      "ru": {
-        "name": "Общий кэш инструментов",
-        "detail": "Кэш; создаётся заново при необходимости."
-      },
-      "tr": {
-        "name": "Paylaşılan araç önbelleği",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
-      },
-      "uk": {
-        "name": "Спільний кеш інструментів",
-        "detail": "Кеш; за потреби створюється знову."
-      },
-      "zh-Hans": {
-        "name": "共享工具缓存",
-        "detail": "缓存；需要时会重新生成。"
-      },
-      "zh-Hant": {
-        "name": "共用工具快取",
-        "detail": "快取；需要時會重新產生。"
-      },
-      "zh-HK": {
-        "name": "共用工具快取",
-        "detail": "快取；需要時會重新產生。"
-      }
-    },
-    "name": "Shared Tool Cache",
-    "detail": "Shared tool cache; rebuilt as commands run.",
-    "path": "~/.cache",
-    "subfolders": [
-      "*"
-    ],
-    "risk": "safe",
-    "symbol": "tray.full.fill"
-  },
-  {
     "id": "node-gyp",
     "localizations": {
       "en": {
@@ -5131,5 +5055,309 @@
     "risk": "safe",
     "symbol": "cube",
     "color": "#5E5086"
+  },
+  {
+    "id": "vscode-web-cache",
+    "localizations": {
+      "en": {
+        "name": "VS Code Web Data"
+      },
+      "de": {
+        "name": "VS Code Webdaten",
+        "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+      },
+      "es": {
+        "name": "VS Code Datos web",
+        "detail": "Datos web offline; se actualizan al abrir la app."
+      },
+      "fr": {
+        "name": "VS Code Données web",
+        "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+      },
+      "it": {
+        "name": "VS Code Dati web",
+        "detail": "Dati web offline; aggiornati all’apertura dell’app."
+      },
+      "ja": {
+        "name": "VS Code ウェブデータ",
+        "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+      },
+      "ko": {
+        "name": "VS Code 웹 데이터",
+        "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+      },
+      "nl": {
+        "name": "VS Code Webgegevens",
+        "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+      },
+      "pl": {
+        "name": "VS Code Dane sieciowe",
+        "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+      },
+      "pt-BR": {
+        "name": "VS Code Dados da web",
+        "detail": "Dados web offline; atualizados ao abrir o app."
+      },
+      "ru": {
+        "name": "VS Code Веб-данные",
+        "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+      },
+      "tr": {
+        "name": "VS Code Web verileri",
+        "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+      },
+      "uk": {
+        "name": "VS Code Веб-дані",
+        "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+      },
+      "zh-Hans": {
+        "name": "VS Code 网页数据",
+        "detail": "离线网页数据；打开应用时会更新。"
+      },
+      "zh-Hant": {
+        "name": "VS Code 網頁資料",
+        "detail": "離線網頁資料；開啟 App 時會更新。"
+      },
+      "zh-HK": {
+        "name": "VS Code 網頁資料",
+        "detail": "離線網頁資料；開啟 App 時會更新。"
+      }
+    },
+    "name": "VS Code Web Data",
+    "detail": "Offline web data; refreshed when the app opens.",
+    "path": "~/Library/Application Support/Code",
+    "risk": "cautious",
+    "symbol": "number",
+    "subfolders": [
+      "Cache",
+      "Code Cache",
+      "GPUCache",
+      "GrShaderCache"
+    ]
+  },
+  {
+    "id": "cypress-binaries",
+    "localizations": {
+      "en": {
+        "name": "Cypress Cache"
+      },
+      "de": {
+        "name": "Cypress Cache",
+        "detail": "Testprogramme; vor Tests mit cypress install erneut installieren."
+      },
+      "es": {
+        "name": "Cypress Caché",
+        "detail": "Binarios de pruebas; reinstala con cypress install antes."
+      },
+      "fr": {
+        "name": "Cypress Cache",
+        "detail": "Binaires de test; réinstallez avec cypress install avant utilisation."
+      },
+      "it": {
+        "name": "Cypress Cache",
+        "detail": "Binari di test; reinstalla con cypress install prima."
+      },
+      "ja": {
+        "name": "Cypress キャッシュ",
+        "detail": "テスト用バイナリ。テスト前にcypress installで再インストールしてください。"
+      },
+      "ko": {
+        "name": "Cypress 캐시",
+        "detail": "테스트 바이너리입니다. 테스트 전에 cypress install로 다시 설치하세요."
+      },
+      "nl": {
+        "name": "Cypress Cache",
+        "detail": "Testbestanden; herinstalleer met cypress install vóór het testen."
+      },
+      "pl": {
+        "name": "Cypress Pamięć podręczna",
+        "detail": "Pliki testowe; przed testami zainstaluj przez cypress install."
+      },
+      "pt-BR": {
+        "name": "Cypress Cache",
+        "detail": "Binários de teste; reinstale com cypress install antes."
+      },
+      "ru": {
+        "name": "Cypress Кэш",
+        "detail": "Тестовые бинарники; переустановите через cypress install перед тестированием."
+      },
+      "tr": {
+        "name": "Cypress Önbellek",
+        "detail": "Test dosyaları; testlerden önce cypress install ile yeniden kurun."
+      },
+      "uk": {
+        "name": "Cypress Кеш",
+        "detail": "Тестові бінарники; перевстановіть через cypress install перед тестуванням."
+      },
+      "zh-Hans": {
+        "name": "Cypress 缓存",
+        "detail": "测试程序；测试前请运行 cypress install 重新安装。"
+      },
+      "zh-Hant": {
+        "name": "Cypress 快取",
+        "detail": "測試程式；測試前請執行 cypress install 重新安裝。"
+      },
+      "zh-HK": {
+        "name": "Cypress 快取",
+        "detail": "測試程式；測試前請執行 cypress install 重新安裝。"
+      }
+    },
+    "name": "Cypress Cache",
+    "detail": "Test binaries; reinstall with cypress install before testing.",
+    "path": "~/Library/Caches/Cypress",
+    "risk": "cautious",
+    "symbol": "shippingbox.fill",
+    "subfolders": [
+      "*"
+    ]
+  },
+  {
+    "id": "uv-xdg-cache",
+    "localizations": {
+      "en": {
+        "name": "uv (XDG) Cache"
+      },
+      "de": {
+        "name": "uv (XDG) Cache",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "uv (XDG) Caché",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "uv (XDG) Cache",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "uv (XDG) Cache",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "uv (XDG) キャッシュ",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "uv (XDG) 캐시",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "uv (XDG) Cache",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "uv (XDG) Pamięć podręczna",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "uv (XDG) Cache",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "uv (XDG) Кэш",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "uv (XDG) Önbellek",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "uv (XDG) Кеш",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "uv (XDG) 缓存",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "uv (XDG) 快取",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "uv (XDG) 快取",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "uv (XDG) Cache",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.cache/uv",
+    "risk": "safe",
+    "symbol": "shippingbox.fill"
+  },
+  {
+    "id": "xcode-preview-devices",
+    "localizations": {
+      "en": {
+        "name": "Preview Simulator Devices"
+      },
+      "de": {
+        "name": "Vorschau-Simulatorgeräte",
+        "detail": "Vorschaugeräte; installierte Apps und deren Daten gehen verloren."
+      },
+      "es": {
+        "name": "Simuladores de previsualización",
+        "detail": "Dispositivos de previsualización; se pierden aplicaciones y datos."
+      },
+      "fr": {
+        "name": "Simulateurs d’aperçu",
+        "detail": "Simulateurs d’aperçu; applications installées et données perdues."
+      },
+      "it": {
+        "name": "Simulatori di anteprima",
+        "detail": "Dispositivi anteprima; app installate e relativi dati vengono persi."
+      },
+      "ja": {
+        "name": "プレビュー用シミュレータ",
+        "detail": "プレビュー用デバイス。インストール済みアプリとデータは失われます。"
+      },
+      "ko": {
+        "name": "미리보기 시뮬레이터",
+        "detail": "미리보기 기기입니다. 설치된 앱과 데이터가 삭제됩니다."
+      },
+      "nl": {
+        "name": "Voorbeeldsimulatoren",
+        "detail": "Voorbeeldapparaten; geïnstalleerde apps en hun gegevens gaan verloren."
+      },
+      "pl": {
+        "name": "Symulatory podglądu",
+        "detail": "Urządzenia podglądu; zainstalowane aplikacje i dane zostaną utracone."
+      },
+      "pt-BR": {
+        "name": "Simuladores de prévia",
+        "detail": "Dispositivos de prévia; aplicativos instalados e dados serão perdidos."
+      },
+      "ru": {
+        "name": "Симуляторы предпросмотра",
+        "detail": "Устройства предпросмотра; установленные приложения и их данные удаляются."
+      },
+      "tr": {
+        "name": "Önizleme simülatörleri",
+        "detail": "Önizleme aygıtları; yüklü uygulamalar ve verileri kaybolur."
+      },
+      "uk": {
+        "name": "Симулятори попереднього перегляду",
+        "detail": "Пристрої попереднього перегляду; встановлені програми та дані втрачаються."
+      },
+      "zh-Hans": {
+        "name": "预览模拟器",
+        "detail": "预览设备；已安装的应用及其数据将丢失。"
+      },
+      "zh-Hant": {
+        "name": "預覽模擬器",
+        "detail": "預覽裝置；已安裝的 App 及其資料將遺失。"
+      },
+      "zh-HK": {
+        "name": "預覽模擬器",
+        "detail": "預覽裝置；已安裝的 App 及其資料將遺失。"
+      }
+    },
+    "name": "Preview Simulator Devices",
+    "detail": "Preview devices; installed apps and their data are lost.",
+    "path": "~/Library/Developer/Xcode/UserData/Previews/Simulator Devices",
+    "risk": "destructive",
+    "symbol": "iphone.gen3",
+    "subfolders": [
+      "*"
+    ]
   }
 ]

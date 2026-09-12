@@ -15,7 +15,7 @@ extension EasySweepCatalog {
     /// published, so moving a case here moves the section.
     public enum Category: String, Codable, CaseIterable, Sendable {
         /// Browsers, messaging, media, and AI applications.
-        case everydayApps
+        case appData
         /// Development tools, build caches, and simulator data.
         case developer
         /// System data and shared application caches.
@@ -27,7 +27,7 @@ extension EasySweepCatalog {
             switch rawValue {
             case "system": self = .system
             case "developer": self = .developer
-            case "everydayApps", "aiTools", "browsers", "messaging", "multimedia": self = .everydayApps
+            case "appData", "appdata", "everydayApps", "aiTools", "browsers", "messaging", "multimedia": self = .appData
             default: return nil
             }
         }

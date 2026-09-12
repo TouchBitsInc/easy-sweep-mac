@@ -50,7 +50,10 @@ struct MigrationTests {
         // and called them safe. Cleaning it took every Rust compiler on the
         // machine, the one in use included. Replaced by `rustup-downloads`,
         // which is what the nvm and sdkman entries beside it already do.
-        "rustup-toolchains": "replaced by rustup-downloads"
+        "rustup-toolchains": "replaced by rustup-downloads",
+        "xdg-cache": "replaced by named caches; the parent can contain credentials",
+        "electron-http-caches": "replaced by named application cache locations",
+        "electron-code-caches": "replaced by named application cache locations"
     ]
 
     @Test func nothingPublishedWasRenamedOrDropped() {

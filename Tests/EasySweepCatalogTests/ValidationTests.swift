@@ -34,7 +34,7 @@ struct CatalogValidationTests {
     /// The enum's order is what a consumer reads sections in. Apps leads the
     /// cleanup categories, followed by Developer and System.
     @Test func appsIsTheFirstSection() {
-        #expect(EasySweepCatalog.Category.allCases.first == .everydayApps)
+        #expect(EasySweepCatalog.Category.allCases.first == .appData)
     }
 
     // MARK: - Identity
@@ -337,12 +337,20 @@ struct CatalogValidationTests {
         let risk: EasySweepCatalog.Entry.Risk
     }
 
+    private struct ApplicationSafetyDeclaration: Decodable {
+        let entries: [SafetyDeclaration]
+    }
+
     /// There is no migration layer for the safety schema: every bundled record
     /// must carry the reviewed Boolean explicitly in JSON.
     @Test func everyBundledEntryDeclaresItsSafetyDecision() throws {
         for category in EasySweepCatalog.Category.allCases {
             let data = try #require(EasySweepCatalog.catalogData(in: category))
-            _ = try JSONDecoder().decode([SafetyDeclaration].self, from: data)
+            if category == .appData {
+                _ = try JSONDecoder().decode([ApplicationSafetyDeclaration].self, from: data)
+            } else {
+                _ = try JSONDecoder().decode([SafetyDeclaration].self, from: data)
+            }
         }
     }
 

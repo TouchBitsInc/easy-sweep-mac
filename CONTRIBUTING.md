@@ -37,8 +37,23 @@ Two consequences:
 
 ## Schema
 
-One file per category — `everydayApps.json`, `developer.json`, and
+One file per category — `appData.json`, `developer.json`, and
 `system.json`. App Data combines browsers, messaging, media, and AI tools.
+
+From 2.8.0, `appData.json` contains application objects with `id`, `name`,
+`localizations`, and `entries`. Put each application's cleanup locations inside
+its `entries` array. Each child keeps the entry schema below, its permanent id,
+and its own risk decision. Its name is the short label beneath the app, such as
+"Cache", "Site Data", or "AI Model". The application heading owns the product
+name. There is no separate grouping file and no app-wide deletion path.
+
+`developer.json` and `system.json` remain flat arrays of entries.
+`EasySweepCatalog.all` and `entries(in:)` still return the flattened leaves;
+`applications` exposes the App Data hierarchy. The canonical category is
+`appData`; older saved category strings, including `everydayApps`, still decode.
+
+See [the 2.8 path review](docs/catalog-review-2.8.md) for sources and exclusions
+behind the newly named caches.
 
 ```json
 {
@@ -111,7 +126,7 @@ same id as its entry file:
 
 ```json
 {
-  "everydayApps": { "symbol": "square.stack.3d.up" }
+  "appData": { "symbol": "square.stack.3d.up" }
 }
 ```
 
@@ -167,10 +182,17 @@ automatic cleaning as `risk == "safe"`, and that is the complete signal.
 `simctl` instead of file removal; getting that wrong can corrupt
 CoreSimulator's registry.
 
+The uv entries likewise require the consuming app to call
+`uv --no-config --cache-dir <measured path> cache clean`; do not remove their
+contents directly. Do not offer them where subprocesses cannot run. These
+requirements do not change their data classification, and must not be replaced
+with a file-removal fallback if the owning tool is missing.
+
 ## Paths
 
-**Several locations for one tool is normal.** `paths` is an array; `npm-cache`,
-`yarn-pnpm` and `composer` each name two. Targets whose paths don't exist are
+**Several locations for one tool is normal.** Use separate entries where the
+literal parent differs, such as `composer` and `composer-library`.
+Targets whose paths don't exist are
 hidden automatically, so listing a path that only some setups have is free.
 
 **Versioned directories: name the parent, and give it `["*"]`.** Where the version is
@@ -236,7 +258,7 @@ across the current catalog:
 | Category | Distinct roots |
 |---|---|
 | `system` | 6 |
-| `everydayApps` | 14 |
+| `appData` | 14 |
 | `developer` | 33 |
 
 48 distinct roots in total, with the `Library` ones shared between
@@ -274,7 +296,7 @@ CI enforces, and each rule maps to a way this has already gone wrong or could:
 
 | Check | Why |
 |---|---|
-| No path contains another entry's path | `~/.cache/uv` under `xdg-cache`'s `~/.cache` double-counts bytes in the section total and the bar |
+| No path contains another entry's path | Overlapping entries double-count bytes in the section total and the bar |
 | `id` unique across all files | Ids key persisted rules and cleaning history |
 | `risk` is one of the three strings | Missing, unknown, or 2.x Boolean values fail decoding |
 | Every level is used by some entry | A level nothing declares is one the app offers an empty list for |

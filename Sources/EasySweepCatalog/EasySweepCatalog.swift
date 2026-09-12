@@ -15,6 +15,9 @@ public enum EasySweepCatalog {
     /// newer catalog must not blank an entire section in an older build; a
     /// missing row is a bug, an empty section looks like "nothing to clean".
     public static func entries(in category: Category) -> [Entry] {
+        if category == .appData {
+            return applications.flatMap(\.entries)
+        }
         guard let data = catalogData(in: category) else {
             return []
         }
@@ -40,7 +43,7 @@ public enum EasySweepCatalog {
     }
 
     /// A decoded entry, or nothing if that one record was unreadable.
-    private struct SkippingFailures: Decodable {
+    struct SkippingFailures: Decodable {
         let entry: Entry?
 
         init(from decoder: any Decoder) throws {

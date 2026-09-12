@@ -13,10 +13,17 @@ nothing and asks for no permissions.
 import EasySweepCatalog
 
 for entry in EasySweepCatalog.all {
-    print(entry.name, entry.paths)   // "Homebrew" ["~/Library/Caches/Homebrew"]
+    print(entry.name, entry.path)   // "Homebrew" "~/Library/Caches/Homebrew"
 }
 
 EasySweepCatalog.entries(in: .developer)
+
+for application in EasySweepCatalog.applications {
+    print(application.localizedName())
+    for entry in application.entries {
+        print("  ", entry.localizedName(), entry.risk)
+    }
+}
 ```
 
 The catalog is public because this is the part worth contributing to. Cache
@@ -62,6 +69,13 @@ The short version:
   size per version.
 
 ## Section presentation
+
+`Catalog/appData.json` nests cleanup entries beneath their application names.
+For example, Google Chrome contains Cache, Site Data and AI Model, each with
+its own path and risk. Developer and System use flat entry arrays. The
+flattened `all` and `entries(in: .appData)` APIs keep their existing role.
+Use `application(containing: entry.id)` when a flattened entry needs its app
+name. The former `everydayApps` category string remains a decoding alias.
 
 `Catalog/categories.json` names the SF Symbol and localized title for each
 section. `Category.symbol` returns the configured symbol, falling back to a
