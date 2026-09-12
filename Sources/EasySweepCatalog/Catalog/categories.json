@@ -162,52 +162,52 @@
     "symbol": "square.stack.3d.up",
     "localizations": {
       "en": {
-        "name": "Everyday Apps"
+        "name": "Apps"
       },
       "de": {
-        "name": "Alltags-Apps"
+        "name": "Apps"
       },
       "es": {
-        "name": "Apps cotidianas"
+        "name": "Apps"
       },
       "fr": {
-        "name": "Apps du quotidien"
+        "name": "Apps"
       },
       "it": {
-        "name": "App quotidiane"
+        "name": "App"
       },
       "ja": {
-        "name": "日常のアプリ"
+        "name": "アプリ"
       },
       "ko": {
-        "name": "일상 앱"
+        "name": "앱"
       },
       "nl": {
-        "name": "Dagelijkse apps"
+        "name": "Apps"
       },
       "pl": {
-        "name": "Codzienne aplikacje"
+        "name": "Aplikacje"
       },
       "pt-BR": {
-        "name": "Apps do dia a dia"
+        "name": "Apps"
       },
       "ru": {
-        "name": "Повседневные приложения"
+        "name": "Приложения"
       },
       "tr": {
-        "name": "Günlük Uygulamalar"
+        "name": "Uygulamalar"
       },
       "uk": {
-        "name": "Повсякденні програми"
+        "name": "Програми"
       },
       "zh-Hans": {
-        "name": "日常应用"
+        "name": "应用"
       },
       "zh-Hant": {
-        "name": "日常應用程式"
+        "name": "應用程式"
       },
       "zh-HK": {
-        "name": "日常 App"
+        "name": "App"
       }
     }
   }

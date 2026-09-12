@@ -38,7 +38,7 @@ Two consequences:
 ## Schema
 
 One file per category — `system.json`, `developer.json`, `aiTools.json`,
-`everydayApps.json`. Everyday Apps combines browsers, messaging, and media.
+`everydayApps.json`. Apps combines browsers, messaging, and media.
 
 ```json
 {
