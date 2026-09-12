@@ -77,6 +77,11 @@ flattened `all` and `entries(in: .appData)` APIs keep their existing role.
 Use `application(containing: entry.id)` when a flattened entry needs its app
 name. The former `everydayApps` category string remains a decoding alias.
 
+From 2.8.1, the original Swift enum case `.everydayApps` is retained so existing
+2.x exhaustive switches compile. `.appData` is an alias for that same case;
+both encode as `"appData"` and load `appData.json`. When switching exhaustively,
+use `case .everydayApps` alongside `.developer` and `.system`.
+
 `Catalog/categories.json` names the SF Symbol and localized title for each
 section. `Category.symbol` returns the configured symbol, falling back to a
 compiled-in name if it doesn't exist on the running macOS. `Category.localizedName(for:)`

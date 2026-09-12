@@ -3,6 +3,24 @@ import Testing
 @testable import EasySweepCatalog
 
 struct CategoryMergeTests {
+    @Test func originalSwiftCaseAndExhaustiveSwitchRemainCompatible() throws {
+        // A static everydayApps alias would allow assignments but still break
+        // an exhaustive switch compiled by a 2.7.x consumer.
+        func legacyLabel(_ category: EasySweepCatalog.Category) -> String {
+            switch category {
+            case .everydayApps: "Apps"
+            case .developer: "Developer"
+            case .system: "System"
+            }
+        }
+        #expect(legacyLabel(.appData) == "Apps")
+        #expect(EasySweepCatalog.Category.everydayApps == .appData)
+        #expect(EasySweepCatalog.Category.appData.rawValue == "appData")
+        #expect(EasySweepCatalog.Category.allCases.count == 3)
+        let encoded = try JSONEncoder().encode(EasySweepCatalog.Category.everydayApps)
+        #expect(try JSONDecoder().decode(String.self, from: encoded) == "appData")
+    }
+
     @Test(arguments: ["browsers", "messaging", "multimedia", "aiTools", "everydayApps"])
     func savedCategoriesResolveToEverydayApps(_ key: String) throws {
         #expect(EasySweepCatalog.Category(rawValue: key) == .appData)

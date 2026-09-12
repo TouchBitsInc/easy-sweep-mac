@@ -14,12 +14,17 @@ extension EasySweepCatalog {
     /// consumer shows its sections in, and this enum is the only place it is
     /// published, so moving a case here moves the section.
     public enum Category: String, Codable, CaseIterable, Sendable {
-        /// Browsers, messaging, media, and AI applications.
-        case appData
+        /// Browsers, messaging, media, and AI applications. The original case
+        /// name preserves exhaustive switches written against the 2.x API.
+        case everydayApps = "appData"
         /// Development tools, build caches, and simulator data.
         case developer
         /// System data and shared application caches.
         case system
+
+        /// The current category spelling. It shares the original enum case so
+        /// existing switches stay exhaustive; encoding and resources use appData.
+        public static var appData: Self { .everydayApps }
 
         /// Saved category ids and links from before the 2.6.0 regrouping still
         /// resolve, while allCases exposes only the three current sections.
