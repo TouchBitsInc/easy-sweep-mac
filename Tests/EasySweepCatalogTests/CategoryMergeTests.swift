@@ -14,7 +14,7 @@ struct CategoryMergeTests {
     }
 
     @Test func threeSectionsIncludeAllApps() {
-        #expect(EasySweepCatalog.Category.allCases == [.system, .everydayApps, .developer])
+        #expect(EasySweepCatalog.Category.allCases == [.everydayApps, .developer, .system])
         let entries = EasySweepCatalog.entries(in: .everydayApps)
         #expect(entries.count == 81)
         let ids = Set(entries.map(\.id))

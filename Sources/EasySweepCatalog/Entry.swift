@@ -14,18 +14,12 @@ extension EasySweepCatalog {
     /// consumer shows its sections in, and this enum is the only place it is
     /// published, so moving a case here moves the section.
     public enum Category: String, Codable, CaseIterable, Sendable {
-        /// macOS's own regenerable data, and the caches of apps that fit none of
-        /// the tool sections below. Deliberately one section rather than two: an
-        /// app's cache and the system's are the same kind of thing to a user
-        /// clearing space, and `risk` is what separates a wallpaper that
-        /// re-downloads from a chat cache holding received media.
-        ///
-        /// First, because it is the one section on every Mac. The rest describe
-        /// an installed toolchain.
-        case system
         /// Browsers, messaging, media, and AI applications.
         case everydayApps
+        /// Development tools, build caches, and simulator data.
         case developer
+        /// System data and shared application caches.
+        case system
 
         /// Saved category ids and links from before the 2.6.0 regrouping still
         /// resolve, while allCases exposes only the three current sections.

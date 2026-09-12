@@ -1,57 +1,4 @@
 {
-  "system": {
-    "symbol": "laptopcomputer",
-    "localizations": {
-      "en": {
-        "name": "System"
-      },
-      "de": {
-        "name": "System"
-      },
-      "es": {
-        "name": "Sistema"
-      },
-      "fr": {
-        "name": "Système"
-      },
-      "it": {
-        "name": "Sistema"
-      },
-      "ja": {
-        "name": "システム"
-      },
-      "ko": {
-        "name": "시스템"
-      },
-      "nl": {
-        "name": "Systeem"
-      },
-      "pl": {
-        "name": "System"
-      },
-      "pt-BR": {
-        "name": "Sistema"
-      },
-      "ru": {
-        "name": "Система"
-      },
-      "tr": {
-        "name": "Sistem"
-      },
-      "uk": {
-        "name": "Система"
-      },
-      "zh-Hans": {
-        "name": "系统"
-      },
-      "zh-Hant": {
-        "name": "系統"
-      },
-      "zh-HK": {
-        "name": "系統"
-      }
-    }
-  },
   "everydayApps": {
     "symbol": "square.stack.3d.up",
     "localizations": {
@@ -155,6 +102,59 @@
       },
       "zh-HK": {
         "name": "開發"
+      }
+    }
+  },
+  "system": {
+    "symbol": "laptopcomputer",
+    "localizations": {
+      "en": {
+        "name": "System"
+      },
+      "de": {
+        "name": "System"
+      },
+      "es": {
+        "name": "Sistema"
+      },
+      "fr": {
+        "name": "Système"
+      },
+      "it": {
+        "name": "Sistema"
+      },
+      "ja": {
+        "name": "システム"
+      },
+      "ko": {
+        "name": "시스템"
+      },
+      "nl": {
+        "name": "Systeem"
+      },
+      "pl": {
+        "name": "System"
+      },
+      "pt-BR": {
+        "name": "Sistema"
+      },
+      "ru": {
+        "name": "Система"
+      },
+      "tr": {
+        "name": "Sistem"
+      },
+      "uk": {
+        "name": "Система"
+      },
+      "zh-Hans": {
+        "name": "系统"
+      },
+      "zh-Hant": {
+        "name": "系統"
+      },
+      "zh-HK": {
+        "name": "系統"
       }
     }
   }

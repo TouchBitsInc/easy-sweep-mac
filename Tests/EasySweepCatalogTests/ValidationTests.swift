@@ -31,11 +31,10 @@ struct CatalogValidationTests {
         #expect(entries.count >= 40)
     }
 
-    /// The enum's order is what a consumer reads sections in, and System leads
-    /// it — the one section that is on every Mac rather than describing a
-    /// toolchain. Pinned because nothing else would notice it moving.
-    @Test func systemIsTheFirstSection() {
-        #expect(EasySweepCatalog.Category.allCases.first == .system)
+    /// The enum's order is what a consumer reads sections in. Apps leads the
+    /// cleanup categories, followed by Developer and System.
+    @Test func appsIsTheFirstSection() {
+        #expect(EasySweepCatalog.Category.allCases.first == .everydayApps)
     }
 
     // MARK: - Identity
