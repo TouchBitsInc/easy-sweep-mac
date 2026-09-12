@@ -3,52 +3,52 @@
     "symbol": "square.stack.3d.up",
     "localizations": {
       "en": {
-        "name": "Apps"
+        "name": "App Data"
       },
       "de": {
-        "name": "Apps"
+        "name": "App-Daten"
       },
       "es": {
-        "name": "Apps"
+        "name": "Datos de apps"
       },
       "fr": {
-        "name": "Apps"
+        "name": "Données des apps"
       },
       "it": {
-        "name": "App"
+        "name": "Dati delle app"
       },
       "ja": {
-        "name": "アプリ"
+        "name": "アプリデータ"
       },
       "ko": {
-        "name": "앱"
+        "name": "앱 데이터"
       },
       "nl": {
-        "name": "Apps"
+        "name": "Appgegevens"
       },
       "pl": {
-        "name": "Aplikacje"
+        "name": "Dane aplikacji"
       },
       "pt-BR": {
-        "name": "Apps"
+        "name": "Dados de apps"
       },
       "ru": {
-        "name": "Приложения"
+        "name": "Данные приложений"
       },
       "tr": {
-        "name": "Uygulamalar"
+        "name": "Uygulama Verileri"
       },
       "uk": {
-        "name": "Програми"
+        "name": "Дані програм"
       },
       "zh-Hans": {
-        "name": "应用"
+        "name": "应用数据"
       },
       "zh-Hant": {
-        "name": "應用程式"
+        "name": "應用程式資料"
       },
       "zh-HK": {
-        "name": "App"
+        "name": "App 資料"
       }
     }
   },
