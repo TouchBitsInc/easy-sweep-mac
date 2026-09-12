@@ -41,7 +41,6 @@ extension EasySweepCatalog.Category {
         switch self {
         case .system: "laptopcomputer"
         case .developer: "hammer"
-        case .aiTools: "cpu"
         case .everydayApps: "square.stack.3d.up"
         }
     }

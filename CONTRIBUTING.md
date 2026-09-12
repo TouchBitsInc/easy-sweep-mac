@@ -37,8 +37,8 @@ Two consequences:
 
 ## Schema
 
-One file per category — `system.json`, `developer.json`, `aiTools.json`,
-`everydayApps.json`. Apps combines browsers, messaging, and media.
+One file per category — `system.json`, `everydayApps.json`, and
+`developer.json`. Apps combines browsers, messaging, media, and AI tools.
 
 ```json
 {
@@ -230,22 +230,21 @@ segments — the root has to be computable without touching the disk.
 
 ### Categories are not grant roots
 
-The four sections are a reading order, not a permission boundary. Measured
+The three sections are a reading order, not a permission boundary. Measured
 across the current catalog:
 
 | Category | Distinct roots |
 |---|---|
 | `system` | 6 |
+| `everydayApps` | 14 |
 | `developer` | 33 |
-| `aiTools` | 10 |
-| `everydayApps` | 5 |
 
 48 distinct roots in total, with the `Library` ones shared between
 sections. Making each section one folder would mean dozens of sections, most of
 them holding a single row, so the sections stay as they are and the **sandboxed
 build ships a subset instead**:
 
-- **Free build** — unsandboxed, all four sections, every root.
+- **Free build** — unsandboxed, all three sections, every root.
 - **Mac App Store build** — only roots obtainable with one grant each:
   `Library/Developer`, `Library/Caches`, `~/.cache`. Entries under dot-directory
   roots are not offered at all.

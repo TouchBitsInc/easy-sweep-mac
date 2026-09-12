@@ -23,19 +23,17 @@ extension EasySweepCatalog {
         /// First, because it is the one section on every Mac. The rest describe
         /// an installed toolchain.
         case system
-        case developer
-        case aiTools
-        /// Browsers, messaging clients, and media applications.
+        /// Browsers, messaging, media, and AI applications.
         case everydayApps
+        case developer
 
         /// Saved category ids and links from before the 2.6.0 regrouping still
-        /// resolve, while allCases exposes only the four current sections.
+        /// resolve, while allCases exposes only the three current sections.
         public init?(rawValue: String) {
             switch rawValue {
             case "system": self = .system
             case "developer": self = .developer
-            case "aiTools": self = .aiTools
-            case "everydayApps", "browsers", "messaging", "multimedia": self = .everydayApps
+            case "everydayApps", "aiTools", "browsers", "messaging", "multimedia": self = .everydayApps
             default: return nil
             }
         }

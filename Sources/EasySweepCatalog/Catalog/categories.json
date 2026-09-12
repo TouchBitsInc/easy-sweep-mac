@@ -52,112 +52,6 @@
       }
     }
   },
-  "developer": {
-    "symbol": "hammer",
-    "localizations": {
-      "en": {
-        "name": "Developer"
-      },
-      "de": {
-        "name": "Entwickler"
-      },
-      "es": {
-        "name": "Desarrollo"
-      },
-      "fr": {
-        "name": "Développement"
-      },
-      "it": {
-        "name": "Sviluppo"
-      },
-      "ja": {
-        "name": "開発"
-      },
-      "ko": {
-        "name": "개발"
-      },
-      "nl": {
-        "name": "Ontwikkeling"
-      },
-      "pl": {
-        "name": "Deweloper"
-      },
-      "pt-BR": {
-        "name": "Desenvolvimento"
-      },
-      "ru": {
-        "name": "Разработка"
-      },
-      "tr": {
-        "name": "Geliştirici"
-      },
-      "uk": {
-        "name": "Розробка"
-      },
-      "zh-Hans": {
-        "name": "开发"
-      },
-      "zh-Hant": {
-        "name": "開發"
-      },
-      "zh-HK": {
-        "name": "開發"
-      }
-    }
-  },
-  "aiTools": {
-    "symbol": "cpu",
-    "localizations": {
-      "en": {
-        "name": "AI Tools"
-      },
-      "de": {
-        "name": "KI-Tools"
-      },
-      "es": {
-        "name": "Herramientas de IA"
-      },
-      "fr": {
-        "name": "Outils d’IA"
-      },
-      "it": {
-        "name": "Strumenti IA"
-      },
-      "ja": {
-        "name": "AIツール"
-      },
-      "ko": {
-        "name": "AI 도구"
-      },
-      "nl": {
-        "name": "AI-tools"
-      },
-      "pl": {
-        "name": "Narzędzia AI"
-      },
-      "pt-BR": {
-        "name": "Ferramentas de IA"
-      },
-      "ru": {
-        "name": "AI-инструменты"
-      },
-      "tr": {
-        "name": "AI Araçları"
-      },
-      "uk": {
-        "name": "AI-інструменти"
-      },
-      "zh-Hans": {
-        "name": "AI 工具"
-      },
-      "zh-Hant": {
-        "name": "AI 工具"
-      },
-      "zh-HK": {
-        "name": "AI 工具"
-      }
-    }
-  },
   "everydayApps": {
     "symbol": "square.stack.3d.up",
     "localizations": {
@@ -208,6 +102,59 @@
       },
       "zh-HK": {
         "name": "App"
+      }
+    }
+  },
+  "developer": {
+    "symbol": "hammer",
+    "localizations": {
+      "en": {
+        "name": "Developer"
+      },
+      "de": {
+        "name": "Entwickler"
+      },
+      "es": {
+        "name": "Desarrollo"
+      },
+      "fr": {
+        "name": "Développement"
+      },
+      "it": {
+        "name": "Sviluppo"
+      },
+      "ja": {
+        "name": "開発"
+      },
+      "ko": {
+        "name": "개발"
+      },
+      "nl": {
+        "name": "Ontwikkeling"
+      },
+      "pl": {
+        "name": "Deweloper"
+      },
+      "pt-BR": {
+        "name": "Desenvolvimento"
+      },
+      "ru": {
+        "name": "Разработка"
+      },
+      "tr": {
+        "name": "Geliştirici"
+      },
+      "uk": {
+        "name": "Розробка"
+      },
+      "zh-Hans": {
+        "name": "开发"
+      },
+      "zh-Hant": {
+        "name": "開發"
+      },
+      "zh-HK": {
+        "name": "開發"
       }
     }
   }
