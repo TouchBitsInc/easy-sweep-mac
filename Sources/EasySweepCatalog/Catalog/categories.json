@@ -106,7 +106,7 @@
     }
   },
   "system": {
-    "symbol": "laptopcomputer",
+    "symbol": "gearshape",
     "localizations": {
       "en": {
         "name": "System"

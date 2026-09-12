@@ -39,7 +39,7 @@ extension EasySweepCatalog.Category {
     /// rather than inherit a placeholder.
     public var builtInSymbol: String {
         switch self {
-        case .system: "laptopcomputer"
+        case .system: "gearshape"
         case .developer: "hammer"
         case .everydayApps: "square.stack.3d.up"
         }
