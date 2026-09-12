@@ -43,8 +43,8 @@ struct ApplicationTests {
         #expect(app.entries.map(\.id) == ["cache"])
     }
 
-    @Test(arguments: ["appData", "appdata", "everydayApps", "browsers", "messaging", "multimedia", "aiTools"])
-    func categoryAliasesEncodeToTheNewName(_ name: String) throws {
+    @Test(arguments: ["appData"])
+    func appDataRoundTrips(_ name: String) throws {
         let category = try JSONDecoder().decode(EasySweepCatalog.Category.self, from: JSONEncoder().encode(name))
         #expect(category == .appData)
         #expect(try JSONDecoder().decode(String.self, from: JSONEncoder().encode(category)) == "appData")

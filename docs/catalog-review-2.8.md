@@ -65,7 +65,7 @@ remain cautious.
 
 ## Validation boundaries
 
-Package tests check nested decoding, group identity, translations, legacy
+Package tests check nested decoding, group identity, translations, current
 category aliases, risk declarations, and bounded resolution against fixtures.
 The fixtures include credentials, unknown applications and local data that must
 never resolve as cleanup paths. Tests do not delete real application data.

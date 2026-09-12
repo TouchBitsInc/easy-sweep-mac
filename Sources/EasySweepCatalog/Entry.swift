@@ -14,29 +14,12 @@ extension EasySweepCatalog {
     /// consumer shows its sections in, and this enum is the only place it is
     /// published, so moving a case here moves the section.
     public enum Category: String, Codable, CaseIterable, Sendable {
-        /// Browsers, messaging, media, and AI applications. The original case
-        /// name preserves exhaustive switches written against the 2.x API.
-        case everydayApps = "appData"
+        /// Browsers, messaging, media, and AI applications.
+        case appData
         /// Development tools, build caches, and simulator data.
         case developer
         /// System data and shared application caches.
         case system
-
-        /// The current category spelling. It shares the original enum case so
-        /// existing switches stay exhaustive; encoding and resources use appData.
-        public static var appData: Self { .everydayApps }
-
-        /// Saved category ids and links from before the 2.6.0 regrouping still
-        /// resolve, while allCases exposes only the three current sections.
-        public init?(rawValue: String) {
-            switch rawValue {
-            case "system": self = .system
-            case "developer": self = .developer
-            case "appData", "appdata", "everydayApps", "aiTools", "browsers", "messaging", "multimedia": self = .appData
-            default: return nil
-            }
-        }
-
     }
 
     /// User-facing entry copy keyed by a BCP-47 locale identifier.
@@ -52,12 +35,8 @@ extension EasySweepCatalog {
 
     /// One cleanable location, as published in the catalog.
     ///
-    /// **One path, and either the folder itself or what to take inside it.** A
-    /// multi-path entry used to be possible, which meant an entry could span two
-    /// folders a sandboxed consumer has to be granted separately — half-usable,
-    /// with no honest way to show that on one row. Now the shape says it: one
-    /// literal `path`, so the grant root is the path, and `subfolders` for
-    /// anything narrower.
+    /// One literal `path` anchors the location; `subfolders` selects narrower
+    /// targets beneath it. The grant root is derived from that literal path.
     ///
     /// `risk` is the single cleaning decision, and it has three values — see
     /// `Entry.Risk`. Every entry must declare it.
@@ -77,7 +56,7 @@ extension EasySweepCatalog {
         /// What to take inside `path`, as patterns relative to it.
         ///
         /// - **Empty** means the folder itself is the target, one row.
-        /// - **`["*"]`** means every child, a row each — what `granular` meant.
+        /// - **`["*"]`** means every child, a row each.
         /// - **A list** names children, a row each. A single `*` may appear in
         ///   any segment (`*/Code Cache`), because `path` already supplies the
         ///   literal anchor.
@@ -85,11 +64,6 @@ extension EasySweepCatalog {
         /// Subfolders are *rows*: whatever is listed here is what the user ticks.
         public let subfolders: [String]
         /// What cleaning this costs the person who owns the machine.
-        ///
-        /// Three values rather than the Boolean this was through 2.x, because
-        /// "needs confirming" was answering two different questions at once. A
-        /// downloaded language model and a folder of session transcripts both
-        /// required confirmation, and only one of them comes back.
         ///
         /// The values are about **consequence**, not about how nervous anyone
         /// feels. Pick by asking what the user has to do to undo the deletion:
@@ -134,7 +108,7 @@ extension EasySweepCatalog {
         /// brand.
         public let color: String?
         /// Localized name and explanation. English remains in `name` and
-        /// `detail` so older consumers can read newer catalog files.
+        /// `detail` as the default language.
         public let localizations: [String: LocalizedContent]
 
         public init(
@@ -166,23 +140,6 @@ extension EasySweepCatalog {
             detail = try container.decode(String.self, forKey: .detail)
             path = try container.decode(String.self, forKey: .path)
             subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
-            // 2.5.0 made this a string. A file still carrying the 2.x Boolean is
-            // refused by name rather than by a type mismatch, because "expected
-            // String found Bool" sends a contributor looking at the wrong thing —
-            // and because guessing a level for them is the one thing this must not
-            // do. `true` covered both `cautious` and `destructive`.
-            if let legacy = try? container.decode(Bool.self, forKey: .risk) {
-                throw DecodingError.dataCorruptedError(
-                    forKey: .risk,
-                    in: container,
-                    debugDescription: """
-                        risk is \(legacy), a 2.x boolean. It takes "safe", "cautious" or \
-                        "destructive" from 2.5.0. false was always "safe"; true was either \
-                        "cautious" (comes back at a cost) or "destructive" (does not come \
-                        back), and only a person can say which this entry is.
-                        """
-                )
-            }
             risk = try container.decode(Risk.self, forKey: .risk)
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             color = try container.decodeIfPresent(String.self, forKey: .color)
@@ -203,7 +160,7 @@ extension EasySweepCatalog {
         }
 
         /// Whether the user picks among children rather than taking the whole
-        /// folder. What `granular` used to say, now derived from the shape.
+        /// folder, derived from the subfolder patterns.
         public var isGranular: Bool { !subfolders.isEmpty }
     }
 }

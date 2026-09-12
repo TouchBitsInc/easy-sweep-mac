@@ -294,16 +294,11 @@ struct CatalogValidationTests {
         }
     }
 
-    /// The 2.x Boolean is refused, and says what to write instead.
-    ///
-    /// A hard break: `true` meant both "comes back at a cost" and "does not come
-    /// back", so there is no mapping this package could apply that would not be
-    /// guessing at somebody's data.
-    @Test func theOldBooleanIsRefusedWithAnExplanation() {
-        for legacy in ["true", "false"] {
+    @Test func invalidRiskTypesAreRejected() {
+        for invalid in ["true", "false", "3"] {
             let json = """
             {"id":"example","name":"Example","detail":"Rebuilt on use.",
-             "path":"~/Library/Caches/example","risk":\(legacy)}
+             "path":"~/Library/Caches/example","risk":\(invalid)}
             """
             #expect(throws: DecodingError.self) {
                 try JSONDecoder().decode(EasySweepCatalog.Entry.self, from: Data(json.utf8))
@@ -341,8 +336,7 @@ struct CatalogValidationTests {
         let entries: [SafetyDeclaration]
     }
 
-    /// There is no migration layer for the safety schema: every bundled record
-    /// must carry the reviewed Boolean explicitly in JSON.
+    /// Every bundled record must declare its reviewed risk explicitly in JSON.
     @Test func everyBundledEntryDeclaresItsSafetyDecision() throws {
         for category in EasySweepCatalog.Category.allCases {
             let data = try #require(EasySweepCatalog.catalogData(in: category))

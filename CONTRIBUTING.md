@@ -50,11 +50,9 @@ name. There is no separate grouping file and no app-wide deletion path.
 `developer.json` and `system.json` remain flat arrays of entries.
 `EasySweepCatalog.all` and `entries(in:)` still return the flattened leaves;
 `applications` exposes the App Data hierarchy. The canonical category is
-`appData`; older saved category strings, including `everydayApps`, still decode.
+`appData`.
 
-Keep the Swift enum case `everydayApps` for source compatibility with exhaustive
-2.x switches. The `appData` alias and the case's raw value provide the current
-spelling without introducing a fourth category.
+Use `appData` as the Swift enum case, resource filename, and encoded category ID.
 
 See [the 2.8 path review](docs/catalog-review-2.8.md) for sources and exclusions
 behind the newly named caches.

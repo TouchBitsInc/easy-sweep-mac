@@ -41,7 +41,7 @@ extension EasySweepCatalog.Category {
         switch self {
         case .system: "gearshape"
         case .developer: "hammer"
-        case .everydayApps: "square.stack.3d.up"
+        case .appData: "square.stack.3d.up"
         }
     }
 }

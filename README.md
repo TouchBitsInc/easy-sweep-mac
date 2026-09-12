@@ -75,12 +75,10 @@ For example, Google Chrome contains Cache, Site Data and AI Model, each with
 its own path and risk. Developer and System use flat entry arrays. The
 flattened `all` and `entries(in: .appData)` APIs keep their existing role.
 Use `application(containing: entry.id)` when a flattened entry needs its app
-name. The former `everydayApps` category string remains a decoding alias.
+name.
 
-From 2.8.1, the original Swift enum case `.everydayApps` is retained so existing
-2.x exhaustive switches compile. `.appData` is an alias for that same case;
-both encode as `"appData"` and load `appData.json`. When switching exhaustively,
-use `case .everydayApps` alongside `.developer` and `.system`.
+Use `.appData` in Swift, including exhaustive switches. It encodes as
+`"appData"` and loads `appData.json`.
 
 `Catalog/categories.json` names the SF Symbol and localized title for each
 section. `Category.symbol` returns the configured symbol, falling back to a
@@ -93,7 +91,7 @@ than a fixed set of language fields. That keeps adding a supported language
 data-only, and leaves room for more localized presentation fields later without
 changing the top-level category shape.
 
-Each catalog entry keeps English in `name` and `detail` for compatibility and
+Each catalog entry keeps English in `name` and `detail` and
 stores translated copy in its own `localizations` map. Use
 `Entry.localizedName(for:)` and `Entry.localizedDetail(for:)`; locale matching
 accepts regional and script variants before falling back to English.
