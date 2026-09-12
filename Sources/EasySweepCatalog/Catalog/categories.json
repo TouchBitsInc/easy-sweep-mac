@@ -158,162 +158,56 @@
       }
     }
   },
-  "browsers": {
-    "symbol": "globe",
+  "everydayApps": {
+    "symbol": "square.stack.3d.up",
     "localizations": {
       "en": {
-        "name": "Browsers"
+        "name": "Everyday Apps"
       },
       "de": {
-        "name": "Browser"
+        "name": "Alltags-Apps"
       },
       "es": {
-        "name": "Navegadores"
+        "name": "Apps cotidianas"
       },
       "fr": {
-        "name": "Navigateurs"
+        "name": "Apps du quotidien"
       },
       "it": {
-        "name": "Browser"
+        "name": "App quotidiane"
       },
       "ja": {
-        "name": "ブラウザ"
+        "name": "日常のアプリ"
       },
       "ko": {
-        "name": "브라우저"
+        "name": "일상 앱"
       },
       "nl": {
-        "name": "Browsers"
+        "name": "Dagelijkse apps"
       },
       "pl": {
-        "name": "Przeglądarki"
+        "name": "Codzienne aplikacje"
       },
       "pt-BR": {
-        "name": "Navegadores"
+        "name": "Apps do dia a dia"
       },
       "ru": {
-        "name": "Браузеры"
+        "name": "Повседневные приложения"
       },
       "tr": {
-        "name": "Tarayıcılar"
+        "name": "Günlük Uygulamalar"
       },
       "uk": {
-        "name": "Браузери"
+        "name": "Повсякденні програми"
       },
       "zh-Hans": {
-        "name": "浏览器"
+        "name": "日常应用"
       },
       "zh-Hant": {
-        "name": "瀏覽器"
+        "name": "日常應用程式"
       },
       "zh-HK": {
-        "name": "瀏覽器"
-      }
-    }
-  },
-  "messaging": {
-    "symbol": "bubble.left.and.bubble.right",
-    "localizations": {
-      "en": {
-        "name": "Messaging"
-      },
-      "de": {
-        "name": "Nachrichten"
-      },
-      "es": {
-        "name": "Mensajería"
-      },
-      "fr": {
-        "name": "Messagerie"
-      },
-      "it": {
-        "name": "Messaggi"
-      },
-      "ja": {
-        "name": "メッセージ"
-      },
-      "ko": {
-        "name": "메시지"
-      },
-      "nl": {
-        "name": "Berichten"
-      },
-      "pl": {
-        "name": "Komunikatory"
-      },
-      "pt-BR": {
-        "name": "Mensagens"
-      },
-      "ru": {
-        "name": "Мессенджеры"
-      },
-      "tr": {
-        "name": "Mesajlaşma"
-      },
-      "uk": {
-        "name": "Месенджери"
-      },
-      "zh-Hans": {
-        "name": "聊天"
-      },
-      "zh-Hant": {
-        "name": "聊天"
-      },
-      "zh-HK": {
-        "name": "聊天"
-      }
-    }
-  },
-  "multimedia": {
-    "symbol": "movieclapper",
-    "localizations": {
-      "en": {
-        "name": "Media"
-      },
-      "de": {
-        "name": "Medien"
-      },
-      "es": {
-        "name": "Multimedia"
-      },
-      "fr": {
-        "name": "Médias"
-      },
-      "it": {
-        "name": "Multimedia"
-      },
-      "ja": {
-        "name": "メディア"
-      },
-      "ko": {
-        "name": "미디어"
-      },
-      "nl": {
-        "name": "Media"
-      },
-      "pl": {
-        "name": "Multimedia"
-      },
-      "pt-BR": {
-        "name": "Mídia"
-      },
-      "ru": {
-        "name": "Мультимедиа"
-      },
-      "tr": {
-        "name": "Medya"
-      },
-      "uk": {
-        "name": "Мультимедіа"
-      },
-      "zh-Hans": {
-        "name": "媒体"
-      },
-      "zh-Hant": {
-        "name": "媒體"
-      },
-      "zh-HK": {
-        "name": "媒體"
+        "name": "日常 App"
       }
     }
   }

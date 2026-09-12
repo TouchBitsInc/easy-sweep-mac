@@ -25,10 +25,20 @@ extension EasySweepCatalog {
         case system
         case developer
         case aiTools
-        case browsers
-        case messaging
-        case multimedia
+        /// Browsers, messaging clients, and media applications.
+        case everydayApps
 
+        /// Saved category ids and links from before the 2.6.0 regrouping still
+        /// resolve, while allCases exposes only the four current sections.
+        public init?(rawValue: String) {
+            switch rawValue {
+            case "system": self = .system
+            case "developer": self = .developer
+            case "aiTools": self = .aiTools
+            case "everydayApps", "browsers", "messaging", "multimedia": self = .everydayApps
+            default: return nil
+            }
+        }
 
     }
 
