@@ -2909,7 +2909,12 @@
     "name": "Deno",
     "detail": "Package cache; downloaded again when projects need it.",
     "path": "~/Library/Caches/deno",
-    "risk": "safe"
+    "risk": "safe",
+    "subfolders": [
+      "gen",
+      "remote",
+      "npm"
+    ]
   },
   {
     "id": "playwright",
@@ -3796,7 +3801,11 @@
     "path": "~/Library/Caches/pypoetry",
     "risk": "safe",
     "symbol": "shippingbox.fill",
-    "color": "#60A5FA"
+    "color": "#60A5FA",
+    "subfolders": [
+      "artifacts",
+      "cache"
+    ]
   },
   {
     "id": "uv-cache",
@@ -4023,74 +4032,82 @@
     "id": "expo-cache",
     "localizations": {
       "en": {
-        "name": "Expo CLI Cache"
+        "name": "Expo CLI Cache",
+        "detail": "Downloaded tools; fetched again when Expo needs them."
       },
       "de": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; bei Bedarf neu erstellt."
+        "detail": "Heruntergeladene Werkzeuge; Expo lädt sie bei Bedarf erneut."
       },
       "es": {
         "name": "Expo CLI Caché",
-        "detail": "Caché; se reconstruye cuando hace falta."
+        "detail": "Herramientas descargadas; Expo las descarga cuando las necesita."
       },
       "fr": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; recréé si nécessaire."
+        "detail": "Outils téléchargés ; Expo les retélécharge au besoin."
       },
       "it": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; ricreata quando serve."
+        "detail": "Strumenti scaricati; Expo li riscarica quando servono."
       },
       "ja": {
         "name": "Expo CLI キャッシュ",
-        "detail": "キャッシュ。必要に応じて再生成されます。"
+        "detail": "ダウンロード済みツール。Expoが必要に応じて再ダウンロードします。"
       },
       "ko": {
         "name": "Expo CLI 캐시",
-        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+        "detail": "다운로드한 도구입니다. Expo가 필요할 때 다시 다운로드합니다."
       },
       "nl": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+        "detail": "Gedownloade tools; Expo downloadt ze opnieuw wanneer nodig."
       },
       "pl": {
         "name": "Expo CLI Pamięć podręczna",
-        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+        "detail": "Pobrane narzędzia; Expo pobiera je ponownie w razie potrzeby."
       },
       "pt-BR": {
         "name": "Expo CLI Cache",
-        "detail": "Cache; recriado quando necessário."
+        "detail": "Ferramentas baixadas; Expo baixa novamente quando necessário."
       },
       "ru": {
         "name": "Expo CLI Кэш",
-        "detail": "Кэш; создаётся заново при необходимости."
+        "detail": "Загруженные инструменты; Expo скачает их снова при необходимости."
       },
       "tr": {
         "name": "Expo CLI Önbellek",
-        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+        "detail": "İndirilen araçlar; Expo gerektiğinde yeniden indirir."
       },
       "uk": {
         "name": "Expo CLI Кеш",
-        "detail": "Кеш; за потреби створюється знову."
+        "detail": "Завантажені інструменти; Expo завантажить їх повторно за потреби."
       },
       "zh-Hans": {
         "name": "Expo CLI 缓存",
-        "detail": "缓存；需要时会重新生成。"
+        "detail": "已下载的工具；Expo会在需要时重新下载。"
       },
       "zh-Hant": {
         "name": "Expo CLI 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "已下載的工具；Expo會在需要時重新下載。"
       },
       "zh-HK": {
         "name": "Expo CLI 快取",
-        "detail": "快取；需要時會重新產生。"
+        "detail": "已下載的工具；Expo會在需要時重新下載。"
       }
     },
     "name": "Expo CLI Cache",
-    "detail": "Build cache; regenerated during future builds.",
+    "detail": "Downloaded tools; fetched again when Expo needs them.",
     "path": "~/.expo",
-    "risk": "safe",
-    "symbol": "shippingbox.fill"
+    "risk": "cautious",
+    "symbol": "shippingbox.fill",
+    "subfolders": [
+      "expo-go",
+      "android-apk-cache",
+      "ios-simulator-app-cache",
+      "native-modules-cache",
+      "schema-cache"
+    ]
   },
   {
     "id": "go-modules",

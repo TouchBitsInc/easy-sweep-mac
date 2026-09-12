@@ -21,7 +21,7 @@ struct CategoryTests {
     @Test func threeSectionsIncludeAllApps() {
         #expect(EasySweepCatalog.Category.allCases == [.appData, .developer, .system])
         let entries = EasySweepCatalog.entries(in: .appData)
-        #expect(entries.count == 87)
+        #expect(entries.count == 84)
         let ids = Set(entries.map(\.id))
         #expect(ids.contains("chrome-cache"))
         #expect(ids.contains("spotify-cache"))

@@ -199,7 +199,6 @@
         "path": "~/Library/Application Support/Google/Chrome",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -814,7 +813,6 @@
         "path": "~/Library/Application Support/Microsoft Edge",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -1023,7 +1021,6 @@
         "path": "~/Library/Application Support/BraveSoftware/Brave-Browser",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -1232,7 +1229,6 @@
         "path": "~/Library/Application Support/Arc/User Data",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -1441,7 +1437,6 @@
         "path": "~/Library/Application Support/Vivaldi",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -1650,10 +1645,8 @@
         "path": "~/Library/Application Support/com.operasoftware.Opera",
         "subfolders": [
           "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache",
           "GPUCache",
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -1862,10 +1855,8 @@
         "path": "~/Library/Application Support/com.operasoftware.OperaGX",
         "subfolders": [
           "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache",
           "GPUCache",
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -2074,7 +2065,6 @@
         "path": "~/Library/Application Support/Chromium",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -2283,7 +2273,6 @@
         "path": "~/Library/Application Support/Yandex/YandexBrowser",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -2492,7 +2481,6 @@
         "path": "~/Library/Application Support/Google/Chrome Canary",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/Service Worker/ScriptCache",
           "*/GPUCache"
         ],
         "risk": "cautious",
@@ -4442,8 +4430,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "number",
@@ -4580,8 +4567,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "bubble.left.and.bubble.right",
@@ -4718,8 +4704,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "bubble.left.and.bubble.right",
@@ -6495,8 +6480,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "bubble.left.and.bubble.right",
@@ -6633,8 +6617,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "bubble.left.and.bubble.right",
@@ -6771,8 +6754,7 @@
           "Code Cache",
           "GPUCache",
           "GrShaderCache",
-          "Service Worker/CacheStorage",
-          "Service Worker/ScriptCache"
+          "Service Worker/CacheStorage"
         ],
         "risk": "cautious",
         "symbol": "bubble.left.and.bubble.right",
@@ -8441,83 +8423,6 @@
         "risk": "destructive",
         "symbol": "sparkle",
         "color": "#D97757"
-      },
-      {
-        "id": "claude-versions",
-        "localizations": {
-          "en": {
-            "name": "Versions"
-          },
-          "de": {
-            "name": "Versionen",
-            "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
-          },
-          "es": {
-            "name": "Versiones",
-            "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
-          },
-          "fr": {
-            "name": "Versions",
-            "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
-          },
-          "it": {
-            "name": "Versioni",
-            "detail": "File scaricati; riscaricati quando servono."
-          },
-          "ja": {
-            "name": "バージョン",
-            "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
-          },
-          "ko": {
-            "name": "버전",
-            "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
-          },
-          "nl": {
-            "name": "Versies",
-            "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
-          },
-          "pl": {
-            "name": "Wersje",
-            "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
-          },
-          "pt-BR": {
-            "name": "Versões",
-            "detail": "Arquivos baixados; baixados novamente quando necessário."
-          },
-          "ru": {
-            "name": "Версии",
-            "detail": "Загруженные файлы; при необходимости загружаются снова."
-          },
-          "tr": {
-            "name": "Sürümler",
-            "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
-          },
-          "uk": {
-            "name": "Версії",
-            "detail": "Завантажені файли; за потреби завантажуються знову."
-          },
-          "zh-Hans": {
-            "name": "版本",
-            "detail": "已下载的文件；需要时会重新下载。"
-          },
-          "zh-Hant": {
-            "name": "版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          },
-          "zh-HK": {
-            "name": "版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          }
-        },
-        "name": "Versions",
-        "detail": "Older versions; downloaded again during future updates.",
-        "path": "~/.local/share/claude/versions",
-        "subfolders": [
-          "*"
-        ],
-        "risk": "cautious",
-        "symbol": "shippingbox",
-        "color": "#D97757"
       }
     ]
   },
@@ -8579,75 +8484,79 @@
         "id": "gemini-tmp",
         "localizations": {
           "en": {
-            "name": "Temp"
+            "name": "Conversations",
+            "detail": "Saved conversations; deleted history cannot be recovered."
           },
           "de": {
-            "name": "Temp",
-            "detail": "Temporäre Dateien; bei normaler Nutzung neu erstellt."
+            "name": "Gespräche",
+            "detail": "Gespeicherte Gespräche; gelöschter Verlauf lässt sich nicht wiederherstellen."
           },
           "es": {
-            "name": "Temporales",
-            "detail": "Archivos temporales; se recrean durante el uso normal."
+            "name": "Conversaciones",
+            "detail": "Conversaciones guardadas; el historial eliminado no se recupera."
           },
           "fr": {
-            "name": "Fichiers temporaires",
-            "detail": "Fichiers temporaires; recréés pendant l’utilisation normale."
+            "name": "Conversations",
+            "detail": "Conversations enregistrées ; historique supprimé irrécupérable."
           },
           "it": {
-            "name": "File temporanei",
-            "detail": "File temporanei; ricreati durante l’uso normale."
+            "name": "Conversazioni",
+            "detail": "Conversazioni salvate; la cronologia eliminata non è recuperabile."
           },
           "ja": {
-            "name": "一時ファイル",
-            "detail": "一時ファイル。通常の使用中に再作成されます。"
+            "name": "会話",
+            "detail": "保存された会話。削除した履歴は復元できません。"
           },
           "ko": {
-            "name": "임시 파일",
-            "detail": "임시 파일입니다. 정상 사용 중 다시 생성됩니다."
+            "name": "대화",
+            "detail": "저장된 대화입니다. 삭제한 기록은 복구할 수 없습니다."
           },
           "nl": {
-            "name": "Tijdelijke bestanden",
-            "detail": "Tijdelijke bestanden; opnieuw gemaakt tijdens normaal gebruik."
+            "name": "Gesprekken",
+            "detail": "Opgeslagen gesprekken; verwijderde geschiedenis kan niet worden hersteld."
           },
           "pl": {
-            "name": "Pliki tymczasowe",
-            "detail": "Pliki tymczasowe; odtwarzane podczas normalnego użytkowania."
+            "name": "Rozmowy",
+            "detail": "Zapisane rozmowy; usuniętej historii nie można odzyskać."
           },
           "pt-BR": {
-            "name": "Arquivos temporários",
-            "detail": "Arquivos temporários; recriados durante o uso normal."
+            "name": "Conversas",
+            "detail": "Conversas salvas; o histórico excluído não pode ser recuperado."
           },
           "ru": {
-            "name": "Временные файлы",
-            "detail": "Временные файлы; создаются заново при обычном использовании."
+            "name": "Разговоры",
+            "detail": "Сохранённые разговоры; удалённую историю восстановить нельзя."
           },
           "tr": {
-            "name": "Geçici dosyalar",
-            "detail": "Geçici dosyalar; normal kullanımda yeniden oluşturulur."
+            "name": "Konuşmalar",
+            "detail": "Kaydedilmiş konuşmalar; silinen geçmiş kurtarılamaz."
           },
           "uk": {
-            "name": "Тимчасові файли",
-            "detail": "Тимчасові файли; створюються під час звичайного використання."
+            "name": "Розмови",
+            "detail": "Збережені розмови; видалену історію неможливо відновити."
           },
           "zh-Hans": {
-            "name": "临时文件",
-            "detail": "临时文件；正常使用时会重新生成。"
+            "name": "对话",
+            "detail": "已保存的对话；删除的历史记录无法恢复。"
           },
           "zh-Hant": {
-            "name": "暫存檔案",
-            "detail": "暫存檔案；正常使用時會重新產生。"
+            "name": "對話",
+            "detail": "已儲存的對話；刪除的歷史記錄無法復原。"
           },
           "zh-HK": {
-            "name": "暫存檔案",
-            "detail": "暫存檔案；正常使用時會重新產生。"
+            "name": "對話",
+            "detail": "已儲存的對話；刪除的歷史記錄無法還原。"
           }
         },
-        "name": "Temp",
-        "detail": "Temporary files; recreated during normal use.",
+        "name": "Conversations",
+        "detail": "Saved conversations; deleted history cannot be recovered.",
         "path": "~/.gemini/tmp",
-        "risk": "safe",
+        "risk": "destructive",
         "symbol": "sparkles",
-        "color": "#8E75B2"
+        "color": "#8E75B2",
+        "subfolders": [
+          "*/chats"
+        ]
       }
     ]
   },
@@ -8777,82 +8686,6 @@
         "path": "~/.cursor/extensions/.cache",
         "risk": "safe",
         "symbol": "cursorarrow"
-      },
-      {
-        "id": "cursor-agent-versions",
-        "localizations": {
-          "en": {
-            "name": "Agent Versions"
-          },
-          "de": {
-            "name": "Agent Versionen",
-            "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
-          },
-          "es": {
-            "name": "Agent Versiones",
-            "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
-          },
-          "fr": {
-            "name": "Agent Versions",
-            "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
-          },
-          "it": {
-            "name": "Agent Versioni",
-            "detail": "File scaricati; riscaricati quando servono."
-          },
-          "ja": {
-            "name": "Agent バージョン",
-            "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
-          },
-          "ko": {
-            "name": "Agent 버전",
-            "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
-          },
-          "nl": {
-            "name": "Agent Versies",
-            "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
-          },
-          "pl": {
-            "name": "Agent Wersje",
-            "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
-          },
-          "pt-BR": {
-            "name": "Agent Versões",
-            "detail": "Arquivos baixados; baixados novamente quando necessário."
-          },
-          "ru": {
-            "name": "Agent Версии",
-            "detail": "Загруженные файлы; при необходимости загружаются снова."
-          },
-          "tr": {
-            "name": "Agent Sürümler",
-            "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
-          },
-          "uk": {
-            "name": "Agent Версії",
-            "detail": "Завантажені файли; за потреби завантажуються знову."
-          },
-          "zh-Hans": {
-            "name": "Agent 版本",
-            "detail": "已下载的文件；需要时会重新下载。"
-          },
-          "zh-Hant": {
-            "name": "Agent 版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          },
-          "zh-HK": {
-            "name": "Agent 版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          }
-        },
-        "name": "Agent Versions",
-        "detail": "Older versions; downloaded again during future updates.",
-        "path": "~/.local/share/cursor-agent/versions",
-        "subfolders": [
-          "*"
-        ],
-        "risk": "cautious",
-        "symbol": "shippingbox"
       }
     ]
   },
@@ -8980,7 +8813,15 @@
         "name": "App Cache",
         "detail": "App cache; rebuilt when the app runs.",
         "path": "~/Library/Caches/Codex",
-        "risk": "safe"
+        "risk": "safe",
+        "subfolders": [
+          "Default/Cache",
+          "Default/Code Cache",
+          "Default/Partitions/codex-browser-app/Cache",
+          "Default/Partitions/codex-browser-app/Code Cache",
+          "codex-browser-app/Cache",
+          "codex-browser-app/Code Cache"
+        ]
       },
       {
         "id": "codex-app-updates",
@@ -9667,138 +9508,6 @@
         "path": "~/.lmstudio/extensions/backends",
         "risk": "cautious",
         "symbol": "shippingbox.fill"
-      }
-    ]
-  },
-  {
-    "id": "copilot-cli",
-    "name": "Copilot CLI",
-    "localizations": {
-      "en": {
-        "name": "Copilot CLI"
-      },
-      "de": {
-        "name": "Copilot CLI"
-      },
-      "es": {
-        "name": "Copilot CLI"
-      },
-      "fr": {
-        "name": "Copilot CLI"
-      },
-      "it": {
-        "name": "Copilot CLI"
-      },
-      "ja": {
-        "name": "Copilot CLI"
-      },
-      "ko": {
-        "name": "Copilot CLI"
-      },
-      "nl": {
-        "name": "Copilot CLI"
-      },
-      "pl": {
-        "name": "Copilot CLI"
-      },
-      "pt-BR": {
-        "name": "Copilot CLI"
-      },
-      "ru": {
-        "name": "Copilot CLI"
-      },
-      "tr": {
-        "name": "Copilot CLI"
-      },
-      "uk": {
-        "name": "Copilot CLI"
-      },
-      "zh-Hans": {
-        "name": "Copilot CLI"
-      },
-      "zh-Hant": {
-        "name": "Copilot CLI"
-      },
-      "zh-HK": {
-        "name": "Copilot CLI"
-      }
-    },
-    "entries": [
-      {
-        "id": "copilot-cli-versions",
-        "localizations": {
-          "en": {
-            "name": "Versions"
-          },
-          "de": {
-            "name": "Versionen",
-            "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
-          },
-          "es": {
-            "name": "Versiones",
-            "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
-          },
-          "fr": {
-            "name": "Versions",
-            "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
-          },
-          "it": {
-            "name": "Versioni",
-            "detail": "File scaricati; riscaricati quando servono."
-          },
-          "ja": {
-            "name": "バージョン",
-            "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
-          },
-          "ko": {
-            "name": "버전",
-            "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
-          },
-          "nl": {
-            "name": "Versies",
-            "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
-          },
-          "pl": {
-            "name": "Wersje",
-            "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
-          },
-          "pt-BR": {
-            "name": "Versões",
-            "detail": "Arquivos baixados; baixados novamente quando necessário."
-          },
-          "ru": {
-            "name": "Версии",
-            "detail": "Загруженные файлы; при необходимости загружаются снова."
-          },
-          "tr": {
-            "name": "Sürümler",
-            "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
-          },
-          "uk": {
-            "name": "Версії",
-            "detail": "Завантажені файли; за потреби завантажуються знову."
-          },
-          "zh-Hans": {
-            "name": "版本",
-            "detail": "已下载的文件；需要时会重新下载。"
-          },
-          "zh-Hant": {
-            "name": "版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          },
-          "zh-HK": {
-            "name": "版本",
-            "detail": "已下載的檔案；需要時會重新下載。"
-          }
-        },
-        "name": "Versions",
-        "detail": "Older versions; downloaded again during future updates.",
-        "path": "~/.copilot/pkg/universal",
-        "subfolders": [
-          "*"
-        ],
-        "risk": "cautious",
-        "symbol": "shippingbox"
       }
     ]
   },
