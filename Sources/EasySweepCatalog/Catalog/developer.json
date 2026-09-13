@@ -5376,5 +5376,1093 @@
     "subfolders": [
       "*"
     ]
+  },
+  {
+    "id": "pyenv-downloads",
+    "localizations": {
+      "en": {
+        "name": "pyenv"
+      },
+      "de": {
+        "name": "pyenv",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "pyenv",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "pyenv",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "pyenv",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "pyenv",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "pyenv",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "pyenv",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "pyenv",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "pyenv",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "pyenv",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "pyenv",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "pyenv",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "pyenv",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "pyenv",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "pyenv",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "pyenv",
+    "detail": "Downloaded files; fetched again when needed.",
+    "path": "~/.pyenv/cache",
+    "risk": "cautious"
+  },
+  {
+    "id": "rbenv-downloads",
+    "localizations": {
+      "en": {
+        "name": "rbenv"
+      },
+      "de": {
+        "name": "rbenv",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "rbenv",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "rbenv",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "rbenv",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "rbenv",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "rbenv",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "rbenv",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "rbenv",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "rbenv",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "rbenv",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "rbenv",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "rbenv",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "rbenv",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "rbenv",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "rbenv",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "rbenv",
+    "detail": "Downloaded files; fetched again when needed.",
+    "path": "~/.rbenv/cache",
+    "risk": "cautious"
+  },
+  {
+    "id": "rubygems-specs",
+    "localizations": {
+      "en": {
+        "name": "RubyGems"
+      },
+      "de": {
+        "name": "RubyGems",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "RubyGems",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "RubyGems",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "RubyGems",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "RubyGems",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "RubyGems",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "RubyGems",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "RubyGems",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "RubyGems",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "RubyGems",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "RubyGems",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "RubyGems",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "RubyGems",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "RubyGems",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "RubyGems",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "RubyGems",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.gem/specs",
+    "risk": "safe"
+  },
+  {
+    "id": "rubygems-xdg-cache",
+    "localizations": {
+      "en": {
+        "name": "RubyGems (XDG)"
+      },
+      "de": {
+        "name": "RubyGems (XDG)",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "RubyGems (XDG)",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "RubyGems (XDG)",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "RubyGems (XDG)",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "RubyGems (XDG)",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "RubyGems (XDG)",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "RubyGems (XDG)",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "RubyGems (XDG)",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "RubyGems (XDG)",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "RubyGems (XDG)",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "RubyGems (XDG)",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "RubyGems (XDG)",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "RubyGems (XDG)",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "RubyGems (XDG)",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "RubyGems (XDG)",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "RubyGems (XDG)",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.cache/gem",
+    "risk": "cautious",
+    "subfolders": [
+      "specs",
+      "gems"
+    ]
+  },
+  {
+    "id": "yarn-berry-cache",
+    "localizations": {
+      "en": {
+        "name": "Yarn Berry"
+      },
+      "de": {
+        "name": "Yarn Berry",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "Yarn Berry",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "Yarn Berry",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "Yarn Berry",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "Yarn Berry",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "Yarn Berry",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "Yarn Berry",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "Yarn Berry",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Yarn Berry",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "Yarn Berry",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "Yarn Berry",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "Yarn Berry",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "Yarn Berry",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "Yarn Berry",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "Yarn Berry",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "Yarn Berry",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.yarn/berry/cache",
+    "risk": "cautious"
+  },
+  {
+    "id": "zig-cache",
+    "localizations": {
+      "en": {
+        "name": "Zig"
+      },
+      "de": {
+        "name": "Zig",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "Zig",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "Zig",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "Zig",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "Zig",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "Zig",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "Zig",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "Zig",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Zig",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "Zig",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "Zig",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "Zig",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "Zig",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "Zig",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "Zig",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "Zig",
+    "detail": "Build cache; regenerated during future builds.",
+    "path": "~/.cache/zig",
+    "risk": "safe"
+  },
+  {
+    "id": "hex-packages",
+    "localizations": {
+      "en": {
+        "name": "Hex"
+      },
+      "de": {
+        "name": "Hex",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "Hex",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "Hex",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "Hex",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "Hex",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "Hex",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "Hex",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "Hex",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Hex",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "Hex",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "Hex",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "Hex",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "Hex",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "Hex",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "Hex",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "Hex",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.hex/packages",
+    "risk": "cautious"
+  },
+  {
+    "id": "hex-xdg-packages",
+    "localizations": {
+      "en": {
+        "name": "Hex (XDG)"
+      },
+      "de": {
+        "name": "Hex (XDG)",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "Hex (XDG)",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "Hex (XDG)",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "Hex (XDG)",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "Hex (XDG)",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "Hex (XDG)",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "Hex (XDG)",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "Hex (XDG)",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Hex (XDG)",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "Hex (XDG)",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "Hex (XDG)",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "Hex (XDG)",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "Hex (XDG)",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "Hex (XDG)",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "Hex (XDG)",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "Hex (XDG)",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.cache/hex/packages",
+    "risk": "cautious"
+  },
+  {
+    "id": "opam-downloads",
+    "localizations": {
+      "en": {
+        "name": "opam"
+      },
+      "de": {
+        "name": "opam",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "opam",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "opam",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "opam",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "opam",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "opam",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "opam",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "opam",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "opam",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "opam",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "opam",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "opam",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "opam",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "opam",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "opam",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "opam",
+    "detail": "Downloaded files; fetched again when needed.",
+    "path": "~/.opam/download-cache",
+    "risk": "cautious"
+  },
+  {
+    "id": "puppeteer-browsers",
+    "localizations": {
+      "en": {
+        "name": "Puppeteer"
+      },
+      "de": {
+        "name": "Puppeteer",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "Puppeteer",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "Puppeteer",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "Puppeteer",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "Puppeteer",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "Puppeteer",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "Puppeteer",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "Puppeteer",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Puppeteer",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "Puppeteer",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "Puppeteer",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "Puppeteer",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "Puppeteer",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "Puppeteer",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "Puppeteer",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "Puppeteer",
+    "detail": "Browser builds; downloaded again during future installs.",
+    "path": "~/.cache/puppeteer",
+    "risk": "cautious"
+  },
+  {
+    "id": "sublime-text-cache",
+    "localizations": {
+      "en": {
+        "name": "Sublime Text"
+      },
+      "de": {
+        "name": "Sublime Text",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "Sublime Text",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "Sublime Text",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "Sublime Text",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "Sublime Text",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "Sublime Text",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "Sublime Text",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "Sublime Text",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Sublime Text",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "Sublime Text",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "Sublime Text",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "Sublime Text",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "Sublime Text",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "Sublime Text",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "Sublime Text",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "Sublime Text",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/Library/Caches/Sublime Text",
+    "risk": "safe"
+  },
+  {
+    "id": "npm-prebuilds",
+    "localizations": {
+      "en": {
+        "name": "npm"
+      },
+      "de": {
+        "name": "npm",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "npm",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "npm",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "npm",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "npm",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "npm",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "npm",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "npm",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "npm",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "npm",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "npm",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "npm",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "npm",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "npm",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "npm",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "npm",
+    "detail": "Downloaded binaries; fetched again during future builds.",
+    "path": "~/.npm/_prebuilds",
+    "risk": "cautious"
+  },
+  {
+    "id": "npm-logs",
+    "localizations": {
+      "en": {
+        "name": "npm"
+      },
+      "de": {
+        "name": "npm",
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
+      },
+      "es": {
+        "name": "npm",
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
+      },
+      "fr": {
+        "name": "npm",
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
+      },
+      "it": {
+        "name": "npm",
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
+      },
+      "ja": {
+        "name": "npm",
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
+      },
+      "ko": {
+        "name": "npm",
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
+      },
+      "nl": {
+        "name": "npm",
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
+      },
+      "pl": {
+        "name": "npm",
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
+      },
+      "pt-BR": {
+        "name": "npm",
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
+      },
+      "ru": {
+        "name": "npm",
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
+      },
+      "tr": {
+        "name": "npm",
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
+      },
+      "uk": {
+        "name": "npm",
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
+      },
+      "zh-Hans": {
+        "name": "npm",
+        "detail": "诊断日志；应用运行时会生成新的日志。"
+      },
+      "zh-Hant": {
+        "name": "npm",
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
+      },
+      "zh-HK": {
+        "name": "npm",
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
+      }
+    },
+    "name": "npm",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
+    "path": "~/.npm/_logs",
+    "risk": "cautious"
+  },
+  {
+    "id": "vscode-logs",
+    "localizations": {
+      "en": {
+        "name": "VS Code"
+      },
+      "de": {
+        "name": "VS Code",
+        "detail": "Diagnoseprotokolle; neue entstehen beim Ausführen von Apps."
+      },
+      "es": {
+        "name": "VS Code",
+        "detail": "Registros de diagnóstico; aparecen nuevos al usar apps."
+      },
+      "fr": {
+        "name": "VS Code",
+        "detail": "Journaux de diagnostic; de nouveaux apparaissent avec les apps."
+      },
+      "it": {
+        "name": "VS Code",
+        "detail": "Log diagnostici; nuovi log vengono creati usando le app."
+      },
+      "ja": {
+        "name": "VS Code",
+        "detail": "診断ログ。アプリの実行中に新しく作成されます。"
+      },
+      "ko": {
+        "name": "VS Code",
+        "detail": "진단 로그입니다. 앱 실행 중 새 로그가 생성됩니다."
+      },
+      "nl": {
+        "name": "VS Code",
+        "detail": "Diagnostische logboeken; nieuwe verschijnen tijdens appgebruik."
+      },
+      "pl": {
+        "name": "VS Code",
+        "detail": "Dzienniki diagnostyczne; nowe powstają podczas pracy aplikacji."
+      },
+      "pt-BR": {
+        "name": "VS Code",
+        "detail": "Logs de diagnóstico; novos surgem enquanto os apps funcionam."
+      },
+      "ru": {
+        "name": "VS Code",
+        "detail": "Диагностические журналы; новые появляются при работе приложений."
+      },
+      "tr": {
+        "name": "VS Code",
+        "detail": "Tanılama günlükleri; uygulamalar çalışırken yenileri oluşur."
+      },
+      "uk": {
+        "name": "VS Code",
+        "detail": "Діагностичні журнали; нові з’являються під час роботи програм."
+      },
+      "zh-Hans": {
+        "name": "VS Code",
+        "detail": "诊断日志；应用运行时会生成新的日志。"
+      },
+      "zh-Hant": {
+        "name": "VS Code",
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
+      },
+      "zh-HK": {
+        "name": "VS Code",
+        "detail": "診斷記錄；App 執行時會產生新記錄。"
+      }
+    },
+    "name": "VS Code",
+    "detail": "Diagnostic logs; new ones appear as apps run.",
+    "path": "~/Library/Application Support/Code/logs",
+    "risk": "cautious"
+  },
+  {
+    "id": "kubectl-cache",
+    "localizations": {
+      "en": {
+        "name": "kubectl"
+      },
+      "de": {
+        "name": "kubectl",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "kubectl",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "kubectl",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "kubectl",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "kubectl",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "kubectl",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "kubectl",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "kubectl",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "kubectl",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "kubectl",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "kubectl",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "kubectl",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "kubectl",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "kubectl",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "kubectl",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "kubectl",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/.kube/cache",
+    "risk": "safe",
+    "subfolders": [
+      "http",
+      "discovery"
+    ]
   }
 ]

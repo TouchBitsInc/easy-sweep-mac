@@ -199,7 +199,8 @@
         "path": "~/Library/Application Support/Google/Chrome",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
@@ -277,6 +278,83 @@
         "path": "~/Library/Application Support/Google/Chrome/OptGuideOnDeviceModel",
         "risk": "cautious",
         "symbol": "brain"
+      },
+      {
+        "id": "chrome-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Google/Chrome",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -610,6 +688,81 @@
         "risk": "safe",
         "symbol": "globe",
         "color": "#FF7139"
+      },
+      {
+        "id": "firefox-profile-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Firefox/Profiles",
+        "risk": "safe",
+        "subfolders": [
+          "*/cache2"
+        ]
       }
     ]
   },
@@ -813,11 +966,89 @@
         "path": "~/Library/Application Support/Microsoft Edge",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#0078D7"
+      },
+      {
+        "id": "edge-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Microsoft Edge",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -1021,11 +1252,89 @@
         "path": "~/Library/Application Support/BraveSoftware/Brave-Browser",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#FB542B"
+      },
+      {
+        "id": "brave-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/BraveSoftware/Brave-Browser",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -1229,11 +1538,89 @@
         "path": "~/Library/Application Support/Arc/User Data",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#FCBFBD"
+      },
+      {
+        "id": "arc-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Arc/User Data",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -1437,11 +1824,89 @@
         "path": "~/Library/Application Support/Vivaldi",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#EF3939"
+      },
+      {
+        "id": "vivaldi-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Vivaldi",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -1647,11 +2112,90 @@
           "Service Worker/CacheStorage",
           "GPUCache",
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache",
+          "Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#FF1B2D"
+      },
+      {
+        "id": "opera-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/com.operasoftware.Opera",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -1857,11 +2401,90 @@
           "Service Worker/CacheStorage",
           "GPUCache",
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache",
+          "Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#EE2950"
+      },
+      {
+        "id": "opera-gx-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/com.operasoftware.OperaGX",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -2065,11 +2688,89 @@
         "path": "~/Library/Application Support/Chromium",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#4587F3"
+      },
+      {
+        "id": "chromium-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Chromium",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -2273,11 +2974,89 @@
         "path": "~/Library/Application Support/Yandex/YandexBrowser",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#FC3F1D"
+      },
+      {
+        "id": "yandex-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Yandex/YandexBrowser",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -2481,11 +3260,89 @@
         "path": "~/Library/Application Support/Google/Chrome Canary",
         "subfolders": [
           "*/Service Worker/CacheStorage",
-          "*/GPUCache"
+          "*/GPUCache",
+          "*/Code Cache"
         ],
         "risk": "cautious",
         "symbol": "globe",
         "color": "#F4B400"
+      },
+      {
+        "id": "chrome-canary-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/Google/Chrome Canary",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
       }
     ]
   },
@@ -9766,6 +10623,1374 @@
         "path": "~/.cache/torch/hub/checkpoints",
         "risk": "cautious",
         "symbol": "brain"
+      }
+    ]
+  },
+  {
+    "id": "iina",
+    "name": "IINA",
+    "localizations": {
+      "en": {
+        "name": "IINA"
+      },
+      "de": {
+        "name": "IINA"
+      },
+      "es": {
+        "name": "IINA"
+      },
+      "fr": {
+        "name": "IINA"
+      },
+      "it": {
+        "name": "IINA"
+      },
+      "ja": {
+        "name": "IINA"
+      },
+      "ko": {
+        "name": "IINA"
+      },
+      "nl": {
+        "name": "IINA"
+      },
+      "pl": {
+        "name": "IINA"
+      },
+      "pt-BR": {
+        "name": "IINA"
+      },
+      "ru": {
+        "name": "IINA"
+      },
+      "tr": {
+        "name": "IINA"
+      },
+      "uk": {
+        "name": "IINA"
+      },
+      "zh-Hans": {
+        "name": "IINA"
+      },
+      "zh-Hant": {
+        "name": "IINA"
+      },
+      "zh-HK": {
+        "name": "IINA"
+      }
+    },
+    "entries": [
+      {
+        "id": "iina-thumbnails",
+        "localizations": {
+          "en": {
+            "name": "Media Cache"
+          },
+          "de": {
+            "name": "Medien-Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché multimedia",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache multimédia",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache multimediale",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "メディアキャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "미디어 캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Mediacache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna multimediów",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache de mídia",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Медиакэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Medya önbelleği",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Медіакеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "媒体缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "媒體快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "媒體快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Media Cache",
+        "detail": "Media cache; rebuilt during normal app use.",
+        "path": "~/Library/Caches/com.colliderli.iina/thumb_cache",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "vlc",
+    "name": "VLC",
+    "localizations": {
+      "en": {
+        "name": "VLC"
+      },
+      "de": {
+        "name": "VLC"
+      },
+      "es": {
+        "name": "VLC"
+      },
+      "fr": {
+        "name": "VLC"
+      },
+      "it": {
+        "name": "VLC"
+      },
+      "ja": {
+        "name": "VLC"
+      },
+      "ko": {
+        "name": "VLC"
+      },
+      "nl": {
+        "name": "VLC"
+      },
+      "pl": {
+        "name": "VLC"
+      },
+      "pt-BR": {
+        "name": "VLC"
+      },
+      "ru": {
+        "name": "VLC"
+      },
+      "tr": {
+        "name": "VLC"
+      },
+      "uk": {
+        "name": "VLC"
+      },
+      "zh-Hans": {
+        "name": "VLC"
+      },
+      "zh-Hant": {
+        "name": "VLC"
+      },
+      "zh-HK": {
+        "name": "VLC"
+      }
+    },
+    "entries": [
+      {
+        "id": "vlc-cache",
+        "localizations": {
+          "en": {
+            "name": "Media Cache"
+          },
+          "de": {
+            "name": "Medien-Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché multimedia",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache multimédia",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache multimediale",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "メディアキャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "미디어 캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Mediacache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna multimediów",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache de mídia",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Медиакэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Medya önbelleği",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Медіакеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "媒体缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "媒體快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "媒體快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Media Cache",
+        "detail": "Media cache; rebuilt during normal app use.",
+        "path": "~/Library/Caches/org.videolan.vlc",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "epic-games",
+    "name": "Epic Games Launcher",
+    "localizations": {
+      "en": {
+        "name": "Epic Games Launcher"
+      },
+      "de": {
+        "name": "Epic Games Launcher"
+      },
+      "es": {
+        "name": "Epic Games Launcher"
+      },
+      "fr": {
+        "name": "Epic Games Launcher"
+      },
+      "it": {
+        "name": "Epic Games Launcher"
+      },
+      "ja": {
+        "name": "Epic Games Launcher"
+      },
+      "ko": {
+        "name": "Epic Games Launcher"
+      },
+      "nl": {
+        "name": "Epic Games Launcher"
+      },
+      "pl": {
+        "name": "Epic Games Launcher"
+      },
+      "pt-BR": {
+        "name": "Epic Games Launcher"
+      },
+      "ru": {
+        "name": "Epic Games Launcher"
+      },
+      "tr": {
+        "name": "Epic Games Launcher"
+      },
+      "uk": {
+        "name": "Epic Games Launcher"
+      },
+      "zh-Hans": {
+        "name": "Epic Games Launcher"
+      },
+      "zh-Hant": {
+        "name": "Epic Games Launcher"
+      },
+      "zh-HK": {
+        "name": "Epic Games Launcher"
+      }
+    },
+    "entries": [
+      {
+        "id": "epic-games-web-cache",
+        "localizations": {
+          "en": {
+            "name": "Web Data"
+          },
+          "de": {
+            "name": "Webdaten",
+            "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+          },
+          "es": {
+            "name": "Datos web",
+            "detail": "Datos web offline; se actualizan al abrir la app."
+          },
+          "fr": {
+            "name": "Données web",
+            "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+          },
+          "it": {
+            "name": "Dati web",
+            "detail": "Dati web offline; aggiornati all’apertura dell’app."
+          },
+          "ja": {
+            "name": "ウェブデータ",
+            "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+          },
+          "ko": {
+            "name": "웹 데이터",
+            "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+          },
+          "nl": {
+            "name": "Webgegevens",
+            "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+          },
+          "pl": {
+            "name": "Dane sieciowe",
+            "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+          },
+          "pt-BR": {
+            "name": "Dados da web",
+            "detail": "Dados web offline; atualizados ao abrir o app."
+          },
+          "ru": {
+            "name": "Веб-данные",
+            "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+          },
+          "tr": {
+            "name": "Web verileri",
+            "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+          },
+          "uk": {
+            "name": "Веб-дані",
+            "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+          },
+          "zh-Hans": {
+            "name": "网页数据",
+            "detail": "离线网页数据；打开应用时会更新。"
+          },
+          "zh-Hant": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          },
+          "zh-HK": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          }
+        },
+        "name": "Web Data",
+        "detail": "Offline web data; refreshed when the app opens.",
+        "path": "~/Library/Caches/com.epicgames.EpicGamesLauncher/webcache",
+        "risk": "cautious"
+      }
+    ]
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "localizations": {
+      "en": {
+        "name": "Obsidian"
+      },
+      "de": {
+        "name": "Obsidian"
+      },
+      "es": {
+        "name": "Obsidian"
+      },
+      "fr": {
+        "name": "Obsidian"
+      },
+      "it": {
+        "name": "Obsidian"
+      },
+      "ja": {
+        "name": "Obsidian"
+      },
+      "ko": {
+        "name": "Obsidian"
+      },
+      "nl": {
+        "name": "Obsidian"
+      },
+      "pl": {
+        "name": "Obsidian"
+      },
+      "pt-BR": {
+        "name": "Obsidian"
+      },
+      "ru": {
+        "name": "Obsidian"
+      },
+      "tr": {
+        "name": "Obsidian"
+      },
+      "uk": {
+        "name": "Obsidian"
+      },
+      "zh-Hans": {
+        "name": "Obsidian"
+      },
+      "zh-Hant": {
+        "name": "Obsidian"
+      },
+      "zh-HK": {
+        "name": "Obsidian"
+      }
+    },
+    "entries": [
+      {
+        "id": "obsidian-web-cache",
+        "localizations": {
+          "en": {
+            "name": "Web Data"
+          },
+          "de": {
+            "name": "Webdaten",
+            "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+          },
+          "es": {
+            "name": "Datos web",
+            "detail": "Datos web offline; se actualizan al abrir la app."
+          },
+          "fr": {
+            "name": "Données web",
+            "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+          },
+          "it": {
+            "name": "Dati web",
+            "detail": "Dati web offline; aggiornati all’apertura dell’app."
+          },
+          "ja": {
+            "name": "ウェブデータ",
+            "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+          },
+          "ko": {
+            "name": "웹 데이터",
+            "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+          },
+          "nl": {
+            "name": "Webgegevens",
+            "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+          },
+          "pl": {
+            "name": "Dane sieciowe",
+            "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+          },
+          "pt-BR": {
+            "name": "Dados da web",
+            "detail": "Dados web offline; atualizados ao abrir o app."
+          },
+          "ru": {
+            "name": "Веб-данные",
+            "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+          },
+          "tr": {
+            "name": "Web verileri",
+            "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+          },
+          "uk": {
+            "name": "Веб-дані",
+            "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+          },
+          "zh-Hans": {
+            "name": "网页数据",
+            "detail": "离线网页数据；打开应用时会更新。"
+          },
+          "zh-Hant": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          },
+          "zh-HK": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          }
+        },
+        "name": "Web Data",
+        "detail": "Offline web data; refreshed when the app opens.",
+        "path": "~/Library/Application Support/obsidian",
+        "risk": "cautious",
+        "subfolders": [
+          "Cache",
+          "Code Cache",
+          "GPUCache",
+          "GrShaderCache"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "localizations": {
+      "en": {
+        "name": "Figma"
+      },
+      "de": {
+        "name": "Figma"
+      },
+      "es": {
+        "name": "Figma"
+      },
+      "fr": {
+        "name": "Figma"
+      },
+      "it": {
+        "name": "Figma"
+      },
+      "ja": {
+        "name": "Figma"
+      },
+      "ko": {
+        "name": "Figma"
+      },
+      "nl": {
+        "name": "Figma"
+      },
+      "pl": {
+        "name": "Figma"
+      },
+      "pt-BR": {
+        "name": "Figma"
+      },
+      "ru": {
+        "name": "Figma"
+      },
+      "tr": {
+        "name": "Figma"
+      },
+      "uk": {
+        "name": "Figma"
+      },
+      "zh-Hans": {
+        "name": "Figma"
+      },
+      "zh-Hant": {
+        "name": "Figma"
+      },
+      "zh-HK": {
+        "name": "Figma"
+      }
+    },
+    "entries": [
+      {
+        "id": "figma-web-cache",
+        "localizations": {
+          "en": {
+            "name": "Web Data"
+          },
+          "de": {
+            "name": "Webdaten",
+            "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+          },
+          "es": {
+            "name": "Datos web",
+            "detail": "Datos web offline; se actualizan al abrir la app."
+          },
+          "fr": {
+            "name": "Données web",
+            "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+          },
+          "it": {
+            "name": "Dati web",
+            "detail": "Dati web offline; aggiornati all’apertura dell’app."
+          },
+          "ja": {
+            "name": "ウェブデータ",
+            "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+          },
+          "ko": {
+            "name": "웹 데이터",
+            "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+          },
+          "nl": {
+            "name": "Webgegevens",
+            "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+          },
+          "pl": {
+            "name": "Dane sieciowe",
+            "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+          },
+          "pt-BR": {
+            "name": "Dados da web",
+            "detail": "Dados web offline; atualizados ao abrir o app."
+          },
+          "ru": {
+            "name": "Веб-данные",
+            "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+          },
+          "tr": {
+            "name": "Web verileri",
+            "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+          },
+          "uk": {
+            "name": "Веб-дані",
+            "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+          },
+          "zh-Hans": {
+            "name": "网页数据",
+            "detail": "离线网页数据；打开应用时会更新。"
+          },
+          "zh-Hant": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          },
+          "zh-HK": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          }
+        },
+        "name": "Web Data",
+        "detail": "Offline web data; refreshed when the app opens.",
+        "path": "~/Library/Application Support/Figma",
+        "risk": "cautious",
+        "subfolders": [
+          "Cache",
+          "Code Cache",
+          "GPUCache",
+          "GrShaderCache",
+          "DesktopProfile/Cache",
+          "DesktopProfile/Code Cache",
+          "DesktopProfile/GPUCache",
+          "DesktopProfile/GrShaderCache"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "microsoft-word",
+    "name": "Microsoft Word",
+    "localizations": {
+      "en": {
+        "name": "Microsoft Word"
+      },
+      "de": {
+        "name": "Microsoft Word"
+      },
+      "es": {
+        "name": "Microsoft Word"
+      },
+      "fr": {
+        "name": "Microsoft Word"
+      },
+      "it": {
+        "name": "Microsoft Word"
+      },
+      "ja": {
+        "name": "Microsoft Word"
+      },
+      "ko": {
+        "name": "Microsoft Word"
+      },
+      "nl": {
+        "name": "Microsoft Word"
+      },
+      "pl": {
+        "name": "Microsoft Word"
+      },
+      "pt-BR": {
+        "name": "Microsoft Word"
+      },
+      "ru": {
+        "name": "Microsoft Word"
+      },
+      "tr": {
+        "name": "Microsoft Word"
+      },
+      "uk": {
+        "name": "Microsoft Word"
+      },
+      "zh-Hans": {
+        "name": "Microsoft Word"
+      },
+      "zh-Hant": {
+        "name": "Microsoft Word"
+      },
+      "zh-HK": {
+        "name": "Microsoft Word"
+      }
+    },
+    "entries": [
+      {
+        "id": "microsoft-word-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Word/Data/Library/Caches",
+        "risk": "cautious"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-excel",
+    "name": "Microsoft Excel",
+    "localizations": {
+      "en": {
+        "name": "Microsoft Excel"
+      },
+      "de": {
+        "name": "Microsoft Excel"
+      },
+      "es": {
+        "name": "Microsoft Excel"
+      },
+      "fr": {
+        "name": "Microsoft Excel"
+      },
+      "it": {
+        "name": "Microsoft Excel"
+      },
+      "ja": {
+        "name": "Microsoft Excel"
+      },
+      "ko": {
+        "name": "Microsoft Excel"
+      },
+      "nl": {
+        "name": "Microsoft Excel"
+      },
+      "pl": {
+        "name": "Microsoft Excel"
+      },
+      "pt-BR": {
+        "name": "Microsoft Excel"
+      },
+      "ru": {
+        "name": "Microsoft Excel"
+      },
+      "tr": {
+        "name": "Microsoft Excel"
+      },
+      "uk": {
+        "name": "Microsoft Excel"
+      },
+      "zh-Hans": {
+        "name": "Microsoft Excel"
+      },
+      "zh-Hant": {
+        "name": "Microsoft Excel"
+      },
+      "zh-HK": {
+        "name": "Microsoft Excel"
+      }
+    },
+    "entries": [
+      {
+        "id": "microsoft-excel-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Excel/Data/Library/Caches",
+        "risk": "cautious"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-powerpoint",
+    "name": "Microsoft PowerPoint",
+    "localizations": {
+      "en": {
+        "name": "Microsoft PowerPoint"
+      },
+      "de": {
+        "name": "Microsoft PowerPoint"
+      },
+      "es": {
+        "name": "Microsoft PowerPoint"
+      },
+      "fr": {
+        "name": "Microsoft PowerPoint"
+      },
+      "it": {
+        "name": "Microsoft PowerPoint"
+      },
+      "ja": {
+        "name": "Microsoft PowerPoint"
+      },
+      "ko": {
+        "name": "Microsoft PowerPoint"
+      },
+      "nl": {
+        "name": "Microsoft PowerPoint"
+      },
+      "pl": {
+        "name": "Microsoft PowerPoint"
+      },
+      "pt-BR": {
+        "name": "Microsoft PowerPoint"
+      },
+      "ru": {
+        "name": "Microsoft PowerPoint"
+      },
+      "tr": {
+        "name": "Microsoft PowerPoint"
+      },
+      "uk": {
+        "name": "Microsoft PowerPoint"
+      },
+      "zh-Hans": {
+        "name": "Microsoft PowerPoint"
+      },
+      "zh-Hant": {
+        "name": "Microsoft PowerPoint"
+      },
+      "zh-HK": {
+        "name": "Microsoft PowerPoint"
+      }
+    },
+    "entries": [
+      {
+        "id": "microsoft-powerpoint-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Powerpoint/Data/Library/Caches",
+        "risk": "cautious"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-outlook",
+    "name": "Microsoft Outlook",
+    "localizations": {
+      "en": {
+        "name": "Microsoft Outlook"
+      },
+      "de": {
+        "name": "Microsoft Outlook"
+      },
+      "es": {
+        "name": "Microsoft Outlook"
+      },
+      "fr": {
+        "name": "Microsoft Outlook"
+      },
+      "it": {
+        "name": "Microsoft Outlook"
+      },
+      "ja": {
+        "name": "Microsoft Outlook"
+      },
+      "ko": {
+        "name": "Microsoft Outlook"
+      },
+      "nl": {
+        "name": "Microsoft Outlook"
+      },
+      "pl": {
+        "name": "Microsoft Outlook"
+      },
+      "pt-BR": {
+        "name": "Microsoft Outlook"
+      },
+      "ru": {
+        "name": "Microsoft Outlook"
+      },
+      "tr": {
+        "name": "Microsoft Outlook"
+      },
+      "uk": {
+        "name": "Microsoft Outlook"
+      },
+      "zh-Hans": {
+        "name": "Microsoft Outlook"
+      },
+      "zh-Hant": {
+        "name": "Microsoft Outlook"
+      },
+      "zh-HK": {
+        "name": "Microsoft Outlook"
+      }
+    },
+    "entries": [
+      {
+        "id": "microsoft-outlook-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Outlook/Data/Library/Caches",
+        "risk": "cautious"
+      }
+    ]
+  },
+  {
+    "id": "microsoft-office",
+    "name": "Microsoft Office",
+    "localizations": {
+      "en": {
+        "name": "Microsoft Office"
+      },
+      "de": {
+        "name": "Microsoft Office"
+      },
+      "es": {
+        "name": "Microsoft Office"
+      },
+      "fr": {
+        "name": "Microsoft Office"
+      },
+      "it": {
+        "name": "Microsoft Office"
+      },
+      "ja": {
+        "name": "Microsoft Office"
+      },
+      "ko": {
+        "name": "Microsoft Office"
+      },
+      "nl": {
+        "name": "Microsoft Office"
+      },
+      "pl": {
+        "name": "Microsoft Office"
+      },
+      "pt-BR": {
+        "name": "Microsoft Office"
+      },
+      "ru": {
+        "name": "Microsoft Office"
+      },
+      "tr": {
+        "name": "Microsoft Office"
+      },
+      "uk": {
+        "name": "Microsoft Office"
+      },
+      "zh-Hans": {
+        "name": "Microsoft Office"
+      },
+      "zh-Hant": {
+        "name": "Microsoft Office"
+      },
+      "zh-HK": {
+        "name": "Microsoft Office"
+      }
+    },
+    "entries": [
+      {
+        "id": "office-service-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Office365ServiceV2/Data/Caches/com.microsoft.Office365ServiceV2",
+        "risk": "cautious"
+      },
+      {
+        "id": "office-service-library-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.microsoft.Office365ServiceV2/Data/Library/Caches/com.microsoft.Office365ServiceV2",
+        "risk": "cautious"
       }
     ]
   }

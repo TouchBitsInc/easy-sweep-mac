@@ -55,6 +55,9 @@ standing in for it.
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before a first pull request — it covers
 the rules CI enforces and, more usefully, why each exists.
 
+The [2.9.2 path review](docs/catalog-review-2.9.2.md) records sources, protected
+data, and exclusions for the latest cache additions.
+
 The short version:
 
 - **One entry, one folder.** Every path in an entry must sit under the same
@@ -71,7 +74,7 @@ The short version:
 ## Section presentation
 
 `Catalog/appData.json` nests cleanup entries beneath their application names.
-For example, Google Chrome contains Cache, Site Data and AI Model, each with
+For example, Google Chrome contains Cache, Site Data, AI Model and Graphics Cache, each with
 its own path and risk. Developer and System use flat entry arrays. The
 flattened `all` and `entries(in: .appData)` APIs keep their existing role.
 Use `application(containing: entry.id)` when a flattened entry needs its app
