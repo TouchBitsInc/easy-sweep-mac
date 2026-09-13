@@ -5677,67 +5677,67 @@
       },
       "de": {
         "name": "Yarn Berry",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Laufzeitpakete; vor Projektstart mit yarn install wiederherstellen."
       },
       "es": {
         "name": "Yarn Berry",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Paquetes de ejecución; restaura con yarn install antes."
       },
       "fr": {
         "name": "Yarn Berry",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Paquets d’exécution ; restaurez avec yarn install avant utilisation."
       },
       "it": {
         "name": "Yarn Berry",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Pacchetti runtime; ripristina con yarn install prima dell’esecuzione."
       },
       "ja": {
         "name": "Yarn Berry",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "実行用パッケージ。プロジェクト実行前に yarn install で復元してください。"
       },
       "ko": {
         "name": "Yarn Berry",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "실행 패키지입니다. 프로젝트 실행 전 yarn install로 복원하세요."
       },
       "nl": {
         "name": "Yarn Berry",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Runtimepakketten; herstel met yarn install vóór gebruik."
       },
       "pl": {
         "name": "Yarn Berry",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Pakiety wykonawcze; przywróć przez yarn install przed uruchomieniem."
       },
       "pt-BR": {
         "name": "Yarn Berry",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Pacotes de execução; restaure com yarn install antes."
       },
       "ru": {
         "name": "Yarn Berry",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Исполняемые пакеты; восстановите через yarn install перед запуском."
       },
       "tr": {
         "name": "Yarn Berry",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Çalışma paketleri; çalıştırmadan önce yarn install ile geri yükleyin."
       },
       "uk": {
         "name": "Yarn Berry",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Пакети виконання; відновіть через yarn install перед запуском."
       },
       "zh-Hans": {
         "name": "Yarn Berry",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "运行时依赖；运行项目前请执行 yarn install 恢复。"
       },
       "zh-Hant": {
         "name": "Yarn Berry",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "執行階段套件；執行專案前請以 yarn install 還原。"
       },
       "zh-HK": {
         "name": "Yarn Berry",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "執行階段套件；執行項目前請以 yarn install 還原。"
       }
     },
     "name": "Yarn Berry",
-    "detail": "Package cache; downloaded again when projects need it.",
+    "detail": "Runtime packages; restore with yarn install before running projects.",
     "path": "~/.yarn/berry/cache",
     "risk": "cautious"
   },
@@ -6037,69 +6037,76 @@
       },
       "de": {
         "name": "Puppeteer",
-        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+        "detail": "Browserdateien; mit npx puppeteer browsers install erneut installieren."
       },
       "es": {
         "name": "Puppeteer",
-        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+        "detail": "Navegadores; reinstala con npx puppeteer browsers install."
       },
       "fr": {
         "name": "Puppeteer",
-        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+        "detail": "Navigateurs ; réinstallez avec npx puppeteer browsers install."
       },
       "it": {
         "name": "Puppeteer",
-        "detail": "File scaricati; riscaricati quando servono."
+        "detail": "Browser; reinstalla con npx puppeteer browsers install."
       },
       "ja": {
         "name": "Puppeteer",
-        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+        "detail": "ダウンロードしたブラウザー。npx puppeteer browsers install で再インストールしてください。"
       },
       "ko": {
         "name": "Puppeteer",
-        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+        "detail": "다운로드한 브라우저입니다. npx puppeteer browsers install로 다시 설치하세요."
       },
       "nl": {
         "name": "Puppeteer",
-        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+        "detail": "Browsers; herinstalleer met npx puppeteer browsers install."
       },
       "pl": {
         "name": "Puppeteer",
-        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+        "detail": "Przeglądarki; zainstaluj ponownie przez npx puppeteer browsers install."
       },
       "pt-BR": {
         "name": "Puppeteer",
-        "detail": "Arquivos baixados; baixados novamente quando necessário."
+        "detail": "Navegadores; reinstale com npx puppeteer browsers install."
       },
       "ru": {
         "name": "Puppeteer",
-        "detail": "Загруженные файлы; при необходимости загружаются снова."
+        "detail": "Браузеры; переустановите через npx puppeteer browsers install."
       },
       "tr": {
         "name": "Puppeteer",
-        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+        "detail": "Tarayıcılar; npx puppeteer browsers install ile yeniden kurun."
       },
       "uk": {
         "name": "Puppeteer",
-        "detail": "Завантажені файли; за потреби завантажуються знову."
+        "detail": "Браузери; перевстановіть через npx puppeteer browsers install."
       },
       "zh-Hans": {
         "name": "Puppeteer",
-        "detail": "已下载的文件；需要时会重新下载。"
+        "detail": "已下载的浏览器；运行 npx puppeteer browsers install 重新安装。"
       },
       "zh-Hant": {
         "name": "Puppeteer",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "已下載的瀏覽器；執行 npx puppeteer browsers install 重新安裝。"
       },
       "zh-HK": {
         "name": "Puppeteer",
-        "detail": "已下載的檔案；需要時會重新下載。"
+        "detail": "已下載的瀏覽器；執行 npx puppeteer browsers install 重新安裝。"
       }
     },
     "name": "Puppeteer",
-    "detail": "Browser builds; downloaded again during future installs.",
+    "detail": "Browser downloads; reinstall with npx puppeteer browsers install.",
     "path": "~/.cache/puppeteer",
-    "risk": "cautious"
+    "risk": "cautious",
+    "subfolders": [
+      "chrome",
+      "chrome-headless-shell",
+      "chromium",
+      "firefox",
+      "chromedriver"
+    ]
   },
   {
     "id": "sublime-text-cache",

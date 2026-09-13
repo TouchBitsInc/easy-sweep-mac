@@ -56,7 +56,8 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before a first pull request — it cover
 the rules CI enforces and, more usefully, why each exists.
 
 The [2.9.2 path review](docs/catalog-review-2.9.2.md) records sources, protected
-data, and exclusions for the latest cache additions.
+data, and exclusions for the cache additions. The [2.9.3 follow-up](docs/catalog-review-2.9.3.md)
+corrects recovery instructions and narrows the Puppeteer selection.
 
 The short version:
 
