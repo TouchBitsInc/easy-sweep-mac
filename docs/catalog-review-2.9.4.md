@@ -1,7 +1,7 @@
 # Catalog 2.9.4 review
 
 This release adds 26 entries for applications and developer tools the catalog
-did not yet cover. The catalog grows from 205 to 231 entries: 21 under 16 new
+did not yet cover. The catalog grows from 205 to 231 entries: 21 under 17 new
 applications in App Data and five in Developer. No category, API, or cleanup
 engine changes are required.
 
