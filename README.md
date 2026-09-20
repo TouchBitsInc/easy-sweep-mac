@@ -57,7 +57,9 @@ the rules CI enforces and, more usefully, why each exists.
 
 The [2.9.2 path review](docs/catalog-review-2.9.2.md) records sources, protected
 data, and exclusions for the cache additions. The [2.9.3 follow-up](docs/catalog-review-2.9.3.md)
-corrects recovery instructions and narrows the Puppeteer selection.
+corrects recovery instructions and narrows the Puppeteer selection. The
+[2.9.4 review](docs/catalog-review-2.9.4.md) cites each of the 26 entries added
+there and lists the candidates left out for want of a source.
 
 The short version:
 
