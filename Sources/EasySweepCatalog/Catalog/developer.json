@@ -6471,5 +6471,365 @@
       "http",
       "discovery"
     ]
+  },
+  {
+    "id": "bazelisk-downloads",
+    "localizations": {
+      "en": {
+        "name": "Bazelisk"
+      },
+      "de": {
+        "name": "Bazelisk",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "Bazelisk",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "Bazelisk",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "Bazelisk",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "Bazelisk",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "Bazelisk",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "Bazelisk",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "Bazelisk",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Bazelisk",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "Bazelisk",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "Bazelisk",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "Bazelisk",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "Bazelisk",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "Bazelisk",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "Bazelisk",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "Bazelisk",
+    "detail": "Downloaded files; fetched again when needed.",
+    "path": "~/Library/Caches/bazelisk",
+    "risk": "cautious"
+  },
+  {
+    "id": "opencode-cache",
+    "localizations": {
+      "en": {
+        "name": "OpenCode"
+      },
+      "de": {
+        "name": "OpenCode",
+        "detail": "Heruntergeladene Dateien; bei Bedarf erneut geladen."
+      },
+      "es": {
+        "name": "OpenCode",
+        "detail": "Archivos descargados; se obtienen de nuevo cuando hacen falta."
+      },
+      "fr": {
+        "name": "OpenCode",
+        "detail": "Fichiers téléchargés; retéléchargés si nécessaire."
+      },
+      "it": {
+        "name": "OpenCode",
+        "detail": "File scaricati; riscaricati quando servono."
+      },
+      "ja": {
+        "name": "OpenCode",
+        "detail": "ダウンロードしたファイル。必要に応じて再取得されます。"
+      },
+      "ko": {
+        "name": "OpenCode",
+        "detail": "다운로드한 파일입니다. 필요할 때 다시 다운로드됩니다."
+      },
+      "nl": {
+        "name": "OpenCode",
+        "detail": "Gedownloade bestanden; opnieuw opgehaald wanneer nodig."
+      },
+      "pl": {
+        "name": "OpenCode",
+        "detail": "Pobrane pliki; pobierane ponownie w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "OpenCode",
+        "detail": "Arquivos baixados; baixados novamente quando necessário."
+      },
+      "ru": {
+        "name": "OpenCode",
+        "detail": "Загруженные файлы; при необходимости загружаются снова."
+      },
+      "tr": {
+        "name": "OpenCode",
+        "detail": "İndirilen dosyalar; gerektiğinde yeniden indirilir."
+      },
+      "uk": {
+        "name": "OpenCode",
+        "detail": "Завантажені файли; за потреби завантажуються знову."
+      },
+      "zh-Hans": {
+        "name": "OpenCode",
+        "detail": "已下载的文件；需要时会重新下载。"
+      },
+      "zh-Hant": {
+        "name": "OpenCode",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      },
+      "zh-HK": {
+        "name": "OpenCode",
+        "detail": "已下載的檔案；需要時會重新下載。"
+      }
+    },
+    "name": "OpenCode",
+    "detail": "Package cache; downloaded again when projects need it.",
+    "path": "~/.cache/opencode",
+    "risk": "safe"
+  },
+  {
+    "id": "cpan-build",
+    "localizations": {
+      "en": {
+        "name": "CPAN"
+      },
+      "de": {
+        "name": "CPAN",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "CPAN",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "CPAN",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "CPAN",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "CPAN",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "CPAN",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "CPAN",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "CPAN",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "CPAN",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "CPAN",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "CPAN",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "CPAN",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "CPAN",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "CPAN",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "CPAN",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "CPAN",
+    "detail": "Build cache; regenerated during future builds.",
+    "path": "~/.cpan/build",
+    "risk": "safe"
+  },
+  {
+    "id": "oh-my-zsh-cache",
+    "localizations": {
+      "en": {
+        "name": "Oh My Zsh"
+      },
+      "de": {
+        "name": "Oh My Zsh",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "Oh My Zsh",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "Oh My Zsh",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "Oh My Zsh",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "Oh My Zsh",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "Oh My Zsh",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "Oh My Zsh",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "Oh My Zsh",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "Oh My Zsh",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "Oh My Zsh",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "Oh My Zsh",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "Oh My Zsh",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "Oh My Zsh",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "Oh My Zsh",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "Oh My Zsh",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "Oh My Zsh",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/.oh-my-zsh/cache",
+    "risk": "safe"
+  },
+  {
+    "id": "aws-cli-cache",
+    "localizations": {
+      "en": {
+        "name": "AWS CLI"
+      },
+      "de": {
+        "name": "AWS CLI",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "AWS CLI",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "AWS CLI",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "AWS CLI",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "AWS CLI",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "AWS CLI",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "AWS CLI",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "AWS CLI",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "AWS CLI",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "AWS CLI",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "AWS CLI",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "AWS CLI",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "AWS CLI",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "AWS CLI",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "AWS CLI",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "AWS CLI",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/.aws/cli/cache",
+    "risk": "cautious"
   }
 ]

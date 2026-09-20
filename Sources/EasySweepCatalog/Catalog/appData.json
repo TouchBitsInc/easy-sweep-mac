@@ -11993,5 +11993,2496 @@
         "risk": "cautious"
       }
     ]
+  },
+  {
+    "id": "claude-desktop",
+    "name": "Claude",
+    "localizations": {
+      "en": {
+        "name": "Claude"
+      },
+      "de": {
+        "name": "Claude"
+      },
+      "es": {
+        "name": "Claude"
+      },
+      "fr": {
+        "name": "Claude"
+      },
+      "it": {
+        "name": "Claude"
+      },
+      "ja": {
+        "name": "Claude"
+      },
+      "ko": {
+        "name": "Claude"
+      },
+      "nl": {
+        "name": "Claude"
+      },
+      "pl": {
+        "name": "Claude"
+      },
+      "pt-BR": {
+        "name": "Claude"
+      },
+      "ru": {
+        "name": "Claude"
+      },
+      "tr": {
+        "name": "Claude"
+      },
+      "uk": {
+        "name": "Claude"
+      },
+      "zh-Hans": {
+        "name": "Claude"
+      },
+      "zh-Hant": {
+        "name": "Claude"
+      },
+      "zh-HK": {
+        "name": "Claude"
+      }
+    },
+    "entries": [
+      {
+        "id": "claude-desktop-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.anthropic.claudefordesktop",
+        "risk": "safe"
+      },
+      {
+        "id": "claude-desktop-web-cache",
+        "localizations": {
+          "en": {
+            "name": "Web Data"
+          },
+          "de": {
+            "name": "Webdaten",
+            "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+          },
+          "es": {
+            "name": "Datos web",
+            "detail": "Datos web offline; se actualizan al abrir la app."
+          },
+          "fr": {
+            "name": "Données web",
+            "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+          },
+          "it": {
+            "name": "Dati web",
+            "detail": "Dati web offline; aggiornati all’apertura dell’app."
+          },
+          "ja": {
+            "name": "ウェブデータ",
+            "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+          },
+          "ko": {
+            "name": "웹 데이터",
+            "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+          },
+          "nl": {
+            "name": "Webgegevens",
+            "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+          },
+          "pl": {
+            "name": "Dane sieciowe",
+            "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+          },
+          "pt-BR": {
+            "name": "Dados da web",
+            "detail": "Dados web offline; atualizados ao abrir o app."
+          },
+          "ru": {
+            "name": "Веб-данные",
+            "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+          },
+          "tr": {
+            "name": "Web verileri",
+            "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+          },
+          "uk": {
+            "name": "Веб-дані",
+            "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+          },
+          "zh-Hans": {
+            "name": "网页数据",
+            "detail": "离线网页数据；打开应用时会更新。"
+          },
+          "zh-Hant": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          },
+          "zh-HK": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          }
+        },
+        "name": "Web Data",
+        "detail": "Offline web data; refreshed when the app opens.",
+        "path": "~/Library/Application Support/Claude",
+        "risk": "cautious",
+        "subfolders": [
+          "Cache",
+          "Code Cache",
+          "GPUCache",
+          "DawnGraphiteCache",
+          "DawnWebGPUCache"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "localizations": {
+      "en": {
+        "name": "Antigravity"
+      },
+      "de": {
+        "name": "Antigravity"
+      },
+      "es": {
+        "name": "Antigravity"
+      },
+      "fr": {
+        "name": "Antigravity"
+      },
+      "it": {
+        "name": "Antigravity"
+      },
+      "ja": {
+        "name": "Antigravity"
+      },
+      "ko": {
+        "name": "Antigravity"
+      },
+      "nl": {
+        "name": "Antigravity"
+      },
+      "pl": {
+        "name": "Antigravity"
+      },
+      "pt-BR": {
+        "name": "Antigravity"
+      },
+      "ru": {
+        "name": "Antigravity"
+      },
+      "tr": {
+        "name": "Antigravity"
+      },
+      "uk": {
+        "name": "Antigravity"
+      },
+      "zh-Hans": {
+        "name": "Antigravity"
+      },
+      "zh-Hant": {
+        "name": "Antigravity"
+      },
+      "zh-HK": {
+        "name": "Antigravity"
+      }
+    },
+    "entries": [
+      {
+        "id": "antigravity-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.google.antigravity",
+        "risk": "safe"
+      },
+      {
+        "id": "antigravity-web-cache",
+        "localizations": {
+          "en": {
+            "name": "Web Data"
+          },
+          "de": {
+            "name": "Webdaten",
+            "detail": "Offline-Webdaten; beim Öffnen der App aktualisiert."
+          },
+          "es": {
+            "name": "Datos web",
+            "detail": "Datos web offline; se actualizan al abrir la app."
+          },
+          "fr": {
+            "name": "Données web",
+            "detail": "Données web hors ligne; actualisées à l’ouverture de l’app."
+          },
+          "it": {
+            "name": "Dati web",
+            "detail": "Dati web offline; aggiornati all’apertura dell’app."
+          },
+          "ja": {
+            "name": "ウェブデータ",
+            "detail": "オフラインのウェブデータ。アプリを開くと更新されます。"
+          },
+          "ko": {
+            "name": "웹 데이터",
+            "detail": "오프라인 웹 데이터입니다. 앱을 열면 갱신됩니다."
+          },
+          "nl": {
+            "name": "Webgegevens",
+            "detail": "Offline-webgegevens; bijgewerkt bij het openen van de app."
+          },
+          "pl": {
+            "name": "Dane sieciowe",
+            "detail": "Dane internetowe offline; aktualizowane po otwarciu aplikacji."
+          },
+          "pt-BR": {
+            "name": "Dados da web",
+            "detail": "Dados web offline; atualizados ao abrir o app."
+          },
+          "ru": {
+            "name": "Веб-данные",
+            "detail": "Офлайн-веб-данные; обновляются при открытии приложения."
+          },
+          "tr": {
+            "name": "Web verileri",
+            "detail": "Çevrimdışı web verileri; uygulama açılınca yenilenir."
+          },
+          "uk": {
+            "name": "Веб-дані",
+            "detail": "Офлайн-вебдані; оновлюються під час відкриття програми."
+          },
+          "zh-Hans": {
+            "name": "网页数据",
+            "detail": "离线网页数据；打开应用时会更新。"
+          },
+          "zh-Hant": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          },
+          "zh-HK": {
+            "name": "網頁資料",
+            "detail": "離線網頁資料；開啟 App 時會更新。"
+          }
+        },
+        "name": "Web Data",
+        "detail": "Offline web data; refreshed when the app opens.",
+        "path": "~/Library/Application Support/Antigravity",
+        "risk": "cautious",
+        "subfolders": [
+          "Cache",
+          "Code Cache",
+          "GPUCache",
+          "DawnGraphiteCache",
+          "DawnWebGPUCache"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zed",
+    "name": "Zed",
+    "localizations": {
+      "en": {
+        "name": "Zed"
+      },
+      "de": {
+        "name": "Zed"
+      },
+      "es": {
+        "name": "Zed"
+      },
+      "fr": {
+        "name": "Zed"
+      },
+      "it": {
+        "name": "Zed"
+      },
+      "ja": {
+        "name": "Zed"
+      },
+      "ko": {
+        "name": "Zed"
+      },
+      "nl": {
+        "name": "Zed"
+      },
+      "pl": {
+        "name": "Zed"
+      },
+      "pt-BR": {
+        "name": "Zed"
+      },
+      "ru": {
+        "name": "Zed"
+      },
+      "tr": {
+        "name": "Zed"
+      },
+      "uk": {
+        "name": "Zed"
+      },
+      "zh-Hans": {
+        "name": "Zed"
+      },
+      "zh-Hant": {
+        "name": "Zed"
+      },
+      "zh-HK": {
+        "name": "Zed"
+      }
+    },
+    "entries": [
+      {
+        "id": "zed-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/Zed",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "ghostty",
+    "name": "Ghostty",
+    "localizations": {
+      "en": {
+        "name": "Ghostty"
+      },
+      "de": {
+        "name": "Ghostty"
+      },
+      "es": {
+        "name": "Ghostty"
+      },
+      "fr": {
+        "name": "Ghostty"
+      },
+      "it": {
+        "name": "Ghostty"
+      },
+      "ja": {
+        "name": "Ghostty"
+      },
+      "ko": {
+        "name": "Ghostty"
+      },
+      "nl": {
+        "name": "Ghostty"
+      },
+      "pl": {
+        "name": "Ghostty"
+      },
+      "pt-BR": {
+        "name": "Ghostty"
+      },
+      "ru": {
+        "name": "Ghostty"
+      },
+      "tr": {
+        "name": "Ghostty"
+      },
+      "uk": {
+        "name": "Ghostty"
+      },
+      "zh-Hans": {
+        "name": "Ghostty"
+      },
+      "zh-Hant": {
+        "name": "Ghostty"
+      },
+      "zh-HK": {
+        "name": "Ghostty"
+      }
+    },
+    "entries": [
+      {
+        "id": "ghostty-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.mitchellh.ghostty",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "localizations": {
+      "en": {
+        "name": "Notion"
+      },
+      "de": {
+        "name": "Notion"
+      },
+      "es": {
+        "name": "Notion"
+      },
+      "fr": {
+        "name": "Notion"
+      },
+      "it": {
+        "name": "Notion"
+      },
+      "ja": {
+        "name": "Notion"
+      },
+      "ko": {
+        "name": "Notion"
+      },
+      "nl": {
+        "name": "Notion"
+      },
+      "pl": {
+        "name": "Notion"
+      },
+      "pt-BR": {
+        "name": "Notion"
+      },
+      "ru": {
+        "name": "Notion"
+      },
+      "tr": {
+        "name": "Notion"
+      },
+      "uk": {
+        "name": "Notion"
+      },
+      "zh-Hans": {
+        "name": "Notion"
+      },
+      "zh-Hant": {
+        "name": "Notion"
+      },
+      "zh-HK": {
+        "name": "Notion"
+      }
+    },
+    "entries": [
+      {
+        "id": "notion-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/notion.id",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "localizations": {
+      "en": {
+        "name": "Postman"
+      },
+      "de": {
+        "name": "Postman"
+      },
+      "es": {
+        "name": "Postman"
+      },
+      "fr": {
+        "name": "Postman"
+      },
+      "it": {
+        "name": "Postman"
+      },
+      "ja": {
+        "name": "Postman"
+      },
+      "ko": {
+        "name": "Postman"
+      },
+      "nl": {
+        "name": "Postman"
+      },
+      "pl": {
+        "name": "Postman"
+      },
+      "pt-BR": {
+        "name": "Postman"
+      },
+      "ru": {
+        "name": "Postman"
+      },
+      "tr": {
+        "name": "Postman"
+      },
+      "uk": {
+        "name": "Postman"
+      },
+      "zh-Hans": {
+        "name": "Postman"
+      },
+      "zh-Hant": {
+        "name": "Postman"
+      },
+      "zh-HK": {
+        "name": "Postman"
+      }
+    },
+    "entries": [
+      {
+        "id": "postman-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.postmanlabs.mac",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "localizations": {
+      "en": {
+        "name": "Insomnia"
+      },
+      "de": {
+        "name": "Insomnia"
+      },
+      "es": {
+        "name": "Insomnia"
+      },
+      "fr": {
+        "name": "Insomnia"
+      },
+      "it": {
+        "name": "Insomnia"
+      },
+      "ja": {
+        "name": "Insomnia"
+      },
+      "ko": {
+        "name": "Insomnia"
+      },
+      "nl": {
+        "name": "Insomnia"
+      },
+      "pl": {
+        "name": "Insomnia"
+      },
+      "pt-BR": {
+        "name": "Insomnia"
+      },
+      "ru": {
+        "name": "Insomnia"
+      },
+      "tr": {
+        "name": "Insomnia"
+      },
+      "uk": {
+        "name": "Insomnia"
+      },
+      "zh-Hans": {
+        "name": "Insomnia"
+      },
+      "zh-Hant": {
+        "name": "Insomnia"
+      },
+      "zh-HK": {
+        "name": "Insomnia"
+      }
+    },
+    "entries": [
+      {
+        "id": "insomnia-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.insomnia.app",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "tableplus",
+    "name": "TablePlus",
+    "localizations": {
+      "en": {
+        "name": "TablePlus"
+      },
+      "de": {
+        "name": "TablePlus"
+      },
+      "es": {
+        "name": "TablePlus"
+      },
+      "fr": {
+        "name": "TablePlus"
+      },
+      "it": {
+        "name": "TablePlus"
+      },
+      "ja": {
+        "name": "TablePlus"
+      },
+      "ko": {
+        "name": "TablePlus"
+      },
+      "nl": {
+        "name": "TablePlus"
+      },
+      "pl": {
+        "name": "TablePlus"
+      },
+      "pt-BR": {
+        "name": "TablePlus"
+      },
+      "ru": {
+        "name": "TablePlus"
+      },
+      "tr": {
+        "name": "TablePlus"
+      },
+      "uk": {
+        "name": "TablePlus"
+      },
+      "zh-Hans": {
+        "name": "TablePlus"
+      },
+      "zh-Hant": {
+        "name": "TablePlus"
+      },
+      "zh-HK": {
+        "name": "TablePlus"
+      }
+    },
+    "entries": [
+      {
+        "id": "tableplus-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.tinyapp.TablePlus",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "proxyman",
+    "name": "Proxyman",
+    "localizations": {
+      "en": {
+        "name": "Proxyman"
+      },
+      "de": {
+        "name": "Proxyman"
+      },
+      "es": {
+        "name": "Proxyman"
+      },
+      "fr": {
+        "name": "Proxyman"
+      },
+      "it": {
+        "name": "Proxyman"
+      },
+      "ja": {
+        "name": "Proxyman"
+      },
+      "ko": {
+        "name": "Proxyman"
+      },
+      "nl": {
+        "name": "Proxyman"
+      },
+      "pl": {
+        "name": "Proxyman"
+      },
+      "pt-BR": {
+        "name": "Proxyman"
+      },
+      "ru": {
+        "name": "Proxyman"
+      },
+      "tr": {
+        "name": "Proxyman"
+      },
+      "uk": {
+        "name": "Proxyman"
+      },
+      "zh-Hans": {
+        "name": "Proxyman"
+      },
+      "zh-Hant": {
+        "name": "Proxyman"
+      },
+      "zh-HK": {
+        "name": "Proxyman"
+      }
+    },
+    "entries": [
+      {
+        "id": "proxyman-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.proxyman.NSProxy",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "mongodb-compass",
+    "name": "MongoDB Compass",
+    "localizations": {
+      "en": {
+        "name": "MongoDB Compass"
+      },
+      "de": {
+        "name": "MongoDB Compass"
+      },
+      "es": {
+        "name": "MongoDB Compass"
+      },
+      "fr": {
+        "name": "MongoDB Compass"
+      },
+      "it": {
+        "name": "MongoDB Compass"
+      },
+      "ja": {
+        "name": "MongoDB Compass"
+      },
+      "ko": {
+        "name": "MongoDB Compass"
+      },
+      "nl": {
+        "name": "MongoDB Compass"
+      },
+      "pl": {
+        "name": "MongoDB Compass"
+      },
+      "pt-BR": {
+        "name": "MongoDB Compass"
+      },
+      "ru": {
+        "name": "MongoDB Compass"
+      },
+      "tr": {
+        "name": "MongoDB Compass"
+      },
+      "uk": {
+        "name": "MongoDB Compass"
+      },
+      "zh-Hans": {
+        "name": "MongoDB Compass"
+      },
+      "zh-Hant": {
+        "name": "MongoDB Compass"
+      },
+      "zh-HK": {
+        "name": "MongoDB Compass"
+      }
+    },
+    "entries": [
+      {
+        "id": "mongodb-compass-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/MongoDB Compass",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "github-desktop",
+    "name": "GitHub Desktop",
+    "localizations": {
+      "en": {
+        "name": "GitHub Desktop"
+      },
+      "de": {
+        "name": "GitHub Desktop"
+      },
+      "es": {
+        "name": "GitHub Desktop"
+      },
+      "fr": {
+        "name": "GitHub Desktop"
+      },
+      "it": {
+        "name": "GitHub Desktop"
+      },
+      "ja": {
+        "name": "GitHub Desktop"
+      },
+      "ko": {
+        "name": "GitHub Desktop"
+      },
+      "nl": {
+        "name": "GitHub Desktop"
+      },
+      "pl": {
+        "name": "GitHub Desktop"
+      },
+      "pt-BR": {
+        "name": "GitHub Desktop"
+      },
+      "ru": {
+        "name": "GitHub Desktop"
+      },
+      "tr": {
+        "name": "GitHub Desktop"
+      },
+      "uk": {
+        "name": "GitHub Desktop"
+      },
+      "zh-Hans": {
+        "name": "GitHub Desktop"
+      },
+      "zh-Hant": {
+        "name": "GitHub Desktop"
+      },
+      "zh-HK": {
+        "name": "GitHub Desktop"
+      }
+    },
+    "entries": [
+      {
+        "id": "github-desktop-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.github.GitHubClient",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "sequel-ace",
+    "name": "Sequel Ace",
+    "localizations": {
+      "en": {
+        "name": "Sequel Ace"
+      },
+      "de": {
+        "name": "Sequel Ace"
+      },
+      "es": {
+        "name": "Sequel Ace"
+      },
+      "fr": {
+        "name": "Sequel Ace"
+      },
+      "it": {
+        "name": "Sequel Ace"
+      },
+      "ja": {
+        "name": "Sequel Ace"
+      },
+      "ko": {
+        "name": "Sequel Ace"
+      },
+      "nl": {
+        "name": "Sequel Ace"
+      },
+      "pl": {
+        "name": "Sequel Ace"
+      },
+      "pt-BR": {
+        "name": "Sequel Ace"
+      },
+      "ru": {
+        "name": "Sequel Ace"
+      },
+      "tr": {
+        "name": "Sequel Ace"
+      },
+      "uk": {
+        "name": "Sequel Ace"
+      },
+      "zh-Hans": {
+        "name": "Sequel Ace"
+      },
+      "zh-Hant": {
+        "name": "Sequel Ace"
+      },
+      "zh-HK": {
+        "name": "Sequel Ace"
+      }
+    },
+    "entries": [
+      {
+        "id": "sequel-ace-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.sequel-ace.sequel-ace/Data/Library/Caches",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "localizations": {
+      "en": {
+        "name": "Helium"
+      },
+      "de": {
+        "name": "Helium"
+      },
+      "es": {
+        "name": "Helium"
+      },
+      "fr": {
+        "name": "Helium"
+      },
+      "it": {
+        "name": "Helium"
+      },
+      "ja": {
+        "name": "Helium"
+      },
+      "ko": {
+        "name": "Helium"
+      },
+      "nl": {
+        "name": "Helium"
+      },
+      "pl": {
+        "name": "Helium"
+      },
+      "pt-BR": {
+        "name": "Helium"
+      },
+      "ru": {
+        "name": "Helium"
+      },
+      "tr": {
+        "name": "Helium"
+      },
+      "uk": {
+        "name": "Helium"
+      },
+      "zh-Hans": {
+        "name": "Helium"
+      },
+      "zh-Hant": {
+        "name": "Helium"
+      },
+      "zh-HK": {
+        "name": "Helium"
+      }
+    },
+    "entries": [
+      {
+        "id": "helium-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Caches/net.imput.helium",
+        "symbol": "globe",
+        "risk": "safe"
+      },
+      {
+        "id": "helium-site-cache",
+        "localizations": {
+          "en": {
+            "name": "Site Data"
+          },
+          "de": {
+            "name": "Website-Daten",
+            "detail": "Offline-Websitedaten; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Datos de sitios",
+            "detail": "Datos de sitios sin conexión; se reconstruyen al navegar."
+          },
+          "fr": {
+            "name": "Données de site",
+            "detail": "Données hors ligne; recréées pendant la navigation."
+          },
+          "it": {
+            "name": "Dati dei siti",
+            "detail": "Dati offline dei siti; ricreati durante la navigazione."
+          },
+          "ja": {
+            "name": "サイトデータ",
+            "detail": "オフラインのサイトデータ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "사이트 데이터",
+            "detail": "오프라인 사이트 데이터입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Sitegegevens",
+            "detail": "Offline-sitegegevens; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Dane witryn",
+            "detail": "Dane witryn offline; odtwarzane podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Dados de sites",
+            "detail": "Dados de sites offline; recriados durante a navegação."
+          },
+          "ru": {
+            "name": "Данные сайтов",
+            "detail": "Офлайн-данные сайтов; создаются заново при просмотре."
+          },
+          "tr": {
+            "name": "Site verileri",
+            "detail": "Çevrimdışı site verileri; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Дані сайтів",
+            "detail": "Офлайн-дані сайтів; створюються під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "网站数据",
+            "detail": "离线网站数据；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "網站資料",
+            "detail": "離線網站資料；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "網站資料",
+            "detail": "離線網站資料；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Site Data",
+        "detail": "Offline site data; rebuilt as you browse.",
+        "path": "~/Library/Application Support/net.imput.helium",
+        "symbol": "globe",
+        "risk": "cautious",
+        "subfolders": [
+          "*/Service Worker/CacheStorage",
+          "*/GPUCache",
+          "*/Code Cache"
+        ]
+      },
+      {
+        "id": "helium-shader-cache",
+        "localizations": {
+          "en": {
+            "name": "Graphics Cache"
+          },
+          "de": {
+            "name": "Grafikcache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché gráfica",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache graphique",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache grafica",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "グラフィックキャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "그래픽 캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Grafische cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna grafiki",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache gráfico",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш графики",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Grafik Önbelleği",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш графіки",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "图形缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "圖形快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "圖像快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Graphics Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Application Support/net.imput.helium",
+        "risk": "safe",
+        "subfolders": [
+          "ShaderCache",
+          "GrShaderCache",
+          "GraphiteDawnCache"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comet",
+    "name": "Comet",
+    "localizations": {
+      "en": {
+        "name": "Comet"
+      },
+      "de": {
+        "name": "Comet"
+      },
+      "es": {
+        "name": "Comet"
+      },
+      "fr": {
+        "name": "Comet"
+      },
+      "it": {
+        "name": "Comet"
+      },
+      "ja": {
+        "name": "Comet"
+      },
+      "ko": {
+        "name": "Comet"
+      },
+      "nl": {
+        "name": "Comet"
+      },
+      "pl": {
+        "name": "Comet"
+      },
+      "pt-BR": {
+        "name": "Comet"
+      },
+      "ru": {
+        "name": "Comet"
+      },
+      "tr": {
+        "name": "Comet"
+      },
+      "uk": {
+        "name": "Comet"
+      },
+      "zh-Hans": {
+        "name": "Comet"
+      },
+      "zh-Hant": {
+        "name": "Comet"
+      },
+      "zh-HK": {
+        "name": "Comet"
+      }
+    },
+    "entries": [
+      {
+        "id": "comet-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Browser-Cache; beim Surfen neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché del navegador; se reconstruye al navegar."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache du navigateur; recréé pendant la navigation."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache del browser; ricreata durante la navigazione."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "ブラウザーキャッシュ。閲覧中に再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "브라우저 캐시입니다. 탐색 중 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Browsercache; opnieuw gemaakt tijdens het browsen."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna przeglądarki; odtwarzana podczas przeglądania."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache do navegador; recriado durante a navegação."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш браузера; создаётся заново во время просмотра."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Tarayıcı önbelleği; gezinirken yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш браузера; створюється під час перегляду."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "浏览器缓存；浏览网页时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "瀏覽器快取；瀏覽網頁時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "Browser cache; rebuilt as you browse.",
+        "path": "~/Library/Caches/Comet",
+        "symbol": "globe",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "battle-net",
+    "name": "Battle.net",
+    "localizations": {
+      "en": {
+        "name": "Battle.net"
+      },
+      "de": {
+        "name": "Battle.net"
+      },
+      "es": {
+        "name": "Battle.net"
+      },
+      "fr": {
+        "name": "Battle.net"
+      },
+      "it": {
+        "name": "Battle.net"
+      },
+      "ja": {
+        "name": "Battle.net"
+      },
+      "ko": {
+        "name": "Battle.net"
+      },
+      "nl": {
+        "name": "Battle.net"
+      },
+      "pl": {
+        "name": "Battle.net"
+      },
+      "pt-BR": {
+        "name": "Battle.net"
+      },
+      "ru": {
+        "name": "Battle.net"
+      },
+      "tr": {
+        "name": "Battle.net"
+      },
+      "uk": {
+        "name": "Battle.net"
+      },
+      "zh-Hans": {
+        "name": "Battle.net"
+      },
+      "zh-Hant": {
+        "name": "Battle.net"
+      },
+      "zh-HK": {
+        "name": "Battle.net"
+      }
+    },
+    "entries": [
+      {
+        "id": "battle-net-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/net.battle.bootstrapper",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "localizations": {
+      "en": {
+        "name": "Minecraft"
+      },
+      "de": {
+        "name": "Minecraft"
+      },
+      "es": {
+        "name": "Minecraft"
+      },
+      "fr": {
+        "name": "Minecraft"
+      },
+      "it": {
+        "name": "Minecraft"
+      },
+      "ja": {
+        "name": "Minecraft"
+      },
+      "ko": {
+        "name": "Minecraft"
+      },
+      "nl": {
+        "name": "Minecraft"
+      },
+      "pl": {
+        "name": "Minecraft"
+      },
+      "pt-BR": {
+        "name": "Minecraft"
+      },
+      "ru": {
+        "name": "Minecraft"
+      },
+      "tr": {
+        "name": "Minecraft"
+      },
+      "uk": {
+        "name": "Minecraft"
+      },
+      "zh-Hans": {
+        "name": "Minecraft"
+      },
+      "zh-Hant": {
+        "name": "Minecraft"
+      },
+      "zh-HK": {
+        "name": "Minecraft"
+      }
+    },
+    "entries": [
+      {
+        "id": "minecraft-launcher-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Caches/com.mojang.minecraftlauncher",
+        "risk": "safe"
+      }
+    ]
+  },
+  {
+    "id": "utm",
+    "name": "UTM",
+    "localizations": {
+      "en": {
+        "name": "UTM"
+      },
+      "de": {
+        "name": "UTM"
+      },
+      "es": {
+        "name": "UTM"
+      },
+      "fr": {
+        "name": "UTM"
+      },
+      "it": {
+        "name": "UTM"
+      },
+      "ja": {
+        "name": "UTM"
+      },
+      "ko": {
+        "name": "UTM"
+      },
+      "nl": {
+        "name": "UTM"
+      },
+      "pl": {
+        "name": "UTM"
+      },
+      "pt-BR": {
+        "name": "UTM"
+      },
+      "ru": {
+        "name": "UTM"
+      },
+      "tr": {
+        "name": "UTM"
+      },
+      "uk": {
+        "name": "UTM"
+      },
+      "zh-Hans": {
+        "name": "UTM"
+      },
+      "zh-Hant": {
+        "name": "UTM"
+      },
+      "zh-HK": {
+        "name": "UTM"
+      }
+    },
+    "entries": [
+      {
+        "id": "utm-cache",
+        "localizations": {
+          "en": {
+            "name": "Cache"
+          },
+          "de": {
+            "name": "Cache",
+            "detail": "Cache; bei Bedarf neu erstellt."
+          },
+          "es": {
+            "name": "Caché",
+            "detail": "Caché; se reconstruye cuando hace falta."
+          },
+          "fr": {
+            "name": "Cache",
+            "detail": "Cache; recréé si nécessaire."
+          },
+          "it": {
+            "name": "Cache",
+            "detail": "Cache; ricreata quando serve."
+          },
+          "ja": {
+            "name": "キャッシュ",
+            "detail": "キャッシュ。必要に応じて再生成されます。"
+          },
+          "ko": {
+            "name": "캐시",
+            "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+          },
+          "nl": {
+            "name": "Cache",
+            "detail": "Cache; opnieuw gemaakt wanneer nodig."
+          },
+          "pl": {
+            "name": "Pamięć podręczna",
+            "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+          },
+          "pt-BR": {
+            "name": "Cache",
+            "detail": "Cache; recriado quando necessário."
+          },
+          "ru": {
+            "name": "Кэш",
+            "detail": "Кэш; создаётся заново при необходимости."
+          },
+          "tr": {
+            "name": "Önbellek",
+            "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+          },
+          "uk": {
+            "name": "Кеш",
+            "detail": "Кеш; за потреби створюється знову."
+          },
+          "zh-Hans": {
+            "name": "缓存",
+            "detail": "缓存；需要时会重新生成。"
+          },
+          "zh-Hant": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          },
+          "zh-HK": {
+            "name": "快取",
+            "detail": "快取；需要時會重新產生。"
+          }
+        },
+        "name": "Cache",
+        "detail": "App cache; rebuilt when the app runs.",
+        "path": "~/Library/Containers/com.utmapp.UTM/Data/Library/Caches",
+        "risk": "safe"
+      }
+    ]
   }
 ]
