@@ -23,7 +23,6 @@ struct KeepsTests {
         for id in ["ios-device-support", "tvos-device-support", "watchos-device-support"] {
             #expect(entries.first { $0.id == id }?.keeps == .newest, Comment(rawValue: id))
         }
-        #expect(entries.first { $0.id == "edge-updater-staging" }?.keeps == .newest)
         #expect(entries.first { $0.id == "derived-data" }?.keeps == nil)
     }
 

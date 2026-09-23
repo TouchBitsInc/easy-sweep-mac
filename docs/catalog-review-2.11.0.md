@@ -1,7 +1,6 @@
 # Catalog 2.11.0 review
 
-This release adds one field and one entry. The catalog grows from 231 to 232
-entries.
+This release adds one field.
 
 ## `keeps`
 
@@ -18,8 +17,12 @@ not recognise fails to decode and is dropped from that build, rather than
 reading as "keep nothing" — which would have an older build clean the very row
 a newer catalog says to keep.
 
-## Edge updater staging
+## Withdrawn in 2.11.1
 
-| Entry | Path | Risk | Source |
-|---|---|---|---|
-| `edge-updater-staging` | `~/Library/Application Support/Microsoft/EdgeUpdater/apps/msedge-stable/*`, keeps newest | safe | [cask `microsoft-edge`](https://formulae.brew.sh/cask/microsoft-edge) lists `~/Library/Application Support/Microsoft/EdgeUpdater` among the folders the browser creates. The updater stages one full copy of the browser per downloaded version under `apps/msedge-stable`; after Edge installs an update the previously staged copy is left behind. The newest copy may be an update not yet applied, which is why it is kept on the unattended paths. A copy removed by hand is downloaded again by the updater. |
+2.11.0 also added `edge-updater-staging`, pointing at
+`~/Library/Application Support/Microsoft/EdgeUpdater/apps/msedge-stable`. The
+Homebrew cask confirms only the `EdgeUpdater` folder; the `apps/msedge-stable`
+layout beneath it had no source, and a review found counter-evidence in the
+Chromium updater's own code, which documents its `apps` directory as a demo
+path. The entry is withdrawn until someone with Edge installed confirms where
+staged copies live. The catalog is back at 231 entries.
