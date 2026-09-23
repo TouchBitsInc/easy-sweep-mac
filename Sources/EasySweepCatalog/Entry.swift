@@ -98,6 +98,21 @@ extension EasySweepCatalog {
         /// value added to `Risk` later is excluded until someone decides
         /// otherwise, where a denylist would admit it silently.
         public var autoClean: Bool { risk == .safe }
+        /// Which row an unattended clean must leave alone.
+        ///
+        /// Some folders hold one copy per version, and the newest is the one in
+        /// use: the symbols of the device being debugged, the update an
+        /// installer has staged. A clean nobody is watching — the one-click
+        /// clean, a standing rule — removes the rest and spares that one; a box
+        /// the user ticks by hand can still take it. Only meaningful with
+        /// `subfolders`, since it names a row.
+        public enum Keeps: String, Codable, Sendable {
+            /// The most recently modified child.
+            case newest
+        }
+
+        /// See `Keeps`. Nil for the ordinary entry, where every row may go.
+        public let keeps: Keeps?
         /// An SF Symbol name. Absent falls back to the category's own symbol —
         /// which is safer than a wrong name, because an unknown symbol renders
         /// as nothing at all rather than a placeholder.
@@ -118,6 +133,7 @@ extension EasySweepCatalog {
             path: String,
             subfolders: [String] = [],
             risk: Risk,
+            keeps: Keeps? = nil,
             symbol: String? = nil,
             color: String? = nil,
             localizations: [String: LocalizedContent] = [:]
@@ -128,6 +144,7 @@ extension EasySweepCatalog {
             self.path = path
             self.subfolders = subfolders
             self.risk = risk
+            self.keeps = keeps
             self.symbol = symbol
             self.color = color
             self.localizations = localizations
@@ -141,6 +158,10 @@ extension EasySweepCatalog {
             path = try container.decode(String.self, forKey: .path)
             subfolders = try container.decodeIfPresent([String].self, forKey: .subfolders) ?? []
             risk = try container.decode(Risk.self, forKey: .risk)
+            // Strict on purpose: a value this build does not know fails the
+            // entry, which drops the row. Reading it as nil instead would have
+            // an older build clean the very row a newer catalog says to keep.
+            keeps = try container.decodeIfPresent(Keeps.self, forKey: .keeps)
             symbol = try container.decodeIfPresent(String.self, forKey: .symbol)
             color = try container.decodeIfPresent(String.self, forKey: .color)
             localizations = try container.decodeIfPresent(

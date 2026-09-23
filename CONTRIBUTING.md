@@ -213,6 +213,17 @@ that is gone.
 Do not add a parallel warning, safe, or allowlist field. Consumers derive
 automatic cleaning as `risk == "safe"`, and that is the complete signal.
 
+**`keeps` names a row an unattended clean spares**, and is the one refinement
+of that signal. Some folders hold one copy per version and the newest is the
+one in use — the symbols of the device being debugged, the update an installer
+has staged. `"keeps": "newest"` on an entry with `subfolders` means the
+one-click clean and a standing rule remove every row but the most recently
+modified one; a box the user ticks by hand can still take it. It changes what
+an unattended clean takes, never whether it may run — that stays `risk`. The
+field is decoded strictly: a value a build does not know drops the entry
+rather than reading as "keep nothing", which would have an older build clean
+the row a newer catalog protects. `KeepsTests` pins both.
+
 **`specialCleaner` remains app-side.** It routes simulator device sets through
 `simctl` instead of file removal; getting that wrong can corrupt
 CoreSimulator's registry.

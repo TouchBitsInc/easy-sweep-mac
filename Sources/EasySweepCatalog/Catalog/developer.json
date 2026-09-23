@@ -148,7 +148,8 @@
     "subfolders": [
       "*"
     ],
-    "risk": "cautious"
+    "risk": "cautious",
+    "keeps": "newest"
   },
   {
     "id": "tvos-device-support",
@@ -223,7 +224,8 @@
     "subfolders": [
       "*"
     ],
-    "risk": "cautious"
+    "risk": "cautious",
+    "keeps": "newest"
   },
   {
     "id": "watchos-device-support",
@@ -298,7 +300,8 @@
     "subfolders": [
       "*"
     ],
-    "risk": "cautious"
+    "risk": "cautious",
+    "keeps": "newest"
   },
   {
     "id": "documentation",
