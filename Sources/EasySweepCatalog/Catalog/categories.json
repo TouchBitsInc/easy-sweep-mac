@@ -1,6 +1,13 @@
 {
   "appData": {
     "symbol": "square.stack.3d.up",
+    "discovers": [
+      {
+        "path": "~/Library/Caches",
+        "match": "bundleIdentifier",
+        "risk": "cautious"
+      }
+    ],
     "localizations": {
       "en": {
         "name": "App Data"

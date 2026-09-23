@@ -64,10 +64,27 @@ extension EasySweepCatalog {
     static let categorySymbols: [String: String] =
         categoryPresentations.compactMapValues(\.symbol)
 
+    /// See `DiscoveryRoot`. Decoded per root, skipping any that fail, for the
+    /// same reason entries are: a root a newer catalog adds must not take the
+    /// section's existing roots with it on an older build.
+    static let categoryDiscoveryRoots: [String: [DiscoveryRoot]] =
+        categoryPresentations.compactMapValues { presentation in
+            presentation.discovers?.compactMap(\.root)
+        }
+
     /// The data-driven presentation for a section. A struct keeps symbols and
     /// locale-keyed copy extensible without changing the category map's shape.
     private struct Presentation: Decodable {
         let symbol: String?
         let localizations: [String: EasySweepCatalog.LocalizedContent]?
+        let discovers: [SkippingUnreadableRoot]?
+    }
+
+    private struct SkippingUnreadableRoot: Decodable {
+        let root: DiscoveryRoot?
+
+        init(from decoder: any Decoder) throws {
+            root = try? DiscoveryRoot(from: decoder)
+        }
     }
 }

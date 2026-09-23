@@ -147,6 +147,39 @@ locale-keyed shape as entries. Add a new locale there when adding one to the
 app; `Category.localizedName(for:)` applies the same regional, script and
 English fallback order.
 
+### What a section discovers
+
+`~/Library/Caches` holds one folder per installed application, and no list of
+entries keeps up with what a given Mac has installed. So App Data declares a
+**discovery root** — a folder whose children become rows at runtime, under a
+rule this repository states:
+
+```json
+{
+  "appData": {
+    "discovers": [
+      { "path": "~/Library/Caches", "match": "bundleIdentifier", "risk": "cautious" }
+    ]
+  }
+}
+```
+
+The package still never reads the disk. A consumer lists the root and hands
+the names to `discoveredFolders(under:names:installedBundleIdentifiers:)`,
+which returns the ones that are exactly the bundle identifier of an installed
+application, are not Apple's (`com.apple.*` — clearing some of those costs a
+sign-in or a reboot), and are not already named by an entry: exactly, above
+it, or below it, with wildcards honoured. That last rule is `noPathContainsAnother`
+applied at runtime, so a folder the catalog lists under its own name is never a
+second row. Which applications count as installed is the consumer's to decide;
+it is expected to leave system applications out.
+
+A root obeys the rules an entry's `path` does — literal, tilde-relative — and
+its `risk` may never be `safe`. Nobody reviewed a discovered folder, so nothing
+may clean one unattended. `DiscoveryTests` pins both, and that App Data is the
+only section that discovers. Adding a root, or a second `match` rule, is a
+change to what every user's copy offers and gets the same review as a path.
+
 ## Automatic cleaning
 
 `risk` is the single cleaning decision, and from 2.5.0 it takes one of three
