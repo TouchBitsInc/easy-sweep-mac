@@ -24,9 +24,9 @@ struct ApplicationTests {
         let application = try #require(EasySweepCatalog.application(containing: "chrome-cache"))
         #expect(application.id == "chrome")
         #expect(application.name == "Google Chrome")
-        #expect(application.entries.map(\.id) == ["chrome-cache", "chrome-site-cache", "chrome-ai-model", "chrome-shader-cache"])
-        #expect(application.entries.map(\.risk) == [.safe, .cautious, .cautious, .safe])
-        #expect(application.entries.map(\.name) == ["Cache", "Site Data", "AI Model", "Graphics Cache"])
+        #expect(application.entries.map(\.id) == ["chrome-cache", "chrome-site-cache", "chrome-ai-model", "chrome-shader-cache", "chrome-app-cache"])
+        #expect(application.entries.map(\.risk) == [.safe, .cautious, .cautious, .safe, .cautious])
+        #expect(application.entries.map(\.name) == ["Cache", "Site Data", "AI Model", "Graphics Cache", "App Cache"])
         let locales = CatalogValidationTests().supportedLocales
         for app in EasySweepCatalog.applications {
             for locale in locales {

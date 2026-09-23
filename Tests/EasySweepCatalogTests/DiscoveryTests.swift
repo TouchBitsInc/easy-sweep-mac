@@ -91,6 +91,23 @@ struct DiscoveryTests {
         #expect(found.map(\.bundleIdentifier) == ["com.example.app"])
     }
 
+    /// A helper's folder belongs to the app its name starts with. Trimming
+    /// needs an exact match and stops at two parts, so a vendor prefix alone
+    /// never claims anything.
+    @Test func helperFoldersBelongToTheirApp() {
+        let found = EasySweepCatalog.discoveredFolders(
+            under: caches,
+            names: ["com.example.app.helper", "com.example.app", "com.example.other", "com.example"],
+            installedBundleIdentifiers: ["com.example.app"]
+        )
+        #expect(found.map(\.name) == ["com.example.app", "com.example.app.helper"])
+        #expect(found.allSatisfy { $0.bundleIdentifier == "com.example.app" })
+        #expect(EasySweepCatalog.owner(of: "com.example.app.helper.x", among: ["com.example.app"]) == "com.example.app")
+        #expect(EasySweepCatalog.owner(of: "com.example.thing", among: ["com.example.app"]) == nil)
+        #expect(EasySweepCatalog.owner(of: "Zed", among: ["Zed"]) == "Zed")
+        #expect(EasySweepCatalog.owner(of: "com.apple.helper", among: []) == nil)
+    }
+
     /// Reading a name is not reading the disk: a listing entry with a
     /// separator in it is not a child of the root.
     @Test func namesNeverDescend() {

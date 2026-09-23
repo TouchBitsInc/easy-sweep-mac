@@ -41,6 +41,9 @@ extension EasySweepCatalog {
     public struct DiscoveredFolder: Hashable, Sendable {
         /// Tilde-relative, like `Entry.path`.
         public let path: String
+        /// The folder's own name — the last part of `path`. Unique within a
+        /// root, where `bundleIdentifier` is not: one app may own several.
+        public let name: String
         /// The installed application the folder belongs to.
         public let bundleIdentifier: String
         public let root: DiscoveryRoot
@@ -59,8 +62,12 @@ extension EasySweepCatalog {
     ///   installed. The package cannot see `/Applications`; the consumer
     ///   decides what counts, and is expected to leave system apps out.
     ///
-    /// A name is accepted when it is exactly an installed bundle identifier,
-    /// is not hidden, is not Apple's (`com.apple.*` folders belong to the
+    /// A name is accepted when it is an installed bundle identifier, or
+    /// becomes one after dropping trailing dot-separated parts — so
+    /// `com.example.app.helper` belongs to `com.example.app`. Trimming stops
+    /// at two parts, and still needs an exact match: `com.example` owns
+    /// nothing unless an app is literally called that. It must also not be
+    /// hidden, is not Apple's (`com.apple.*` folders belong to the
     /// system, and clearing some of them costs a sign-in or a reboot), and
     /// neither equals, contains nor sits inside any folder an entry declares.
     /// The last rule is the same containment `noPathContainsAnother` enforces
@@ -76,13 +83,26 @@ extension EasySweepCatalog {
             guard !name.hasPrefix("."),
                   !name.hasPrefix("com.apple."),
                   !name.contains("/"),
-                  installedBundleIdentifiers.contains(name)
+                  let owner = owner(of: name, among: installedBundleIdentifiers)
             else { return nil }
             let path = "\(root.path)/\(name)"
             let candidate = segments(path)
             guard !claimed.contains(where: { overlaps($0, candidate) }) else { return nil }
-            return DiscoveredFolder(path: path, bundleIdentifier: name, root: root)
+            return DiscoveredFolder(path: path, name: name, bundleIdentifier: owner, root: root)
         }
+    }
+
+    /// The installed identifier a folder name belongs to: the name itself, or
+    /// the longest prefix of it, cut at a dot, of at least two parts.
+    static func owner(of name: String, among installed: Set<String>) -> String? {
+        var parts = name.split(separator: ".", omittingEmptySubsequences: false)
+        while parts.count >= 2 {
+            let candidate = parts.joined(separator: ".")
+            if installed.contains(candidate) { return candidate }
+            if parts.count == 2 { break }
+            parts.removeLast()
+        }
+        return installed.contains(name) ? name : nil
     }
 
     private static func segments(_ path: String) -> [String] {

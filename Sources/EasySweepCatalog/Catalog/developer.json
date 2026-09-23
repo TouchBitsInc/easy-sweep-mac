@@ -6834,5 +6834,149 @@
     "detail": "App cache; rebuilt when the app runs.",
     "path": "~/.aws/cli/cache",
     "risk": "cautious"
+  },
+  {
+    "id": "vscode-app-cache",
+    "localizations": {
+      "en": {
+        "name": "VS Code"
+      },
+      "de": {
+        "name": "VS Code",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "VS Code",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "VS Code",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "VS Code",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "VS Code",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "VS Code",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "VS Code",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "VS Code",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "VS Code",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "VS Code",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "VS Code",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "VS Code",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "VS Code",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "VS Code",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "VS Code",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "VS Code",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/Library/Caches/com.microsoft.VSCode",
+    "risk": "cautious"
+  },
+  {
+    "id": "vscode-insiders-app-cache",
+    "localizations": {
+      "en": {
+        "name": "VS Code Insiders"
+      },
+      "de": {
+        "name": "VS Code Insiders",
+        "detail": "Cache; bei Bedarf neu erstellt."
+      },
+      "es": {
+        "name": "VS Code Insiders",
+        "detail": "Caché; se reconstruye cuando hace falta."
+      },
+      "fr": {
+        "name": "VS Code Insiders",
+        "detail": "Cache; recréé si nécessaire."
+      },
+      "it": {
+        "name": "VS Code Insiders",
+        "detail": "Cache; ricreata quando serve."
+      },
+      "ja": {
+        "name": "VS Code Insiders",
+        "detail": "キャッシュ。必要に応じて再生成されます。"
+      },
+      "ko": {
+        "name": "VS Code Insiders",
+        "detail": "캐시입니다. 필요할 때 다시 생성됩니다."
+      },
+      "nl": {
+        "name": "VS Code Insiders",
+        "detail": "Cache; opnieuw gemaakt wanneer nodig."
+      },
+      "pl": {
+        "name": "VS Code Insiders",
+        "detail": "Pamięć podręczna; odtwarzana w razie potrzeby."
+      },
+      "pt-BR": {
+        "name": "VS Code Insiders",
+        "detail": "Cache; recriado quando necessário."
+      },
+      "ru": {
+        "name": "VS Code Insiders",
+        "detail": "Кэш; создаётся заново при необходимости."
+      },
+      "tr": {
+        "name": "VS Code Insiders",
+        "detail": "Önbellek; gerektiğinde yeniden oluşturulur."
+      },
+      "uk": {
+        "name": "VS Code Insiders",
+        "detail": "Кеш; за потреби створюється знову."
+      },
+      "zh-Hans": {
+        "name": "VS Code Insiders",
+        "detail": "缓存；需要时会重新生成。"
+      },
+      "zh-Hant": {
+        "name": "VS Code Insiders",
+        "detail": "快取；需要時會重新產生。"
+      },
+      "zh-HK": {
+        "name": "VS Code Insiders",
+        "detail": "快取；需要時會重新產生。"
+      }
+    },
+    "name": "VS Code Insiders",
+    "detail": "App cache; rebuilt when the app runs.",
+    "path": "~/Library/Caches/com.microsoft.VSCodeInsiders",
+    "risk": "cautious"
   }
 ]
