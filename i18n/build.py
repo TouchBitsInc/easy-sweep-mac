@@ -206,7 +206,8 @@ def menu(current):
 def decorate(source, code):
     """Adds the hreflang links and the language menu."""
     source = source.replace('<link rel="canonical"', alternates().lstrip('\n') + '\n<link rel="canonical"', 1)
-    source = source.replace('    <a class="btn btn--primary btn--sm"', menu(code) + '    <a class="btn btn--primary btn--sm"', 1)
+    # last in the nav, at its far right, after the Download button
+    source = re.sub(r'(    <a class="btn btn--primary btn--sm"[^\n]*\n)', lambda m: m.group(1) + menu(code), source, count=1)
     return source
 
 
