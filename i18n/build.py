@@ -154,6 +154,7 @@ def units(source):
 def strip_generated(source):
     """The English page without what this script writes into it."""
     source = re.sub(r'\n?<!-- i18n:alternates -->.*?<!-- /i18n:alternates -->', '', source, flags=re.S)
+    source = re.sub(r'[ ]*<!-- i18n:langs -->.*?<!-- /i18n:langs -->\n', '', source, flags=re.S)
     source = re.sub(r'\n?\s*<!-- i18n:langs -->.*?<!-- /i18n:langs -->', '', source, flags=re.S)
     return source
 
@@ -186,18 +187,26 @@ def alternates():
 
 
 def menu(current):
+    """The language menu at the top right of the nav: a globe and the page's own
+    language, opening onto every language named in itself. A <details>, so it
+    opens with no script; js/lang.js only closes it on an outside click."""
+    name = next(n for c, _, n in LANGS if c == current)
     items = []
-    for code, folder, name in LANGS:
+    for code, folder, label in LANGS:
         here = ' aria-current="true"' if code == current else ''
-        items.append(f'        <a href="/{folder + "/" if folder else ""}" hreflang="{code}" lang="{code}" data-lang="{code}"{here}>{name}</a>')
-    return ('\n      <!-- i18n:langs -->\n      <nav class="langs" aria-label="Language">\n'
-            + '\n'.join(items) + '\n      </nav>\n      <!-- /i18n:langs -->')
+        items.append(f'        <a href="/{folder + "/" if folder else ""}" hreflang="{code}" lang="{code}" data-lang="{code}"{here}>{label}</a>')
+    globe = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" '
+             'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>')
+    return ('    <!-- i18n:langs -->\n    <details class="langmenu">\n'
+            f'      <summary aria-label="Language">{globe}<span>{name}</span></summary>\n'
+            '      <nav class="langmenu__list" aria-label="Language">\n'
+            + '\n'.join(items) + '\n      </nav>\n    </details>\n    <!-- /i18n:langs -->\n')
 
 
 def decorate(source, code):
     """Adds the hreflang links and the language menu."""
     source = source.replace('<link rel="canonical"', alternates().lstrip('\n') + '\n<link rel="canonical"', 1)
-    source = source.replace('    <div class="footer__base">', menu(code).lstrip('\n') + '\n    <div class="footer__base">', 1)
+    source = source.replace('    <a class="btn btn--primary btn--sm"', menu(code) + '    <a class="btn btn--primary btn--sm"', 1)
     return source
 
 

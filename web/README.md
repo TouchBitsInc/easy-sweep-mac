@@ -42,7 +42,7 @@ python3 i18n/build.py           # writes web/<lang>/index.html, the language lin
 translation stays English on that page and is reported by the build, so a change
 to the English page shows up as work to do. Feature names follow the app's own
 translations. On the English home page `js/lang.js` sends a first-time visitor to
-their browser's language; a pick from the footer's language links is remembered
+their browser's language; a pick from the language menu at the top right is remembered
 and always wins. Support, privacy and terms are English only.
 
 ## Local preview

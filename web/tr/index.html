@@ -59,9 +59,31 @@
       <a href="#tools">Yardımcı Programlar</a>
       <a href="#automation">Otomatik Temizleme</a>
       <a href="#monitor">İzleme</a>
-      <a href="#safety">Güvenlik</a>
-      <a href="#pricing">Fiyatlandırma</a>
+      <!-- <a href="#pricing">Pricing</a> -->
     </div>
+    <!-- i18n:langs -->
+    <details class="langmenu">
+      <summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>Türkçe</span></summary>
+      <nav class="langmenu__list" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+    </details>
+    <!-- /i18n:langs -->
     <a class="btn btn--primary btn--sm" href="#download">İndir</a>
   </div>
 </nav>
@@ -80,14 +102,18 @@
     </p>
 
     <div class="cta-row">
-      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+      <!-- The Mac App Store is the way in for now; the direct download is hidden
+           until it is offered again.
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
-        Mac için indir
+        Download for Mac
       </a>
+      -->
       <!-- Apple's badge artwork cannot be used for a listing that is not live, and
            the CSP forbids off-origin images anyway, so the badge is built here in
-           its own visual language and says plainly that it is not out yet. -->
-      <a class="btn btn--appstore" href="#pricing">
+           its own visual language and says plainly that it is not out yet. When
+           the listing is live, "Coming soon to the" becomes "Download on the". -->
+      <a class="btn btn--appstore" id="download" href="https://apps.apple.com/app/id6797690120">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
         <span class="btn__stack">
           <span class="btn__over">Yakında</span>
@@ -465,47 +491,10 @@
   </div>
 </section>
 
-<!-- ============ SAFETY & PRIVACY ============ -->
-<section class="band band--sunken" id="safety">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Doğrulayabileceğiniz güvenlik</span>
-      <h2>Söze değil, tasarıma dayalı özen.</h2>
-      <p class="lede">
-        EasySweep silme anında yeniden kontrol eder, kesinliği tahminden ayırır ve erişemediklerini bildirir. Bu güvenceler temizlik motorunun içinde durur; bir düğme ya da otomasyon kuralı bunları sessizce aşamaz.
-      </p>
-    </div>
-
-    <div class="guards reveal">
-      <div class="guard">
-        <h3>Silmeden önce yeniden denetlenir</h3>
-        <p>Temizlik başlarken her konum yeniden doğrulanır. Bir yol değiştiyse veya beklenmedik bir yeri gösteriyorsa EasySweep onu reddeder.</p>
-      </div>
-      <div class="guard">
-        <h3>Riskli hiçbir şey işaretli gelmez</h3>
-        <p>Bölüm sayfaları hiçbir şey işaretli olmadan, Genel Bakış ise yalnızca Güvenli ile açılır. Kendiliğinden geri gelmeyen her şey tıklamanızı bekler.</p>
-      </div>
-      <div class="guard">
-        <h3>Önemli yerde geri alınabilir</h3>
-        <p>Kaldırmalar, kopyalar ve yardımcı programların bulduğu her şey Çöp Sepeti'ne taşınır; geri dönüşünüz olur.</p>
-      </div>
-      <div class="guard">
-        <h3>Erişim konusunda dürüst</h3>
-        <p>EasySweep bir klasörü okuyamazsa bunu söyler ve erişimi nasıl vereceğinizi anlatır; orada hiçbir şey yokmuş gibi davranmaz.</p>
-      </div>
-      <div class="guard">
-        <h3>Güvenebileceğiniz boyutlar</h3>
-        <p>Boyutlar gerçekte kullanılan disk alanıdır; yani gördüğünüz rakam, temizliğin geri verdiği alandır.</p>
-      </div>
-      <div class="guard">
-        <h3>Tasarımdan gizli</h3>
-        <p>Telemetri, çökme raporlama veya arka planda veri toplama yok. EasySweep sizin veya Mac'inizle ilgili bilgi toplamaz ya da göndermez.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ============ PRICING ============ -->
+<!-- Hidden for now. A <template> is never drawn; unwrap it to bring pricing back
+     (and the Pricing links in the nav and footer). -->
+<template id="pricing-hidden">
 <section class="band" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
@@ -569,6 +558,7 @@
     </p>
   </div>
 </section>
+</template>
 
 <!-- ============ CLOSING CTA ============ -->
 <section class="close-cta">
@@ -579,7 +569,14 @@
       Tarama hiçbir şeyi değiştirmez. Neyin yer kapladığını görün, neden orada olduğunu anlayın ve yalnızca onayladığınızı kaldırın.
     </p>
     <div class="cta-row">
-      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Mac için indir</a>
+      <!-- <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download for Mac</a> -->
+      <a class="btn btn--appstore" href="https://apps.apple.com/app/id6797690120">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Yakında</span>
+          <span class="btn__main">Mac App Store'da</span>
+        </span>
+      </a>
       <a class="btn btn--ghost" href="/support">Destek sayfasını okuyun</a>
     </div>
   </div>
@@ -607,8 +604,7 @@
           <li><a href="#yours">Koyu mod ve Liquid Glass</a></li>
           <li><a href="#activity">Etkinlik</a></li>
           <li><a href="#monitor">Sistem İzleyicisi</a></li>
-          <li><a href="#safety">Güvenlik</a></li>
-          <li><a href="#pricing">Fiyatlandırma</a></li>
+          <!-- <li><a href="#pricing">Pricing</a></li> -->
         </ul>
       </div>
       <div>
@@ -628,26 +624,6 @@
         </ul>
       </div>
     </div>
-      <!-- i18n:langs -->
-      <nav class="langs" aria-label="Language">
-        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
-        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
-        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
-        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
-        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
-        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
-        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
-        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
-        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a>
-        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
-        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
-        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
-        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
-        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
-        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
-        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
-      </nav>
-      <!-- /i18n:langs -->
     <div class="footer__base">
       <span>&copy; 2026 TouchBits Inc. Tüm hakları saklıdır.</span>
       <span>Apple Inc. ile bağlantılı değildir. Xcode, Apple Inc.'in ticari markasıdır.</span>

@@ -59,9 +59,31 @@
       <a href="#tools">ユーティリティ</a>
       <a href="#automation">自動クリーンアップ</a>
       <a href="#monitor">モニター</a>
-      <a href="#safety">安全性</a>
-      <a href="#pricing">価格</a>
+      <!-- <a href="#pricing">Pricing</a> -->
     </div>
+    <!-- i18n:langs -->
+    <details class="langmenu">
+      <summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>日本語</span></summary>
+      <nav class="langmenu__list" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+    </details>
+    <!-- /i18n:langs -->
     <a class="btn btn--primary btn--sm" href="#download">ダウンロード</a>
   </div>
 </nav>
@@ -80,14 +102,18 @@
     </p>
 
     <div class="cta-row">
-      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+      <!-- The Mac App Store is the way in for now; the direct download is hidden
+           until it is offered again.
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
-        Mac用にダウンロード
+        Download for Mac
       </a>
+      -->
       <!-- Apple's badge artwork cannot be used for a listing that is not live, and
            the CSP forbids off-origin images anyway, so the badge is built here in
-           its own visual language and says plainly that it is not out yet. -->
-      <a class="btn btn--appstore" href="#pricing">
+           its own visual language and says plainly that it is not out yet. When
+           the listing is live, "Coming soon to the" becomes "Download on the". -->
+      <a class="btn btn--appstore" id="download" href="https://apps.apple.com/app/id6797690120">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
         <span class="btn__stack">
           <span class="btn__over">近日公開予定：</span>
@@ -465,47 +491,10 @@
   </div>
 </section>
 
-<!-- ============ SAFETY & PRIVACY ============ -->
-<section class="band band--sunken" id="safety">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">確認できる安全性</span>
-      <h2>約束ではなく、設計で慎重に。</h2>
-      <p class="lede">
-        EasySweepは削除の瞬間にもう一度確認し、確実なものと推測を区別し、アクセスできなかったものを報告します。これらの安全対策はクリーンアップエンジンの内部にあるため、ボタンや自動化ルールが、こっそり回避することはできません。
-      </p>
-    </div>
-
-    <div class="guards reveal">
-      <div class="guard">
-        <h3>削除の前に再確認</h3>
-        <p>クリーンアップを始めるときに、すべての場所をもう一度検証します。パスが変わっていたり、予期しない場所を指していたりする場合、EasySweepは実行しません。</p>
-      </div>
-      <div class="guard">
-        <h3>リスクのあるものは選択しない</h3>
-        <p>各セクションのページは何も選択されていない状態で開き、概要は「安全」だけが選択された状態で開きます。自然には戻らないものは、あなたのクリックを待ちます。</p>
-      </div>
-      <div class="guard">
-        <h3>大切な場面では、元に戻せる</h3>
-        <p>アンインストール、重複ファイル、ユーティリティが見つけたものはすべてゴミ箱に移動するので、元に戻す方法が残ります。</p>
-      </div>
-      <div class="guard">
-        <h3>アクセスについて、正直に</h3>
-        <p>EasySweepがフォルダを読み取れない場合は、何もないふりをせず、その旨とアクセスを許可する方法をお知らせします。</p>
-      </div>
-      <div class="guard">
-        <h3>信頼できるサイズ</h3>
-        <p>サイズは実際に使われているディスク容量なので、表示される数値が、クリーンアップで戻ってくる容量です。</p>
-      </div>
-      <div class="guard">
-        <h3>設計段階からプライベート</h3>
-        <p>テレメトリ、クラッシュレポート、バックグラウンドでのデータ収集は一切ありません。EasySweepは、あなたやMacに関する情報を収集も送信もしません。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ============ PRICING ============ -->
+<!-- Hidden for now. A <template> is never drawn; unwrap it to bring pricing back
+     (and the Pricing links in the nav and footer). -->
+<template id="pricing-hidden">
 <section class="band" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
@@ -569,6 +558,7 @@
     </p>
   </div>
 </section>
+</template>
 
 <!-- ============ CLOSING CTA ============ -->
 <section class="close-cta">
@@ -579,7 +569,14 @@
       スキャンでは何も変更されません。何が容量を使っているかを確認し、その理由を理解して、承認したものだけを削除します。
     </p>
     <div class="cta-row">
-      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Mac用にダウンロード</a>
+      <!-- <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download for Mac</a> -->
+      <a class="btn btn--appstore" href="https://apps.apple.com/app/id6797690120">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">近日公開予定：</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
       <a class="btn btn--ghost" href="/support">サポートページを見る</a>
     </div>
   </div>
@@ -607,8 +604,7 @@
           <li><a href="#yours">ダークモードとLiquid Glass</a></li>
           <li><a href="#activity">アクティビティ</a></li>
           <li><a href="#monitor">システムモニター</a></li>
-          <li><a href="#safety">安全性</a></li>
-          <li><a href="#pricing">価格</a></li>
+          <!-- <li><a href="#pricing">Pricing</a></li> -->
         </ul>
       </div>
       <div>
@@ -628,26 +624,6 @@
         </ul>
       </div>
     </div>
-      <!-- i18n:langs -->
-      <nav class="langs" aria-label="Language">
-        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
-        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
-        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
-        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
-        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
-        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
-        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
-        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
-        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
-        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
-        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
-        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a>
-        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
-        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
-        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
-        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
-      </nav>
-      <!-- /i18n:langs -->
     <div class="footer__base">
       <span>© 2026 TouchBits Inc. All rights reserved.</span>
       <span>Apple Inc.とは関係ありません。XcodeはApple Inc.の商標です。</span>

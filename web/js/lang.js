@@ -1,7 +1,7 @@
 /* Easy Sweep — the language a visitor first lands in.
    On the English home page only, a visitor who has never picked a language is
    sent to the page in the first language their browser asks for that the site
-   has. Picking one from the footer is remembered and always wins, English
+   has. Picking one from the menu is remembered and always wins, English
    included, so nobody is moved off a page they chose. */
 (function () {
   var KEY = 'easysweep.lang';
@@ -15,10 +15,20 @@
     try { localStorage.setItem(KEY, code); } catch (e) {}
   }
   // Loaded in the head, so the move happens before anything is drawn; the
-  // footer's links are wired once they exist.
+  // menu's links are wired once they exist.
   document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.langs a[data-lang]').forEach(function (a) {
+    var menu = document.querySelector('.langmenu');
+    if (!menu) return;
+    menu.querySelectorAll('a[data-lang]').forEach(function (a) {
       a.addEventListener('click', function () { remember(a.getAttribute('data-lang')); });
+    });
+    // The menu opens with no script; this only closes it on a click elsewhere
+    // or Escape, as a menu should.
+    document.addEventListener('click', function (e) {
+      if (menu.open && !menu.contains(e.target)) menu.open = false;
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); }
     });
   });
 
