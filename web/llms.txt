@@ -1,12 +1,15 @@
 # EasySweep
 
-> A macOS menu bar app that reclaims disk space from Xcode, simulators, dev
-> toolchains and AI CLI caches, and uninstalls applications along with the files
-> they leave behind. macOS 14+. Free, with a one-time Pro upgrade from $9.99.
+> A Mac cleaner: it reclaims disk space from app caches, developer data and AI
+> tool data, uninstalls applications along with the files they leave behind, finds
+> large, old and duplicate files, and monitors the system. macOS 14+. Free, with a
+> one-time Pro upgrade from $9.99.
 
-EasySweep finds the disk space development tools quietly consume in folders
-Finder never shows — `~/Library/Developer`, package manager caches, AI CLI
-caches — and lets the user delete it selectively. Nothing is ever pre-selected.
+EasySweep finds the disk space apps and tools quietly consume in folders Finder
+never shows — every app's caches, `~/Library/Developer`, package manager caches,
+AI models and session data — and lets the user delete it selectively. The
+Overview opens with only the Safe level ticked; every other page opens with
+nothing ticked.
 
 ## Editions
 
@@ -21,24 +24,41 @@ caches — and lets the user delete it selectively. Nothing is ever pre-selected
 
 ## What it cleans
 
-Five sections: Developer (Xcode caches, Derived Data, Device Support, simulators,
-and 40+ package manager and toolchain caches), AI Tools (Claude Code, Codex,
-Cursor, Windsurf, Ollama models, LM Studio runtimes), Browsers (page and script
-caches only), Creative (Adobe and Ableton working caches), and System (macOS's
-own regenerable data — aerial wallpapers, Music artwork, user logs — plus the web
-and code caches Electron apps keep beside their data).
+Four sections: Caches (every installed app's caches, grouped by app, 400+
+catalogued locations across all sections), Developer (Xcode caches, Derived Data,
+Device Support, simulators and runtimes, package manager and toolchain caches),
+App Data (AI models, session history and attachments — data that does not
+regenerate), and System (logs, crash reports, wallpapers and update leftovers).
+The Overview offers three levels — Safe, Balanced and Deep — across all of them.
+Users can add their own folders as custom categories (Pro).
+
+## Other tools
+
+- Applications: uninstall apps with their leftovers, matched by confidence;
+  everything goes to the Trash, with Undo. Orphaned files of removed apps too.
+- Utilities: Large & Old Files, Duplicate Files (byte-identical, one copy always
+  kept), Finder Metadata (.DS_Store) and Project Caches. Scanning is free; moving
+  to the Trash is Pro.
+- App Updates: lists apps that are behind (App Store, Homebrew, MacPorts,
+  Sparkle) and updates them.
+- Startup Items: login items and background helpers.
+- System Monitor: live CPU, GPU, memory, network and disk activity, with
+  optional menu bar indicators.
+- Activity: a history of every clean, manual or automatic.
+- Auto Clean (Pro): per-item rules by size or low free space, optionally only
+  files older than a day, week or month.
 
 Excluded on purpose: lockfiles, SDK installs, emulator images, editor workspace
 state, credentials, browser history and passwords. Those are not caches.
 
 ## Safety properties
 
-- Nothing is pre-selected on any section.
+- Section pages open with nothing ticked; the Overview ticks only Safe.
 - Refuses to delete any folder containing its own bundle; symlinks are skipped.
 - Unreadable folders are reported as failures, never shown as empty.
 - Simulators are deleted through Apple's `simctl`, never by removing folders.
 - Sizes are allocated blocks, matching `du` — the space actually reclaimed.
-- Uninstalls move to the Trash, so a name match is always reversible.
+- Uninstalls, duplicates and utility finds move to the Trash, so they are reversible.
 - The one-click clean can never reach simulators, archives or AI session history.
 
 ## Privacy
