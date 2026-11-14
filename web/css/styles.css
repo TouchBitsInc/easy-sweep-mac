@@ -273,8 +273,49 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   color: #fff;
 }
 .btn--appstore:hover {
-  background: #1a1a1a;
   transform: translateY(-2px);
+}
+
+/* Water, as the app's Clean button pours it: on hover the blue rises into the
+   badge with a wave rolling along its edge, a paler swell behind it. Two layers
+   below the label (the badge isolates them), each a wave strip over a solid
+   body, sliding sideways while they rise. */
+.btn--appstore { position: relative; overflow: hidden; isolation: isolate; }
+.btn--appstore::before,
+.btn--appstore::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 200%;
+  background-repeat: repeat-x, no-repeat;
+  transition: top .7s cubic-bezier(.2, .8, .2, 1);
+  animation: es-wave 1.8s linear infinite paused;
+}
+.btn--appstore::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='14'%3E%3Cpath d='M0 7 Q22.5 1 45 7 T90 7 V14 H0Z' fill='%2373a9f2'/%3E%3C/svg%3E"), linear-gradient(#73a9f2, #73a9f2);
+  background-size: 90px 14px, 100% 100%;
+  background-position: 0 0, 0 13px;
+  opacity: .55;
+  animation-name: es-wave-back;
+  animation-duration: 2.6s;
+  animation-direction: reverse;
+}
+.btn--appstore::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='14'%3E%3Cpath d='M0 7 Q30 0 60 7 T120 7 V14 H0Z' fill='%233a86ee'/%3E%3C/svg%3E"), linear-gradient(#3a86ee, #3a86ee);
+  background-size: 120px 14px, 100% 100%;
+  background-position: 0 0, 0 13px;
+  transition-delay: .05s;
+}
+.btn--appstore:hover::before { top: 18%; animation-play-state: running; }
+.btn--appstore:hover::after { top: 34%; animation-play-state: running; }
+.btn--appstore:hover .btn__over { color: rgba(255,255,255,.9); }
+@keyframes es-wave { to { background-position: 120px 0, 0 13px; } }
+@keyframes es-wave-back { to { background-position: 90px 0, 0 13px; } }
+@media (prefers-reduced-motion: reduce) {
+  .btn--appstore::before, .btn--appstore::after { animation: none; }
 }
 .btn__stack {
   display: flex;
