@@ -388,9 +388,9 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
 .nav__links {
   display: flex;
   gap: 30px;
-  font-size: .95rem;
+  font-size: .9rem;
   color: var(--text-dim);
-  font-weight: 520;
+  font-weight: 400;
 }
 .nav__links a { transition: color .16s ease; }
 .nav__links a:hover { color: var(--text); }
@@ -810,12 +810,11 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   cursor: pointer;
   color: var(--text-dim);
   font-size: .9rem;
-  padding: 7px 10px;
-  border-radius: 999px;
-  transition: color .16s ease, background .16s ease;
+  font-weight: 400;
+  transition: color .16s ease;
 }
 .langmenu summary::-webkit-details-marker { display: none; }
-.langmenu summary:hover, .langmenu[open] summary { color: var(--text); background: var(--surface); }
+.langmenu summary:hover, .langmenu[open] summary { color: var(--text); }
 .langmenu__list {
   position: absolute;
   right: 0;
