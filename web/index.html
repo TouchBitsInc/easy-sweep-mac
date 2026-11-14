@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="/css/styles.css">
 <!-- The hero screenshot is this page's largest contentful paint; without a
      preload the browser only discovers it after the stylesheet resolves. -->
-<link rel="preload" as="image" href="/assets/shots/overview.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
 </head>
@@ -35,8 +35,9 @@
     </a>
     <div class="nav__links">
       <a href="#finds">Features</a>
+      <a href="#apps">Uninstaller</a>
       <a href="#tools">Utilities</a>
-      <a href="#automation">Automation</a>
+      <a href="#automation">Auto Clean</a>
       <a href="#monitor">Monitor</a>
       <a href="#safety">Safety</a>
       <a href="#pricing">Pricing</a>
@@ -94,7 +95,7 @@
 
   <div class="wrap hero__shot">
     <div class="window">
-      <img src="/assets/shots/overview.jpg" alt="EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from." width="2560" height="1440">
+      <img src="/assets/shots/01-overview.jpg" alt="EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from." width="2400" height="1500">
     </div>
   </div>
 </header>
@@ -103,12 +104,12 @@
 <section class="band band--sunken" id="finds">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Clarity before cleanup</span>
-      <h2>Find the space your Mac leaves unexplained.</h2>
+      <span class="eyebrow">Every app&rsquo;s caches</span>
+      <h2>One list for every cache.</h2>
       <p class="lede">
-        EasySweep brings caches, developer data, app leftovers and old downloads into one
-        clear view. Every item is measured and explained before you act — no vague
-        health scores or catch-all recommendations.
+        Browsers, editors, chat apps and AI tools — grouped by app and sized to the byte,
+        beside your developer data, app leftovers and macOS&rsquo;s own clutter. Every item is
+        measured and explained before you act.
       </p>
     </div>
 
@@ -122,13 +123,13 @@
       <article class="tile">
         <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
         <h3>Caches</h3>
-        <p>Every app&rsquo;s caches in one list, grouped by app — browsers, editors, chat and AI apps. Caches no installed app claims are listed apart and never ticked for you.</p>
+        <p>Every app&rsquo;s caches in one list, grouped by app. Caches no installed app claims are listed apart and never ticked for you.</p>
       </article>
 
       <article class="tile">
         <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
         <h3>Developer</h3>
-        <p>Xcode Derived Data, simulators, device support and runtimes, plus package manager and toolchain caches. Each is listed on its own, so you keep the versions you still need.</p>
+        <p>Xcode Derived Data, simulators, device support and runtimes, plus package manager and toolchain caches — each listed on its own, so you keep what you still need.</p>
       </article>
 
       <article class="tile">
@@ -145,26 +146,74 @@
 
       <article class="tile">
         <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
-        <h3>Applications</h3>
-        <p>Uninstall an app with everything it left behind. Sure, likely and possible matches stay separate, and it all goes to the Trash, with Undo. Leftovers of apps you already deleted are found too.</p>
+        <h3>Four ways to see it</h3>
+        <p>Draw every page as a list, tiles, a treemap or rings, with a plain or dot-matrix storage bar.</p>
       </article>
     </div>
 
     <figure class="shot reveal">
       <div class="window">
-        <img src="/assets/shots/caches.jpg" alt="The Caches section: 4.91 GB drawn as a dot-matrix bar, with Safari, Google Chrome, Codex, Maps and WeChat caches listed by size, some ticked for cleaning." width="2560" height="1600" loading="lazy">
+        <img src="/assets/shots/03-caches.jpg" alt="The Caches section as a dot-matrix bar and a list of apps: Safari 1.69 GB, Google Chrome 1.39 GB, Codex, Maps and WeChat, with several ticked for cleaning." width="2400" height="1500" loading="lazy">
       </div>
       <figcaption>Every location with its own size, grouped by the app it belongs to. Tick by hand, or pick a level.</figcaption>
     </figure>
   </div>
 </section>
 
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Uninstaller</span>
+      <h2>Remove apps completely.</h2>
+      <p class="lede">
+        Every cache, container and preference an app leaves behind — found, shown with
+        its evidence, and moved to the Trash with it.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Evidence, not guesses</h3>
+        <p>Leftovers are grouped by how sure the match is. Files matched by the app&rsquo;s identifier are ticked; name matches wait for you.</p>
+      </div>
+      <div class="guard">
+        <h3>Always reversible</h3>
+        <p>Everything goes to the Trash, and Undo puts it back where it was.</p>
+      </div>
+      <div class="guard">
+        <h3>Shared files stay</h3>
+        <p>A file another installed app also uses — a beta, a second copy — is marked shared and never removed.</p>
+      </div>
+      <div class="guard">
+        <h3>Leftovers of deleted apps</h3>
+        <p>Apps you dragged to the Trash yourself leave files too. EasySweep finds them, and tells you when an app is removed outside it.</p>
+      </div>
+      <div class="guard">
+        <h3>Protected apps</h3>
+        <p>Mark the apps that must never be uninstalled, Apple&rsquo;s own included, and they are refused whole.</p>
+      </div>
+      <div class="guard">
+        <h3>Sorted by size</h3>
+        <p>Every installed app with its size, so the biggest are the first you see.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="The Applications page: 23.01 GB across 44 applications sorted by size, from Final Cut Pro and Xcode to ChatGPT and Google Chrome." width="2400" height="1500" loading="lazy">
+      </div>
+      <figcaption>Open any app to review what it left behind before anything moves.</figcaption>
+    </figure>
+  </div>
+</section>
+
 <!-- ============ UTILITIES ============ -->
-<section class="band" id="tools">
+<section class="band band--sunken" id="tools">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Utilities</span>
-      <h2>Find what&rsquo;s wasting space — and what&rsquo;s out of date.</h2>
+      <h2>Find what&rsquo;s wasting space.</h2>
       <p class="lede">
         Tools for the space no app owns: your own files, old projects and forgotten
         startup items. Nothing is searched until you press Scan, and what you remove goes
@@ -212,22 +261,22 @@
 
     <figure class="shot reveal">
       <div class="window">
-        <img src="/assets/shots/utilities.jpg" alt="Utilities showing Duplicate Files: duplicate images selected, 15.3 MB in all, each listed with how many copies exist and which copy is kept." width="2512" height="1614" loading="lazy">
+        <img src="/assets/shots/05-utilities.jpg" alt="Utilities showing Duplicate Files: duplicate images selected, 15.3 MB in all, each listed with how many copies exist and which copy is kept." width="2400" height="1500" loading="lazy">
       </div>
       <figcaption>Scanning is free. Whatever you tick, one copy of every duplicate stays.</figcaption>
     </figure>
   </div>
 </section>
 
-<!-- ============ AUTOMATION ============ -->
-<section class="band band--sunken" id="automation">
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
   <div class="wrap">
     <div class="sect-head sect-head--center">
-      <span class="eyebrow">Automatic, on your terms</span>
-      <h2>Set the rules once. EasySweep watches the rest.</h2>
+      <span class="eyebrow">Auto Clean</span>
+      <h2>Set it once. It keeps up.</h2>
       <p class="lede">
-        Decide what to watch, when cleanup should run, and how much to keep. EasySweep
-        acts only when your conditions are met and records exactly what changed.
+        Rules that clean on their own when something grows too big or space runs low.
+        Only what is safe ever runs unattended, and every run is recorded.
       </p>
     </div>
 
@@ -253,16 +302,109 @@
         <p>Add Auto Clean buttons to the menu bar and run your rules on demand, without opening the window.</p>
       </div>
       <div class="guard">
-        <h3>See the value over time</h3>
-        <p>Activity records every clean, manual or automatic — how much, when, and from where.</p>
+        <h3>Follows you to every Mac</h3>
+        <p>Your rules and categories sync over iCloud, so every Mac you use keeps the same setup.</p>
       </div>
     </div>
 
     <figure class="shot reveal">
       <div class="window">
-        <img src="/assets/shots/auto-clean.jpg" alt="The Auto Clean page for Caches: Google Chrome&rsquo;s cache set to clean when over 5 GB, its graphics cache when space is low, removing files older than a week, and Safari&rsquo;s cache when over 5 GB." width="2560" height="1200" loading="lazy">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="The Auto Clean page for Caches with three rows switched on: clean when a cache is over 5 GB, or when space is low, removing everything or only files older than a week." width="2400" height="1500" loading="lazy">
       </div>
       <figcaption>Each item cleans itself at its own size. Anything you leave off is never touched without you.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Custom categories</span>
+      <h2>Your own categories.</h2>
+      <p class="lede">
+        Downloads, projects, that one folder that keeps growing — make it a category and
+        choose what goes.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>A page of its own</h3>
+        <p>Each category gets its own sidebar row, total, storage bar and Clean button, measured like any built-in section.</p>
+      </div>
+      <div class="guard">
+        <h3>Clean by name, at any depth</h3>
+        <p>Take every build or cache folder under a project folder by name, or pick folders by hand from a tree of what&rsquo;s really there.</p>
+      </div>
+      <div class="guard">
+        <h3>Levels you assign</h3>
+        <p>Your folders are never ticked by Safe, Balanced, or Deep until you give them a level yourself.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="A custom category named Workspace: 37.9 GB of project folders, each listed with its size and the date it last changed." width="2400" height="1500" loading="lazy">
+      </div>
+      <figcaption>Point EasySweep at the folders that matter to you, and it measures them like any built-in section.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Dark mode &amp; Liquid Glass</span>
+      <h2>Make it yours.</h2>
+      <p class="lede">
+        Liquid Glass in light or dark, dot-matrix bars, and every page as a list, tiles,
+        a treemap or rings.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>A translucent window that lets your desktop shine through.</p>
+      </div>
+      <div class="guard">
+        <h3>Light or dark</h3>
+        <p>Follow the system, or keep EasySweep light or dark whatever macOS does.</p>
+      </div>
+      <div class="guard">
+        <h3>Your picture of the disk</h3>
+        <p>A list, tiles, a treemap or rings on every page that cleans, and the storage bar as rows of dots.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="EasySweep in dark mode with a Liquid Glass window over a blue and purple background, the Caches page drawn as tiles under a dot-matrix storage bar." width="2400" height="1500" loading="lazy">
+      </div>
+      <figcaption>One choice in Settings, and every page follows it.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Activity</span>
+      <h2>See every gigabyte you got back.</h2>
+      <p class="lede">
+        Every clean, manual or automatic — how much, when, and from where — and every app
+        update, in one history.
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="The Activity page: 59.63 GB reclaimed this month across 5 cleans, a chart of space reclaimed by location, and a list of cleans and app updates by date." width="2400" height="1500" loading="lazy">
+      </div>
+      <figcaption>By month, three months or year, with what each clean took.</figcaption>
     </figure>
   </div>
 </section>
@@ -274,23 +416,23 @@
       <span class="eyebrow">System Monitor</span>
       <h2>Your Mac, at a glance.</h2>
       <p class="lede">
-        Free space, processor, graphics, memory, and disk activity — live in the window and
-        in the menu bar, and measured only while something is showing them.
+        Free space, CPU, memory and disk activity — live in the window, and in the menu
+        bar as widgets you choose.
       </p>
     </div>
 
     <div class="guards reveal">
       <div class="guard">
-        <h3>Live charts</h3>
-        <p>Processor, GPU, memory, network, and disk activity, updated every two seconds, with memory pressure as Activity Monitor reports it.</p>
-      </div>
-      <div class="guard">
-        <h3>Menu bar indicators</h3>
-        <p>Pin the readouts you care about to the top of your screen: free space, CPU, GPU, memory, network, disk activity, and battery.</p>
+        <h3>Menu bar widgets</h3>
+        <p>Pin free space, CPU, GPU, memory, network, disk activity and battery to the top of your screen, in the order you like.</p>
       </div>
       <div class="guard">
         <h3>A menu you arrange</h3>
-        <p>Choose and order the cards in the menu bar dropdown, from free space to system health.</p>
+        <p>Choose and order the cards in the menu bar dropdown, from free space to system health, plus your Auto Clean buttons.</p>
+      </div>
+      <div class="guard">
+        <h3>Live charts</h3>
+        <p>Processor, GPU, memory, network, and disk activity, updated every two seconds, with memory pressure as Activity Monitor reports it.</p>
       </div>
       <div class="guard">
         <h3>Act before space runs out</h3>
@@ -308,63 +450,15 @@
 
     <figure class="shot reveal">
       <div class="window">
-        <img src="/assets/shots/monitor.jpg" alt="System Monitor: CPU at 26%, GPU at 16%, 32.84 GB of memory in use under normal pressure, and disk activity at 1.5 MB/s, each with a live chart." width="2560" height="1600" loading="lazy">
+        <img src="/assets/shots/09-monitor.jpg" alt="System Monitor with CPU at 26%, GPU at 16%, 32.84 GB of memory in use and disk activity at 1.5 MB/s, under a menu bar showing EasySweep&rsquo;s widgets: free space, CPU, GPU, memory, network and disk." width="2400" height="1500" loading="lazy">
       </div>
-      <figcaption>Live in the window — and in the menu bar, if you want it there.</figcaption>
-    </figure>
-  </div>
-</section>
-
-<!-- ============ MAKE IT YOURS ============ -->
-<section class="band band--sunken" id="yours">
-  <div class="wrap">
-    <div class="sect-head sect-head--center">
-      <span class="eyebrow">Make it yours</span>
-      <h2>Your folders. Your layout.</h2>
-      <p class="lede">
-        Turn any folder into a category of its own, and choose how every page draws your
-        space.
-      </p>
-    </div>
-
-    <div class="guards reveal">
-      <div class="guard">
-        <h3>Your own categories</h3>
-        <p>Downloads, projects, that one folder that keeps growing — make it a category with its own page, total, and Clean button.</p>
-      </div>
-      <div class="guard">
-        <h3>Clean by name, at any depth</h3>
-        <p>Take every build or cache folder under a project folder by name, or pick folders by hand from a tree of what&rsquo;s really there.</p>
-      </div>
-      <div class="guard">
-        <h3>Levels you assign</h3>
-        <p>Your folders are never ticked by Safe, Balanced, or Deep until you give them a level yourself.</p>
-      </div>
-      <div class="guard">
-        <h3>Four ways to see it</h3>
-        <p>A list, tiles, a treemap, or rings — one choice for every page that cleans — and a dot-matrix storage bar.</p>
-      </div>
-      <div class="guard">
-        <h3>Liquid Glass, light or dark</h3>
-        <p>A translucent window that lets your desktop shine through, in light or dark.</p>
-      </div>
-      <div class="guard">
-        <h3>Follows you to every Mac</h3>
-        <p>Your categories and rules sync over iCloud, so every Mac you use keeps the same setup.</p>
-      </div>
-    </div>
-
-    <figure class="shot reveal">
-      <div class="window">
-        <img src="/assets/shots/categories.jpg" alt="A custom category named Workspace: 37.9 GB of project folders, each listed with its size and the date it last changed." width="2512" height="1614" loading="lazy">
-      </div>
-      <figcaption>Point EasySweep at the folders that matter to you, and it measures them like any built-in section.</figcaption>
+      <figcaption>Live in the window — and in your menu bar, with the widgets you pick.</figcaption>
     </figure>
   </div>
 </section>
 
 <!-- ============ SAFETY & PRIVACY ============ -->
-<section class="band" id="safety">
+<section class="band band--sunken" id="safety">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Safety you can verify</span>
@@ -386,34 +480,27 @@
         <p>Section pages open with nothing ticked, and the Overview with Safe alone. Anything that won&rsquo;t come back on its own waits for your click.</p>
       </div>
       <div class="guard">
-        <h3>Uninstalls show their evidence</h3>
-        <p>Related files are grouped by match confidence. Uncertain matches remain visibly separate and never become automatic choices.</p>
-      </div>
-      <div class="guard">
         <h3>Reversible where it matters</h3>
-        <p>Uninstalls, duplicates, and everything the utilities find move to the Trash, so you have a way back if a match was not what you expected.</p>
+        <p>Uninstalls, duplicates, and everything the utilities find move to the Trash, so you have a way back.</p>
       </div>
       <div class="guard">
         <h3>Honest about access</h3>
         <p>If EasySweep cannot read a folder, it says so and tells you how to grant access, instead of pretending there is nothing there.</p>
       </div>
       <div class="guard">
+        <h3>Sizes you can trust</h3>
+        <p>Sizes are the disk space actually used, so the figure you see is the space a clean gives back.</p>
+      </div>
+      <div class="guard">
         <h3>Private by design</h3>
         <p>No telemetry, crash reporting, or background data collection. EasySweep does not collect or send information about you or your Mac.</p>
       </div>
     </div>
-
-    <figure class="shot reveal">
-      <div class="window">
-        <img src="/assets/shots/uninstall.jpg" alt="The Applications page: 23.01 GB across 44 applications sorted by size, from Final Cut Pro and Xcode to ChatGPT and Google Chrome." width="2560" height="1600" loading="lazy">
-      </div>
-      <figcaption>Every installed app with its size. Open one to review what it left behind before anything moves.</figcaption>
-    </figure>
   </div>
 </section>
 
 <!-- ============ PRICING ============ -->
-<section class="band band--sunken" id="pricing">
+<section class="band" id="pricing">
   <div class="wrap">
     <div class="sect-head sect-head--center">
       <span class="eyebrow">Pricing</span>
@@ -514,10 +601,13 @@
         <h4>Product</h4>
         <ul>
           <li><a href="#finds">Features</a></li>
+          <li><a href="#apps">Uninstaller</a></li>
           <li><a href="#tools">Utilities</a></li>
-          <li><a href="#automation">Automation</a></li>
+          <li><a href="#automation">Auto Clean</a></li>
+          <li><a href="#custom">Custom categories</a></li>
+          <li><a href="#yours">Dark mode &amp; Liquid Glass</a></li>
+          <li><a href="#activity">Activity</a></li>
           <li><a href="#monitor">System Monitor</a></li>
-          <li><a href="#yours">Customization</a></li>
           <li><a href="#safety">Safety</a></li>
           <li><a href="#pricing">Pricing</a></li>
         </ul>
