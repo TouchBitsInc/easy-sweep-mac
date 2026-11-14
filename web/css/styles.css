@@ -140,6 +140,12 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+/* The nav stays pinned over the page, so a jump to a section stops below it
+   rather than under it — and the Download jump puts the App Store button in
+   the middle of the window, not at its top edge. */
+[id] { scroll-margin-top: 72px; }
+#download { scroll-margin-top: 40vh; }
+
 body {
   margin: 0;
   background: var(--bg);
