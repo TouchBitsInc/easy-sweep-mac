@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — 釋放空間，輕鬆掌控</title>
+<meta name="description" content="EasySweep 讓你看清 Mac 的空間去了哪裡，只清理你核准的內容，並透過分級風險的自動化防止雜亂再次堆積。不追蹤，不會意外刪除。">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/zh-hant/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/zh-hant/">
+<meta property="og:title" content="EasySweep — 釋放空間，輕鬆掌控">
+<meta property="og:description" content="看清什麼在占用空間，只清理你核准的內容，不讓雜亂再次堆積。私密、精準的 Mac 清理。">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/zh-hant/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">功能</a>
+      <a href="#apps">解除安裝</a>
+      <a href="#tools">工具程式</a>
+      <a href="#automation">自動清理</a>
+      <a href="#monitor">監控</a>
+      <a href="#safety">安全</a>
+      <a href="#pricing">價格</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">下載</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>清理你的 Mac。<br>並保持整潔。</h1>
+
+    <p class="lede">
+      EasySweep 讓你看清空間的去向——快取、App 殘留、重複檔案和開發資料——只移除你核准的內容。規則只需設定一次，日常雜亂便自動受控。有風險的內容，始終由你決定。
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        下載 Mac 版
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">即將登場</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="系統需求">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 或以上版本
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        支援 Apple 晶片和 Intel
+      </li>
+    </ul>
+    <p class="hero__meta">無需帳號 · 不追蹤 · 有保障的自動化</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="EasySweep 的概覽：Macintosh HD 有 732.92 GB 可用空間，長條分為可清理、應用程式、使用者資料和 macOS，下方是三個層級——安全 12.5 GB、平衡 22.13 GB、徹底 74.47 GB——以及各層級所清理的分區。" width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">每個 App 的快取</span>
+      <h2>所有快取，一目瞭然。</h2>
+      <p class="lede">
+        瀏覽器、編輯器、聊天 App 和 AI 工具——依 App 分組，大小精確到位元組，與開發資料、App 殘留和 macOS 本身的雜亂檔案並列。每一項都會在你操作前測量並說明。
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>概覽</h3>
+        <p>整個磁碟，一目瞭然。選擇安全、平衡或徹底，在一鍵清理之前，依分區查看各層級會清理多少。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>快取</h3>
+        <p>所有 App 的快取集中在一個列表中，依 App 分組。沒有已安裝 App 認領的快取會另外列出，絕不會替你勾選。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>開發</h3>
+        <p>Xcode 衍生資料、模擬器、裝置支援檔案和執行階段，以及套件管理工具和工具鏈快取——逐項列出，你仍然需要的可以保留。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>應用程式資料</h3>
+        <p>已下載的 AI 模型、工作階段記錄和附件——這些資料不會自行恢復，因此會被標示出來，未經你允許絕不清理。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>系統</h3>
+        <p>macOS 可以重建的記錄檔、當機報告、已下載的桌布和更新殘留，它們會隨著時間悄悄堆積。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>四種檢視方式</h3>
+        <p>以列表、圖塊、矩形樹狀圖或環形圖繪製每個頁面，並可選擇一般或點陣儲存長條。</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="快取分區以點陣長條和 App 列表顯示：Safari 1.69 GB、Google Chrome 1.39 GB、Codex、地圖和微信，其中數項已勾選待清理。" width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>每個位置都顯示各自的大小，並依所屬 App 分組。可手動勾選，也可選擇一個層級。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">解除安裝</span>
+      <h2>徹底移除 App。</h2>
+      <p class="lede">
+        App 留下的每個快取、容器和偏好設定——全部找出，附上依據，並隨 App 一同移到垃圾桶。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>有憑有據，而非猜測</h3>
+        <p>殘留檔案依比對的確定程度分組。依 App 識別碼比對到的檔案會被勾選；依名稱比對到的則等你決定。</p>
+      </div>
+      <div class="guard">
+        <h3>始終可還原</h3>
+        <p>所有內容都會移到垃圾桶，「還原」可將其放回原處。</p>
+      </div>
+      <div class="guard">
+        <h3>共用檔案保留</h3>
+        <p>其他已安裝 App 同樣使用的檔案——測試版、第二個副本——會被標示為共用，絕不移除。</p>
+      </div>
+      <div class="guard">
+        <h3>已刪除 App 的殘留</h3>
+        <p>你親手拖到垃圾桶的 App 同樣會留下檔案。EasySweep 會找出它們，並在 App 於其外部被移除時通知你。</p>
+      </div>
+      <div class="guard">
+        <h3>受保護的 App</h3>
+        <p>標記絕不能解除安裝的 App（包括 Apple 內建的 App），它們將被整體拒絕解除安裝。</p>
+      </div>
+      <div class="guard">
+        <h3>依大小排序</h3>
+        <p>每個已安裝的 App 都附有大小，最大的一目瞭然。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="「應用程式」頁面：44 個應用程式共 23.01 GB，依大小排序，從 Final Cut Pro、Xcode 到 ChatGPT 和 Google Chrome。" width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>打開任一 App，先查看它留下的內容，再決定是否移動。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">工具程式</span>
+      <h2>找出浪費空間的東西。</h2>
+      <p class="lede">
+        為沒有 App 管轄的空間而設的工具：你自己的檔案、舊專案和被遺忘的啟動項目。按下「掃描」之前不會搜尋任何內容，移除的內容都會移到垃圾桶。
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>大型與舊檔案</h3>
+        <p>數月未開啟的大型檔案，依類型分組。不會替你勾選任何內容——它們是你的檔案，由你決定。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>重複檔案</h3>
+        <p>內容完全相同的副本，依內容而非名稱比對。每組始終保留一份：最舊的、最新的，或位於你偏好資料夾中的那份。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Finder 中繼資料</h3>
+        <p>Finder 在你開啟的每個資料夾中留下的 .DS_Store 檔案，一次掃描即可找到並清除。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>專案快取</h3>
+        <p>專案內的建置和工具快取，僅依在任何環境下都代表快取的名稱辨識——絕不碰 node_modules，也絕不碰任何存放設定的內容。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>App 更新</h3>
+        <p>查看哪些 App 已落後——無論來自 App Store、Homebrew、MacPorts 還是 App 自帶的更新程式——並在同一個列表中更新。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>啟動項目</h3>
+        <p>查看登入時開啟的項目和在背景執行的輔助程式，並移除你從未要求執行的那些。</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="「工具程式」顯示重複檔案：已選取重複圖片，共 15.3 MB，每張都標明副本數量以及保留的是哪一份。" width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>掃描免費。無論你勾選什麼，每組重複檔案都會保留一份。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">自動清理</span>
+      <h2>設定一次，持續生效。</h2>
+      <p class="lede">
+        當某項過大或空間不足時自動清理的規則。只有安全的內容才會無人值守地執行，並且每次執行都有記錄。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>每一項都有專屬觸發條件</h3>
+        <p>當快取超過自身的大小上限，或可用空間低於你設定的水準時清理——而不是對整部 Mac 一刀切。</p>
+      </div>
+      <div class="guard">
+        <h3>保留仍然有用的</h3>
+        <p>可移除全部內容，或只移除超過一天、一週或一個月的檔案。近期的工作可以原封不動。</p>
+      </div>
+      <div class="guard">
+        <h3>只有能再生的才會自動執行</h3>
+        <p>規則只能觸及會自行恢復的內容。封存檔、工作階段記錄和模擬器裝置始終需要手動處理，無論規則如何設定。</p>
+      </div>
+      <div class="guard">
+        <h3>等待使用中的 App</h3>
+        <p>如果相關 App 正在執行，無人值守的清理會等待，而不是從它底下移除檔案。</p>
+      </div>
+      <div class="guard">
+        <h3>從選單列執行</h3>
+        <p>將自動清理按鈕加入選單列，無需開啟視窗即可依需求執行你的規則。</p>
+      </div>
+      <div class="guard">
+        <h3>隨你同步到每部 Mac</h3>
+        <p>你的規則和類別透過 iCloud 同步，讓你使用的每部 Mac 保持相同的設定。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="「快取」的自動清理頁面，三列已開啟：快取超過 5 GB 時清理，或空間不足時清理，移除全部內容或僅移除超過一週的檔案。" width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>每一項依自己的大小自動清理。你沒有開啟的內容，未經你允許絕不會被觸碰。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">自訂類別</span>
+      <h2>你自己的類別。</h2>
+      <p class="lede">
+        下載內容、專案，還有那個不斷變大的資料夾——把它設為一個類別，由你決定清理什麼。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>專屬頁面</h3>
+        <p>每個類別都有自己的側邊欄項目、總計、儲存長條和「清理」按鈕，測量方式與任何內建分區相同。</p>
+      </div>
+      <div class="guard">
+        <h3>依名稱清理，不限層級</h3>
+        <p>依名稱取走專案資料夾下的所有建置或快取資料夾，或從真實存在的資料夾樹狀結構中手動挑選。</p>
+      </div>
+      <div class="guard">
+        <h3>由你指定的層級</h3>
+        <p>在你親自為資料夾指定層級之前，「安全」、「平衡」和「徹底」都不會勾選它們。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="名為「專案」的自訂類別：5.68 GB，涵蓋 ml-experiments、ios-weather-app 和 podcast-edits 等專案資料夾，每個都列出大小。" width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>讓 EasySweep 指向對你重要的資料夾，它會像測量任何內建分區一樣測量它們。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">深色模式與 Liquid Glass</span>
+      <h2>打造你的專屬風格。</h2>
+      <p class="lede">
+        淺色或深色的 Liquid Glass、點陣長條，以及以列表、圖塊、矩形樹狀圖或環形圖呈現的每個頁面。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>半透明的視窗，讓桌面透出光彩。</p>
+      </div>
+      <div class="guard">
+        <h3>淺色或深色</h3>
+        <p>跟隨系統，或無論 macOS 如何設定，都讓 EasySweep 保持淺色或深色。</p>
+      </div>
+      <div class="guard">
+        <h3>你的磁碟視圖</h3>
+        <p>在每個可清理的頁面上選用列表、圖塊、矩形樹狀圖或環形圖，儲存長條也可呈現為點陣。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="EasySweep 的深色模式：Liquid Glass 視窗浮於藍紫色背景之上，「快取」頁面以圖塊繪製，上方是點陣儲存長條。" width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>在設定中做一次選擇，所有頁面都會隨之改變。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">活動記錄</span>
+      <h2>看見你收回的每一個 GB。</h2>
+      <p class="lede">
+        每次清理，無論手動或自動——清理了多少、何時、來自哪裡——以及每次 App 更新，都收錄在同一份記錄中。
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="「活動記錄」頁面：本月 5 次清理共回收 59.63 GB，附有依位置顯示回收空間的圖表，以及依日期排列的清理和 App 更新列表。" width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>可依月、三個月或年檢視，並附上每次清理所清理的內容。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">系統監控</span>
+      <h2>你的 Mac，一目瞭然。</h2>
+      <p class="lede">
+        可用空間、CPU、記憶體和磁碟活動——在視窗中即時顯示，也可作為你選擇的小工具顯示在選單列中。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>選單列小工具</h3>
+        <p>將可用空間、CPU、GPU、記憶體、網路、磁碟活動和電池固定在螢幕頂部，順序隨你。</p>
+      </div>
+      <div class="guard">
+        <h3>由你編排的選單</h3>
+        <p>選擇選單列下拉選單中的卡片並排序，從可用空間到系統健康狀況，再加上你的自動清理按鈕。</p>
+      </div>
+      <div class="guard">
+        <h3>即時圖表</h3>
+        <p>處理器、GPU、記憶體、網路和磁碟活動，每兩秒更新一次，記憶體壓力與「活動監視器」所回報的一致。</p>
+      </div>
+      <div class="guard">
+        <h3>在空間用盡之前行動</h3>
+        <p>設定你的最低可用空間水準，EasySweep 會在磁碟寫滿打斷你的一天之前發出警告。</p>
+      </div>
+      <div class="guard">
+        <h3>你使用的每個磁碟</h3>
+        <p>外接磁碟和其他內建磁碟與啟動磁碟並列顯示，每個都可展開查看占用空間的資料夾。</p>
+      </div>
+      <div class="guard">
+        <h3>你不看時，它保持安靜</h3>
+        <p>背景不進行任何取樣。監控僅在其頁面或選單開啟時讀取你的 Mac。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="系統監控：CPU 26%、GPU 16%、已使用記憶體 32.84 GB、磁碟活動 1.5 MB/s，上方選單列顯示 EasySweep 的小工具：可用空間、CPU、GPU、記憶體、網路和磁碟。" width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>在視窗中即時顯示——也在你的選單列中，由你挑選小工具。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">可驗證的安全</span>
+      <h2>以謹慎為設計，而非口頭承諾。</h2>
+      <p class="lede">
+        EasySweep 會在刪除的那一刻再次檢查，區分確定與猜測，並回報它無法存取的內容。這些保護機制內建於清理引擎之中，因此按鈕或自動化規則無法悄悄繞過它們。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>刪除前再次檢查</h3>
+        <p>清理開始時，每個位置都會重新驗證。如果路徑已更改或指向意外的位置，EasySweep 會拒絕處理。</p>
+      </div>
+      <div class="guard">
+        <h3>不會替你勾選有風險的內容</h3>
+        <p>分區頁面開啟時不勾選任何內容，概覽僅勾選「安全」層級。任何無法自行恢復的內容，都要等你親自點按。</p>
+      </div>
+      <div class="guard">
+        <h3>關鍵之處可還原</h3>
+        <p>解除安裝的 App、重複檔案以及工具程式找到的所有內容都會移到垃圾桶，讓你有退路。</p>
+      </div>
+      <div class="guard">
+        <h3>對存取權限坦誠相告</h3>
+        <p>如果 EasySweep 無法讀取某個資料夾，它會如實告知，並說明如何授予存取權限，而不是假裝那裡什麼都沒有。</p>
+      </div>
+      <div class="guard">
+        <h3>值得信賴的大小</h3>
+        <p>大小即實際占用的磁碟空間，因此你看到的數字就是清理後歸還的空間。</p>
+      </div>
+      <div class="guard">
+        <h3>從設計上保護隱私</h3>
+        <p>沒有遙測、當機報告或背景資料收集。EasySweep 不會收集或傳送關於你或你的 Mac 的任何資訊。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">價格</span>
+      <h2>核心清理功能免費。Pro 為一次性升級。</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">免費</div>
+        <p class="price__per">無需帳號，無試用期，無打擾提示</p>
+        <ul>
+          <li>所有內建類別，涵蓋 400 多個位置</li>
+          <li>發現舊安裝檔和被遺忘的建置產物</li>
+          <li>App 解除安裝，並依可信度對殘留檔案進行排序</li>
+          <li>掃描大型檔案、舊檔案和重複檔案</li>
+          <li>系統監控、低空間警示、清理記錄和統計資料</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">下載 EasySweep</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">起</span> $9.99</div>
+        <p class="price__per">一次性購買，非訂閱。</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 部 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 部 Mac</span><span class="seats__p">$14.99</span><span class="seats__save">省 25%</span></li>
+          <li><span class="seats__n">3 部 Mac</span><span class="seats__p">$19.99</span><span class="seats__save">省 33%</span></li>
+        </ul>
+        <ul>
+          <li>包含免費版的所有功能</li>
+          <li><strong>自訂類別</strong>——將你選擇的資料夾歸為一組，各有專屬頁面和「清理」按鈕</li>
+          <li><strong>條件式自動化</strong>——依排程、依大小，或在可用空間不足時清理</li>
+          <li><strong>依時間清理</strong>——只移除超過一天、一週或一個月的內容</li>
+          <li><strong>工具程式</strong>——將大型檔案、舊檔案、重複檔案、Finder 中繼資料和專案快取移到垃圾桶</li>
+          <li><strong>矩形樹狀圖、圖塊和環形圖</strong>版面，以及點陣儲存長條</li>
+          <li><strong>選單列指標</strong>——即時的處理器、GPU、記憶體、網路和磁碟讀數，以及可自行編排的卡片</li>
+          <li><strong>App 更新</strong>——定時檢查，並為 Homebrew、MacPorts 和 Sparkle App 提供「全部更新」</li>
+          <li><strong>透明視窗</strong>——淺色或深色的 Liquid Glass</li>
+          <li>在你授權下的每部 Mac 間透過 iCloud 同步</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">購買授權</a>
+        <p class="price__after">
+          可與免費版搭配使用。安裝後，將你的金鑰貼到<strong>設定 → 授權</strong>中。
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      直接下載的版本可立即掃描大多數位置；對於受保護的資料夾，macOS 仍可能要求授予「完整磁碟存取權限」。Mac App Store 版本正在審核中——它在沙盒中執行，因此會向你要求一次家目錄的存取權限，並且可能無法自行移除 App 套件——其 Pro 升級為與你的 Apple 帳號綁定的 App 內購買項目，不限裝置數量。<a href="/support#permissions">在支援頁面比較各版本的權限</a>。
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>釋放空間，掌控一切。</h2>
+    <p class="lede narrow">
+      掃描不會更改任何內容。看清什麼在占用你的空間，了解它為何存在，只移除你核准的內容。
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">下載 Mac 版</a>
+      <a class="btn btn--ghost" href="/support">閱讀支援頁面</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/zh-hant/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>看清占用空間的東西，決定哪些該走。</p>
+      </div>
+      <div>
+        <h4>產品</h4>
+        <ul>
+          <li><a href="#finds">功能</a></li>
+          <li><a href="#apps">解除安裝</a></li>
+          <li><a href="#tools">工具程式</a></li>
+          <li><a href="#automation">自動清理</a></li>
+          <li><a href="#custom">自訂類別</a></li>
+          <li><a href="#yours">深色模式與 Liquid Glass</a></li>
+          <li><a href="#activity">活動記錄</a></li>
+          <li><a href="#monitor">系統監控</a></li>
+          <li><a href="#safety">安全</a></li>
+          <li><a href="#pricing">價格</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>支援</h4>
+        <ul>
+          <li><a href="/support">說明與聯絡</a></li>
+          <li><a href="/support#permissions">權限</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">回報問題</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>法律</h4>
+        <ul>
+          <li><a href="/privacy">隱私權</a></li>
+          <li><a href="/terms">條款</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">路徑目錄</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant" aria-current="true">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>© 2026 TouchBits Inc. 保留一切權利。</span>
+      <span>與 Apple Inc. 無關聯。Xcode 是 Apple Inc. 的商標。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

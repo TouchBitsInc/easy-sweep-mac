@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — Alanı geri kazan, kontrolü elinde tut</title>
+<meta name="description" content="EasySweep, Mac'inizin alanının nereye gittiğini gösterir, yalnızca onayladığınızı geri kazanır ve riske duyarlı otomasyonla dağınıklığın yeniden birikmesini önler. İzleme yok, sürpriz silme yok.">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/tr/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/tr/">
+<meta property="og:title" content="EasySweep — Alanı geri kazan, kontrolü elinde tut">
+<meta property="og:description" content="Neyin yer kapladığını anlayın, yalnızca onayladığınızı geri kazanın ve dağınıklığın yeniden birikmesini önleyin. Gizli ve hassas Mac temizliği.">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/tr/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">Özellikler</a>
+      <a href="#apps">Kaldırıcı</a>
+      <a href="#tools">Yardımcı Programlar</a>
+      <a href="#automation">Otomatik Temizleme</a>
+      <a href="#monitor">İzleme</a>
+      <a href="#safety">Güvenlik</a>
+      <a href="#pricing">Fiyatlandırma</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">İndir</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>Mac'inizi temizleyin.<br>Hep öyle kalsın.</h1>
+
+    <p class="lede">
+      EasySweep alanınızın nereye gittiğini gösterir — önbellekler, uygulama artıkları, kopyalar ve geliştirici verileri — ve yalnızca onayladığınızı kaldırır. Kuralları bir kez belirleyin, rutin dağınıklığı o kontrol altında tutsun. Riskli olan her şey sizin kararınız olarak kalır.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        Mac için indir
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Yakında</span>
+          <span class="btn__main">Mac App Store'da</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="Sistem gereksinimleri">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 veya üzeri
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple silicon ve Intel
+      </li>
+    </ul>
+    <p class="hero__meta">Hesap yok · İzleme yok · Güvenceli otomasyon</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="EasySweep Genel Bakış: Macintosh HD'de 732.92 GB boş alan, Temizlenebilir, Uygulamalar, Kullanıcı Verileri ve macOS olarak bölünmüş bir çubuk ve her birinin hangi bölümlerden alacağını gösteren üç seviye — Güvenli 12.5 GB, Dengeli 22.13 GB, Derin 74.47 GB." width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Her uygulamanın önbellekleri</span>
+      <h2>Tüm önbellekler tek listede.</h2>
+      <p class="lede">
+        Tarayıcılar, düzenleyiciler, sohbet uygulamaları ve yapay zekâ araçları — uygulamaya göre gruplanmış ve bayta kadar ölçülmüş halde; geliştirici verilerinizin, uygulama artıklarının ve macOS'in kendi dağınıklığının yanında. Siz harekete geçmeden önce her öğe ölçülür ve açıklanır.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Genel Bakış</h3>
+        <p>Tüm diskiniz tek bakışta. Güvenli, Dengeli veya Derin'i seçin; tek tıkla temizlemeden önce her birinin bölüm bölüm tam olarak neyi alacağını görün.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Önbellekler</h3>
+        <p>Her uygulamanın önbelleği tek listede, uygulamaya göre gruplu. Yüklü hiçbir uygulamanın sahiplenmediği önbellekler ayrı listelenir ve sizin yerinize asla işaretlenmez.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Geliştirici</h3>
+        <p>Xcode Derived Data, simülatörler, aygıt desteği ve çalışma zamanları ile paket yöneticisi ve araç zinciri önbellekleri — her biri ayrı listelenir, böylece hâlâ ihtiyacınız olanı tutarsınız.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Uygulama Verileri</h3>
+        <p>İndirilen yapay zekâ modelleri, oturum geçmişi ve ekler — kendiliğinden geri gelmeyen veriler; bu yüzden işaretlenir ve siz olmadan asla temizlenmez.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>Sistem</h3>
+        <p>macOS'in yeniden oluşturabildiği ve zamanla sessizce biriken günlükler, çökme raporları, indirilen duvar kâğıtları ve güncelleme artıkları.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Görmenin dört yolu</h3>
+        <p>Her sayfayı liste, kutucuklar, ağaç haritası veya halkalar olarak, düz ya da noktalı depolama çubuğuyla çizin.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="Önbellekler bölümü, noktalı bir çubuk ve uygulama listesi olarak: Safari 1.69 GB, Google Chrome 1.39 GB, Codex, Haritalar ve WeChat; birkaçı temizlik için işaretli." width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>Her konum kendi boyutuyla, ait olduğu uygulamaya göre gruplu. Elle işaretleyin veya bir seviye seçin.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Kaldırıcı</span>
+      <h2>Uygulamaları tamamen kaldırın.</h2>
+      <p class="lede">
+        Bir uygulamanın geride bıraktığı her önbellek, kapsayıcı ve tercih — bulunur, kanıtıyla gösterilir ve uygulamayla birlikte Çöp Sepeti'ne taşınır.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Tahmin değil, kanıt</h3>
+        <p>Artıklar, eşleşmenin ne kadar kesin olduğuna göre gruplanır. Uygulamanın tanımlayıcısıyla eşleşen dosyalar işaretlenir; ada göre eşleşenler sizi bekler.</p>
+      </div>
+      <div class="guard">
+        <h3>Her zaman geri alınabilir</h3>
+        <p>Her şey Çöp Sepeti'ne gider ve Geri Al, onu bulunduğu yere koyar.</p>
+      </div>
+      <div class="guard">
+        <h3>Paylaşılan dosyalar kalır</h3>
+        <p>Yüklü başka bir uygulamanın da kullandığı dosya — bir beta, ikinci bir kopya — paylaşılan olarak işaretlenir ve asla kaldırılmaz.</p>
+      </div>
+      <div class="guard">
+        <h3>Silinmiş uygulamaların artıkları</h3>
+        <p>Çöp Sepeti'ne kendiniz sürüklediğiniz uygulamalar da dosya bırakır. EasySweep bunları bulur ve bir uygulama onun dışında kaldırıldığında size haber verir.</p>
+      </div>
+      <div class="guard">
+        <h3>Korumalı uygulamalar</h3>
+        <p>Asla kaldırılmaması gereken uygulamaları, Apple'ınkiler dahil, işaretleyin; bunlar bütünüyle reddedilir.</p>
+      </div>
+      <div class="guard">
+        <h3>Boyuta göre sıralı</h3>
+        <p>Yüklü her uygulama boyutuyla birlikte listelenir, en büyükleri ilk görürsünüz.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="Uygulamalar sayfası: boyuta göre sıralanmış 44 uygulamada 23.01 GB; Final Cut Pro ve Xcode'dan ChatGPT ve Google Chrome'a kadar." width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>Hiçbir şey taşınmadan önce geride ne bıraktığını görmek için herhangi bir uygulamayı açın.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Yardımcı Programlar</span>
+      <h2>Yer israf edenleri bulun.</h2>
+      <p class="lede">
+        Hiçbir uygulamaya ait olmayan alan için araçlar: kendi dosyalarınız, eski projeler ve unutulmuş başlangıç öğeleri. Tara'ya basana kadar hiçbir şey aranmaz ve kaldırdığınız her şey Çöp Sepeti'ne gider.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Büyük ve eski dosyalar</h3>
+        <p>Aylardır açmadığınız büyük dosyalar, türe göre gruplu. Hiçbiri sizin yerinize işaretlenmez — bunlar sizin dosyalarınız ve karar sizin.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Kopya Dosyalar</h3>
+        <p>Bayt bayt aynı kopyalar; ada göre değil, içeriğe göre eşleştirilir. Her kümeden bir kopya her zaman korunur: en eskisi, en yenisi veya tercih ettiğiniz klasördeki.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Finder Meta Verileri</h3>
+        <p>Finder'ın açtığınız her klasöre bıraktığı .DS_Store dosyaları, tek geçişte bulunup temizlenir.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Proje Önbellekleri</h3>
+        <p>Projelerinizdeki derleme ve araç önbellekleri; her yerde önbellek anlamına gelen adlarla — asla node_modules ve ayar tutan hiçbir şey değil.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>Uygulama Güncellemeleri</h3>
+        <p>Hangi uygulamaların geride kaldığını görün — App Store'dan, Homebrew'dan, MacPorts'tan veya kendi güncelleyicisinden — ve hepsini tek listeden güncelleyin.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Başlangıç Öğeleri</h3>
+        <p>Oturum açılışında açılanları ve arka planda çalışan yardımcıları gözden geçirin, hiç istemediklerinizi kaldırın.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="Kopya Dosyalar'ı gösteren Yardımcı Programlar: toplam 15.3 MB'lık seçili kopya görseller; her biri kaç kopyası olduğu ve hangisinin korunduğuyla listeleniyor." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Tarama ücretsizdir. Ne işaretlerseniz işaretleyin, her kopya kümesinden bir kopya kalır.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Otomatik Temizleme</span>
+      <h2>Bir kez ayarlayın. O ayak uydursun.</h2>
+      <p class="lede">
+        Bir şey çok büyüdüğünde ya da alan azaldığında kendiliğinden temizleyen kurallar. Gözetimsiz yalnızca güvenli olanlar çalışır ve her çalıştırma kaydedilir.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Her öğe için bir tetikleyici</h3>
+        <p>Bir önbelleği kendi boyut sınırını aştığında veya boş alan seçtiğiniz seviyenin altına düştüğünde temizleyin — tüm Mac'iniz için tek bir kaba kural değil.</p>
+      </div>
+      <div class="guard">
+        <h3>Güncel olanı koruyun</h3>
+        <p>Her şeyi veya yalnızca bir günden, haftadan ya da aydan eski dosyaları kaldırın. Yeni işleriniz tam olduğu yerde kalabilir.</p>
+      </div>
+      <div class="guard">
+        <h3>Yalnızca yeniden oluşan kendiliğinden çalışır</h3>
+        <p>Bir kural yalnızca kendiliğinden geri gelene ulaşabilir. Arşivler, oturum geçmişi ve simülatör aygıtları, kural ne derse desin her zaman elle kalır.</p>
+      </div>
+      <div class="guard">
+        <h3>Etkin uygulamaları bekler</h3>
+        <p>İlgili bir uygulama çalışıyorsa, gözetimsiz temizlik dosyaları altından çekmek yerine bekler.</p>
+      </div>
+      <div class="guard">
+        <h3>Menü çubuğundan çalıştırın</h3>
+        <p>Menü çubuğuna Otomatik Temizleme düğmeleri ekleyin ve pencereyi açmadan kurallarınızı istediğiniz an çalıştırın.</p>
+      </div>
+      <div class="guard">
+        <h3>Her Mac'inizde sizinle</h3>
+        <p>Kurallarınız ve kategorileriniz iCloud ile eşitlenir, böylece kullandığınız her Mac aynı kurulumu korur.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="Önbellekler için Otomatik Temizleme sayfası, üç satır açık: bir önbellek 5 GB'ı geçince veya alan azalınca temizle; her şeyi veya yalnızca bir haftadan eski dosyaları kaldır." width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>Her öğe kendi boyutunda kendini temizler. Kapalı bıraktığınız hiçbir şeye siz olmadan dokunulmaz.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Özel kategoriler</span>
+      <h2>Kendi kategorileriniz.</h2>
+      <p class="lede">
+        İndirilenler, projeler, sürekli büyüyen o klasör — onu bir kategori yapın ve neyin gideceğini seçin.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Kendine ait bir sayfa</h3>
+        <p>Her kategori kendi kenar çubuğu satırını, toplamını, depolama çubuğunu ve Temizle düğmesini alır; yerleşik her bölüm gibi ölçülür.</p>
+      </div>
+      <div class="guard">
+        <h3>Ada göre, her derinlikte temizleyin</h3>
+        <p>Bir proje klasörü altındaki tüm derleme veya önbellek klasörlerini ada göre alın ya da gerçekte orada olanların ağacından klasörleri elle seçin.</p>
+      </div>
+      <div class="guard">
+        <h3>Sizin atadığınız seviyeler</h3>
+        <p>Siz kendiniz bir seviye vermedikçe klasörleriniz Güvenli, Dengeli veya Derin tarafından asla işaretlenmez.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="Projeler adlı özel bir kategori: ml-experiments, ios-weather-app ve podcast-edits gibi proje klasörlerinde 5.68 GB; her biri boyutuyla listeleniyor." width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>EasySweep'i sizin için önemli klasörlere yöneltin; onları yerleşik her bölüm gibi ölçsün.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Koyu mod ve Liquid Glass</span>
+      <h2>Sizin olsun.</h2>
+      <p class="lede">
+        Açık veya koyu Liquid Glass, noktalı çubuklar ve her sayfa liste, kutucuklar, ağaç haritası veya halkalar olarak.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>Masaüstünüzün içinden parlamasına izin veren yarı saydam bir pencere.</p>
+      </div>
+      <div class="guard">
+        <h3>Açık veya koyu</h3>
+        <p>Sistemi izleyin ya da macOS ne yaparsa yapsın EasySweep'i açık veya koyu tutun.</p>
+      </div>
+      <div class="guard">
+        <h3>Diskinizin sizin görünümünüz</h3>
+        <p>Temizleyen her sayfada liste, kutucuklar, ağaç haritası veya halkalar; depolama çubuğu ise nokta sıraları olarak.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="Koyu modda EasySweep: mavi ve mor bir arka planın üzerinde Liquid Glass pencere, Önbellekler sayfası noktalı depolama çubuğunun altında kutucuklar olarak çizilmiş." width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>Ayarlar'da tek bir seçim, her sayfa ona uyar.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Etkinlik</span>
+      <h2>Geri kazandığınız her gigabaytı görün.</h2>
+      <p class="lede">
+        Elle veya otomatik her temizlik — ne kadar, ne zaman ve nereden — ve her uygulama güncellemesi, tek geçmişte.
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="Etkinlik sayfası: bu ay 5 temizlikte 59.63 GB geri kazanıldı, konuma göre geri kazanılan alanın grafiği ve tarihe göre temizlik ve uygulama güncellemeleri listesi." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Aya, üç aya veya yıla göre, her temizliğin neyi aldığıyla birlikte.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Sistem İzleyicisi</span>
+      <h2>Mac'iniz tek bakışta.</h2>
+      <p class="lede">
+        Boş alan, CPU, bellek ve disk etkinliği — pencerede canlı, menü çubuğunda ise seçtiğiniz widget'lar olarak.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Menü çubuğu widget'ları</h3>
+        <p>Boş alanı, CPU'yu, GPU'yu, belleği, ağı, disk etkinliğini ve pili ekranınızın üstüne istediğiniz sırayla sabitleyin.</p>
+      </div>
+      <div class="guard">
+        <h3>Düzenlediğiniz bir menü</h3>
+        <p>Menü çubuğu açılır menüsündeki kartları boş alandan sistem sağlığına kadar seçip sıralayın, Otomatik Temizleme düğmelerinizle birlikte.</p>
+      </div>
+      <div class="guard">
+        <h3>Canlı grafikler</h3>
+        <p>İşlemci, GPU, bellek, ağ ve disk etkinliği her iki saniyede güncellenir; bellek baskısı Etkinlik Monitörü'nün bildirdiği gibi.</p>
+      </div>
+      <div class="guard">
+        <h3>Alan bitmeden harekete geçin</h3>
+        <p>Asgari boş alan seviyenizi seçin; dolu bir disk gününüzü bölmeden önce EasySweep sizi uyarsın.</p>
+      </div>
+      <div class="guard">
+        <h3>Kullandığınız her disk</h3>
+        <p>Harici ve diğer dahili diskler başlangıç diskinizin yanında görünür; her biri alanını kaplayan klasörleri açar.</p>
+      </div>
+      <div class="guard">
+        <h3>Bakmadığınızda sessiz</h3>
+        <p>Arka planda hiçbir şey örneklenmez. İzleyici Mac'inizi yalnızca sayfası veya menüsü açıkken okur.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="Sistem İzleyicisi: CPU %26, GPU %16, 32.84 GB bellek kullanımda ve disk etkinliği 1.5 MB/s; üstte EasySweep'in widget'larını gösteren bir menü çubuğu: boş alan, CPU, GPU, bellek, ağ ve disk." width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>Pencerede canlı — ve menü çubuğunda, seçtiğiniz widget'larla.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Doğrulayabileceğiniz güvenlik</span>
+      <h2>Söze değil, tasarıma dayalı özen.</h2>
+      <p class="lede">
+        EasySweep silme anında yeniden kontrol eder, kesinliği tahminden ayırır ve erişemediklerini bildirir. Bu güvenceler temizlik motorunun içinde durur; bir düğme ya da otomasyon kuralı bunları sessizce aşamaz.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Silmeden önce yeniden denetlenir</h3>
+        <p>Temizlik başlarken her konum yeniden doğrulanır. Bir yol değiştiyse veya beklenmedik bir yeri gösteriyorsa EasySweep onu reddeder.</p>
+      </div>
+      <div class="guard">
+        <h3>Riskli hiçbir şey işaretli gelmez</h3>
+        <p>Bölüm sayfaları hiçbir şey işaretli olmadan, Genel Bakış ise yalnızca Güvenli ile açılır. Kendiliğinden geri gelmeyen her şey tıklamanızı bekler.</p>
+      </div>
+      <div class="guard">
+        <h3>Önemli yerde geri alınabilir</h3>
+        <p>Kaldırmalar, kopyalar ve yardımcı programların bulduğu her şey Çöp Sepeti'ne taşınır; geri dönüşünüz olur.</p>
+      </div>
+      <div class="guard">
+        <h3>Erişim konusunda dürüst</h3>
+        <p>EasySweep bir klasörü okuyamazsa bunu söyler ve erişimi nasıl vereceğinizi anlatır; orada hiçbir şey yokmuş gibi davranmaz.</p>
+      </div>
+      <div class="guard">
+        <h3>Güvenebileceğiniz boyutlar</h3>
+        <p>Boyutlar gerçekte kullanılan disk alanıdır; yani gördüğünüz rakam, temizliğin geri verdiği alandır.</p>
+      </div>
+      <div class="guard">
+        <h3>Tasarımdan gizli</h3>
+        <p>Telemetri, çökme raporlama veya arka planda veri toplama yok. EasySweep sizin veya Mac'inizle ilgili bilgi toplamaz ya da göndermez.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Fiyatlandırma</span>
+      <h2>Temel temizlik ücretsiz. Pro tek seferlik bir yükseltmedir.</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">Ücretsiz</div>
+        <p class="price__per">Hesap yok, deneme yok, rahatsız eden ekran yok</p>
+        <ul>
+          <li>400'den fazla konumu kapsayan tüm yerleşik kategoriler</li>
+          <li>Eski yükleyicileri ve unutulmuş derleme çıktılarını keşfedin</li>
+          <li>Güven sırasına göre artık tespitiyle uygulama kaldırma</li>
+          <li>Büyük, eski ve kopya dosyaları tarayın</li>
+          <li>Sistem İzleyicisi, düşük alan uyarıları, temizlik geçmişi ve istatistikler</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">EasySweep'i indir</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">başlangıç</span> $9.99</div>
+        <p class="price__per">Tek seferlik satın alma. Abonelik değil.</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 Mac</span><span class="seats__p">$14.99</span><span class="seats__save">%25 tasarruf</span></li>
+          <li><span class="seats__n">3 Mac</span><span class="seats__p">$19.99</span><span class="seats__save">%33 tasarruf</span></li>
+        </ul>
+        <ul>
+          <li>Ücretsiz uygulamadaki her şey</li>
+          <li><strong>Özel Kategoriler</strong> — seçtiğiniz klasörleri gruplayın, her birinin kendi sayfası ve Temizle düğmesi olsun</li>
+          <li><strong>Koşullu otomasyon</strong> — zamanlamaya göre, belirli bir boyutta veya boş alan azaldığında temizleyin</li>
+          <li><strong>Yaşa dayalı temizlik</strong> — yalnızca bir günden, haftadan veya aydan eski olanı kaldırın</li>
+          <li><strong>Yardımcı Programlar</strong> — büyük, eski ve kopya dosyaları, Finder meta verilerini ve proje önbelleklerini Çöp Sepeti'ne taşıyın</li>
+          <li><strong>Ağaç haritası, Kutucuklar ve Halkalar</strong> düzenleri ve noktalı depolama çubuğu</li>
+          <li><strong>Menü çubuğu göstergeleri</strong> — canlı işlemci, GPU, bellek, ağ ve disk değerleri ile düzenlediğiniz kartlar</li>
+          <li><strong>Uygulama güncellemeleri</strong> — zamanlanmış denetimler ve Homebrew, MacPorts ve Sparkle uygulamaları için Tümünü Güncelle</li>
+          <li><strong>Şeffaf pencere</strong> — Liquid Glass, açık veya koyu</li>
+          <li>Lisansınızdaki her Mac'te iCloud eşitlemesi</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">Lisans satın al</a>
+        <p class="price__after">
+          Ücretsiz uygulamayla çalışır. Yükleyin, ardından anahtarınızı <strong>Ayarlar → Lisans</strong> bölümüne yapıştırın.
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      Doğrudan indirme çoğu konumu hemen tarayabilir; korumalı klasörler için macOS yine de Tam Disk Erişimi isteyebilir. Mac App Store sürümü incelemede — korumalı ortamda (sandbox) çalıştığı için ev klasörünüzü bir kez ister ve bir uygulama paketini kendisi kaldıramayabilir — ve Pro yükseltmesi Apple Hesabınıza bağlı bir uygulama içi satın alımdır, cihaz sınırı yoktur. <a href="/support#permissions">İzinleri destek sayfasında karşılaştırın</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>Alanı geri kazanın. Kontrolü elinizde tutun.</h2>
+    <p class="lede narrow">
+      Tarama hiçbir şeyi değiştirmez. Neyin yer kapladığını görün, neden orada olduğunu anlayın ve yalnızca onayladığınızı kaldırın.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Mac için indir</a>
+      <a class="btn btn--ghost" href="/support">Destek sayfasını okuyun</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/tr/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>Neyin yer kapladığını görün. Neyin gideceğine siz karar verin.</p>
+      </div>
+      <div>
+        <h4>Ürün</h4>
+        <ul>
+          <li><a href="#finds">Özellikler</a></li>
+          <li><a href="#apps">Kaldırıcı</a></li>
+          <li><a href="#tools">Yardımcı Programlar</a></li>
+          <li><a href="#automation">Otomatik Temizleme</a></li>
+          <li><a href="#custom">Özel kategoriler</a></li>
+          <li><a href="#yours">Koyu mod ve Liquid Glass</a></li>
+          <li><a href="#activity">Etkinlik</a></li>
+          <li><a href="#monitor">Sistem İzleyicisi</a></li>
+          <li><a href="#safety">Güvenlik</a></li>
+          <li><a href="#pricing">Fiyatlandırma</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Destek</h4>
+        <ul>
+          <li><a href="/support">Yardım &amp; iletişim</a></li>
+          <li><a href="/support#permissions">İzinler</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Sorun bildir</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Yasal</h4>
+        <ul>
+          <li><a href="/privacy">Gizlilik</a></li>
+          <li><a href="/terms">Koşullar</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">Yol kataloğu</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr" aria-current="true">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>&copy; 2026 TouchBits Inc. Tüm hakları saklıdır.</span>
+      <span>Apple Inc. ile bağlantılı değildir. Xcode, Apple Inc.'in ticari markasıdır.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

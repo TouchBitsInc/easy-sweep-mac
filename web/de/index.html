@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — Speicherplatz zurückgewinnen und im Griff behalten</title>
+<meta name="description" content="EasySweep zeigt, wohin der Speicherplatz Ihres Mac verschwunden ist, räumt nur auf, was Sie freigeben, und verhindert mit risikobewusster Automatisierung, dass sich wieder Ballast ansammelt. Kein Tracking, keine unerwarteten Löschungen.">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/de/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/de/">
+<meta property="og:title" content="EasySweep — Speicherplatz zurückgewinnen und im Griff behalten">
+<meta property="og:description" content="Verstehen Sie, was Speicherplatz belegt, räumen Sie nur auf, was Sie freigeben, und halten Sie Ballast dauerhaft fern. Private, präzise Mac-Bereinigung.">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/de/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">Funktionen</a>
+      <a href="#apps">Deinstallation</a>
+      <a href="#tools">Dienstprogramme</a>
+      <a href="#automation">Automatische Reinigung</a>
+      <a href="#monitor">Systemmonitor</a>
+      <a href="#safety">Sicherheit</a>
+      <a href="#pricing">Preise</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">Download</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>Ihr Mac sauber.<br>Und er bleibt es.</h1>
+
+    <p class="lede">
+      EasySweep zeigt, wohin Ihr Speicherplatz gegangen ist – Caches, App-Reste, Duplikate und Entwicklerdaten – und entfernt nur, was Sie freigeben. Legen Sie Regeln einmal fest, und Routine-Ballast bleibt unter Kontrolle. Alles Riskante entscheiden Sie.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        Für Mac laden
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Demnächst im</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="Systemvoraussetzungen">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 oder neuer
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple Silicon und Intel
+      </li>
+    </ul>
+    <p class="hero__meta">Kein Konto · Kein Tracking · Abgesicherte Automatisierung</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="Die Übersicht von EasySweep: 732.92 GB frei auf Macintosh HD, ein Balken aufgeteilt in Bereinigbar, Programme, Benutzerdaten und macOS, und drei Stufen – Sicher 12.5 GB, Ausgewogen 22.13 GB, Gründlich 74.47 GB – über den Bereichen, aus denen jede Stufe schöpft." width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Die Caches jeder App</span>
+      <h2>Eine Liste für alle Caches.</h2>
+      <p class="lede">
+        Browser, Editoren, Chat-Apps und KI-Tools – nach App gruppiert und auf das Byte genau gemessen, neben Ihren Entwicklerdaten, App-Resten und dem Ballast von macOS. Jeder Eintrag wird gemessen und erklärt, bevor Sie handeln.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Übersicht</h3>
+        <p>Ihre ganze Festplatte auf einen Blick. Wählen Sie Sicher, Ausgewogen oder Gründlich und sehen Sie genau, was jede Stufe mitnehmen würde – Bereich für Bereich –, bevor ein Klick aufräumt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Caches</h3>
+        <p>Die Caches aller Apps in einer Liste, nach App gruppiert. Caches, die keine installierte App beansprucht, stehen separat und werden nie für Sie angehakt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Entwickler</h3>
+        <p>Xcode Derived Data, Simulatoren, Device Support und Runtimes sowie Caches von Paketmanagern und Toolchains – alles einzeln aufgeführt, damit Sie behalten, was Sie noch brauchen.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>App-Daten</h3>
+        <p>Heruntergeladene KI-Modelle, Sitzungsverläufe und Anhänge – Daten, die nicht von selbst zurückkommen. Sie sind markiert und werden nie ohne Sie bereinigt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>System</h3>
+        <p>Protokolle, Absturzberichte, geladene Hintergrundbilder und Update-Reste, die macOS neu erzeugen kann und die sich mit der Zeit unbemerkt anhäufen.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Vier Ansichten</h3>
+        <p>Zeigen Sie jede Seite als Liste, Kacheln, Treemap oder Ringe, mit schlichtem oder Punktmatrix-Speicherbalken.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="Der Bereich „Caches“ als Punktmatrix-Balken und App-Liste: Safari 1.69 GB, Google Chrome 1.39 GB, Codex, Karten und WeChat, mehrere zum Bereinigen angehakt." width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>Jeder Ort mit eigener Größe, nach zugehöriger App gruppiert. Per Hand anhaken oder eine Stufe wählen.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Deinstallation</span>
+      <h2>Apps restlos entfernen.</h2>
+      <p class="lede">
+        Jeder Cache, jeder Container und jede Einstellung, die eine App hinterlässt – gefunden, mit Belegen angezeigt und mit der App in den Papierkorb gelegt.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Belege statt Vermutungen</h3>
+        <p>Reste sind danach gruppiert, wie sicher die Zuordnung ist. Dateien, die über die Kennung der App zugeordnet sind, werden angehakt; Namenstreffer warten auf Sie.</p>
+      </div>
+      <div class="guard">
+        <h3>Immer umkehrbar</h3>
+        <p>Alles wandert in den Papierkorb, und „Widerrufen“ legt es dorthin zurück, wo es war.</p>
+      </div>
+      <div class="guard">
+        <h3>Geteilte Dateien bleiben</h3>
+        <p>Eine Datei, die auch eine andere installierte App nutzt – eine Beta, eine zweite Kopie –, wird als geteilt markiert und nie entfernt.</p>
+      </div>
+      <div class="guard">
+        <h3>Reste gelöschter Apps</h3>
+        <p>Auch Apps, die Sie selbst in den Papierkorb gezogen haben, hinterlassen Dateien. EasySweep findet sie und meldet Ihnen, wenn eine App außerhalb davon entfernt wird.</p>
+      </div>
+      <div class="guard">
+        <h3>Geschützte Apps</h3>
+        <p>Markieren Sie Apps, die nie deinstalliert werden dürfen – auch die von Apple –, und sie werden komplett abgelehnt.</p>
+      </div>
+      <div class="guard">
+        <h3>Nach Größe sortiert</h3>
+        <p>Jede installierte App mit ihrer Größe, damit die größten zuerst ins Auge fallen.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="Die Programme-Seite: 23.01 GB in 44 Apps nach Größe sortiert, von Final Cut Pro und Xcode bis ChatGPT und Google Chrome." width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>Öffnen Sie eine App und prüfen Sie, was sie hinterlassen hat, bevor etwas bewegt wird.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Dienstprogramme</span>
+      <h2>Finden Sie, was Platz verschwendet.</h2>
+      <p class="lede">
+        Werkzeuge für den Platz, der keiner App gehört: Ihre eigenen Dateien, alte Projekte und vergessene Startobjekte. Gesucht wird erst, wenn Sie auf „Scannen“ klicken, und was Sie entfernen, kommt in den Papierkorb.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Groß & alt</h3>
+        <p>Große Dateien, die Sie seit Monaten nicht geöffnet haben, nach Art gruppiert. Nichts wird für Sie angehakt – es sind Ihre Dateien, Sie entscheiden.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Duplikate</h3>
+        <p>Byte-identische Kopien, nach Inhalt erkannt, nicht nach Name. Eine Kopie jedes Satzes bleibt immer erhalten: die älteste, die neueste oder die in einem bevorzugten Ordner.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Finder-Metadaten</h3>
+        <p>Die .DS_Store-Dateien, die der Finder in jedem geöffneten Ordner hinterlässt – in einem Durchgang gefunden und entfernt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Projekt-Caches</h3>
+        <p>Build- und Tool-Caches in Ihren Projekten, erkannt an Namen, die überall einen Cache bedeuten – nie node_modules und nie etwas, das Einstellungen enthält.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>App-Updates</h3>
+        <p>Sehen Sie, welche Apps veraltet sind – aus dem App Store, über Homebrew, MacPorts oder ihren eigenen Updater – und aktualisieren Sie sie aus einer Liste.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Startobjekte</h3>
+        <p>Prüfen Sie, was beim Anmelden startet und welche Hilfsprogramme im Hintergrund laufen, und entfernen Sie, was Sie nie haben wollten.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="Dienstprogramme mit Duplikaten: doppelte Bilder ausgewählt, insgesamt 15.3 MB, jedes mit der Anzahl vorhandener Kopien und der behaltenen Kopie." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Das Scannen ist kostenlos. Was Sie auch anhaken: Eine Kopie jedes Duplikats bleibt erhalten.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Automatische Reinigung</span>
+      <h2>Einmal einrichten. Läuft von selbst.</h2>
+      <p class="lede">
+        Regeln, die von allein aufräumen, wenn etwas zu groß wird oder der Platz knapp wird. Unbeaufsichtigt läuft nur, was sicher ist, und jeder Durchlauf wird protokolliert.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Ein Auslöser für jeden Eintrag</h3>
+        <p>Räumen Sie einen Cache auf, wenn er seine eigene Größengrenze überschreitet oder der freie Platz unter die von Ihnen gewählte Schwelle fällt – nicht eine grobe Regel für den ganzen Mac.</p>
+      </div>
+      <div class="guard">
+        <h3>Behalten Sie, was noch aktuell ist</h3>
+        <p>Entfernen Sie alles oder nur Dateien, die älter als ein Tag, eine Woche oder ein Monat sind. Aktuelle Arbeit bleibt genau dort, wo sie ist.</p>
+      </div>
+      <div class="guard">
+        <h3>Nur Nachwachsendes läuft allein</h3>
+        <p>Eine Regel erreicht nur, was von selbst wiederkommt. Archive, Sitzungsverläufe und Simulatorgeräte bleiben immer manuell, egal was die Regel sagt.</p>
+      </div>
+      <div class="guard">
+        <h3>Wartet auf aktive Apps</h3>
+        <p>Läuft eine zugehörige App, wartet die unbeaufsichtigte Reinigung, statt ihr die Dateien unter den Händen zu entfernen.</p>
+      </div>
+      <div class="guard">
+        <h3>Aus der Menüleiste starten</h3>
+        <p>Legen Sie Schaltflächen für die automatische Reinigung in die Menüleiste und führen Sie Ihre Regeln auf Abruf aus, ohne das Fenster zu öffnen.</p>
+      </div>
+      <div class="guard">
+        <h3>Folgt Ihnen auf jeden Mac</h3>
+        <p>Ihre Regeln und Kategorien werden über iCloud synchronisiert, sodass jeder Ihrer Macs dieselbe Konfiguration hat.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="Die Seite „Automatische Reinigung“ für Caches mit drei aktivierten Zeilen: aufräumen, wenn ein Cache über 5 GB liegt oder der Platz knapp wird, mit Entfernen von allem oder nur von Dateien, die älter als eine Woche sind." width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>Jeder Eintrag räumt sich in seiner eigenen Größe auf. Was Sie auslassen, wird nie ohne Sie angerührt.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Eigene Kategorien</span>
+      <h2>Ihre eigenen Kategorien.</h2>
+      <p class="lede">
+        Downloads, Projekte, dieser eine Ordner, der immer weiterwächst – machen Sie daraus eine Kategorie und bestimmen Sie, was geht.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Eine eigene Seite</h3>
+        <p>Jede Kategorie bekommt eine eigene Seitenleistenzeile, Summe, Speicherbalken und Aufräumen-Taste – gemessen wie jeder integrierte Bereich.</p>
+      </div>
+      <div class="guard">
+        <h3>Nach Namen aufräumen, in jeder Tiefe</h3>
+        <p>Nehmen Sie alle Build- oder Cache-Ordner unter einem Projektordner nach Namen mit, oder wählen Sie Ordner per Hand aus einem Baum dessen, was wirklich da ist.</p>
+      </div>
+      <div class="guard">
+        <h3>Stufen, die Sie vergeben</h3>
+        <p>Ihre Ordner werden von Sicher, Ausgewogen oder Gründlich nie angehakt, bis Sie ihnen selbst eine Stufe geben.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="Eine eigene Kategorie namens Projekte: 5.68 GB in Projektordnern wie ml-experiments, ios-weather-app und podcast-edits, jeder mit seiner Größe aufgeführt." width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>Zeigen Sie EasySweep die Ordner, die Ihnen wichtig sind, und es misst sie wie jeden integrierten Bereich.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Dunkelmodus & Liquid Glass</span>
+      <h2>Machen Sie es zu Ihrem.</h2>
+      <p class="lede">
+        Liquid Glass in Hell oder Dunkel, Punktmatrix-Balken und jede Seite als Liste, Kacheln, Treemap oder Ringe.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>Ein durchscheinendes Fenster, durch das Ihr Schreibtisch schimmert.</p>
+      </div>
+      <div class="guard">
+        <h3>Hell oder Dunkel</h3>
+        <p>Folgen Sie dem System oder halten Sie EasySweep hell oder dunkel, egal was macOS macht.</p>
+      </div>
+      <div class="guard">
+        <h3>Ihr Bild der Festplatte</h3>
+        <p>Liste, Kacheln, Treemap oder Ringe auf jeder Seite, die aufräumt, und der Speicherbalken als Punktreihen.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="EasySweep im Dunkelmodus mit einem Liquid-Glass-Fenster vor blau-violettem Hintergrund, die Caches-Seite als Kacheln unter einem Punktmatrix-Speicherbalken." width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>Eine Auswahl in den Einstellungen, und jede Seite folgt ihr.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Aktivität</span>
+      <h2>Sehen Sie jedes zurückgewonnene Gigabyte.</h2>
+      <p class="lede">
+        Jede Bereinigung, manuell oder automatisch – wie viel, wann und woher – und jedes App-Update in einem Verlauf.
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="Die Aktivität-Seite: 59.63 GB diesen Monat zurückgewonnen in 5 Bereinigungen, ein Diagramm des zurückgewonnenen Platzes nach Ort und eine Liste der Bereinigungen und App-Updates nach Datum." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Nach Monat, drei Monaten oder Jahr, mit dem, was jede Bereinigung mitgenommen hat.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Systemmonitor</span>
+      <h2>Ihr Mac auf einen Blick.</h2>
+      <p class="lede">
+        Freier Speicher, CPU, Arbeitsspeicher und Festplattenaktivität – live im Fenster und in der Menüleiste als Widgets Ihrer Wahl.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Menüleisten-Widgets</h3>
+        <p>Heften Sie freien Speicher, CPU, GPU, Arbeitsspeicher, Netzwerk, Festplattenaktivität und Akku in der gewünschten Reihenfolge an den oberen Bildschirmrand.</p>
+      </div>
+      <div class="guard">
+        <h3>Ein Menü nach Ihrem Geschmack</h3>
+        <p>Wählen und ordnen Sie die Karten im Menüleisten-Menü, von freiem Speicher bis Systemzustand, plus Ihre Schaltflächen für die automatische Reinigung.</p>
+      </div>
+      <div class="guard">
+        <h3>Live-Diagramme</h3>
+        <p>Prozessor, GPU, Arbeitsspeicher, Netzwerk und Festplattenaktivität, alle zwei Sekunden aktualisiert, mit dem Speicherdruck, wie ihn die Aktivitätsanzeige meldet.</p>
+      </div>
+      <div class="guard">
+        <h3>Handeln, bevor der Platz ausgeht</h3>
+        <p>Legen Sie Ihre Mindestgrenze für freien Speicherplatz fest, und EasySweep warnt Sie, bevor eine volle Festplatte Ihren Tag unterbricht.</p>
+      </div>
+      <div class="guard">
+        <h3>Jede Festplatte, die Sie nutzen</h3>
+        <p>Externe und weitere interne Festplatten erscheinen neben Ihrem Startvolume, jede mit den Ordnern, die ihren Platz belegen.</p>
+      </div>
+      <div class="guard">
+        <h3>Leise, wenn Sie nicht hinsehen</h3>
+        <p>Im Hintergrund wird nichts gemessen. Der Monitor liest Ihren Mac nur, solange seine Seite oder sein Menü geöffnet ist.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="Der Systemmonitor mit CPU bei 26 %, GPU bei 16 %, 32.84 GB Arbeitsspeicher in Gebrauch und Festplattenaktivität bei 1.5 MB/s, unter einer Menüleiste mit den Widgets von EasySweep: freier Speicher, CPU, GPU, Arbeitsspeicher, Netzwerk und Festplatte." width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>Live im Fenster – und in der Menüleiste, mit den Widgets Ihrer Wahl.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Überprüfbare Sicherheit</span>
+      <h2>Vorsichtig aus Prinzip, nicht aus Versprechen.</h2>
+      <p class="lede">
+        EasySweep prüft im Moment des Löschens noch einmal, trennt Gewissheit von Vermutung und meldet, worauf es nicht zugreifen kann. Diese Schutzmechanismen sitzen im Reinigungsmodul selbst, sodass sie weder eine Taste noch eine Automatisierungsregel stillschweigend umgehen kann.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Vor dem Löschen erneut geprüft</h3>
+        <p>Jeder Ort wird beim Start der Bereinigung noch einmal verifiziert. Hat sich ein Pfad geändert oder zeigt er unerwartet woandershin, lehnt EasySweep ihn ab.</p>
+      </div>
+      <div class="guard">
+        <h3>Nichts Riskantes angehakt</h3>
+        <p>Bereichsseiten öffnen ohne Haken, die Übersicht nur mit Sicher. Alles, was nicht von selbst zurückkommt, wartet auf Ihren Klick.</p>
+      </div>
+      <div class="guard">
+        <h3>Umkehrbar, wo es zählt</h3>
+        <p>Deinstallationen, Duplikate und alles, was die Dienstprogramme finden, wandern in den Papierkorb – so bleibt ein Weg zurück.</p>
+      </div>
+      <div class="guard">
+        <h3>Ehrlich beim Zugriff</h3>
+        <p>Kann EasySweep einen Ordner nicht lesen, sagt es das und zeigt, wie Sie den Zugriff erteilen, statt so zu tun, als wäre dort nichts.</p>
+      </div>
+      <div class="guard">
+        <h3>Größen, denen Sie trauen können</h3>
+        <p>Größen sind der tatsächlich belegte Speicherplatz, sodass die angezeigte Zahl dem Platz entspricht, den eine Bereinigung zurückgibt.</p>
+      </div>
+      <div class="guard">
+        <h3>Privat von Grund auf</h3>
+        <p>Keine Telemetrie, keine Absturzberichte, keine Datenerhebung im Hintergrund. EasySweep sammelt und sendet keine Informationen über Sie oder Ihren Mac.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Preise</span>
+      <h2>Die Kernreinigung ist kostenlos. Pro ist ein einmaliges Upgrade.</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">Kostenlos</div>
+        <p class="price__per">Kein Konto, keine Testphase, keine Nervfenster</p>
+        <ul>
+          <li>Alle integrierten Kategorien mit über 400 Orten</li>
+          <li>Entdecken Sie alte Installationsprogramme und vergessene Build-Ausgaben</li>
+          <li>App-Deinstallation mit nach Sicherheit gereihter Resteerkennung</li>
+          <li>Scannen Sie nach großen, alten und doppelten Dateien</li>
+          <li>Systemmonitor, Warnungen bei wenig Speicher, Bereinigungsverlauf und Statistiken</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">EasySweep laden</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">ab</span> $9.99</div>
+        <p class="price__per">Einmalkauf. Kein Abo.</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 Macs</span><span class="seats__p">$14.99</span><span class="seats__save">25 % sparen</span></li>
+          <li><span class="seats__n">3 Macs</span><span class="seats__p">$19.99</span><span class="seats__save">33 % sparen</span></li>
+        </ul>
+        <ul>
+          <li>Alles aus der kostenlosen App</li>
+          <li><strong>Eigene Kategorien</strong> – fassen Sie Ordner Ihrer Wahl zusammen, jeder mit eigener Seite und Aufräumen-Taste</li>
+          <li><strong>Bedingte Automatisierung</strong> – nach Zeitplan, bei einer bestimmten Größe oder bei knappem freiem Speicher aufräumen</li>
+          <li><strong>Altersbasierte Reinigung</strong> – nur entfernen, was älter als ein Tag, eine Woche oder ein Monat ist</li>
+          <li><strong>Dienstprogramme</strong> – große, alte und doppelte Dateien, Finder-Metadaten und Projekt-Caches in den Papierkorb legen</li>
+          <li>Layouts <strong>Treemap, Kacheln und Ringe</strong> sowie der Punkt-Speicherbalken</li>
+          <li><strong>Menüleistenanzeigen</strong> – Live-Werte zu Prozessor, GPU, Arbeitsspeicher, Netzwerk und Festplatte sowie Karten nach Ihrer Anordnung</li>
+          <li><strong>App-Updates</strong> – geplante Prüfungen und „Alle aktualisieren“ für Apps über Homebrew, MacPorts und Sparkle</li>
+          <li><strong>Transparentes Fenster</strong> – Liquid Glass in Hell oder Dunkel</li>
+          <li>iCloud-Synchronisierung über alle Macs Ihrer Lizenz</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">Lizenz kaufen</a>
+        <p class="price__after">
+          Funktioniert mit der kostenlosen App. Installieren Sie sie und fügen Sie Ihren Schlüssel unter <strong>Einstellungen → Lizenz</strong> ein.
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      Der Direkt-Download kann die meisten Orte sofort scannen; für geschützte Ordner verlangt macOS möglicherweise weiterhin den Vollzugriff auf die Festplatte. Die Mac-App-Store-Version befindet sich in der Prüfung – sie läuft in der Sandbox, fragt einmal nach Ihrem Home-Ordner und kann ein App-Bundle womöglich nicht selbst entfernen – und ihr Pro-Upgrade ist ein In-App-Kauf, der an Ihren Apple-Account gebunden ist, ohne Geräte-Limit. <a href="/support#permissions">Berechtigungen auf der Support-Seite vergleichen</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>Platz zurückgewinnen. Kontrolle behalten.</h2>
+    <p class="lede narrow">
+      Scannen ändert nichts. Sehen Sie, was Ihren Platz belegt, verstehen Sie, warum, und entfernen Sie nur, was Sie freigeben.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Für Mac laden</a>
+      <a class="btn btn--ghost" href="/support">Support-Seite lesen</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/de/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>Sehen Sie, was Platz belegt. Entscheiden Sie, was geht.</p>
+      </div>
+      <div>
+        <h4>Produkt</h4>
+        <ul>
+          <li><a href="#finds">Funktionen</a></li>
+          <li><a href="#apps">Deinstallation</a></li>
+          <li><a href="#tools">Dienstprogramme</a></li>
+          <li><a href="#automation">Automatische Reinigung</a></li>
+          <li><a href="#custom">Eigene Kategorien</a></li>
+          <li><a href="#yours">Dunkelmodus & Liquid Glass</a></li>
+          <li><a href="#activity">Aktivität</a></li>
+          <li><a href="#monitor">Systemmonitor</a></li>
+          <li><a href="#safety">Sicherheit</a></li>
+          <li><a href="#pricing">Preise</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="/support">Hilfe & Kontakt</a></li>
+          <li><a href="/support#permissions">Berechtigungen</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Problem melden</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="/privacy">Datenschutz</a></li>
+          <li><a href="/terms">Nutzungsbedingungen</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">Pfadkatalog</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de" aria-current="true">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>© 2026 TouchBits Inc. Alle Rechte vorbehalten.</span>
+      <span>Nicht mit Apple Inc. verbunden. Xcode ist eine Marke von Apple Inc.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

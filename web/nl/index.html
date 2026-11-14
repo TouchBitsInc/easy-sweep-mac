@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — Win ruimte terug en houd het onder controle</title>
+<meta name="description" content="EasySweep laat zien waar de ruimte op je Mac is gebleven, maakt alleen vrij wat jij goedkeurt en voorkomt met risicobewuste automatisering dat de rommel zich weer opstapelt. Geen tracking en geen verrassende verwijderingen.">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/nl/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/nl/">
+<meta property="og:title" content="EasySweep — Win ruimte terug en houd het onder controle">
+<meta property="og:description" content="Begrijp wat ruimte inneemt, win alleen terug wat jij goedkeurt en voorkom dat de rommel zich weer opstapelt. Privé en nauwkeurig je Mac opruimen.">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/nl/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">Functies</a>
+      <a href="#apps">Verwijderen</a>
+      <a href="#tools">Hulpprogramma’s</a>
+      <a href="#automation">Automatisch opruimen</a>
+      <a href="#monitor">Monitor</a>
+      <a href="#safety">Veiligheid</a>
+      <a href="#pricing">Prijzen</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">Download</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>Ruim je Mac op.<br>En houd hem zo.</h1>
+
+    <p class="lede">
+      EasySweep laat zien waar je ruimte is gebleven — caches, restanten van apps, dubbele bestanden en ontwikkelaarsgegevens — en verwijdert alleen wat jij goedkeurt. Stel regels één keer in en de dagelijkse rommel blijft onder controle. Alles wat risicovol is, beslis jij.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        Download voor Mac
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Binnenkort in de</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="Systeemvereisten">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 of nieuwer
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple silicon en Intel
+      </li>
+    </ul>
+    <p class="hero__meta">Geen account · Geen tracking · Beveiligde automatisering</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="Het Overzicht van EasySweep: 732,92 GB vrij op Macintosh HD, een balk verdeeld in Opschoonbaar, Programma’s, Gebruikersgegevens en macOS, en drie niveaus — Veilig 12,5 GB, Gebalanceerd 22,13 GB, Grondig 74,47 GB — boven de onderdelen waaruit elk niveau put." width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">De caches van elke app</span>
+      <h2>Eén lijst voor alle caches.</h2>
+      <p class="lede">
+        Browsers, editors, chat-apps en AI-tools — gegroepeerd per app en tot op de byte gemeten, naast je ontwikkelaarsgegevens, restanten van apps en de eigen rommel van macOS. Elk onderdeel wordt gemeten en toegelicht voordat je iets doet.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Overzicht</h3>
+        <p>Je hele schijf in één oogopslag. Kies Veilig, Gebalanceerd of Grondig en zie precies wat elk niveau zou opruimen, onderdeel voor onderdeel, voordat één klik het doet.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Caches</h3>
+        <p>De caches van elke app in één lijst, gegroepeerd per app. Caches die geen geïnstalleerde app opeist, staan apart en worden nooit voor je aangevinkt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Ontwikkeling</h3>
+        <p>Xcode Derived Data, simulators, device support en runtimes, plus caches van pakketbeheerders en toolchains — elk apart vermeld, zodat je houdt wat je nog nodig hebt.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Appgegevens</h3>
+        <p>Gedownloade AI-modellen, sessiegeschiedenis en bijlagen — gegevens die niet vanzelf terugkomen, dus ze zijn gemarkeerd en worden nooit zonder jou opgeruimd.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>Systeem</h3>
+        <p>Logs, crashrapporten, gedownloade achtergronden en updaterestanten die macOS kan herbouwen en die zich na verloop van tijd ongemerkt opstapelen.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Vier manieren om te kijken</h3>
+        <p>Toon elke pagina als lijst, tegels, treemap of ringen, met een gewone of puntmatrix-opslagbalk.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="De sectie Caches als puntmatrixbalk en een lijst met apps: Safari 1,69 GB, Google Chrome 1,39 GB, Codex, Kaarten en WeChat, met meerdere items aangevinkt om op te ruimen." width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>Elke locatie met haar eigen grootte, gegroepeerd per app. Vink zelf aan of kies een niveau.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Verwijderen</span>
+      <h2>Verwijder apps volledig.</h2>
+      <p class="lede">
+        Elke cache, container en voorkeur die een app achterlaat — gevonden, getoond met het bewijs en samen met de app naar de prullenmand verplaatst.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Bewijs, geen giswerk</h3>
+        <p>Restanten worden gegroepeerd naar hoe zeker de overeenkomst is. Bestanden die bij de identifier van de app horen, zijn aangevinkt; naamovereenkomsten wachten op jou.</p>
+      </div>
+      <div class="guard">
+        <h3>Altijd omkeerbaar</h3>
+        <p>Alles gaat naar de prullenmand en Herstel zet het terug waar het stond.</p>
+      </div>
+      <div class="guard">
+        <h3>Gedeelde bestanden blijven</h3>
+        <p>Een bestand dat ook een andere geïnstalleerde app gebruikt — een bèta, een tweede kopie — wordt als gedeeld gemarkeerd en nooit verwijderd.</p>
+      </div>
+      <div class="guard">
+        <h3>Restanten van verwijderde apps</h3>
+        <p>Apps die je zelf naar de prullenmand sleepte, laten ook bestanden achter. EasySweep vindt ze en meldt het wanneer een app buiten EasySweep om wordt verwijderd.</p>
+      </div>
+      <div class="guard">
+        <h3>Beschermde apps</h3>
+        <p>Markeer de apps die nooit verwijderd mogen worden, ook die van Apple, en ze worden volledig geweigerd.</p>
+      </div>
+      <div class="guard">
+        <h3>Op grootte gesorteerd</h3>
+        <p>Elke geïnstalleerde app met zijn grootte, zodat de grootste als eerste in beeld komen.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="De pagina Programma’s: 23,01 GB verdeeld over 44 programma’s, op grootte gesorteerd, van Final Cut Pro en Xcode tot ChatGPT en Google Chrome." width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>Open een app om te bekijken wat hij heeft achtergelaten voordat er iets wordt verplaatst.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Hulpprogramma’s</span>
+      <h2>Vind wat ruimte verspilt.</h2>
+      <p class="lede">
+        Hulpmiddelen voor de ruimte die geen app bezit: je eigen bestanden, oude projecten en vergeten opstartonderdelen. Er wordt niets gezocht tot je op Scannen drukt, en wat je verwijdert gaat naar de prullenmand.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Grote en oude bestanden</h3>
+        <p>Grote bestanden die je al maanden niet hebt geopend, gegroepeerd per soort. Niets is voor je aangevinkt — het zijn jouw bestanden en jij beslist.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Dubbele bestanden</h3>
+        <p>Byte-identieke kopieën, herkend aan de inhoud en niet aan de naam. Van elke set blijft altijd één kopie bewaard: de oudste, de nieuwste of die in een map die je zelf verkiest.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Finder-metadata</h3>
+        <p>De .DS_Store-bestanden die de Finder in elke map achterlaat die je opent, in één keer gevonden en gewist.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Projectcaches</h3>
+        <p>Build- en toolcaches in je projecten, herkend aan namen die overal een cache betekenen — nooit node_modules en nooit iets wat instellingen bevat.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>App-updates</h3>
+        <p>Zie welke apps achterlopen — via de App Store, Homebrew, MacPorts of hun eigen updater — en werk ze bij vanuit één lijst.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Opstartonderdelen</h3>
+        <p>Bekijk wat er bij het inloggen opent en welke hulpprogramma’s op de achtergrond draaien, en verwijder wat je nooit hebt gevraagd.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="Hulpprogramma’s met Dubbele bestanden: dubbele afbeeldingen geselecteerd, samen 15,3 MB, elk met het aantal bestaande kopieën en welke kopie bewaard blijft." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Scannen is gratis. Wat je ook aanvinkt, van elk duplicaat blijft één kopie staan.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Automatisch opruimen</span>
+      <h2>Stel het één keer in. Het houdt het bij.</h2>
+      <p class="lede">
+        Regels die vanzelf opruimen wanneer iets te groot wordt of de ruimte opraakt. Alleen wat veilig is, draait zonder toezicht, en elke run wordt vastgelegd.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Een trigger voor elk onderdeel</h3>
+        <p>Ruim een cache op wanneer hij zijn eigen groottelimiet overschrijdt, of wanneer de vrije ruimte onder het door jou gekozen niveau zakt — geen grove regel voor je hele Mac.</p>
+      </div>
+      <div class="guard">
+        <h3>Bewaar wat nog actueel is</h3>
+        <p>Verwijder alles of alleen bestanden die ouder zijn dan een dag, week of maand. Recent werk kan precies blijven staan waar het staat.</p>
+      </div>
+      <div class="guard">
+        <h3>Alleen wat zichzelf herstelt, draait vanzelf</h3>
+        <p>Een regel bereikt alleen wat uit zichzelf terugkomt. Archieven, sessiegeschiedenis en simulatorapparaten blijven altijd handmatig, wat de regel ook zegt.</p>
+      </div>
+      <div class="guard">
+        <h3>Wacht op actieve apps</h3>
+        <p>Als een gerelateerde app draait, wacht het onbeheerde opruimen in plaats van bestanden onder die app weg te halen.</p>
+      </div>
+      <div class="guard">
+        <h3>Start het vanuit de menubalk</h3>
+        <p>Voeg knoppen voor automatisch opruimen toe aan de menubalk en voer je regels op verzoek uit, zonder het venster te openen.</p>
+      </div>
+      <div class="guard">
+        <h3>Volgt je naar elke Mac</h3>
+        <p>Je regels en categorieën synchroniseren via iCloud, zodat elke Mac die je gebruikt dezelfde instellingen heeft.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="De pagina Automatisch opruimen voor Caches met drie ingeschakelde rijen: ruim op wanneer een cache groter is dan 5 GB of wanneer de ruimte opraakt, door alles te verwijderen of alleen bestanden ouder dan een week." width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>Elk onderdeel ruimt zichzelf op bij zijn eigen grootte. Wat je uitlaat, wordt nooit zonder jou aangeraakt.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Aangepaste categorieën</span>
+      <h2>Je eigen categorieën.</h2>
+      <p class="lede">
+        Downloads, projecten, die ene map die maar blijft groeien — maak er een categorie van en kies wat weg mag.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Een eigen pagina</h3>
+        <p>Elke categorie krijgt een eigen rij in de navigatiekolom, een totaal, een opslagbalk en een knop Opruimen, gemeten zoals elke ingebouwde sectie.</p>
+      </div>
+      <div class="guard">
+        <h3>Opruimen op naam, op elke diepte</h3>
+        <p>Pak elke build- of cachemap in een projectmap op naam, of kies mappen met de hand uit een boom van wat er echt staat.</p>
+      </div>
+      <div class="guard">
+        <h3>Niveaus die jij toewijst</h3>
+        <p>Je mappen worden nooit aangevinkt door Veilig, Gebalanceerd of Grondig tot je ze zelf een niveau geeft.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="Een aangepaste categorie met de naam Projecten: 5,68 GB verdeeld over projectmappen zoals ml-experiments, ios-weather-app en podcast-edits, elk met zijn grootte." width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>Wijs EasySweep de mappen aan die voor jou tellen en het meet ze zoals elke ingebouwde sectie.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Donkere modus en Liquid Glass</span>
+      <h2>Maak het van jou.</h2>
+      <p class="lede">
+        Liquid Glass in licht of donker, puntmatrixbalken en elke pagina als lijst, tegels, treemap of ringen.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>Een doorschijnend venster waar je bureaublad doorheen schemert.</p>
+      </div>
+      <div class="guard">
+        <h3>Licht of donker</h3>
+        <p>Volg het systeem, of houd EasySweep licht of donker, wat macOS ook doet.</p>
+      </div>
+      <div class="guard">
+        <h3>Jouw beeld van de schijf</h3>
+        <p>Een lijst, tegels, een treemap of ringen op elke pagina die opruimt, en de opslagbalk als rijen punten.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="EasySweep in donkere modus met een Liquid Glass-venster voor een blauwpaarse achtergrond, de pagina Caches als tegels onder een puntmatrix-opslagbalk." width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>Eén keuze in Instellingen en elke pagina volgt die.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Activiteit</span>
+      <h2>Zie elke gigabyte die je terugkreeg.</h2>
+      <p class="lede">
+        Elke opruimbeurt, handmatig of automatisch — hoeveel, wanneer en waarvandaan — en elke app-update, in één geschiedenis.
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="De pagina Activiteit: 59,63 GB teruggewonnen deze maand in 5 opruimbeurten, een grafiek van teruggewonnen ruimte per locatie en een lijst met opruimbeurten en app-updates op datum." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Per maand, drie maanden of jaar, met wat elke opruimbeurt heeft gehaald.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Systeemmonitor</span>
+      <h2>Je Mac in één oogopslag.</h2>
+      <p class="lede">
+        Vrije ruimte, CPU, geheugen en schijfactiviteit — live in het venster en in de menubalk als widgets naar keuze.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Widgets in de menubalk</h3>
+        <p>Zet vrije ruimte, CPU, GPU, geheugen, netwerk, schijfactiviteit en batterij bovenaan je scherm, in de volgorde die jij wilt.</p>
+      </div>
+      <div class="guard">
+        <h3>Een menu dat je zelf indeelt</h3>
+        <p>Kies en orden de kaarten in het uitklapmenu van de menubalk, van vrije ruimte tot systeemstatus, plus je knoppen voor automatisch opruimen.</p>
+      </div>
+      <div class="guard">
+        <h3>Live grafieken</h3>
+        <p>Processor, GPU, geheugen, netwerk en schijfactiviteit, elke twee seconden ververst, met geheugendruk zoals Activiteitenweergave die meldt.</p>
+      </div>
+      <div class="guard">
+        <h3>Grijp in voordat de ruimte opraakt</h3>
+        <p>Kies je minimale vrije ruimte en EasySweep waarschuwt je voordat een volle schijf je dag verstoort.</p>
+      </div>
+      <div class="guard">
+        <h3>Elke schijf die je gebruikt</h3>
+        <p>Externe en andere interne schijven verschijnen naast je opstartschijf, elk met de mappen die de ruimte innemen.</p>
+      </div>
+      <div class="guard">
+        <h3>Stil als je niet kijkt</h3>
+        <p>Op de achtergrond wordt niets bemonsterd. De monitor leest je Mac alleen uit terwijl de pagina of het menu open is.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="Systeemmonitor met CPU op 26%, GPU op 16%, 32,84 GB geheugen in gebruik en schijfactiviteit op 1,5 MB/s, onder een menubalk met de widgets van EasySweep: vrije ruimte, CPU, GPU, geheugen, netwerk en schijf." width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>Live in het venster — en in je menubalk, met de widgets die jij kiest.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Veiligheid die je kunt controleren</span>
+      <h2>Zorgvuldig door ontwerp, niet door belofte.</h2>
+      <p class="lede">
+        EasySweep controleert opnieuw op het moment van verwijderen, scheidt zekerheid van giswerk en meldt wat het niet kan openen. Deze waarborgen zitten in de opruimmotor zelf, dus een knop of automatiseringsregel kan ze niet ongemerkt omzeilen.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Opnieuw gecontroleerd vóór het verwijderen</h3>
+        <p>Elke locatie wordt opnieuw geverifieerd wanneer het opruimen begint. Is een pad veranderd of wijst het ergens onverwachts heen, dan weigert EasySweep het.</p>
+      </div>
+      <div class="guard">
+        <h3>Niets risicovols voor je aangevinkt</h3>
+        <p>Sectiepagina’s openen met niets aangevinkt en het Overzicht alleen met Veilig. Alles wat niet vanzelf terugkomt, wacht op jouw klik.</p>
+      </div>
+      <div class="guard">
+        <h3>Omkeerbaar waar het ertoe doet</h3>
+        <p>Verwijderde apps, dubbele bestanden en alles wat de hulpprogramma’s vinden gaan naar de prullenmand, zodat je een weg terug hebt.</p>
+      </div>
+      <div class="guard">
+        <h3>Eerlijk over toegang</h3>
+        <p>Als EasySweep een map niet kan lezen, zegt het dat en legt het uit hoe je toegang geeft, in plaats van te doen alsof er niets staat.</p>
+      </div>
+      <div class="guard">
+        <h3>Groottes die je kunt vertrouwen</h3>
+        <p>Groottes zijn de daadwerkelijk gebruikte schijfruimte, dus het getal dat je ziet is de ruimte die een opruimbeurt teruggeeft.</p>
+      </div>
+      <div class="guard">
+        <h3>Privé door ontwerp</h3>
+        <p>Geen telemetrie, crashrapportage of gegevensverzameling op de achtergrond. EasySweep verzamelt of verstuurt geen informatie over jou of je Mac.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Prijzen</span>
+      <h2>Basisopruiming is gratis. Pro is een eenmalige upgrade.</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">Gratis</div>
+        <p class="price__per">Geen account, geen proefperiode, geen zeurschermen</p>
+        <ul>
+          <li>Alle ingebouwde categorieën, met 400+ locaties</li>
+          <li>Ontdek oude installers en vergeten build-uitvoer</li>
+          <li>Apps verwijderen met restantendetectie op betrouwbaarheid gerangschikt</li>
+          <li>Scan op grote, oude en dubbele bestanden</li>
+          <li>Systeemmonitor, waarschuwingen bij weinig ruimte, opruimgeschiedenis en statistieken</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download EasySweep</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">vanaf</span> $9.99</div>
+        <p class="price__per">Eenmalige aankoop. Geen abonnement.</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 Macs</span><span class="seats__p">$14.99</span><span class="seats__save">bespaar 25%</span></li>
+          <li><span class="seats__n">3 Macs</span><span class="seats__p">$19.99</span><span class="seats__save">bespaar 33%</span></li>
+        </ul>
+        <ul>
+          <li>Alles uit de gratis app</li>
+          <li><strong>Aangepaste categorieën</strong> — groepeer de mappen die je kiest, elk met een eigen pagina en knop Opruimen</li>
+          <li><strong>Voorwaardelijke automatisering</strong> — ruim op volgens schema, bij een bepaalde grootte of wanneer de vrije ruimte opraakt</li>
+          <li><strong>Opruimen op leeftijd</strong> — verwijder alleen wat ouder is dan een dag, week of maand</li>
+          <li><strong>Hulpprogramma’s</strong> — verplaats grote, oude en dubbele bestanden, Finder-metadata en projectcaches naar de prullenmand</li>
+          <li><strong>Treemap, tegels en ringen</strong> als weergave, en de puntopslagbalk</li>
+          <li><strong>Indicatoren in de menubalk</strong> — live uitlezingen van processor, GPU, geheugen, netwerk en schijf, en kaarten die je zelf indeelt</li>
+          <li><strong>App-updates</strong> — geplande controles en Alles bijwerken voor apps van Homebrew, MacPorts en Sparkle</li>
+          <li><strong>Transparant venster</strong> — Liquid Glass, in licht of donker</li>
+          <li>iCloud-synchronisatie over elke Mac op je licentie</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">Koop een licentie</a>
+        <p class="price__after">
+          Werkt met de gratis app. Installeer die en plak je sleutel in <strong>Instellingen → Licentie</strong>.
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      De directe download kan de meeste locaties meteen scannen; macOS kan voor beschermde mappen nog steeds Volledige schijftoegang vereisen. De editie voor de Mac App Store is in beoordeling — met sandbox, dus ze vraagt één keer om je thuismap en kan een app-bundel mogelijk niet zelf verwijderen — en de Pro-upgrade is een in-app-aankoop gekoppeld aan je Apple Account, zonder limiet op apparaten. <a href="/support#permissions">Vergelijk de rechten op de ondersteuningspagina</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>Win de ruimte terug. Houd de controle.</h2>
+    <p class="lede narrow">
+      Scannen verandert niets. Zie wat je ruimte inneemt, begrijp waarom het er staat en verwijder alleen wat jij goedkeurt.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Download voor Mac</a>
+      <a class="btn btn--ghost" href="/support">Lees de ondersteuningspagina</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/nl/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>Zie wat ruimte inneemt. Beslis wat weg mag.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#finds">Functies</a></li>
+          <li><a href="#apps">Verwijderen</a></li>
+          <li><a href="#tools">Hulpprogramma’s</a></li>
+          <li><a href="#automation">Automatisch opruimen</a></li>
+          <li><a href="#custom">Aangepaste categorieën</a></li>
+          <li><a href="#yours">Donkere modus en Liquid Glass</a></li>
+          <li><a href="#activity">Activiteit</a></li>
+          <li><a href="#monitor">Systeemmonitor</a></li>
+          <li><a href="#safety">Veiligheid</a></li>
+          <li><a href="#pricing">Prijzen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ondersteuning</h4>
+        <ul>
+          <li><a href="/support">Hulp en contact</a></li>
+          <li><a href="/support#permissions">Rechten</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Meld een probleem</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Juridisch</h4>
+        <ul>
+          <li><a href="/privacy">Privacy</a></li>
+          <li><a href="/terms">Voorwaarden</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">Padencatalogus</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl" aria-current="true">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>&copy; 2026 TouchBits Inc. Alle rechten voorbehouden.</span>
+      <span>Niet gelieerd aan Apple Inc. Xcode is een handelsmerk van Apple Inc.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — 空き容量を取り戻し、いつでも管理下に</title>
+<meta name="description" content="EasySweepは、Macの容量がどこで使われているかを見える化し、承認したものだけを整理。リスクを考慮した自動化で、不要なデータが再びたまるのも防ぎます。トラッキングも、思いがけない削除もありません。">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/ja/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/ja/">
+<meta property="og:title" content="EasySweep — 空き容量を取り戻し、いつでも管理下に">
+<meta property="og:description" content="何が容量を使っているかを把握し、承認したものだけを整理して、不要なデータがたまらないようにします。プライベートで正確なMacのクリーンアップ。">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/ja/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">機能</a>
+      <a href="#apps">アンインストーラ</a>
+      <a href="#tools">ユーティリティ</a>
+      <a href="#automation">自動クリーンアップ</a>
+      <a href="#monitor">モニター</a>
+      <a href="#safety">安全性</a>
+      <a href="#pricing">価格</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">ダウンロード</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>Macをきれいに。<br>そのままずっと。</h1>
+
+    <p class="lede">
+      EasySweepは、キャッシュ、アプリの残りファイル、重複ファイル、開発者データなど、容量の行方を表示し、承認したものだけを削除します。ルールを一度設定すれば、日常的な不要データは自動で管理。リスクのあるものは、いつもあなたが判断します。
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        Mac用にダウンロード
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">近日公開予定：</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="システム要件">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14以降
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple siliconとIntel
+      </li>
+    </ul>
+    <p class="hero__meta">アカウント不要 · トラッキングなし · 安全に守られた自動化</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="EasySweepの概要：Macintosh HDの空き容量は732.92 GB。整理可能、アプリケーション、ユーザデータ、macOSに分かれたバーと、各セクションから整理する3つのレベル（安全 12.5 GB、バランス 22.13 GB、徹底 74.47 GB）。" width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">すべてのアプリのキャッシュ</span>
+      <h2>キャッシュを、ひとつのリストに。</h2>
+      <p class="lede">
+        ブラウザ、エディタ、チャットアプリ、AIツールまで、アプリごとにまとめ、バイト単位でサイズを表示。開発者データ、アプリの残りファイル、macOS自身の不要ファイルも並べて確認できます。操作の前に、すべての項目が測定され、説明されます。
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>概要</h3>
+        <p>ディスク全体をひと目で。「安全」「バランス」「徹底」を選ぶと、セクションごとに何が整理されるかを正確に確認でき、ワンクリックでクリーンアップできます。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>キャッシュ</h3>
+        <p>すべてのアプリのキャッシュを、アプリごとにまとめてひとつのリストに。インストール済みのどのアプリにも属さないキャッシュは別に表示され、自動で選択されることはありません。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>開発</h3>
+        <p>XcodeのDerived Data、シミュレータ、デバイスサポート、ランタイムに加え、パッケージマネージャやツールチェーンのキャッシュも。それぞれ個別に表示されるので、必要なものは残せます。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>アプリデータ</h3>
+        <p>ダウンロードしたAIモデル、セッション履歴、添付ファイルなど、自然には戻らないデータ。印が付けられ、あなたの操作なしには整理されません。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>システム</h3>
+        <p>ログ、クラッシュレポート、ダウンロードした壁紙、アップデートの残りファイルなど、macOSが再構築できるのに、いつの間にかたまっていくもの。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>4つの見せ方</h3>
+        <p>すべてのページを、リスト、タイル、ツリーマップ、リングのいずれかで表示。ストレージバーはシンプルなバーかドットマトリックスから選べます。</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="ドットマトリックスバーとアプリのリストで表示したキャッシュセクション：Safari 1.69 GB、Google Chrome 1.39 GB、Codex、マップ、WeChat。いくつかが整理対象として選択されています。" width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>すべての場所を、それぞれのサイズとともに、所属するアプリごとに表示。手動で選択するか、レベルを選びます。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">アンインストーラ</span>
+      <h2>アプリを、完全に削除。</h2>
+      <p class="lede">
+        アプリが残したキャッシュ、コンテナ、環境設定をすべて検出し、根拠とともに表示して、アプリと一緒にゴミ箱へ移動します。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>推測ではなく、根拠で</h3>
+        <p>残りファイルは、一致の確実さごとにグループ化。アプリの識別子で一致したファイルは選択され、名前で一致したものはあなたの判断を待ちます。</p>
+      </div>
+      <div class="guard">
+        <h3>いつでも元に戻せる</h3>
+        <p>すべてゴミ箱に移動し、「取り消す」で元の場所に戻せます。</p>
+      </div>
+      <div class="guard">
+        <h3>共有ファイルは残す</h3>
+        <p>別のインストール済みアプリ（ベータ版や2つ目のコピーなど）も使っているファイルには共有の印が付き、削除されることはありません。</p>
+      </div>
+      <div class="guard">
+        <h3>削除済みアプリの残りファイル</h3>
+        <p>自分でゴミ箱にドラッグしたアプリも、ファイルを残します。EasySweepがそれらを見つけ、EasySweep以外でアプリが削除されたときもお知らせします。</p>
+      </div>
+      <div class="guard">
+        <h3>保護するアプリ</h3>
+        <p>Apple純正アプリを含め、絶対にアンインストールしたくないアプリを指定すれば、すべて拒否されます。</p>
+      </div>
+      <div class="guard">
+        <h3>サイズ順</h3>
+        <p>インストール済みのすべてのアプリをサイズとともに表示。大きいものが最初に見つかります。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="アプリケーションページ：44個のアプリケーションで23.01 GB。Final Cut ProやXcodeからChatGPT、Google Chromeまでをサイズ順に表示。" width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>アプリを開けば、何かを移動する前に、残されたファイルを確認できます。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">ユーティリティ</span>
+      <h2>容量を無駄に使っているものを見つけよう。</h2>
+      <p class="lede">
+        どのアプリにも属さない容量のためのツール。自分のファイル、古いプロジェクト、忘れていた起動項目。「スキャン」を押すまで何も検索されず、削除したものはゴミ箱に移動します。
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>大きく古いファイル</h3>
+        <p>数か月開いていない大きなファイルを、種類ごとにまとめて表示。自動で選択されることはありません。あなたのファイルですから、判断はあなたが。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>重複ファイル</h3>
+        <p>名前ではなく内容で照合する、バイト単位で同一のコピー。各セットのうち1つは必ず残ります。最も古いもの、最も新しいもの、または優先するフォルダにあるもの。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Finder メタデータ</h3>
+        <p>Finderが開いたフォルダごとに残す.DS_Storeファイルを、1回の操作で検出して削除。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>プロジェクトキャッシュ</h3>
+        <p>プロジェクト内のビルドキャッシュやツールのキャッシュを、どの環境でもキャッシュを意味する名前で検出。node_modulesや、設定を含むものは対象外です。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>アプリのアップデート</h3>
+        <p>App Store、Homebrew、MacPorts、アプリ独自のアップデータなど、どのアプリが古いかを確認し、ひとつのリストからアップデートできます。</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>スタートアップ項目</h3>
+        <p>ログイン時に開く項目やバックグラウンドで動くヘルパーを確認し、覚えのないものを削除します。</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="重複ファイルを表示したユーティリティ：重複した画像が選択され、合計15.3 MB。それぞれに、コピーの数と残されるコピーが表示されています。" width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>スキャンは無料です。何を選択しても、重複ファイルは1つずつ必ず残ります。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">自動クリーンアップ</span>
+      <h2>一度設定すれば、あとはおまかせ。</h2>
+      <p class="lede">
+        何かが大きくなりすぎたとき、空き容量が少なくなったときに、自動でクリーンアップするルール。無人で実行されるのは安全なものだけで、実行内容はすべて記録されます。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>項目ごとのトリガー</h3>
+        <p>キャッシュが独自のサイズ上限を超えたとき、または空き容量が設定したレベルを下回ったときにクリーンアップ。Mac全体に一律のルールを当てはめることはありません。</p>
+      </div>
+      <div class="guard">
+        <h3>最新のものは残す</h3>
+        <p>すべてを削除することも、1日、1週間、1か月より古いファイルだけを削除することもできます。最近の作業は、そのまま残せます。</p>
+      </div>
+      <div class="guard">
+        <h3>自動で実行されるのは、再生成されるものだけ</h3>
+        <p>ルールが対象にできるのは、自然に元に戻るものだけです。アーカイブ、セッション履歴、シミュレータのデバイスは、ルールに関係なく、常に手動です。</p>
+      </div>
+      <div class="guard">
+        <h3>使用中のアプリがあれば待機</h3>
+        <p>関連するアプリが実行中のときは、無人のクリーンアップは待機し、そのアプリの足元からファイルを削除することはありません。</p>
+      </div>
+      <div class="guard">
+        <h3>メニューバーから実行</h3>
+        <p>自動クリーンアップボタンをメニューバーに追加すれば、ウインドウを開かずに、必要なときにルールを実行できます。</p>
+      </div>
+      <div class="guard">
+        <h3>すべてのMacに引き継がれる</h3>
+        <p>ルールとカテゴリはiCloudで同期されるので、使っているすべてのMacで同じ設定を維持できます。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="3つの行がオンになったキャッシュの自動クリーンアップページ：キャッシュが5 GBを超えたとき、または空き容量が少なくなったときに、すべてまたは1週間より古いファイルだけを削除。" width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>各項目は、それぞれのサイズで自動的にクリーンアップされます。オフにした項目には、あなたの操作なしに手が触れることはありません。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">カスタムカテゴリ</span>
+      <h2>あなただけのカテゴリ。</h2>
+      <p class="lede">
+        ダウンロード、プロジェクト、増え続けるあのフォルダ。カテゴリにして、削除する対象を選びます。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>専用のページ</h3>
+        <p>各カテゴリには、サイドバーの専用の行、合計、ストレージバー、クリーンアップボタンが用意され、標準のセクションと同じように測定されます。</p>
+      </div>
+      <div class="guard">
+        <h3>名前で、どの階層でもクリーンアップ</h3>
+        <p>プロジェクトフォルダ内のビルドフォルダやキャッシュフォルダを名前ですべて選ぶことも、実際にあるフォルダのツリーから手動で選ぶこともできます。</p>
+      </div>
+      <div class="guard">
+        <h3>自分で割り当てるレベル</h3>
+        <p>自分で割り当てるまで、あなたのフォルダが「安全」「バランス」「徹底」で選択されることはありません。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="「プロジェクト」というカスタムカテゴリ：ml-experiments、ios-weather-app、podcast-editsなどのプロジェクトフォルダで5.68 GB。それぞれのサイズも表示されています。" width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>大切なフォルダをEasySweepに指定すれば、標準のセクションと同じように測定します。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">ダークモードとLiquid Glass</span>
+      <h2>自分好みに。</h2>
+      <p class="lede">
+        ライトでもダークでもLiquid Glass、ドットマトリックスバー、そしてすべてのページをリスト、タイル、ツリーマップ、リングで。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>デスクトップが透けて見える、半透明のウインドウ。</p>
+      </div>
+      <div class="guard">
+        <h3>ライトまたはダーク</h3>
+        <p>システムの設定に従うことも、macOSの設定に関係なくEasySweepをライトまたはダークに固定することもできます。</p>
+      </div>
+      <div class="guard">
+        <h3>あなたに合ったディスクの見せ方</h3>
+        <p>クリーンアップするすべてのページで、リスト、タイル、ツリーマップ、リングから選べ、ストレージバーはドットの列でも表示できます。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="ダークモードのEasySweep：青と紫の背景にLiquid Glassのウインドウ。ドットマトリックスのストレージバーの下に、タイルで表示したキャッシュページ。" width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>設定でひとつ選ぶだけで、すべてのページに反映されます。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">アクティビティ</span>
+      <h2>取り戻したギガバイトを、すべて確認。</h2>
+      <p class="lede">
+        手動でも自動でも、すべてのクリーンアップについて、容量、日時、場所がわかります。アプリのアップデートも、ひとつの履歴にまとまります。
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="アクティビティページ：今月は5回のクリーンアップで59.63 GBを回収。場所別の回収容量のグラフと、日付順のクリーンアップとアプリのアップデートのリスト。" width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>月別、3か月、年別で、各クリーンアップの内容を確認できます。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">システムモニター</span>
+      <h2>Macの状態を、ひと目で。</h2>
+      <p class="lede">
+        空き容量、CPU、メモリ、ディスクアクティビティを、ウインドウ内でリアルタイムに、そしてメニューバーでは選んだウィジェットで表示します。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>メニューバーのウィジェット</h3>
+        <p>空き容量、CPU、GPU、メモリ、ネットワーク、ディスクアクティビティ、バッテリーを、好きな順序で画面の上部に固定できます。</p>
+      </div>
+      <div class="guard">
+        <h3>自分で整えるメニュー</h3>
+        <p>メニューバーのドロップダウンに表示するカードを、空き容量からシステムの状態まで選んで並べ替えられます。自動クリーンアップボタンも追加できます。</p>
+      </div>
+      <div class="guard">
+        <h3>リアルタイムのグラフ</h3>
+        <p>プロセッサ、GPU、メモリ、ネットワーク、ディスクアクティビティを2秒ごとに更新。メモリプレッシャーは、アクティビティモニタと同じ基準で表示されます。</p>
+      </div>
+      <div class="guard">
+        <h3>容量がなくなる前に対処</h3>
+        <p>空き容量の最小レベルを設定すれば、ディスクがいっぱいになって作業が止まる前に、EasySweepが警告します。</p>
+      </div>
+      <div class="guard">
+        <h3>使っているすべてのディスク</h3>
+        <p>外部ディスクやその他の内蔵ディスクも起動ディスクと並んで表示され、それぞれ容量を使っているフォルダを開けます。</p>
+      </div>
+      <div class="guard">
+        <h3>見ていないときは静かに</h3>
+        <p>バックグラウンドでは何もサンプリングしません。モニターは、そのページまたはメニューが開いている間だけ、Macの情報を読み取ります。</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="システムモニター：CPU 26%、GPU 16%、メモリ使用量32.84 GB、ディスクアクティビティ1.5 MB/s。上のメニューバーにはEasySweepのウィジェット（空き容量、CPU、GPU、メモリ、ネットワーク、ディスク）。" width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>ウインドウ内でリアルタイムに。メニューバーでは、選んだウィジェットで。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">確認できる安全性</span>
+      <h2>約束ではなく、設計で慎重に。</h2>
+      <p class="lede">
+        EasySweepは削除の瞬間にもう一度確認し、確実なものと推測を区別し、アクセスできなかったものを報告します。これらの安全対策はクリーンアップエンジンの内部にあるため、ボタンや自動化ルールが、こっそり回避することはできません。
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>削除の前に再確認</h3>
+        <p>クリーンアップを始めるときに、すべての場所をもう一度検証します。パスが変わっていたり、予期しない場所を指していたりする場合、EasySweepは実行しません。</p>
+      </div>
+      <div class="guard">
+        <h3>リスクのあるものは選択しない</h3>
+        <p>各セクションのページは何も選択されていない状態で開き、概要は「安全」だけが選択された状態で開きます。自然には戻らないものは、あなたのクリックを待ちます。</p>
+      </div>
+      <div class="guard">
+        <h3>大切な場面では、元に戻せる</h3>
+        <p>アンインストール、重複ファイル、ユーティリティが見つけたものはすべてゴミ箱に移動するので、元に戻す方法が残ります。</p>
+      </div>
+      <div class="guard">
+        <h3>アクセスについて、正直に</h3>
+        <p>EasySweepがフォルダを読み取れない場合は、何もないふりをせず、その旨とアクセスを許可する方法をお知らせします。</p>
+      </div>
+      <div class="guard">
+        <h3>信頼できるサイズ</h3>
+        <p>サイズは実際に使われているディスク容量なので、表示される数値が、クリーンアップで戻ってくる容量です。</p>
+      </div>
+      <div class="guard">
+        <h3>設計段階からプライベート</h3>
+        <p>テレメトリ、クラッシュレポート、バックグラウンドでのデータ収集は一切ありません。EasySweepは、あなたやMacに関する情報を収集も送信もしません。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">価格</span>
+      <h2>基本のクリーンアップは無料。Proは、一度きりのアップグレードです。</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">無料</div>
+        <p class="price__per">アカウント不要、トライアルなし、しつこい表示もなし</p>
+        <ul>
+          <li>400以上の場所をカバーする、すべての標準カテゴリ</li>
+          <li>古いインストーラや忘れていたビルド生成物を検出</li>
+          <li>確信度で順位付けした残りファイルの検出に対応した、アプリのアンインストール</li>
+          <li>大きなファイル、古いファイル、重複ファイルをスキャン</li>
+          <li>システムモニター、容量不足の通知、クリーンアップ履歴と統計</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">EasySweepをダウンロード</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">最安</span> $9.99</div>
+        <p class="price__per">一度きりの購入。サブスクリプションではありません。</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">Mac 1台</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">Mac 2台</span><span class="seats__p">$14.99</span><span class="seats__save">25%お得</span></li>
+          <li><span class="seats__n">Mac 3台</span><span class="seats__p">$19.99</span><span class="seats__save">33%お得</span></li>
+        </ul>
+        <ul>
+          <li>無料版のすべての機能</li>
+          <li><strong>カスタムカテゴリ</strong> — 選んだフォルダをまとめ、それぞれに専用のページとクリーンアップボタンを用意</li>
+          <li><strong>条件付き自動化</strong> — スケジュール、サイズ、空き容量が少なくなったときに合わせてクリーンアップ</li>
+          <li><strong>期間指定クリーニング</strong> — 1日、1週間、1か月より古いものだけを削除</li>
+          <li><strong>ユーティリティ</strong> — 大きなファイル、古いファイル、重複ファイル、Finderメタデータ、プロジェクトキャッシュをゴミ箱に移動</li>
+          <li><strong>ツリーマップ、タイル、リング</strong>のレイアウトと、ドットのストレージバー</li>
+          <li><strong>メニューバーのインジケータ</strong> — プロセッサ、GPU、メモリ、ネットワーク、ディスクの使用状況をリアルタイムに表示し、カードも自由に配置</li>
+          <li><strong>アプリのアップデート</strong> — スケジュールされたチェックと、Homebrew、MacPorts、Sparkleアプリの「すべてアップデート」</li>
+          <li><strong>透明なウインドウ</strong> — ライトでもダークでもLiquid Glass</li>
+          <li>ライセンスを持つすべてのMacでiCloud同期</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">ライセンスを購入</a>
+        <p class="price__after">
+          無料版と一緒に使えます。インストールして、<strong>設定 → ライセンス</strong>にキーをペーストしてください。
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      直接ダウンロード版は、ほとんどの場所をすぐにスキャンできます。保護されたフォルダには、macOSがフルディスクアクセスを要求する場合があります。Mac App Store版は審査中で、サンドボックス内で動作するため、ホームフォルダへのアクセスを一度確認し、アプリ本体を自分では削除できない場合があります。また、Proへのアップグレードは、Apple Accountに紐づくアプリ内課金で、デバイス数の制限はありません。<a href="/support#permissions">サポートページで権限を比較する</a>。
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>空き容量を取り戻す。主導権は、そのまま。</h2>
+    <p class="lede narrow">
+      スキャンでは何も変更されません。何が容量を使っているかを確認し、その理由を理解して、承認したものだけを削除します。
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Mac用にダウンロード</a>
+      <a class="btn btn--ghost" href="/support">サポートページを見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/ja/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>容量の行方を知り、残すものを決める。</p>
+      </div>
+      <div>
+        <h4>製品</h4>
+        <ul>
+          <li><a href="#finds">機能</a></li>
+          <li><a href="#apps">アンインストーラ</a></li>
+          <li><a href="#tools">ユーティリティ</a></li>
+          <li><a href="#automation">自動クリーンアップ</a></li>
+          <li><a href="#custom">カスタムカテゴリ</a></li>
+          <li><a href="#yours">ダークモードとLiquid Glass</a></li>
+          <li><a href="#activity">アクティビティ</a></li>
+          <li><a href="#monitor">システムモニター</a></li>
+          <li><a href="#safety">安全性</a></li>
+          <li><a href="#pricing">価格</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>サポート</h4>
+        <ul>
+          <li><a href="/support">ヘルプとお問い合わせ</a></li>
+          <li><a href="/support#permissions">権限</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">問題を報告</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>法的事項</h4>
+        <ul>
+          <li><a href="/privacy">プライバシー</a></li>
+          <li><a href="/terms">利用規約</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">パスカタログ</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja" aria-current="true">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>© 2026 TouchBits Inc. All rights reserved.</span>
+      <span>Apple Inc.とは関係ありません。XcodeはApple Inc.の商標です。</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

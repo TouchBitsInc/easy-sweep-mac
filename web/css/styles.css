@@ -754,6 +754,19 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   font-size: .86rem;
 }
 
+/* Every language the app speaks, each named in its own, above the base line.
+   A row of plain links rather than a select: it needs no script, and a reader
+   who lands in the wrong language can find their own by its own spelling. */
+.langs {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: .86rem;
+}
+.langs a { color: var(--text-faint); transition: color .16s ease; }
+.langs a:hover, .langs a[aria-current] { color: var(--text); }
+
 /* ---------- Legal / doc pages ---------- */
 
 .doc { padding: 72px 0 100px; }

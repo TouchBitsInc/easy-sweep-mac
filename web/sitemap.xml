@@ -20,4 +20,21 @@
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
+  <!-- i18n -->
+  <url><loc>https://easysweep.app/de/</loc></url>
+  <url><loc>https://easysweep.app/es/</loc></url>
+  <url><loc>https://easysweep.app/fr/</loc></url>
+  <url><loc>https://easysweep.app/it/</loc></url>
+  <url><loc>https://easysweep.app/nl/</loc></url>
+  <url><loc>https://easysweep.app/pl/</loc></url>
+  <url><loc>https://easysweep.app/pt-br/</loc></url>
+  <url><loc>https://easysweep.app/tr/</loc></url>
+  <url><loc>https://easysweep.app/ru/</loc></url>
+  <url><loc>https://easysweep.app/uk/</loc></url>
+  <url><loc>https://easysweep.app/ja/</loc></url>
+  <url><loc>https://easysweep.app/ko/</loc></url>
+  <url><loc>https://easysweep.app/zh-hans/</loc></url>
+  <url><loc>https://easysweep.app/zh-hant/</loc></url>
+  <url><loc>https://easysweep.app/zh-hk/</loc></url>
+  <!-- /i18n -->
 </urlset>

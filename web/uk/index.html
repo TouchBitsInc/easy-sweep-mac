@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EasySweep — повертайте місце й тримайте його під контролем</title>
+<meta name="description" content="EasySweep показує, куди поділося місце на вашому Mac, очищає лише те, що ви схвалите, і запобігає новому засміченню завдяки автоматизації з урахуванням ризиків. Жодного стеження й жодних несподіваних видалень.">
+<!-- i18n:alternates -->
+<link rel="alternate" hreflang="en" href="https://easysweep.app/">
+<link rel="alternate" hreflang="de" href="https://easysweep.app/de/">
+<link rel="alternate" hreflang="es" href="https://easysweep.app/es/">
+<link rel="alternate" hreflang="fr" href="https://easysweep.app/fr/">
+<link rel="alternate" hreflang="it" href="https://easysweep.app/it/">
+<link rel="alternate" hreflang="nl" href="https://easysweep.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://easysweep.app/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://easysweep.app/pt-br/">
+<link rel="alternate" hreflang="tr" href="https://easysweep.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://easysweep.app/ru/">
+<link rel="alternate" hreflang="uk" href="https://easysweep.app/uk/">
+<link rel="alternate" hreflang="ja" href="https://easysweep.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://easysweep.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://easysweep.app/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://easysweep.app/zh-hant/">
+<link rel="alternate" hreflang="zh-HK" href="https://easysweep.app/zh-hk/">
+<link rel="alternate" hreflang="x-default" href="https://easysweep.app/">
+<!-- /i18n:alternates -->
+<link rel="canonical" href="https://easysweep.app/uk/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EasySweep">
+<meta property="og:url" content="https://easysweep.app/uk/">
+<meta property="og:title" content="EasySweep — повертайте місце й тримайте його під контролем">
+<meta property="og:description" content="Дізнайтеся, що займає місце, очищайте лише схвалене й не допускайте нового засмічення. Приватне й точне очищення Mac.">
+<meta property="og:image" content="https://easysweep.app/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/icon-256.png">
+<link rel="stylesheet" href="/css/styles.css">
+<script src="/js/lang.js"></script>
+<!-- The hero screenshot is this page's largest contentful paint; without a
+     preload the browser only discovers it after the stylesheet resolves. -->
+<link rel="preload" as="image" href="/assets/shots/01-overview.jpg" fetchpriority="high">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#05070c" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="/uk/">
+      <img src="/assets/bird-384.png" alt="" width="384" height="323">
+      <span>EasySweep</span>
+    </a>
+    <div class="nav__links">
+      <a href="#finds">Можливості</a>
+      <a href="#apps">Видалення програм</a>
+      <a href="#tools">Утиліти</a>
+      <a href="#automation">Автоматичне очищення</a>
+      <a href="#monitor">Моніторинг</a>
+      <a href="#safety">Безпека</a>
+      <a href="#pricing">Ціни</a>
+    </div>
+    <a class="btn btn--primary btn--sm" href="#download">Завантажити</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="hero__glow"></div>
+
+  <div class="wrap hero__inner">
+    <img class="hero__icon" src="/assets/bird-384.png" alt="" width="384" height="323">
+
+    <h1>Очистіть свій Mac.<br>І так і залишайте.</h1>
+
+    <p class="lede">
+      EasySweep показує, куди поділося місце — кеші, залишки програм, дублікати й дані розробника — і видаляє лише те, що ви схвалите. Налаштуйте правила один раз, і рутинне сміття буде під контролем. Усе ризиковане залишається за вами.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn--primary" id="download" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v10.17l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1Zm-7 15a1 1 0 0 1 1 1h12a1 1 0 1 1 0 2H6a2 2 0 0 1-2-2 1 1 0 0 1 1-1Z"/></svg>
+        Завантажити для Mac
+      </a>
+      <!-- Apple's badge artwork cannot be used for a listing that is not live, and
+           the CSP forbids off-origin images anyway, so the badge is built here in
+           its own visual language and says plainly that it is not out yet. -->
+      <a class="btn btn--appstore" href="#pricing">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        <span class="btn__stack">
+          <span class="btn__over">Незабаром у</span>
+          <span class="btn__main">Mac App Store</span>
+        </span>
+      </a>
+    </div>
+    <!-- The requirements were one faint dot-separated sentence, which read as fine
+         print under the buttons. Split in two and given a glyph each, so a reader
+         picks up the OS and the architecture without parsing a sentence. -->
+    <ul class="specs" aria-label="Системні вимоги">
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.9c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.3-.1-2.6.8-3.2.8-.7 0-1.7-.8-2.8-.7-1.4 0-2.7.8-3.5 2.1-1.5 2.6-.4 6.4 1.1 8.5.7 1 1.5 2.1 2.6 2.1 1 0 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1 2.5-2 .8-1.2 1.1-2.3 1.1-2.4-.1 0-2.1-.8-2.1-3.3ZM14.2 6c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1 1.7-.9 2.6 1 .1 2-.5 2.6-1.2Z"/></svg>
+        macOS 14 або новіша
+      </li>
+      <li class="spec">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="2.2"/><path d="M10 3.9v3.1M14 3.9v3.1M10 17v3.1M14 17v3.1M3.9 10h3.1M3.9 14h3.1M17 10h3.1M17 14h3.1"/></svg>
+        Apple silicon та Intel
+      </li>
+    </ul>
+    <p class="hero__meta">Без облікового запису · Без стеження · Автоматизація з гарантіями</p>
+  </div>
+
+  <div class="wrap hero__shot">
+    <div class="window">
+      <img src="/assets/shots/01-overview.jpg" alt="Огляд EasySweep: 732,92 ГБ вільно на Macintosh HD, шкала з розділами «Можна очистити», «Програми», «Дані користувача» та macOS і три рівні — «Безпечно» 12,5 ГБ, «Збалансовано» 22,13 ГБ, «Глибоко» 74,47 ГБ — над розділами, з яких кожен рівень забирає місце." width="2200" height="1237">
+    </div>
+  </div>
+</header>
+
+<!-- ============ WHAT IT CLEANS ============ -->
+<section class="band band--sunken" id="finds">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Кеші всіх програм</span>
+      <h2>Один список для всіх кешів.</h2>
+      <p class="lede">
+        Браузери, редактори, месенджери й ШІ-інструменти — згруповані за програмами, із точністю до байта, поруч із даними розробника, залишками програм і власним сміттям macOS. Кожен елемент виміряно й пояснено ще до того, як ви щось зробите.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Огляд</h3>
+        <p>Весь ваш диск як на долоні. Виберіть «Безпечно», «Збалансовано» або «Глибоко» й побачте, що саме забере кожен рівень, розділ за розділом, — а тоді очистіть одним клацанням.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Кеші</h3>
+        <p>Кеші всіх програм в одному списку, згруповані за програмами. Кеші, які не належать жодній встановленій програмі, подано окремо, і вони ніколи не позначаються за вас.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Розробка</h3>
+        <p>Derived Data Xcode, симулятори, підтримка пристроїв і середовища виконання, а також кеші менеджерів пакетів і тулчейнів — кожен окремо, щоб ви залишили потрібне.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Дані програм</h3>
+        <p>Завантажені моделі ШІ, історія сеансів і вкладення — дані, які самі не повернуться, тому вони позначені й ніколи не очищаються без вас.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>Система</h3>
+        <p>Журнали, звіти про збої, завантажені шпалери й залишки оновлень, які macOS може відновити і які непомітно накопичуються з часом.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Чотири способи побачити</h3>
+        <p>Відображайте кожну сторінку як список, плитки, деревоподібну карту або кільця — зі звичайною чи крапковою шкалою сховища.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/03-caches.jpg" alt="Розділ «Кеші» як крапкова шкала й список програм: Safari 1,69 ГБ, Google Chrome 1,39 ГБ, Codex, «Карти» та WeChat, кілька з яких позначено для очищення." width="2200" height="1375" loading="lazy">
+      </div>
+      <figcaption>Кожне розташування з власним розміром, згруповане за програмою, якій воно належить. Позначайте вручну або виберіть рівень.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UNINSTALLER ============ -->
+<section class="band" id="apps">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Видалення програм</span>
+      <h2>Видаляйте програми повністю.</h2>
+      <p class="lede">
+        Кожен кеш, контейнер і параметр, що залишила програма, — знайдено, показано з доказами й переміщено до Кошика разом із нею.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Докази, а не здогадки</h3>
+        <p>Залишки згруповано за ступенем упевненості збігу. Файли, що збігаються за ідентифікатором програми, позначено; збіги за назвою чекають на вас.</p>
+      </div>
+      <div class="guard">
+        <h3>Завжди можна скасувати</h3>
+        <p>Усе потрапляє до Кошика, а «Скасувати» повертає все на місце.</p>
+      </div>
+      <div class="guard">
+        <h3>Спільні файли залишаються</h3>
+        <p>Файл, яким користується ще одна встановлена програма — бета-версія чи друга копія, — позначається як спільний і ніколи не видаляється.</p>
+      </div>
+      <div class="guard">
+        <h3>Залишки видалених програм</h3>
+        <p>Програми, які ви самі перетягнули до Кошика, теж залишають файли. EasySweep знаходить їх і повідомляє, коли програму видалено без нього.</p>
+      </div>
+      <div class="guard">
+        <h3>Захищені програми</h3>
+        <p>Позначте програми, які ніколи не можна видаляти, зокрема власні програми Apple, — і їм буде відмовлено повністю.</p>
+      </div>
+      <div class="guard">
+        <h3>Упорядковано за розміром</h3>
+        <p>Кожна встановлена програма з її розміром, тож найбільші видно першими.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/04-apps.jpg" alt="Сторінка «Програми»: 23,01 ГБ у 44 програмах, упорядкованих за розміром, від Final Cut Pro й Xcode до ChatGPT і Google Chrome." width="2160" height="1627" loading="lazy">
+      </div>
+      <figcaption>Відкрийте будь-яку програму, щоб переглянути її залишки, перш ніж щось буде переміщено.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ UTILITIES ============ -->
+<section class="band band--sunken" id="tools">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Утиліти</span>
+      <h2>Знайдіть те, що марно займає місце.</h2>
+      <p class="lede">
+        Інструменти для місця, яке не належить жодній програмі: ваші власні файли, старі проєкти й забуті елементи запуску. Нічого не шукається, доки ви не натиснете «Сканувати», а все видалене потрапляє до Кошика.
+      </p>
+    </div>
+
+    <div class="tiles reveal">
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M6 3h15v9h9v21H6Z"/><path d="M21 3l9 9h-9Z" opacity=".45"/></svg></div>
+        <h3>Великі й старі файли</h3>
+        <p>Великі файли, які ви не відкривали місяцями, згруповані за типом. Нічого не позначається за вас — це ваші файли, і вирішуєте ви.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M3 6l15 15v11L3 17Z"/><path d="M33 6L18 21v11l15-15Z" opacity=".45"/></svg></div>
+        <h3>Дублікати файлів</h3>
+        <p>Побайтово ідентичні копії, знайдені за вмістом, а не за назвою. Одна копія з кожного набору завжди залишається: найстарша, найновіша або та, що лежить у вибраній вами папці.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 5l21 13L4 31Z"/><path d="M25 18l8-6v12Z" opacity=".45"/></svg></div>
+        <h3>Метадані Finder</h3>
+        <p>Файли .DS_Store, які Finder залишає в кожній відкритій папці, — знайдено й очищено за один прохід.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l14 8v14l-14 8Z"/><path d="M18 3L4 11v14l14 8Z" opacity=".45"/></svg></div>
+        <h3>Кеші проєктів</h3>
+        <p>Кеші збирання й інструментів у ваших проєктах — за назвами, що скрізь означають кеш. Ніколи node_modules і ніколи нічого, що містить налаштування.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M4 9h16v22H4Z"/><path d="M14 5h18v20h-6V9H14Z" opacity=".45"/></svg></div>
+        <h3>Оновлення програм</h3>
+        <p>Дізнайтеся, які програми застаріли, — з App Store, Homebrew, MacPorts чи власного засобу оновлення — і оновлюйте їх з одного списку.</p>
+      </article>
+
+      <article class="tile">
+        <div class="tile__mark"><svg viewBox="0 0 36 36" fill="currentColor" aria-hidden="true"><path d="M18 3l15 8-15 8-15-8Z"/><path d="M3 20l15 8 15-8v5l-15 8-15-8Z" opacity=".45"/></svg></div>
+        <h3>Елементи запуску</h3>
+        <p>Перегляньте, що відкривається під час входу, і допоміжні процеси у фоні, а ті, яких ви не просили, — видаліть.</p>
+      </article>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/05-utilities.jpg" alt="«Утиліти» з розділом «Дублікати файлів»: позначено дублікати зображень, разом 15,3 МБ, кожен показано з кількістю копій і копією, що залишається." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>Сканування безкоштовне. Що б ви не позначили, одна копія кожного дубліката залишається.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AUTO CLEAN ============ -->
+<section class="band" id="automation">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Автоматичне очищення</span>
+      <h2>Налаштуйте раз — і воно працює.</h2>
+      <p class="lede">
+        Правила, що очищають самі, коли щось надто розростається або закінчується місце. Без нагляду виконується лише безпечне, а кожен запуск записується.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Тригер для кожного елемента</h3>
+        <p>Очищайте кеш, коли він перевищує власний ліміт розміру або коли вільного місця стає менше за вибраний рівень, — а не одним грубим правилом для всього Mac.</p>
+      </div>
+      <div class="guard">
+        <h3>Залишайте актуальне</h3>
+        <p>Видаляйте все або лише файли, старші за день, тиждень чи місяць. Свіжа робота може лишатися там, де є.</p>
+      </div>
+      <div class="guard">
+        <h3>Самостійно виконується лише те, що відновлюється</h3>
+        <p>Правило може зачепити лише те, що повертається саме. Архіви, історія сеансів і пристрої симулятора завжди залишаються на ручному керуванні, що б не казало правило.</p>
+      </div>
+      <div class="guard">
+        <h3>Чекає на активні програми</h3>
+        <p>Якщо пов’язана програма запущена, автоматичне очищення чекає, а не видаляє файли в неї з-під ніг.</p>
+      </div>
+      <div class="guard">
+        <h3>Запуск із рядка меню</h3>
+        <p>Додайте кнопки автоочищення до рядка меню й запускайте свої правила на вимогу, не відкриваючи вікна.</p>
+      </div>
+      <div class="guard">
+        <h3>Іде за вами на кожен Mac</h3>
+        <p>Ваші правила й категорії синхронізуються через iCloud, тож на кожному вашому Mac однакові налаштування.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/06-auto-clean.jpg" alt="Сторінка автоочищення для «Кешів» із трьома ввімкненими рядками: очищати, коли кеш перевищує 5 ГБ або коли мало місця, видаляючи все чи лише файли, старші за тиждень." width="2200" height="1031" loading="lazy">
+      </div>
+      <figcaption>Кожен елемент очищається сам за власним розміром. Усе, що ви вимкнули, ніколи не чіпається без вас.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ CUSTOM CATEGORIES ============ -->
+<section class="band band--sunken" id="custom">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Власні категорії</span>
+      <h2>Ваші власні категорії.</h2>
+      <p class="lede">
+        Завантаження, проєкти, та одна папка, що постійно росте, — зробіть із неї категорію й виберіть, що видаляти.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Власна сторінка</h3>
+        <p>Кожна категорія отримує власний рядок на бічній панелі, загальний розмір, шкалу сховища й кнопку «Очистити», з вимірюванням, як у будь-якому вбудованому розділі.</p>
+      </div>
+      <div class="guard">
+        <h3>Очищення за назвою на будь-якій глибині</h3>
+        <p>Беріть усі папки збирання чи кешу в папці проєкту за назвою або вибирайте папки вручну з дерева того, що є насправді.</p>
+      </div>
+      <div class="guard">
+        <h3>Рівні, які призначаєте ви</h3>
+        <p>Ваші папки ніколи не позначаються рівнями «Безпечно», «Збалансовано» чи «Глибоко», доки ви самі не призначите їм рівень.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/07-custom.jpg" alt="Власна категорія «Проєкти»: 5,68 ГБ у папках проєктів, як-от ml-experiments, ios-weather-app і podcast-edits, кожна з розміром." width="2160" height="1676" loading="lazy">
+      </div>
+      <figcaption>Вкажіть EasySweep важливі для вас папки, і він виміряє їх, як будь-який вбудований розділ.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ MAKE IT YOURS ============ -->
+<section class="band" id="yours">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Темний режим і Liquid Glass</span>
+      <h2>Зробіть його своїм.</h2>
+      <p class="lede">
+        Liquid Glass у світлому чи темному вигляді, крапкові шкали й кожна сторінка як список, плитки, деревоподібна карта або кільця.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Liquid Glass</h3>
+        <p>Напівпрозоре вікно, крізь яке просвічує ваш робочий стіл.</p>
+      </div>
+      <div class="guard">
+        <h3>Світла чи темна</h3>
+        <p>Дотримуйтеся системної теми або залишайте EasySweep світлим чи темним, що б не робила macOS.</p>
+      </div>
+      <div class="guard">
+        <h3>Ваш погляд на диск</h3>
+        <p>Список, плитки, деревоподібна карта чи кільця на кожній сторінці очищення, а шкала сховища — рядами крапок.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/02-customize.jpg" alt="EasySweep у темному режимі: вікно Liquid Glass на синьо-фіолетовому тлі, сторінка «Кеші» у вигляді плиток під крапковою шкалою сховища." width="2200" height="1237" loading="lazy">
+      </div>
+      <figcaption>Один вибір у параметрах — і кожна сторінка йому слідує.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ ACTIVITY ============ -->
+<section class="band band--sunken" id="activity">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Активність</span>
+      <h2>Побачте кожен повернутий гігабайт.</h2>
+      <p class="lede">
+        Кожне очищення, ручне чи автоматичне, — скільки, коли й звідки — а також кожне оновлення програм в одній історії.
+      </p>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/08-activity.jpg" alt="Сторінка «Активність»: 59,63 ГБ повернуто цього місяця за 5 очищень, діаграма повернутого місця за розташуваннями та список очищень і оновлень програм за датою." width="2200" height="1413" loading="lazy">
+      </div>
+      <figcaption>За місяць, три місяці чи рік, з тим, що забрало кожне очищення.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SYSTEM MONITOR ============ -->
+<section class="band" id="monitor">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Моніторинг системи</span>
+      <h2>Ваш Mac як на долоні.</h2>
+      <p class="lede">
+        Вільне місце, ЦП, пам’ять і дискова активність — наживо у вікні та в рядку меню як віджети на ваш вибір.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Віджети в рядку меню</h3>
+        <p>Закріпіть вільне місце, ЦП, ГП, пам’ять, мережу, дискову активність і батарею вгорі екрана в потрібному вам порядку.</p>
+      </div>
+      <div class="guard">
+        <h3>Меню на ваш смак</h3>
+        <p>Вибирайте й упорядковуйте картки у випадному меню в рядку меню — від вільного місця до стану системи, а також ваші кнопки автоочищення.</p>
+      </div>
+      <div class="guard">
+        <h3>Графіки наживо</h3>
+        <p>Процесор, ГП, пам’ять, мережа й дискова активність, що оновлюються щодві секунди, із завантаженням пам’яті, як його показує «Монітор активності».</p>
+      </div>
+      <div class="guard">
+        <h3>Дійте, поки місце не закінчилося</h3>
+        <p>Виберіть мінімальний рівень вільного місця, і EasySweep попередить вас, перш ніж повний диск зіпсує вам день.</p>
+      </div>
+      <div class="guard">
+        <h3>Кожен ваш диск</h3>
+        <p>Зовнішні й інші внутрішні диски відображаються поруч із завантажувальним, і кожен відкривається на папки, що займають його місце.</p>
+      </div>
+      <div class="guard">
+        <h3>Тихий, коли ви не дивитеся</h3>
+        <p>У фоні нічого не опитується. Монітор зчитує дані вашого Mac, лише коли відкрито його сторінку чи меню.</p>
+      </div>
+    </div>
+
+    <figure class="shot reveal">
+      <div class="window">
+        <img src="/assets/shots/09-monitor.jpg" alt="Моніторинг системи: ЦП 26%, ГП 16%, використано 32,84 ГБ пам’яті, дискова активність 1,5 МБ/с, а над ним рядок меню з віджетами EasySweep: вільне місце, ЦП, ГП, пам’ять, мережа й диск." width="2200" height="1452" loading="lazy">
+      </div>
+      <figcaption>Наживо у вікні — і в рядку меню, з віджетами на ваш вибір.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ SAFETY & PRIVACY ============ -->
+<section class="band band--sunken" id="safety">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Безпека, яку можна перевірити</span>
+      <h2>Обережність за задумом, а не за обіцянкою.</h2>
+      <p class="lede">
+        EasySweep перевіряє ще раз у момент видалення, відділяє певність від здогадок і повідомляє про те, до чого не має доступу. Ці запобіжники вбудовані в механізм очищення, тож кнопка чи правило автоматизації не можуть їх непомітно обійти.
+      </p>
+    </div>
+
+    <div class="guards reveal">
+      <div class="guard">
+        <h3>Перевірка перед видаленням</h3>
+        <p>Кожне розташування перевіряється ще раз, коли починається очищення. Якщо шлях змінився або веде в несподіване місце, EasySweep відмовляє.</p>
+      </div>
+      <div class="guard">
+        <h3>Нічого ризикованого не позначено за вас</h3>
+        <p>Сторінки розділів відкриваються без позначок, а «Огляд» — лише з рівнем «Безпечно». Усе, що не повернеться саме, чекає вашого клацання.</p>
+      </div>
+      <div class="guard">
+        <h3>Можна скасувати там, де це важливо</h3>
+        <p>Видалення програм, дублікати й усе, що знаходять утиліти, переміщується до Кошика, тож у вас є шлях назад.</p>
+      </div>
+      <div class="guard">
+        <h3>Чесно про доступ</h3>
+        <p>Якщо EasySweep не може прочитати папку, він каже про це й підказує, як надати доступ, а не вдає, що там порожньо.</p>
+      </div>
+      <div class="guard">
+        <h3>Розміри, яким можна вірити</h3>
+        <p>Розміри — це фактично використане місце на диску, тож цифра, яку ви бачите, — це місце, яке поверне очищення.</p>
+      </div>
+      <div class="guard">
+        <h3>Приватність за задумом</h3>
+        <p>Жодної телеметрії, звітів про збої чи фонового збору даних. EasySweep не збирає й не надсилає інформацію про вас чи ваш Mac.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="band" id="pricing">
+  <div class="wrap">
+    <div class="sect-head sect-head--center">
+      <span class="eyebrow">Ціни</span>
+      <h2>Базове очищення безкоштовне. Pro — разове оновлення.</h2>
+    </div>
+
+    <div class="prices reveal">
+      <div class="price">
+        <h3>EasySweep</h3>
+        <div class="price__amt">Безкоштовно</div>
+        <p class="price__per">Без облікового запису, без пробного періоду, без набридливих вікон</p>
+        <ul>
+          <li>Усі вбудовані категорії, понад 400 розташувань</li>
+          <li>Знаходьте старі інсталятори й забуті результати збирання</li>
+          <li>Видалення програм із ранжуванням залишків за ступенем упевненості</li>
+          <li>Пошук великих, старих і дублікатів файлів</li>
+          <li>Моніторинг системи, сповіщення про брак місця, історія очищень і статистика</li>
+        </ul>
+        <a class="btn btn--ghost btn--wide" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Завантажити EasySweep</a>
+      </div>
+
+      <div class="price price--pro">
+        <h3>EasySweep Pro</h3>
+        <div class="price__amt"><span class="price__from">від</span> $9.99</div>
+        <p class="price__per">Разова покупка. Не підписка.</p>
+
+        <!-- Three licences, not one, so the card shows the ladder rather than a
+             single number. The saving is the whole argument for the larger tiers —
+             a second Mac at $5 instead of $9.99 is the part that has to be legible. -->
+        <ul class="seats">
+          <li><span class="seats__n">1 Mac</span><span class="seats__p">$9.99</span></li>
+          <li><span class="seats__n">2 Mac</span><span class="seats__p">$14.99</span><span class="seats__save">заощадьте 25%</span></li>
+          <li><span class="seats__n">3 Mac</span><span class="seats__p">$19.99</span><span class="seats__save">заощадьте 33%</span></li>
+        </ul>
+        <ul>
+          <li>Усе з безкоштовної програми</li>
+          <li><strong>Власні категорії</strong> — групуйте обрані папки, кожна зі своєю сторінкою й кнопкою «Очистити»</li>
+          <li><strong>Умовна автоматизація</strong> — очищення за розкладом, за розміром або коли закінчується вільне місце</li>
+          <li><strong>Очищення за віком</strong> — видаляйте лише те, що старше за день, тиждень чи місяць</li>
+          <li><strong>Утиліти</strong> — переміщуйте великі, старі й дублікати файлів, метадані Finder і кеші проєктів до Кошика</li>
+          <li>Розкладки <strong>«Деревоподібна карта», «Плитки» й «Кільця»</strong> та крапкова шкала сховища</li>
+          <li><strong>Індикатори в рядку меню</strong> — показники процесора, ГП, пам’яті, мережі й диска наживо та картки на ваш смак</li>
+          <li><strong>Оновлення програм</strong> — перевірки за розкладом і «Оновити все» для програм Homebrew, MacPorts і Sparkle</li>
+          <li><strong>Прозоре вікно</strong> — Liquid Glass, світлий чи темний</li>
+          <li>Синхронізація через iCloud на кожному Mac за вашою ліцензією</li>
+        </ul>
+        <!-- This button used to point at the same DMG as the free card's, which
+             made the two cards one action with two labels. It buys a licence now.
+             One link for all three tiers: the seat rows above are information, not
+             choices, because the tier is picked on the checkout page itself. -->
+        <a class="btn btn--primary btn--wide" href="https://buy.polar.sh/polar_cl_fSnXNkeWWsWUPzccuzQl7NSBmgLvjphcRhdIs2q9pZJ">Придбати ліцензію</a>
+        <p class="price__after">
+          Працює разом із безкоштовною програмою. Установіть її, а тоді вставте ключ у <strong>Параметри → Ліцензія</strong>.
+        </p>
+      </div>
+    </div>
+
+    <p class="note reveal">
+      Пряме завантаження може одразу сканувати більшість розташувань; macOS усе ж може вимагати повний доступ до диска для захищених папок. Версія для Mac App Store перебуває на розгляді — вона працює в пісочниці, тому один раз просить доступ до вашої домашньої папки й, можливо, не зможе сама видалити пакет програми, — а її оновлення до Pro є покупкою в програмі, прив’язаною до вашого облікового запису Apple, без обмеження кількості пристроїв. <a href="/support#permissions">Порівняйте дозволи на сторінці підтримки</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CLOSING CTA ============ -->
+<section class="close-cta">
+  <div class="wrap close-cta__in">
+    <img class="close-cta__icon" src="/assets/bird-384.png" alt="" width="384" height="323" loading="lazy">
+    <h2>Повертайте місце. Зберігайте контроль.</h2>
+    <p class="lede narrow">
+      Сканування нічого не змінює. Побачте, що займає ваше місце, зрозумійте чому, і видаляйте лише те, що ви схвалите.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn--primary" href="https://github.com/TouchBitsInc/easy-sweep-mac/releases/latest/download/EasySweep.dmg">Завантажити для Mac</a>
+      <a class="btn btn--ghost" href="/support">Сторінка підтримки</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand" href="/uk/">
+          <img src="/assets/bird-384.png" alt="" width="384" height="323">
+          <span>EasySweep</span>
+        </a>
+        <p>Бачте, що займає місце. Вирішуйте, що піде.</p>
+      </div>
+      <div>
+        <h4>Продукт</h4>
+        <ul>
+          <li><a href="#finds">Можливості</a></li>
+          <li><a href="#apps">Видалення програм</a></li>
+          <li><a href="#tools">Утиліти</a></li>
+          <li><a href="#automation">Автоматичне очищення</a></li>
+          <li><a href="#custom">Власні категорії</a></li>
+          <li><a href="#yours">Темний режим і Liquid Glass</a></li>
+          <li><a href="#activity">Активність</a></li>
+          <li><a href="#monitor">Моніторинг системи</a></li>
+          <li><a href="#safety">Безпека</a></li>
+          <li><a href="#pricing">Ціни</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Підтримка</h4>
+        <ul>
+          <li><a href="/support">Довідка й контакти</a></li>
+          <li><a href="/support#permissions">Дозволи</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac/issues" rel="noopener">Повідомити про проблему</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Правова інформація</h4>
+        <ul>
+          <li><a href="/privacy">Конфіденційність</a></li>
+          <li><a href="/terms">Умови</a></li>
+          <li><a href="https://github.com/TouchBitsInc/easy-sweep-mac">Каталог шляхів</a></li>
+        </ul>
+      </div>
+    </div>
+      <!-- i18n:langs -->
+      <nav class="langs" aria-label="Language">
+        <a href="/" hreflang="en" lang="en" data-lang="en">English</a>
+        <a href="/de/" hreflang="de" lang="de" data-lang="de">Deutsch</a>
+        <a href="/es/" hreflang="es" lang="es" data-lang="es">Español</a>
+        <a href="/fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a>
+        <a href="/it/" hreflang="it" lang="it" data-lang="it">Italiano</a>
+        <a href="/nl/" hreflang="nl" lang="nl" data-lang="nl">Nederlands</a>
+        <a href="/pl/" hreflang="pl" lang="pl" data-lang="pl">Polski</a>
+        <a href="/pt-br/" hreflang="pt-BR" lang="pt-BR" data-lang="pt-BR">Português (Brasil)</a>
+        <a href="/tr/" hreflang="tr" lang="tr" data-lang="tr">Türkçe</a>
+        <a href="/ru/" hreflang="ru" lang="ru" data-lang="ru">Русский</a>
+        <a href="/uk/" hreflang="uk" lang="uk" data-lang="uk" aria-current="true">Українська</a>
+        <a href="/ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a>
+        <a href="/ko/" hreflang="ko" lang="ko" data-lang="ko">한국어</a>
+        <a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans" data-lang="zh-Hans">简体中文</a>
+        <a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" data-lang="zh-Hant">繁體中文（台灣）</a>
+        <a href="/zh-hk/" hreflang="zh-HK" lang="zh-HK" data-lang="zh-HK">繁體中文（香港）</a>
+      </nav>
+      <!-- /i18n:langs -->
+    <div class="footer__base">
+      <span>© 2026 TouchBits Inc. Усі права захищено.</span>
+      <span>Не пов’язано з Apple Inc. Xcode є товарним знаком Apple Inc.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js" defer></script>
+</body>
+</html>

@@ -28,6 +28,23 @@ token beside the hex (`--blue` / `--blue-rgb`) so an `rgba()` never restates the
 colour; retuning the palette is one edit at the top of the file, not thirty
 scattered through it.
 
+## Languages
+
+The product page is in every language the app ships in, at `/de/`, `/ja/`,
+`/zh-hans/` and so on. **Edit only `web/index.html`**; the others are generated:
+
+```sh
+python3 i18n/build.py extract   # after changing the English page: lists its strings in i18n/en.json
+python3 i18n/build.py           # writes web/<lang>/index.html, the language links, hreflang and sitemap
+```
+
+`i18n/<lang>.json` maps each English string to its translation. A string with no
+translation stays English on that page and is reported by the build, so a change
+to the English page shows up as work to do. Feature names follow the app's own
+translations. On the English home page `js/lang.js` sends a first-time visitor to
+their browser's language; a pick from the footer's language links is remembered
+and always wins. Support, privacy and terms are English only.
+
 ## Local preview
 
 Paths are absolute (`/css/…`), so opening the files over `file://` will not
