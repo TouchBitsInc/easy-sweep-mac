@@ -361,8 +361,9 @@ code, .mono { font-family: var(--mono); font-size: .88em; }
   background: var(--nav-bg-lit);
 }
 
+/* Edge to edge: the logo at the window's left, the language menu at its right,
+   whatever the page's own width. */
 .nav__inner {
-  max-width: var(--page);
   margin: 0 auto;
   padding: 0 var(--gutter);
   height: 62px;
