@@ -19,7 +19,6 @@
  "System requirements": "系统要求",
  "macOS 14 or later": "macOS 14 或更高版本",
  "Apple silicon and Intel": "支持 Apple 芯片和 Intel",
- "No account · No tracking · Safeguarded automation": "无需账户 · 无追踪 · 有保障的自动化",
  "EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from.": "EasySweep 的概览：Macintosh HD 有 732.92 GB 可用空间，进度条分为可清理、应用程序、用户数据和 macOS，下方是三个级别——安全 12.5 GB、平衡 22.13 GB、彻底 74.47 GB——以及各级别所清理的分区。",
  "Every app&rsquo;s caches": "每个应用的缓存",
  "One list for every cache.": "所有缓存，一目了然。",
@@ -189,5 +188,6 @@
  "Terms": "条款",
  "Path catalogue": "路径目录",
  "&copy; 2026 TouchBits Inc. All rights reserved.": "© 2026 TouchBits Inc. 保留所有权利。",
- "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "与 Apple Inc. 无关联。Xcode 是 Apple Inc. 的商标。"
+ "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "与 Apple Inc. 无关联。Xcode 是 Apple Inc. 的商标。",
+ "No account · No tracking · Works offline": "无需账户 · 无追踪 · 离线可用"
 }

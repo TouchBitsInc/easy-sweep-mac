@@ -19,7 +19,6 @@
  "System requirements": "Requisitos del sistema",
  "macOS 14 or later": "macOS 14 o posterior",
  "Apple silicon and Intel": "Apple silicon e Intel",
- "No account · No tracking · Safeguarded automation": "Sin cuenta · Sin rastreo · Automatización protegida",
  "EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from.": "El Resumen de EasySweep: 732.92 GB libres en Macintosh HD, una barra dividida en Limpiable, Aplicaciones, Datos de usuario y macOS, y tres niveles —Seguro 12.5 GB, Equilibrado 22.13 GB, Profundo 74.47 GB— sobre las secciones de las que toma cada uno.",
  "Every app&rsquo;s caches": "Las cachés de cada app",
  "One list for every cache.": "Una lista para todas las cachés.",
@@ -189,5 +188,6 @@
  "Terms": "Términos",
  "Path catalogue": "Catálogo de rutas",
  "&copy; 2026 TouchBits Inc. All rights reserved.": "© 2026 TouchBits Inc. Todos los derechos reservados.",
- "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "No está afiliado a Apple Inc. Xcode es una marca de Apple Inc."
+ "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "No está afiliado a Apple Inc. Xcode es una marca de Apple Inc.",
+ "No account · No tracking · Works offline": "Sin cuenta · Sin rastreo · Funciona sin conexión"
 }

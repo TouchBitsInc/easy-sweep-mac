@@ -19,7 +19,6 @@
  "System requirements": "システム要件",
  "macOS 14 or later": "macOS 14以降",
  "Apple silicon and Intel": "Apple siliconとIntel",
- "No account · No tracking · Safeguarded automation": "アカウント不要 · トラッキングなし · 安全に守られた自動化",
  "EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from.": "EasySweepの概要：Macintosh HDの空き容量は732.92 GB。整理可能、アプリケーション、ユーザデータ、macOSに分かれたバーと、各セクションから整理する3つのレベル（安全 12.5 GB、バランス 22.13 GB、徹底 74.47 GB）。",
  "Every app&rsquo;s caches": "すべてのアプリのキャッシュ",
  "One list for every cache.": "キャッシュを、ひとつのリストに。",
@@ -189,5 +188,6 @@
  "Terms": "利用規約",
  "Path catalogue": "パスカタログ",
  "&copy; 2026 TouchBits Inc. All rights reserved.": "© 2026 TouchBits Inc. All rights reserved.",
- "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "Apple Inc.とは関係ありません。XcodeはApple Inc.の商標です。"
+ "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "Apple Inc.とは関係ありません。XcodeはApple Inc.の商標です。",
+ "No account · No tracking · Works offline": "アカウント不要 · トラッキングなし · オフラインで動作"
 }

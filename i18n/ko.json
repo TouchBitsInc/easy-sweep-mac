@@ -19,7 +19,6 @@
  "System requirements": "시스템 요구 사항",
  "macOS 14 or later": "macOS 14 이상",
  "Apple silicon and Intel": "Apple 실리콘 및 Intel",
- "No account · No tracking · Safeguarded automation": "계정 불필요 · 추적 없음 · 안전하게 보호되는 자동화",
  "EasySweep&rsquo;s Overview: 732.92 GB free on Macintosh HD, a bar split into Cleanable, Applications, User Data and macOS, and three levels — Safe 12.5 GB, Balanced 22.13 GB, Deep 74.47 GB — above the sections each one takes from.": "EasySweep 개요: Macintosh HD의 여유 공간 732.92GB, 정리 가능, 응용 프로그램, 사용자 데이터, macOS로 나뉜 막대, 그리고 각 섹션에서 정리하는 세 가지 단계 — 안전 12.5GB, 균형 22.13GB, 완전 74.47GB.",
  "Every app&rsquo;s caches": "모든 앱의 캐시",
  "One list for every cache.": "모든 캐시를 하나의 목록으로.",
@@ -189,5 +188,6 @@
  "Terms": "이용약관",
  "Path catalogue": "경로 카탈로그",
  "&copy; 2026 TouchBits Inc. All rights reserved.": "© 2026 TouchBits Inc. All rights reserved.",
- "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "Apple Inc.와 관련이 없습니다. Xcode는 Apple Inc.의 상표입니다."
+ "Not affiliated with Apple Inc. Xcode is a trademark of Apple Inc.": "Apple Inc.와 관련이 없습니다. Xcode는 Apple Inc.의 상표입니다.",
+ "No account · No tracking · Works offline": "계정 불필요 · 추적 없음 · 오프라인에서 작동"
 }
